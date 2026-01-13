@@ -1,0 +1,60 @@
+{
+  "collected_at": "2026-01-13T23:12:32+00:00",
+  "source": "Google-News-Scraper",
+  "note": "Sample data - connect your Google-News-Scraper repo for live updates",
+  "total_stories": 8,
+  "stories": [
+    {
+      "title": "Port of Baltimore sees record container traffic despite bridge challenges",
+      "url": "https://example.com/1",
+      "source": "Baltimore Sun"
+    },
+    {
+      "title": "CSX announces Howard Street Tunnel expansion project timeline",
+      "url": "https://example.com/2",
+      "source": "Railway Age"
+    },
+    {
+      "title": "Coal exports from Curtis Bay terminal reach yearly high",
+      "url": "https://example.com/3",
+      "source": "Freight Waves"
+    },
+    {
+      "title": "Cybersecurity concerns rise for maritime infrastructure",
+      "url": "https://example.com/4",
+      "source": "Security Week"
+    },
+    {
+      "title": "New rail intermodal facility planned for Dundalk area",
+      "url": "https://example.com/5",
+      "source": "Journal of Commerce"
+    },
+    {
+      "title": "Coast Guard updates navigation restrictions near Key Bridge site",
+      "url": "https://example.com/6",
+      "source": "USCG News"
+    },
+    {
+      "title": "LNG exports surge as European demand continues",
+      "url": "https://example.com/7",
+      "source": "Reuters"
+    },
+    {
+      "title": "Amtrak NEC service improvements announced for Baltimore corridor",
+      "url": "https://example.com/8",
+      "source": "Trains Magazine"
+    }
+  ],
+  "entities": {
+    "countries": [
+      {"name": "United States", "count": 45},
+      {"name": "China", "count": 12},
+      {"name": "Germany", "count": 8}
+    ],
+    "sectors": [
+      {"name": "Maritime", "count": 28},
+      {"name": "Rail", "count": 22},
+      {"name": "Energy", "count": 15}
+    ]
+  }
+}

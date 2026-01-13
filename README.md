@@ -8,91 +8,96 @@
 
 <p align="center">
     <a href="https://arandomguyhere.github.io/Baltimore-Intel/">
-        <img src="https://img.shields.io/badge/Project-Page-success?style=for-the-badge&logo=github&logoColor=white" alt="Project Page">
+        <img src="https://img.shields.io/badge/Dashboard-LIVE-success?style=for-the-badge&logo=github&logoColor=white" alt="Dashboard">
     </a>
-    <a href="https://github.com/arandomguyhere/Baltimore-Intel/actions">
-        <img src="https://img.shields.io/github/actions/workflow/status/arandomguyhere/Baltimore-Intel/test.yml?style=for-the-badge&logo=github" alt="Build Status">
-    </a>
-    <a href="https://github.com/arandomguyhere/Baltimore-Intel">
-        <img src="https://img.shields.io/github/stars/arandomguyhere/Baltimore-Intel?style=for-the-badge&logo=github" alt="Stars">
+    <a href="https://github.com/arandomguyhere/Baltimore-Intel/actions/workflows/collect-data.yml">
+        <img src="https://img.shields.io/github/actions/workflow/status/arandomguyhere/Baltimore-Intel/collect-data.yml?style=for-the-badge&label=Data%20Collection" alt="Data Collection">
     </a>
     <a href="./LICENSE">
         <img src="https://img.shields.io/github/license/arandomguyhere/Baltimore-Intel?style=for-the-badge" alt="License">
     </a>
 </p>
 
-<p align="center">
-    Real-time monitoring of maritime, rail, and critical infrastructure with AI-powered threat detection.
-</p>
+---
+
+## Status
+
+| Data Source | Status | Update Frequency | Notes |
+|-------------|--------|------------------|-------|
+| **Amtrak Trains** | ✅ Working | Every 15 min | Via Amtraker API |
+| **News Feed** | ✅ Working | Every 15 min | Via Google-News-Scraper |
+| **Rail Map Overlay** | ✅ Working | Static | OpenRailwayMap tiles |
+| **Infrastructure** | ✅ Working | Every 15 min | Status monitoring |
+| **Commodities** | ⚠️ Simulated | Every 15 min | Real APIs need keys |
+| **AIS Vessels** | ❌ Pending | - | Requires AISstream API key |
+| **Scanner Transcripts** | ❌ Pending | - | Requires backend + ScannerTranscribe |
+
+**Live Dashboard:** https://arandomguyhere.github.io/Baltimore-Intel/
 
 ---
 
-## Overview
+## How It Works
 
-Baltimore Intel aggregates multiple intelligence sources into a unified platform for monitoring the Port of Baltimore and surrounding critical infrastructure.
-
-| Source | Type | Frequency |
-|--------|------|-----------|
-| **AISstream** | Vessel positions | Real-time WebSocket |
-| **Broadcastify** | Scanner transcripts | Real-time |
-| **Google-News-Scraper** | News + entities | 4 hours |
-| **OpenRailwayMap** | Rail network | Hourly |
-| **Amtraker** | Passenger rail | 5 min |
-| **Commodity APIs** | Coal, LNG, grain | 30 min |
+```
+┌─────────────────────────────────────────────────────────────────┐
+│           GitHub Actions (runs every 15 minutes)                 │
+│                                                                  │
+│   collect_data.py → Fetches from APIs → Writes JSON files        │
+└─────────────────────────────────────────────────────────────────┘
+                               ↓
+┌─────────────────────────────────────────────────────────────────┐
+│                    docs/data/                                    │
+│   amtrak.json │ news.json │ commodities.json │ infrastructure   │
+└─────────────────────────────────────────────────────────────────┘
+                               ↓
+┌─────────────────────────────────────────────────────────────────┐
+│              GitHub Pages Dashboard                              │
+│         Reads JSON files → Displays on map + panels              │
+└─────────────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## Architecture
+## Data Sources
 
-```
-┌────────────────────────────────────────────────────────────────┐
-│                    GitHub Pages Dashboard                       │
-│              arandomguyhere.github.io/Baltimore-Intel           │
-└────────────────────────────────────────────────────────────────┘
-                               ▲
-┌────────────────────────────────────────────────────────────────┐
-│                      baltimore_intel/                           │
-│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐            │
-│  │ AIS Tracker  │ │ Rail Monitor │ │ Scanner Feed │            │
-│  └──────────────┘ └──────────────┘ └──────────────┘            │
-│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐            │
-│  │ Commodities  │ │Infrastructure│ │  Historical  │            │
-│  └──────────────┘ └──────────────┘ └──────────────┘            │
-│                    Intelligence Hub                             │
-└────────────────────────────────────────────────────────────────┘
-                               ▲
-┌────────────────────────────────────────────────────────────────┐
-│                      Watcher Engine                             │
-│  NER Pipeline │ Notifications │ TheHive/MISP │ Trend Detection │
-└────────────────────────────────────────────────────────────────┘
-```
+### Working Now
+
+| Source | API | What It Does |
+|--------|-----|--------------|
+| **Amtraker** | `api-v3.amtraker.com` | Tracks Amtrak trains near Baltimore |
+| **Google-News-Scraper** | Your repo | Pulls news with entity extraction |
+| **OpenRailwayMap** | Tile server | Shows rail network on map |
+
+### Needs Configuration
+
+| Source | Requirement | To Enable |
+|--------|-------------|-----------|
+| **AISstream** | API key | Add `AISSTREAM_API_KEY` secret |
+| **Commodity APIs** | API keys | Add market data API keys |
+| **Scanner Transcription** | Backend | Run ScannerTranscribe + backend |
 
 ---
 
 ## Quick Start
 
-### Docker (Recommended)
+### View the Dashboard
+
+Just visit: **https://arandomguyhere.github.io/Baltimore-Intel/**
+
+Data updates automatically every 15 minutes via GitHub Actions.
+
+### Run Data Collection Locally
 
 ```bash
-git clone https://github.com/arandomguyhere/Baltimore-Intel.git
-cd Baltimore-Intel
-docker-compose -f docker-compose.full.yml up -d
+cd baltimore_intel
+pip install requests
+python collect_data.py
 ```
 
-**Services:**
-| Service | URL |
-|---------|-----|
-| Watcher UI | http://localhost:9002 |
-| Baltimore Intel API | http://localhost:8082 |
-| AIS Tracker | http://localhost:8080 |
-
-### CLI
+### Run Full Stack (Docker)
 
 ```bash
-./run.py docker   # Start all services
-./run.py api      # API only
-./run.py test     # Run tests
-./run.py check    # Check dependencies
+docker-compose -f docker-compose.full.yml up -d
 ```
 
 ---
@@ -107,101 +112,42 @@ docker-compose -f docker-compose.full.yml up -d
 | CNX Marine | Coal Export | 39.2089, -76.5847 |
 | Fairfield | Automobiles | 39.2156, -76.5678 |
 
-### Rail Corridors
+### Rail
 - **CSX** - Howard Street Tunnel (capacity bottleneck)
 - **Norfolk Southern** - Bayview Yard
 - **Amtrak NEC** - Penn Station
 
-### Scanner Feeds
-| Feed | Broadcastify ID |
-|------|-----------------|
+### Scanner Feeds (Broadcastify)
+| Feed | ID |
+|------|----|
 | Baltimore Terminal Railroad | 43356 |
 | CSX/NS Regional | 14954 |
 | Baltimore Marine | 42710 |
-| Coast Guard Sector Baltimore | 31547 |
-
-### Top Commodities
-| Export | Value | Import | Value |
-|--------|-------|--------|-------|
-| Coal | $2.86B | Automobiles | $12.7B |
-| LNG | $1.88B | Machinery | $3.2B |
-| Soybeans | $1.2B | Consumer Goods | $2.8B |
+| Coast Guard Sector | 31547 |
 
 ---
 
-## Features
+## Project Structure
 
-### Intelligence Collection
-- **Vessel Tracking** - Real-time AIS with arrival/departure detection
-- **Scanner Analysis** - NLP on Broadcastify transcripts
-- **Freight Inference** - Extract cargo types from radio traffic
-- **News Monitoring** - Entity extraction from 100+ sources
-
-### AI-Powered Analysis
-- **BERT NER** - Extract organizations, locations, threat actors
-- **FLAN-T5** - Generate breaking news summaries
-- **Trend Detection** - Identify emerging patterns
-- **Historical Analysis** - 6 months of archived data
-
-### Alerting & Integration
-- **Multi-Channel** - Slack, Email, Citadel (Matrix)
-- **TheHive** - Incident case management
-- **MISP** - Threat intelligence sharing
-- **Webhooks** - Custom integrations
-
----
-
-## API Reference
-
-### Intelligence Hub (`:8082`)
-
-```bash
-# Get recent events
-curl http://localhost:8082/api/events
-
-# Get correlations
-curl http://localhost:8082/api/correlations
-
-# Infrastructure status
-curl http://localhost:8082/api/infrastructure
-
-# Active vessels
-curl http://localhost:8082/api/vessels
 ```
-
-### Watcher Engine (`:9002`)
-
-```bash
-# Trending keywords
-curl http://localhost:9002/api/trendy_words
-
-# Recent articles
-curl http://localhost:9002/api/posts
-
-# AI summaries
-curl http://localhost:9002/api/summary
-```
-
----
-
-## Configuration
-
-### Environment Variables
-
-```bash
-# Required
-AISSTREAM_API_KEY=your_aisstream_key
-
-# Notifications
-SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
-EMAIL_HOST=smtp.example.com
-EMAIL_FROM=alerts@example.com
-
-# Threat Intel
-THEHIVE_URL=https://thehive.example.com
-THEHIVE_API_KEY=your_key
-MISP_URL=https://misp.example.com
-MISP_API_KEY=your_key
+Baltimore-Intel/
+├── docs/                      # GitHub Pages dashboard
+│   ├── index.html             # Main dashboard
+│   └── data/                  # JSON data files (auto-updated)
+│       ├── amtrak.json
+│       ├── news.json
+│       ├── commodities.json
+│       └── infrastructure.json
+├── baltimore_intel/           # Python modules
+│   ├── collect_data.py        # Data collection script
+│   ├── ais_integration.py     # AIS tracking (needs API key)
+│   ├── rail_tracking.py       # Rail monitoring
+│   ├── scanner_feeds.py       # Scanner config
+│   ├── commodities.py         # Commodity tracking
+│   └── intelligence_hub.py    # Correlation engine
+├── Watcher/                   # Watcher engine (Django)
+└── .github/workflows/
+    └── collect-data.yml       # Scheduled data collection
 ```
 
 ---
@@ -212,29 +158,23 @@ MISP_API_KEY=your_key
 |---------|-------------|
 | [Google-News-Scraper](https://github.com/arandomguyhere/Google-News-Scraper) | News aggregation with entity extraction |
 | [AIS_Tracker](https://github.com/arandomguyhere/AIS_Tracker) | Vessel tracking dashboard |
-| [Drone_news](https://github.com/arandomguyhere/Drone_news) | Aviation/drone news feed |
-| [geopolitical-threat-mapper](https://github.com/arandomguyhere/geopolitical-threat-mapper) | Threat visualization |
 | [ScannerTranscribe](https://github.com/arandomguyhere/ScannerTranscribe) | Scanner audio transcription |
+| [geopolitical-threat-mapper](https://github.com/arandomguyhere/geopolitical-threat-mapper) | Threat visualization |
 
 ---
 
-## Testing
+## Future Roadmap
 
-```bash
-cd baltimore_intel
-pytest tests/ -v --cov=. --cov-report=term-missing
-```
+- [ ] Add AISstream integration (needs API key)
+- [ ] Connect ScannerTranscribe for live transcripts
+- [ ] Real commodity price APIs
+- [ ] TheHive/MISP integration for alerting
+- [ ] Historical trend analysis
 
 ---
 
 ## Credits
 
 - **Watcher Engine** - [Thales Group CERT](https://github.com/thalesgroup-cert/Watcher)
-- **AISstream** - [aisstream.io](https://aisstream.io/)
 - **Amtraker** - [amtraker.com](https://amtraker.com/)
-
----
-
-<p align="center">
-    <sub>Built for situational awareness of the Port of Baltimore and surrounding critical infrastructure.</sub>
-</p>
+- **OpenRailwayMap** - [openrailwaymap.org](https://www.openrailwaymap.org/)

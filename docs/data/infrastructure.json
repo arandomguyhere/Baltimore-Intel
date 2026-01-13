@@ -1,0 +1,107 @@
+{
+  "collected_at": "2026-01-13T23:12:32.648060+00:00",
+  "infrastructure": {
+    "terminals": [
+      {
+        "name": "Seagirt Marine Terminal",
+        "type": "Container",
+        "status": "operational",
+        "lat": 39.2558,
+        "lng": -76.5528
+      },
+      {
+        "name": "Dundalk Marine Terminal",
+        "type": "RoRo/Breakbulk",
+        "status": "operational",
+        "lat": 39.2467,
+        "lng": -76.5256
+      },
+      {
+        "name": "CNX Marine Terminal",
+        "type": "Coal Export",
+        "status": "operational",
+        "lat": 39.2089,
+        "lng": -76.5847
+      },
+      {
+        "name": "Fairfield Auto Terminal",
+        "type": "Automobiles",
+        "status": "operational",
+        "lat": 39.2156,
+        "lng": -76.5678
+      }
+    ],
+    "rail": [
+      {
+        "name": "Howard Street Tunnel",
+        "operator": "CSX",
+        "status": "degraded",
+        "note": "Capacity bottleneck",
+        "lat": 39.2903,
+        "lng": -76.6156
+      },
+      {
+        "name": "Penn Station",
+        "operator": "Amtrak",
+        "status": "operational",
+        "lat": 39.3017,
+        "lng": -76.5917
+      },
+      {
+        "name": "Bayview Yard",
+        "operator": "Norfolk Southern",
+        "status": "operational",
+        "lat": 39.2875,
+        "lng": -76.5589
+      }
+    ],
+    "chokepoints": [
+      {
+        "name": "Fort McHenry Channel",
+        "type": "Ship Channel",
+        "status": "operational",
+        "lat": 39.215,
+        "lng": -76.5297
+      },
+      {
+        "name": "Key Bridge Area",
+        "type": "Maritime",
+        "status": "critical",
+        "note": "Bridge collapse - restricted navigation",
+        "lat": 39.1847,
+        "lng": -76.5286
+      }
+    ],
+    "scanners": [
+      {
+        "name": "Baltimore Terminal Railroad",
+        "broadcastify_id": 43356,
+        "status": "active"
+      },
+      {
+        "name": "CSX/NS Regional Rail",
+        "broadcastify_id": 14954,
+        "status": "active"
+      },
+      {
+        "name": "Baltimore Marine",
+        "broadcastify_id": 42710,
+        "status": "active"
+      },
+      {
+        "name": "Coast Guard Sector Baltimore",
+        "broadcastify_id": 31547,
+        "status": "active"
+      }
+    ]
+  },
+  "summary": {
+    "total_terminals": 4,
+    "total_rail": 3,
+    "total_chokepoints": 2,
+    "total_scanners": 4,
+    "operational": 4,
+    "degraded": 1,
+    "critical": 1
+  }
+}

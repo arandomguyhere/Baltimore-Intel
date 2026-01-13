@@ -1,0 +1,52 @@
+{
+  "last_updated": "2026-01-13T23:12:32.648604+00:00",
+  "data_files": [
+    {
+      "name": "amtrak.json",
+      "description": "Amtrak trains near Baltimore",
+      "update_frequency": "5 minutes"
+    },
+    {
+      "name": "news.json",
+      "description": "News from Google-News-Scraper",
+      "update_frequency": "4 hours"
+    },
+    {
+      "name": "commodities.json",
+      "description": "Port-relevant commodity prices",
+      "update_frequency": "30 minutes"
+    },
+    {
+      "name": "infrastructure.json",
+      "description": "Infrastructure status",
+      "update_frequency": "15 minutes"
+    }
+  ],
+  "sources": {
+    "amtrak": {
+      "api": "api-v3.amtraker.com",
+      "requires_key": false,
+      "status": "active"
+    },
+    "news": {
+      "api": "GitHub raw",
+      "requires_key": false,
+      "status": "active"
+    },
+    "commodities": {
+      "api": "various",
+      "requires_key": true,
+      "status": "simulated"
+    },
+    "ais": {
+      "api": "aisstream.io",
+      "requires_key": true,
+      "status": "pending"
+    },
+    "scanner": {
+      "api": "broadcastify",
+      "requires_key": false,
+      "status": "links_only"
+    }
+  }
+}
