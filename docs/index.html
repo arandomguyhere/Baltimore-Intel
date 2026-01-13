@@ -1053,14 +1053,60 @@
             window.open(`https://www.broadcastify.com/listen/feed/${feedId}`, '_blank');
         }
 
-        // Transcription state
+        // WebSocket connection for transcription
+        const TRANSCRIBE_WS_URL = localStorage.getItem('transcribeServer') || 'ws://localhost:8765';
+        let transcribeSocket = null;
         const transcriptionState = {};
 
-        function transcribeFeed(feedId, feedName) {
-            const btn = event.target;
+        function connectTranscribeServer() {
+            if (transcribeSocket && transcribeSocket.readyState === WebSocket.OPEN) {
+                return Promise.resolve(transcribeSocket);
+            }
+            return new Promise((resolve, reject) => {
+                try {
+                    transcribeSocket = new WebSocket(TRANSCRIBE_WS_URL);
+                    transcribeSocket.onopen = () => {
+                        console.log('Connected to transcription server');
+                        resolve(transcribeSocket);
+                    };
+                    transcribeSocket.onmessage = (event) => {
+                        handleTranscriptMessage(JSON.parse(event.data));
+                    };
+                    transcribeSocket.onclose = () => {
+                        console.log('Disconnected from transcription server');
+                        transcribeSocket = null;
+                    };
+                    transcribeSocket.onerror = (err) => reject(err);
+                    setTimeout(() => {
+                        if (transcribeSocket.readyState !== WebSocket.OPEN) reject(new Error('Timeout'));
+                    }, 5000);
+                } catch (e) { reject(e); }
+            });
+        }
 
+        function handleTranscriptMessage(data) {
+            if (data.type === 'transcript') {
+                const content = document.getElementById(`transcript-content-${data.feed_id}`);
+                if (content) {
+                    const placeholder = content.querySelector('.transcript-placeholder');
+                    if (placeholder) placeholder.remove();
+                    const note = content.querySelector('.transcript-note');
+                    if (note) note.remove();
+                    const entry = document.createElement('div');
+                    entry.className = 'transcript-entry';
+                    entry.innerHTML = `<span class="transcript-time">${new Date(data.timestamp).toLocaleTimeString()}</span> ${data.text}`;
+                    content.appendChild(entry);
+                    content.scrollTop = content.scrollHeight;
+                }
+            }
+        }
+
+        async function transcribeFeed(feedId, feedName) {
+            const btn = event.target;
             if (transcriptionState[feedId]) {
-                // Stop transcription
+                if (transcribeSocket && transcribeSocket.readyState === WebSocket.OPEN) {
+                    transcribeSocket.send(JSON.stringify({ action: 'stop', feed_id: feedId }));
+                }
                 transcriptionState[feedId] = false;
                 btn.textContent = 'Transcribe';
                 btn.style.background = '';
@@ -1068,43 +1114,53 @@
                 showTranscriptPanel(feedId, feedName, false);
                 return;
             }
-
-            // Start transcription
-            transcriptionState[feedId] = true;
-            btn.textContent = 'Stop';
-            btn.style.background = '#ef4444';
-            btn.style.color = 'white';
-
-            // Show transcript panel
-            showTranscriptPanel(feedId, feedName, true);
+            try {
+                await connectTranscribeServer();
+                transcribeSocket.send(JSON.stringify({ action: 'start', feed_id: feedId }));
+                transcriptionState[feedId] = true;
+                btn.textContent = 'Stop';
+                btn.style.background = '#ef4444';
+                btn.style.color = 'white';
+                showTranscriptPanel(feedId, feedName, true, false);
+            } catch (error) {
+                console.error('Transcription server not available:', error);
+                showTranscriptPanel(feedId, feedName, true, true);
+            }
         }
 
-        function showTranscriptPanel(feedId, feedName, show) {
-            let panel = document.getElementById(`transcript-${feedId}`);
-
-            if (!show && panel) {
-                panel.remove();
-                return;
+        function setTranscribeServer() {
+            const input = document.getElementById('ws-url-input');
+            if (input && input.value) {
+                localStorage.setItem('transcribeServer', input.value);
+                location.reload();
             }
+        }
 
+        function showTranscriptPanel(feedId, feedName, show, showSetup = false) {
+            let panel = document.getElementById(`transcript-${feedId}`);
+            if (!show && panel) { panel.remove(); return; }
             if (show && !panel) {
-                // Create transcript panel
                 panel = document.createElement('div');
                 panel.id = `transcript-${feedId}`;
                 panel.className = 'transcript-panel';
+                const setupHtml = showSetup ? `
+                    <div class="transcript-note">
+                        <strong>Backend not connected</strong><br>
+                        Start the server: <code>cd backend && python transcribe_server.py</code>
+                        <div style="margin-top:8px;">
+                            <input type="text" id="ws-url-input" value="${TRANSCRIBE_WS_URL}"
+                                style="width:70%;padding:4px;background:#1a1a2e;border:1px solid var(--border);border-radius:3px;color:white;">
+                            <button onclick="setTranscribeServer()" style="padding:4px 8px;background:var(--accent);border:none;border-radius:3px;color:white;cursor:pointer;">Connect</button>
+                        </div>
+                    </div>` : '';
                 panel.innerHTML = `
                     <div class="transcript-header">
                         <span>${feedName} - Live Transcript</span>
                         <button onclick="transcribeFeed(${feedId}, '${feedName}')" style="background:none;border:none;color:#ef4444;cursor:pointer;">X</button>
                     </div>
                     <div class="transcript-content" id="transcript-content-${feedId}">
-                        <div class="transcript-note">
-                            Transcription requires ScannerTranscribe backend.<br>
-                            <a href="https://github.com/arandomguyhere/ScannerTranscribe" target="_blank" style="color:var(--accent);">Setup Instructions</a>
-                        </div>
-                        <div class="transcript-placeholder">
-                            Waiting for audio stream...
-                        </div>
+                        ${setupHtml}
+                        <div class="transcript-placeholder">${showSetup ? '' : 'Connecting to stream...'}</div>
                     </div>
                 `;
 
@@ -1155,6 +1211,15 @@
                         .transcript-placeholder {
                             color: var(--text-muted);
                             font-style: italic;
+                        }
+                        .transcript-entry {
+                            padding: 6px 0;
+                            border-bottom: 1px solid var(--border);
+                        }
+                        .transcript-time {
+                            color: var(--accent);
+                            font-size: 10px;
+                            margin-right: 8px;
                         }
                     `;
                     document.head.appendChild(styles);
