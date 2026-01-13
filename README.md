@@ -10,8 +10,8 @@
     <a href="https://arandomguyhere.github.io/Baltimore-Intel/">
         <img src="https://img.shields.io/badge/Dashboard-LIVE-success?style=for-the-badge&logo=github&logoColor=white" alt="Dashboard">
     </a>
-    <a href="https://github.com/arandomguyhere/Baltimore-Intel/actions/workflows/collect-data.yml">
-        <img src="https://img.shields.io/github/actions/workflow/status/arandomguyhere/Baltimore-Intel/collect-data.yml?style=for-the-badge&label=Data%20Collection" alt="Data Collection">
+    <a href="https://github.com/arandomguyhere/Baltimore-Intel/actions/workflows/collect-and-deploy.yml">
+        <img src="https://img.shields.io/github/actions/workflow/status/arandomguyhere/Baltimore-Intel/collect-and-deploy.yml?style=for-the-badge&label=Data%20Collection" alt="Data Collection">
     </a>
     <a href="./LICENSE">
         <img src="https://img.shields.io/github/license/arandomguyhere/Baltimore-Intel?style=for-the-badge" alt="License">
