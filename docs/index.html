@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Baltimore Intel - Critical Infrastructure Intelligence</title>
+    <meta name="description" content="Real-time monitoring of maritime, rail, and critical infrastructure for the Port of Baltimore">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg-primary: #0a0e17;
+            --bg-secondary: #111827;
+            --bg-card: #1a2234;
+            --text-primary: #f3f4f6;
+            --text-secondary: #9ca3af;
+            --accent-blue: #3b82f6;
+            --accent-green: #10b981;
+            --accent-red: #ef4444;
+            --accent-yellow: #f59e0b;
+            --border: #374151;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg-primary);
+            color: var(--text-primary);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 80px 0;
+            text-align: center;
+            background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .hero .tagline {
+            font-size: 1.25rem;
+            color: var(--text-secondary);
+            margin-bottom: 32px;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero-buttons {
+            display: flex;
+            gap: 16px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            border-radius: 8px;
+            font-weight: 600;
+            text-decoration: none;
+            transition: all 0.2s;
+        }
+
+        .btn-primary {
+            background: var(--accent-blue);
+            color: white;
+        }
+
+        .btn-primary:hover {
+            background: #2563eb;
+            transform: translateY(-2px);
+        }
+
+        .btn-live {
+            background: var(--accent-red);
+            color: white;
+            animation: pulse 2s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
+            50% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
+        }
+
+        .btn-secondary {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border: 1px solid var(--border);
+        }
+
+        .btn-secondary:hover {
+            background: var(--bg-secondary);
+            border-color: var(--accent-blue);
+        }
+
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 24px;
+            padding: 60px 0;
+        }
+
+        .stat-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 24px;
+            text-align: center;
+        }
+
+        .stat-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            color: var(--accent-blue);
+        }
+
+        .stat-label {
+            color: var(--text-secondary);
+            font-size: 0.875rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        /* Features */
+        .features {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2rem;
+            margin-bottom: 48px;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 24px;
+        }
+
+        .feature-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 28px;
+            transition: border-color 0.2s;
+        }
+
+        .feature-card:hover {
+            border-color: var(--accent-blue);
+        }
+
+        .feature-icon {
+            width: 48px;
+            height: 48px;
+            background: var(--bg-secondary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 16px;
+            font-size: 1.5rem;
+        }
+
+        .feature-card h3 {
+            font-size: 1.125rem;
+            margin-bottom: 8px;
+        }
+
+        .feature-card p {
+            color: var(--text-secondary);
+            font-size: 0.9375rem;
+        }
+
+        /* Architecture */
+        .architecture {
+            padding: 60px 0;
+            background: var(--bg-secondary);
+        }
+
+        .arch-diagram {
+            background: var(--bg-primary);
+            border: 1px solid var(--border);
+            border-radius: 12px;
+            padding: 32px;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.875rem;
+            overflow-x: auto;
+            white-space: pre;
+            line-height: 1.4;
+        }
+
+        /* Data Sources */
+        .sources {
+            padding: 60px 0;
+        }
+
+        .source-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--bg-card);
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .source-table th,
+        .source-table td {
+            padding: 16px 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .source-table th {
+            background: var(--bg-secondary);
+            font-weight: 600;
+            color: var(--text-secondary);
+            text-transform: uppercase;
+            font-size: 0.75rem;
+            letter-spacing: 0.05em;
+        }
+
+        .source-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 4px 10px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .badge-realtime {
+            background: rgba(16, 185, 129, 0.2);
+            color: var(--accent-green);
+        }
+
+        .badge-frequent {
+            background: rgba(59, 130, 246, 0.2);
+            color: var(--accent-blue);
+        }
+
+        .badge-hourly {
+            background: rgba(245, 158, 11, 0.2);
+            color: var(--accent-yellow);
+        }
+
+        /* Footer */
+        footer {
+            padding: 40px 0;
+            border-top: 1px solid var(--border);
+            text-align: center;
+            color: var(--text-secondary);
+        }
+
+        footer a {
+            color: var(--accent-blue);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .hero-buttons {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .btn {
+                width: 100%;
+                max-width: 280px;
+                justify-content: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <div class="container">
+            <h1>Baltimore Intel</h1>
+            <p class="tagline">Critical Infrastructure Intelligence Platform for the Port of Baltimore. Real-time monitoring of maritime, rail, and infrastructure with AI-powered threat detection.</p>
+            <div class="hero-buttons">
+                <a href="https://www.situation.watch/" class="btn btn-live">
+                    <span>LIVE</span> situation.watch
+                </a>
+                <a href="https://github.com/arandomguyhere/Baltimore-Intel" class="btn btn-primary">
+                    View on GitHub
+                </a>
+                <a href="https://github.com/arandomguyhere/Baltimore-Intel#quick-start" class="btn btn-secondary">
+                    Quick Start
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-value">6</div>
+                <div class="stat-label">Data Sources</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">4</div>
+                <div class="stat-label">Port Terminals</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">3</div>
+                <div class="stat-label">Rail Corridors</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-value">24/7</div>
+                <div class="stat-label">Monitoring</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section-title">Intelligence Capabilities</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚢</div>
+                    <h3>Vessel Tracking</h3>
+                    <p>Real-time AIS data from AISstream with automatic arrival/departure detection and cargo correlation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚂</div>
+                    <h3>Rail Monitoring</h3>
+                    <p>Track Amtrak and freight movements. AI inference extracts cargo types from scanner transcripts.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📡</div>
+                    <h3>Scanner Analysis</h3>
+                    <p>NLP processing of Broadcastify feeds for Baltimore Terminal Railroad, Marine, and Coast Guard.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">📈</div>
+                    <h3>Commodity Tracking</h3>
+                    <p>Monitor port-relevant commodities: coal, LNG, grain exports and automobile imports.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔍</div>
+                    <h3>Entity Extraction</h3>
+                    <p>BERT NER pipeline extracts organizations, locations, and threat actors from all sources.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🚨</div>
+                    <h3>Multi-Channel Alerts</h3>
+                    <p>Notifications via Slack, Email, Citadel. Integration with TheHive and MISP for threat intel.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="architecture">
+        <div class="container">
+            <h2 class="section-title">Architecture</h2>
+            <div class="arch-diagram">┌────────────────────────────────────────────────────────────────┐
+│                      situation.watch                            │
+│                 Live Map • Vessels • Aircraft                   │
+└────────────────────────────────────────────────────────────────┘
+                               ▲
+┌────────────────────────────────────────────────────────────────┐
+│                      baltimore_intel/                           │
+│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐            │
+│  │ AIS Tracker  │ │ Rail Monitor │ │ Scanner Feed │            │
+│  └──────────────┘ └──────────────┘ └──────────────┘            │
+│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐            │
+│  │ Commodities  │ │Infrastructure│ │  Historical  │            │
+│  └──────────────┘ └──────────────┘ └──────────────┘            │
+│                    Intelligence Hub                             │
+└────────────────────────────────────────────────────────────────┘
+                               ▲
+┌────────────────────────────────────────────────────────────────┐
+│                      Watcher Engine                             │
+│  NER Pipeline │ Notifications │ TheHive/MISP │ Trend Detection │
+└────────────────────────────────────────────────────────────────┘</div>
+        </div>
+    </section>
+
+    <section class="sources">
+        <div class="container">
+            <h2 class="section-title">Data Sources</h2>
+            <table class="source-table">
+                <thead>
+                    <tr>
+                        <th>Source</th>
+                        <th>Data Type</th>
+                        <th>Frequency</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>AISstream</strong></td>
+                        <td>Vessel positions, arrivals, departures</td>
+                        <td><span class="badge badge-realtime">Real-time</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Broadcastify</strong></td>
+                        <td>Scanner transcripts (rail, marine, USCG)</td>
+                        <td><span class="badge badge-realtime">Real-time</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Google-News-Scraper</strong></td>
+                        <td>News articles with entity extraction</td>
+                        <td><span class="badge badge-frequent">4 hours</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Amtraker</strong></td>
+                        <td>Passenger rail positions</td>
+                        <td><span class="badge badge-frequent">5 min</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>OpenRailwayMap</strong></td>
+                        <td>Rail network infrastructure</td>
+                        <td><span class="badge badge-hourly">Hourly</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Commodity APIs</strong></td>
+                        <td>Coal, LNG, grain, auto futures</td>
+                        <td><span class="badge badge-frequent">30 min</span></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>Built with <a href="https://github.com/thalesgroup-cert/Watcher">Watcher Engine</a> by Thales Group CERT</p>
+            <p style="margin-top: 8px;">
+                <a href="https://github.com/arandomguyhere/Baltimore-Intel">GitHub</a> ·
+                <a href="https://www.situation.watch/">Live Dashboard</a> ·
+                <a href="https://github.com/arandomguyhere/Baltimore-Intel#api-reference">API Docs</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>

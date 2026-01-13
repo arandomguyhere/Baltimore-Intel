@@ -1,121 +1,232 @@
-# Baltimore Intel
+<p align="center">
+    <img alt="Baltimore Intel" src="https://img.shields.io/badge/Baltimore-Intel-0066cc?style=for-the-badge&logo=radar&logoColor=white" height="60">
+</p>
 
-**Critical Infrastructure Intelligence Platform for the Port of Baltimore**
+<p align="center">
+    <strong>Critical Infrastructure Intelligence Platform for the Port of Baltimore</strong>
+</p>
 
-Real-time monitoring of maritime, rail, and critical infrastructure with AI-powered threat detection.
+<p align="center">
+    <a href="https://www.situation.watch/">
+        <img src="https://img.shields.io/badge/Live-Dashboard-success?style=for-the-badge&logo=mapbox&logoColor=white" alt="Live Dashboard">
+    </a>
+    <a href="https://github.com/arandomguyhere/Baltimore-Intel/actions">
+        <img src="https://img.shields.io/github/actions/workflow/status/arandomguyhere/Baltimore-Intel/test.yml?style=for-the-badge&logo=github" alt="Build Status">
+    </a>
+    <a href="https://github.com/arandomguyhere/Baltimore-Intel">
+        <img src="https://img.shields.io/github/stars/arandomguyhere/Baltimore-Intel?style=for-the-badge&logo=github" alt="Stars">
+    </a>
+    <a href="./LICENSE">
+        <img src="https://img.shields.io/github/license/arandomguyhere/Baltimore-Intel?style=for-the-badge" alt="License">
+    </a>
+</p>
+
+<p align="center">
+    Real-time monitoring of maritime, rail, and critical infrastructure with AI-powered threat detection.
+</p>
+
+---
 
 ## Live Dashboard
 
-**[situation.watch](https://www.situation.watch/)** - Live situational awareness map
+<p align="center">
+    <a href="https://www.situation.watch/">
+        <img src="https://img.shields.io/badge/situation.watch-LIVE-red?style=for-the-badge&logo=satellite&logoColor=white" alt="situation.watch">
+    </a>
+</p>
 
-## Overview
+Track vessels, aircraft, and infrastructure in real-time at **[situation.watch](https://www.situation.watch/)**
 
-Baltimore Intel combines multiple intelligence sources into a unified platform:
+---
 
-| Source | Data Type | Update Frequency |
-|--------|-----------|------------------|
-| AISstream | Vessel positions, arrivals, departures | Real-time WebSocket |
-| Broadcastify | Scanner transcripts (rail, marine, coast guard) | Real-time |
-| Google-News-Scraper | News with entity extraction | Every 4 hours |
-| OpenRailwayMap | Rail network status | Hourly |
-| Amtraker API | Passenger rail movements | 5 minutes |
-| Commodity APIs | Coal, LNG, grain, auto futures | 30 minutes |
+## Data Sources
+
+| Source | Type | Frequency |
+|--------|------|-----------|
+| **AISstream** | Vessel positions | Real-time WebSocket |
+| **Broadcastify** | Scanner transcripts | Real-time |
+| **Google-News-Scraper** | News + entities | 4 hours |
+| **OpenRailwayMap** | Rail network | Hourly |
+| **Amtraker** | Passenger rail | 5 min |
+| **Commodity APIs** | Coal, LNG, grain | 30 min |
+
+---
 
 ## Architecture
 
 ```
-┌─────────────────────────────────────────────────────────────┐
-│                    situation.watch                           │
-│              (Leaflet map, live statistics)                  │
-└─────────────────────────────────────────────────────────────┘
-                              ↑
-┌─────────────────────────────────────────────────────────────┐
-│                    baltimore_intel/                          │
-│  ├── ais_integration.py      # Vessel tracking               │
-│  ├── scanner_feeds.py        # Broadcastify transcripts      │
-│  ├── rail_tracking.py        # Amtrak + freight inference    │
-│  ├── commodities.py          # Port-relevant commodities     │
-│  ├── critical_infrastructure.py  # Asset monitoring          │
-│  ├── historical_analysis.py  # 6-month trend analysis        │
-│  └── intelligence_hub.py     # Correlation engine            │
-└─────────────────────────────────────────────────────────────┘
-                              ↑
-┌─────────────────────────────────────────────────────────────┐
-│                    Watcher Engine                            │
-│  ├── NER Pipeline (BERT entity extraction)                   │
-│  ├── Notification Hub (Slack, Email, TheHive, Citadel)       │
-│  ├── Trend Detection (breaking news, weekly summaries)       │
-│  └── MISP/TheHive Integration (threat intel sharing)         │
-└─────────────────────────────────────────────────────────────┘
+┌────────────────────────────────────────────────────────────────┐
+│                      situation.watch                            │
+│                 Live Map • 425 aircraft • 191 vessels           │
+└────────────────────────────────────────────────────────────────┘
+                               ▲
+┌────────────────────────────────────────────────────────────────┐
+│                      baltimore_intel/                           │
+│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐            │
+│  │ AIS Tracker  │ │ Rail Monitor │ │ Scanner Feed │            │
+│  └──────────────┘ └──────────────┘ └──────────────┘            │
+│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐            │
+│  │ Commodities  │ │Infrastructure│ │  Historical  │            │
+│  └──────────────┘ └──────────────┘ └──────────────┘            │
+│                    Intelligence Hub                             │
+└────────────────────────────────────────────────────────────────┘
+                               ▲
+┌────────────────────────────────────────────────────────────────┐
+│                      Watcher Engine                             │
+│  NER Pipeline │ Notifications │ TheHive/MISP │ Trend Detection │
+└────────────────────────────────────────────────────────────────┘
 ```
+
+---
 
 ## Quick Start
 
 ### Docker (Recommended)
 
 ```bash
+git clone https://github.com/arandomguyhere/Baltimore-Intel.git
+cd Baltimore-Intel
 docker-compose -f docker-compose.full.yml up -d
 ```
 
-Services:
-- **Watcher UI**: http://localhost:9002
-- **Baltimore Intel API**: http://localhost:8082
-- **AIS Tracker**: http://localhost:8080
+**Services:**
+| Service | URL |
+|---------|-----|
+| Watcher UI | http://localhost:9002 |
+| Baltimore Intel API | http://localhost:8082 |
+| AIS Tracker | http://localhost:8080 |
 
-### Development
+### CLI
 
 ```bash
-# Baltimore Intel module
-cd baltimore_intel
-pip install -r requirements.txt
-python intelligence_hub.py
-
-# Watcher (Django)
-cd Watcher
-pip install -r requirements.txt
-python manage.py runserver
+./run.py docker   # Start all services
+./run.py api      # API only
+./run.py test     # Run tests
+./run.py check    # Check dependencies
 ```
 
-## Baltimore-Specific Tracking
+---
 
-### Port Terminals
-- Seagirt Marine Terminal (containers)
-- Dundalk Marine Terminal (RoRo, breakbulk)
-- CNX Marine Terminal (coal export)
-- Fairfield Auto Terminal
+## Baltimore Port Coverage
+
+### Terminals
+| Terminal | Type | Coordinates |
+|----------|------|-------------|
+| Seagirt | Containers | 39.2558, -76.5528 |
+| Dundalk | RoRo, Breakbulk | 39.2467, -76.5256 |
+| CNX Marine | Coal Export | 39.2089, -76.5847 |
+| Fairfield | Automobiles | 39.2156, -76.5678 |
 
 ### Rail Corridors
-- CSX - Howard Street Tunnel
-- Norfolk Southern - Bayview Yard
-- Amtrak NEC - Penn Station
+- **CSX** - Howard Street Tunnel (capacity bottleneck)
+- **Norfolk Southern** - Bayview Yard
+- **Amtrak NEC** - Penn Station
 
-### Commodities
-| Export | Import |
-|--------|--------|
-| Coal ($2.86B) | Automobiles ($12.7B) |
-| LNG ($1.88B) | Machinery |
-| Soybeans | Consumer goods |
-| Corn | |
+### Scanner Feeds
+| Feed | Broadcastify ID |
+|------|-----------------|
+| Baltimore Terminal Railroad | 43356 |
+| CSX/NS Regional | 14954 |
+| Baltimore Marine | 42710 |
+| Coast Guard Sector Baltimore | 31547 |
 
-### Scanner Feeds (Broadcastify)
-- Baltimore Terminal Railroad (43356)
-- CSX/NS Regional Rail (14954)
-- Baltimore Marine (42710)
-- Coast Guard Sector Baltimore (31547)
+### Top Commodities
+| Export | Value | Import | Value |
+|--------|-------|--------|-------|
+| Coal | $2.86B | Automobiles | $12.7B |
+| LNG | $1.88B | Machinery | $3.2B |
+| Soybeans | $1.2B | Consumer Goods | $2.8B |
 
-## Key Features
+---
 
-### From Watcher Engine
-- **AI Summaries**: FLAN-T5 generates breaking news summaries
-- **Entity Extraction**: BERT NER extracts organizations, locations, threat actors
-- **Multi-Channel Alerts**: Slack, Email, TheHive, Citadel (Matrix)
-- **Trend Detection**: Identifies emerging threats from frequency analysis
+## Features
 
-### Baltimore Intel Additions
-- **Vessel Correlation**: Links AIS data to commodity movements
-- **Freight Inference**: Extracts cargo types from scanner transcripts
-- **Infrastructure Monitoring**: Tracks critical chokepoints (tunnels, bridges)
-- **Historical Analysis**: 6 months of archived news for pattern detection
+### Intelligence Collection
+- **Vessel Tracking** - Real-time AIS with arrival/departure detection
+- **Scanner Analysis** - NLP on Broadcastify transcripts
+- **Freight Inference** - Extract cargo types from radio traffic
+- **News Monitoring** - Entity extraction from 100+ sources
+
+### AI-Powered Analysis
+- **BERT NER** - Extract organizations, locations, threat actors
+- **FLAN-T5** - Generate breaking news summaries
+- **Trend Detection** - Identify emerging patterns
+- **Historical Analysis** - 6 months of archived data
+
+### Alerting & Integration
+- **Multi-Channel** - Slack, Email, Citadel (Matrix)
+- **TheHive** - Incident case management
+- **MISP** - Threat intelligence sharing
+- **Webhooks** - Custom integrations
+
+---
+
+## API Reference
+
+### Intelligence Hub (`:8082`)
+
+```bash
+# Get recent events
+curl http://localhost:8082/api/events
+
+# Get correlations
+curl http://localhost:8082/api/correlations
+
+# Infrastructure status
+curl http://localhost:8082/api/infrastructure
+
+# Active vessels
+curl http://localhost:8082/api/vessels
+```
+
+### Watcher Engine (`:9002`)
+
+```bash
+# Trending keywords
+curl http://localhost:9002/api/trendy_words
+
+# Recent articles
+curl http://localhost:9002/api/posts
+
+# AI summaries
+curl http://localhost:9002/api/summary
+```
+
+---
+
+## Configuration
+
+### Environment Variables
+
+```bash
+# Required
+AISSTREAM_API_KEY=your_aisstream_key
+
+# Notifications
+SLACK_WEBHOOK_URL=https://hooks.slack.com/services/...
+EMAIL_HOST=smtp.example.com
+EMAIL_FROM=alerts@example.com
+
+# Threat Intel
+THEHIVE_URL=https://thehive.example.com
+THEHIVE_API_KEY=your_key
+MISP_URL=https://misp.example.com
+MISP_API_KEY=your_key
+```
+
+---
+
+## Related Projects
+
+| Project | Description |
+|---------|-------------|
+| [Google-News-Scraper](https://github.com/arandomguyhere/Google-News-Scraper) | News aggregation with entity extraction |
+| [AIS_Tracker](https://github.com/arandomguyhere/AIS_Tracker) | Vessel tracking dashboard |
+| [Drone_news](https://github.com/arandomguyhere/Drone_news) | Aviation/drone news feed |
+| [geopolitical-threat-mapper](https://github.com/arandomguyhere/geopolitical-threat-mapper) | Threat visualization |
+| [ScannerTranscribe](https://github.com/arandomguyhere/ScannerTranscribe) | Scanner audio transcription |
+
+---
 
 ## Testing
 
@@ -124,66 +235,23 @@ cd baltimore_intel
 pytest tests/ -v --cov=. --cov-report=term-missing
 ```
 
-## API Endpoints
+Coverage targets:
+- `historical_analysis.py` - Scraper integration
+- `intelligence_hub.py` - Correlation engine
+- `rail_tracking.py` - Amtrak + freight
+- `commodities.py` - Port commodities
+- `critical_infrastructure.py` - Asset monitoring
 
-### Intelligence Hub (port 8082)
-
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/events` | Recent intelligence events |
-| `GET /api/correlations` | Cross-source correlations |
-| `GET /api/infrastructure` | Infrastructure status |
-| `GET /api/vessels` | Active vessel tracking |
-| `POST /api/alert` | Submit manual alert |
-
-### Watcher (port 9002)
-
-| Endpoint | Description |
-|----------|-------------|
-| `GET /api/trendy_words` | Trending threat keywords |
-| `GET /api/posts` | Recent threat articles |
-| `GET /api/summary` | AI-generated summaries |
-
-## Configuration
-
-### Environment Variables
-
-```bash
-# AISstream
-AISSTREAM_API_KEY=your_key
-
-# Watcher Notifications
-SLACK_WEBHOOK_URL=https://hooks.slack.com/...
-THEHIVE_URL=https://thehive.your-org.com
-THEHIVE_API_KEY=your_key
-MISP_URL=https://misp.your-org.com
-MISP_API_KEY=your_key
-
-# Email
-EMAIL_HOST=smtp.your-org.com
-EMAIL_FROM=alerts@your-org.com
-```
-
-## Data Sources
-
-### Your Repositories
-- [Google-News-Scraper](https://github.com/arandomguyhere/Google-News-Scraper) - News with entity extraction
-- [Drone_news](https://github.com/arandomguyhere/Drone_news) - Drone/aviation news
-- [AIS_Tracker](https://github.com/arandomguyhere/AIS_Tracker) - Vessel tracking
-- [geopolitical-threat-mapper](https://github.com/arandomguyhere/geopolitical-threat-mapper) - Threat visualization
-- [ScannerTranscribe](https://github.com/arandomguyhere/ScannerTranscribe) - Scanner audio transcription
-
-### External APIs
-- [AISstream](https://aisstream.io/) - Real-time AIS data
-- [Amtraker](https://amtraker.com/) - Amtrak train positions
-- [OpenRailwayMap](https://www.openrailwaymap.org/) - Rail infrastructure
-- [TransitDocs](https://asm.transitdocs.com/) - Rail network status
+---
 
 ## Credits
 
-- **Watcher Engine**: Originally by [Thales Group CERT](https://github.com/thalesgroup-cert/Watcher)
-- **Baltimore Intel**: Custom integration layer for Port of Baltimore intelligence
+- **Watcher Engine** - [Thales Group CERT](https://github.com/thalesgroup-cert/Watcher)
+- **AISstream** - [aisstream.io](https://aisstream.io/)
+- **Amtraker** - [amtraker.com](https://amtraker.com/)
 
-## License
+---
 
-See [LICENSE](./LICENSE) for details.
+<p align="center">
+    <sub>Built for situational awareness of the Port of Baltimore and surrounding critical infrastructure.</sub>
+</p>
