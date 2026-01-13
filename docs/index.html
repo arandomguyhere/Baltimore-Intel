@@ -427,6 +427,51 @@
             border-radius: 6px;
             padding: 10px;
             margin-bottom: 6px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .scanner-item:hover {
+            background: var(--bg-secondary);
+            border-color: var(--accent);
+        }
+
+        .scanner-actions {
+            display: flex;
+            gap: 6px;
+            margin-top: 8px;
+        }
+
+        .scanner-btn {
+            flex: 1;
+            padding: 6px 10px;
+            border: none;
+            border-radius: 4px;
+            font-size: 11px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .scanner-btn.listen {
+            background: var(--accent);
+            color: white;
+        }
+
+        .scanner-btn.listen:hover {
+            background: #2563eb;
+        }
+
+        .scanner-btn.transcribe {
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
+        }
+
+        .scanner-btn.transcribe:hover {
+            background: #22c55e;
+            color: white;
+            border-color: #22c55e;
         }
 
         .scanner-header {
@@ -728,33 +773,49 @@
                     <span class="panel-title">Scanner Feeds</span>
                 </div>
                 <div class="panel-content" id="scanner-feeds">
-                    <div class="scanner-item">
+                    <div class="scanner-item" data-feed-id="43356">
                         <div class="scanner-header">
                             <span class="scanner-name">Baltimore Terminal RR</span>
                             <span class="scanner-status">LIVE</span>
                         </div>
                         <span class="scanner-id">Broadcastify #43356</span>
+                        <div class="scanner-actions">
+                            <button class="scanner-btn listen" onclick="openFeed(43356)">Listen</button>
+                            <button class="scanner-btn transcribe" onclick="transcribeFeed(43356, 'Baltimore Terminal RR')">Transcribe</button>
+                        </div>
                     </div>
-                    <div class="scanner-item">
+                    <div class="scanner-item" data-feed-id="14954">
                         <div class="scanner-header">
                             <span class="scanner-name">CSX/NS Regional</span>
                             <span class="scanner-status">LIVE</span>
                         </div>
                         <span class="scanner-id">Broadcastify #14954</span>
+                        <div class="scanner-actions">
+                            <button class="scanner-btn listen" onclick="openFeed(14954)">Listen</button>
+                            <button class="scanner-btn transcribe" onclick="transcribeFeed(14954, 'CSX/NS Regional')">Transcribe</button>
+                        </div>
                     </div>
-                    <div class="scanner-item">
+                    <div class="scanner-item" data-feed-id="42710">
                         <div class="scanner-header">
                             <span class="scanner-name">Baltimore Marine</span>
                             <span class="scanner-status">LIVE</span>
                         </div>
                         <span class="scanner-id">Broadcastify #42710</span>
+                        <div class="scanner-actions">
+                            <button class="scanner-btn listen" onclick="openFeed(42710)">Listen</button>
+                            <button class="scanner-btn transcribe" onclick="transcribeFeed(42710, 'Baltimore Marine')">Transcribe</button>
+                        </div>
                     </div>
-                    <div class="scanner-item">
+                    <div class="scanner-item" data-feed-id="31547">
                         <div class="scanner-header">
                             <span class="scanner-name">Coast Guard Sector</span>
                             <span class="scanner-status">LIVE</span>
                         </div>
                         <span class="scanner-id">Broadcastify #31547</span>
+                        <div class="scanner-actions">
+                            <button class="scanner-btn listen" onclick="openFeed(31547)">Listen</button>
+                            <button class="scanner-btn transcribe" onclick="transcribeFeed(31547, 'Coast Guard Sector')">Transcribe</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -984,6 +1045,122 @@
 
             } catch (error) {
                 console.error('Failed to load commodities:', error);
+            }
+        }
+
+        // Scanner feed functions
+        function openFeed(feedId) {
+            window.open(`https://www.broadcastify.com/listen/feed/${feedId}`, '_blank');
+        }
+
+        // Transcription state
+        const transcriptionState = {};
+
+        function transcribeFeed(feedId, feedName) {
+            const btn = event.target;
+
+            if (transcriptionState[feedId]) {
+                // Stop transcription
+                transcriptionState[feedId] = false;
+                btn.textContent = 'Transcribe';
+                btn.style.background = '';
+                btn.style.color = '';
+                showTranscriptPanel(feedId, feedName, false);
+                return;
+            }
+
+            // Start transcription
+            transcriptionState[feedId] = true;
+            btn.textContent = 'Stop';
+            btn.style.background = '#ef4444';
+            btn.style.color = 'white';
+
+            // Show transcript panel
+            showTranscriptPanel(feedId, feedName, true);
+        }
+
+        function showTranscriptPanel(feedId, feedName, show) {
+            let panel = document.getElementById(`transcript-${feedId}`);
+
+            if (!show && panel) {
+                panel.remove();
+                return;
+            }
+
+            if (show && !panel) {
+                // Create transcript panel
+                panel = document.createElement('div');
+                panel.id = `transcript-${feedId}`;
+                panel.className = 'transcript-panel';
+                panel.innerHTML = `
+                    <div class="transcript-header">
+                        <span>${feedName} - Live Transcript</span>
+                        <button onclick="transcribeFeed(${feedId}, '${feedName}')" style="background:none;border:none;color:#ef4444;cursor:pointer;">X</button>
+                    </div>
+                    <div class="transcript-content" id="transcript-content-${feedId}">
+                        <div class="transcript-note">
+                            Transcription requires ScannerTranscribe backend.<br>
+                            <a href="https://github.com/arandomguyhere/ScannerTranscribe" target="_blank" style="color:var(--accent);">Setup Instructions</a>
+                        </div>
+                        <div class="transcript-placeholder">
+                            Waiting for audio stream...
+                        </div>
+                    </div>
+                `;
+
+                // Add styles if not present
+                if (!document.getElementById('transcript-styles')) {
+                    const styles = document.createElement('style');
+                    styles.id = 'transcript-styles';
+                    styles.textContent = `
+                        .transcript-panel {
+                            position: fixed;
+                            bottom: 20px;
+                            right: 20px;
+                            width: 350px;
+                            max-height: 300px;
+                            background: var(--bg-card);
+                            border: 1px solid var(--border);
+                            border-radius: 8px;
+                            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+                            z-index: 1000;
+                            overflow: hidden;
+                        }
+                        .transcript-header {
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            padding: 10px 12px;
+                            background: var(--bg-secondary);
+                            border-bottom: 1px solid var(--border);
+                            font-weight: 500;
+                            font-size: 12px;
+                        }
+                        .transcript-content {
+                            padding: 12px;
+                            max-height: 230px;
+                            overflow-y: auto;
+                            font-size: 12px;
+                            line-height: 1.5;
+                        }
+                        .transcript-note {
+                            background: rgba(59, 130, 246, 0.1);
+                            border: 1px solid rgba(59, 130, 246, 0.3);
+                            border-radius: 4px;
+                            padding: 10px;
+                            margin-bottom: 10px;
+                            font-size: 11px;
+                            color: var(--text-secondary);
+                        }
+                        .transcript-placeholder {
+                            color: var(--text-muted);
+                            font-style: italic;
+                        }
+                    `;
+                    document.head.appendChild(styles);
+                }
+
+                document.body.appendChild(panel);
             }
         }
 
