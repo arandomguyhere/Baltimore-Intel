@@ -1,60 +1,153 @@
 {
-  "collected_at": "2026-01-13T23:12:32+00:00",
+  "collected_at": "2026-01-13T23:31:47.985053+00:00",
   "source": "Google-News-Scraper",
-  "note": "Sample data - connect your Google-News-Scraper repo for live updates",
-  "total_stories": 8,
+  "total_stories": 47,
   "stories": [
     {
-      "title": "Port of Baltimore sees record container traffic despite bridge challenges",
-      "url": "https://example.com/1",
-      "source": "Baltimore Sun"
+      "title": "Microsoft Patch Tuesday addresses 112 defects, including one actively exploited zero-day",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.512
     },
     {
-      "title": "CSX announces Howard Street Tunnel expansion project timeline",
-      "url": "https://example.com/2",
-      "source": "Railway Age"
+      "title": "Microsoft's Patch Tuesday Starts 2026 With a Bang \u2014 & a Zero-Day",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.512
     },
     {
-      "title": "Coal exports from Curtis Bay terminal reach yearly high",
-      "url": "https://example.com/3",
-      "source": "Freight Waves"
+      "title": "Microsoft Patch Tuesday January 2026: Actively Exploited Zero Day, 8 High-Risk Flaws",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.512
     },
     {
-      "title": "Cybersecurity concerns rise for maritime infrastructure",
-      "url": "https://example.com/4",
-      "source": "Security Week"
+      "title": "China limits Nvidia chip purchases to special circumstances, Information reports",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.504
     },
     {
-      "title": "New rail intermodal facility planned for Dundalk area",
-      "url": "https://example.com/5",
-      "source": "Journal of Commerce"
+      "title": "China AI, chip companies raise billions in Hong Kong amid tech rivalry",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.504
     },
     {
-      "title": "Coast Guard updates navigation restrictions near Key Bridge site",
-      "url": "https://example.com/6",
-      "source": "USCG News"
+      "title": "Why the US attacked Venezuela: Oil, sanctions and Maduro",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.501
     },
     {
-      "title": "LNG exports surge as European demand continues",
-      "url": "https://example.com/7",
-      "source": "Reuters"
+      "title": "How US sanctions crippled lives of Iranians Trump says he wants to \u2018help\u2019",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.501
     },
     {
-      "title": "Amtrak NEC service improvements announced for Baltimore corridor",
-      "url": "https://example.com/8",
-      "source": "Trains Magazine"
+      "title": "Trump\u2019s \u2018Tariff on States Trading With Iran\u2019 Could Kill China Truce",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.49
+    },
+    {
+      "title": "Trump announces 25% tariff on Iran's trading partners",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.49
+    },
+    {
+      "title": "Will Trump risk a clash with China over Iran tariff?",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.49
+    },
+    {
+      "title": "Android Banking Malware \u2018DeVixor\u2019 Includes Ransomware",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.489
+    },
+    {
+      "title": "Android Banking Malware deVixor Actively Targeting Users with Ransomware Capabilities",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.489
+    },
+    {
+      "title": "Android Users Targeted by deVixor Banking Malware with Ransomware Capabilities.",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.489
+    },
+    {
+      "title": "What\u2019s happening in Iran? Trump threatens military action, thousands feared dead",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.482
+    },
+    {
+      "title": "Sen. Graham urges Trump to unleash \u2018holy hell\u2019 on Iran through military, cyber attacks",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.482
+    },
+    {
+      "title": "Graham suggests Trump \u2018help\u2019 Iran protesters with \u2018military, cyber and psychological attacks\u2019 against regime",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.482
+    },
+    {
+      "title": "Israel eyes privatization of defense giants IAI and Rafael via public share sale",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.478
+    },
+    {
+      "title": "Germany seeks to learn from Israel, build 'cyberdome' as countries deepen defense cooperation",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.478
+    },
+    {
+      "title": "Israel Signs Security Pact With Germany, Cites Iran Threat",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.478
+    },
+    {
+      "title": "Can EU exert more pressure on Iran with sanctions?",
+      "url": null,
+      "source": "More",
+      "cluster_confidence": 0.472
     }
   ],
   "entities": {
-    "countries": [
-      {"name": "United States", "count": 45},
-      {"name": "China", "count": 12},
-      {"name": "Germany", "count": 8}
-    ],
-    "sectors": [
-      {"name": "Maritime", "count": 28},
-      {"name": "Rail", "count": 22},
-      {"name": "Energy", "count": 15}
-    ]
+    "countries": [],
+    "sectors": [],
+    "threat_actors": []
+  },
+  "summary": {
+    "total_stories": 580,
+    "unique_stories": 577,
+    "syndicated_stories": 3,
+    "echo_ratio": 0.005,
+    "story_clusters": 545,
+    "high_confidence_clusters": 3,
+    "top_themes": {
+      "China Cyber": 12,
+      "Critical Infrastructure": 12,
+      "Ars Technica Fresh": 8,
+      "NYT Fresh": 8,
+      "Deutsche Welle Fresh": 8,
+      "The Hacker News": 8,
+      "GBHackers": 8,
+      "WSJ Fresh": 7,
+      "Reuters Fresh": 7,
+      "Bloomberg Fresh": 7
+    },
+    "connection_points": 59
   }
 }
