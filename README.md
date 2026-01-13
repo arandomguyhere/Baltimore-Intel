@@ -7,8 +7,8 @@
 </p>
 
 <p align="center">
-    <a href="https://www.situation.watch/">
-        <img src="https://img.shields.io/badge/Live-Dashboard-success?style=for-the-badge&logo=mapbox&logoColor=white" alt="Live Dashboard">
+    <a href="https://arandomguyhere.github.io/Baltimore-Intel/">
+        <img src="https://img.shields.io/badge/Project-Page-success?style=for-the-badge&logo=github&logoColor=white" alt="Project Page">
     </a>
     <a href="https://github.com/arandomguyhere/Baltimore-Intel/actions">
         <img src="https://img.shields.io/github/actions/workflow/status/arandomguyhere/Baltimore-Intel/test.yml?style=for-the-badge&logo=github" alt="Build Status">
@@ -27,19 +27,9 @@
 
 ---
 
-## Live Dashboard
+## Overview
 
-<p align="center">
-    <a href="https://www.situation.watch/">
-        <img src="https://img.shields.io/badge/situation.watch-LIVE-red?style=for-the-badge&logo=satellite&logoColor=white" alt="situation.watch">
-    </a>
-</p>
-
-Track vessels, aircraft, and infrastructure in real-time at **[situation.watch](https://www.situation.watch/)**
-
----
-
-## Data Sources
+Baltimore Intel aggregates multiple intelligence sources into a unified platform for monitoring the Port of Baltimore and surrounding critical infrastructure.
 
 | Source | Type | Frequency |
 |--------|------|-----------|
@@ -56,8 +46,8 @@ Track vessels, aircraft, and infrastructure in real-time at **[situation.watch](
 
 ```
 ┌────────────────────────────────────────────────────────────────┐
-│                      situation.watch                            │
-│                 Live Map • 425 aircraft • 191 vessels           │
+│                    GitHub Pages Dashboard                       │
+│              arandomguyhere.github.io/Baltimore-Intel           │
 └────────────────────────────────────────────────────────────────┘
                                ▲
 ┌────────────────────────────────────────────────────────────────┐
@@ -234,13 +224,6 @@ MISP_API_KEY=your_key
 cd baltimore_intel
 pytest tests/ -v --cov=. --cov-report=term-missing
 ```
-
-Coverage targets:
-- `historical_analysis.py` - Scraper integration
-- `intelligence_hub.py` - Correlation engine
-- `rail_tracking.py` - Amtrak + freight
-- `commodities.py` - Port commodities
-- `critical_infrastructure.py` - Asset monitoring
 
 ---
 

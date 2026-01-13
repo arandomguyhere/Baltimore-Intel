@@ -5,9 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Baltimore Intel - Critical Infrastructure Intelligence</title>
     <meta name="description" content="Real-time monitoring of maritime, rail, and critical infrastructure for the Port of Baltimore">
+
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+
     <style>
         :root {
             --bg-primary: #0a0e17;
@@ -19,6 +25,7 @@
             --accent-green: #10b981;
             --accent-red: #ef4444;
             --accent-yellow: #f59e0b;
+            --accent-purple: #8b5cf6;
             --border: #374151;
         }
 
@@ -33,441 +40,559 @@
             background: var(--bg-primary);
             color: var(--text-primary);
             line-height: 1.6;
+            min-height: 100vh;
         }
 
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 24px;
-        }
-
-        /* Hero */
-        .hero {
-            padding: 80px 0;
-            text-align: center;
-            background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+        /* Header */
+        header {
+            background: var(--bg-secondary);
             border-bottom: 1px solid var(--border);
+            padding: 16px 24px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
         }
 
-        .hero h1 {
-            font-size: 3.5rem;
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
             font-weight: 700;
-            margin-bottom: 16px;
-            background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            background-clip: text;
-        }
-
-        .hero .tagline {
             font-size: 1.25rem;
-            color: var(--text-secondary);
-            margin-bottom: 32px;
-            max-width: 600px;
-            margin-left: auto;
-            margin-right: auto;
         }
 
-        .hero-buttons {
+        .logo-icon {
+            width: 36px;
+            height: 36px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.25rem;
+        }
+
+        .header-links {
             display: flex;
             gap: 16px;
-            justify-content: center;
-            flex-wrap: wrap;
         }
 
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            padding: 14px 28px;
-            border-radius: 8px;
-            font-weight: 600;
+        .header-links a {
+            color: var(--text-secondary);
             text-decoration: none;
+            font-size: 0.875rem;
+            padding: 8px 16px;
+            border-radius: 6px;
             transition: all 0.2s;
         }
 
-        .btn-primary {
+        .header-links a:hover {
+            color: var(--text-primary);
+            background: var(--bg-card);
+        }
+
+        .header-links a.primary {
             background: var(--accent-blue);
             color: white;
         }
 
-        .btn-primary:hover {
+        .header-links a.primary:hover {
             background: #2563eb;
-            transform: translateY(-2px);
         }
 
-        .btn-live {
-            background: var(--accent-red);
-            color: white;
-            animation: pulse 2s infinite;
-        }
-
-        @keyframes pulse {
-            0%, 100% { box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.4); }
-            50% { box-shadow: 0 0 0 10px rgba(239, 68, 68, 0); }
-        }
-
-        .btn-secondary {
-            background: var(--bg-card);
-            color: var(--text-primary);
-            border: 1px solid var(--border);
-        }
-
-        .btn-secondary:hover {
-            background: var(--bg-secondary);
-            border-color: var(--accent-blue);
-        }
-
-        /* Stats */
-        .stats {
+        /* Main Layout */
+        .main-container {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 24px;
-            padding: 60px 0;
+            grid-template-columns: 320px 1fr;
+            margin-top: 68px;
+            height: calc(100vh - 68px);
+        }
+
+        /* Sidebar */
+        .sidebar {
+            background: var(--bg-secondary);
+            border-right: 1px solid var(--border);
+            overflow-y: auto;
+            padding: 20px;
+        }
+
+        .sidebar h2 {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+            margin-top: 20px;
+        }
+
+        .sidebar h2:first-child {
+            margin-top: 0;
+        }
+
+        /* Stats Grid */
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 20px;
         }
 
         .stat-card {
             background: var(--bg-card);
             border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 24px;
+            border-radius: 8px;
+            padding: 16px;
             text-align: center;
         }
 
         .stat-value {
-            font-size: 2.5rem;
+            font-size: 1.75rem;
             font-weight: 700;
             color: var(--accent-blue);
         }
 
+        .stat-value.green { color: var(--accent-green); }
+        .stat-value.yellow { color: var(--accent-yellow); }
+        .stat-value.red { color: var(--accent-red); }
+
         .stat-label {
+            font-size: 0.75rem;
             color: var(--text-secondary);
-            font-size: 0.875rem;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
         }
 
-        /* Features */
-        .features {
-            padding: 60px 0;
+        /* Asset List */
+        .asset-list {
+            list-style: none;
         }
 
-        .section-title {
-            text-align: center;
-            font-size: 2rem;
-            margin-bottom: 48px;
-        }
-
-        .feature-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 24px;
-        }
-
-        .feature-card {
+        .asset-item {
             background: var(--bg-card);
             border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 28px;
-            transition: border-color 0.2s;
+            border-radius: 8px;
+            padding: 12px;
+            margin-bottom: 8px;
+            cursor: pointer;
+            transition: all 0.2s;
         }
 
-        .feature-card:hover {
+        .asset-item:hover {
             border-color: var(--accent-blue);
         }
 
-        .feature-icon {
-            width: 48px;
-            height: 48px;
-            background: var(--bg-secondary);
-            border-radius: 10px;
+        .asset-item.active {
+            border-color: var(--accent-blue);
+            background: rgba(59, 130, 246, 0.1);
+        }
+
+        .asset-header {
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            justify-content: center;
-            margin-bottom: 16px;
-            font-size: 1.5rem;
+            margin-bottom: 4px;
         }
 
-        .feature-card h3 {
-            font-size: 1.125rem;
-            margin-bottom: 8px;
-        }
-
-        .feature-card p {
-            color: var(--text-secondary);
+        .asset-name {
+            font-weight: 600;
             font-size: 0.9375rem;
         }
 
-        /* Architecture */
-        .architecture {
-            padding: 60px 0;
-            background: var(--bg-secondary);
+        .asset-status {
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: var(--accent-green);
         }
 
-        .arch-diagram {
-            background: var(--bg-primary);
-            border: 1px solid var(--border);
-            border-radius: 12px;
-            padding: 32px;
-            font-family: 'JetBrains Mono', monospace;
-            font-size: 0.875rem;
-            overflow-x: auto;
-            white-space: pre;
-            line-height: 1.4;
+        .asset-status.warning { background: var(--accent-yellow); }
+        .asset-status.critical { background: var(--accent-red); }
+
+        .asset-type {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
         }
 
-        /* Data Sources */
-        .sources {
-            padding: 60px 0;
+        /* Map Container */
+        .map-container {
+            position: relative;
         }
 
-        .source-table {
+        #map {
             width: 100%;
-            border-collapse: collapse;
+            height: 100%;
+            background: var(--bg-primary);
+        }
+
+        /* Map Legend */
+        .map-legend {
+            position: absolute;
+            bottom: 24px;
+            right: 24px;
             background: var(--bg-card);
-            border-radius: 12px;
-            overflow: hidden;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 16px;
+            z-index: 500;
         }
 
-        .source-table th,
-        .source-table td {
-            padding: 16px 20px;
-            text-align: left;
-            border-bottom: 1px solid var(--border);
-        }
-
-        .source-table th {
-            background: var(--bg-secondary);
-            font-weight: 600;
-            color: var(--text-secondary);
+        .legend-title {
+            font-size: 0.75rem;
             text-transform: uppercase;
-            font-size: 0.75rem;
-            letter-spacing: 0.05em;
-        }
-
-        .source-table tr:last-child td {
-            border-bottom: none;
-        }
-
-        .badge {
-            display: inline-block;
-            padding: 4px 10px;
-            border-radius: 20px;
-            font-size: 0.75rem;
-            font-weight: 600;
-        }
-
-        .badge-realtime {
-            background: rgba(16, 185, 129, 0.2);
-            color: var(--accent-green);
-        }
-
-        .badge-frequent {
-            background: rgba(59, 130, 246, 0.2);
-            color: var(--accent-blue);
-        }
-
-        .badge-hourly {
-            background: rgba(245, 158, 11, 0.2);
-            color: var(--accent-yellow);
-        }
-
-        /* Footer */
-        footer {
-            padding: 40px 0;
-            border-top: 1px solid var(--border);
-            text-align: center;
             color: var(--text-secondary);
+            margin-bottom: 12px;
         }
 
-        footer a {
-            color: var(--accent-blue);
-            text-decoration: none;
+        .legend-item {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            margin-bottom: 8px;
+            font-size: 0.875rem;
         }
 
-        footer a:hover {
-            text-decoration: underline;
+        .legend-icon {
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+        }
+
+        .legend-icon.terminal { background: var(--accent-blue); }
+        .legend-icon.rail { background: var(--accent-purple); }
+        .legend-icon.chokepoint { background: var(--accent-red); }
+
+        /* Info Panel */
+        .info-panel {
+            position: absolute;
+            top: 24px;
+            left: 24px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 20px;
+            max-width: 300px;
+            z-index: 500;
+        }
+
+        .info-panel h3 {
+            font-size: 1rem;
+            margin-bottom: 8px;
+        }
+
+        .info-panel p {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            margin-bottom: 12px;
+        }
+
+        .info-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 6px;
+        }
+
+        .tag {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+        }
+
+        /* Leaflet Customization */
+        .leaflet-container {
+            background: var(--bg-primary);
+        }
+
+        .custom-marker {
+            background: var(--accent-blue);
+            border: 2px solid white;
+            border-radius: 50%;
+            width: 16px;
+            height: 16px;
+        }
+
+        .leaflet-popup-content-wrapper {
+            background: var(--bg-card);
+            color: var(--text-primary);
+            border-radius: 8px;
+        }
+
+        .leaflet-popup-tip {
+            background: var(--bg-card);
+        }
+
+        .leaflet-popup-content {
+            margin: 12px 16px;
+        }
+
+        .popup-title {
+            font-weight: 600;
+            margin-bottom: 4px;
+        }
+
+        .popup-type {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
         }
 
         /* Responsive */
         @media (max-width: 768px) {
-            .hero h1 {
-                font-size: 2.5rem;
+            .main-container {
+                grid-template-columns: 1fr;
             }
 
-            .hero-buttons {
-                flex-direction: column;
-                align-items: center;
+            .sidebar {
+                display: none;
             }
 
-            .btn {
-                width: 100%;
-                max-width: 280px;
-                justify-content: center;
+            .header-links span {
+                display: none;
             }
         }
     </style>
 </head>
 <body>
-    <section class="hero">
-        <div class="container">
-            <h1>Baltimore Intel</h1>
-            <p class="tagline">Critical Infrastructure Intelligence Platform for the Port of Baltimore. Real-time monitoring of maritime, rail, and infrastructure with AI-powered threat detection.</p>
-            <div class="hero-buttons">
-                <a href="https://www.situation.watch/" class="btn btn-live">
-                    <span>LIVE</span> situation.watch
-                </a>
-                <a href="https://github.com/arandomguyhere/Baltimore-Intel" class="btn btn-primary">
-                    View on GitHub
-                </a>
-                <a href="https://github.com/arandomguyhere/Baltimore-Intel#quick-start" class="btn btn-secondary">
-                    Quick Start
-                </a>
-            </div>
+    <header>
+        <div class="logo">
+            <div class="logo-icon">B</div>
+            <span>Baltimore Intel</span>
         </div>
-    </section>
+        <div class="header-links">
+            <a href="https://github.com/arandomguyhere/Baltimore-Intel">GitHub</a>
+            <a href="https://github.com/arandomguyhere/Baltimore-Intel#api-reference">API Docs</a>
+            <a href="https://github.com/arandomguyhere/Baltimore-Intel" class="primary">Get Started</a>
+        </div>
+    </header>
 
-    <section class="container">
-        <div class="stats">
-            <div class="stat-card">
-                <div class="stat-value">6</div>
-                <div class="stat-label">Data Sources</div>
+    <div class="main-container">
+        <aside class="sidebar">
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <div class="stat-value">4</div>
+                    <div class="stat-label">Terminals</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value green">3</div>
+                    <div class="stat-label">Rail Lines</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value yellow">6</div>
+                    <div class="stat-label">Data Sources</div>
+                </div>
+                <div class="stat-card">
+                    <div class="stat-value">24/7</div>
+                    <div class="stat-label">Monitoring</div>
+                </div>
             </div>
-            <div class="stat-card">
-                <div class="stat-value">4</div>
-                <div class="stat-label">Port Terminals</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">3</div>
-                <div class="stat-label">Rail Corridors</div>
-            </div>
-            <div class="stat-card">
-                <div class="stat-value">24/7</div>
-                <div class="stat-label">Monitoring</div>
-            </div>
-        </div>
-    </section>
 
-    <section class="features">
-        <div class="container">
-            <h2 class="section-title">Intelligence Capabilities</h2>
-            <div class="feature-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">🚢</div>
-                    <h3>Vessel Tracking</h3>
-                    <p>Real-time AIS data from AISstream with automatic arrival/departure detection and cargo correlation.</p>
+            <h2>Port Terminals</h2>
+            <ul class="asset-list">
+                <li class="asset-item" data-lat="39.2558" data-lng="-76.5528">
+                    <div class="asset-header">
+                        <span class="asset-name">Seagirt Marine Terminal</span>
+                        <span class="asset-status"></span>
+                    </div>
+                    <span class="asset-type">Container Terminal</span>
+                </li>
+                <li class="asset-item" data-lat="39.2467" data-lng="-76.5256">
+                    <div class="asset-header">
+                        <span class="asset-name">Dundalk Marine Terminal</span>
+                        <span class="asset-status"></span>
+                    </div>
+                    <span class="asset-type">RoRo / Breakbulk</span>
+                </li>
+                <li class="asset-item" data-lat="39.2089" data-lng="-76.5847">
+                    <div class="asset-header">
+                        <span class="asset-name">CNX Marine Terminal</span>
+                        <span class="asset-status"></span>
+                    </div>
+                    <span class="asset-type">Coal Export</span>
+                </li>
+                <li class="asset-item" data-lat="39.2156" data-lng="-76.5678">
+                    <div class="asset-header">
+                        <span class="asset-name">Fairfield Auto Terminal</span>
+                        <span class="asset-status"></span>
+                    </div>
+                    <span class="asset-type">Automobile Import</span>
+                </li>
+            </ul>
+
+            <h2>Rail Infrastructure</h2>
+            <ul class="asset-list">
+                <li class="asset-item" data-lat="39.2903" data-lng="-76.6156">
+                    <div class="asset-header">
+                        <span class="asset-name">Howard Street Tunnel</span>
+                        <span class="asset-status warning"></span>
+                    </div>
+                    <span class="asset-type">CSX - Capacity Bottleneck</span>
+                </li>
+                <li class="asset-item" data-lat="39.3017" data-lng="-76.5917">
+                    <div class="asset-header">
+                        <span class="asset-name">Penn Station</span>
+                        <span class="asset-status"></span>
+                    </div>
+                    <span class="asset-type">Amtrak NEC</span>
+                </li>
+                <li class="asset-item" data-lat="39.2875" data-lng="-76.5589">
+                    <div class="asset-header">
+                        <span class="asset-name">Bayview Yard</span>
+                        <span class="asset-status"></span>
+                    </div>
+                    <span class="asset-type">Norfolk Southern</span>
+                </li>
+            </ul>
+
+            <h2>Maritime Chokepoints</h2>
+            <ul class="asset-list">
+                <li class="asset-item" data-lat="39.2150" data-lng="-76.5297">
+                    <div class="asset-header">
+                        <span class="asset-name">Fort McHenry Channel</span>
+                        <span class="asset-status"></span>
+                    </div>
+                    <span class="asset-type">Main Ship Channel</span>
+                </li>
+                <li class="asset-item" data-lat="39.1847" data-lng="-76.5286">
+                    <div class="asset-header">
+                        <span class="asset-name">Key Bridge Area</span>
+                        <span class="asset-status critical"></span>
+                    </div>
+                    <span class="asset-type">Bridge Collapse Site</span>
+                </li>
+            </ul>
+        </aside>
+
+        <div class="map-container">
+            <div id="map"></div>
+
+            <div class="info-panel">
+                <h3>Port of Baltimore</h3>
+                <p>Real-time monitoring of maritime, rail, and critical infrastructure with AI-powered threat detection.</p>
+                <div class="info-tags">
+                    <span class="tag">AIS Tracking</span>
+                    <span class="tag">Rail Monitor</span>
+                    <span class="tag">Scanner Feeds</span>
+                    <span class="tag">News Intel</span>
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🚂</div>
-                    <h3>Rail Monitoring</h3>
-                    <p>Track Amtrak and freight movements. AI inference extracts cargo types from scanner transcripts.</p>
+            </div>
+
+            <div class="map-legend">
+                <div class="legend-title">Legend</div>
+                <div class="legend-item">
+                    <span class="legend-icon terminal"></span>
+                    Port Terminal
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📡</div>
-                    <h3>Scanner Analysis</h3>
-                    <p>NLP processing of Broadcastify feeds for Baltimore Terminal Railroad, Marine, and Coast Guard.</p>
+                <div class="legend-item">
+                    <span class="legend-icon rail"></span>
+                    Rail Infrastructure
                 </div>
-                <div class="feature-card">
-                    <div class="feature-icon">📈</div>
-                    <h3>Commodity Tracking</h3>
-                    <p>Monitor port-relevant commodities: coal, LNG, grain exports and automobile imports.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🔍</div>
-                    <h3>Entity Extraction</h3>
-                    <p>BERT NER pipeline extracts organizations, locations, and threat actors from all sources.</p>
-                </div>
-                <div class="feature-card">
-                    <div class="feature-icon">🚨</div>
-                    <h3>Multi-Channel Alerts</h3>
-                    <p>Notifications via Slack, Email, Citadel. Integration with TheHive and MISP for threat intel.</p>
+                <div class="legend-item">
+                    <span class="legend-icon chokepoint"></span>
+                    Critical Chokepoint
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
-    <section class="architecture">
-        <div class="container">
-            <h2 class="section-title">Architecture</h2>
-            <div class="arch-diagram">┌────────────────────────────────────────────────────────────────┐
-│                      situation.watch                            │
-│                 Live Map • Vessels • Aircraft                   │
-└────────────────────────────────────────────────────────────────┘
-                               ▲
-┌────────────────────────────────────────────────────────────────┐
-│                      baltimore_intel/                           │
-│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐            │
-│  │ AIS Tracker  │ │ Rail Monitor │ │ Scanner Feed │            │
-│  └──────────────┘ └──────────────┘ └──────────────┘            │
-│  ┌──────────────┐ ┌──────────────┐ ┌──────────────┐            │
-│  │ Commodities  │ │Infrastructure│ │  Historical  │            │
-│  └──────────────┘ └──────────────┘ └──────────────┘            │
-│                    Intelligence Hub                             │
-└────────────────────────────────────────────────────────────────┘
-                               ▲
-┌────────────────────────────────────────────────────────────────┐
-│                      Watcher Engine                             │
-│  NER Pipeline │ Notifications │ TheHive/MISP │ Trend Detection │
-└────────────────────────────────────────────────────────────────┘</div>
-        </div>
-    </section>
+    <!-- Leaflet JS -->
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
-    <section class="sources">
-        <div class="container">
-            <h2 class="section-title">Data Sources</h2>
-            <table class="source-table">
-                <thead>
-                    <tr>
-                        <th>Source</th>
-                        <th>Data Type</th>
-                        <th>Frequency</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><strong>AISstream</strong></td>
-                        <td>Vessel positions, arrivals, departures</td>
-                        <td><span class="badge badge-realtime">Real-time</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Broadcastify</strong></td>
-                        <td>Scanner transcripts (rail, marine, USCG)</td>
-                        <td><span class="badge badge-realtime">Real-time</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Google-News-Scraper</strong></td>
-                        <td>News articles with entity extraction</td>
-                        <td><span class="badge badge-frequent">4 hours</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Amtraker</strong></td>
-                        <td>Passenger rail positions</td>
-                        <td><span class="badge badge-frequent">5 min</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>OpenRailwayMap</strong></td>
-                        <td>Rail network infrastructure</td>
-                        <td><span class="badge badge-hourly">Hourly</span></td>
-                    </tr>
-                    <tr>
-                        <td><strong>Commodity APIs</strong></td>
-                        <td>Coal, LNG, grain, auto futures</td>
-                        <td><span class="badge badge-frequent">30 min</span></td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
-    </section>
+    <script>
+        // Initialize map centered on Baltimore Harbor
+        const map = L.map('map', {
+            zoomControl: false
+        }).setView([39.25, -76.55], 12);
 
-    <footer>
-        <div class="container">
-            <p>Built with <a href="https://github.com/thalesgroup-cert/Watcher">Watcher Engine</a> by Thales Group CERT</p>
-            <p style="margin-top: 8px;">
-                <a href="https://github.com/arandomguyhere/Baltimore-Intel">GitHub</a> ·
-                <a href="https://www.situation.watch/">Live Dashboard</a> ·
-                <a href="https://github.com/arandomguyhere/Baltimore-Intel#api-reference">API Docs</a>
-            </p>
-        </div>
-    </footer>
+        // Add zoom control to bottom right
+        L.control.zoom({ position: 'bottomleft' }).addTo(map);
+
+        // Dark tile layer
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            subdomains: 'abcd',
+            maxZoom: 19
+        }).addTo(map);
+
+        // Custom marker icons
+        const terminalIcon = L.divIcon({
+            className: 'custom-div-icon',
+            html: '<div style="background:#3b82f6;width:14px;height:14px;border-radius:50%;border:2px solid white;"></div>',
+            iconSize: [14, 14],
+            iconAnchor: [7, 7]
+        });
+
+        const railIcon = L.divIcon({
+            className: 'custom-div-icon',
+            html: '<div style="background:#8b5cf6;width:14px;height:14px;border-radius:50%;border:2px solid white;"></div>',
+            iconSize: [14, 14],
+            iconAnchor: [7, 7]
+        });
+
+        const chokepointIcon = L.divIcon({
+            className: 'custom-div-icon',
+            html: '<div style="background:#ef4444;width:14px;height:14px;border-radius:50%;border:2px solid white;"></div>',
+            iconSize: [14, 14],
+            iconAnchor: [7, 7]
+        });
+
+        // Infrastructure data
+        const infrastructure = {
+            terminals: [
+                { name: 'Seagirt Marine Terminal', type: 'Container Terminal', lat: 39.2558, lng: -76.5528 },
+                { name: 'Dundalk Marine Terminal', type: 'RoRo / Breakbulk', lat: 39.2467, lng: -76.5256 },
+                { name: 'CNX Marine Terminal', type: 'Coal Export', lat: 39.2089, lng: -76.5847 },
+                { name: 'Fairfield Auto Terminal', type: 'Automobile Import', lat: 39.2156, lng: -76.5678 }
+            ],
+            rail: [
+                { name: 'Howard Street Tunnel', type: 'CSX - Capacity Bottleneck', lat: 39.2903, lng: -76.6156 },
+                { name: 'Penn Station', type: 'Amtrak NEC', lat: 39.3017, lng: -76.5917 },
+                { name: 'Bayview Yard', type: 'Norfolk Southern', lat: 39.2875, lng: -76.5589 }
+            ],
+            chokepoints: [
+                { name: 'Fort McHenry Channel', type: 'Main Ship Channel', lat: 39.2150, lng: -76.5297 },
+                { name: 'Key Bridge Area', type: 'Bridge Collapse Site', lat: 39.1847, lng: -76.5286 }
+            ]
+        };
+
+        // Add markers
+        infrastructure.terminals.forEach(t => {
+            L.marker([t.lat, t.lng], { icon: terminalIcon })
+                .addTo(map)
+                .bindPopup(`<div class="popup-title">${t.name}</div><div class="popup-type">${t.type}</div>`);
+        });
+
+        infrastructure.rail.forEach(r => {
+            L.marker([r.lat, r.lng], { icon: railIcon })
+                .addTo(map)
+                .bindPopup(`<div class="popup-title">${r.name}</div><div class="popup-type">${r.type}</div>`);
+        });
+
+        infrastructure.chokepoints.forEach(c => {
+            L.marker([c.lat, c.lng], { icon: chokepointIcon })
+                .addTo(map)
+                .bindPopup(`<div class="popup-title">${c.name}</div><div class="popup-type">${c.type}</div>`);
+        });
+
+        // Sidebar click handlers
+        document.querySelectorAll('.asset-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const lat = parseFloat(item.dataset.lat);
+                const lng = parseFloat(item.dataset.lng);
+
+                // Remove active class from all items
+                document.querySelectorAll('.asset-item').forEach(i => i.classList.remove('active'));
+
+                // Add active class to clicked item
+                item.classList.add('active');
+
+                // Pan to location
+                map.flyTo([lat, lng], 14, { duration: 0.5 });
+            });
+        });
+    </script>
 </body>
 </html>
