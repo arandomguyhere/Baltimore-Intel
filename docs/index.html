@@ -12,7 +12,7 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 
     <style>
         :root {
@@ -26,68 +26,91 @@
             --accent-red: #ef4444;
             --accent-yellow: #f59e0b;
             --accent-purple: #8b5cf6;
+            --accent-cyan: #06b6d4;
             --border: #374151;
         }
 
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
 
         body {
-            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            font-family: 'Inter', sans-serif;
             background: var(--bg-primary);
             color: var(--text-primary);
-            line-height: 1.6;
+            line-height: 1.5;
             min-height: 100vh;
+            overflow: hidden;
         }
 
         /* Header */
         header {
             background: var(--bg-secondary);
             border-bottom: 1px solid var(--border);
-            padding: 16px 24px;
+            padding: 12px 20px;
             display: flex;
             justify-content: space-between;
             align-items: center;
             position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
+            top: 0; left: 0; right: 0;
             z-index: 1000;
+            height: 56px;
         }
 
         .logo {
             display: flex;
             align-items: center;
-            gap: 12px;
+            gap: 10px;
             font-weight: 700;
-            font-size: 1.25rem;
+            font-size: 1.125rem;
         }
 
         .logo-icon {
-            width: 36px;
-            height: 36px;
-            background: linear-gradient(135deg, var(--accent-blue), var(--accent-green));
-            border-radius: 8px;
+            width: 32px; height: 32px;
+            background: linear-gradient(135deg, var(--accent-blue), var(--accent-cyan));
+            border-radius: 6px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 1.25rem;
+            font-weight: 700;
+        }
+
+        .header-status {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            font-size: 0.8125rem;
+        }
+
+        .status-item {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+        .status-dot {
+            width: 8px; height: 8px;
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+
+        .status-dot.live { background: var(--accent-green); }
+        .status-dot.warning { background: var(--accent-yellow); }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.5; }
         }
 
         .header-links {
             display: flex;
-            gap: 16px;
+            gap: 12px;
         }
 
         .header-links a {
             color: var(--text-secondary);
             text-decoration: none;
-            font-size: 0.875rem;
-            padding: 8px 16px;
-            border-radius: 6px;
+            font-size: 0.8125rem;
+            padding: 6px 12px;
+            border-radius: 4px;
             transition: all 0.2s;
         }
 
@@ -96,95 +119,89 @@
             background: var(--bg-card);
         }
 
-        .header-links a.primary {
-            background: var(--accent-blue);
-            color: white;
-        }
-
-        .header-links a.primary:hover {
-            background: #2563eb;
-        }
-
-        /* Main Layout */
+        /* Main Layout - 3 columns */
         .main-container {
             display: grid;
-            grid-template-columns: 320px 1fr;
-            margin-top: 68px;
-            height: calc(100vh - 68px);
+            grid-template-columns: 280px 1fr 320px;
+            margin-top: 56px;
+            height: calc(100vh - 56px);
         }
 
-        /* Sidebar */
-        .sidebar {
+        /* Left Sidebar - Infrastructure */
+        .sidebar-left {
             background: var(--bg-secondary);
             border-right: 1px solid var(--border);
             overflow-y: auto;
-            padding: 20px;
+            padding: 16px;
+        }
+
+        /* Right Sidebar - Data Feeds */
+        .sidebar-right {
+            background: var(--bg-secondary);
+            border-left: 1px solid var(--border);
+            overflow-y: auto;
+            display: flex;
+            flex-direction: column;
         }
 
         .sidebar h2 {
-            font-size: 0.75rem;
+            font-size: 0.6875rem;
             text-transform: uppercase;
-            letter-spacing: 0.05em;
+            letter-spacing: 0.1em;
             color: var(--text-secondary);
-            margin-bottom: 12px;
-            margin-top: 20px;
+            margin: 16px 0 8px 0;
+            padding: 0 16px;
         }
 
-        .sidebar h2:first-child {
-            margin-top: 0;
+        .sidebar-left h2 {
+            padding: 0;
+            margin: 12px 0 8px 0;
         }
 
-        /* Stats Grid */
-        .stats-grid {
+        .sidebar-left h2:first-child { margin-top: 0; }
+
+        /* Stats Row */
+        .stats-row {
             display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 12px;
-            margin-bottom: 20px;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 8px;
+            margin-bottom: 12px;
         }
 
-        .stat-card {
+        .stat-mini {
             background: var(--bg-card);
             border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 16px;
+            border-radius: 6px;
+            padding: 10px 8px;
             text-align: center;
         }
 
-        .stat-value {
-            font-size: 1.75rem;
+        .stat-mini .value {
+            font-size: 1.25rem;
             font-weight: 700;
             color: var(--accent-blue);
         }
 
-        .stat-value.green { color: var(--accent-green); }
-        .stat-value.yellow { color: var(--accent-yellow); }
-        .stat-value.red { color: var(--accent-red); }
-
-        .stat-label {
-            font-size: 0.75rem;
+        .stat-mini .label {
+            font-size: 0.625rem;
             color: var(--text-secondary);
             text-transform: uppercase;
         }
 
         /* Asset List */
-        .asset-list {
-            list-style: none;
-        }
+        .asset-list { list-style: none; }
 
         .asset-item {
             background: var(--bg-card);
             border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 12px;
-            margin-bottom: 8px;
+            border-radius: 6px;
+            padding: 10px;
+            margin-bottom: 6px;
             cursor: pointer;
-            transition: all 0.2s;
+            transition: all 0.15s;
         }
 
-        .asset-item:hover {
-            border-color: var(--accent-blue);
-        }
-
+        .asset-item:hover { border-color: var(--accent-blue); }
         .asset-item.active {
             border-color: var(--accent-blue);
             background: rgba(59, 130, 246, 0.1);
@@ -194,17 +211,15 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            margin-bottom: 4px;
         }
 
         .asset-name {
             font-weight: 600;
-            font-size: 0.9375rem;
+            font-size: 0.8125rem;
         }
 
         .asset-status {
-            width: 8px;
-            height: 8px;
+            width: 6px; height: 6px;
             border-radius: 50%;
             background: var(--accent-green);
         }
@@ -213,7 +228,7 @@
         .asset-status.critical { background: var(--accent-red); }
 
         .asset-type {
-            font-size: 0.75rem;
+            font-size: 0.6875rem;
             color: var(--text-secondary);
         }
 
@@ -228,131 +243,309 @@
             background: var(--bg-primary);
         }
 
-        /* Map Legend */
-        .map-legend {
+        /* Map Controls */
+        .map-controls {
             position: absolute;
-            bottom: 24px;
-            right: 24px;
+            top: 12px;
+            left: 12px;
+            z-index: 500;
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .layer-toggle {
             background: var(--bg-card);
             border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            cursor: pointer;
+            font-size: 0.75rem;
+            color: var(--text-primary);
+            transition: all 0.15s;
+        }
+
+        .layer-toggle:hover { border-color: var(--accent-blue); }
+        .layer-toggle.active {
+            border-color: var(--accent-blue);
+            background: rgba(59, 130, 246, 0.2);
+        }
+
+        .layer-toggle input { display: none; }
+
+        .toggle-indicator {
+            width: 32px; height: 16px;
+            background: var(--border);
             border-radius: 8px;
-            padding: 16px;
+            position: relative;
+            transition: all 0.2s;
+        }
+
+        .toggle-indicator::after {
+            content: '';
+            position: absolute;
+            width: 12px; height: 12px;
+            background: white;
+            border-radius: 50%;
+            top: 2px; left: 2px;
+            transition: all 0.2s;
+        }
+
+        .layer-toggle.active .toggle-indicator {
+            background: var(--accent-blue);
+        }
+
+        .layer-toggle.active .toggle-indicator::after {
+            left: 18px;
+        }
+
+        /* Legend */
+        .map-legend {
+            position: absolute;
+            bottom: 12px;
+            right: 12px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 12px;
             z-index: 500;
+            font-size: 0.75rem;
         }
 
         .legend-title {
-            font-size: 0.75rem;
+            font-size: 0.625rem;
             text-transform: uppercase;
             color: var(--text-secondary);
-            margin-bottom: 12px;
+            margin-bottom: 8px;
         }
 
         .legend-item {
             display: flex;
             align-items: center;
             gap: 8px;
-            margin-bottom: 8px;
-            font-size: 0.875rem;
+            margin-bottom: 4px;
         }
 
         .legend-icon {
-            width: 12px;
-            height: 12px;
+            width: 10px; height: 10px;
             border-radius: 50%;
         }
 
         .legend-icon.terminal { background: var(--accent-blue); }
         .legend-icon.rail { background: var(--accent-purple); }
         .legend-icon.chokepoint { background: var(--accent-red); }
+        .legend-icon.vessel { background: var(--accent-cyan); }
 
-        /* Info Panel */
-        .info-panel {
-            position: absolute;
-            top: 24px;
-            left: 24px;
+        /* Right Sidebar Panels */
+        .feed-panel {
+            border-bottom: 1px solid var(--border);
+            flex: 1;
+            min-height: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .feed-panel:last-child { border-bottom: none; }
+
+        .panel-header {
+            padding: 12px 16px;
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: var(--bg-card);
+        }
+
+        .panel-title {
+            font-weight: 600;
+            font-size: 0.8125rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .panel-badge {
+            background: var(--accent-blue);
+            color: white;
+            font-size: 0.625rem;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        .panel-badge.live {
+            background: var(--accent-green);
+        }
+
+        .panel-content {
+            flex: 1;
+            overflow-y: auto;
+            padding: 8px;
+        }
+
+        /* News Items */
+        .news-item {
             background: var(--bg-card);
             border: 1px solid var(--border);
-            border-radius: 8px;
-            padding: 20px;
-            max-width: 300px;
-            z-index: 500;
+            border-radius: 6px;
+            padding: 10px;
+            margin-bottom: 6px;
+            cursor: pointer;
+            transition: all 0.15s;
         }
 
-        .info-panel h3 {
-            font-size: 1rem;
-            margin-bottom: 8px;
+        .news-item:hover { border-color: var(--accent-blue); }
+
+        .news-title {
+            font-size: 0.8125rem;
+            font-weight: 500;
+            margin-bottom: 4px;
+            line-height: 1.3;
         }
 
-        .info-panel p {
-            font-size: 0.875rem;
+        .news-meta {
+            font-size: 0.6875rem;
             color: var(--text-secondary);
-            margin-bottom: 12px;
-        }
-
-        .info-tags {
             display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
+            gap: 8px;
         }
 
-        .tag {
+        .news-tag {
             background: var(--bg-secondary);
+            padding: 2px 6px;
+            border-radius: 3px;
+            font-size: 0.625rem;
+        }
+
+        /* Scanner Items */
+        .scanner-item {
+            background: var(--bg-card);
             border: 1px solid var(--border);
-            padding: 4px 10px;
-            border-radius: 4px;
+            border-radius: 6px;
+            padding: 10px;
+            margin-bottom: 6px;
+        }
+
+        .scanner-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 6px;
+        }
+
+        .scanner-name {
+            font-size: 0.75rem;
+            font-weight: 600;
+        }
+
+        .scanner-status {
+            font-size: 0.625rem;
+            padding: 2px 6px;
+            border-radius: 3px;
+            background: var(--accent-green);
+            color: white;
+        }
+
+        .scanner-status.offline {
+            background: var(--text-secondary);
+        }
+
+        .scanner-id {
+            font-size: 0.6875rem;
+            color: var(--text-secondary);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Commodity Items */
+        .commodity-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 10px;
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            margin-bottom: 6px;
+        }
+
+        .commodity-name {
+            font-size: 0.75rem;
+            font-weight: 500;
+        }
+
+        .commodity-value {
+            font-size: 0.8125rem;
+            font-weight: 600;
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        .commodity-change {
+            font-size: 0.6875rem;
+            margin-left: 6px;
+        }
+
+        .commodity-change.up { color: var(--accent-green); }
+        .commodity-change.down { color: var(--accent-red); }
+
+        /* Loading */
+        .loading {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+            color: var(--text-secondary);
             font-size: 0.75rem;
         }
 
-        /* Leaflet Customization */
-        .leaflet-container {
-            background: var(--bg-primary);
-        }
-
-        .custom-marker {
-            background: var(--accent-blue);
-            border: 2px solid white;
+        .loading::before {
+            content: '';
+            width: 16px; height: 16px;
+            border: 2px solid var(--border);
+            border-top-color: var(--accent-blue);
             border-radius: 50%;
-            width: 16px;
-            height: 16px;
+            margin-right: 8px;
+            animation: spin 1s linear infinite;
         }
 
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Leaflet customization */
         .leaflet-popup-content-wrapper {
             background: var(--bg-card);
             color: var(--text-primary);
-            border-radius: 8px;
+            border-radius: 6px;
         }
 
-        .leaflet-popup-tip {
-            background: var(--bg-card);
-        }
+        .leaflet-popup-tip { background: var(--bg-card); }
 
         .leaflet-popup-content {
-            margin: 12px 16px;
+            margin: 10px 12px;
+            font-size: 0.8125rem;
         }
 
-        .popup-title {
-            font-weight: 600;
-            margin-bottom: 4px;
-        }
-
+        .popup-title { font-weight: 600; }
         .popup-type {
-            font-size: 0.75rem;
+            font-size: 0.6875rem;
             color: var(--text-secondary);
         }
 
         /* Responsive */
-        @media (max-width: 768px) {
+        @media (max-width: 1200px) {
+            .main-container {
+                grid-template-columns: 240px 1fr 280px;
+            }
+        }
+
+        @media (max-width: 900px) {
             .main-container {
                 grid-template-columns: 1fr;
             }
-
-            .sidebar {
-                display: none;
-            }
-
-            .header-links span {
-                display: none;
-            }
+            .sidebar-left, .sidebar-right { display: none; }
         }
     </style>
 </head>
@@ -362,60 +555,74 @@
             <div class="logo-icon">B</div>
             <span>Baltimore Intel</span>
         </div>
+        <div class="header-status">
+            <div class="status-item">
+                <span class="status-dot live"></span>
+                <span>News Feed</span>
+            </div>
+            <div class="status-item">
+                <span class="status-dot live"></span>
+                <span>Scanner Feeds</span>
+            </div>
+            <div class="status-item">
+                <span class="status-dot warning"></span>
+                <span>AIS Stream</span>
+            </div>
+        </div>
         <div class="header-links">
             <a href="https://github.com/arandomguyhere/Baltimore-Intel">GitHub</a>
-            <a href="https://github.com/arandomguyhere/Baltimore-Intel#api-reference">API Docs</a>
-            <a href="https://github.com/arandomguyhere/Baltimore-Intel" class="primary">Get Started</a>
+            <a href="https://github.com/arandomguyhere/Baltimore-Intel#api-reference">API</a>
         </div>
     </header>
 
     <div class="main-container">
-        <aside class="sidebar">
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <div class="stat-value">4</div>
-                    <div class="stat-label">Terminals</div>
+        <!-- Left Sidebar: Infrastructure -->
+        <aside class="sidebar-left">
+            <div class="stats-row">
+                <div class="stat-mini">
+                    <div class="value">4</div>
+                    <div class="label">Terminals</div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-value green">3</div>
-                    <div class="stat-label">Rail Lines</div>
+                <div class="stat-mini">
+                    <div class="value">3</div>
+                    <div class="label">Rail</div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-value yellow">6</div>
-                    <div class="stat-label">Data Sources</div>
+                <div class="stat-mini">
+                    <div class="value" id="news-count">-</div>
+                    <div class="label">News</div>
                 </div>
-                <div class="stat-card">
-                    <div class="stat-value">24/7</div>
-                    <div class="stat-label">Monitoring</div>
+                <div class="stat-mini">
+                    <div class="value">4</div>
+                    <div class="label">Scanners</div>
                 </div>
             </div>
 
             <h2>Port Terminals</h2>
-            <ul class="asset-list">
+            <ul class="asset-list" id="terminals-list">
                 <li class="asset-item" data-lat="39.2558" data-lng="-76.5528">
                     <div class="asset-header">
-                        <span class="asset-name">Seagirt Marine Terminal</span>
+                        <span class="asset-name">Seagirt Marine</span>
                         <span class="asset-status"></span>
                     </div>
                     <span class="asset-type">Container Terminal</span>
                 </li>
                 <li class="asset-item" data-lat="39.2467" data-lng="-76.5256">
                     <div class="asset-header">
-                        <span class="asset-name">Dundalk Marine Terminal</span>
+                        <span class="asset-name">Dundalk Marine</span>
                         <span class="asset-status"></span>
                     </div>
                     <span class="asset-type">RoRo / Breakbulk</span>
                 </li>
                 <li class="asset-item" data-lat="39.2089" data-lng="-76.5847">
                     <div class="asset-header">
-                        <span class="asset-name">CNX Marine Terminal</span>
+                        <span class="asset-name">CNX Marine</span>
                         <span class="asset-status"></span>
                     </div>
                     <span class="asset-type">Coal Export</span>
                 </li>
                 <li class="asset-item" data-lat="39.2156" data-lng="-76.5678">
                     <div class="asset-header">
-                        <span class="asset-name">Fairfield Auto Terminal</span>
+                        <span class="asset-name">Fairfield Auto</span>
                         <span class="asset-status"></span>
                     </div>
                     <span class="asset-type">Automobile Import</span>
@@ -423,13 +630,13 @@
             </ul>
 
             <h2>Rail Infrastructure</h2>
-            <ul class="asset-list">
+            <ul class="asset-list" id="rail-list">
                 <li class="asset-item" data-lat="39.2903" data-lng="-76.6156">
                     <div class="asset-header">
-                        <span class="asset-name">Howard Street Tunnel</span>
+                        <span class="asset-name">Howard St Tunnel</span>
                         <span class="asset-status warning"></span>
                     </div>
-                    <span class="asset-type">CSX - Capacity Bottleneck</span>
+                    <span class="asset-type">CSX - Bottleneck</span>
                 </li>
                 <li class="asset-item" data-lat="39.3017" data-lng="-76.5917">
                     <div class="asset-header">
@@ -447,97 +654,182 @@
                 </li>
             </ul>
 
-            <h2>Maritime Chokepoints</h2>
-            <ul class="asset-list">
+            <h2>Chokepoints</h2>
+            <ul class="asset-list" id="chokepoints-list">
                 <li class="asset-item" data-lat="39.2150" data-lng="-76.5297">
                     <div class="asset-header">
                         <span class="asset-name">Fort McHenry Channel</span>
                         <span class="asset-status"></span>
                     </div>
-                    <span class="asset-type">Main Ship Channel</span>
+                    <span class="asset-type">Ship Channel</span>
                 </li>
                 <li class="asset-item" data-lat="39.1847" data-lng="-76.5286">
                     <div class="asset-header">
                         <span class="asset-name">Key Bridge Area</span>
                         <span class="asset-status critical"></span>
                     </div>
-                    <span class="asset-type">Bridge Collapse Site</span>
+                    <span class="asset-type">Collapse Site</span>
                 </li>
             </ul>
         </aside>
 
+        <!-- Map -->
         <div class="map-container">
             <div id="map"></div>
 
-            <div class="info-panel">
-                <h3>Port of Baltimore</h3>
-                <p>Real-time monitoring of maritime, rail, and critical infrastructure with AI-powered threat detection.</p>
-                <div class="info-tags">
-                    <span class="tag">AIS Tracking</span>
-                    <span class="tag">Rail Monitor</span>
-                    <span class="tag">Scanner Feeds</span>
-                    <span class="tag">News Intel</span>
-                </div>
+            <div class="map-controls">
+                <label class="layer-toggle active" id="toggle-rail">
+                    <input type="checkbox" checked>
+                    <span>Rail Network</span>
+                    <span class="toggle-indicator"></span>
+                </label>
+                <label class="layer-toggle" id="toggle-vessels">
+                    <input type="checkbox">
+                    <span>Vessel Tracks</span>
+                    <span class="toggle-indicator"></span>
+                </label>
             </div>
 
             <div class="map-legend">
                 <div class="legend-title">Legend</div>
                 <div class="legend-item">
                     <span class="legend-icon terminal"></span>
-                    Port Terminal
+                    <span>Port Terminal</span>
                 </div>
                 <div class="legend-item">
                     <span class="legend-icon rail"></span>
-                    Rail Infrastructure
+                    <span>Rail Infrastructure</span>
                 </div>
                 <div class="legend-item">
                     <span class="legend-icon chokepoint"></span>
-                    Critical Chokepoint
+                    <span>Chokepoint</span>
                 </div>
             </div>
         </div>
+
+        <!-- Right Sidebar: Data Feeds -->
+        <aside class="sidebar-right">
+            <!-- News Feed -->
+            <div class="feed-panel">
+                <div class="panel-header">
+                    <span class="panel-title">
+                        News Intel
+                        <span class="panel-badge live">LIVE</span>
+                    </span>
+                </div>
+                <div class="panel-content" id="news-feed">
+                    <div class="loading">Loading news...</div>
+                </div>
+            </div>
+
+            <!-- Scanner Feeds -->
+            <div class="feed-panel">
+                <div class="panel-header">
+                    <span class="panel-title">Scanner Feeds</span>
+                </div>
+                <div class="panel-content" id="scanner-feeds">
+                    <div class="scanner-item">
+                        <div class="scanner-header">
+                            <span class="scanner-name">Baltimore Terminal RR</span>
+                            <span class="scanner-status">LIVE</span>
+                        </div>
+                        <span class="scanner-id">Broadcastify #43356</span>
+                    </div>
+                    <div class="scanner-item">
+                        <div class="scanner-header">
+                            <span class="scanner-name">CSX/NS Regional</span>
+                            <span class="scanner-status">LIVE</span>
+                        </div>
+                        <span class="scanner-id">Broadcastify #14954</span>
+                    </div>
+                    <div class="scanner-item">
+                        <div class="scanner-header">
+                            <span class="scanner-name">Baltimore Marine</span>
+                            <span class="scanner-status">LIVE</span>
+                        </div>
+                        <span class="scanner-id">Broadcastify #42710</span>
+                    </div>
+                    <div class="scanner-item">
+                        <div class="scanner-header">
+                            <span class="scanner-name">Coast Guard Sector</span>
+                            <span class="scanner-status">LIVE</span>
+                        </div>
+                        <span class="scanner-id">Broadcastify #31547</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Commodities -->
+            <div class="feed-panel">
+                <div class="panel-header">
+                    <span class="panel-title">Port Commodities</span>
+                </div>
+                <div class="panel-content" id="commodities">
+                    <div class="commodity-item">
+                        <span class="commodity-name">Coal (MTF)</span>
+                        <span>
+                            <span class="commodity-value">$142.50</span>
+                            <span class="commodity-change up">+2.3%</span>
+                        </span>
+                    </div>
+                    <div class="commodity-item">
+                        <span class="commodity-name">LNG (Henry Hub)</span>
+                        <span>
+                            <span class="commodity-value">$3.24</span>
+                            <span class="commodity-change down">-1.1%</span>
+                        </span>
+                    </div>
+                    <div class="commodity-item">
+                        <span class="commodity-name">Soybeans</span>
+                        <span>
+                            <span class="commodity-value">$1,024</span>
+                            <span class="commodity-change up">+0.8%</span>
+                        </span>
+                    </div>
+                    <div class="commodity-item">
+                        <span class="commodity-name">Auto Index</span>
+                        <span>
+                            <span class="commodity-value">$48.2K</span>
+                            <span class="commodity-change down">-0.3%</span>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </aside>
     </div>
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
     <script>
-        // Initialize map centered on Baltimore Harbor
-        const map = L.map('map', {
-            zoomControl: false
-        }).setView([39.25, -76.55], 12);
-
-        // Add zoom control to bottom right
+        // Initialize map
+        const map = L.map('map', { zoomControl: false }).setView([39.25, -76.55], 11);
         L.control.zoom({ position: 'bottomleft' }).addTo(map);
 
-        // Dark tile layer
-        L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+        // Dark base layer
+        const darkLayer = L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; OpenStreetMap &copy; CARTO',
             subdomains: 'abcd',
             maxZoom: 19
         }).addTo(map);
 
-        // Custom marker icons
-        const terminalIcon = L.divIcon({
+        // OpenRailwayMap layer
+        const railLayer = L.tileLayer('https://{s}.tiles.openrailwaymap.org/standard/{z}/{x}/{y}.png', {
+            attribution: '&copy; OpenRailwayMap',
+            maxZoom: 19
+        }).addTo(map);
+
+        // Custom markers
+        const createIcon = (color) => L.divIcon({
             className: 'custom-div-icon',
-            html: '<div style="background:#3b82f6;width:14px;height:14px;border-radius:50%;border:2px solid white;"></div>',
-            iconSize: [14, 14],
-            iconAnchor: [7, 7]
+            html: `<div style="background:${color};width:12px;height:12px;border-radius:50%;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.3);"></div>`,
+            iconSize: [12, 12],
+            iconAnchor: [6, 6]
         });
 
-        const railIcon = L.divIcon({
-            className: 'custom-div-icon',
-            html: '<div style="background:#8b5cf6;width:14px;height:14px;border-radius:50%;border:2px solid white;"></div>',
-            iconSize: [14, 14],
-            iconAnchor: [7, 7]
-        });
-
-        const chokepointIcon = L.divIcon({
-            className: 'custom-div-icon',
-            html: '<div style="background:#ef4444;width:14px;height:14px;border-radius:50%;border:2px solid white;"></div>',
-            iconSize: [14, 14],
-            iconAnchor: [7, 7]
-        });
+        const terminalIcon = createIcon('#3b82f6');
+        const railIcon = createIcon('#8b5cf6');
+        const chokepointIcon = createIcon('#ef4444');
 
         // Infrastructure data
         const infrastructure = {
@@ -577,22 +869,96 @@
                 .bindPopup(`<div class="popup-title">${c.name}</div><div class="popup-type">${c.type}</div>`);
         });
 
+        // Layer toggles
+        document.getElementById('toggle-rail').addEventListener('click', function() {
+            this.classList.toggle('active');
+            if (this.classList.contains('active')) {
+                map.addLayer(railLayer);
+            } else {
+                map.removeLayer(railLayer);
+            }
+        });
+
         // Sidebar click handlers
         document.querySelectorAll('.asset-item').forEach(item => {
             item.addEventListener('click', () => {
                 const lat = parseFloat(item.dataset.lat);
                 const lng = parseFloat(item.dataset.lng);
-
-                // Remove active class from all items
                 document.querySelectorAll('.asset-item').forEach(i => i.classList.remove('active'));
-
-                // Add active class to clicked item
                 item.classList.add('active');
-
-                // Pan to location
                 map.flyTo([lat, lng], 14, { duration: 0.5 });
             });
         });
+
+        // Fetch news from Google-News-Scraper
+        async function loadNews() {
+            const newsFeed = document.getElementById('news-feed');
+            const newsCount = document.getElementById('news-count');
+
+            try {
+                // Fetch from your Google-News-Scraper repo
+                const response = await fetch('https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/main/feed.json');
+                const data = await response.json();
+
+                // Get stories from clusters or timeline
+                let stories = [];
+
+                if (data.clusters) {
+                    data.clusters.forEach(cluster => {
+                        if (cluster.stories) {
+                            stories = stories.concat(cluster.stories.slice(0, 2));
+                        }
+                    });
+                }
+
+                if (data.timeline) {
+                    stories = stories.concat(data.timeline);
+                }
+
+                // Deduplicate and limit
+                const seen = new Set();
+                stories = stories.filter(s => {
+                    if (!s.title || seen.has(s.title)) return false;
+                    seen.add(s.title);
+                    return true;
+                }).slice(0, 15);
+
+                newsCount.textContent = stories.length;
+
+                if (stories.length === 0) {
+                    newsFeed.innerHTML = '<div class="loading">No news available</div>';
+                    return;
+                }
+
+                newsFeed.innerHTML = stories.map(story => `
+                    <a href="${story.url || '#'}" target="_blank" class="news-item" style="text-decoration:none;color:inherit;">
+                        <div class="news-title">${story.title}</div>
+                        <div class="news-meta">
+                            <span>${story.source || 'News'}</span>
+                            ${story.entities ? story.entities.slice(0, 2).map(e => `<span class="news-tag">${e}</span>`).join('') : ''}
+                        </div>
+                    </a>
+                `).join('');
+
+            } catch (error) {
+                console.error('Failed to load news:', error);
+                newsFeed.innerHTML = `
+                    <div class="loading" style="flex-direction:column;text-align:center;">
+                        <div>Unable to load news feed</div>
+                        <a href="https://github.com/arandomguyhere/Google-News-Scraper" target="_blank" style="color:var(--accent-blue);font-size:0.6875rem;margin-top:4px;">
+                            View source repo →
+                        </a>
+                    </div>
+                `;
+                newsCount.textContent = '0';
+            }
+        }
+
+        // Load news on page load
+        loadNews();
+
+        // Refresh news every 5 minutes
+        setInterval(loadNews, 5 * 60 * 1000);
     </script>
 </body>
 </html>
