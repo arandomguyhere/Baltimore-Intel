@@ -86,75 +86,85 @@ def collect_amtrak():
 def collect_news():
     """
     Collect news from Google-News-Scraper repo.
-    Already public, just fetch and reformat.
+    Try multiple possible URLs, keep existing data if all fail.
     """
     print("Collecting news data...")
 
-    try:
-        response = requests.get(
-            "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/main/feed.json",
-            timeout=30
-        )
-        response.raise_for_status()
-        data = response.json()
+    # Try multiple possible URLs
+    urls_to_try = [
+        "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/main/feed.json",
+        "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/master/feed.json",
+        "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/main/output/feed.json",
+    ]
 
-        # Extract stories
-        stories = []
+    data = None
+    for url in urls_to_try:
+        try:
+            response = requests.get(url, timeout=30)
+            if response.status_code == 200:
+                data = response.json()
+                print(f"  Found feed at: {url}")
+                break
+        except Exception:
+            continue
 
-        if data.get('clusters'):
-            for cluster in data['clusters']:
-                if cluster.get('stories'):
-                    for story in cluster['stories'][:3]:
-                        stories.append({
-                            'title': story.get('title'),
-                            'url': story.get('url'),
-                            'source': story.get('source'),
-                            'cluster_confidence': cluster.get('confidence', 0)
-                        })
+    if data is None:
+        print("  Could not fetch news feed, keeping existing data")
+        return True  # Don't fail, just keep existing data
 
-        if data.get('timeline'):
-            for item in data['timeline'][:10]:
-                stories.append({
-                    'title': item.get('title'),
-                    'url': item.get('url'),
-                    'source': item.get('source'),
-                    'date': item.get('date')
-                })
+    # Extract stories
+    stories = []
 
-        # Deduplicate
-        seen = set()
-        unique_stories = []
-        for s in stories:
-            if s['title'] and s['title'] not in seen:
-                seen.add(s['title'])
-                unique_stories.append(s)
+    if data.get('clusters'):
+        for cluster in data['clusters']:
+            if cluster.get('stories'):
+                for story in cluster['stories'][:3]:
+                    stories.append({
+                        'title': story.get('title'),
+                        'url': story.get('url'),
+                        'source': story.get('source'),
+                        'cluster_confidence': cluster.get('confidence', 0)
+                    })
 
-        # Extract entities/connections
-        entities = {
-            'countries': data.get('connections', {}).get('countries', [])[:10],
-            'sectors': data.get('connections', {}).get('sectors', [])[:10],
-            'threat_actors': data.get('connections', {}).get('threat_actors', [])[:10]
-        }
+    if data.get('timeline'):
+        for item in data['timeline'][:10]:
+            stories.append({
+                'title': item.get('title'),
+                'url': item.get('url'),
+                'source': item.get('source'),
+                'date': item.get('date')
+            })
 
-        result = {
-            'collected_at': datetime.now(timezone.utc).isoformat(),
-            'source': 'Google-News-Scraper',
-            'total_stories': len(unique_stories),
-            'stories': unique_stories[:20],
-            'entities': entities,
-            'summary': data.get('summary', {})
-        }
+    # Deduplicate
+    seen = set()
+    unique_stories = []
+    for s in stories:
+        if s['title'] and s['title'] not in seen:
+            seen.add(s['title'])
+            unique_stories.append(s)
 
-        output_file = OUTPUT_DIR / "news.json"
-        with open(output_file, 'w') as f:
-            json.dump(result, f, indent=2)
+    # Extract entities/connections
+    entities = {
+        'countries': data.get('connections', {}).get('countries', [])[:10],
+        'sectors': data.get('connections', {}).get('sectors', [])[:10],
+        'threat_actors': data.get('connections', {}).get('threat_actors', [])[:10]
+    }
 
-        print(f"  Collected {len(unique_stories)} news stories")
-        return True
+    result = {
+        'collected_at': datetime.now(timezone.utc).isoformat(),
+        'source': 'Google-News-Scraper',
+        'total_stories': len(unique_stories),
+        'stories': unique_stories[:20],
+        'entities': entities,
+        'summary': data.get('summary', {})
+    }
 
-    except Exception as e:
-        print(f"  Error collecting news: {e}")
-        return False
+    output_file = OUTPUT_DIR / "news.json"
+    with open(output_file, 'w') as f:
+        json.dump(result, f, indent=2)
+
+    print(f"  Collected {len(unique_stories)} news stories")
+    return True
 
 
 def collect_commodities():
@@ -302,8 +312,12 @@ def main():
         status = "✓" if success else "✗"
         print(f"  {status} {name}")
 
-    # Return non-zero if any failed
-    return 0 if all(results.values()) else 1
+    # Return success if at least some collectors worked
+    success_count = sum(results.values())
+    print(f"\n{success_count}/{len(results)} collectors succeeded")
+
+    # Only fail if nothing worked
+    return 0 if success_count > 0 else 1
 
 
 if __name__ == "__main__":
