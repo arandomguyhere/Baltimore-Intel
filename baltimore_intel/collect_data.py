@@ -143,11 +143,20 @@ def collect_news():
             seen.add(s['title'])
             unique_stories.append(s)
 
-    # Extract entities/connections
+    # Extract entities/connections (safely handle different data structures)
+    def safe_list(val, limit=10):
+        if isinstance(val, list):
+            return val[:limit]
+        return []
+
+    connections = data.get('connections', {})
+    if not isinstance(connections, dict):
+        connections = {}
+
     entities = {
-        'countries': data.get('connections', {}).get('countries', [])[:10],
-        'sectors': data.get('connections', {}).get('sectors', [])[:10],
-        'threat_actors': data.get('connections', {}).get('threat_actors', [])[:10]
+        'countries': safe_list(connections.get('countries')),
+        'sectors': safe_list(connections.get('sectors')),
+        'threat_actors': safe_list(connections.get('threat_actors'))
     }
 
     result = {
