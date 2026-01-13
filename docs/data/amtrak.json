@@ -1,0 +1,48 @@
+{
+  "collected_at": "2026-01-13T23:12:32+00:00",
+  "source": "amtraker.com",
+  "note": "Sample data - live updates via GitHub Actions",
+  "total_trains": 4,
+  "trains": [
+    {
+      "trainNum": "91",
+      "routeName": "Silver Star",
+      "lat": 39.31,
+      "lon": -76.62,
+      "heading": 45,
+      "velocity": 65,
+      "nextStation": "Baltimore Penn Station",
+      "status": "Active"
+    },
+    {
+      "trainNum": "172",
+      "routeName": "Acela",
+      "lat": 39.28,
+      "lon": -76.58,
+      "heading": 220,
+      "velocity": 110,
+      "nextStation": "Washington Union Station",
+      "status": "Active"
+    },
+    {
+      "trainNum": "85",
+      "routeName": "Northeast Regional",
+      "lat": 39.35,
+      "lon": -76.65,
+      "heading": 45,
+      "velocity": 78,
+      "nextStation": "Baltimore Penn Station",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2109",
+      "routeName": "Palmetto",
+      "lat": 39.22,
+      "lon": -76.55,
+      "heading": 180,
+      "velocity": 55,
+      "nextStation": "BWI Airport",
+      "status": "Active"
+    }
+  ]
+}

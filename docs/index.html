@@ -890,38 +890,18 @@
             });
         });
 
-        // Fetch news from Google-News-Scraper
+        // Data URLs (collected by GitHub Actions)
+        const DATA_BASE = './data';
+
+        // Load news from collected data
         async function loadNews() {
             const newsFeed = document.getElementById('news-feed');
             const newsCount = document.getElementById('news-count');
 
             try {
-                // Fetch from your Google-News-Scraper repo
-                const response = await fetch('https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/main/feed.json');
+                const response = await fetch(`${DATA_BASE}/news.json`);
                 const data = await response.json();
-
-                // Get stories from clusters or timeline
-                let stories = [];
-
-                if (data.clusters) {
-                    data.clusters.forEach(cluster => {
-                        if (cluster.stories) {
-                            stories = stories.concat(cluster.stories.slice(0, 2));
-                        }
-                    });
-                }
-
-                if (data.timeline) {
-                    stories = stories.concat(data.timeline);
-                }
-
-                // Deduplicate and limit
-                const seen = new Set();
-                stories = stories.filter(s => {
-                    if (!s.title || seen.has(s.title)) return false;
-                    seen.add(s.title);
-                    return true;
-                }).slice(0, 15);
+                const stories = data.stories || [];
 
                 newsCount.textContent = stories.length;
 
@@ -935,30 +915,92 @@
                         <div class="news-title">${story.title}</div>
                         <div class="news-meta">
                             <span>${story.source || 'News'}</span>
-                            ${story.entities ? story.entities.slice(0, 2).map(e => `<span class="news-tag">${e}</span>`).join('') : ''}
                         </div>
                     </a>
                 `).join('');
 
             } catch (error) {
                 console.error('Failed to load news:', error);
-                newsFeed.innerHTML = `
-                    <div class="loading" style="flex-direction:column;text-align:center;">
-                        <div>Unable to load news feed</div>
-                        <a href="https://github.com/arandomguyhere/Google-News-Scraper" target="_blank" style="color:var(--accent-blue);font-size:0.6875rem;margin-top:4px;">
-                            View source repo →
-                        </a>
-                    </div>
-                `;
-                newsCount.textContent = '0';
+                newsFeed.innerHTML = '<div class="loading">Loading news data...</div>';
+                newsCount.textContent = '-';
             }
         }
 
-        // Load news on page load
-        loadNews();
+        // Load Amtrak train data
+        async function loadTrains() {
+            try {
+                const response = await fetch(`${DATA_BASE}/amtrak.json`);
+                const data = await response.json();
 
-        // Refresh news every 5 minutes
-        setInterval(loadNews, 5 * 60 * 1000);
+                // Add train markers to map
+                data.trains.forEach(train => {
+                    const trainIcon = L.divIcon({
+                        className: 'custom-div-icon',
+                        html: `<div style="background:#06b6d4;width:10px;height:10px;border-radius:50%;border:2px solid white;box-shadow:0 2px 4px rgba(0,0,0,0.3);"></div>`,
+                        iconSize: [10, 10],
+                        iconAnchor: [5, 5]
+                    });
+
+                    L.marker([train.lat, train.lon], { icon: trainIcon })
+                        .addTo(map)
+                        .bindPopup(`
+                            <div class="popup-title">${train.routeName} #${train.trainNum}</div>
+                            <div class="popup-type">${train.nextStation} • ${train.velocity} mph</div>
+                        `);
+                });
+
+                console.log(`Loaded ${data.trains.length} trains`);
+            } catch (error) {
+                console.error('Failed to load trains:', error);
+            }
+        }
+
+        // Load commodity data
+        async function loadCommodities() {
+            const container = document.getElementById('commodities');
+            try {
+                const response = await fetch(`${DATA_BASE}/commodities.json`);
+                const data = await response.json();
+
+                const nameMap = {
+                    'coal_mtf': 'Coal (MTF)',
+                    'lng_henry_hub': 'LNG (Henry Hub)',
+                    'soybeans': 'Soybeans',
+                    'corn': 'Corn',
+                    'auto_index': 'Auto Index'
+                };
+
+                container.innerHTML = data.commodities.map(c => `
+                    <div class="commodity-item">
+                        <span class="commodity-name">${nameMap[c.name] || c.name}</span>
+                        <span>
+                            <span class="commodity-value">$${c.price.toLocaleString()}</span>
+                            <span class="commodity-change ${c.change_pct >= 0 ? 'up' : 'down'}">
+                                ${c.change_pct >= 0 ? '+' : ''}${c.change_pct}%
+                            </span>
+                        </span>
+                    </div>
+                `).join('');
+
+            } catch (error) {
+                console.error('Failed to load commodities:', error);
+            }
+        }
+
+        // Load all data
+        async function loadAllData() {
+            await Promise.all([
+                loadNews(),
+                loadTrains(),
+                loadCommodities()
+            ]);
+        }
+
+        // Initial load
+        loadAllData();
+
+        // Refresh every 5 minutes
+        setInterval(loadAllData, 5 * 60 * 1000);
     </script>
 </body>
 </html>
