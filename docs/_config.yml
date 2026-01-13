@@ -1,0 +1,15 @@
+title: Baltimore Intel
+description: Critical Infrastructure Intelligence Platform for the Port of Baltimore
+url: https://arandomguyhere.github.io
+baseurl: /Baltimore-Intel
+
+# Build settings
+markdown: kramdown
+theme: null
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
