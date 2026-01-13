@@ -92,9 +92,9 @@ def collect_news():
 
     # Try multiple possible URLs
     urls_to_try = [
+        "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/main/docs/feed.json",
         "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/main/feed.json",
-        "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/master/feed.json",
-        "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/main/output/feed.json",
+        "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/master/docs/feed.json",
     ]
 
     data = None
