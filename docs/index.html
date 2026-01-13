@@ -1049,119 +1049,17 @@
         }
 
         // Scanner feed functions
+        const SCANNER_TRANSCRIBE_URL = 'https://arandomguyhere.github.io/ScannerTranscribe/';
+
         function openFeed(feedId) {
             window.open(`https://www.broadcastify.com/listen/feed/${feedId}`, '_blank');
         }
 
-        // Transcription state
-        const transcriptionState = {};
-
         function transcribeFeed(feedId, feedName) {
-            const btn = event.target;
-
-            if (transcriptionState[feedId]) {
-                // Stop transcription
-                transcriptionState[feedId] = false;
-                btn.textContent = 'Transcribe';
-                btn.style.background = '';
-                btn.style.color = '';
-                showTranscriptPanel(feedId, feedName, false);
-                return;
-            }
-
-            // Start transcription
-            transcriptionState[feedId] = true;
-            btn.textContent = 'Stop';
-            btn.style.background = '#ef4444';
-            btn.style.color = 'white';
-
-            // Show transcript panel
-            showTranscriptPanel(feedId, feedName, true);
-        }
-
-        function showTranscriptPanel(feedId, feedName, show) {
-            let panel = document.getElementById(`transcript-${feedId}`);
-
-            if (!show && panel) {
-                panel.remove();
-                return;
-            }
-
-            if (show && !panel) {
-                // Create transcript panel
-                panel = document.createElement('div');
-                panel.id = `transcript-${feedId}`;
-                panel.className = 'transcript-panel';
-                panel.innerHTML = `
-                    <div class="transcript-header">
-                        <span>${feedName} - Live Transcript</span>
-                        <button onclick="transcribeFeed(${feedId}, '${feedName}')" style="background:none;border:none;color:#ef4444;cursor:pointer;">X</button>
-                    </div>
-                    <div class="transcript-content" id="transcript-content-${feedId}">
-                        <div class="transcript-note">
-                            Transcription requires ScannerTranscribe backend.<br>
-                            <a href="https://github.com/arandomguyhere/ScannerTranscribe" target="_blank" style="color:var(--accent);">Setup Instructions</a>
-                        </div>
-                        <div class="transcript-placeholder">
-                            Waiting for audio stream...
-                        </div>
-                    </div>
-                `;
-
-                // Add styles if not present
-                if (!document.getElementById('transcript-styles')) {
-                    const styles = document.createElement('style');
-                    styles.id = 'transcript-styles';
-                    styles.textContent = `
-                        .transcript-panel {
-                            position: fixed;
-                            bottom: 20px;
-                            right: 20px;
-                            width: 350px;
-                            max-height: 300px;
-                            background: var(--bg-card);
-                            border: 1px solid var(--border);
-                            border-radius: 8px;
-                            box-shadow: 0 4px 20px rgba(0,0,0,0.5);
-                            z-index: 1000;
-                            overflow: hidden;
-                        }
-                        .transcript-header {
-                            display: flex;
-                            justify-content: space-between;
-                            align-items: center;
-                            padding: 10px 12px;
-                            background: var(--bg-secondary);
-                            border-bottom: 1px solid var(--border);
-                            font-weight: 500;
-                            font-size: 12px;
-                        }
-                        .transcript-content {
-                            padding: 12px;
-                            max-height: 230px;
-                            overflow-y: auto;
-                            font-size: 12px;
-                            line-height: 1.5;
-                        }
-                        .transcript-note {
-                            background: rgba(59, 130, 246, 0.1);
-                            border: 1px solid rgba(59, 130, 246, 0.3);
-                            border-radius: 4px;
-                            padding: 10px;
-                            margin-bottom: 10px;
-                            font-size: 11px;
-                            color: var(--text-secondary);
-                        }
-                        .transcript-placeholder {
-                            color: var(--text-muted);
-                            font-style: italic;
-                        }
-                    `;
-                    document.head.appendChild(styles);
-                }
-
-                document.body.appendChild(panel);
-            }
+            // Open Broadcastify feed first (for audio source)
+            window.open(`https://www.broadcastify.com/listen/feed/${feedId}`, 'broadcastify_' + feedId);
+            // Open ScannerTranscribe to capture and transcribe
+            window.open(SCANNER_TRANSCRIBE_URL + '?feed=' + feedId, 'scanner_transcribe');
         }
 
         // Load all data
