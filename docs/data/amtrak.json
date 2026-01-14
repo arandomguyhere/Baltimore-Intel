@@ -1,84 +1,95 @@
 {
-  "collected_at": "2026-01-14T09:57:02.139781+00:00",
+  "collected_at": "2026-01-14T10:29:56.383860+00:00",
   "source": "amtraker.com",
-  "total_trains": 7,
+  "total_trains": 8,
   "trains": [
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.891323508108286,
-      "lon": -75.30203428204784,
+      "lat": 39.618553506871535,
+      "lon": -75.82287793579322,
       "heading": "SW",
-      "velocity": 78.7939758300781,
-      "lastUpdate": "2026-01-14T04:54:19-05:00",
-      "nextStation": "Wilmington",
+      "velocity": 122.595497131348,
+      "lastUpdate": "2026-01-14T05:27:21-05:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.34959796215764,
-      "lon": -77.41740655487831,
+      "lat": 38.79806531760244,
+      "lon": -77.13669818186276,
       "heading": "E",
-      "velocity": 69.425666809082,
-      "lastUpdate": "2026-01-14T04:54:19-05:00",
+      "velocity": 69.4301452636719,
+      "lastUpdate": "2026-01-14T05:27:20-05:00",
       "nextStation": "Alexandria",
       "status": "Active"
     },
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-14T04:42:00-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Predeparture"
+      "lat": 39.686420803877105,
+      "lon": -75.7003269363266,
+      "heading": "W",
+      "velocity": 124.501373291016,
+      "lastUpdate": "2026-01-14T05:27:22-05:00",
+      "nextStation": "Newark",
+      "status": "Active"
     },
     {
       "trainNum": "170",
       "routeName": "Northeast Regional",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
+      "lat": 39.16769050043849,
+      "lon": -76.69635230318993,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-14T04:50:00-05:00",
-      "nextStation": "Washington Union",
-      "status": "Predeparture"
+      "velocity": 92.6272125244141,
+      "lastUpdate": "2026-01-14T05:27:18-05:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
     },
     {
       "trainNum": "601",
       "routeName": "Keystone",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-14T04:55:00-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Predeparture"
+      "lat": 40.038921802911204,
+      "lon": -75.34276764096525,
+      "heading": "NW",
+      "velocity": 69.5263290405273,
+      "lastUpdate": "2026-01-14T05:27:22-05:00",
+      "nextStation": "Paoli",
+      "status": "Active"
     },
     {
       "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.10075038811342,
+      "lon": -76.42132023146237,
+      "heading": "E",
+      "velocity": 105.133941650391,
+      "lastUpdate": "2026-01-14T05:27:22-05:00",
+      "nextStation": "Lancaster",
+      "status": "Active"
+    },
+    {
+      "trainNum": "642",
       "routeName": "Keystone",
       "lat": 40.261108062055214,
       "lon": -76.8782023317206,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-14T04:45:00-05:00",
+      "lastUpdate": "2026-01-14T05:40:00-05:00",
       "nextStation": "Harrisburg",
       "status": "Predeparture"
     },
     {
       "trainNum": "2150",
       "routeName": "Acela",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
+      "lat": 39.24660134346521,
+      "lon": -76.69096595335859,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-14T04:45:00-05:00",
-      "nextStation": "Washington Union",
-      "status": "Predeparture"
+      "velocity": 102.428230285645,
+      "lastUpdate": "2026-01-14T05:27:22-05:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
     }
   ]
 }
