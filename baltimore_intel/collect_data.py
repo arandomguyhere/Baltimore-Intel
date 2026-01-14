@@ -280,6 +280,8 @@ def collect_ais():
         print("  No AISSTREAM_API_KEY set, skipping AIS collection")
         return True  # Don't fail, just skip
 
+    print(f"  API key found (starts with: {api_key[:8]}...)")
+
     # Expanded bounding box - Baltimore to Chesapeake Bay entrance
     # Covers Port of Baltimore, shipping lanes, and Bay entrance
     bbox = [
@@ -292,12 +294,19 @@ def collect_ais():
         import time
 
         vessels = []
+        message_count = [0]  # Use list to allow mutation in nested function
         ws_url = "wss://stream.aisstream.io/v0/stream"
 
         # Connect and collect for 30 seconds
         def on_message(ws, message):
+            message_count[0] += 1
             data = json.loads(message)
-            if data.get('MessageType') == 'PositionReport':
+            msg_type = data.get('MessageType')
+
+            if message_count[0] <= 3:
+                print(f"  Received message {message_count[0]}: {msg_type}")
+
+            if msg_type == 'PositionReport':
                 msg = data.get('Message', {}).get('PositionReport', {})
                 meta = data.get('MetaData', {})
                 vessels.append({
@@ -341,6 +350,9 @@ def collect_ais():
         wst.start()
         time.sleep(30)
         ws.close()
+
+        print(f"  Total messages received: {message_count[0]}")
+        print(f"  Position reports: {len(vessels)}")
 
         # Deduplicate by MMSI (keep latest position)
         unique_vessels = {}
