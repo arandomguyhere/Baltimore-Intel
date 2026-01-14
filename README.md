@@ -20,39 +20,63 @@
 
 ---
 
-## Status
+## Live Dashboard
 
-| Data Source | Status | Update Frequency | Notes |
-|-------------|--------|------------------|-------|
-| **Amtrak Trains** | ✅ Working | Every 15 min | Via Amtraker API |
-| **News Feed** | ✅ Working | Every 15 min | Via Google-News-Scraper |
-| **Rail Map Overlay** | ✅ Working | Static | OpenRailwayMap tiles |
-| **Infrastructure** | ✅ Working | Every 15 min | Status monitoring |
-| **Commodities** | ⚠️ Simulated | Every 15 min | Real APIs need keys |
-| **AIS Vessels** | ❌ Pending | - | Requires AISstream API key |
-| **Scanner Transcripts** | ❌ Pending | - | Requires backend + ScannerTranscribe |
-
-**Live Dashboard:** https://arandomguyhere.github.io/Baltimore-Intel/
+**https://arandomguyhere.github.io/Baltimore-Intel/**
 
 ---
 
-## How It Works
+## Features
+
+| Feature | Status | Description |
+|---------|--------|-------------|
+| **Amtrak Train Tracking** | ✅ Live | Real-time train positions via Amtraker API |
+| **Baltimore News Feed** | ✅ Live | Port/shipping/infrastructure news from Google News RSS |
+| **Rail Network Overlay** | ✅ Live | OpenRailwayMap tile layer |
+| **Infrastructure Status** | ✅ Live | Terminal and chokepoint monitoring |
+| **AIS Vessel Tracking** | ✅ Live | Real-time ship positions (enter API key in Settings) |
+| **Scanner Feeds** | ✅ Live | Broadcastify links with transcription via ScannerTranscribe |
+| **Commodities** | ⚠️ Simulated | Placeholder data (real APIs need keys) |
+
+---
+
+## Quick Start
+
+### 1. View the Dashboard
+Visit **https://arandomguyhere.github.io/Baltimore-Intel/** - data updates every 15 minutes.
+
+### 2. Enable AIS Vessel Tracking
+1. Get a free API key from [aisstream.io](https://aisstream.io)
+2. Click **Settings** in the dashboard header
+3. Paste your API key and click **Save & Connect**
+4. Toggle **Vessel Tracks** on the map to see ships
+
+### 3. Use Scanner Transcription
+1. Click **Listen** to open a Broadcastify feed
+2. Click **Transcribe** to open [ScannerTranscribe](https://arandomguyhere.github.io/ScannerTranscribe/)
+3. Start capture in ScannerTranscribe to transcribe audio
+
+---
+
+## Architecture
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│           GitHub Actions (runs every 15 minutes)                 │
+│           GitHub Actions (every 15 minutes)                      │
+│   collect_data.py → APIs → JSON files → GitHub Pages deploy      │
+└─────────────────────────────────────────────────────────────────┘
+                               ↓
+┌─────────────────────────────────────────────────────────────────┐
+│                    docs/data/*.json                              │
+│   amtrak │ news │ commodities │ infrastructure │ vessels         │
+└─────────────────────────────────────────────────────────────────┘
+                               ↓
+┌─────────────────────────────────────────────────────────────────┐
+│              Dashboard (GitHub Pages)                            │
+│   Leaflet Map │ News Panel │ Scanner Feeds │ Commodities         │
 │                                                                  │
-│   collect_data.py → Fetches from APIs → Writes JSON files        │
-└─────────────────────────────────────────────────────────────────┘
-                               ↓
-┌─────────────────────────────────────────────────────────────────┐
-│                    docs/data/                                    │
-│   amtrak.json │ news.json │ commodities.json │ infrastructure   │
-└─────────────────────────────────────────────────────────────────┘
-                               ↓
-┌─────────────────────────────────────────────────────────────────┐
-│              GitHub Pages Dashboard                              │
-│         Reads JSON files → Displays on map + panels              │
+│   + Live WebSocket connections:                                  │
+│     • AISstream (vessels) - API key in Settings                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
@@ -60,70 +84,50 @@
 
 ## Data Sources
 
-### Working Now
-
-| Source | API | What It Does |
-|--------|-----|--------------|
-| **Amtraker** | `api-v3.amtraker.com` | Tracks Amtrak trains near Baltimore |
-| **Google-News-Scraper** | Your repo | Pulls news with entity extraction |
-| **OpenRailwayMap** | Tile server | Shows rail network on map |
-
-### Needs Configuration
-
-| Source | Requirement | To Enable |
-|--------|-------------|-----------|
-| **AISstream** | API key | Add `AISSTREAM_API_KEY` secret |
-| **Commodity APIs** | API keys | Add market data API keys |
-| **Scanner Transcription** | Backend | Run ScannerTranscribe + backend |
+| Source | Type | API/URL | Auth Required |
+|--------|------|---------|---------------|
+| **Amtraker** | Trains | `api-v3.amtraker.com` | No |
+| **Google News RSS** | News | `news.google.com/rss` | No |
+| **OpenRailwayMap** | Rail tiles | `tiles.openrailwaymap.org` | No |
+| **AISstream** | Vessels | `stream.aisstream.io` | Yes (free) |
+| **Broadcastify** | Scanners | `broadcastify.com` | No |
+| **ScannerTranscribe** | Transcription | Your app | No |
 
 ---
 
-## Quick Start
+## Scanner Feeds (Broadcastify)
 
-### View the Dashboard
-
-Just visit: **https://arandomguyhere.github.io/Baltimore-Intel/**
-
-Data updates automatically every 15 minutes via GitHub Actions.
-
-### Run Data Collection Locally
-
-```bash
-cd baltimore_intel
-pip install requests
-python collect_data.py
-```
-
-### Run Full Stack (Docker)
-
-```bash
-docker-compose -f docker-compose.full.yml up -d
-```
+| Feed | ID | Coverage |
+|------|----|----------|
+| Baltimore Rail (CSX/NS/Amtrak) | 14954 | Rail communications |
+| Baltimore City/County Fire | 22380 | Fire dispatch |
+| Baltimore City Police | 32008 | Police talkgroups |
+| Baltimore County Fire/EMS | 16828 | County fire/EMS |
 
 ---
 
-## Baltimore Port Coverage
+## Port Infrastructure
 
 ### Terminals
-| Terminal | Type | Coordinates |
-|----------|------|-------------|
-| Seagirt | Containers | 39.2558, -76.5528 |
-| Dundalk | RoRo, Breakbulk | 39.2467, -76.5256 |
-| CNX Marine | Coal Export | 39.2089, -76.5847 |
-| Fairfield | Automobiles | 39.2156, -76.5678 |
+| Terminal | Type | Status |
+|----------|------|--------|
+| Seagirt Marine Terminal | Container | Operational |
+| Dundalk Marine Terminal | RoRo/Breakbulk | Operational |
+| CNX Marine Terminal | Coal Export | Operational |
+| Fairfield Auto Terminal | Automobiles | Operational |
 
 ### Rail
-- **CSX** - Howard Street Tunnel (capacity bottleneck)
-- **Norfolk Southern** - Bayview Yard
-- **Amtrak NEC** - Penn Station
+| Location | Operator | Notes |
+|----------|----------|-------|
+| Howard Street Tunnel | CSX | Capacity bottleneck |
+| Penn Station | Amtrak | NEC hub |
+| Bayview Yard | Norfolk Southern | Intermodal |
 
-### Scanner Feeds (Broadcastify)
-| Feed | ID |
-|------|----|
-| Baltimore Terminal Railroad | 43356 |
-| CSX/NS Regional | 14954 |
-| Baltimore Marine | 42710 |
-| Coast Guard Sector | 31547 |
+### Chokepoints
+| Location | Status | Notes |
+|----------|--------|-------|
+| Fort McHenry Channel | Operational | Main ship channel |
+| Key Bridge Area | Critical | Bridge collapse - restricted navigation |
 
 ---
 
@@ -131,24 +135,52 @@ docker-compose -f docker-compose.full.yml up -d
 
 ```
 Baltimore-Intel/
-├── docs/                      # GitHub Pages dashboard
-│   ├── index.html             # Main dashboard
-│   └── data/                  # JSON data files (auto-updated)
-│       ├── amtrak.json
-│       ├── news.json
-│       ├── commodities.json
-│       └── infrastructure.json
-├── baltimore_intel/           # Python modules
-│   ├── collect_data.py        # Data collection script
-│   ├── ais_integration.py     # AIS tracking (needs API key)
-│   ├── rail_tracking.py       # Rail monitoring
-│   ├── scanner_feeds.py       # Scanner config
-│   ├── commodities.py         # Commodity tracking
-│   └── intelligence_hub.py    # Correlation engine
-├── Watcher/                   # Watcher engine (Django)
-└── .github/workflows/
-    └── collect-data.yml       # Scheduled data collection
+├── docs/                          # GitHub Pages dashboard
+│   ├── index.html                 # Main dashboard (Leaflet + panels)
+│   └── data/                      # JSON data (auto-updated)
+│       ├── amtrak.json            # Train positions
+│       ├── news.json              # Baltimore news
+│       ├── commodities.json       # Port commodities
+│       ├── infrastructure.json    # Status monitoring
+│       ├── vessels.json           # AIS vessel data
+│       └── manifest.json          # Data manifest
+├── baltimore_intel/               # Python data collectors
+│   └── collect_data.py            # Main collector script
+├── .github/workflows/
+│   ├── collect-and-deploy.yml     # Scheduled collection + deploy
+│   ├── auto-assign.yml            # Issue assignment
+│   └── codeql-analysis.yml        # Security scanning
+└── README.md
 ```
+
+---
+
+## Local Development
+
+### Run Data Collector
+```bash
+cd baltimore_intel
+pip install requests websocket-client
+python collect_data.py
+```
+
+### With AIS (requires API key)
+```bash
+export AISSTREAM_API_KEY=your_key_here
+python collect_data.py
+```
+
+---
+
+## GitHub Secrets (Optional)
+
+For automated AIS collection via GitHub Actions:
+
+| Secret | Description |
+|--------|-------------|
+| `AISSTREAM_API_KEY` | AISstream.io API key for vessel tracking |
+
+Add at: Repository Settings → Secrets → Actions → New secret
 
 ---
 
@@ -156,25 +188,21 @@ Baltimore-Intel/
 
 | Project | Description |
 |---------|-------------|
+| [ScannerTranscribe](https://github.com/arandomguyhere/ScannerTranscribe) | Browser-based scanner transcription with Whisper AI |
 | [Google-News-Scraper](https://github.com/arandomguyhere/Google-News-Scraper) | News aggregation with entity extraction |
 | [AIS_Tracker](https://github.com/arandomguyhere/AIS_Tracker) | Vessel tracking dashboard |
-| [ScannerTranscribe](https://github.com/arandomguyhere/ScannerTranscribe) | Scanner audio transcription |
-| [geopolitical-threat-mapper](https://github.com/arandomguyhere/geopolitical-threat-mapper) | Threat visualization |
-
----
-
-## Future Roadmap
-
-- [ ] Add AISstream integration (needs API key)
-- [ ] Connect ScannerTranscribe for live transcripts
-- [ ] Real commodity price APIs
-- [ ] TheHive/MISP integration for alerting
-- [ ] Historical trend analysis
 
 ---
 
 ## Credits
 
-- **Watcher Engine** - [Thales Group CERT](https://github.com/thalesgroup-cert/Watcher)
 - **Amtraker** - [amtraker.com](https://amtraker.com/)
 - **OpenRailwayMap** - [openrailwaymap.org](https://www.openrailwaymap.org/)
+- **AISstream** - [aisstream.io](https://aisstream.io/)
+- **Broadcastify** - [broadcastify.com](https://www.broadcastify.com/)
+
+---
+
+## License
+
+AGPL-3.0 - See [LICENSE](./LICENSE)
