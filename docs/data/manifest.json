@@ -1,24 +1,30 @@
 {
-  "last_updated": "2026-01-14T09:34:16.422101+00:00",
+  "last_updated": "2026-01-14T09:45:36.317775+00:00",
+  "version": "1.0.0",
   "data_files": [
     {
       "name": "amtrak.json",
       "description": "Amtrak trains near Baltimore",
-      "update_frequency": "5 minutes"
+      "update_frequency": "15 minutes"
     },
     {
       "name": "news.json",
-      "description": "News from Google-News-Scraper",
-      "update_frequency": "4 hours"
+      "description": "Baltimore/port news from Google News RSS",
+      "update_frequency": "15 minutes"
     },
     {
       "name": "commodities.json",
       "description": "Port-relevant commodity prices",
-      "update_frequency": "30 minutes"
+      "update_frequency": "15 minutes"
     },
     {
       "name": "infrastructure.json",
-      "description": "Infrastructure status",
+      "description": "Terminal and chokepoint status",
+      "update_frequency": "15 minutes"
+    },
+    {
+      "name": "vessels.json",
+      "description": "AIS vessel positions in Chesapeake Bay",
       "update_frequency": "15 minutes"
     }
   ],
@@ -29,7 +35,7 @@
       "status": "active"
     },
     "news": {
-      "api": "GitHub raw",
+      "api": "news.google.com/rss",
       "requires_key": false,
       "status": "active"
     },
@@ -41,12 +47,25 @@
     "ais": {
       "api": "aisstream.io",
       "requires_key": true,
-      "status": "pending"
+      "status": "active"
     },
     "scanner": {
-      "api": "broadcastify",
+      "api": "broadcastify.com",
       "requires_key": false,
       "status": "links_only"
     }
+  },
+  "dashboard": {
+    "url": "https://arandomguyhere.github.io/Baltimore-Intel/",
+    "features": [
+      "map",
+      "news",
+      "scanners",
+      "commodities",
+      "vessels"
+    ],
+    "live_connections": [
+      "aisstream (via settings)"
+    ]
   }
 }

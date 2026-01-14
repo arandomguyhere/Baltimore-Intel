@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-01-14T09:33:43.231037+00:00",
+  "collected_at": "2026-01-14T09:45:02.916491+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 7,
   "trains": [
     {
       "trainNum": "67",
@@ -10,18 +10,18 @@
       "lon": -75.18094812657827,
       "heading": "S",
       "velocity": 0,
-      "lastUpdate": "2026-01-14T04:25:19-05:00",
+      "lastUpdate": "2026-01-14T04:40:49-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.08374021197359,
-      "lon": -77.38575217130173,
+      "lat": 38.2548599349137,
+      "lon": -77.4421181658683,
       "heading": "NW",
-      "velocity": 70.993766784668,
-      "lastUpdate": "2026-01-14T04:30:19-05:00",
+      "velocity": 71.056396484375,
+      "lastUpdate": "2026-01-14T04:42:19-05:00",
       "nextStation": "Fredericksburg",
       "status": "Active"
     },
@@ -33,6 +33,28 @@
       "heading": "N",
       "velocity": 0,
       "lastUpdate": "2026-01-14T04:42:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "170",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-14T04:50:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "601",
+      "routeName": "Keystone",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-14T04:55:00-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Predeparture"
     },
