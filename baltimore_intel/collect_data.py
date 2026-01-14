@@ -268,6 +268,106 @@ def collect_infrastructure_status():
     return True
 
 
+def collect_ais():
+    """
+    Collect AIS vessel data from AISstream.io
+    Requires AISSTREAM_API_KEY environment variable.
+    """
+    print("Collecting AIS vessel data...")
+
+    api_key = os.environ.get('AISSTREAM_API_KEY')
+    if not api_key:
+        print("  No AISSTREAM_API_KEY set, skipping AIS collection")
+        return True  # Don't fail, just skip
+
+    # Baltimore area bounding box
+    # Covers Port of Baltimore, Chesapeake Bay entrance
+    bbox = [
+        [-76.7, 39.1],  # SW corner
+        [-76.3, 39.4]   # NE corner
+    ]
+
+    try:
+        import websocket
+        import time
+
+        vessels = []
+        ws_url = "wss://stream.aisstream.io/v0/stream"
+
+        # Connect and collect for 30 seconds
+        def on_message(ws, message):
+            data = json.loads(message)
+            if data.get('MessageType') == 'PositionReport':
+                msg = data.get('Message', {}).get('PositionReport', {})
+                meta = data.get('MetaData', {})
+                vessels.append({
+                    'mmsi': meta.get('MMSI'),
+                    'name': meta.get('ShipName', '').strip(),
+                    'lat': msg.get('Latitude'),
+                    'lon': msg.get('Longitude'),
+                    'speed': msg.get('Sog'),  # Speed over ground
+                    'course': msg.get('Cog'),  # Course over ground
+                    'heading': msg.get('TrueHeading'),
+                    'ship_type': meta.get('ShipType'),
+                    'timestamp': datetime.now(timezone.utc).isoformat()
+                })
+
+        def on_open(ws):
+            subscribe = {
+                "APIKey": api_key,
+                "BoundingBoxes": [bbox]
+            }
+            ws.send(json.dumps(subscribe))
+
+        def on_error(ws, error):
+            print(f"  WebSocket error: {error}")
+
+        ws = websocket.WebSocketApp(
+            ws_url,
+            on_message=on_message,
+            on_open=on_open,
+            on_error=on_error
+        )
+
+        # Run for 30 seconds to collect vessels
+        import threading
+        wst = threading.Thread(target=ws.run_forever)
+        wst.daemon = True
+        wst.start()
+        time.sleep(30)
+        ws.close()
+
+        # Deduplicate by MMSI (keep latest position)
+        unique_vessels = {}
+        for v in vessels:
+            if v['mmsi']:
+                unique_vessels[v['mmsi']] = v
+        vessels = list(unique_vessels.values())
+
+        result = {
+            'collected_at': datetime.now(timezone.utc).isoformat(),
+            'source': 'AISstream.io',
+            'region': 'Baltimore / Chesapeake Bay',
+            'bbox': bbox,
+            'vessel_count': len(vessels),
+            'vessels': vessels
+        }
+
+        output_file = OUTPUT_DIR / "vessels.json"
+        with open(output_file, 'w') as f:
+            json.dump(result, f, indent=2)
+
+        print(f"  Collected {len(vessels)} vessels")
+        return True
+
+    except ImportError:
+        print("  websocket-client not installed, skipping AIS")
+        return True
+    except Exception as e:
+        print(f"  Error collecting AIS data: {e}")
+        return True  # Don't fail the whole collection
+
+
 def create_manifest():
     """Create a manifest file listing all available data."""
     manifest = {
@@ -304,7 +404,8 @@ def main():
         'amtrak': collect_amtrak(),
         'news': collect_news(),
         'commodities': collect_commodities(),
-        'infrastructure': collect_infrastructure_status()
+        'infrastructure': collect_infrastructure_status(),
+        'ais': collect_ais()
     }
 
     create_manifest()

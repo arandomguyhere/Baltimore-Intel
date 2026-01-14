@@ -37,9 +37,11 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests
+        run: pip install requests websocket-client
 
       - name: Run data collector
+        env:
+          AISSTREAM_API_KEY: ${{ secrets.AISSTREAM_API_KEY }}
         run: python baltimore_intel/collect_data.py
 
       - name: Check for changes
