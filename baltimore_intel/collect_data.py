@@ -282,11 +282,11 @@ def collect_ais():
 
     print(f"  API key found (starts with: {api_key[:8]}...)")
 
-    # Expanded bounding box - Baltimore to Chesapeake Bay entrance
-    # Covers Port of Baltimore, shipping lanes, and Bay entrance
+    # Bounding box format: [[lat_min, lon_min], [lat_max, lon_max]]
+    # Covers Port of Baltimore, shipping lanes, and Chesapeake Bay entrance
     bbox = [
-        [-76.8, 36.8],  # SW corner (near Norfolk/Bay entrance)
-        [-75.8, 39.5]   # NE corner (above Baltimore)
+        [36.8, -76.8],  # SW corner (near Norfolk/Bay entrance)
+        [39.5, -75.8]   # NE corner (above Baltimore)
     ]
 
     try:
