@@ -579,6 +579,109 @@
             color: var(--text-secondary);
         }
 
+        /* Settings Modal */
+        .settings-modal {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.7);
+            z-index: 2000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .settings-content {
+            background: var(--bg-card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            width: 400px;
+            max-width: 90%;
+        }
+        .settings-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            border-bottom: 1px solid var(--border);
+        }
+        .settings-header h3 { margin: 0; font-size: 16px; }
+        .close-btn {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            font-size: 24px;
+            cursor: pointer;
+        }
+        .close-btn:hover { color: var(--text-primary); }
+        .settings-body { padding: 20px; }
+        .setting-group { margin-bottom: 20px; }
+        .setting-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 5px;
+        }
+        .setting-desc {
+            font-size: 12px;
+            color: var(--text-secondary);
+            margin: 0 0 10px 0;
+        }
+        .setting-desc a { color: var(--accent); }
+        .setting-group input {
+            width: 100%;
+            padding: 10px;
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            color: var(--text-primary);
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+        .setting-group input:focus {
+            outline: none;
+            border-color: var(--accent);
+        }
+        .setting-actions {
+            display: flex;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .btn-primary {
+            flex: 1;
+            padding: 10px;
+            background: var(--accent);
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-weight: 500;
+        }
+        .btn-primary:hover { background: #2563eb; }
+        .btn-secondary {
+            padding: 10px 15px;
+            background: var(--bg-secondary);
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .btn-secondary:hover { background: var(--bg-card); }
+        .setting-status {
+            margin-top: 10px;
+            padding: 8px;
+            border-radius: 4px;
+            font-size: 12px;
+        }
+        .setting-status.success {
+            background: rgba(34, 197, 94, 0.1);
+            color: #22c55e;
+        }
+        .setting-status.error {
+            background: rgba(239, 68, 68, 0.1);
+            color: #ef4444;
+        }
+
         /* Responsive */
         @media (max-width: 1200px) {
             .main-container {
@@ -615,10 +718,33 @@
             </div>
         </div>
         <div class="header-links">
+            <a href="#" onclick="toggleSettings()" title="Settings">Settings</a>
             <a href="https://github.com/arandomguyhere/Baltimore-Intel">GitHub</a>
             <a href="https://github.com/arandomguyhere/Baltimore-Intel#api-reference">API</a>
         </div>
     </header>
+
+    <!-- Settings Modal -->
+    <div id="settings-modal" class="settings-modal" style="display:none;">
+        <div class="settings-content">
+            <div class="settings-header">
+                <h3>Settings</h3>
+                <button onclick="toggleSettings()" class="close-btn">&times;</button>
+            </div>
+            <div class="settings-body">
+                <div class="setting-group">
+                    <label>AISstream API Key</label>
+                    <p class="setting-desc">Get your free API key from <a href="https://aisstream.io" target="_blank">aisstream.io</a></p>
+                    <input type="password" id="ais-api-key" placeholder="Enter your AISstream API key">
+                    <div class="setting-actions">
+                        <button onclick="saveAisKey()" class="btn-primary">Save & Connect</button>
+                        <button onclick="clearAisKey()" class="btn-secondary">Clear</button>
+                    </div>
+                    <div id="ais-status" class="setting-status"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <div class="main-container">
         <!-- Left Sidebar: Infrastructure -->
@@ -1116,6 +1242,157 @@
             } catch (error) {
                 console.log('Vessels data not available yet');
             }
+        }
+
+        // Settings modal
+        function toggleSettings() {
+            const modal = document.getElementById('settings-modal');
+            modal.style.display = modal.style.display === 'none' ? 'flex' : 'none';
+            // Load saved key if exists
+            const savedKey = localStorage.getItem('aisstream_api_key');
+            if (savedKey) {
+                document.getElementById('ais-api-key').value = savedKey;
+            }
+        }
+
+        // AIS WebSocket connection
+        let aisSocket = null;
+        let aisConnected = false;
+
+        function saveAisKey() {
+            const key = document.getElementById('ais-api-key').value.trim();
+            if (!key) {
+                showAisStatus('Please enter an API key', 'error');
+                return;
+            }
+            localStorage.setItem('aisstream_api_key', key);
+            showAisStatus('Connecting...', '');
+            connectAisStream(key);
+        }
+
+        function clearAisKey() {
+            localStorage.removeItem('aisstream_api_key');
+            document.getElementById('ais-api-key').value = '';
+            if (aisSocket) {
+                aisSocket.close();
+                aisSocket = null;
+            }
+            aisConnected = false;
+            updateAisIndicator(false);
+            showAisStatus('API key cleared', '');
+        }
+
+        function showAisStatus(msg, type) {
+            const el = document.getElementById('ais-status');
+            el.textContent = msg;
+            el.className = 'setting-status' + (type ? ' ' + type : '');
+        }
+
+        function updateAisIndicator(connected) {
+            const dot = document.querySelector('.header-status .status-item:last-child .status-dot');
+            if (dot) {
+                dot.className = 'status-dot ' + (connected ? 'live' : 'warning');
+            }
+        }
+
+        function connectAisStream(apiKey) {
+            if (aisSocket) {
+                aisSocket.close();
+            }
+
+            const bbox = [[-76.8, 36.8], [-75.8, 39.5]]; // Chesapeake Bay
+
+            try {
+                aisSocket = new WebSocket('wss://stream.aisstream.io/v0/stream');
+
+                aisSocket.onopen = () => {
+                    console.log('AIS WebSocket connected');
+                    aisSocket.send(JSON.stringify({
+                        APIKey: apiKey,
+                        BoundingBoxes: [bbox]
+                    }));
+                };
+
+                aisSocket.onmessage = (event) => {
+                    const data = JSON.parse(event.data);
+
+                    if (!aisConnected) {
+                        aisConnected = true;
+                        updateAisIndicator(true);
+                        showAisStatus('Connected - receiving live data', 'success');
+                        toggleSettings(); // Close modal on success
+                    }
+
+                    if (data.MessageType === 'PositionReport') {
+                        const msg = data.Message?.PositionReport;
+                        const meta = data.MetaData;
+                        if (msg && meta) {
+                            addLiveVessel({
+                                mmsi: meta.MMSI,
+                                name: (meta.ShipName || '').trim(),
+                                lat: msg.Latitude,
+                                lon: msg.Longitude,
+                                speed: msg.Sog,
+                                course: msg.Cog
+                            });
+                        }
+                    }
+                };
+
+                aisSocket.onerror = (err) => {
+                    console.error('AIS WebSocket error:', err);
+                    showAisStatus('Connection error - check API key', 'error');
+                    aisConnected = false;
+                    updateAisIndicator(false);
+                };
+
+                aisSocket.onclose = () => {
+                    console.log('AIS WebSocket closed');
+                    if (aisConnected) {
+                        showAisStatus('Disconnected', 'error');
+                    }
+                    aisConnected = false;
+                    updateAisIndicator(false);
+                };
+
+            } catch (e) {
+                showAisStatus('Failed to connect: ' + e.message, 'error');
+            }
+        }
+
+        // Track live vessels
+        const liveVessels = {};
+        function addLiveVessel(v) {
+            if (!v.lat || !v.lon || !vesselsVisible) return;
+
+            const vesselIcon = L.divIcon({
+                className: 'custom-div-icon',
+                html: `<div style="background:#22c55e;width:8px;height:8px;border-radius:2px;border:1px solid white;transform:rotate(45deg);"></div>`,
+                iconSize: [8, 8],
+                iconAnchor: [4, 4]
+            });
+
+            if (liveVessels[v.mmsi]) {
+                // Update existing marker position
+                liveVessels[v.mmsi].setLatLng([v.lat, v.lon]);
+            } else {
+                // Create new marker
+                const marker = L.marker([v.lat, v.lon], { icon: vesselIcon })
+                    .bindPopup(`
+                        <div class="popup-title">${v.name || 'Unknown Vessel'}</div>
+                        <div class="popup-type">MMSI: ${v.mmsi}</div>
+                        <div class="popup-type">Speed: ${v.speed || 0} kts | Course: ${v.course || 0}°</div>
+                    `);
+                if (vesselsVisible) marker.addTo(map);
+                liveVessels[v.mmsi] = marker;
+                vesselMarkers.push(marker);
+            }
+        }
+
+        // Auto-connect if key exists
+        const savedAisKey = localStorage.getItem('aisstream_api_key');
+        if (savedAisKey) {
+            setTimeout(() => connectAisStream(savedAisKey), 1000);
         }
 
         // Load all data
