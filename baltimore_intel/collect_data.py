@@ -85,87 +85,81 @@ def collect_amtrak():
 
 def collect_news():
     """
-    Collect news from Google-News-Scraper repo.
-    Try multiple possible URLs, keep existing data if all fail.
+    Collect Baltimore-specific news from Google News RSS.
+    Searches for Port of Baltimore, shipping, infrastructure topics.
     """
-    print("Collecting news data...")
+    import xml.etree.ElementTree as ET
+    from urllib.parse import quote
 
-    # Try multiple possible URLs
-    urls_to_try = [
-        "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/main/docs/feed.json",
-        "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/main/feed.json",
-        "https://raw.githubusercontent.com/arandomguyhere/Google-News-Scraper/master/docs/feed.json",
+    print("Collecting Baltimore news...")
+
+    # Baltimore-specific search queries
+    search_queries = [
+        "Port of Baltimore",
+        "Baltimore shipping",
+        "Baltimore harbor",
+        "Maryland transportation infrastructure",
+        "Baltimore rail freight",
+        "Chesapeake Bay shipping",
     ]
 
-    data = None
-    for url in urls_to_try:
-        try:
-            response = requests.get(url, timeout=30)
-            if response.status_code == 200:
-                data = response.json()
-                print(f"  Found feed at: {url}")
-                break
-        except Exception:
-            continue
-
-    if data is None:
-        print("  Could not fetch news feed, keeping existing data")
-        return True  # Don't fail, just keep existing data
-
-    # Extract stories
     stories = []
+    seen_titles = set()
 
-    if data.get('clusters'):
-        for cluster in data['clusters']:
-            if cluster.get('stories'):
-                for story in cluster['stories'][:3]:
-                    stories.append({
-                        'title': story.get('title'),
-                        'url': story.get('url'),
-                        'source': story.get('source'),
-                        'cluster_confidence': cluster.get('confidence', 0)
-                    })
+    for query in search_queries:
+        try:
+            # Google News RSS feed URL
+            encoded_query = quote(query)
+            url = f"https://news.google.com/rss/search?q={encoded_query}&hl=en-US&gl=US&ceid=US:en"
 
-    if data.get('timeline'):
-        for item in data['timeline'][:10]:
-            stories.append({
-                'title': item.get('title'),
-                'url': item.get('url'),
-                'source': item.get('source'),
-                'date': item.get('date')
+            response = requests.get(url, timeout=15, headers={
+                'User-Agent': 'Mozilla/5.0 (compatible; BaltimoreIntel/1.0)'
             })
 
-    # Deduplicate
-    seen = set()
-    unique_stories = []
-    for s in stories:
-        if s['title'] and s['title'] not in seen:
-            seen.add(s['title'])
-            unique_stories.append(s)
+            if response.status_code == 200:
+                root = ET.fromstring(response.content)
 
-    # Extract entities/connections (safely handle different data structures)
-    def safe_list(val, limit=10):
-        if isinstance(val, list):
-            return val[:limit]
-        return []
+                for item in root.findall('.//item')[:5]:  # Top 5 per query
+                    title = item.find('title')
+                    link = item.find('link')
+                    pub_date = item.find('pubDate')
+                    source = item.find('source')
 
-    connections = data.get('connections', {})
-    if not isinstance(connections, dict):
-        connections = {}
+                    title_text = title.text if title is not None else None
+
+                    if title_text and title_text not in seen_titles:
+                        seen_titles.add(title_text)
+                        stories.append({
+                            'title': title_text,
+                            'url': link.text if link is not None else None,
+                            'source': source.text if source is not None else 'Google News',
+                            'date': pub_date.text if pub_date is not None else None,
+                            'query': query
+                        })
+
+        except Exception as e:
+            print(f"  Error fetching '{query}': {e}")
+            continue
+
+    if not stories:
+        print("  No news found, keeping existing data")
+        return True
+
+    # Sort by date (newest first) and limit
+    unique_stories = stories[:20]
 
     entities = {
-        'countries': safe_list(connections.get('countries')),
-        'sectors': safe_list(connections.get('sectors')),
-        'threat_actors': safe_list(connections.get('threat_actors'))
+        'topics': list(set(s.get('query', '') for s in unique_stories)),
+        'sources': list(set(s.get('source', '') for s in unique_stories if s.get('source')))[:10]
     }
 
     result = {
         'collected_at': datetime.now(timezone.utc).isoformat(),
-        'source': 'Google-News-Scraper',
+        'source': 'Google News RSS',
+        'region': 'Baltimore / Port of Baltimore',
         'total_stories': len(unique_stories),
-        'stories': unique_stories[:20],
-        'entities': entities,
-        'summary': data.get('summary', {})
+        'stories': unique_stories,
+        'entities': entities
     }
 
     output_file = OUTPUT_DIR / "news.json"
@@ -274,6 +268,106 @@ def collect_infrastructure_status():
     return True
 
 
+def collect_ais():
+    """
+    Collect AIS vessel data from AISstream.io
+    Requires AISSTREAM_API_KEY environment variable.
+    """
+    print("Collecting AIS vessel data...")
+
+    api_key = os.environ.get('AISSTREAM_API_KEY')
+    if not api_key:
+        print("  No AISSTREAM_API_KEY set, skipping AIS collection")
+        return True  # Don't fail, just skip
+
+    # Baltimore area bounding box
+    # Covers Port of Baltimore, Chesapeake Bay entrance
+    bbox = [
+        [-76.7, 39.1],  # SW corner
+        [-76.3, 39.4]   # NE corner
+    ]
+
+    try:
+        import websocket
+        import time
+
+        vessels = []
+        ws_url = "wss://stream.aisstream.io/v0/stream"
+
+        # Connect and collect for 30 seconds
+        def on_message(ws, message):
+            data = json.loads(message)
+            if data.get('MessageType') == 'PositionReport':
+                msg = data.get('Message', {}).get('PositionReport', {})
+                meta = data.get('MetaData', {})
+                vessels.append({
+                    'mmsi': meta.get('MMSI'),
+                    'name': meta.get('ShipName', '').strip(),
+                    'lat': msg.get('Latitude'),
+                    'lon': msg.get('Longitude'),
+                    'speed': msg.get('Sog'),  # Speed over ground
+                    'course': msg.get('Cog'),  # Course over ground
+                    'heading': msg.get('TrueHeading'),
+                    'ship_type': meta.get('ShipType'),
+                    'timestamp': datetime.now(timezone.utc).isoformat()
+                })
+
+        def on_open(ws):
+            subscribe = {
+                "APIKey": api_key,
+                "BoundingBoxes": [bbox]
+            }
+            ws.send(json.dumps(subscribe))
+
+        def on_error(ws, error):
+            print(f"  WebSocket error: {error}")
+
+        ws = websocket.WebSocketApp(
+            ws_url,
+            on_message=on_message,
+            on_open=on_open,
+            on_error=on_error
+        )
+
+        # Run for 30 seconds to collect vessels
+        import threading
+        wst = threading.Thread(target=ws.run_forever)
+        wst.daemon = True
+        wst.start()
+        time.sleep(30)
+        ws.close()
+
+        # Deduplicate by MMSI (keep latest position)
+        unique_vessels = {}
+        for v in vessels:
+            if v['mmsi']:
+                unique_vessels[v['mmsi']] = v
+        vessels = list(unique_vessels.values())
+
+        result = {
+            'collected_at': datetime.now(timezone.utc).isoformat(),
+            'source': 'AISstream.io',
+            'region': 'Baltimore / Chesapeake Bay',
+            'bbox': bbox,
+            'vessel_count': len(vessels),
+            'vessels': vessels
+        }
+
+        output_file = OUTPUT_DIR / "vessels.json"
+        with open(output_file, 'w') as f:
+            json.dump(result, f, indent=2)
+
+        print(f"  Collected {len(vessels)} vessels")
+        return True
+
+    except ImportError:
+        print("  websocket-client not installed, skipping AIS")
+        return True
+    except Exception as e:
+        print(f"  Error collecting AIS data: {e}")
+        return True  # Don't fail the whole collection
+
+
 def create_manifest():
     """Create a manifest file listing all available data."""
     manifest = {
@@ -310,7 +404,8 @@ def main():
         'amtrak': collect_amtrak(),
         'news': collect_news(),
         'commodities': collect_commodities(),
-        'infrastructure': collect_infrastructure_status()
+        'infrastructure': collect_infrastructure_status(),
+        'ais': collect_ais()
     }
 
     create_manifest()

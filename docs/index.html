@@ -749,6 +749,10 @@
                     <span class="legend-icon chokepoint"></span>
                     <span>Chokepoint</span>
                 </div>
+                <div class="legend-item">
+                    <span class="legend-icon vessel"></span>
+                    <span>Vessel (AIS)</span>
+                </div>
             </div>
         </div>
 
@@ -931,12 +935,28 @@
         });
 
         // Layer toggles
+        let vesselsVisible = false;
         document.getElementById('toggle-rail').addEventListener('click', function() {
             this.classList.toggle('active');
             if (this.classList.contains('active')) {
                 map.addLayer(railLayer);
             } else {
                 map.removeLayer(railLayer);
+            }
+        });
+
+        document.getElementById('toggle-vessels').addEventListener('click', function() {
+            this.classList.toggle('active');
+            vesselsVisible = this.classList.contains('active');
+            vesselMarkers.forEach(m => {
+                if (vesselsVisible) {
+                    map.addLayer(m);
+                } else {
+                    map.removeLayer(m);
+                }
+            });
+            if (vesselsVisible && vesselMarkers.length === 0) {
+                loadVessels();
             }
         });
 
@@ -1056,10 +1076,46 @@
         }
 
         function transcribeFeed(feedId, feedName) {
-            // Open Broadcastify feed first (for audio source)
-            window.open(`https://www.broadcastify.com/listen/feed/${feedId}`, 'broadcastify_' + feedId);
-            // Open ScannerTranscribe to capture and transcribe
-            window.open(SCANNER_TRANSCRIBE_URL + '?feed=' + feedId, 'scanner_transcribe');
+            // Open ScannerTranscribe with feed ID
+            window.open(SCANNER_TRANSCRIBE_URL + '?feed=' + feedId, '_blank');
+        }
+
+        // Load AIS vessel data
+        const vesselMarkers = [];
+        async function loadVessels() {
+            try {
+                const response = await fetch(`${DATA_BASE}/vessels.json`);
+                const data = await response.json();
+
+                // Clear old markers
+                vesselMarkers.forEach(m => map.removeLayer(m));
+                vesselMarkers.length = 0;
+
+                // Ship icon (green for vessels)
+                const vesselIcon = L.divIcon({
+                    className: 'custom-div-icon',
+                    html: `<div style="background:#22c55e;width:8px;height:8px;border-radius:2px;border:1px solid white;transform:rotate(45deg);"></div>`,
+                    iconSize: [8, 8],
+                    iconAnchor: [4, 4]
+                });
+
+                data.vessels.forEach(v => {
+                    if (v.lat && v.lon) {
+                        const marker = L.marker([v.lat, v.lon], { icon: vesselIcon })
+                            .addTo(map)
+                            .bindPopup(`
+                                <div class="popup-title">${v.name || 'Unknown Vessel'}</div>
+                                <div class="popup-type">MMSI: ${v.mmsi}</div>
+                                <div class="popup-type">Speed: ${v.speed || 0} kts | Course: ${v.course || 0}°</div>
+                            `);
+                        vesselMarkers.push(marker);
+                    }
+                });
+
+                console.log(`Loaded ${data.vessels.length} vessels`);
+            } catch (error) {
+                console.log('Vessels data not available yet');
+            }
         }
 
         // Load all data
@@ -1067,7 +1123,8 @@
             await Promise.all([
                 loadNews(),
                 loadTrains(),
-                loadCommodities()
+                loadCommodities(),
+                loadVessels()
             ]);
         }
 
