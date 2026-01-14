@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-01-14T22:47:06.894065+00:00",
+  "collected_at": "2026-01-14T23:17:16.173278+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -75,6 +75,20 @@
       "query": "Baltimore shipping"
     },
     {
+      "title": "A massive Inner Harbor hotel \u2014 and its restaurant \u2014 have closed - The Baltimore Banner",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeVd1c2g3aUltaDJ6WFN6clQ1TWFweHAtNjlFSWFRNmR6RGc4N1Z5LWNlYzFiT1RlUHBrUFpxQkZSVnlvTHp0dWJjd0FFRzNDOTRiYXB1Y2JaSTJULUVFc3VSUm44Z0o4RFA0M3RidjVMdkRLU2t3WnI5UnlwNE91SFRFbi1idEtHNEZNMllFWTg4TlJWdnpPRW54bWtFaEIyeDZpWktMQi0yVDlQWEh3eFFrYnEyNl9uWVpkMnRyeFJ0cEJu?oc=5",
+      "source": "The Baltimore Banner",
+      "date": "Wed, 14 Jan 2026 20:55:00 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
+      "title": "Inner Harbor hotel closing its doors - WMAR 2 News Baltimore",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVFJEMm8wQ2xHZzhhR2ozUGxDd0JueS10MHdrWlJaUjROQUlnWXJsUVAxNURHVVZtMTIwOS1CRWNNXzJNREdNUnk5X2tZbV9JS2RwVlc5UmhMVEdRcGNZLUtfMndtclN0NXlFR0dCUHZ0QU9pTGw2WTFKZW5mdW5aVXhpbDM1QzVMOUxGeTlWV2tjWkU?oc=5",
+      "source": "WMAR 2 News Baltimore",
+      "date": "Wed, 14 Jan 2026 22:52:35 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
       "title": "An Insider\u2019s Guide to Visiting Baltimore\u2019s Fells Point - Northern Virginia Magazine",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOV3BkT0YtVHJtZElzd3l5M196aDBsMHd5SGxwUXJjTWNYRmIxcjNCVjhsTURoa3Q0UVhCaTFFVFY4YXdSRWVILWZGRU83R0pRTndoZmEtU3VZYjFWT1FtSTZqWHEzZ25YblBzQUpyZFlSdF9qeEtjZUY0VEpnRU9yV2h6cHBNdEtEV21aVVNHRWxXc1JDekJoSXhXSDlYS2RRNVVnZmdxLXUwZlNVTzYzTFV4ZG9Mbjg?oc=5",
       "source": "Northern Virginia Magazine",
@@ -93,20 +107,6 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPTURaYlRDeUVaeXN2d3hhNzdfcHRjR2VSa0Q5ZjRiZHBjRTFXT3ptQWxUdkVuUWc3aGhHMXIyWkxUVDNDRjZIVFplX1pDSnRzbWVfb0t4RmtBLWxuWnIzbWlpX2tfTUZTQ2ZpQThqVVgxSmJhREJKS1hVWEREWEVpVWUwVnlRNEJPbTVrU2QxVExoNWZOdjVwcWVjZzlycHQ5SVlpUHU2SXRjMkpUbGlHXzZndXFNVkpTQWZodkRGRU81cm45M2JkM29R?oc=5",
       "source": "Baltimore Magazine",
       "date": "Thu, 08 Jan 2026 16:48:21 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "Baltimore's Inner Harbor rings in 2026 with music and fireworks - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNNjR6eVhZUkxtWDNZRk9yVXlkcnZaX3VaYUpjMGR5aVd3SUNpMWRoTEVNVEZEcEpKMlRkMFk3REVLRndScjRLZXZHOTVmZzZkLTVEbkkyak9hcVl1dG5pMXB4WktrVEhKOTRscDFPWE5yTVlVR1JhV293ZGFxczBHZ2dtZnN4azRaZWtVZ0tIcFBrdXM?oc=5",
-      "source": "CBS News",
-      "date": "Wed, 31 Dec 2025 08:00:00 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "82-year-old man dies after being found in Baltimore harbor - WBFF",
-      "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE50LUotOHNiS2F5ejhZbU9MY1BaZGpFQnJla1I0cThXNWE3NF9pMUdDRmpnNkJ2MFFRRGdudDhXZ1pwcEZyX1Nuc3VCX0xqZ0hhMXl2LUJsZElCSVVFZ0ozRkw3NmtmVDlXZzZrRlozZDZlNHU5cFRjcW8zdU56QQ?oc=5",
-      "source": "WBFF",
-      "date": "Wed, 17 Dec 2025 08:00:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Port of Baltimore",
       "Baltimore shipping",
-      "Baltimore harbor",
-      "Maryland transportation infrastructure"
+      "Maryland transportation infrastructure",
+      "Port of Baltimore",
+      "Baltimore harbor"
     ],
     "sources": [
-      "WYPR",
-      "Baird Maritime",
-      "Maryland Matters",
-      "Baltimore Magazine",
-      "Office of Governor Wes Moore (.gov)",
       "The Maritime Executive",
-      "WBFF",
-      "FreightWaves",
+      "Maryland Matters",
+      "Baird Maritime",
+      "Baltimore Sun",
       "WMAR 2 News Baltimore",
-      "The Spokesman-Review"
+      "WYPR",
+      "Northern Virginia Magazine",
+      "CBS News",
+      "The Spokesman-Review",
+      "FreightWaves"
     ]
   }
 }
