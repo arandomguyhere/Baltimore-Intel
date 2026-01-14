@@ -280,11 +280,11 @@ def collect_ais():
         print("  No AISSTREAM_API_KEY set, skipping AIS collection")
         return True  # Don't fail, just skip
 
-    # Baltimore area bounding box
-    # Covers Port of Baltimore, Chesapeake Bay entrance
+    # Expanded bounding box - Baltimore to Chesapeake Bay entrance
+    # Covers Port of Baltimore, shipping lanes, and Bay entrance
     bbox = [
-        [-76.7, 39.1],  # SW corner
-        [-76.3, 39.4]   # NE corner
+        [-76.8, 36.8],  # SW corner (near Norfolk/Bay entrance)
+        [-75.8, 39.5]   # NE corner (above Baltimore)
     ]
 
     try:
@@ -313,6 +313,7 @@ def collect_ais():
                 })
 
         def on_open(ws):
+            print(f"  Connected to AISstream, subscribing to bbox: {bbox}")
             subscribe = {
                 "APIKey": api_key,
                 "BoundingBoxes": [bbox]
@@ -322,11 +323,15 @@ def collect_ais():
         def on_error(ws, error):
             print(f"  WebSocket error: {error}")
 
+        def on_close(ws, close_status, close_msg):
+            print(f"  WebSocket closed: {close_status} - {close_msg}")
+
         ws = websocket.WebSocketApp(
             ws_url,
             on_message=on_message,
             on_open=on_open,
-            on_error=on_error
+            on_error=on_error,
+            on_close=on_close
         )
 
         # Run for 30 seconds to collect vessels
