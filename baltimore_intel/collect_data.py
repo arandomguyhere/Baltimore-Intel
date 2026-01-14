@@ -282,11 +282,11 @@ def collect_ais():
 
     print(f"  API key found (starts with: {api_key[:8]}...)")
 
-    # Expanded bounding box - Baltimore to Chesapeake Bay entrance
-    # Covers Port of Baltimore, shipping lanes, and Bay entrance
+    # Bounding box format: [[lat_min, lon_min], [lat_max, lon_max]]
+    # Covers Port of Baltimore, shipping lanes, and Chesapeake Bay entrance
     bbox = [
-        [-76.8, 36.8],  # SW corner (near Norfolk/Bay entrance)
-        [-75.8, 39.5]   # NE corner (above Baltimore)
+        [36.8, -76.8],  # SW corner (near Norfolk/Bay entrance)
+        [39.5, -75.8]   # NE corner (above Baltimore)
     ]
 
     try:
@@ -389,18 +389,25 @@ def create_manifest():
     """Create a manifest file listing all available data."""
     manifest = {
         'last_updated': datetime.now(timezone.utc).isoformat(),
+        'version': '1.0.0',
         'data_files': [
-            {'name': 'amtrak.json', 'description': 'Amtrak trains near Baltimore', 'update_frequency': '5 minutes'},
-            {'name': 'news.json', 'description': 'News from Google-News-Scraper', 'update_frequency': '4 hours'},
-            {'name': 'commodities.json', 'description': 'Port-relevant commodity prices', 'update_frequency': '30 minutes'},
-            {'name': 'infrastructure.json', 'description': 'Infrastructure status', 'update_frequency': '15 minutes'}
+            {'name': 'amtrak.json', 'description': 'Amtrak trains near Baltimore', 'update_frequency': '15 minutes'},
+            {'name': 'news.json', 'description': 'Baltimore/port news from Google News RSS', 'update_frequency': '15 minutes'},
+            {'name': 'commodities.json', 'description': 'Port-relevant commodity prices', 'update_frequency': '15 minutes'},
+            {'name': 'infrastructure.json', 'description': 'Terminal and chokepoint status', 'update_frequency': '15 minutes'},
+            {'name': 'vessels.json', 'description': 'AIS vessel positions in Chesapeake Bay', 'update_frequency': '15 minutes'}
         ],
         'sources': {
             'amtrak': {'api': 'api-v3.amtraker.com', 'requires_key': False, 'status': 'active'},
-            'news': {'api': 'GitHub raw', 'requires_key': False, 'status': 'active'},
+            'news': {'api': 'news.google.com/rss', 'requires_key': False, 'status': 'active'},
             'commodities': {'api': 'various', 'requires_key': True, 'status': 'simulated'},
-            'ais': {'api': 'aisstream.io', 'requires_key': True, 'status': 'pending'},
-            'scanner': {'api': 'broadcastify', 'requires_key': False, 'status': 'links_only'}
+            'ais': {'api': 'aisstream.io', 'requires_key': True, 'status': 'active'},
+            'scanner': {'api': 'broadcastify.com', 'requires_key': False, 'status': 'links_only'}
+        },
+        'dashboard': {
+            'url': 'https://arandomguyhere.github.io/Baltimore-Intel/',
+            'features': ['map', 'news', 'scanners', 'commodities', 'vessels'],
+            'live_connections': ['aisstream (via settings)']
         }
     }
 

@@ -1300,7 +1300,8 @@
                 aisSocket.close();
             }
 
-            const bbox = [[-76.8, 36.8], [-75.8, 39.5]]; // Chesapeake Bay
+            // Bounding box format: [[lat_min, lon_min], [lat_max, lon_max]]
+            const bbox = [[36.8, -76.8], [39.5, -75.8]]; // Chesapeake Bay
 
             try {
                 aisSocket = new WebSocket('wss://stream.aisstream.io/v0/stream');
