@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-01-16T08:55:22.350968+00:00",
+  "collected_at": "2026-01-16T09:26:12.341096+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "67",
@@ -10,8 +10,19 @@
       "lon": -75.18103967974646,
       "heading": "SW",
       "velocity": 0,
-      "lastUpdate": "2026-01-16T03:50:46-05:00",
+      "lastUpdate": "2026-01-16T04:20:48-05:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 37.9860457956625,
+      "lon": -77.36534352926182,
+      "heading": "N",
+      "velocity": 69.5330429077148,
+      "lastUpdate": "2026-01-16T04:24:18-05:00",
+      "nextStation": "Fredericksburg",
       "status": "Active"
     }
   ]
