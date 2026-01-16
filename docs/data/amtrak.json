@@ -1,50 +1,28 @@
 {
-  "collected_at": "2026-01-16T04:24:38.454406+00:00",
+  "collected_at": "2026-01-16T04:56:30.424613+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.456112207218176,
-      "lon": -76.21013085460062,
-      "heading": "NE",
-      "velocity": 121.105697631836,
-      "lastUpdate": "2026-01-15T23:21:51-05:00",
+      "lat": 39.73735465741956,
+      "lon": -75.55204198066265,
+      "heading": "SE",
+      "velocity": 0.0201324597001076,
+      "lastUpdate": "2026-01-15T23:54:51-05:00",
       "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 38.90331284178541,
-      "lon": -77.0042060810486,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-15T23:16:13-05:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 39.97541471566441,
-      "lon": -75.19515406534153,
-      "heading": "NE",
-      "velocity": 29.2725963592529,
-      "lastUpdate": "2026-01-15T23:21:53-05:00",
-      "nextStation": "Trenton",
       "status": "Active"
     },
     {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 40.053348955452236,
-      "lon": -76.29772399849134,
-      "heading": "W",
-      "velocity": 54.5315208435059,
-      "lastUpdate": "2026-01-15T23:21:48-05:00",
-      "nextStation": "Lancaster",
+      "lat": 40.219135710992816,
+      "lon": -76.82276384752112,
+      "heading": "NW",
+      "velocity": 105.404609680176,
+      "lastUpdate": "2026-01-15T23:54:50-05:00",
+      "nextStation": "Harrisburg",
       "status": "Active"
     }
   ]
