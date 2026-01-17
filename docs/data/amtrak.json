@@ -1,29 +1,40 @@
 {
-  "collected_at": "2026-01-17T09:40:50.907442+00:00",
+  "collected_at": "2026-01-17T09:51:09.480207+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.76386681107281,
-      "lon": -75.4866275326279,
-      "heading": "S",
-      "velocity": 93.5152740478516,
-      "lastUpdate": "2026-01-17T04:39:19-05:00",
-      "nextStation": "Wilmington",
+      "lat": 39.723270791725646,
+      "lon": -75.57649419752069,
+      "heading": "SW",
+      "velocity": 93.7904205322266,
+      "lastUpdate": "2026-01-17T04:48:20-05:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.00421901716422,
-      "lon": -77.37171407629391,
-      "heading": "N",
-      "velocity": 70.2018890380859,
-      "lastUpdate": "2026-01-17T04:39:18-05:00",
+      "lat": 38.14179610002052,
+      "lon": -77.4359764942558,
+      "heading": "NW",
+      "velocity": 68.4033889770508,
+      "lastUpdate": "2026-01-17T04:48:20-05:00",
       "nextStation": "Fredericksburg",
       "status": "Active"
+    },
+    {
+      "trainNum": "150",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-17T05:00:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
     },
     {
       "trainNum": "151",
