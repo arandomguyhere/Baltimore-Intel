@@ -1,39 +1,28 @@
 {
-  "collected_at": "2026-01-17T04:59:49.627237+00:00",
+  "collected_at": "2026-01-17T05:30:01.415927+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.944912389400386,
-      "lon": -75.20095240532109,
-      "heading": "E",
-      "velocity": 41.1574592590332,
-      "lastUpdate": "2026-01-16T23:57:52-05:00",
+      "lat": 39.95315213770705,
+      "lon": -75.18233667692819,
+      "heading": "N",
+      "velocity": 2.40247344970703,
+      "lastUpdate": "2026-01-17T00:27:12-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 38.907200018621886,
-      "lon": -77.00279464284633,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-16T23:49:13-05:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 40.04330488659539,
-      "lon": -75.45770450661276,
+      "lat": 39.959648542006214,
+      "lon": -75.92141924692868,
       "heading": "W",
-      "velocity": 43.6762542724609,
-      "lastUpdate": "2026-01-16T23:57:49-05:00",
-      "nextStation": "Paoli",
+      "velocity": 0.0683508068323135,
+      "lastUpdate": "2026-01-17T00:27:09-05:00",
+      "nextStation": "Parkesburg",
       "status": "Active"
     }
   ]
