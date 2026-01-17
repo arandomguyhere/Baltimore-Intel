@@ -1,28 +1,28 @@
 {
-  "collected_at": "2026-01-17T09:51:09.480207+00:00",
+  "collected_at": "2026-01-17T10:18:47.450401+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.723270791725646,
-      "lon": -75.57649419752069,
+      "lat": 39.46546966143283,
+      "lon": -76.2007924732432,
       "heading": "SW",
-      "velocity": 93.7904205322266,
-      "lastUpdate": "2026-01-17T04:48:20-05:00",
+      "velocity": 95.3680191040039,
+      "lastUpdate": "2026-01-17T05:15:20-05:00",
       "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.14179610002052,
-      "lon": -77.4359764942558,
-      "heading": "NW",
-      "velocity": 68.4033889770508,
-      "lastUpdate": "2026-01-17T04:48:20-05:00",
-      "nextStation": "Fredericksburg",
+      "lat": 38.4468384332212,
+      "lon": -77.32953116748621,
+      "heading": "NE",
+      "velocity": 70.4013366699219,
+      "lastUpdate": "2026-01-17T05:15:19-05:00",
+      "nextStation": "Alexandria",
       "status": "Active"
     },
     {
@@ -39,12 +39,23 @@
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
+      "lat": 39.74279823225394,
+      "lon": -75.53137394447133,
+      "heading": "SW",
+      "velocity": 49.7316513061523,
+      "lastUpdate": "2026-01-17T05:15:15-05:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-17T04:42:00-05:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lastUpdate": "2026-01-17T05:10:00-05:00",
+      "nextStation": "Washington Union",
       "status": "Predeparture"
     }
   ]
