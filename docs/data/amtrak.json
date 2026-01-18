@@ -1,27 +1,27 @@
 {
-  "collected_at": "2026-01-18T10:44:16.372318+00:00",
+  "collected_at": "2026-01-18T10:54:18.251774+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 6,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.310112253615195,
-      "lon": -76.62569646685972,
-      "heading": "SW",
-      "velocity": 10.9587688446045,
-      "lastUpdate": "2026-01-18T05:42:20-05:00",
+      "lat": 39.19462989787026,
+      "lon": -76.69566565862945,
+      "heading": "S",
+      "velocity": 23.8502540588379,
+      "lastUpdate": "2026-01-18T05:51:21-05:00",
       "nextStation": "Baltimore Airport",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.884666596509675,
-      "lon": -77.01802291821332,
-      "heading": "E",
-      "velocity": 23.3894443511963,
-      "lastUpdate": "2026-01-18T05:42:20-05:00",
+      "lat": 38.89963165802345,
+      "lon": -77.00473250998785,
+      "heading": "N",
+      "velocity": 0.0223693996667862,
+      "lastUpdate": "2026-01-18T05:51:20-05:00",
       "nextStation": "Washington Union",
       "status": "Active"
     },
@@ -39,24 +39,35 @@
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.949539618896644,
-      "lon": -75.18492304252749,
-      "heading": "NE",
-      "velocity": 0,
-      "lastUpdate": "2026-01-18T05:30:19-05:00",
+      "lat": 39.884903371366335,
+      "lon": -75.31493559173767,
+      "heading": "SW",
+      "velocity": 107.073371887207,
+      "lastUpdate": "2026-01-18T05:51:18-05:00",
       "nextStation": "Wilmington",
       "status": "Active"
     },
     {
       "trainNum": "160",
       "routeName": "Northeast Regional",
-      "lat": 39.0450861041541,
-      "lon": -76.74049598547633,
-      "heading": "NE",
-      "velocity": 97.4187393188477,
-      "lastUpdate": "2026-01-18T05:42:17-05:00",
+      "lat": 39.19185661236156,
+      "lon": -76.69438392005846,
+      "heading": "NW",
+      "velocity": 0.017895519733429,
+      "lastUpdate": "2026-01-18T05:51:17-05:00",
       "nextStation": "Baltimore Airport",
       "status": "Active"
+    },
+    {
+      "trainNum": "162",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-18T06:05:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
