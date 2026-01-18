@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-01-18T21:17:05.436288+00:00",
+  "collected_at": "2026-01-18T21:39:01.396979+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -68,6 +68,13 @@
       "query": "Baltimore shipping"
     },
     {
+      "title": "Baltimore's Inner Harbor sees Sheraton Hotel and Morton's The Steakhouse close - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOODhXbjRkWVhaYjg0R3A3aEFHT0VZY3B5Wm1HcEY5QUxHQ0dWQmdjaWNGZjI5NFFBNkZ6OHlDWi1qNElXZEMxeGg2UjZrMnRSRnlzb1BKRGNpVGtDTGYzMVAzWkw5WmNLMFM3VXNqdXpKMHRTOVc1MlRsOFd4elc5UEZ5eHlSRW54MFZXSEdUWDVha1RQTlNqRjhLcHZiZnZvX0RDR3FWLUNXUQ?oc=5",
+      "source": "CBS News",
+      "date": "Sun, 18 Jan 2026 21:22:56 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
       "title": "'A terrible setback for downtown': Sheraton Inner Harbor Hotel shutters Baltimore building - WBAL-TV",
       "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNMl95SThGZ0RlM3pycnVFcHN5OHFtakNwSEZULWN0Z3Q2UVZ4Ynp3V2ktNFNPMGd3cFVCTUNCTlJ2djZOaHAxdVJOSk5Kb3B2Y0hhZ1NfTTVpUXRvanphZGVTaW5WaENDSDV1WEVuWm9qZVRQWlpRNTFtb1JMQjdQSlVHYzhCWFYwOGJ5MlJNSEpaTEhlR0VDSA?oc=5",
       "source": "WBAL-TV",
@@ -93,13 +100,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ0pmUE1EbGdWNnRJZTdTQy0xbGo3ZHRMb2tBd2dxc2N6dzRYcWd5WjBwLUxXdm43d3hhQVNFbEh5QmJCSFVCcTAzM3hlV0cwVWpjdHp2WnBkTnVNQlRwMWJqamdrLUV4TmU4ZjRpb0x2M05fdmRPVXY4VkVUWllYN1BXYTZjcGNpV2NaT09lQ2sxdVdveEdmblBWVUQzUFUw?oc=5",
       "source": "WBFF",
       "date": "Fri, 16 Jan 2026 22:56:30 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "The Baltimore Harbor Tunnel - WYPR",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPaU5ZYXpjVG9ZSTRrdElpWTRGdjl4dEIxT2VxM09EVzI0MjhIeVJyY0tsZ2xLVFI3SXBFamFIblBSU2Q4WFhqR0ZxeV9ZanhzQzlZbURadEE5SUIwR1ZObHpEX0Y5dzVZTFMtN2ZYY2VUQzZ4ZXA1T2t0VFY4SDI3WFAwcjhRelR3eEFqNElUVnYyOVRhLVpILW5mdWNXYktoNXJR?oc=5",
-      "source": "WYPR",
-      "date": "Tue, 13 Jan 2026 17:49:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -148,22 +148,22 @@
   "entities": {
     "topics": [
       "Baltimore rail freight",
-      "Baltimore shipping",
+      "Maryland transportation infrastructure",
       "Baltimore harbor",
-      "Port of Baltimore",
-      "Maryland transportation infrastructure"
+      "Baltimore shipping",
+      "Port of Baltimore"
     ],
     "sources": [
-      "FreightWaves",
       "WMAR 2 News Baltimore",
-      "The Baltimore Banner",
+      "FreightWaves",
+      "Washington County, MD",
       "DredgeWire",
-      "WYPR",
-      "CBS News",
+      "Maritime Fairtrade",
+      "The Baltimore Banner",
       "WBFF",
       "Maryland Matters",
-      "WBAL-TV",
-      "The Maritime Executive"
+      "CBS News",
+      "WBAL-TV"
     ]
   }
 }
