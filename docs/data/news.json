@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-01-19T04:38:31.815761+00:00",
+  "collected_at": "2026-01-19T05:19:59.390796+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -82,6 +82,13 @@
       "query": "Baltimore harbor"
     },
     {
+      "title": "Maryland is getting a 'Sphere'\u2014here's what to know - FOX 5 DC",
+      "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1hc19wRTVwdUZ3VnQ2dkZZbk9ibnhna0FWbDBOdVdkMVJPc0RYMmFlalEwamZIV0dGMmhPb3pxR29iNFBheFJMTFFXeXVubTRQRVZtT0t2VjhvdkkzSnM3X3VBcE5Cek1lOFNUOHVpbC1XeXFsaTR4Rzdn0gF_QVVfeXFMUGQyXzFEX09RVGN5TF82UlRxOVZpYTVPZ1BjOEhwejhLSWxRdVAydndjQWFWVWZuSW9fZXc3TF9CajE0R0MydEwtMG9iR0lULUY0Qk9GdG1zTHBMdC0tZlVtaGVxeEtXYjB0blJYbzdaZExfaHVWMDAyeHFWb2k2bw?oc=5",
+      "source": "FOX 5 DC",
+      "date": "Mon, 19 Jan 2026 03:08:30 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
       "title": "Sheraton Inner Harbor Hotel closes - WMAR 2 News Baltimore",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOVFJEMm8wQ2xHZzhhR2ozUGxDd0JueS10MHdrWlJaUjROQUlnWXJsUVAxNURHVVZtMTIwOS1CRWNNXzJNREdNUnk5X2tZbV9JS2RwVlc5UmhMVEdRcGNZLUtfMndtclN0NXlFR0dCUHZ0QU9pTGw2WTFKZW5mdW5aVXhpbDM1QzVMOUxGeTlWV2tjWkU?oc=5",
       "source": "WMAR 2 News Baltimore",
@@ -93,13 +100,6 @@
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeVd1c2g3aUltaDJ6WFN6clQ1TWFweHAtNjlFSWFRNmR6RGc4N1Z5LWNlYzFiT1RlUHBrUFpxQkZSVnlvTHp0dWJjd0FFRzNDOTRiYXB1Y2JaSTJULUVFc3VSUm44Z0o4RFA0M3RidjVMdkRLU2t3WnI5UnlwNE91SFRFbi1idEtHNEZNMllFWTg4TlJWdnpPRW54bWtFaEIyeDZpWktMQi0yVDlQWEh3eFFrYnEyNl9uWVpkMnRyeFJ0cEJu?oc=5",
       "source": "The Baltimore Banner",
       "date": "Wed, 14 Jan 2026 20:55:00 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "Downtown Baltimore businesses continue to close, leaving workers without jobs - WBFF",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQZ0pmUE1EbGdWNnRJZTdTQy0xbGo3ZHRMb2tBd2dxc2N6dzRYcWd5WjBwLUxXdm43d3hhQVNFbEh5QmJCSFVCcTAzM3hlV0cwVWpjdHp2WnBkTnVNQlRwMWJqamdrLUV4TmU4ZjRpb0x2M05fdmRPVXY4VkVUWllYN1BXYTZjcGNpV2NaT09lQ2sxdVdveEdmblBWVUQzUFUw?oc=5",
-      "source": "WBFF",
-      "date": "Fri, 16 Jan 2026 22:56:30 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore harbor",
-      "Baltimore rail freight",
-      "Port of Baltimore",
       "Baltimore shipping",
-      "Maryland transportation infrastructure"
+      "Maryland transportation infrastructure",
+      "Port of Baltimore",
+      "Baltimore harbor",
+      "Baltimore rail freight"
     ],
     "sources": [
-      "WBAL-TV",
-      "WBFF",
+      "Washington County, MD",
+      "CBS News",
+      "FOX 5 DC",
+      "Maryland Matters",
       "The Baltimore Banner",
-      "WYPR",
+      "DredgeWire",
+      "FreightWaves",
       "Office of Governor Wes Moore (.gov)",
       "Maritime Fairtrade",
-      "FreightWaves",
-      "CBS News",
-      "Maryland Matters",
-      "Washington County, MD"
+      "WMAR 2 News Baltimore"
     ]
   }
 }

@@ -1,62 +1,40 @@
 {
-  "collected_at": "2026-01-19T04:38:28.096873+00:00",
+  "collected_at": "2026-01-19T05:19:56.142193+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.736793897357074,
-      "lon": -75.55068394819997,
-      "heading": "SE",
-      "velocity": 0.0246063396334648,
-      "lastUpdate": "2026-01-18T23:36:52-05:00",
-      "nextStation": "Wilmington",
+      "lat": 39.95315595269684,
+      "lon": -75.1826418530251,
+      "heading": "NW",
+      "velocity": 6.90095996856689,
+      "lastUpdate": "2026-01-19T00:18:11-05:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "165",
       "routeName": "Northeast Regional",
-      "lat": 39.38897351674564,
-      "lon": -76.34680386735764,
-      "heading": "SW",
-      "velocity": 104.901298522949,
-      "lastUpdate": "2026-01-18T23:36:54-05:00",
-      "nextStation": "Baltimore Penn",
+      "lat": 39.148475866539314,
+      "lon": -76.69745856435735,
+      "heading": "S",
+      "velocity": 94.8529663085938,
+      "lastUpdate": "2026-01-19T00:18:12-05:00",
+      "nextStation": "New Carrollton",
       "status": "Active"
-    },
-    {
-      "trainNum": "167",
-      "routeName": "Northeast Regional",
-      "lat": 39.96117444828004,
-      "lon": -75.18288599358998,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-18T23:28:16-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "671",
-      "routeName": "Keystone",
-      "lat": 40.2590260057434,
-      "lon": -76.875750011812,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-18T23:31:16-05:00",
-      "nextStation": "Harrisburg",
-      "status": "Completed"
     },
     {
       "trainNum": "2259",
       "routeName": "Acela",
-      "lat": 39.28702569954014,
-      "lon": -76.66471320164153,
-      "heading": "SW",
-      "velocity": 68.5465545654297,
-      "lastUpdate": "2026-01-18T23:36:52-05:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
+      "lat": 38.90763489471781,
+      "lon": -77.00257339080396,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-19T00:10:13-05:00",
+      "nextStation": "Washington Union",
+      "status": "Completed"
     }
   ]
 }
