@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-01-19T05:54:12.200645+00:00",
+  "collected_at": "2026-01-19T06:36:32.734183+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -44,6 +44,13 @@
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObjdSQXIxaU1nY2ZsSzY3Q1A0bVBtMUNJV3hETVZ1WHpCLTNuNm15WldpbVJYSmcyaXFTUkdxcDhqSEtNeUhnbWIwZHhIRHJmeXVUR2YzVF94RXZORU95NU1TdWxOUXVWUHgyX1RnVmZMeTJYNHZmdkVtUTExcjdndnluSkVyZw?oc=5",
       "source": "FreightWaves",
       "date": "Mon, 12 Jan 2026 15:16:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
+      "title": "Ship explosion temporarily closes Baltimore\u2019s federal shipping channel - WYPR",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVmpKTDd0bndPcldQd0R3Qm9pTVlBV3V2V09oVGhnX1dZaDI4MGRaWTlwd2ROUUJXWWd4U0o0bXpyWmFpdVdYWDdsNnFZR1o1NWJOMVNqc3M2X05wOEVFbUQzallZMk9sNzh6d3VqdDVjR0hYeWFNVzFFcmgzRzVLd1NpQmRBQm5uR3FmNS1qNTJ3X09xTGNKVjh0a3hqclZBRnFFek1PS3BJcG41?oc=5",
+      "source": "WYPR",
+      "date": "Tue, 19 Aug 2025 07:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -96,10 +103,10 @@
       "query": "Baltimore harbor"
     },
     {
-      "title": "A massive Inner Harbor hotel \u2014 and its restaurant \u2014 have closed - The Baltimore Banner",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeVd1c2g3aUltaDJ6WFN6clQ1TWFweHAtNjlFSWFRNmR6RGc4N1Z5LWNlYzFiT1RlUHBrUFpxQkZSVnlvTHp0dWJjd0FFRzNDOTRiYXB1Y2JaSTJULUVFc3VSUm44Z0o4RFA0M3RidjVMdkRLU2t3WnI5UnlwNE91SFRFbi1idEtHNEZNMllFWTg4TlJWdnpPRW54bWtFaEIyeDZpWktMQi0yVDlQWEh3eFFrYnEyNl9uWVpkMnRyeFJ0cEJu?oc=5",
-      "source": "The Baltimore Banner",
-      "date": "Wed, 14 Jan 2026 20:55:00 GMT",
+      "title": "Second Sphere venue in U.S. proposed for National Harbor - Baltimore Sun",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxObTdxZGV3cTdDbVlSdExnU1ZQRG1ob1M2ODFjT3R1OGlkVGxZOWpldWFFZjdGR3diSVZ2a1JPUEhzQ09iY0ZHeDBMSXJVNzFNT2RYTmRfTnV2Z2MyZllscWNBbGZzSXRYb2dXaXRmOFQzSWVxUWVRTHB0V3BOUVBpRVBFd2ZFNngxQlhBNkEzM3VRRXgxeTUxUjJSVUE?oc=5",
+      "source": "Baltimore Sun",
+      "date": "Mon, 19 Jan 2026 04:52:01 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -136,34 +143,26 @@
       "source": "Washington County, MD",
       "date": "Mon, 21 Jul 2025 07:00:00 GMT",
       "query": "Maryland transportation infrastructure"
-    },
-    {
-      "title": "Howard Street tunnel reopens ahead of schedule, boosting Baltimore's freight capacity - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUDYtUHJLeGtacUw0N28zTDA4Z1V1emxJQ0VOVmpKQkd2Y0hVTDlJVk12NTU0Rnh5cl9USzl3REQxb3ZELVBWRy1tZldVak92dzRaTFR3aHNULXFPYjY5dDNPbmlaeGxpQ2tybTh4cDJmbU51YWRfVG5aMlB2cDBBR2EtR1ljZV9BM21GY181dFhDU1VCaVFQcmh0NA?oc=5",
-      "source": "CBS News",
-      "date": "Fri, 26 Sep 2025 07:00:00 GMT",
-      "query": "Baltimore rail freight"
     }
   ],
   "entities": {
     "topics": [
+      "Maryland transportation infrastructure",
       "Baltimore shipping",
       "Baltimore harbor",
-      "Baltimore rail freight",
-      "Port of Baltimore",
-      "Maryland transportation infrastructure"
+      "Port of Baltimore"
     ],
     "sources": [
-      "CBS News",
-      "DredgeWire",
-      "FOX 5 DC",
+      "The Baltimore Banner",
       "Maryland Matters",
-      "Washington County, MD",
-      "Maritime Fairtrade",
       "WMAR 2 News Baltimore",
+      "Maritime Fairtrade",
       "WYPR",
+      "CBS News",
+      "WBAL-TV",
+      "The Maritime Executive",
       "Office of Governor Wes Moore (.gov)",
-      "FreightWaves"
+      "Baltimore Sun"
     ]
   }
 }
