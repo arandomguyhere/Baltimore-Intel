@@ -1,51 +1,29 @@
 {
-  "collected_at": "2026-01-21T05:06:12.405364+00:00",
+  "collected_at": "2026-01-21T05:45:42.778244+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.95019574706066,
-      "lon": -75.18398462627026,
+      "lat": 39.95309110269632,
+      "lon": -75.1822985299124,
       "heading": "NE",
-      "velocity": 12.6141042709351,
-      "lastUpdate": "2026-01-21T00:03:47-05:00",
+      "velocity": 3.93701434135437,
+      "lastUpdate": "2026-01-21T00:42:20-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 39.18151115132967,
-      "lon": -76.69320136305346,
-      "heading": "S",
-      "velocity": 62.766300201416,
-      "lastUpdate": "2026-01-21T00:03:51-05:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "177",
-      "routeName": "Northeast Regional",
-      "lat": 39.96804853330535,
-      "lon": -75.19230066998946,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-20T23:52:19-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
     },
     {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 40.10933727061213,
-      "lon": -76.50542670450369,
-      "heading": "W",
-      "velocity": 0.865695774555206,
-      "lastUpdate": "2026-01-21T00:03:52-05:00",
-      "nextStation": "Mount Joy",
-      "status": "Active"
+      "lat": 40.25611539124635,
+      "lon": -76.87390369703954,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-21T00:31:31-05:00",
+      "nextStation": "Harrisburg",
+      "status": "Completed"
     }
   ]
 }
