@@ -1,72 +1,39 @@
 {
-  "collected_at": "2026-01-22T04:34:23.533394+00:00",
+  "collected_at": "2026-01-22T05:16:22.900142+00:00",
   "source": "amtraker.com",
-  "total_trains": 6,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "50",
       "routeName": "Cardinal",
-      "lat": 39.491016695486636,
-      "lon": -76.17504326072617,
-      "heading": "NE",
-      "velocity": 111.480201721191,
-      "lastUpdate": "2026-01-21T23:30:20-05:00",
-      "nextStation": "Wilmington",
+      "lat": 39.9128765540986,
+      "lon": -75.25472439239185,
+      "heading": "E",
+      "velocity": 68.276252746582,
+      "lastUpdate": "2026-01-22T00:10:40-05:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.703075777944356,
-      "lon": -75.6523304012103,
-      "heading": "NE",
-      "velocity": 108.666069030762,
-      "lastUpdate": "2026-01-21T23:30:53-05:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 38.90246216360049,
-      "lon": -77.00456466310833,
+      "lat": 39.953125435700706,
+      "lon": -75.18236719393626,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-21T23:22:19-05:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "177",
-      "routeName": "Northeast Regional",
-      "lat": 40.000133960289034,
-      "lon": -75.1474093007247,
-      "heading": "SW",
-      "velocity": 57.6414680480957,
-      "lastUpdate": "2026-01-21T23:30:55-05:00",
+      "velocity": 8.05522060394287,
+      "lastUpdate": "2026-01-22T00:12:12-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 40.0790676474102,
-      "lon": -76.35356355572732,
-      "heading": "NW",
-      "velocity": 96.6542587280273,
-      "lastUpdate": "2026-01-21T23:30:50-05:00",
-      "nextStation": "Mount Joy",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2171",
-      "routeName": "Acela",
-      "lat": 38.907737891738876,
-      "lon": -77.00256576180787,
+      "lat": 40.26031918895676,
+      "lon": -76.87676472121639,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-21T23:31:17-05:00",
-      "nextStation": "Washington Union",
+      "lastUpdate": "2026-01-22T00:04:16-05:00",
+      "nextStation": "Harrisburg",
       "status": "Completed"
     }
   ]
