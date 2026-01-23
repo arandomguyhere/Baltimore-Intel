@@ -1,16 +1,9 @@
 {
-  "collected_at": "2026-01-23T17:04:22.624410+00:00",
+  "collected_at": "2026-01-23T17:37:46.548843+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
   "stories": [
-    {
-      "title": "Carnival Alerts Passengers to Snowstorm Threat That May Affect Carnival Pride - Cruise Hive",
-      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSGFJTlpybGJtUnFoV2ROeHQ2WmpnSks5Q1I1VWQzMnNDWTM0NkVOdFUzS0g2ZGFVTnhzeHpEXzEtUjEwbXZ2bHBhNkg3ejhBb1dhbUtjdXJvb0sxMFljMjItSnFPaWdTS1dIaDVxM21CT3oxVE1YMHdkaWFJSUZRQlBERHhVSUYxOGV2SW1lTTVPV3ZVMGgySXdQcnFPdzNZV05tRlFTRTJTc21WeU82Sw?oc=5",
-      "source": "Cruise Hive",
-      "date": "Fri, 23 Jan 2026 00:18:55 GMT",
-      "query": "Port of Baltimore"
-    },
     {
       "title": "Army Corp OKs $1B Baltimore container terminal - FreightWaves",
       "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxObjdSQXIxaU1nY2ZsSzY3Q1A0bVBtMUNJV3hETVZ1WHpCLTNuNm15WldpbVJYSmcyaXFTUkdxcDhqSEtNeUhnbWIwZHhIRHJmeXVUR2YzVF94RXZORU95NU1TdWxOUXVWUHgyX1RnVmZMeTJYNHZmdkVtUTExcjdndnluSkVyZw?oc=5",
@@ -37,6 +30,13 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS2l1T1dVZlZkTTlWNjlQS1R2MXdGd3pWT1BzRXZkNG5aekNQV1o0eWdzT19DYTNsbk1tNWpJV3ctamQ2N1ZqSjhoR1dOdERoaGVnRUt4TTczT0R2SVViTlFid0F0R2xYQ3RqWVVSQ2NfbTJYSXdjeTR0RmE4ZEo4MmhqbDBWdnc3Ynk1VGM4TmUySkFOOW5ycTRZaDNQZw?oc=5",
       "source": "American Journal of Transportation",
       "date": "Mon, 23 Jun 2025 07:00:00 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
+      "title": "European cargo ships are rerouting to Philadelphia as Baltimore struggles to replace Key Bridge - inquirer.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX1BUVm91MmZjZGdzQnpfY3NtMUNmQ0dRM2RjMTBnUFZDZDk3ZGM4QUtNcC00MTJwVnBlWm5vejdtUTlybF9CR09hVG0zMGRicWJnNDJqc21JYWtoTGpFYlM2ZWdhMXpiWHlfZGhUakFoY2xkZG8wOEZsa01ReDd5T3kxNURHaGlaVEQ5QjhPcVNHNXd2MXQzcnF1ekhzWldxRThSMUZR?oc=5",
+      "source": "inquirer.com",
+      "date": "Thu, 18 Dec 2025 08:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
+      "Baltimore shipping",
       "Maryland transportation infrastructure",
       "Baltimore harbor",
-      "Baltimore shipping",
       "Port of Baltimore"
     ],
     "sources": [
-      "CBS News",
-      "lasvegassun.com",
-      "wypr.org",
-      "wmar2news.com",
-      "Cruise Hive",
-      "The Maritime Executive",
-      "nottinghammd.com",
-      "FreightWaves",
+      "American Journal of Transportation",
       "thebanner.com",
-      "wbaltv.com"
+      "wypr.org",
+      "lasvegassun.com",
+      "inquirer.com",
+      "wmar2news.com",
+      "nottinghammd.com",
+      "marylandmatters.org",
+      "governor.maryland.gov",
+      "The Maritime Executive"
     ]
   }
 }
