@@ -1,9 +1,16 @@
 {
-  "collected_at": "2026-01-23T09:34:28.078957+00:00",
+  "collected_at": "2026-01-23T09:56:42.149180+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
   "stories": [
+    {
+      "title": "Carnival Alerts Passengers to Snowstorm Threat That May Affect Carnival Pride - Cruise Hive",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSGFJTlpybGJtUnFoV2ROeHQ2WmpnSks5Q1I1VWQzMnNDWTM0NkVOdFUzS0g2ZGFVTnhzeHpEXzEtUjEwbXZ2bHBhNkg3ejhBb1dhbUtjdXJvb0sxMFljMjItSnFPaWdTS1dIaDVxM21CT3oxVE1YMHdkaWFJSUZRQlBERHhVSUYxOGV2SW1lTTVPV3ZVMGgySXdQcnFPdzNZV05tRlFTRTJTc21WeU82Sw?oc=5",
+      "source": "Cruise Hive",
+      "date": "Fri, 23 Jan 2026 00:18:55 GMT",
+      "query": "Port of Baltimore"
+    },
     {
       "title": "What will happen to the Savannah, a nuclear-powered ship? - thebanner.com",
       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM1ZXWDBERkVieHllRzhEZUVyNnJlc0g4LV8yT2Vhd3NObG1fWHdWcHp6OUl6b1JpdmJoNnJvQzFPMWdheUNDVmVqbzRWR2FwTzBoUWhoRmwySmxiV0tUdzJzLVlOSWRBdFVMMDJGSFFYM205ZnZmc0hvZ1JmdlN5dUVxVkVqNy1PVVRNc2p0bnVoZlVzSThEMTBOMjFYSGFTLWpya2xWRnJjRjVTNmVkWVhqSHAxeG52VmZpR2hB?oc=5",
@@ -30,13 +37,6 @@
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQb0xTeFRRN2tfMnlpX0hzRV9SV0REbVYzc0FUa3lRbWtvSFlpblRiR0RWWWJTSU9veUR2SUlHc3praG53dHdLMWVTZUZHd1hGcDhzajhDdFRZOHJyTnhzTzU3Z2lnbGNKQjhaVU9xZHpPODJFZk5BVGY3SE1jMlZHQkFDQnhrbEE1YnNiNXJ5Yi1jbkE?oc=5",
       "source": "Maritime Fairtrade",
       "date": "Sun, 18 Jan 2026 00:18:47 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "Port of Baltimore: A remarkable performance but challenges ahead - American Journal of Transportation",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS2l1T1dVZlZkTTlWNjlQS1R2MXdGd3pWT1BzRXZkNG5aekNQV1o0eWdzT19DYTNsbk1tNWpJV3ctamQ2N1ZqSjhoR1dOdERoaGVnRUt4TTczT0R2SVViTlFid0F0R2xYQ3RqWVVSQ2NfbTJYSXdjeTR0RmE4ZEo4MmhqbDBWdnc3Ynk1VGM4TmUySkFOOW5ycTRZaDNQZw?oc=5",
-      "source": "American Journal of Transportation",
-      "date": "Mon, 23 Jun 2025 07:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
+      "Baltimore rail freight",
+      "Baltimore harbor",
       "Maryland transportation infrastructure",
       "Baltimore shipping",
-      "Port of Baltimore",
-      "Baltimore rail freight",
-      "Baltimore harbor"
+      "Port of Baltimore"
     ],
     "sources": [
-      "CBS News",
       "Patch",
-      "governor.maryland.gov",
+      "nottinghammd.com",
       "Maritime Fairtrade",
-      "American Journal of Transportation",
       "wbaltv.com",
-      "The Maritime Executive",
-      "wypr.org",
       "FreightWaves",
-      "marylandmatters.org"
+      "governor.maryland.gov",
+      "wmar2news.com",
+      "wypr.org",
+      "CBS News",
+      "thebanner.com"
     ]
   }
 }
