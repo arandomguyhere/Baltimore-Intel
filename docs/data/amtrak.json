@@ -1,39 +1,50 @@
 {
-  "collected_at": "2026-01-24T09:51:46.918755+00:00",
+  "collected_at": "2026-01-24T10:19:56.081072+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.71300925275699,
-      "lon": -75.60192297691779,
+      "lat": 39.3305170803549,
+      "lon": -76.44652771102116,
       "heading": "W",
-      "velocity": 107.914459228516,
-      "lastUpdate": "2026-01-24T04:48:46-05:00",
+      "velocity": 108.708572387695,
+      "lastUpdate": "2026-01-24T05:18:48-05:00",
       "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.109828931568096,
-      "lon": -77.40624473317472,
-      "heading": "NW",
-      "velocity": 68.9178848266602,
-      "lastUpdate": "2026-01-24T04:48:46-05:00",
-      "nextStation": "Fredericksburg",
+      "lat": 38.459472712946265,
+      "lon": -77.32535788795153,
+      "heading": "N",
+      "velocity": 70.2801818847656,
+      "lastUpdate": "2026-01-24T05:18:47-05:00",
+      "nextStation": "Alexandria",
       "status": "Active"
     },
     {
       "trainNum": "150",
       "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
+      "lat": 39.95750089360434,
+      "lon": -75.18139826089548,
+      "heading": "S",
+      "velocity": 5.92341709136963,
+      "lastUpdate": "2026-01-24T05:17:47-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-24T05:00:00-05:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lastUpdate": "2026-01-24T05:10:00-05:00",
+      "nextStation": "Washington Union",
       "status": "Predeparture"
     }
   ]
