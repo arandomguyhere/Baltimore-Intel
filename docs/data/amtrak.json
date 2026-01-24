@@ -1,28 +1,28 @@
 {
-  "collected_at": "2026-01-24T10:44:48.330911+00:00",
+  "collected_at": "2026-01-24T10:55:24.610512+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.31006647760748,
-      "lon": -76.62565831984497,
-      "heading": "SW",
-      "velocity": 19.669412612915,
-      "lastUpdate": "2026-01-24T05:42:48-05:00",
+      "lat": 39.19284461854049,
+      "lon": -76.69490271928126,
+      "heading": "S",
+      "velocity": 0.0223693996667862,
+      "lastUpdate": "2026-01-24T05:51:47-05:00",
       "nextStation": "Baltimore Airport",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.78828061693785,
-      "lon": -77.15513080399847,
+      "lat": 38.830646656525076,
+      "lon": -77.0470451409559,
       "heading": "N",
-      "velocity": 71.5530014038086,
-      "lastUpdate": "2026-01-24T05:42:47-05:00",
-      "nextStation": "Alexandria",
+      "velocity": 59.9790725708008,
+      "lastUpdate": "2026-01-24T05:51:47-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
@@ -39,13 +39,24 @@
     {
       "trainNum": "160",
       "routeName": "Northeast Regional",
-      "lat": 39.11150381306206,
-      "lon": -76.69877081850376,
-      "heading": "N",
-      "velocity": 77.7806396484375,
-      "lastUpdate": "2026-01-24T05:42:44-05:00",
+      "lat": 39.19188712936625,
+      "lon": -76.69442206707225,
+      "heading": "NW",
+      "velocity": 0.0134216398000717,
+      "lastUpdate": "2026-01-24T05:51:45-05:00",
       "nextStation": "Baltimore Airport",
       "status": "Active"
+    },
+    {
+      "trainNum": "162",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-24T06:05:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
