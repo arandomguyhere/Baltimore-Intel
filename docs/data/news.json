@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-01-24T11:17:21.840635+00:00",
+  "collected_at": "2026-01-24T11:38:37.505267+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -89,6 +89,13 @@
       "query": "Baltimore harbor"
     },
     {
+      "title": "Baltimore under State of Emergency, enacts Snow Emergency Plan - wbaltv.com",
+      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOTFhTQXptajFrX2xlREQ0S3ZOOXZGcjk0S1BJamZlSWI5YVJrSThnTVFLdTQzc3dpaHM0XzJ6eDM4bWVORmZiUENFdEJHcXBfOHFhSjdGcmRWOWRzRnVrdGZ6RlU1cEZReWF1RTJqQ2JYbGRiampsNlBQYkhDQzdSNkhxZXozcmZ2dEtWYklnU2dXVW8?oc=5",
+      "source": "wbaltv.com",
+      "date": "Fri, 23 Jan 2026 21:51:00 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
       "title": "NOAA upgrades Baltimore water level station - NOAA's National Ocean Service (.gov)",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPMUJaMEp6MGRZbjlKdV9pRTFiOFBUOGpzUThrN2lHQ29ZVEJoRVNWdkpNTmVET0htUVhicGFUUF9iZmRLSy1MbmNwNGFELUdWSkhnX2FYeUZrT0JSbWRPVVNnby1CN3FfUXNLamlCeW9OSy15dzhnTWRtVEoxSi13WQ?oc=5",
       "source": "NOAA's National Ocean Service (.gov)",
@@ -100,13 +107,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS25VZm8zblZib0UzSzc2eExDMkpZRkdoNk9ta1NOSkM1UktTM2pTQVNpbDV5ZHAtOU1aSFNDTHpQWVBTeElnaVRZQnpfdGNKUDJSUzI0TEtxbHU5RlJTSjBISFdiZklkRS13ZW55N3ZETWs0Q1JENGR4ZGx1NXpmYWd2cTFycXZid3N6OHprakFuSFEzd1F4b1ZDTG55SmNEVnNnQ1cxbExKQQ?oc=5",
       "source": "The Business Journals",
       "date": "Fri, 23 Jan 2026 12:12:00 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "Editorial: Future of Downtown Baltimore worth fighting for - wbaltv.com",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPd2tQTDVWMTdqZmtFMG9vWVFCUmJNT0cwSjI3VFdnaFV0MXM2S3VFd3B3T2JDTjlETnBIajdkX1k4VTNtZU5tX0xlbWQ2TXB1amJBUnA4elQwT0FwNVNtTkFGcFVDeVJRdEFMRTJLS25uc05uT0VDV0lxOFFOODFIRw?oc=5",
-      "source": "wbaltv.com",
-      "date": "Thu, 22 Jan 2026 15:59:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,21 +147,21 @@
   ],
   "entities": {
     "topics": [
+      "Port of Baltimore",
       "Baltimore shipping",
-      "Maryland transportation infrastructure",
       "Baltimore harbor",
-      "Port of Baltimore"
+      "Maryland transportation infrastructure"
     ],
     "sources": [
-      "wypr.org",
-      "whatnow.com",
-      "Cruise Hive",
-      "The Business Journals",
+      "wmar2news.com",
       "wbaltv.com",
+      "whatnow.com",
+      "NOAA's National Ocean Service (.gov)",
       "Tradewinds News",
-      "governor.maryland.gov",
-      "FreightWaves",
       "marylandmatters.org",
+      "Cruise Hive",
+      "nottinghammd.com",
+      "FreightWaves",
       "thebanner.com"
     ]
   }
