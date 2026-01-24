@@ -1,51 +1,51 @@
 {
-  "collected_at": "2026-01-24T10:19:56.081072+00:00",
+  "collected_at": "2026-01-24T10:44:48.330911+00:00",
   "source": "amtraker.com",
   "total_trains": 4,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.3305170803549,
-      "lon": -76.44652771102116,
-      "heading": "W",
-      "velocity": 108.708572387695,
-      "lastUpdate": "2026-01-24T05:18:48-05:00",
-      "nextStation": "Baltimore Penn",
+      "lat": 39.31006647760748,
+      "lon": -76.62565831984497,
+      "heading": "SW",
+      "velocity": 19.669412612915,
+      "lastUpdate": "2026-01-24T05:42:48-05:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.459472712946265,
-      "lon": -77.32535788795153,
+      "lat": 38.78828061693785,
+      "lon": -77.15513080399847,
       "heading": "N",
-      "velocity": 70.2801818847656,
-      "lastUpdate": "2026-01-24T05:18:47-05:00",
+      "velocity": 71.5530014038086,
+      "lastUpdate": "2026-01-24T05:42:47-05:00",
       "nextStation": "Alexandria",
       "status": "Active"
     },
     {
-      "trainNum": "150",
+      "trainNum": "144",
       "routeName": "Northeast Regional",
-      "lat": 39.95750089360434,
-      "lon": -75.18139826089548,
-      "heading": "S",
-      "velocity": 5.92341709136963,
-      "lastUpdate": "2026-01-24T05:17:47-05:00",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-24T05:55:00-05:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
+      "status": "Predeparture"
     },
     {
       "trainNum": "160",
       "routeName": "Northeast Regional",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
+      "lat": 39.11150381306206,
+      "lon": -76.69877081850376,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-24T05:10:00-05:00",
-      "nextStation": "Washington Union",
-      "status": "Predeparture"
+      "velocity": 77.7806396484375,
+      "lastUpdate": "2026-01-24T05:42:44-05:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
     }
   ]
 }
