@@ -1,40 +1,40 @@
 {
-  "collected_at": "2026-01-25T18:27:59.888766+00:00",
+  "collected_at": "2026-01-25T18:53:32.161360+00:00",
   "source": "amtraker.com",
   "total_trains": 3,
   "trains": [
     {
       "trainNum": "88",
       "routeName": "Northeast Regional",
-      "lat": 39.7373203254138,
-      "lon": -75.55201146365096,
-      "heading": "E",
-      "velocity": 0.00671081990003586,
-      "lastUpdate": "2026-01-25T13:24:29-05:00",
-      "nextStation": "Wilmington",
+      "lat": 39.93283887032373,
+      "lon": -75.2197893855498,
+      "heading": "NE",
+      "velocity": 82.337287902832,
+      "lastUpdate": "2026-01-25T13:51:30-05:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "195",
       "routeName": "Northeast Regional",
-      "lat": 39.67087972294288,
-      "lon": -75.75068858525005,
+      "lat": 39.328258778477355,
+      "lon": -76.45800995347913,
       "heading": "W",
-      "velocity": 120.830551147461,
-      "lastUpdate": "2026-01-25T13:24:28-05:00",
+      "velocity": 108.196311950684,
+      "lastUpdate": "2026-01-25T13:51:30-05:00",
       "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
-      "trainNum": "666",
+      "trainNum": "670",
       "routeName": "Keystone",
-      "lat": 39.95772596164023,
-      "lon": -75.18164240198647,
-      "heading": "S",
-      "velocity": 3.17421793937683,
-      "lastUpdate": "2026-01-25T13:12:30-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-25T13:50:00-05:00",
+      "nextStation": "Harrisburg",
+      "status": "Predeparture"
     }
   ]
 }
