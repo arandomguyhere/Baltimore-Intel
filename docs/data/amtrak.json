@@ -1,50 +1,39 @@
 {
-  "collected_at": "2026-01-25T13:49:17.320609+00:00",
+  "collected_at": "2026-01-25T14:17:59.563615+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "120",
       "routeName": "Northeast Regional",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-25T07:50:00-05:00",
+      "lat": 38.90334717379204,
+      "lon": -77.0042137110531,
+      "heading": "S",
+      "velocity": 11.8356494903564,
+      "lastUpdate": "2026-01-25T09:15:19-05:00",
       "nextStation": "Washington Union",
-      "status": "Predeparture"
-    },
-    {
-      "trainNum": "162",
-      "routeName": "Northeast Regional",
-      "lat": 39.948337989561814,
-      "lon": -75.18759333129988,
-      "heading": "NE",
-      "velocity": 9.76795196533203,
-      "lastUpdate": "2026-01-25T08:45:21-05:00",
-      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "660",
       "routeName": "Keystone",
-      "lat": 40.03563733984455,
-      "lon": -75.54622839814213,
+      "lat": 39.97215696252051,
+      "lon": -75.2089480145109,
       "heading": "E",
-      "velocity": 73.8437271118164,
-      "lastUpdate": "2026-01-25T08:45:23-05:00",
-      "nextStation": "Paoli",
+      "velocity": 27.9679107666016,
+      "lastUpdate": "2026-01-25T09:15:26-05:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "661",
       "routeName": "Keystone",
-      "lat": 39.9681744183174,
-      "lon": -75.19265925211066,
-      "heading": "E",
-      "velocity": 7.84718561172485,
-      "lastUpdate": "2026-01-25T08:29:22-05:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lat": 40.04303785657835,
+      "lon": -75.48412510795563,
+      "heading": "W",
+      "velocity": 3.14513754844666,
+      "lastUpdate": "2026-01-25T09:14:54-05:00",
+      "nextStation": "Exton",
       "status": "Active"
     }
   ]
