@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-01-25T13:21:20.461231+00:00",
+  "collected_at": "2026-01-25T13:49:17.320609+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "120",
@@ -17,23 +17,34 @@
     {
       "trainNum": "162",
       "routeName": "Northeast Regional",
-      "lat": 39.73767509245432,
-      "lon": -75.55284306793499,
-      "heading": "SE",
-      "velocity": 8.69722270965576,
-      "lastUpdate": "2026-01-25T08:18:21-05:00",
-      "nextStation": "Wilmington",
+      "lat": 39.948337989561814,
+      "lon": -75.18759333129988,
+      "heading": "NE",
+      "velocity": 9.76795196533203,
+      "lastUpdate": "2026-01-25T08:45:21-05:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "660",
       "routeName": "Keystone",
-      "lat": 39.9569134030715,
-      "lon": -75.93205462611293,
+      "lat": 40.03563733984455,
+      "lon": -75.54622839814213,
       "heading": "E",
-      "velocity": 52.993106842041,
-      "lastUpdate": "2026-01-25T08:18:22-05:00",
-      "nextStation": "Parkesburg",
+      "velocity": 73.8437271118164,
+      "lastUpdate": "2026-01-25T08:45:23-05:00",
+      "nextStation": "Paoli",
+      "status": "Active"
+    },
+    {
+      "trainNum": "661",
+      "routeName": "Keystone",
+      "lat": 39.9681744183174,
+      "lon": -75.19265925211066,
+      "heading": "E",
+      "velocity": 7.84718561172485,
+      "lastUpdate": "2026-01-25T08:29:22-05:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
   ]
