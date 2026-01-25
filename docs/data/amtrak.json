@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-01-25T14:43:14.960872+00:00",
+  "collected_at": "2026-01-25T14:53:58.729327+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "120",
@@ -10,41 +10,30 @@
       "lon": -77.0042137110531,
       "heading": "S",
       "velocity": 11.8356494903564,
-      "lastUpdate": "2026-01-25T09:39:20-05:00",
+      "lastUpdate": "2026-01-25T09:51:20-05:00",
       "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "153",
       "routeName": "Northeast Regional",
-      "lat": 39.9938015614283,
-      "lon": -75.16419397365601,
-      "heading": "SW",
-      "velocity": 58.7107276916504,
-      "lastUpdate": "2026-01-25T09:39:26-05:00",
+      "lat": 39.95718045954126,
+      "lon": -75.18138300287119,
+      "heading": "S",
+      "velocity": 0.881354331970215,
+      "lastUpdate": "2026-01-25T09:51:26-05:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "660",
-      "routeName": "Keystone",
-      "lat": 39.955837685280116,
-      "lon": -75.18123041474118,
-      "heading": "SE",
-      "velocity": 0.205052405595779,
-      "lastUpdate": "2026-01-25T09:22:24-05:00",
-      "nextStation": "Trenton",
       "status": "Active"
     },
     {
       "trainNum": "661",
       "routeName": "Keystone",
-      "lat": 39.98823970775004,
-      "lon": -75.81077010479135,
+      "lat": 39.95290033933096,
+      "lon": -75.95761310592425,
       "heading": "W",
-      "velocity": 47.7896499633789,
-      "lastUpdate": "2026-01-25T09:39:25-05:00",
-      "nextStation": "Coatesville",
+      "velocity": 78.6284408569336,
+      "lastUpdate": "2026-01-25T09:51:25-05:00",
+      "nextStation": "Lancaster",
       "status": "Active"
     }
   ]
