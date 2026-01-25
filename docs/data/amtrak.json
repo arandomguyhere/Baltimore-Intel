@@ -1,28 +1,39 @@
 {
-  "collected_at": "2026-01-25T12:39:29.650927+00:00",
+  "collected_at": "2026-01-25T13:21:20.461231+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 3,
   "trains": [
+    {
+      "trainNum": "120",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-25T07:50:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
     {
       "trainNum": "162",
       "routeName": "Northeast Regional",
-      "lat": 39.34712246270786,
-      "lon": -76.3917333828725,
-      "heading": "NE",
-      "velocity": 81.7087097167969,
-      "lastUpdate": "2026-01-25T07:27:16-05:00",
-      "nextStation": "Aberdeen",
+      "lat": 39.73767509245432,
+      "lon": -75.55284306793499,
+      "heading": "SE",
+      "velocity": 8.69722270965576,
+      "lastUpdate": "2026-01-25T08:18:21-05:00",
+      "nextStation": "Wilmington",
       "status": "Active"
     },
     {
       "trainNum": "660",
       "routeName": "Keystone",
-      "lat": 40.21228832815172,
-      "lon": -76.80983201900384,
-      "heading": "SE",
-      "velocity": 100.19701385498,
-      "lastUpdate": "2026-01-25T07:27:20-05:00",
-      "nextStation": "Middletown",
+      "lat": 39.9569134030715,
+      "lon": -75.93205462611293,
+      "heading": "E",
+      "velocity": 52.993106842041,
+      "lastUpdate": "2026-01-25T08:18:22-05:00",
+      "nextStation": "Parkesburg",
       "status": "Active"
     }
   ]
