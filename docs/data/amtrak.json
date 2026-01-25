@@ -1,39 +1,50 @@
 {
-  "collected_at": "2026-01-25T19:37:56.025008+00:00",
+  "collected_at": "2026-01-25T19:50:10.695066+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 4,
   "trains": [
+    {
+      "trainNum": "156",
+      "routeName": "Northeast Regional",
+      "lat": 38.974643886254974,
+      "lon": -76.84050974538557,
+      "heading": "NE",
+      "velocity": 89.8757781982422,
+      "lastUpdate": "2026-01-25T14:48:31-05:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
+    },
     {
       "trainNum": "195",
       "routeName": "Northeast Regional",
-      "lat": 38.958385642110024,
-      "lon": -76.86388621668362,
-      "heading": "SW",
-      "velocity": 35.3928642272949,
-      "lastUpdate": "2026-01-25T14:36:30-05:00",
-      "nextStation": "New Carrollton",
+      "lat": 38.91774384459131,
+      "lon": -76.98015822343947,
+      "heading": "W",
+      "velocity": 51.3310623168945,
+      "lastUpdate": "2026-01-25T14:48:30-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "665",
       "routeName": "Keystone",
-      "lat": 39.95780606965886,
-      "lon": -75.18156610796719,
-      "heading": "S",
-      "velocity": 3.01763200759888,
-      "lastUpdate": "2026-01-25T14:27:03-05:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lat": 39.96910520430004,
+      "lon": -75.19826685894299,
+      "heading": "W",
+      "velocity": 33.3259315490723,
+      "lastUpdate": "2026-01-25T14:48:32-05:00",
+      "nextStation": "Ardmore",
       "status": "Active"
     },
     {
       "trainNum": "670",
       "routeName": "Keystone",
-      "lat": 40.05483304336149,
-      "lon": -76.3078991387921,
+      "lat": 39.95926503890095,
+      "lon": -75.92221301115511,
       "heading": "S",
       "velocity": 0,
-      "lastUpdate": "2026-01-25T14:33:30-05:00",
-      "nextStation": "Lancaster",
+      "lastUpdate": "2026-01-25T14:41:03-05:00",
+      "nextStation": "Parkesburg",
       "status": "Active"
     }
   ]
