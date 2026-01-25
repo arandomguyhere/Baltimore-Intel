@@ -1,51 +1,18 @@
 {
-  "collected_at": "2026-01-25T03:52:59.853403+00:00",
+  "collected_at": "2026-01-25T04:51:15.997689+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 1,
   "trains": [
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 39.667267202798136,
-      "lon": -75.7623234146954,
-      "heading": "NE",
-      "velocity": 124.665702819824,
-      "lastUpdate": "2026-01-24T22:44:07-05:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
     {
       "trainNum": "165",
       "routeName": "Northeast Regional",
-      "lat": 39.32897594118158,
-      "lon": -76.46986603623681,
-      "heading": "W",
-      "velocity": 107.399963378906,
-      "lastUpdate": "2026-01-24T22:48:40-05:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "167",
-      "routeName": "Northeast Regional",
-      "lat": 39.969665965457786,
-      "lon": -75.19697749056884,
+      "lat": 38.90755860070299,
+      "lon": -77.00255813179453,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-24T22:46:17-05:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lastUpdate": "2026-01-24T23:46:13-05:00",
+      "nextStation": "Washington Union",
       "status": "Completed"
-    },
-    {
-      "trainNum": "671",
-      "routeName": "Keystone",
-      "lat": 40.05507701337553,
-      "lon": -76.30880188309207,
-      "heading": "W",
-      "velocity": 0.074564516544342,
-      "lastUpdate": "2026-01-24T22:48:10-05:00",
-      "nextStation": "Lancaster",
-      "status": "Active"
     }
   ]
 }
