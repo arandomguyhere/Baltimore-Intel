@@ -1,17 +1,28 @@
 {
-  "collected_at": "2026-01-26T01:48:52.373183+00:00",
+  "collected_at": "2026-01-26T03:55:59.688102+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 2,
   "trains": [
     {
-      "trainNum": "149",
+      "trainNum": "128",
       "routeName": "Northeast Regional",
-      "lat": 39.606262546075605,
-      "lon": -75.94156083339965,
-      "heading": "SW",
-      "velocity": 86.6076049804688,
-      "lastUpdate": "2026-01-25T20:45:40-05:00",
+      "lat": 39.29958750056179,
+      "lon": -76.65110998716148,
+      "heading": "N",
+      "velocity": 21.1950073242188,
+      "lastUpdate": "2026-01-25T22:42:36-05:00",
       "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "165",
+      "routeName": "Northeast Regional",
+      "lat": 39.95694394848712,
+      "lon": -75.1815813669196,
+      "heading": "SW",
+      "velocity": 19.3293991088867,
+      "lastUpdate": "2026-01-25T22:42:41-05:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
   ]
