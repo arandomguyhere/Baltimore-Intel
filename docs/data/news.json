@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-01-26T10:52:29.079957+00:00",
+  "collected_at": "2026-01-26T11:19:46.720348+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -19,13 +19,6 @@
       "query": "Port of Baltimore"
     },
     {
-      "title": "What will happen to the Savannah, a nuclear-powered ship? - thebanner.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM1ZXWDBERkVieHllRzhEZUVyNnJlc0g4LV8yT2Vhd3NObG1fWHdWcHp6OUl6b1JpdmJoNnJvQzFPMWdheUNDVmVqbzRWR2FwTzBoUWhoRmwySmxiV0tUdzJzLVlOSWRBdFVMMDJGSFFYM205ZnZmc0hvZ1JmdlN5dUVxVkVqNy1PVVRNc2p0bnVoZlVzSThEMTBOMjFYSGFTLWpya2xWRnJjRjVTNmVkWVhqSHAxeG52VmZpR2hB?oc=5",
-      "source": "thebanner.com",
-      "date": "Sat, 17 Jan 2026 10:30:00 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
       "title": "Port of Baltimore: A remarkable performance but challenges ahead - American Journal of Transportation",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS2l1T1dVZlZkTTlWNjlQS1R2MXdGd3pWT1BzRXZkNG5aekNQV1o0eWdzT19DYTNsbk1tNWpJV3ctamQ2N1ZqSjhoR1dOdERoaGVnRUt4TTczT0R2SVViTlFid0F0R2xYQ3RqWVVSQ2NfbTJYSXdjeTR0RmE4ZEo4MmhqbDBWdnc3Ynk1VGM4TmUySkFOOW5ycTRZaDNQZw?oc=5",
       "source": "American Journal of Transportation",
@@ -40,10 +33,17 @@
       "query": "Port of Baltimore"
     },
     {
+      "title": "European cargo ships are rerouting to Philadelphia as Baltimore struggles to replace Key Bridge - inquirer.com",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQX1BUVm91MmZjZGdzQnpfY3NtMUNmQ0dRM2RjMTBnUFZDZDk3ZGM4QUtNcC00MTJwVnBlWm5vejdtUTlybF9CR09hVG0zMGRicWJnNDJqc21JYWtoTGpFYlM2ZWdhMXpiWHlfZGhUakFoY2xkZG8wOEZsa01ReDd5T3kxNURHaGlaVEQ5QjhPcVNHNXd2MXQzcnF1ekhzWldxRThSMUZR?oc=5",
+      "source": "inquirer.com",
+      "date": "Thu, 18 Dec 2025 08:00:00 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
       "title": "Judge backs ship manager\u2019s liability cap in Baltimore Bridge costs skirmish - Tradewinds News",
       "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQRTVEMTBERzgzdlBkakx0c0pQMWVNcVZ1TXA4UHdBUHFodjNQeUh0VUhEU1dFSk9BV2lQQ0Nob2twVDhQblpoYkJfQ0JYVlJEQ0EwbnVZbjltZGdEM3pNem5xcXd3M0JzeFpibUNLZnFYYmdCeUl6NGtKQzJDWklob3gwcHRJRnVWdk8zWU9VZi1KLWNtaXlFQTc5Zkl2UlNMdDdZQ2NtMzNIWXhkby1LaHFsMEhpMUllbTVRMGlvaE93OTA0MmZj?oc=5",
       "source": "Tradewinds News",
-      "date": "Thu, 22 Jan 2026 18:31:26 GMT",
+      "date": "Thu, 22 Jan 2026 18:33:45 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Maryland transportation infrastructure",
-      "Baltimore harbor",
+      "Baltimore shipping",
       "Port of Baltimore",
-      "Baltimore shipping"
+      "Maryland transportation infrastructure",
+      "Baltimore harbor"
     ],
     "sources": [
-      "wbaltv.com",
-      "wmar2news.com",
-      "wypr.org",
-      "governor.maryland.gov",
-      "marylandmatters.org",
-      "The Business Journals",
-      "American Journal of Transportation",
+      "FreightWaves",
       "NTSB (.gov)",
-      "Tradewinds News",
-      "nottinghammd.com"
+      "nottinghammd.com",
+      "thebanner.com",
+      "American Journal of Transportation",
+      "inquirer.com",
+      "The Business Journals",
+      "marylandmatters.org",
+      "governor.maryland.gov",
+      "wypr.org"
     ]
   }
 }
