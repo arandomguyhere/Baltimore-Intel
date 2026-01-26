@@ -1,17 +1,17 @@
 {
-  "collected_at": "2026-01-26T14:04:08.877022+00:00",
+  "collected_at": "2026-01-26T14:47:48.941846+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "86",
       "routeName": "Northeast Regional",
-      "lat": 38.90386597290918,
-      "lon": -77.00387801698021,
-      "heading": "N",
-      "velocity": 10.949821472168,
-      "lastUpdate": "2026-01-26T08:53:52-05:00",
-      "nextStation": "New Carrollton",
+      "lat": 39.30711771645675,
+      "lon": -76.61385564296974,
+      "heading": "SE",
+      "velocity": 0.0621371008455753,
+      "lastUpdate": "2026-01-26T09:44:23-05:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
@@ -26,15 +26,26 @@
       "status": "Predeparture"
     },
     {
-      "trainNum": "2162",
-      "routeName": "Acela",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
+      "trainNum": "648",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-26T09:15:00-05:00",
-      "nextStation": "Washington Union",
+      "lastUpdate": "2026-01-26T09:50:00-05:00",
+      "nextStation": "Harrisburg",
       "status": "Predeparture"
+    },
+    {
+      "trainNum": "2162",
+      "routeName": "Acela",
+      "lat": 38.967765985389164,
+      "lon": -76.85342631399405,
+      "heading": "NE",
+      "velocity": 109.32373046875,
+      "lastUpdate": "2026-01-26T09:45:24-05:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
     }
   ]
 }
