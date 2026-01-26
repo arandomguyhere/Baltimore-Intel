@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-01-26T16:32:47.653541+00:00",
+  "collected_at": "2026-01-26T17:05:30.588619+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -9,6 +9,13 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc01nRWVaeXB3X2UyS2NudzFVY2x1akNaUGh3OXhiT005SmhoNHdEc2IzR3NKSVFrVlBiX01BS05XNkczX3lzb2V1RmR4eDFXUlFqaDdvdExuLWxvclJmWEM1ZDBOb0otdkFwdjNQN2tJTy16eG9hSTdwVm9uTFBPRA?oc=5",
       "source": "FreightWaves",
       "date": "Fri, 23 Jan 2026 18:20:51 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
+      "title": "Carnival Pride to Delay Return to Baltimore - Cruise Industry News",
+      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNN3g2RjFTbWR2RFh5R21sMjk0RC1DcjRlWC1CTVgzMWVOTTBzOUwtVEg4Nk1Jb1N5NGlIMGJTc2x5cVVQaUg4eVlNOGRpb1hWYWw0Q2RxRDgxOTVuVVJKOTgwMEFrb1JmNG5qQkM3cFZUWFBScUtYOUVjY05xeDRDTWo1eWdFWV9LTXphYmtjRGV5Z2Y1SjZkUDNIaw?oc=5",
+      "source": "Cruise Industry News",
+      "date": "Mon, 26 Jan 2026 12:04:38 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -30,13 +37,6 @@
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS2l1T1dVZlZkTTlWNjlQS1R2MXdGd3pWT1BzRXZkNG5aekNQV1o0eWdzT19DYTNsbk1tNWpJV3ctamQ2N1ZqSjhoR1dOdERoaGVnRUt4TTczT0R2SVViTlFid0F0R2xYQ3RqWVVSQ2NfbTJYSXdjeTR0RmE4ZEo4MmhqbDBWdnc3Ynk1VGM4TmUySkFOOW5ycTRZaDNQZw?oc=5",
       "source": "American Journal of Transportation",
       "date": "Mon, 23 Jun 2025 07:00:00 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "What will happen to the Savannah, a nuclear-powered ship? - thebanner.com",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPM1ZXWDBERkVieHllRzhEZUVyNnJlc0g4LV8yT2Vhd3NObG1fWHdWcHp6OUl6b1JpdmJoNnJvQzFPMWdheUNDVmVqbzRWR2FwTzBoUWhoRmwySmxiV0tUdzJzLVlOSWRBdFVMMDJGSFFYM205ZnZmc0hvZ1JmdlN5dUVxVkVqNy1PVVRNc2p0bnVoZlVzSThEMTBOMjFYSGFTLWpya2xWRnJjRjVTNmVkWVhqSHAxeG52VmZpR2hB?oc=5",
-      "source": "thebanner.com",
-      "date": "Sat, 17 Jan 2026 10:30:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
+      "Maryland transportation infrastructure",
       "Baltimore harbor",
-      "Port of Baltimore",
       "Baltimore shipping",
-      "Maryland transportation infrastructure"
+      "Port of Baltimore"
     ],
     "sources": [
-      "NTSB (.gov)",
-      "CBS News",
       "Cruise Hive",
-      "American Journal of Transportation",
-      "wbaltv.com",
-      "Patch",
-      "nottinghammd.com",
-      "wypr.org",
+      "marylandmatters.org",
       "thebanner.com",
-      "marylandmatters.org"
+      "FreightWaves",
+      "Patch",
+      "governor.maryland.gov",
+      "wypr.org",
+      "CBS News",
+      "Tradewinds News",
+      "The Business Journals"
     ]
   }
 }
