@@ -1,6 +1,216 @@
 {
-  "collected_at": "2026-01-27T20:22:03.200420+00:00",
+  "collected_at": "2026-01-27T20:47:02.763422+00:00",
   "source": "amtraker.com",
-  "total_trains": 0,
-  "trains": []
+  "total_trains": 19,
+  "trains": [
+    {
+      "trainNum": "42",
+      "routeName": "Pennsylvanian",
+      "lat": 39.96170850537176,
+      "lon": -75.18328272274813,
+      "heading": "NW",
+      "velocity": 2.7491991519928,
+      "lastUpdate": "2026-01-27T15:42:33-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "43",
+      "routeName": "Pennsylvanian",
+      "lat": 40.56239366816954,
+      "lon": -77.17161041518241,
+      "heading": "NW",
+      "velocity": 53.1250877380371,
+      "lastUpdate": "2026-01-27T15:42:33-05:00",
+      "nextStation": "Lewistown",
+      "status": "Active"
+    },
+    {
+      "trainNum": "53",
+      "routeName": "Auto Train",
+      "lat": 38.705507739695534,
+      "lon": -77.2223023408384,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-27T15:45:00-05:00",
+      "nextStation": "Lorton",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "93",
+      "routeName": "Northeast Regional",
+      "lat": 39.95763822262773,
+      "lon": -75.18150507293765,
+      "heading": "S",
+      "velocity": 7.0597825050354,
+      "lastUpdate": "2026-01-27T15:42:33-05:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "94",
+      "routeName": "Northeast Regional",
+      "lat": 38.899303593952155,
+      "lon": -77.00486983901062,
+      "heading": "N",
+      "velocity": 0.0581604391336441,
+      "lastUpdate": "2026-01-27T15:42:33-05:00",
+      "nextStation": "Washington Union",
+      "status": "Active"
+    },
+    {
+      "trainNum": "95",
+      "routeName": "Northeast Regional",
+      "lat": 38.480430664531134,
+      "lon": -77.31666037651506,
+      "heading": "SW",
+      "velocity": 69.0655212402344,
+      "lastUpdate": "2026-01-27T15:42:33-05:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "125",
+      "routeName": "Northeast Regional",
+      "lat": 38.899181523924696,
+      "lon": -77.00494613302693,
+      "heading": "S",
+      "velocity": 1.70231139659882,
+      "lastUpdate": "2026-01-27T15:42:37-05:00",
+      "nextStation": "Washington Union",
+      "status": "Active"
+    },
+    {
+      "trainNum": "138",
+      "routeName": "Northeast Regional",
+      "lat": 37.85190574967494,
+      "lon": -77.45758292892116,
+      "heading": "N",
+      "velocity": 0.00894775986671448,
+      "lastUpdate": "2026-01-27T15:42:37-05:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "148",
+      "routeName": "Northeast Regional",
+      "lat": 39.30630518604373,
+      "lon": -76.59371403461643,
+      "heading": "E",
+      "velocity": 44.5262908935547,
+      "lastUpdate": "2026-01-27T15:42:34-05:00",
+      "nextStation": "Aberdeen",
+      "status": "Active"
+    },
+    {
+      "trainNum": "171",
+      "routeName": "Northeast Regional",
+      "lat": 39.34436443584919,
+      "lon": -76.40001890829969,
+      "heading": "W",
+      "velocity": 122.519439697266,
+      "lastUpdate": "2026-01-27T15:42:36-05:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "176",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-27T15:15:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "178",
+      "routeName": "Northeast Regional",
+      "lat": 38.853161005032625,
+      "lon": -77.04806748164543,
+      "heading": "N",
+      "velocity": 31.7846813201904,
+      "lastUpdate": "2026-01-27T15:42:35-05:00",
+      "nextStation": "Washington Union",
+      "status": "Active"
+    },
+    {
+      "trainNum": "184",
+      "routeName": "Northeast Regional",
+      "lat": 39.981010878080085,
+      "lon": -75.18668543500056,
+      "heading": "NE",
+      "velocity": 67.1216201782227,
+      "lastUpdate": "2026-01-27T15:42:37-05:00",
+      "nextStation": "Trenton",
+      "status": "Active"
+    },
+    {
+      "trainNum": "609",
+      "routeName": "Keystone",
+      "lat": 40.042914071561036,
+      "lon": -75.48392987788617,
+      "heading": "W",
+      "velocity": 0,
+      "lastUpdate": "2026-01-27T15:37:37-05:00",
+      "nextStation": "Lancaster",
+      "status": "Active"
+    },
+    {
+      "trainNum": "645",
+      "routeName": "Keystone",
+      "lat": 40.25465817699916,
+      "lon": -76.87293476363877,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-27T15:43:28-05:00",
+      "nextStation": "Harrisburg",
+      "status": "Completed"
+    },
+    {
+      "trainNum": "647",
+      "routeName": "Keystone",
+      "lat": 39.986191207098315,
+      "lon": -76.03335776090202,
+      "heading": "W",
+      "velocity": 39.9495124816895,
+      "lastUpdate": "2026-01-27T15:42:36-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "649",
+      "routeName": "Keystone",
+      "lat": 39.956638772417755,
+      "lon": -75.18182550697836,
+      "heading": "SE",
+      "velocity": 0,
+      "lastUpdate": "2026-01-27T15:32:35-05:00",
+      "nextStation": "Trenton",
+      "status": "Active"
+    },
+    {
+      "trainNum": "652",
+      "routeName": "Keystone",
+      "lat": 40.05471843136813,
+      "lon": -76.30712341554037,
+      "heading": "E",
+      "velocity": 0.0248548407107592,
+      "lastUpdate": "2026-01-27T15:41:36-05:00",
+      "nextStation": "Lancaster",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2170",
+      "routeName": "Acela",
+      "lat": 38.9156533895185,
+      "lon": -76.99763717175617,
+      "heading": "S",
+      "velocity": 0.0156585797667503,
+      "lastUpdate": "2026-01-27T15:42:34-05:00",
+      "nextStation": "Washington Union",
+      "status": "Active"
+    }
+  ]
 }
