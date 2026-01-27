@@ -1,50 +1,61 @@
 {
-  "collected_at": "2026-01-27T10:26:32.223658+00:00",
+  "collected_at": "2026-01-27T10:55:39.501393+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 6,
   "trains": [
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.72519695357932,
-      "lon": -77.19816822853669,
+      "lat": 38.88533798406243,
+      "lon": -77.00682296376688,
       "heading": "NE",
-      "velocity": 70.5888824462891,
-      "lastUpdate": "2026-01-27T05:24:17-05:00",
-      "nextStation": "Alexandria",
+      "velocity": 20.6447200775146,
+      "lastUpdate": "2026-01-27T05:51:18-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
+      "lat": 39.73687782066394,
+      "lon": -75.54268833968182,
+      "heading": "SW",
+      "velocity": 28.8967914581299,
+      "lastUpdate": "2026-01-27T05:51:15-05:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "190",
+      "routeName": "Northeast Regional",
       "lat": 39.95680206539882,
       "lon": -75.18325177743992,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-27T04:42:00-05:00",
+      "lastUpdate": "2026-01-27T05:43:00-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Predeparture"
     },
     {
-      "trainNum": "601",
+      "trainNum": "605",
       "routeName": "Keystone",
       "lat": 39.95680206539882,
       "lon": -75.18325177743992,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-27T05:25:14-05:00",
+      "lastUpdate": "2026-01-27T06:00:00-05:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
+      "status": "Predeparture"
     },
     {
       "trainNum": "640",
       "routeName": "Keystone",
-      "lat": 40.10928767960669,
-      "lon": -76.50531226346448,
-      "heading": "E",
-      "velocity": 0,
-      "lastUpdate": "2026-01-27T05:23:48-05:00",
-      "nextStation": "Mount Joy",
+      "lat": 39.964928080943295,
+      "lon": -76.00520528468819,
+      "heading": "SE",
+      "velocity": 104.247398376465,
+      "lastUpdate": "2026-01-27T05:50:49-05:00",
+      "nextStation": "Parkesburg",
       "status": "Active"
     },
     {
