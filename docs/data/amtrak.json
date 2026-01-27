@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-01-27T04:45:42.568472+00:00",
+  "collected_at": "2026-01-27T05:25:30.864717+00:00",
   "source": "amtraker.com",
   "total_trains": 5,
   "trains": [
@@ -17,46 +17,46 @@
     {
       "trainNum": "175",
       "routeName": "Northeast Regional",
-      "lat": 39.43933134883533,
-      "lon": -76.23800867032114,
-      "heading": "SW",
-      "velocity": 120.754493713379,
-      "lastUpdate": "2026-01-26T23:42:46-05:00",
-      "nextStation": "Baltimore Penn",
+      "lat": 39.09271642510245,
+      "lon": -76.70368414889002,
+      "heading": "S",
+      "velocity": 116.819717407227,
+      "lastUpdate": "2026-01-27T00:21:12-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
+    },
+    {
+      "trainNum": "177",
+      "routeName": "Northeast Regional",
+      "lat": 39.96379514572389,
+      "lon": -75.18500696642101,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-27T00:10:21-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Completed"
     },
     {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 39.98866313916508,
-      "lon": -75.80179030498245,
-      "heading": "W",
-      "velocity": 82.7734909057617,
-      "lastUpdate": "2026-01-26T23:42:39-05:00",
-      "nextStation": "Coatesville",
+      "lat": 40.12418407296475,
+      "lon": -76.54654152540702,
+      "heading": "NW",
+      "velocity": 109.055297851563,
+      "lastUpdate": "2026-01-27T00:22:06-05:00",
+      "nextStation": "Elizabethtown",
       "status": "Active"
     },
     {
       "trainNum": "2126",
       "routeName": "Acela",
-      "lat": 39.89645046257399,
-      "lon": -75.28965940044539,
-      "heading": "NE",
-      "velocity": 58.8248100280762,
-      "lastUpdate": "2026-01-26T23:42:44-05:00",
+      "lat": 39.972382029953934,
+      "lon": -75.19816767711109,
+      "heading": "N",
+      "velocity": 16.0321483612061,
+      "lastUpdate": "2026-01-27T00:21:11-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
-    },
-    {
-      "trainNum": "2171",
-      "routeName": "Acela",
-      "lat": 39.957649667629205,
-      "lon": -75.18152796094559,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-26T23:43:22-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
     }
   ]
 }
