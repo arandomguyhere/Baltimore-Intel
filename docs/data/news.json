@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-01-27T17:04:07.544785+00:00",
+  "collected_at": "2026-01-27T17:44:41.433083+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -89,6 +89,13 @@
       "query": "Baltimore harbor"
     },
     {
+      "title": "It was a snow globe in Canton as the sun rose Sunday morning - wbaltv.com",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTGdiZlF4a3ZobmVVODVVMmJYZGRvZ0gxenFrcGRnODJjaUpwOFdMM2hYR0QwS2hEX1lHYkJtTXRFbFdqV3U3a3BzbXU1eE5RQmJwMkZaMHpYUHdiMGRGUHdCUlZNUTVTQzdWbTVLNEt4QmVaR2ZaMW1zQlBMdHgyZnM2VzluSUd6TmtidzRGRHdEWkNNeTNr?oc=5",
+      "source": "wbaltv.com",
+      "date": "Sun, 25 Jan 2026 23:05:00 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
       "title": "Sail250 Maryland And Air Show Baltimore Seeks Vendors, Artists, And Local Bands For 2026 Events - eyeonannapolis.net",
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPa2lIc015SW1FMW5yTThQcHk5QksxWjZiMk9xNDIzeG5OVmxRTFYwTC1QSlFYQ1lhYXhJdnV0UldpRzZGRndseTJHZkp1V284MS1xUlloc2szRFZIWWZPQktPS1Ewc0I0S0hQbkZQQ0hJeEdUUjFGakgzMHZUQWhJVENjYUYweVVRbWZJbWx2YjNJOVNNNl9XVENaNzNnVm9kQ2xseWNBdVdVOWFWazFXTTEzRE1GSWY1UWRRUlQ3X01zUDFRQU1TNW82QVQ1UQ?oc=5",
       "source": "eyeonannapolis.net",
@@ -100,13 +107,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPS25VZm8zblZib0UzSzc2eExDMkpZRkdoNk9ta1NOSkM1UktTM2pTQVNpbDV5ZHAtOU1aSFNDTHpQWVBTeElnaVRZQnpfdGNKUDJSUzI0TEtxbHU5RlJTSjBISFdiZklkRS13ZW55N3ZETWs0Q1JENGR4ZGx1NXpmYWd2cTFycXZid3N6OHprakFuSFEzd1F4b1ZDTG55SmNEVnNnQ1cxbExKQQ?oc=5",
       "source": "The Business Journals",
       "date": "Fri, 23 Jan 2026 12:12:00 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "It was a snow globe in Canton as the sun rose Sunday morning - wbaltv.com",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOTGdiZlF4a3ZobmVVODVVMmJYZGRvZ0gxenFrcGRnODJjaUpwOFdMM2hYR0QwS2hEX1lHYkJtTXRFbFdqV3U3a3BzbXU1eE5RQmJwMkZaMHpYUHdiMGRGUHdCUlZNUTVTQzdWbTVLNEt4QmVaR2ZaMW1zQlBMdHgyZnM2VzluSUd6TmtidzRGRHdEWkNNeTNr?oc=5",
-      "source": "wbaltv.com",
-      "date": "Sun, 25 Jan 2026 23:05:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore shipping",
       "Baltimore harbor",
-      "Port of Baltimore",
-      "Maryland transportation infrastructure"
+      "Maryland transportation infrastructure",
+      "Baltimore shipping",
+      "Port of Baltimore"
     ],
     "sources": [
-      "eyeonannapolis.net",
-      "The Maritime Executive",
-      "Tradewinds News",
-      "thebanner.com",
-      "wypr.org",
-      "wmar2news.com",
-      "Cruise Hive",
+      "nottinghammd.com",
       "FreightWaves",
       "American Journal of Transportation",
-      "whatnow.com"
+      "Cruise Industry News",
+      "wmar2news.com",
+      "wbaltv.com",
+      "whatnow.com",
+      "wypr.org",
+      "The Business Journals",
+      "marylandmatters.org"
     ]
   }
 }
