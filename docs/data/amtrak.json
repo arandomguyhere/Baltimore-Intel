@@ -1,50 +1,50 @@
 {
-  "collected_at": "2026-01-28T04:34:18.191956+00:00",
+  "collected_at": "2026-01-28T05:05:23.680801+00:00",
   "source": "amtraker.com",
   "total_trains": 4,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.60670123621376,
-      "lon": -75.94017991199203,
-      "heading": "NE",
-      "velocity": 95.7835311889648,
-      "lastUpdate": "2026-01-27T23:30:41-05:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "173",
-      "routeName": "Northeast Regional",
-      "lat": 38.906925360564784,
-      "lon": -77.00284041984378,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-27T23:19:25-05:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 39.957039315508005,
-      "lon": -75.18152796090847,
-      "heading": "S",
-      "velocity": 10.9229784011841,
-      "lastUpdate": "2026-01-27T23:30:41-05:00",
+      "lat": 39.94541974470311,
+      "lon": -75.19534479857661,
+      "heading": "E",
+      "velocity": 38.3299674987793,
+      "lastUpdate": "2026-01-28T00:03:44-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
+      "trainNum": "175",
+      "routeName": "Northeast Regional",
+      "lat": 39.737202069413485,
+      "lon": -75.55137059344153,
+      "heading": "NW",
+      "velocity": 0.0246063396334648,
+      "lastUpdate": "2026-01-28T00:03:46-05:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "177",
+      "routeName": "Northeast Regional",
+      "lat": 39.96859785033764,
+      "lon": -75.1944292716969,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-28T00:04:22-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Completed"
+    },
+    {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 40.00257916136383,
-      "lon": -75.70821575229422,
+      "lat": 40.05510753038012,
+      "lon": -76.30884003010604,
       "heading": "W",
-      "velocity": 28.3593692779541,
-      "lastUpdate": "2026-01-27T23:30:36-05:00",
-      "nextStation": "Downingtown",
+      "velocity": 0.0994193628430367,
+      "lastUpdate": "2026-01-28T00:03:47-05:00",
+      "nextStation": "Lancaster",
       "status": "Active"
     }
   ]
