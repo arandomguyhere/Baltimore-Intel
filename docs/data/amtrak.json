@@ -1,72 +1,39 @@
 {
-  "collected_at": "2026-01-29T04:17:38.381614+00:00",
+  "collected_at": "2026-01-29T05:28:25.699676+00:00",
   "source": "amtraker.com",
-  "total_trains": 6,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.903106847747836,
-      "lon": -77.00409927000278,
-      "heading": "S",
+      "lat": 39.37083081156907,
+      "lon": -76.36157437887458,
+      "heading": "NE",
+      "velocity": 79.4493942260742,
+      "lastUpdate": "2026-01-29T00:24:11-05:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "177",
+      "routeName": "Northeast Regional",
+      "lat": 39.96608396409687,
+      "lon": -75.18726526827541,
+      "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-28T23:15:44-05:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "137",
-      "routeName": "Northeast Regional",
-      "lat": 39.12569067502235,
-      "lon": -76.69583350145413,
-      "heading": "S",
-      "velocity": 115.15096282959,
-      "lastUpdate": "2026-01-28T23:15:46-05:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 39.19755195641242,
-      "lon": -76.69684821517865,
-      "heading": "S",
-      "velocity": 54.2614517211914,
-      "lastUpdate": "2026-01-28T23:15:46-05:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "193",
-      "routeName": "Vermonter",
-      "lat": 38.984153928841856,
-      "lon": -76.82245096333318,
-      "heading": "SW",
-      "velocity": 110.350486755371,
-      "lastUpdate": "2026-01-28T23:15:44-05:00",
-      "nextStation": "New Carrollton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 39.95315595270672,
-      "lon": -75.1823671939381,
-      "heading": "NW",
-      "velocity": 4.67520475387573,
-      "lastUpdate": "2026-01-28T23:15:46-05:00",
+      "lastUpdate": "2026-01-29T00:10:23-05:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
+      "status": "Completed"
     },
     {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 39.957786996649865,
-      "lon": -75.18171106701192,
-      "heading": "SW",
-      "velocity": 7.33268928527832,
-      "lastUpdate": "2026-01-28T22:59:48-05:00",
-      "nextStation": "Ardmore",
+      "lat": 40.109367787616364,
+      "lon": -76.50547248052011,
+      "heading": "W",
+      "velocity": 0.0683508068323135,
+      "lastUpdate": "2026-01-29T00:24:12-05:00",
+      "nextStation": "Mount Joy",
       "status": "Active"
     }
   ]
