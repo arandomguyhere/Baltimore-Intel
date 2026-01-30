@@ -1,17 +1,17 @@
 {
-  "collected_at": "2026-01-30T10:54:52.150118+00:00",
+  "collected_at": "2026-01-30T11:26:47.778799+00:00",
   "source": "amtraker.com",
-  "total_trains": 8,
+  "total_trains": 9,
   "trains": [
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.298958079877494,
-      "lon": -76.53167940774722,
-      "heading": "W",
-      "velocity": 81.621467590332,
-      "lastUpdate": "2026-01-30T05:51:20-05:00",
-      "nextStation": "Baltimore Penn",
+      "lat": 39.11996862783929,
+      "lon": -76.69672614038282,
+      "heading": "S",
+      "velocity": 117.846473693848,
+      "lastUpdate": "2026-01-30T06:24:20-05:00",
+      "nextStation": "New Carrollton",
       "status": "Active"
     },
     {
@@ -21,75 +21,86 @@
       "lon": -77.0046714739777,
       "heading": "N",
       "velocity": 0.0223693996667862,
-      "lastUpdate": "2026-01-30T05:51:19-05:00",
+      "lastUpdate": "2026-01-30T06:04:50-05:00",
       "nextStation": "Washington Union",
       "status": "Active"
     },
     {
+      "trainNum": "110",
+      "routeName": "Keystone",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-30T06:32:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.4521639942534,
-      "lon": -76.21489159785285,
+      "lat": 39.26565957555096,
+      "lon": -76.68377906228629,
       "heading": "SW",
-      "velocity": 118.884414672852,
-      "lastUpdate": "2026-01-30T05:51:18-05:00",
-      "nextStation": "Baltimore Penn",
+      "velocity": 19.0609664916992,
+      "lastUpdate": "2026-01-30T06:24:20-05:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
     },
     {
       "trainNum": "170",
       "routeName": "Northeast Regional",
-      "lat": 39.298836009837224,
-      "lon": -76.53210665387347,
+      "lat": 39.704983126484976,
+      "lon": -75.64792060993608,
       "heading": "E",
-      "velocity": 75.0068359375,
-      "lastUpdate": "2026-01-30T05:51:15-05:00",
+      "velocity": 106.480583190918,
+      "lastUpdate": "2026-01-30T06:24:17-05:00",
       "nextStation": "Wilmington",
       "status": "Active"
     },
     {
-      "trainNum": "190",
-      "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-30T05:43:00-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Predeparture"
-    },
-    {
-      "trainNum": "605",
-      "routeName": "Keystone",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-01-30T06:00:00-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Predeparture"
-    },
-    {
-      "trainNum": "640",
-      "routeName": "Keystone",
-      "lat": 39.948620247508856,
-      "lon": -75.98392689595556,
-      "heading": "E",
-      "velocity": 78.8901596069336,
-      "lastUpdate": "2026-01-30T05:51:21-05:00",
-      "nextStation": "Parkesburg",
-      "status": "Active"
-    },
-    {
-      "trainNum": "642",
+      "trainNum": "600",
       "routeName": "Keystone",
       "lat": 40.261108062055214,
       "lon": -76.8782023317206,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-30T05:40:00-05:00",
+      "lastUpdate": "2026-01-30T06:25:00-05:00",
       "nextStation": "Harrisburg",
       "status": "Predeparture"
+    },
+    {
+      "trainNum": "605",
+      "routeName": "Keystone",
+      "lat": 39.972717723565225,
+      "lon": -75.21079432912971,
+      "heading": "W",
+      "velocity": 29.3038597106934,
+      "lastUpdate": "2026-01-30T06:20:51-05:00",
+      "nextStation": "Ardmore",
+      "status": "Active"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.046474901308535,
+      "lon": -75.42791934038311,
+      "heading": "E",
+      "velocity": 63.8512153625488,
+      "lastUpdate": "2026-01-30T06:24:22-05:00",
+      "nextStation": "Ardmore",
+      "status": "Active"
+    },
+    {
+      "trainNum": "642",
+      "routeName": "Keystone",
+      "lat": 40.10876888062301,
+      "lon": -76.50219946945084,
+      "heading": "E",
+      "velocity": 28.5644302368164,
+      "lastUpdate": "2026-01-30T06:20:51-05:00",
+      "nextStation": "Lancaster",
+      "status": "Active"
     }
   ]
 }
