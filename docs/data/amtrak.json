@@ -1,29 +1,62 @@
 {
-  "collected_at": "2026-01-30T09:22:15.467677+00:00",
+  "collected_at": "2026-01-30T10:01:41.811324+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.95531888720242,
-      "lon": -75.18052850948742,
-      "heading": "S",
-      "velocity": 0,
-      "lastUpdate": "2026-01-30T04:16:18-05:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lat": 39.85144465326542,
+      "lon": -75.35502807037902,
+      "heading": "SW",
+      "velocity": 89.3858871459961,
+      "lastUpdate": "2026-01-30T04:57:18-05:00",
+      "nextStation": "Wilmington",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 37.94283670785507,
-      "lon": -77.4450707233627,
-      "heading": "N",
-      "velocity": 69.8395004272461,
-      "lastUpdate": "2026-01-30T04:18:17-05:00",
-      "nextStation": "Fredericksburg",
+      "lat": 38.395290416210486,
+      "lon": -77.37042473106531,
+      "heading": "NE",
+      "velocity": 61.8044166564941,
+      "lastUpdate": "2026-01-30T04:57:17-05:00",
+      "nextStation": "Alexandria",
       "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-30T04:42:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "170",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-30T04:50:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-30T04:45:00-05:00",
+      "nextStation": "Harrisburg",
+      "status": "Predeparture"
     }
   ]
 }
