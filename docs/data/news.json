@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-01-31T22:23:29.526996+00:00",
+  "collected_at": "2026-01-31T22:48:24.269494+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -68,6 +68,13 @@
       "query": "Baltimore shipping"
     },
     {
+      "title": "Death Investigation Underway in Inner Harbor - Baltimore Witness",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XanRZd3U3NEplSFNsRFl4cWFVbGtQREtFVEpBa1FZRnh0VmV1eDFxYUs2TTlpY2NSUDRDYWFQaWRkb2xYOHpPejl6YlN4MzZzMnU1dXR5SE1FbFozWmFJN2pVTndhakx6VFl6bUxybmJuZEpEREppdkxIR0FQanM?oc=5",
+      "source": "Baltimore Witness",
+      "date": "Wed, 28 Jan 2026 14:37:00 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
       "title": "National Aquarium\u2019s floating wetland transforms Inner Harbor - WBFF",
       "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaGJUQS1jLU42WVppMHpVZGtCNXRVREdkTUVSS01fNHMzal9DUWNKLWFtd2FuSlhzOHFPbkh2Nm5adE1nbDA3N1d0Wlc3MllROVNPUzU1dnBSby1ZcWwyWkdLWWU5b0xyV0JYYXpIdktyOHFiWkF6N2FsX0doa25KQmtNb05Lem5RMFdod1FiWHpCdUZCNktET2JfSQ?oc=5",
       "source": "WBFF",
@@ -93,13 +100,6 @@
       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOODhXbjRkWVhaYjg0R3A3aEFHT0VZY3B5Wm1HcEY5QUxHQ0dWQmdjaWNGZjI5NFFBNkZ6OHlDWi1qNElXZEMxeGg2UjZrMnRSRnlzb1BKRGNpVGtDTGYzMVAzWkw5WmNLMFM3VXNqdXpKMHRTOVc1MlRsOFd4elc5UEZ5eHlSRW54MFZXSEdUWDVha1RQTlNqRjhLcHZiZnZvX0RDR3FWLUNXUQ?oc=5",
       "source": "CBS News",
       "date": "Sun, 18 Jan 2026 08:00:00 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "Death Investigation Underway in Inner Harbor - Baltimore Witness",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XanRZd3U3NEplSFNsRFl4cWFVbGtQREtFVEpBa1FZRnh0VmV1eDFxYUs2TTlpY2NSUDRDYWFQaWRkb2xYOHpPejl6YlN4MzZzMnU1dXR5SE1FbFozWmFJN2pVTndhakx6VFl6bUxybmJuZEpEREppdkxIR0FQanM?oc=5",
-      "source": "Baltimore Witness",
-      "date": "Wed, 28 Jan 2026 14:37:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore rail freight",
-      "Maryland transportation infrastructure",
       "Baltimore shipping",
       "Baltimore harbor",
-      "Port of Baltimore"
+      "Baltimore rail freight",
+      "Port of Baltimore",
+      "Maryland transportation infrastructure"
     ],
     "sources": [
+      "Maryland Matters",
       "Baltimore Witness",
-      "WBAL-TV",
-      "nottinghammd.com",
+      "The Guardian",
       "GetTransport.com",
       "American Journal of Transportation",
-      "The Guardian",
+      "Cruise Hive",
+      "The BayNet",
       "WBFF",
-      "CBS News",
       "WYPR",
-      "Maryland Matters"
+      "Baltimore Sun"
     ]
   }
 }
