@@ -1,29 +1,40 @@
 {
-  "collected_at": "2026-01-31T09:31:51.420488+00:00",
+  "collected_at": "2026-01-31T09:56:25.101524+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.900108758616014,
-      "lon": -75.28093136990685,
-      "heading": "SW",
-      "velocity": 88.4210968017578,
-      "lastUpdate": "2026-01-31T04:30:14-05:00",
-      "nextStation": "Wilmington",
+      "lat": 39.692604430881964,
+      "lon": -75.67912484302,
+      "heading": "W",
+      "velocity": 90.582649230957,
+      "lastUpdate": "2026-01-31T04:54:18-05:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.122516616799146,
-      "lon": -77.41625450201845,
-      "heading": "NW",
-      "velocity": 70.6001663208008,
-      "lastUpdate": "2026-01-31T04:30:17-05:00",
-      "nextStation": "Fredericksburg",
+      "lat": 38.3865585718688,
+      "lon": -77.38559960124256,
+      "heading": "NE",
+      "velocity": 60.7508163452148,
+      "lastUpdate": "2026-01-31T04:54:17-05:00",
+      "nextStation": "Alexandria",
       "status": "Active"
+    },
+    {
+      "trainNum": "150",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-31T05:00:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
     },
     {
       "trainNum": "151",
@@ -34,6 +45,17 @@
       "velocity": 0,
       "lastUpdate": "2026-01-31T04:42:00-05:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-31T05:10:00-05:00",
+      "nextStation": "Washington Union",
       "status": "Predeparture"
     }
   ]
