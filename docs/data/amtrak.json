@@ -1,17 +1,17 @@
 {
-  "collected_at": "2026-01-31T10:51:56.090990+00:00",
+  "collected_at": "2026-01-31T11:18:57.719222+00:00",
   "source": "amtraker.com",
   "total_trains": 6,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.31039454187769,
-      "lon": -76.62016515414632,
-      "heading": "NW",
-      "velocity": 29.681957244873,
-      "lastUpdate": "2026-01-31T05:48:19-05:00",
-      "nextStation": "Baltimore Airport",
+      "lat": 38.97035616508404,
+      "lon": -76.8487723827008,
+      "heading": "SW",
+      "velocity": 107.898803710938,
+      "lastUpdate": "2026-01-31T06:12:00-05:00",
+      "nextStation": "New Carrollton",
       "status": "Active"
     },
     {
@@ -21,53 +21,53 @@
       "lon": -77.00510635006678,
       "heading": "N",
       "velocity": 0.0917145386338234,
-      "lastUpdate": "2026-01-31T05:48:18-05:00",
+      "lastUpdate": "2026-01-31T06:11:57-05:00",
       "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "144",
       "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
+      "lat": 39.960529764140254,
+      "lon": -75.18321405765467,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-01-31T05:55:00-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Predeparture"
-    },
-    {
-      "trainNum": "150",
-      "routeName": "Northeast Regional",
-      "lat": 39.95937391097397,
-      "lon": -75.18145929702874,
-      "heading": "S",
-      "velocity": 7.94784784317017,
-      "lastUpdate": "2026-01-31T05:41:19-05:00",
+      "lastUpdate": "2026-01-31T06:15:55-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.73892249858599,
-      "lon": -75.55606267302693,
+      "lat": 39.55754503243755,
+      "lon": -76.07544911751951,
       "heading": "W",
-      "velocity": 29.0846939086914,
-      "lastUpdate": "2026-01-31T05:48:17-05:00",
-      "nextStation": "Newark",
+      "velocity": 57.697395324707,
+      "lastUpdate": "2026-01-31T06:12:05-05:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "160",
       "routeName": "Northeast Regional",
-      "lat": 39.1908342731726,
-      "lon": -76.69394904385973,
-      "heading": "N",
-      "velocity": 13.750470161438,
-      "lastUpdate": "2026-01-31T05:48:16-05:00",
-      "nextStation": "Baltimore Airport",
+      "lat": 39.30760599751047,
+      "lon": -76.6150381993699,
+      "heading": "SE",
+      "velocity": 0.0626343190670013,
+      "lastUpdate": "2026-01-31T06:16:06-05:00",
+      "nextStation": "Wilmington",
       "status": "Active"
+    },
+    {
+      "trainNum": "162",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-01-31T06:05:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
