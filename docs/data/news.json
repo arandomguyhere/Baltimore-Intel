@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-01T21:21:57.156276+00:00",
+  "collected_at": "2026-02-01T21:46:22.044976+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -19,17 +19,17 @@
       "query": "Port of Baltimore"
     },
     {
+      "title": "Despite tariffs, Port of Baltimore handled record number of containers in 2025 - The Baltimore Banner",
+      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdldfT2VuNzdYVGVZcmZ3VzgwZy10WGhvVUtYTE1od1Jsd3RqbkZwMmtHdlZtSjNscmpYVVZjTkRVUVFNTy1oQVlmTVJBOWtKLUxwR3h1ODl2N0RPbS1Lb1ZsSkNjWFZ4cnpHMDlKemVFMFk4dXk3bWJiNFl4d2hreUZVdnZ5T2hYeDZ5ZktQbHR4RzdVb0FDWXN4NG1nSTI0RzFYajc1Q2duOE0?oc=5",
+      "source": "The Baltimore Banner",
+      "date": "Thu, 29 Jan 2026 16:30:00 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
       "title": "Black Marylanders to Watch 2026: Karenthia A. Barber, Maryland Port Commissioner - Baltimore Sun",
       "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBJdTlyQmxWaVE1TW1KWGZ2R1diR3ZLMGJfdk9jNExZcGU1NGF0R3Y5LVVVWGx1bXFIdzc5MmpGOE84YllKQnp0VklsdWp0OEQ1R1dEamxLcjFjMGZMWGQxTXpjOFNzWGpJQmtr?oc=5",
       "source": "Baltimore Sun",
       "date": "Sun, 01 Feb 2026 10:01:56 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "From Chile to your street: Inside the sprint to distribute road salt after a snowstorm - The Baltimore Banner",
-      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOT3BFRm5Rd1I2SjlPMG1PLXFYRENiMTVwTV9kSFlTRzlzLUVWSU4xbFRUVV90WFhfbldwQzluUXBRdUVBbGtoRjVIWjhOY2VURGlmdHdUUWxOVFoxd3lfeXFQNTZFbmpYX0lBZnl1Y2FCN1ZXdUpaVHFDZmdLZTJFb3I4ancyNFlxWFJ1elY0UXVVVFU5V3lucEE5NDVsTDFBbnlMRV9wa3hCUGdoUHc?oc=5",
-      "source": "The Baltimore Banner",
-      "date": "Fri, 30 Jan 2026 10:30:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -38,13 +38,6 @@
       "source": "American Journal of Transportation",
       "date": "Mon, 23 Jun 2025 07:00:00 GMT",
       "query": "Port of Baltimore"
-    },
-    {
-      "title": "Despite tariffs, Port of Baltimore handled record number of containers in 2025 - The Baltimore Banner",
-      "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdldfT2VuNzdYVGVZcmZ3VzgwZy10WGhvVUtYTE1od1Jsd3RqbkZwMmtHdlZtSjNscmpYVVZjTkRVUVFNTy1oQVlmTVJBOWtKLUxwR3h1ODl2N0RPbS1Lb1ZsSkNjWFZ4cnpHMDlKemVFMFk4dXk3bWJiNFl4d2hreUZVdnZ5T2hYeDZ5ZktQbHR4RzdVb0FDWXN4NG1nSTI0RzFYajc1Q2duOE0?oc=5",
-      "source": "The Baltimore Banner",
-      "date": "Thu, 29 Jan 2026 16:30:00 GMT",
-      "query": "Baltimore shipping"
     },
     {
       "title": "Baltimore bridge collapse: crew members from ship still held by US two years on - The Guardian",
@@ -143,26 +136,34 @@
       "source": "Office of Governor Wes Moore (.gov)",
       "date": "Fri, 14 Feb 2025 08:00:00 GMT",
       "query": "Maryland transportation infrastructure"
+    },
+    {
+      "title": "Could the Chesapeake Bay freeze over this week? - The Baltimore Banner",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNa0Mzc1I2bkJHa2dxQ3NHeXJkdXlaeU10aVRfM2cwNHVzRjlCQWtRa2J3QW1iczFoMFRSbE4wdVdCRzMxTnFhSElTNWxuS0FRbXYxZl84R0thbWl1R3djZUpRcnFBb0dCQUowWGhJOWFDY1k3ekV0bFk5MWNXdkNBOWVuRF9CT3hlTHZFUkdXMW1pLXpObjlKRWdCcndGOC1iWnhILUhFemp4dVVrSUJsbnloaG5UNW9z?oc=5",
+      "source": "The Baltimore Banner",
+      "date": "Wed, 28 Jan 2026 15:00:00 GMT",
+      "query": "Chesapeake Bay shipping"
     }
   ],
   "entities": {
     "topics": [
-      "Port of Baltimore",
-      "Baltimore harbor",
       "Maryland transportation infrastructure",
-      "Baltimore shipping"
+      "Baltimore harbor",
+      "Chesapeake Bay shipping",
+      "Baltimore shipping",
+      "Port of Baltimore"
     ],
     "sources": [
-      "The Baltimore Banner",
-      "WBAL-TV",
-      "Baltimore Sun",
-      "WBFF",
-      "The Guardian",
-      "dailyvoice.com",
       "The BayNet",
       "American Journal of Transportation",
-      "CBS News",
-      "The Maritime Executive"
+      "Baltimore Witness",
+      "WBAL-TV",
+      "The Baltimore Banner",
+      "dailyvoice.com",
+      "Maryland Association of Counties",
+      "The Maritime Executive",
+      "WBFF",
+      "WYPR"
     ]
   }
 }
