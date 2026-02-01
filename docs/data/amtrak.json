@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-02-01T11:20:14.375117+00:00",
+  "collected_at": "2026-02-01T11:44:13.608108+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 6,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 38.912899178080345,
-      "lon": -76.99449385960898,
-      "heading": "SW",
-      "velocity": 22.2217617034912,
-      "lastUpdate": "2026-02-01T06:17:49-05:00",
+      "lat": 38.9002381951571,
+      "lon": -77.00442733392984,
+      "heading": "S",
+      "velocity": 3.03552746772766,
+      "lastUpdate": "2026-02-01T06:41:50-05:00",
       "nextStation": "Washington Union",
       "status": "Active"
     },
@@ -28,22 +28,22 @@
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.29249979201762,
-      "lon": -76.6544745507766,
+      "lat": 38.91415039946882,
+      "lon": -76.9908393785471,
       "heading": "SW",
-      "velocity": 48.3894844055176,
-      "lastUpdate": "2026-02-01T06:17:51-05:00",
-      "nextStation": "Baltimore Airport",
+      "velocity": 32.368522644043,
+      "lastUpdate": "2026-02-01T06:41:47-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "160",
       "routeName": "Northeast Regional",
-      "lat": 39.30672480645328,
-      "lon": -76.50418306161613,
-      "heading": "NE",
-      "velocity": 78.9550323486328,
-      "lastUpdate": "2026-02-01T06:17:51-05:00",
+      "lat": 39.60173068698629,
+      "lon": -75.86469465893069,
+      "heading": "E",
+      "velocity": 114.180130004883,
+      "lastUpdate": "2026-02-01T06:41:46-05:00",
       "nextStation": "Wilmington",
       "status": "Active"
     },
@@ -57,6 +57,17 @@
       "lastUpdate": "2026-02-01T06:05:00-05:00",
       "nextStation": "Washington Union",
       "status": "Predeparture"
+    },
+    {
+      "trainNum": "164",
+      "routeName": "Northeast Regional",
+      "lat": 38.0598563874326,
+      "lon": -77.37598654187808,
+      "heading": "N",
+      "velocity": 70.1213607788086,
+      "lastUpdate": "2026-02-01T06:41:50-05:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
     }
   ]
 }
