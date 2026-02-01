@@ -1,39 +1,28 @@
 {
-  "collected_at": "2026-02-01T04:59:13.686377+00:00",
+  "collected_at": "2026-02-01T06:02:39.649487+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 2,
   "trains": [
     {
-      "trainNum": "66",
+      "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.91319317421899,
-      "lon": -75.25312984890655,
-      "heading": "E",
-      "velocity": 77.4383926391602,
-      "lastUpdate": "2026-01-31T23:54:46-05:00",
+      "lat": 39.95540662521187,
+      "lon": -75.18074976256283,
+      "heading": "SE",
+      "velocity": 0.260975807905197,
+      "lastUpdate": "2026-02-01T01:01:08-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "135",
+      "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.902340093573336,
-      "lon": -77.00463332712229,
-      "heading": "N",
+      "lat": 39.960289438087315,
+      "lon": -75.18335901668597,
+      "heading": "S",
       "velocity": 0,
-      "lastUpdate": "2026-01-31T23:46:25-05:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 38.950584584320424,
-      "lon": -76.86973033403025,
-      "heading": "SW",
-      "velocity": 33.1469764709473,
-      "lastUpdate": "2026-01-31T23:54:47-05:00",
-      "nextStation": "New Carrollton",
+      "lastUpdate": "2026-02-01T00:55:42-05:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
   ]
