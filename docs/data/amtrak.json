@@ -1,30 +1,8 @@
 {
-  "collected_at": "2026-02-02T07:57:07.722446+00:00",
+  "collected_at": "2026-02-02T08:50:49.610641+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 1,
   "trains": [
-    {
-      "trainNum": "53",
-      "routeName": "Auto Train",
-      "lat": 37.79261771193578,
-      "lon": -77.47159812780123,
-      "heading": "S",
-      "velocity": 63.5738334655762,
-      "lastUpdate": "2026-02-02T02:53:43-05:00",
-      "nextStation": "Sanford",
-      "status": "Active"
-    },
-    {
-      "trainNum": "66",
-      "routeName": "Northeast Regional",
-      "lat": 39.95324369072716,
-      "lon": -75.18228327091684,
-      "heading": "NE",
-      "velocity": 13.9652166366577,
-      "lastUpdate": "2026-02-02T02:50:44-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
@@ -32,30 +10,8 @@
       "lon": -75.18189417194768,
       "heading": "S",
       "velocity": 0.22369359433651,
-      "lastUpdate": "2026-02-02T02:50:44-05:00",
+      "lastUpdate": "2026-02-02T03:46:16-05:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "139",
-      "routeName": "Northeast Regional",
-      "lat": 38.90276733966803,
-      "lon": -77.0044044460771,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-02-02T02:54:10-05:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 38.9681398254832,
-      "lon": -76.85292277385987,
-      "heading": "SW",
-      "velocity": 90.8309478759766,
-      "lastUpdate": "2026-02-02T02:53:42-05:00",
-      "nextStation": "New Carrollton",
       "status": "Active"
     }
   ]
