@@ -1,18 +1,18 @@
 {
-  "collected_at": "2026-02-02T05:50:53.222264+00:00",
+  "collected_at": "2026-02-02T07:57:07.722446+00:00",
   "source": "amtraker.com",
-  "total_trains": 6,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "53",
       "routeName": "Auto Train",
-      "lat": 38.705507739695534,
-      "lon": -77.2223023408384,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-02-01T18:00:00-05:00",
-      "nextStation": "Lorton",
-      "status": "Predeparture"
+      "lat": 37.79261771193578,
+      "lon": -77.47159812780123,
+      "heading": "S",
+      "velocity": 63.5738334655762,
+      "lastUpdate": "2026-02-02T02:53:43-05:00",
+      "nextStation": "Sanford",
+      "status": "Active"
     },
     {
       "trainNum": "66",
@@ -21,52 +21,41 @@
       "lon": -75.18228327091684,
       "heading": "NE",
       "velocity": 13.9652166366577,
-      "lastUpdate": "2026-02-02T00:47:41-05:00",
+      "lastUpdate": "2026-02-02T02:50:44-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 39.95577665024411,
+      "lon": -75.18189417194768,
+      "heading": "S",
+      "velocity": 0.22369359433651,
+      "lastUpdate": "2026-02-02T02:50:44-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "139",
       "routeName": "Northeast Regional",
-      "lat": 39.997429339480796,
-      "lon": -75.1549547739503,
-      "heading": "SW",
-      "velocity": 56.3753623962402,
-      "lastUpdate": "2026-02-02T00:47:42-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "161",
-      "routeName": "Northeast Regional",
-      "lat": 38.903946080923646,
-      "lon": -77.00392379399933,
+      "lat": 38.90276733966803,
+      "lon": -77.0044044460771,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-02-02T00:42:15-05:00",
+      "lastUpdate": "2026-02-02T02:54:10-05:00",
       "nextStation": "Washington Union",
       "status": "Completed"
     },
     {
-      "trainNum": "2259",
-      "routeName": "Acela",
-      "lat": 38.91442505755119,
-      "lon": -76.99011458633814,
+      "trainNum": "165",
+      "routeName": "Northeast Regional",
+      "lat": 38.9681398254832,
+      "lon": -76.85292277385987,
       "heading": "SW",
-      "velocity": 37.334529876709,
-      "lastUpdate": "2026-02-02T00:47:41-05:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2275",
-      "routeName": "Acela",
-      "lat": 39.333736685402805,
-      "lon": -76.43564056180828,
-      "heading": "W",
-      "velocity": 109.408737182617,
-      "lastUpdate": "2026-02-02T00:47:43-05:00",
-      "nextStation": "Baltimore Penn",
+      "velocity": 90.8309478759766,
+      "lastUpdate": "2026-02-02T02:53:42-05:00",
+      "nextStation": "New Carrollton",
       "status": "Active"
     }
   ]
