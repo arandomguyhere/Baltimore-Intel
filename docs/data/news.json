@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-02T14:07:16.134476+00:00",
+  "collected_at": "2026-02-02T15:00:30.634407+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -9,13 +9,6 @@
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRUotVHRuZERiQnZlUy1DVjdSOUd4RVlpVnItTFRQMTgwSldMLVZlbThrZjBwSGloWHEzLW9hR2lGMDlmMjNLTW9jZ3k4aTE2SnAyT3RpZGZIWlJfTlluTkgtUXhDWTB4eVBkbnFJdENjc3JRME00bkJaRldJWlVMWWRxd2NsWEw1cy1KSWF5b2N5bHRFZTVUYUNoWDdHY1JMQlRfVw?oc=5",
       "source": "The Maritime Executive",
       "date": "Mon, 02 Feb 2026 04:39:00 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "State Roundup: Port Handles Record Number Of Containers; Senate Moving ICE Restrictions - citybiz",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOcFZEejhzUGZKSlE0d2ZjS09yd1NmWFlfSzBUaHNKaEhHNjBXQzl4MmxuTFNVNGVfcDJKeFNsbVF0MC1MWkg3ZFM4M3JlakswT3ZseW5UX3UtMFJTdUV0R2d0Sm54MkNGeTV0NU01WE1zdzIzaTRzY09UTTk4Uzl2LUxyTVVhWjIxcnJtTFpXUkNzWElHa1plT2NPUW1CMFhrWm1LWHFyR3ZxcEN0OWVZOEltVjdZMkN2Z1Q2b1dtbHJRdw?oc=5",
-      "source": "citybiz",
-      "date": "Mon, 02 Feb 2026 11:33:37 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -44,7 +37,7 @@
       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOdldfT2VuNzdYVGVZcmZ3VzgwZy10WGhvVUtYTE1od1Jsd3RqbkZwMmtHdlZtSjNscmpYVVZjTkRVUVFNTy1oQVlmTVJBOWtKLUxwR3h1ODl2N0RPbS1Lb1ZsSkNjWFZ4cnpHMDlKemVFMFk4dXk3bWJiNFl4d2hreUZVdnZ5T2hYeDZ5ZktQbHR4RzdVb0FDWXN4NG1nSTI0RzFYajc1Q2duOE0?oc=5",
       "source": "The Baltimore Banner",
       "date": "Thu, 29 Jan 2026 16:30:00 GMT",
-      "query": "Baltimore shipping"
+      "query": "Port of Baltimore"
     },
     {
       "title": "Baltimore bridge collapse: crew members from ship still held by US two years on - The Guardian",
@@ -143,27 +136,34 @@
       "source": "FreightWaves",
       "date": "Mon, 29 Sep 2025 07:00:00 GMT",
       "query": "Baltimore rail freight"
+    },
+    {
+      "title": "How More Rail Could Take Trucks Off the Road - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85eEE2WFc5d1dFbzRpMUQzbElxQ05VNTNRVkdIaC0tb045ME1qRkRoVnhSWHhzUFVlTjdjd1dXVlQyYUlVeENjUE9aRjg0UjlnZVVqdlJ0a1VITzJWSWV5YWkyTk1DQ3NXejZab21seUJsX1V2eS1GVjhNam9mQ2c?oc=5",
+      "source": "The New York Times",
+      "date": "Thu, 18 Sep 2025 07:00:00 GMT",
+      "query": "Baltimore rail freight"
     }
   ],
   "entities": {
     "topics": [
-      "Maryland transportation infrastructure",
-      "Port of Baltimore",
+      "Baltimore shipping",
       "Baltimore rail freight",
-      "Baltimore harbor",
-      "Baltimore shipping"
+      "Port of Baltimore",
+      "Maryland transportation infrastructure",
+      "Baltimore harbor"
     ],
     "sources": [
-      "citybiz",
-      "CBS News",
-      "The Baltimore Banner",
-      "WBAL-TV",
       "Maryland Association of Counties",
-      "Baltimore Witness",
-      "dailyvoice.com",
-      "Maryland Matters",
       "FreightWaves",
-      "Baltimore Sun"
+      "WBAL-TV",
+      "Washington County, MD",
+      "The Guardian",
+      "CBS News",
+      "WYPR",
+      "The New York Times",
+      "Lloyd's List",
+      "Baltimore Witness"
     ]
   }
 }
