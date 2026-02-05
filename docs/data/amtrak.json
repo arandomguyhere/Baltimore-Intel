@@ -1,61 +1,28 @@
 {
-  "collected_at": "2026-02-05T04:19:21.935894+00:00",
+  "collected_at": "2026-02-05T05:37:06.946362+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "50",
       "routeName": "Cardinal",
-      "lat": 38.79516995705844,
-      "lon": -77.2693199879148,
-      "heading": "SE",
-      "velocity": 54.2211875915527,
-      "lastUpdate": "2026-02-04T23:18:09-05:00",
-      "nextStation": "Alexandria",
+      "lat": 38.89968887803555,
+      "lon": -77.00471725098657,
+      "heading": "N",
+      "velocity": 1.56809496879578,
+      "lastUpdate": "2026-02-05T00:36:10-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.63357170331873,
-      "lon": -77.67048892547233,
-      "heading": "NE",
-      "velocity": 76.0156936645508,
-      "lastUpdate": "2026-02-04T23:17:42-05:00",
-      "nextStation": "Manassas",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 38.90934769409696,
-      "lon": -77.00166549262579,
+      "lat": 38.89891067987264,
+      "lon": -77.004877467989,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-02-04T23:18:28-05:00",
+      "velocity": 0.0111846998333931,
+      "lastUpdate": "2026-02-05T00:35:42-05:00",
       "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 39.961018045258065,
-      "lon": -75.18263422350076,
-      "heading": "NW",
-      "velocity": 29.204439163208,
-      "lastUpdate": "2026-02-04T23:16:46-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.02644771084934,
-      "lon": -76.14581507390237,
-      "heading": "W",
-      "velocity": 94.8087921142578,
-      "lastUpdate": "2026-02-04T23:15:37-05:00",
-      "nextStation": "Lancaster",
       "status": "Active"
     }
   ]
