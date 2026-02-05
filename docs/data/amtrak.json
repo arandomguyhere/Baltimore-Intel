@@ -1,28 +1,50 @@
 {
-  "collected_at": "2026-02-05T05:37:06.946362+00:00",
+  "collected_at": "2026-02-05T06:37:40.166537+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "50",
       "routeName": "Cardinal",
-      "lat": 38.89968887803555,
-      "lon": -77.00471725098657,
-      "heading": "N",
-      "velocity": 1.56809496879578,
-      "lastUpdate": "2026-02-05T00:36:10-05:00",
-      "nextStation": "Washington Union",
+      "lat": 38.91721741888345,
+      "lon": -76.91571270732918,
+      "heading": "E",
+      "velocity": 94.6829605102539,
+      "lastUpdate": "2026-02-05T01:35:41-05:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.89891067987264,
-      "lon": -77.004877467989,
-      "heading": "N",
-      "velocity": 0.0111846998333931,
-      "lastUpdate": "2026-02-05T00:35:42-05:00",
-      "nextStation": "Washington Union",
+      "lat": 38.992572968137395,
+      "lon": -76.80630716081079,
+      "heading": "NE",
+      "velocity": 112.542686462402,
+      "lastUpdate": "2026-02-05T01:35:43-05:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
+    },
+    {
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 39.95570798636706,
+      "lon": -75.17810236174286,
+      "heading": "SE",
+      "velocity": 0,
+      "lastUpdate": "2026-02-05T01:35:43-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "179",
+      "routeName": "Northeast Regional",
+      "lat": 39.98136564416455,
+      "lon": -75.18629633589892,
+      "heading": "SW",
+      "velocity": 16.9448204040527,
+      "lastUpdate": "2026-02-05T01:35:44-05:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
   ]
