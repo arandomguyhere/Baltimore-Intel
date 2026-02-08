@@ -1,16 +1,16 @@
 {
-  "collected_at": "2026-02-08T06:06:48.654592+00:00",
+  "collected_at": "2026-02-08T07:06:40.147989+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.986496413462156,
-      "lon": -75.1785372387541,
-      "heading": "SW",
-      "velocity": 28.2078132629395,
-      "lastUpdate": "2026-02-08T01:03:12-05:00",
+      "lat": 39.95509763412442,
+      "lon": -75.1814745547735,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-02-08T02:03:11-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
@@ -21,41 +21,30 @@
       "lon": -75.18229090091255,
       "heading": "N",
       "velocity": 5.18970060348511,
-      "lastUpdate": "2026-02-08T01:03:13-05:00",
+      "lastUpdate": "2026-02-08T02:03:14-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "135",
       "routeName": "Northeast Regional",
-      "lat": 39.50265533912884,
-      "lon": -76.16642967173566,
+      "lat": 38.930362869271534,
+      "lon": -76.89588390595051,
       "heading": "SW",
-      "velocity": 52.7627029418945,
-      "lastUpdate": "2026-02-08T01:03:14-05:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 39.192531813484536,
-      "lon": -76.69471961320487,
-      "heading": "S",
-      "velocity": 0.0290802195668221,
-      "lastUpdate": "2026-02-08T01:03:14-05:00",
-      "nextStation": "Baltimore Airport",
+      "velocity": 110.484703063965,
+      "lastUpdate": "2026-02-08T02:03:14-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "2259",
       "routeName": "Acela",
-      "lat": 39.50223572203803,
-      "lon": -76.1666204067698,
-      "heading": "SW",
-      "velocity": 106.688613891602,
-      "lastUpdate": "2026-02-08T01:03:13-05:00",
-      "nextStation": "Baltimore Penn",
+      "lat": 38.90270248966066,
+      "lon": -77.00425185802563,
+      "heading": "S",
+      "velocity": 15.1843490600586,
+      "lastUpdate": "2026-02-08T02:03:14-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     }
   ]
