@@ -1,19 +1,8 @@
 {
-  "collected_at": "2026-02-09T08:29:36.282326+00:00",
+  "collected_at": "2026-02-09T09:35:54.373628+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 6,
   "trains": [
-    {
-      "trainNum": "66",
-      "routeName": "Northeast Regional",
-      "lat": 39.96027799408809,
-      "lon": -75.18327509265868,
-      "heading": "S",
-      "velocity": 0,
-      "lastUpdate": "2026-02-09T03:25:46-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
@@ -21,9 +10,53 @@
       "lon": -75.17185388556557,
       "heading": "E",
       "velocity": 0,
-      "lastUpdate": "2026-02-09T03:25:46-05:00",
+      "lastUpdate": "2026-02-09T04:31:18-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.137649523334986,
+      "lon": -77.43154381464,
+      "heading": "NW",
+      "velocity": 70.5553207397461,
+      "lastUpdate": "2026-02-09T04:33:17-05:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-09T04:42:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-09T04:45:00-05:00",
+      "nextStation": "Harrisburg",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-09T04:45:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     },
     {
       "trainNum": "2259",
