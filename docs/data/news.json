@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-09T21:56:04.717953+00:00",
+  "collected_at": "2026-02-09T22:35:54.124483+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -9,6 +9,13 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY21CYzUzX3pueVJUT0tzMlNENEM2azhkUFQyTlg2aG1MRktDdGRfTldsUHZpUjNseG5JQ0gyX083bjNYM0M2c0tvQzU5UExWTlhpYUltR1pWZGZvYzBtT1pLMGJVVEpnQkJaSURta0ZDcmxNb3Q2ckxsdTZXaEVXOTE1eWd1aW1sZEs4OVNlTGVFRXRTazVsSnYyOGw4Nlk?oc=5",
       "source": "WBAL-TV",
       "date": "Fri, 06 Feb 2026 20:27:00 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
+      "title": "Baltimore breaks container handling record - Kuehne+Nagel",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRGJIeXFDNHF0WEVvTWdYSjM1XzY3Tll4NHlxZkdfOE1oRTR3OFFMUm15NFdRYjRMMnpENWlvREhrbWs3eEd2WXRvRVNMMnZKUmZVclFpaGhSMXNJdlZFWU5FWlB6dFltSjdiaDRudnFTWm0tMTBpeFZtR3RZdkM3VW1Yc05nbGxYcTJWMmZ3?oc=5",
+      "source": "Kuehne+Nagel",
+      "date": "Mon, 09 Feb 2026 09:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -23,13 +30,6 @@
       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbzFtQ1VuazNlcW9tOHZTYm9CV0tfeS1EQWl4eWxTY042dXotandMT3NXY0w1cVg2OTl2WjRkQ2lEQ0NMNVowOFFHb0hpbjdOWGNmVFpUM3lQQ1JMM3RxVmZsWkI2WEFGSGdXWlJGYUN5NW1lRGpQcXVaN0o0Y1ZYc3lwU2J0enJLM0JCS25XNmp4VFVKWkUxZjZOWVhxejNtM2hWUFN0aXFWYWNvN0pScUhfdVBwTktq?oc=5",
       "source": "Cruise Industry News",
       "date": "Mon, 09 Feb 2026 11:12:29 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "Eastern ports, railroads bracing for storm - FreightWaves",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc01nRWVaeXB3X2UyS2NudzFVY2x1akNaUGh3OXhiT005SmhoNHdEc2IzR3NKSVFrVlBiX01BS05XNkczX3lzb2V1RmR4eDFXUlFqaDdvdExuLWxvclJmWEM1ZDBOb0otdkFwdjNQN2tJTy16eG9hSTdwVm9uTFBPRA?oc=5",
-      "source": "FreightWaves",
-      "date": "Fri, 23 Jan 2026 08:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -89,10 +89,10 @@
       "query": "Baltimore harbor"
     },
     {
-      "title": "This hotel symbolized downtown Baltimore\u2019s rebirth. Now it\u2019s in foreclosure. - The Baltimore Banner",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNQWJ1eE5hMVlCaWE0REJkdGhGOWNjcWdZMmJlbW9KMDl6X3ZaRzhIQUxzX3h4U1lUVEJyNHFQSHFfS1ZHSDVTcktON3BKV01UU05DckR2SXh4QjNZUmt3RGdpSGNGdTdjT2QzaE1TQXo2cTZQSFFLazVGVFhJaDRybEN5b0FRcWU4WjQ0OXM4SExJQmxnaDdXU01SOXN5OFFwelpZdEFGRVZLT3lnUmhlQ185dFFCS1NzcnRXUDh3MlhsNVJy?oc=5",
-      "source": "The Baltimore Banner",
-      "date": "Fri, 23 Jan 2026 08:00:00 GMT",
+      "title": "Geno's Steaks continues expansion outside Philly with new shop opening next month in Baltimore - PhillyVoice",
+      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1GaUR6SGVyMng1eTdHSlphTy1zSnZVa09kdGFsR2d1SG8yN1JQNFgyTTlWM3pnd1NNWUdxN19ycU44SF9IV3ExelVqXzNRaUNkb3VXQWE0LUtzS2hpNXY1RDhOazZtTDIwNzJlTXdsalktM2NCdXAw?oc=5",
+      "source": "PhillyVoice",
+      "date": "Fri, 06 Feb 2026 17:14:45 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore shipping",
       "Baltimore rail freight",
       "Port of Baltimore",
-      "Baltimore harbor",
-      "Maryland transportation infrastructure"
+      "Baltimore shipping",
+      "Maryland transportation infrastructure",
+      "Baltimore harbor"
     ],
     "sources": [
       "WBAL-TV",
-      "Eye On Annapolis",
-      "The Baltimore Banner",
-      "Baltimore Sun",
-      "Port Technology",
-      "Montgomery County Maryland (.gov)",
+      "Maryland Daily Record",
+      "Maryland Matters",
+      "carnival-news.com",
       "cbsnews.com",
-      "FreightWaves",
+      "Kuehne+Nagel",
+      "Montgomery County Maryland (.gov)",
+      "Cruise Industry News",
       "cecildaily.com",
-      "carnival-news.com"
+      "Washington County, MD"
     ]
   }
 }
