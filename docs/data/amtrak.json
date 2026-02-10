@@ -1,19 +1,8 @@
 {
-  "collected_at": "2026-02-10T08:32:20.896984+00:00",
+  "collected_at": "2026-02-10T09:42:35.925943+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 6,
   "trains": [
-    {
-      "trainNum": "66",
-      "routeName": "Northeast Regional",
-      "lat": 39.864300186523764,
-      "lon": -75.33560362701986,
-      "heading": "NE",
-      "velocity": 108.51171875,
-      "lastUpdate": "2026-02-10T03:30:13-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
@@ -21,9 +10,64 @@
       "lon": -75.18151270180435,
       "heading": "S",
       "velocity": 0.298258095979691,
-      "lastUpdate": "2026-02-10T03:25:44-05:00",
+      "lastUpdate": "2026-02-10T04:35:46-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.23416519776274,
+      "lon": -77.44005822699879,
+      "heading": "NE",
+      "velocity": 70.7678375244141,
+      "lastUpdate": "2026-02-10T04:39:16-05:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-10T04:42:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "170",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-10T04:50:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-10T04:45:00-05:00",
+      "nextStation": "Harrisburg",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-10T04:45:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
