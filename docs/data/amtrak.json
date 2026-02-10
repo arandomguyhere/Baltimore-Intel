@@ -1,40 +1,29 @@
 {
-  "collected_at": "2026-02-10T05:16:33.809016+00:00",
+  "collected_at": "2026-02-10T06:42:21.902241+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.73363505325006,
-      "lon": -77.51900725666458,
-      "heading": "NE",
-      "velocity": 69.3608016967773,
-      "lastUpdate": "2026-02-10T00:15:11-05:00",
-      "nextStation": "Manassas",
+      "lat": 38.90382782590204,
+      "lon": -77.00386275897311,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-02-10T01:38:12-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
-      "trainNum": "175",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 38.90321365976314,
-      "lon": -77.00426711706157,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-02-10T00:03:41-05:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.26036877997144,
-      "lon": -76.87663502117884,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-02-10T00:00:44-05:00",
-      "nextStation": "Harrisburg",
-      "status": "Completed"
+      "lat": 39.95540662518439,
+      "lon": -75.18151270180435,
+      "heading": "S",
+      "velocity": 0.298258095979691,
+      "lastUpdate": "2026-02-10T01:39:13-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
     }
   ]
 }
