@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-11T11:09:43.148259+00:00",
+  "collected_at": "2026-02-11T11:57:47.829471+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -64,7 +64,7 @@
       "title": "Man sentenced to 30 years for teen's murder outside Inner Harbor hotel - WMAR 2 News Baltimore",
       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQeElDcnNXVEs2UzRCeHRWQjNLdW5BWk1HeURXMlQzWWM5b2ZIMFVNUTFPX1VlcW96WDlxczR3SlQ3dzJabUxWSm9vREQ1UG51SEg3MzdHQXllaDlJUDJqVlpmT2pVWC04emJWSU9IWE5mTzllaVdMeDRPSXJYM25TRUlFdDgxbGJReEZNU1NkZER0UmVrMVhpUzdVcG56c3FrWFYxVHczdVFlX2JJY0dKcGhGeGxMUTJoOXRDWFRDbw?oc=5",
       "source": "WMAR 2 News Baltimore",
-      "date": "Tue, 10 Feb 2026 23:46:05 GMT",
+      "date": "Tue, 10 Feb 2026 23:37:16 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -86,6 +86,13 @@
       "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE8tbFMyOEwtbWV0VWhiNldUVUFlcHR3Q3AyZmV5YjY0TXk2SHhDejA0TkVXMEZJTmFQVXZlYWZaSXNnZkxaWjJwX09HZzV3TTFReEtFbnFyS0tLU0JzbDVMVEJic2ZhSmFNYmxiU09oNW1qRFVOV211MlVqVnU?oc=5",
       "source": "Baltimore Sun",
       "date": "Wed, 11 Feb 2026 02:57:55 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
+      "title": "Death Investigation Underway in Inner Harbor - Baltimore Witness",
+      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE5XanRZd3U3NEplSFNsRFl4cWFVbGtQREtFVEpBa1FZRnh0VmV1eDFxYUs2TTlpY2NSUDRDYWFQaWRkb2xYOHpPejl6YlN4MzZzMnU1dXR5SE1FbFozWmFJN2pVTndhakx6VFl6bUxybmJuZEpEREppdkxIR0FQanM?oc=5",
+      "source": "Baltimore Witness",
+      "date": "Wed, 28 Jan 2026 08:00:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -136,34 +143,27 @@
       "source": "CBS News",
       "date": "Fri, 26 Sep 2025 07:00:00 GMT",
       "query": "Baltimore rail freight"
-    },
-    {
-      "title": "CSX opens key Baltimore intermodal tunnel - FreightWaves",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPT09LVmVCLTVUeVVBYVVfeVNsUnhNNTJkdUotUmJoYW4zYTFtNWhaU1ltNkFSeDZERTNoMmNNbkFhdnU1LXhWZEZLQlZRVTc2OFpVN1hxN3hKdVBscDQ3QnNTOVNfVlgyMi1sSTA3TXpDN2dHeXB0NzJrYjZGQzlGMw?oc=5",
-      "source": "FreightWaves",
-      "date": "Mon, 29 Sep 2025 07:00:00 GMT",
-      "query": "Baltimore rail freight"
     }
   ],
   "entities": {
     "topics": [
-      "Maryland transportation infrastructure",
-      "Port of Baltimore",
       "Baltimore harbor",
+      "Maryland transportation infrastructure",
       "Baltimore rail freight",
-      "Baltimore shipping"
+      "Baltimore shipping",
+      "Port of Baltimore"
     ],
     "sources": [
-      "Maryland Daily Record",
-      "CBS News",
-      "Maryland Matters",
-      "FreightWaves",
       "Jacobs",
-      "WBAL-TV",
+      "Baltimore Witness",
+      "Baltimore Jewish Times",
       "carnival-news.com",
-      "Washington County, MD",
       "The Baltimore Banner",
-      "WMAR 2 News Baltimore"
+      "Maryland Daily Record",
+      "WMAR 2 News Baltimore",
+      "Baltimore Sun",
+      "CBS News",
+      "Washington County, MD"
     ]
   }
 }
