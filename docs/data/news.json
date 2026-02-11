@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-11T23:00:58.018785+00:00",
+  "collected_at": "2026-02-11T23:46:52.552823+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -9,13 +9,6 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY21CYzUzX3pueVJUT0tzMlNENEM2azhkUFQyTlg2aG1MRktDdGRfTldsUHZpUjNseG5JQ0gyX083bjNYM0M2c0tvQzU5UExWTlhpYUltR1pWZGZvYzBtT1pLMGJVVEpnQkJaSURta0ZDcmxNb3Q2ckxsdTZXaEVXOTE1eWd1aW1sZEs4OVNlTGVFRXRTazVsSnYyOGw4Nlk?oc=5",
       "source": "WBAL-TV",
       "date": "Fri, 06 Feb 2026 20:27:00 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "Baltimore breaks container handling record - Kuehne+Nagel",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRGJIeXFDNHF0WEVvTWdYSjM1XzY3Tll4NHlxZkdfOE1oRTR3OFFMUm15NFdRYjRMMnpENWlvREhrbWs3eEd2WXRvRVNMMnZKUmZVclFpaGhSMXNJdlZFWU5FWlB6dFltSjdiaDRudnFTWm0tMTBpeFZtR3RZdkM3VW1Yc05nbGxYcTJWMmZ3?oc=5",
-      "source": "Kuehne+Nagel",
-      "date": "Mon, 09 Feb 2026 09:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -37,6 +30,13 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNRnNGdU1HV2RFeWoxRXFCUnNoQU1MR0EwdmFvalM2d3JaZklXbHI0LU5XZEExNUNGWUh1Rm1ldXFxODRKd25ROUFHWVRXaUtfbFl5bXRsSXpXanJKMDlfYktNZjF4ajI1c203VDhaTkZiWUNVaUJOMkxreFUwNGVHOE1SUWFoNjR5WVZBUlRnSkp0TjhTTGtz?oc=5",
       "source": "gCaptain",
       "date": "Mon, 02 Feb 2026 16:54:34 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
+      "title": "Key Bridge Reopening Spurs Record Vessel Visits At Port Of Baltimore - The BayNet",
+      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOR082UmNmaVRDOFBsYVJYVGVWSEgxYjl1bmZwYTRkUThOQmtTS2w3U1RybFlnQmtfZkREV3NaSzJ6cm41NW5rclItNHJpU0NxazRmUTZ4ejFxUlE2MVdIRFdDNnVEOXU5ZG5sNk5fZkZ1UHhNQ1VubEJpTmtQQ0Y3ZURXMEViMUZ1bVBZb2trdk5nX2NjN3c?oc=5",
+      "source": "The BayNet",
+      "date": "Thu, 29 Jan 2026 08:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -96,10 +96,10 @@
       "query": "Baltimore harbor"
     },
     {
-      "title": "Inner Harbor Teen Slaying: Baltimore Shooter Draws 30-Year Prison Term - Hoodline",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPNGpfakYzcm91NDc0SDJmQjlLekFYVEs2OElKdjIxOTBZQ3hBa1h5N05NNUhydnBKRWM5aHVWZm1KSnpJRVVkZS1jeDRGc0VkU1FwNUNyZEJYOE5PeTdoS3ctRFVKVzFOQ0duaGVBSEZ5Q0htWmtCZm45eEMyZWRjRFNUblhLMXVlOWk5Nl83cUhqV2g4RktKRjZFdFVlVWRT?oc=5",
-      "source": "Hoodline",
-      "date": "Wed, 11 Feb 2026 14:15:13 GMT",
+      "title": "Monitoring Baltimore\u2019s Watersheds - Blue Water Baltimore",
+      "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9VM1FzNHo1b3phZ1c5S2Q2ZGFwYkJ1RmdKcW93UVI3cXdzSlhvSjNueW5qa3JGM2N2TDhyZ0hxWTBFaVQyVU9ISWpaNi1RaFY1NzBXOA?oc=5",
+      "source": "Blue Water Baltimore",
+      "date": "Wed, 14 Jan 2026 22:44:25 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore rail freight",
-      "Baltimore harbor",
       "Maryland transportation infrastructure",
       "Baltimore shipping",
-      "Port of Baltimore"
+      "Baltimore harbor",
+      "Port of Baltimore",
+      "Baltimore rail freight"
     ],
     "sources": [
-      "Maryland Matters",
-      "FreightWaves",
-      "Kuehne+Nagel",
+      "Blue Water Baltimore",
       "Baltimore Witness",
-      "CBS News",
-      "gCaptain",
-      "carnival-news.com",
+      "The BayNet",
       "WMAR 2 News Baltimore",
       "Baltimore Sun",
-      "Washington County, MD"
+      "The Baltimore Banner",
+      "Washington County, MD",
+      "WBAL-TV",
+      "CBS News",
+      "Maryland Matters"
     ]
   }
 }
