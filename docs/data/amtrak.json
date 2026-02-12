@@ -1,39 +1,28 @@
 {
-  "collected_at": "2026-02-12T04:32:36.974843+00:00",
+  "collected_at": "2026-02-12T05:51:01.935942+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 2,
   "trains": [
-    {
-      "trainNum": "50",
-      "routeName": "Cardinal",
-      "lat": 39.84015314614074,
-      "lon": -75.37933532837556,
-      "heading": "NE",
-      "velocity": 108.283554077148,
-      "lastUpdate": "2026-02-11T23:30:09-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.480217284929985,
-      "lon": -76.1858693744628,
-      "heading": "NE",
-      "velocity": 120.16170501709,
-      "lastUpdate": "2026-02-11T23:30:10-05:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
+      "lat": 39.94483228136441,
+      "lon": -75.2015093504925,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-12T00:42:46-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Completed"
     },
     {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 40.00305219915409,
-      "lon": -75.27797880025372,
+      "lat": 40.10885661861705,
+      "lon": -76.50280982064874,
       "heading": "W",
-      "velocity": 23.3200988769531,
-      "lastUpdate": "2026-02-11T23:30:08-05:00",
-      "nextStation": "Ardmore",
+      "velocity": 19.8838691711426,
+      "lastUpdate": "2026-02-12T00:48:08-05:00",
+      "nextStation": "Mount Joy",
       "status": "Active"
     }
   ]
