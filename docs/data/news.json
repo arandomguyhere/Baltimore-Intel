@@ -1,9 +1,16 @@
 {
-  "collected_at": "2026-02-14T16:28:13.702791+00:00",
+  "collected_at": "2026-02-14T16:57:05.033579+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
   "stories": [
+    {
+      "title": "Baltimore breaks container handling record - Kuehne+Nagel",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRGJIeXFDNHF0WEVvTWdYSjM1XzY3Tll4NHlxZkdfOE1oRTR3OFFMUm15NFdRYjRMMnpENWlvREhrbWs3eEd2WXRvRVNMMnZKUmZVclFpaGhSMXNJdlZFWU5FWlB6dFltSjdiaDRudnFTWm0tMTBpeFZtR3RZdkM3VW1Yc05nbGxYcTJWMmZ3?oc=5",
+      "source": "Kuehne+Nagel",
+      "date": "Mon, 09 Feb 2026 09:00:00 GMT",
+      "query": "Port of Baltimore"
+    },
     {
       "title": "Eastern ports, railroads bracing for storm - FreightWaves",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc01nRWVaeXB3X2UyS2NudzFVY2x1akNaUGh3OXhiT005SmhoNHdEc2IzR3NKSVFrVlBiX01BS05XNkczX3lzb2V1RmR4eDFXUlFqaDdvdExuLWxvclJmWEM1ZDBOb0otdkFwdjNQN2tJTy16eG9hSTdwVm9uTFBPRA?oc=5",
@@ -30,13 +37,6 @@
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPODNMTzVUV1g3bjYwRkgxREFfbzF5RC1ydXJBdlFhRzlEdHg0THdtSUJmeFBjWWlVT2pJVV8wT1ZiWXhfT2tLazBWWDVwdHNnNnYycDkzb2xiUXpoUHZMbXJwSDM1VGY0QWxWcnB2ZjlkbVo3bHJhblBfWDFyTUZSNE5rSFZCNTE0MFZPSWlKYXlhRTB1R3h3?oc=5",
       "source": "Port Technology",
       "date": "Wed, 04 Feb 2026 15:57:44 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "Port of Baltimore: A remarkable performance but challenges ahead - American Journal of Transportation",
-      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS2l1T1dVZlZkTTlWNjlQS1R2MXdGd3pWT1BzRXZkNG5aekNQV1o0eWdzT19DYTNsbk1tNWpJV3ctamQ2N1ZqSjhoR1dOdERoaGVnRUt4TTczT0R2SVViTlFid0F0R2xYQ3RqWVVSQ2NfbTJYSXdjeTR0RmE4ZEo4MmhqbDBWdnc3Ynk1VGM4TmUySkFOOW5ycTRZaDNQZw?oc=5",
-      "source": "American Journal of Transportation",
-      "date": "Mon, 23 Jun 2025 07:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -147,21 +147,21 @@
   ],
   "entities": {
     "topics": [
+      "Port of Baltimore",
       "Baltimore shipping",
       "Baltimore harbor",
-      "Port of Baltimore",
       "Maryland transportation infrastructure"
     ],
     "sources": [
-      "Baltimore Witness",
-      "Washington County, MD",
-      "Maryland Matters",
-      "WTOP",
-      "WYPR",
+      "Maryland Daily Record",
       "WMAR 2 News Baltimore",
-      "The BayNet",
+      "Travel And Tour World",
+      "Baltimore Sun",
       "Port Technology",
-      "American Journal of Transportation",
+      "WYPR",
+      "WTOP",
+      "Maryland Matters",
+      "The BayNet",
       "Jacobs"
     ]
   }
