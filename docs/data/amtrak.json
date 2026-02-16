@@ -1,139 +1,51 @@
 {
-  "collected_at": "2026-02-16T02:02:05.076306+00:00",
+  "collected_at": "2026-02-16T04:34:08.408246+00:00",
   "source": "amtraker.com",
-  "total_trains": 12,
+  "total_trains": 4,
   "trains": [
-    {
-      "trainNum": "57",
-      "routeName": "Vermonter",
-      "lat": 39.797485746003716,
-      "lon": -75.45247835388946,
-      "heading": "SW",
-      "velocity": 108.42448425293,
-      "lastUpdate": "2026-02-15T21:00:13-05:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.80581297088931,
-      "lon": -77.09052507197299,
+      "lat": 39.70721854034044,
+      "lon": -75.6366519905187,
       "heading": "E",
-      "velocity": 38.1219329833984,
-      "lastUpdate": "2026-02-15T21:00:13-05:00",
-      "nextStation": "Alexandria",
-      "status": "Active"
-    },
-    {
-      "trainNum": "87",
-      "routeName": "Northeast Regional",
-      "lat": 37.83309547380713,
-      "lon": -77.45731589974496,
-      "heading": "S",
-      "velocity": 70.4792709350586,
-      "lastUpdate": "2026-02-15T21:00:13-05:00",
-      "nextStation": "Ashland",
-      "status": "Active"
-    },
-    {
-      "trainNum": "90",
-      "routeName": "Palmetto",
-      "lat": 39.42417936750733,
-      "lon": -76.27318781842997,
-      "heading": "NE",
-      "velocity": 110.252059936523,
-      "lastUpdate": "2026-02-15T21:00:12-05:00",
+      "velocity": 109.13582611084,
+      "lastUpdate": "2026-02-15T23:30:41-05:00",
       "nextStation": "Wilmington",
       "status": "Active"
     },
     {
-      "trainNum": "97",
-      "routeName": "Silver Meteor",
-      "lat": 38.21419143873582,
-      "lon": -77.43857049335084,
-      "heading": "S",
-      "velocity": 63.9585876464844,
-      "lastUpdate": "2026-02-15T21:00:12-05:00",
-      "nextStation": "Richmond Staples Mill Road",
-      "status": "Active"
-    },
-    {
-      "trainNum": "124",
-      "routeName": "Northeast Regional",
-      "lat": 39.310508982725615,
-      "lon": -76.624864862624,
-      "heading": "E",
-      "velocity": 27.2571144104004,
-      "lastUpdate": "2026-02-15T21:00:17-05:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
+      "trainNum": "107",
+      "routeName": "Vermonter",
+      "lat": 38.90771881773527,
+      "lon": -77.00255813180432,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-02-15T21:00:00-05:00",
+      "lastUpdate": "2026-02-15T23:28:05-05:00",
       "nextStation": "Washington Union",
-      "status": "Predeparture"
+      "status": "Completed"
     },
     {
-      "trainNum": "135",
+      "trainNum": "165",
       "routeName": "Northeast Regional",
-      "lat": 39.628612866331295,
-      "lon": -75.81048016550352,
-      "heading": "SW",
-      "velocity": 96.7610778808594,
-      "lastUpdate": "2026-02-15T21:00:15-05:00",
-      "nextStation": "Aberdeen",
-      "status": "Active"
-    },
-    {
-      "trainNum": "159",
-      "routeName": "Northeast Regional",
-      "lat": 38.903057256731316,
-      "lon": -77.00427474605439,
-      "heading": "S",
-      "velocity": 12.0608100891113,
-      "lastUpdate": "2026-02-15T21:00:15-05:00",
-      "nextStation": "Washington Union",
+      "lat": 39.30268122420525,
+      "lon": -76.56985690992654,
+      "heading": "W",
+      "velocity": 64.9092864990234,
+      "lastUpdate": "2026-02-15T23:30:43-05:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "624",
       "routeName": "Keystone",
-      "lat": 39.95926503890095,
-      "lon": -75.92221301115511,
-      "heading": "N",
+      "lat": 39.960308512086456,
+      "lon": -75.1834887157282,
+      "heading": "S",
       "velocity": 0,
-      "lastUpdate": "2026-02-15T20:39:16-05:00",
-      "nextStation": "Parkesburg",
-      "status": "Active"
-    },
-    {
-      "trainNum": "655",
-      "routeName": "Keystone",
-      "lat": 40.04313703852748,
-      "lon": -75.48605534557244,
-      "heading": "W",
-      "velocity": 25.5445594787598,
-      "lastUpdate": "2026-02-15T20:58:16-05:00",
-      "nextStation": "Exton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "656",
-      "routeName": "Keystone",
-      "lat": 40.05499690435113,
-      "lon": -76.30903076415909,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-02-15T20:55:12-05:00",
+      "lastUpdate": "2026-02-15T23:30:38-05:00",
       "nextStation": "New York Penn",
-      "status": "Completed"
+      "status": "Active"
     }
   ]
 }
