@@ -1,83 +1,28 @@
 {
-  "collected_at": "2026-02-17T03:13:31.085438+00:00",
+  "collected_at": "2026-02-17T05:03:52.676129+00:00",
   "source": "amtraker.com",
-  "total_trains": 7,
+  "total_trains": 2,
   "trains": [
-    {
-      "trainNum": "57",
-      "routeName": "Vermonter",
-      "lat": 38.95411318013635,
-      "lon": -76.86691508736759,
-      "heading": "SW",
-      "velocity": 46.3359756469727,
-      "lastUpdate": "2026-02-16T22:09:42-05:00",
-      "nextStation": "New Carrollton",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.917328043621644,
-      "lon": -76.9502357280925,
-      "heading": "E",
-      "velocity": 72.5931777954102,
-      "lastUpdate": "2026-02-16T22:09:42-05:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "107",
-      "routeName": "Vermonter",
-      "lat": 39.19183753835545,
-      "lon": -76.69444495507634,
-      "heading": "S",
-      "velocity": 3.21671962738037,
-      "lastUpdate": "2026-02-16T22:09:36-05:00",
-      "nextStation": "New Carrollton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "124",
-      "routeName": "Northeast Regional",
-      "lat": 39.83419840250231,
-      "lon": -75.39188568597974,
+      "lat": 39.928287935186624,
+      "lon": -75.22625911332081,
       "heading": "NE",
-      "velocity": 109.104515075684,
-      "lastUpdate": "2026-02-16T22:09:42-05:00",
+      "velocity": 71.2017974853516,
+      "lastUpdate": "2026-02-17T00:00:42-05:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 39.36421994004277,
-      "lon": -76.36706754419086,
-      "heading": "NE",
-      "velocity": 105.02433013916,
-      "lastUpdate": "2026-02-16T22:09:37-05:00",
-      "nextStation": "Wilmington",
       "status": "Active"
     },
     {
       "trainNum": "165",
       "routeName": "Northeast Regional",
-      "lat": 39.80619088703522,
-      "lon": -75.4442233478118,
-      "heading": "SW",
-      "velocity": 108.274604797363,
-      "lastUpdate": "2026-02-16T22:09:45-05:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "655",
-      "routeName": "Keystone",
-      "lat": 40.22188992233906,
-      "lon": -76.82775347327149,
+      "lat": 38.90094009926515,
+      "lon": -77.00532760225306,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-02-16T22:01:15-05:00",
-      "nextStation": "Harrisburg",
+      "lastUpdate": "2026-02-16T23:55:06-05:00",
+      "nextStation": "Washington Union",
       "status": "Completed"
     }
   ]
