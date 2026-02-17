@@ -1,16 +1,9 @@
 {
-  "collected_at": "2026-02-17T08:04:18.515840+00:00",
+  "collected_at": "2026-02-17T09:04:32.988508+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
   "stories": [
-    {
-      "title": "Carnival adding second ship to Baltimore for 2027-28 season - WBAL-TV",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY21CYzUzX3pueVJUT0tzMlNENEM2azhkUFQyTlg2aG1MRktDdGRfTldsUHZpUjNseG5JQ0gyX083bjNYM0M2c0tvQzU5UExWTlhpYUltR1pWZGZvYzBtT1pLMGJVVEpnQkJaSURta0ZDcmxNb3Q2ckxsdTZXaEVXOTE1eWd1aW1sZEs4OVNlTGVFRXRTazVsSnYyOGw4Nlk?oc=5",
-      "source": "WBAL-TV",
-      "date": "Fri, 06 Feb 2026 08:00:00 GMT",
-      "query": "Port of Baltimore"
-    },
     {
       "title": "Maryland highlights new Port of Baltimore records, recovery from Key Bridge collapse - CBS News",
       "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPWWdDSENYVFZhdktaX3IxdXpiWi1iYTEtLVE1YnFBYmJ5V19ENWVwS0xmUnBNcWo5aHY1RVVTbnVWN0U4elczT2UyQ2N0cUdRTUdvd1RnaUxWenJkaUNDN2RTYnVjbGFKcTVSbFpseTBLNlgzR2pxNnY0UVNPMXdjVFZBZTBOT2U3YmoxcXpwREVMWnc3?oc=5",
@@ -33,10 +26,17 @@
       "query": "Port of Baltimore"
     },
     {
-      "title": "Baltimore breaks container handling record - Kuehne+Nagel",
-      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPRGJIeXFDNHF0WEVvTWdYSjM1XzY3Tll4NHlxZkdfOE1oRTR3OFFMUm15NFdRYjRMMnpENWlvREhrbWs3eEd2WXRvRVNMMnZKUmZVclFpaGhSMXNJdlZFWU5FWlB6dFltSjdiaDRudnFTWm0tMTBpeFZtR3RZdkM3VW1Yc05nbGxYcTJWMmZ3?oc=5",
-      "source": "Kuehne+Nagel",
-      "date": "Mon, 09 Feb 2026 09:00:00 GMT",
+      "title": "Port of Baltimore sets cargo vessel call record in 2025 - Port Technology",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPODNMTzVUV1g3bjYwRkgxREFfbzF5RC1ydXJBdlFhRzlEdHg0THdtSUJmeFBjWWlVT2pJVV8wT1ZiWXhfT2tLazBWWDVwdHNnNnYycDkzb2xiUXpoUHZMbXJwSDM1VGY0QWxWcnB2ZjlkbVo3bHJhblBfWDFyTUZSNE5rSFZCNTE0MFZPSWlKYXlhRTB1R3h3?oc=5",
+      "source": "Port Technology",
+      "date": "Wed, 04 Feb 2026 15:57:44 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
+      "title": "Port of Baltimore: A remarkable performance but challenges ahead - American Journal of Transportation",
+      "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNS2l1T1dVZlZkTTlWNjlQS1R2MXdGd3pWT1BzRXZkNG5aekNQV1o0eWdzT19DYTNsbk1tNWpJV3ctamQ2N1ZqSjhoR1dOdERoaGVnRUt4TTczT0R2SVViTlFid0F0R2xYQ3RqWVVSQ2NfbTJYSXdjeTR0RmE4ZEo4MmhqbDBWdnc3Ynk1VGM4TmUySkFOOW5ycTRZaDNQZw?oc=5",
+      "source": "American Journal of Transportation",
+      "date": "Mon, 23 Jun 2025 07:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore shipping",
+      "Maryland transportation infrastructure",
       "Baltimore harbor",
-      "Port of Baltimore",
-      "Maryland transportation infrastructure"
+      "Baltimore shipping",
+      "Port of Baltimore"
     ],
     "sources": [
-      "FreightWaves",
-      "WTOP",
-      "NTSB (.gov)",
-      "WBAL-TV",
-      "Maryland Matters",
-      "WMAR 2 News Baltimore",
+      "American Journal of Transportation",
+      "CBS News",
+      "thebanner.com",
+      "Baltimore Witness",
       "Jacobs",
-      "Baltimore Sun",
-      "Kuehne+Nagel",
-      "Supply Chain Brain"
+      "FreightWaves",
+      "Supply Chain Brain",
+      "WBFF",
+      "Port Technology",
+      "Baltimore Sun"
     ]
   }
 }
