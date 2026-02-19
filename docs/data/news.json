@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-19T23:01:06.311554+00:00",
+  "collected_at": "2026-02-19T23:45:21.225490+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -40,13 +40,6 @@
       "query": "Port of Baltimore"
     },
     {
-      "title": "Army Corps Approves Major Container Terminal Project Near Baltimore - DredgeWire",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGNwWTQxQlE1VGZDMFdueFJzeFlEWkQ5YVliRk9IUmFvR21heVJoUjE5NHJRVnNFalZTTlRCS0VxTzY1b2pDUnVybUljOGRvY1UxelNFNVpWU3I1NFhjSE1FS1cyb09pSXdMSzhpQ3EzX2hyWlZ3Ui1mUmZhNDZQczBBMnp2YVJyZkdiS3NaOVJ5b21tMWc?oc=5",
-      "source": "DredgeWire",
-      "date": "Wed, 18 Feb 2026 10:53:03 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
       "title": "US seizes cash from Cosco Shipping bulker in Baltimore after captain\u2019s oversight - Tradewinds News",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOFNUVXV6R0N6N05mUFpmX01OcXBkdUhLT0pqUkxhZkdwbWxGOVZSWkRERWJjSXBScE5NLWpFN3d4Y0tDSUxyYVIwUE4xY3o5Tlo0NXhiZXYzczlHNzhlanFTc0dIUGxqbDBCODhEaU0xNDZDaE0zZFoxaGg5aHZUVFdXMW51QWN4bXJTcXNmQ19ST250SlVEaW5iQmwtT2xVMkYyOVAxWkFnSFVMSGt1ekVRb0R1V1FPam1jLTZGckV1bTN4SlJqRll4NA?oc=5",
       "source": "Tradewinds News",
@@ -72,6 +65,13 @@
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kb1BqZld0UDdnaFF6dHJkQThpcHUweFNHOF9NVlRfUU1XT0pySTVEYzZ1dUFEVFViTW11UVdHdFlmQVloajM4WEZLV3dhRkRyVWwyVjZCdHhOSTc2MTgyMkpJUnRpeTF0UjN4a1pQOA?oc=5",
       "source": "NTSB (.gov)",
       "date": "Tue, 18 Nov 2025 08:00:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
+      "title": "Fire and Explosion Damage Ship in Baltimore Harbor - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uV0JmalFyMzY2Q1dySU5lM2didG82OVZ2NDNZTjdscmMyOWtFOVJIbDFXa1RQZklQdjFiWVlpamVaSnZjYWZrMmNMS2EzU1REc1d2SE9rMTRGWnAxd2hyNU9nWVYtV1Z4VHk0NENST0RVeUpiRlE?oc=5",
+      "source": "The New York Times",
+      "date": "Mon, 18 Aug 2025 07:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore harbor",
+      "Baltimore shipping",
       "Port of Baltimore",
       "Baltimore rail freight",
-      "Maryland transportation infrastructure",
-      "Baltimore shipping"
+      "Baltimore harbor",
+      "Maryland transportation infrastructure"
     ],
     "sources": [
-      "Heavy Duty Trucking",
-      "NTSB (.gov)",
+      "Baltimore Sun",
+      "DredgeWire",
       "FreightWaves",
       "WBFF",
-      "DredgeWire",
-      "Baltimore Sun",
+      "SouthBMore.com",
+      "NTSB (.gov)",
       "CBS News",
       "MDcounties.org",
-      "WYPR",
-      "WBAL-TV"
+      "Heavy Duty Trucking",
+      "Tradewinds News"
     ]
   }
 }
