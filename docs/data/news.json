@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-20T22:54:19.246593+00:00",
+  "collected_at": "2026-02-20T23:27:39.118549+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -40,6 +40,13 @@
       "query": "Port of Baltimore"
     },
     {
+      "title": "City Cruises to end operations in Baltimore, move one ship to DC port - thebanner.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGxXMmVuanhQOWZMN1Nzdmt1c25vTjNPU0JfZ1k4U09MSi1YU256U0xvb0xnNEtuTERMTnJHQ2J1THlGa3ZRUEpuU1J1VnhNeUpWZEpTQVZoTWRjNTBDX19TOGdaS3E3XzB3QlJJdlpCSDJuTDVSZ09yYVE4cXo3MUtBTkZBQ21mMVVLcUdfRG5Hd3JhV1gwZ2FPM1hJS3plUXJj?oc=5",
+      "source": "thebanner.com",
+      "date": "Fri, 20 Feb 2026 22:52:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
       "title": "US seizes cash from Cosco Shipping bulker in Baltimore after captain\u2019s oversight - Tradewinds News",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOFNUVXV6R0N6N05mUFpmX01OcXBkdUhLT0pqUkxhZkdwbWxGOVZSWkRERWJjSXBScE5NLWpFN3d4Y0tDSUxyYVIwUE4xY3o5Tlo0NXhiZXYzczlHNzhlanFTc0dIUGxqbDBCODhEaU0xNDZDaE0zZFoxaGg5aHZUVFdXMW51QWN4bXJTcXNmQ19ST250SlVEaW5iQmwtT2xVMkYyOVAxWkFnSFVMSGt1ekVRb0R1V1FPam1jLTZGckV1bTN4SlJqRll4NA?oc=5",
       "source": "Tradewinds News",
@@ -51,13 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNbHotMkRVX2lSaDVqNHllelZmMWYyQU5xSVVleXdHeE9IYUt5MENXSVFaMXVHdkpQX09OcU9ybl9iVmdsVnowOWVXTlFaRno4Tk92eWNrWjVQWFpyWGFoelJYMHlCSkJHN1F5ZV9PaXZCT3ozSkd1Ulk4dWJoNVEyMnloSndHR093cjJWOFhOa3l6UzVERXpCV0R6aWM5UndiTVQ2dzNrbzlHMDNvRHN5bExVRnFuOXc?oc=5",
       "source": "WMAR 2 News Baltimore",
       "date": "Thu, 05 Feb 2026 16:39:08 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
-      "title": "Baltimore shipping channel reopens after cargo ship explosion near Key Bridge site - thebanner.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPQmRJRkZySDB1MU01ei1iZGlzNGhIWHY0QUhoYWs4allreWcwelYzUnlYQ1N5YWVEYXcxaHZIOWtJQzBxdEpDdUl3S1owdFltODFEd3VuUmtXczVoOVJPZ19fd0l5U0picUtOS2h5X0VZTlFZVE9Gb3ByTjRqblhDTElnNkNLUi1DLXhGTWpjazlnT0FRTDRJcTBLMnBQM3hWQW5MQTBwZGRERGhWQnV3?oc=5",
-      "source": "thebanner.com",
-      "date": "Tue, 19 Aug 2025 07:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Port of Baltimore",
-      "Baltimore harbor",
-      "Baltimore rail freight",
       "Baltimore shipping",
-      "Maryland transportation infrastructure"
+      "Maryland transportation infrastructure",
+      "Baltimore harbor",
+      "Port of Baltimore",
+      "Baltimore rail freight"
     ],
     "sources": [
-      "Jacobs",
-      "Tradewinds News",
-      "NTSB (.gov)",
       "CBS News",
-      "The BayNet",
+      "thebanner.com",
+      "Tradewinds News",
+      "WYPR",
+      "FreightWaves",
+      "WBFF",
       "The Maritime Executive",
-      "WMAR 2 News Baltimore",
       "Baltimore Sun",
-      "Maryland Matters",
-      "FreightWaves"
+      "The Business Journals",
+      "NTSB (.gov)"
     ]
   }
 }
