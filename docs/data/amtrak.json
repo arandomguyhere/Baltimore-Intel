@@ -1,18 +1,29 @@
 {
-  "collected_at": "2026-02-21T08:57:43.404654+00:00",
+  "collected_at": "2026-02-21T09:35:54.027672+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.956726510398084,
-      "lon": -75.18285547630981,
+      "lat": 39.82887308301477,
+      "lon": -75.40371888039518,
       "heading": "SW",
-      "velocity": 0,
-      "lastUpdate": "2026-02-21T03:50:43-05:00",
-      "nextStation": "Philadelphia 30th Street",
+      "velocity": 100.915077209473,
+      "lastUpdate": "2026-02-21T04:33:18-05:00",
+      "nextStation": "Wilmington",
       "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-21T04:42:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
     }
   ]
 }
