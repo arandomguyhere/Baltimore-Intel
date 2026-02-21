@@ -1,9 +1,16 @@
 {
-  "collected_at": "2026-02-21T04:06:18.430081+00:00",
+  "collected_at": "2026-02-21T05:11:54.868856+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
   "stories": [
+    {
+      "title": "City Cruises to end operations in Baltimore, move one ship to DC port - thebanner.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGxXMmVuanhQOWZMN1Nzdmt1c25vTjNPU0JfZ1k4U09MSi1YU256U0xvb0xnNEtuTERMTnJHQ2J1THlGa3ZRUEpuU1J1VnhNeUpWZEpTQVZoTWRjNTBDX19TOGdaS3E3XzB3QlJJdlpCSDJuTDVSZ09yYVE4cXo3MUtBTkZBQ21mMVVLcUdfRG5Hd3JhV1gwZ2FPM1hJS3plUXJj?oc=5",
+      "source": "thebanner.com",
+      "date": "Fri, 20 Feb 2026 22:52:00 GMT",
+      "query": "Port of Baltimore"
+    },
     {
       "title": "Spirit of Baltimore operator to close city port - Baltimore Sun",
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYWs0WXlXdUU1bXVsMTNZNjFqeFpOY1VlM3VDcHpMS0RDLWVZY3hvREhIT2pUQUFGYTJJRDkzaUkwOXpnXzgxaE5WYWhxVFlMa0I1cmhFem9MQnFoX19TcnhyUmpEYjBmV19BQldfb2xKcUhNWVpqeVVDOXViUWVzOQ?oc=5",
@@ -31,20 +38,6 @@
       "source": "The BayNet",
       "date": "Thu, 29 Jan 2026 08:00:00 GMT",
       "query": "Port of Baltimore"
-    },
-    {
-      "title": "Port of Baltimore Celebrates Recovery of its Container Business - The Maritime Executive",
-      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRUotVHRuZERiQnZlUy1DVjdSOUd4RVlpVnItTFRQMTgwSldMLVZlbThrZjBwSGloWHEzLW9hR2lGMDlmMjNLTW9jZ3k4aTE2SnAyT3RpZGZIWlJfTlluTkgtUXhDWTB4eVBkbnFJdENjc3JRME00bkJaRldJWlVMWWRxd2NsWEw1cy1KSWF5b2N5bHRFZTVUYUNoWDdHY1JMQlRfVw?oc=5",
-      "source": "The Maritime Executive",
-      "date": "Sun, 01 Feb 2026 08:00:00 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "City Cruises to end operations in Baltimore, move one ship to DC port - thebanner.com",
-      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGxXMmVuanhQOWZMN1Nzdmt1c25vTjNPU0JfZ1k4U09MSi1YU256U0xvb0xnNEtuTERMTnJHQ2J1THlGa3ZRUEpuU1J1VnhNeUpWZEpTQVZoTWRjNTBDX19TOGdaS3E3XzB3QlJJdlpCSDJuTDVSZ09yYVE4cXo3MUtBTkZBQ21mMVVLcUdfRG5Hd3JhV1gwZ2FPM1hJS3plUXJj?oc=5",
-      "source": "thebanner.com",
-      "date": "Fri, 20 Feb 2026 22:52:00 GMT",
-      "query": "Baltimore shipping"
     },
     {
       "title": "City Cruises to end operations in Baltimore, move 1 ship to Washington D.C. port - CBS News",
@@ -143,6 +136,13 @@
       "source": "thebanner.com",
       "date": "Fri, 26 Sep 2025 07:00:00 GMT",
       "query": "Baltimore rail freight"
+    },
+    {
+      "title": "Maryland Pulls Out of Baltimore Intermodal Project Development - Heavy Duty Trucking",
+      "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQNFRpUUFjS1FUaDZpcVI3TEs1UGExbE1kdm4wV3dRbU5xZXdxSGtpbmZiOUQ1dW9fb0tPY3lPaEtzSi1iOThsX3B4TmJEaEhKZFVjUURWOUItWk1relc4WFZ4aV9Ld2dQWHRMV0FzTnQzOFZ1bWF0QW02YUJ3RXhZRlIwbDVyZjdSaFpyeXpaZTRkdEczWEUxUWhKQmY?oc=5",
+      "source": "Heavy Duty Trucking",
+      "date": "Tue, 03 Feb 2026 20:42:40 GMT",
+      "query": "Baltimore rail freight"
     }
   ],
   "entities": {
@@ -150,20 +150,20 @@
       "Baltimore rail freight",
       "Port of Baltimore",
       "Baltimore harbor",
-      "Baltimore shipping",
-      "Maryland transportation infrastructure"
+      "Maryland transportation infrastructure",
+      "Baltimore shipping"
     ],
     "sources": [
-      "Tradewinds News",
+      "Maryland Matters",
       "Baltimore Sun",
-      "The Maritime Executive",
-      "FreightWaves",
-      "CBS News",
+      "The Business Journals",
       "Jacobs",
-      "WMAR 2 News Baltimore",
-      "NTSB (.gov)",
+      "WBFF",
+      "Heavy Duty Trucking",
+      "Tradewinds News",
+      "WBAL-TV",
       "WYPR",
-      "WBFF"
+      "thebanner.com"
     ]
   }
 }
