@@ -1,17 +1,39 @@
 {
-  "collected_at": "2026-02-23T11:08:14.941195+00:00",
+  "collected_at": "2026-02-23T11:53:29.876239+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 3,
   "trains": [
+    {
+      "trainNum": "52",
+      "routeName": "Auto Train",
+      "lat": 37.81275550333971,
+      "lon": -77.46477744786571,
+      "heading": "N",
+      "velocity": 66.0814437866211,
+      "lastUpdate": "2026-02-23T06:51:20-05:00",
+      "nextStation": "Lorton",
+      "status": "Active"
+    },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.43848424420299,
-      "lon": -77.33810660864252,
+      "lat": 38.88385025087069,
+      "lon": -77.0307487521258,
       "heading": "NE",
-      "velocity": 68.7210311889648,
-      "lastUpdate": "2026-02-23T06:06:20-05:00",
-      "nextStation": "Alexandria",
+      "velocity": 28.2503147125244,
+      "lastUpdate": "2026-02-23T06:51:21-05:00",
+      "nextStation": "Washington Union",
+      "status": "Active"
+    },
+    {
+      "trainNum": "164",
+      "routeName": "Northeast Regional",
+      "lat": 38.26359940728517,
+      "lon": -77.4532647148379,
+      "heading": "NW",
+      "velocity": 69.5285720825195,
+      "lastUpdate": "2026-02-23T06:51:21-05:00",
+      "nextStation": "Fredericksburg",
       "status": "Active"
     }
   ]
