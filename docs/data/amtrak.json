@@ -1,28 +1,39 @@
 {
-  "collected_at": "2026-02-23T14:13:39.316367+00:00",
+  "collected_at": "2026-02-23T15:07:48.750583+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 39.82098428681928,
-      "lon": -75.42101472238018,
-      "heading": "NE",
-      "velocity": 82.9502105712891,
-      "lastUpdate": "2026-02-23T09:09:24-05:00",
+      "lat": 39.95315595270755,
+      "lon": -75.18234430593087,
+      "heading": "N",
+      "velocity": 3.30619740486145,
+      "lastUpdate": "2026-02-23T10:06:27-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
+      "trainNum": "118",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-23T09:50:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
       "trainNum": "164",
       "routeName": "Northeast Regional",
-      "lat": 38.899673620036694,
-      "lon": -77.00460280995,
+      "lat": 39.225933310244194,
+      "lon": -76.69307929474627,
       "heading": "N",
-      "velocity": 0.00671081990003586,
-      "lastUpdate": "2026-02-23T09:09:26-05:00",
-      "nextStation": "Washington Union",
+      "velocity": 85.7754669189453,
+      "lastUpdate": "2026-02-23T10:06:31-05:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     }
   ]
