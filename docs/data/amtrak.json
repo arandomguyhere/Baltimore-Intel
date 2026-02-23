@@ -1,6 +1,18 @@
 {
-  "collected_at": "2026-02-23T10:11:47.071965+00:00",
+  "collected_at": "2026-02-23T11:08:14.941195+00:00",
   "source": "amtraker.com",
-  "total_trains": 0,
-  "trains": []
+  "total_trains": 1,
+  "trains": [
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.43848424420299,
+      "lon": -77.33810660864252,
+      "heading": "NE",
+      "velocity": 68.7210311889648,
+      "lastUpdate": "2026-02-23T06:06:20-05:00",
+      "nextStation": "Alexandria",
+      "status": "Active"
+    }
+  ]
 }
