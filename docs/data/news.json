@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-24T04:24:36.546612+00:00",
+  "collected_at": "2026-02-24T05:40:55.785529+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -19,6 +19,13 @@
       "query": "Port of Baltimore"
     },
     {
+      "title": "Carnival adding second ship to Baltimore for 2027-28 season - WBAL-TV",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY21CYzUzX3pueVJUT0tzMlNENEM2azhkUFQyTlg2aG1MRktDdGRfTldsUHZpUjNseG5JQ0gyX083bjNYM0M2c0tvQzU5UExWTlhpYUltR1pWZGZvYzBtT1pLMGJVVEpnQkJaSURta0ZDcmxNb3Q2ckxsdTZXaEVXOTE1eWd1aW1sZEs4OVNlTGVFRXRTazVsSnYyOGw4Nlk?oc=5",
+      "source": "WBAL-TV",
+      "date": "Fri, 06 Feb 2026 08:00:00 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
       "title": "City Cruises to end operations in Baltimore, move one ship to DC port - thebanner.com",
       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNcGxXMmVuanhQOWZMN1Nzdmt1c25vTjNPU0JfZ1k4U09MSi1YU256U0xvb0xnNEtuTERMTnJHQ2J1THlGa3ZRUEpuU1J1VnhNeUpWZEpTQVZoTWRjNTBDX19TOGdaS3E3XzB3QlJJdlpCSDJuTDVSZ09yYVE4cXo3MUtBTkZBQ21mMVVLcUdfRG5Hd3JhV1gwZ2FPM1hJS3plUXJj?oc=5",
       "source": "thebanner.com",
@@ -30,13 +37,6 @@
       "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPYWs0WXlXdUU1bXVsMTNZNjFqeFpOY1VlM3VDcHpMS0RDLWVZY3hvREhIT2pUQUFGYTJJRDkzaUkwOXpnXzgxaE5WYWhxVFlMa0I1cmhFem9MQnFoX19TcnhyUmpEYjBmV19BQldfb2xKcUhNWVpqeVVDOXViUWVzOQ?oc=5",
       "source": "Baltimore Sun",
       "date": "Thu, 19 Feb 2026 19:11:49 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "Eastern ports, railroads bracing for storm - FreightWaves",
-      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNc01nRWVaeXB3X2UyS2NudzFVY2x1akNaUGh3OXhiT005SmhoNHdEc2IzR3NKSVFrVlBiX01BS05XNkczX3lzb2V1RmR4eDFXUlFqaDdvdExuLWxvclJmWEM1ZDBOb0otdkFwdjNQN2tJTy16eG9hSTdwVm9uTFBPRA?oc=5",
-      "source": "FreightWaves",
-      "date": "Fri, 23 Jan 2026 08:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -54,10 +54,10 @@
       "query": "Baltimore shipping"
     },
     {
-      "title": "Baltimore bridge collapse: crew members from ship still held by US two years on - The Guardian",
-      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPeV9mYjQwZWczMlRCOG5JQ0U4VWhodERJUVdXZWZjS19PcVlXTGZSZkRIRC1KZ05Cc1lOTlVoZk53VHlRQmx4cnpRTnNNRDdvNlJvVWVtMUxzZ1BvVnlxTHlxSUMweUVkZTYyblpQZGNxSTYtRTVNa0xHMjFBbVNTSTFIVEZUa3l3dUtQSGxFakdJMUp5SXR0WUN5SFQ1NjgwSzBKWGhhQVdaQXIxejJkSHo0NjAtak05ejBOcmxRaXQwVmZsbk5VaGo2T3ZWMUliQVFGUA?oc=5",
-      "source": "The Guardian",
-      "date": "Thu, 29 Jan 2026 08:00:00 GMT",
+      "title": "Loose Wire on Containership Dali Leads to Blackouts and Contact with Baltimore\u2019s Francis Scott Key Bridge - NTSB (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kb1BqZld0UDdnaFF6dHJkQThpcHUweFNHOF9NVlRfUU1XT0pySTVEYzZ1dUFEVFViTW11UVdHdFlmQVloajM4WEZLV3dhRkRyVWwyVjZCdHhOSTc2MTgyMkpJUnRpeTF0UjN4a1pQOA?oc=5",
+      "source": "NTSB (.gov)",
+      "date": "Tue, 18 Nov 2025 08:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
+      "Baltimore shipping",
       "Port of Baltimore",
-      "Maryland transportation infrastructure",
-      "Baltimore harbor",
       "Baltimore rail freight",
-      "Baltimore shipping"
+      "Maryland transportation infrastructure",
+      "Baltimore harbor"
     ],
     "sources": [
-      "FreightWaves",
       "WMAR 2 News Baltimore",
-      "Jacobs",
       "Patch",
-      "thebanner.com",
-      "Baltimore Sun",
+      "Jacobs",
       "The Business Journals",
-      "The Guardian",
+      "NTSB (.gov)",
+      "WYPR",
       "CBS News",
-      "WBFF"
+      "Baltimore Sun",
+      "WBAL-TV",
+      "Container News"
     ]
   }
 }
