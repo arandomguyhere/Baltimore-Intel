@@ -1,18 +1,29 @@
 {
-  "collected_at": "2026-02-24T06:39:47.756050+00:00",
+  "collected_at": "2026-02-24T07:37:59.482805+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "97",
       "routeName": "Silver Meteor",
-      "lat": 38.89848724877814,
-      "lon": -77.0051216090392,
+      "lat": 38.89412704881144,
+      "lon": -77.00746383350254,
       "heading": "S",
-      "velocity": 0,
-      "lastUpdate": "2026-02-24T01:36:13-05:00",
+      "velocity": 7.55587100982666,
+      "lastUpdate": "2026-02-24T02:35:45-05:00",
       "nextStation": "Washington Union",
       "status": "Active"
+    },
+    {
+      "trainNum": "169",
+      "routeName": "Northeast Regional",
+      "lat": 39.96040387914933,
+      "lon": -75.18226801234746,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-24T02:33:54-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Completed"
     },
     {
       "trainNum": "887",
@@ -21,7 +32,7 @@
       "lon": -75.18298517541979,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-02-24T01:35:44-05:00",
+      "lastUpdate": "2026-02-24T02:35:46-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
