@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-24T15:31:16.595394+00:00",
+  "collected_at": "2026-02-24T16:45:25.350699+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -40,13 +40,6 @@
       "query": "Port of Baltimore"
     },
     {
-      "title": "Carnival Cruise Line Expands Baltimore Presence with Second Ship for 2027/28 Season - carnival-news.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb1R6Y3N4c012c0dkU2doNHhRMUNaaGN2WTFyalMwdl9LcmY2NzcxV2hHd1FBYzNJX0JYbG1CaVRZVThZanp5dm5CN3d3bzJXOEp5MFYtS1FrOENFVmZmTlRIbmlQblNOcTgwSlF5ZWNsWFFQZ1NSNXVjcDR5YVFlSlJyNWJqWUZHMEdOcHh6YXpoa3VTdkFPNGVYY3BxM2M5c1NYM2xPbmlVNEJJLUxNaHZ1NjV1ak9PMllaY2t2Qi0?oc=5",
-      "source": "carnival-news.com",
-      "date": "Thu, 05 Feb 2026 08:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
       "title": "Ship explosion temporarily closes Baltimore\u2019s federal shipping channel - WYPR",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVmpKTDd0bndPcldQd0R3Qm9pTVlBV3V2V09oVGhnX1dZaDI4MGRaWTlwd2ROUUJXWWd4U0o0bXpyWmFpdVdYWDdsNnFZR1o1NWJOMVNqc3M2X05wOEVFbUQzallZMk9sNzh6d3VqdDVjR0hYeWFNVzFFcmgzRzVLd1NpQmRBQm5uR3FmNS1qNTJ3X09xTGNKVjh0a3hqclZBRnFFek1PS3BJcG41?oc=5",
       "source": "WYPR",
@@ -58,6 +51,13 @@
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kb1BqZld0UDdnaFF6dHJkQThpcHUweFNHOF9NVlRfUU1XT0pySTVEYzZ1dUFEVFViTW11UVdHdFlmQVloajM4WEZLV3dhRkRyVWwyVjZCdHhOSTc2MTgyMkpJUnRpeTF0UjN4a1pQOA?oc=5",
       "source": "NTSB (.gov)",
       "date": "Tue, 18 Nov 2025 08:00:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
+      "title": "Fire and Explosion Damage Ship in Baltimore Harbor - The New York Times",
+      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uV0JmalFyMzY2Q1dySU5lM2didG82OVZ2NDNZTjdscmMyOWtFOVJIbDFXa1RQZklQdjFiWVlpamVaSnZjYWZrMmNMS2EzU1REc1d2SE9rMTRGWnAxd2hyNU9nWVYtV1Z4VHk0NENST0RVeUpiRlE?oc=5",
+      "source": "The New York Times",
+      "date": "Mon, 18 Aug 2025 07:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Port of Baltimore",
       "Baltimore shipping",
       "Baltimore harbor",
+      "Port of Baltimore",
       "Maryland transportation infrastructure",
       "Baltimore rail freight"
     ],
     "sources": [
-      "Baltimore Sun",
-      "thebanner.com",
       "NTSB (.gov)",
-      "FreightWaves",
-      "carnival-news.com",
+      "Baltimore Sun",
       "WBAL-TV",
-      "WBFF",
       "Maryland Matters",
-      "The Business Journals",
-      "CBS News"
+      "Jacobs",
+      "WMAR 2 News Baltimore",
+      "FreightWaves",
+      "thebanner.com",
+      "The New York Times",
+      "WYPR"
     ]
   }
 }

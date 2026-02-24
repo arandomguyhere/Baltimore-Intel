@@ -1,29 +1,51 @@
 {
-  "collected_at": "2026-02-24T15:31:13.287531+00:00",
+  "collected_at": "2026-02-24T16:45:21.840457+00:00",
   "source": "amtraker.com",
-  "total_trains": 9,
+  "total_trains": 13,
   "trains": [
+    {
+      "trainNum": "41",
+      "routeName": "Floridian",
+      "lat": 39.36434577003109,
+      "lon": -77.81874341247169,
+      "heading": "E",
+      "velocity": 59.7240600585938,
+      "lastUpdate": "2026-02-24T11:42:30-05:00",
+      "nextStation": "Harpers Ferry",
+      "status": "Active"
+    },
+    {
+      "trainNum": "42",
+      "routeName": "Pennsylvanian",
+      "lat": 40.58153199848703,
+      "lon": -77.40873207309299,
+      "heading": "S",
+      "velocity": 55.4067649841309,
+      "lastUpdate": "2026-02-24T11:42:33-05:00",
+      "nextStation": "Harrisburg",
+      "status": "Active"
+    },
     {
       "trainNum": "79",
       "routeName": "Carolinian",
-      "lat": 39.19252036948111,
-      "lon": -76.69475013121365,
+      "lat": 38.89945236698958,
+      "lon": -77.00467147395791,
       "heading": "S",
-      "velocity": 0.00447387993335724,
-      "lastUpdate": "2026-02-24T10:27:28-05:00",
-      "nextStation": "Baltimore Airport",
+      "velocity": 4.93916368484497,
+      "lastUpdate": "2026-02-24T11:42:31-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "82",
       "routeName": "Northeast Regional",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-02-24T10:15:00-05:00",
-      "nextStation": "Washington Union",
-      "status": "Predeparture"
+      "lat": 39.457619012577055,
+      "lon": -76.20856682820212,
+      "heading": "NE",
+      "velocity": 121.673873901367,
+      "lastUpdate": "2026-02-24T11:42:34-05:00",
+      "nextStation": "Aberdeen",
+      "status": "Active"
     },
     {
       "trainNum": "89",
@@ -32,53 +54,75 @@
       "lon": -77.00490798601786,
       "heading": "S",
       "velocity": 2.11838221549988,
-      "lastUpdate": "2026-02-24T10:27:30-05:00",
+      "lastUpdate": "2026-02-24T11:42:32-05:00",
       "nextStation": "Washington Union",
+      "status": "Active"
+    },
+    {
+      "trainNum": "103",
+      "routeName": "Northeast Regional",
+      "lat": 39.30241419455213,
+      "lon": -76.58598545495795,
+      "heading": "W",
+      "velocity": 47.0741653442383,
+      "lastUpdate": "2026-02-24T11:42:28-05:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "118",
       "routeName": "Northeast Regional",
-      "lat": 39.19173454233904,
-      "lon": -76.69433051403425,
-      "heading": "N",
-      "velocity": 0.0156585797667503,
-      "lastUpdate": "2026-02-24T10:27:26-05:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "152",
-      "routeName": "Northeast Regional",
-      "lat": 39.94918485180582,
-      "lon": -75.18548761768467,
-      "heading": "NE",
-      "velocity": 26.7627506256104,
-      "lastUpdate": "2026-02-24T10:27:32-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "164",
-      "routeName": "Northeast Regional",
-      "lat": 39.483345336670865,
-      "lon": -76.18272606266781,
-      "heading": "NE",
-      "velocity": 120.284736633301,
-      "lastUpdate": "2026-02-24T10:27:34-05:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "646",
-      "routeName": "Keystone",
-      "lat": 40.04461333077933,
-      "lon": -75.37739747427791,
+      "lat": 39.7511180895679,
+      "lon": -75.51326938626309,
       "heading": "E",
-      "velocity": 60.3369827270508,
-      "lastUpdate": "2026-02-24T10:27:34-05:00",
+      "velocity": 94.2221527099609,
+      "lastUpdate": "2026-02-24T11:42:28-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
+    },
+    {
+      "trainNum": "127",
+      "routeName": "Northeast Regional",
+      "lat": 39.957233865548844,
+      "lon": -75.18146692590099,
+      "heading": "S",
+      "velocity": 4.13162803649902,
+      "lastUpdate": "2026-02-24T11:42:37-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "155",
+      "routeName": "Northeast Regional",
+      "lat": 39.52605469802114,
+      "lon": -76.13332571977391,
+      "heading": "SW",
+      "velocity": 65.15087890625,
+      "lastUpdate": "2026-02-24T11:42:36-05:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "643",
+      "routeName": "Keystone",
+      "lat": 39.98014875427169,
+      "lon": -75.23207271732005,
+      "heading": "NW",
+      "velocity": 10.7216529846191,
+      "lastUpdate": "2026-02-24T11:42:36-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "887",
+      "routeName": "Northest Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-24T10:45:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
     },
     {
       "trainNum": "887",
@@ -87,20 +131,20 @@
       "lon": -75.18298517541979,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-02-24T10:25:28-05:00",
+      "lastUpdate": "2026-02-24T11:41:00-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "2252",
       "routeName": "Acela",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-02-24T10:40:00-05:00",
-      "nextStation": "Washington Union",
-      "status": "Predeparture"
+      "lat": 39.3038370795342,
+      "lon": -76.51336885531471,
+      "heading": "NE",
+      "velocity": 87.8088455200195,
+      "lastUpdate": "2026-02-24T11:42:34-05:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
     }
   ]
 }
