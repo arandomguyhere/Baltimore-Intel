@@ -1,17 +1,72 @@
 {
-  "collected_at": "2026-02-25T09:07:11.044334+00:00",
+  "collected_at": "2026-02-25T10:10:47.650360+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 6,
   "trains": [
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.955887276315785,
-      "lon": -75.18051325151711,
-      "heading": "SE",
+      "lat": 39.74176826398229,
+      "lon": -75.53320499998652,
+      "heading": "SW",
+      "velocity": 40.0591201782227,
+      "lastUpdate": "2026-02-25T05:09:21-05:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.1226615748243,
+      "lon": -77.41637657306478,
+      "heading": "NW",
+      "velocity": 69.3719863891602,
+      "lastUpdate": "2026-02-25T05:09:20-05:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.848541667412846,
+      "lon": -75.36264220860942,
+      "heading": "SW",
+      "velocity": 101.617469787598,
+      "lastUpdate": "2026-02-25T05:09:15-05:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-02-25T04:05:48-05:00",
+      "lastUpdate": "2026-02-25T05:10:00-05:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "601",
+      "routeName": "Keystone",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-25T04:55:00-05:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.196285672680304,
+      "lon": -76.74064864618825,
+      "heading": "E",
+      "velocity": 0.0313171595335007,
+      "lastUpdate": "2026-02-25T05:09:21-05:00",
+      "nextStation": "Middletown",
       "status": "Active"
     }
   ]
