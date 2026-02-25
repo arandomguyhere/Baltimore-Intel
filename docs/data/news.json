@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-02-25T08:00:25.699125+00:00",
+  "collected_at": "2026-02-25T09:07:13.819027+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -9,6 +9,13 @@
       "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1WVnlaaVNpSXZQSmcwM1o2Y3BrRkQxaUZiVVo2MkpIaC1QNVRiaThLUGVCQ0U2UDdxSEw0UUs5MUN3eVR2M2JPTkJyUFJxbk5HNkh2cFplTzByZkw4RlJXY0tDenZGTHhXNjZOMElZc1NmR1BiOXo0?oc=5",
       "source": "Baltimore Sun",
       "date": "Tue, 24 Feb 2026 22:20:17 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
+      "title": "Blizzard shuts down container terminals at northeast ports - FreightWaves",
+      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQUNTUGNEaUdGelYzcld6WG1kenZIdFpBMC1PanI5c2hCdkMzOTBCcURJd0hvLTdNaDEwR25CeS0tanQ3QndfVEZRcHBxWEVFeG81bGtZelE4bTVCT19IUmFfVGV1eEJWXzV4TTg1cEw2WUFGUmhOMXZRMUVpbTlydHZMNzNkMVhkUDdNN1YySWxrOC1TaTd3?oc=5",
+      "source": "FreightWaves",
+      "date": "Mon, 23 Feb 2026 14:34:18 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -23,13 +30,6 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPVTlUc0FibjVrd2NPNXVkanR3eGR3V0ZfbTNzbFNGNG1ZVnhZSm5IejdfLTFNeWpkclkxZ0JfSTNUbmtYbGlGRmRtQmlwRk1HOE5ZbDZUbmVPNzZTV2FubURpMm4yUTA5MDQ2Sm83d294N1BVeU5IcTF3R1hnd0VNTmJrRQ?oc=5",
       "source": "The Loadstar",
       "date": "Tue, 24 Feb 2026 11:25:23 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "Blizzard shuts down container terminals at northeast ports - FreightWaves",
-      "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQQUNTUGNEaUdGelYzcld6WG1kenZIdFpBMC1PanI5c2hCdkMzOTBCcURJd0hvLTdNaDEwR25CeS0tanQ3QndfVEZRcHBxWEVFeG81bGtZelE4bTVCT19IUmFfVGV1eEJWXzV4TTg1cEw2WUFGUmhOMXZRMUVpbTlydHZMNzNkMVhkUDdNN1YySWxrOC1TaTd3?oc=5",
-      "source": "FreightWaves",
-      "date": "Mon, 23 Feb 2026 14:34:18 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Port of Baltimore",
-      "Baltimore harbor",
-      "Maryland transportation infrastructure",
       "Baltimore shipping",
-      "Baltimore rail freight"
+      "Maryland transportation infrastructure",
+      "Baltimore harbor",
+      "Baltimore rail freight",
+      "Port of Baltimore"
     ],
     "sources": [
-      "WYPR",
-      "NTSB (.gov)",
-      "The Business Journals",
-      "The Loadstar",
-      "WBFF",
+      "Jacobs",
       "Baltimore Sun",
+      "The Business Journals",
+      "SouthBMore.com",
+      "WYPR",
+      "Maryland Matters",
       "FreightWaves",
-      "CBS News",
       "Capital Gazette",
-      "Maryland Matters"
+      "CBS News",
+      "The Loadstar"
     ]
   }
 }
