@@ -1,18 +1,40 @@
 {
-  "collected_at": "2026-02-28T09:24:54.170797+00:00",
+  "collected_at": "2026-02-28T09:47:10.924895+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.956139046361145,
-      "lon": -75.18064295057351,
-      "heading": "SE",
-      "velocity": 0,
-      "lastUpdate": "2026-02-28T04:20:48-05:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lat": 39.73697700238859,
+      "lon": -75.55082127725443,
+      "heading": "NW",
+      "velocity": 0.00671081990003586,
+      "lastUpdate": "2026-02-28T04:45:19-05:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
+    },
+    {
+      "trainNum": "150",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-28T05:00:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-02-28T04:42:00-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
     },
     {
       "trainNum": "887",
