@@ -1,39 +1,50 @@
 {
-  "collected_at": "2026-02-28T09:47:10.924895+00:00",
+  "collected_at": "2026-02-28T10:21:09.180356+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.73697700238859,
-      "lon": -75.55082127725443,
-      "heading": "NW",
-      "velocity": 0.00671081990003586,
-      "lastUpdate": "2026-02-28T04:45:19-05:00",
+      "lat": 39.406734751485864,
+      "lon": -76.3146841073759,
+      "heading": "SW",
+      "velocity": 123.617774963379,
+      "lastUpdate": "2026-02-28T05:18:19-05:00",
       "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "150",
       "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-02-28T05:00:00-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Predeparture"
+      "lat": 39.96229978447654,
+      "lon": -75.18363367489519,
+      "heading": "NW",
+      "velocity": 18.2959327697754,
+      "lastUpdate": "2026-02-28T05:18:20-05:00",
+      "nextStation": "Trenton",
+      "status": "Active"
     },
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
+      "lat": 39.737499616443685,
+      "lon": -75.5521716807124,
+      "heading": "NW",
+      "velocity": 0.017895519733429,
+      "lastUpdate": "2026-02-28T05:18:16-05:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-02-28T04:42:00-05:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lastUpdate": "2026-02-28T05:10:00-05:00",
+      "nextStation": "Washington Union",
       "status": "Predeparture"
     },
     {
