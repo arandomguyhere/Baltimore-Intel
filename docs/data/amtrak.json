@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-03-01T11:42:35.563361+00:00",
+  "collected_at": "2026-03-01T11:54:02.029013+00:00",
   "source": "amtraker.com",
-  "total_trains": 6,
+  "total_trains": 7,
   "trains": [
     {
       "trainNum": "65",
@@ -10,7 +10,7 @@
       "lon": -77.00438155692068,
       "heading": "S",
       "velocity": 2.32641768455505,
-      "lastUpdate": "2026-03-01T06:38:22-05:00",
+      "lastUpdate": "2026-03-01T06:50:52-05:00",
       "nextStation": "Washington Union",
       "status": "Active"
     },
@@ -21,53 +21,64 @@
       "lon": -77.0048774680202,
       "heading": "N",
       "velocity": 0.0111846998333931,
-      "lastUpdate": "2026-03-01T06:38:22-05:00",
+      "lastUpdate": "2026-03-01T06:50:52-05:00",
       "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.00963992870918,
-      "lon": -76.77575142731804,
+      "lat": 38.909881751218904,
+      "lon": -77.00128402253961,
       "heading": "SW",
-      "velocity": 116.461807250977,
-      "lastUpdate": "2026-03-01T06:38:23-05:00",
+      "velocity": 18.0118408203125,
+      "lastUpdate": "2026-03-01T06:50:51-05:00",
       "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "160",
       "routeName": "Northeast Regional",
-      "lat": 39.60166583656959,
-      "lon": -75.87573439640171,
-      "heading": "E",
-      "velocity": 107.961433410645,
-      "lastUpdate": "2026-03-01T06:38:21-05:00",
+      "lat": 39.73720588440345,
+      "lon": -75.55166814053561,
+      "heading": "SE",
+      "velocity": 0.0290802195668221,
+      "lastUpdate": "2026-03-01T06:50:51-05:00",
       "nextStation": "Wilmington",
       "status": "Active"
     },
     {
       "trainNum": "162",
       "routeName": "Northeast Regional",
-      "lat": 38.98486727803993,
-      "lon": -76.82098611991977,
-      "heading": "NE",
-      "velocity": 106.661773681641,
-      "lastUpdate": "2026-03-01T06:38:20-05:00",
-      "nextStation": "Baltimore Airport",
+      "lat": 39.19268821651619,
+      "lon": -76.69471198421205,
+      "heading": "N",
+      "velocity": 14.0412721633911,
+      "lastUpdate": "2026-03-01T06:50:50-05:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "164",
+      "routeName": "Northeast Regional",
+      "lat": 37.83754722675729,
+      "lon": -77.45643088973063,
+      "heading": "N",
+      "velocity": 67.6316452026367,
+      "lastUpdate": "2026-03-01T06:50:53-05:00",
+      "nextStation": "Fredericksburg",
       "status": "Active"
     },
     {
       "trainNum": "600",
       "routeName": "Keystone",
-      "lat": 40.261108062055214,
-      "lon": -76.8782023317206,
-      "heading": "N",
+      "lat": 40.19262705432486,
+      "lon": -76.73124828099114,
+      "heading": "S",
       "velocity": 0,
-      "lastUpdate": "2026-03-01T06:25:00-05:00",
-      "nextStation": "Harrisburg",
-      "status": "Predeparture"
+      "lastUpdate": "2026-03-01T06:40:54-05:00",
+      "nextStation": "Middletown",
+      "status": "Active"
     }
   ]
 }
