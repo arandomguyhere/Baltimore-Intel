@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-01T22:26:21.917366+00:00",
+  "collected_at": "2026-03-01T22:49:58.943715+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -47,13 +47,6 @@
       "query": "Baltimore shipping"
     },
     {
-      "title": "Carnival Cruise Line Expands Baltimore Presence with Second Ship for 2027/28 Season - carnival-news.com",
-      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb1R6Y3N4c012c0dkU2doNHhRMUNaaGN2WTFyalMwdl9LcmY2NzcxV2hHd1FBYzNJX0JYbG1CaVRZVThZanp5dm5CN3d3bzJXOEp5MFYtS1FrOENFVmZmTlRIbmlQblNOcTgwSlF5ZWNsWFFQZ1NSNXVjcDR5YVFlSlJyNWJqWUZHMEdOcHh6YXpoa3VTdkFPNGVYY3BxM2M5c1NYM2xPbmlVNEJJLUxNaHZ1NjV1ak9PMllaY2t2Qi0?oc=5",
-      "source": "carnival-news.com",
-      "date": "Thu, 05 Feb 2026 08:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
       "title": "City Cruises to end operations in Baltimore, move 1 ship to Washington D.C. port - CBS News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS1hLaWdPZVJVQkl0OGxTY0NuTnU0WVItZDkwY3hPYzZZX2FYWHRmTkRoSW5MLWFVeUo2WVNSclFfLVVic3VQNEVyVGNEY2NKSk92VHBiSDdJcWpoRF9BNHl2SnZ0NU1ha0x5aFpuOVdDUDBWaFFrVnZzSFdPXzl5b3VzWUhsVDNYTGw2SmNYUFdHWFE?oc=5",
       "source": "CBS News",
@@ -65,6 +58,13 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVmpKTDd0bndPcldQd0R3Qm9pTVlBV3V2V09oVGhnX1dZaDI4MGRaWTlwd2ROUUJXWWd4U0o0bXpyWmFpdVdYWDdsNnFZR1o1NWJOMVNqc3M2X05wOEVFbUQzallZMk9sNzh6d3VqdDVjR0hYeWFNVzFFcmgzRzVLd1NpQmRBQm5uR3FmNS1qNTJ3X09xTGNKVjh0a3hqclZBRnFFek1PS3BJcG41?oc=5",
       "source": "WYPR",
       "date": "Tue, 19 Aug 2025 07:00:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
+      "title": "NTSB: Loose Wire Triggered Blackouts on Ship Before Crash into Baltimore Bridge - Supply Chain Brain",
+      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNy0wbVg5MDB2MWg3UzE3eTRickVGLVh6V29nU3NobTBlVHNMdkZrRlhNX3lJc3Jxd0dxbkNZLW5tbERNNDVSeEJucXZreXhQOWhyRnQzRXdIeWc1YlBWeDFyZW1aeDkyellHSnBZVUZXZGREYXNXN0NKcUVKNVVKYUNQMGxSZXYxWVgtVEhmanhreGZLR0ZuTkxBdzgyRGFEclVrSDA3YXBpTGdTSFNKS0NjbTVfTzVQXzVMOVZTdHhnb0pk?oc=5",
+      "source": "Supply Chain Brain",
+      "date": "Wed, 19 Nov 2025 08:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -148,21 +148,21 @@
   "entities": {
     "topics": [
       "Baltimore shipping",
-      "Maryland transportation infrastructure",
       "Port of Baltimore",
-      "Baltimore harbor"
+      "Baltimore harbor",
+      "Maryland transportation infrastructure"
     ],
     "sources": [
-      "Baltimore Magazine",
-      "Jacobs",
-      "SouthBMore.com",
-      "WBFF",
-      "constructconnect.com",
-      "WMAR 2 News Baltimore",
-      "The Business Journals",
+      "gCaptain",
       "thebanner.com",
+      "WBFF",
+      "Jacobs",
+      "WMAR 2 News Baltimore",
+      "SouthBMore.com",
+      "constructconnect.com",
       "CBS News",
-      "carnival-news.com"
+      "Baltimore Sun",
+      "Baltimore Magazine"
     ]
   }
 }
