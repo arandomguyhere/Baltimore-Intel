@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-03-01T06:27:44.995612+00:00",
+  "collected_at": "2026-03-01T07:09:44.731252+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "65",
@@ -10,7 +10,7 @@
       "lon": -75.18139826077486,
       "heading": "S",
       "velocity": 0,
-      "lastUpdate": "2026-03-01T01:24:12-05:00",
+      "lastUpdate": "2026-03-01T02:06:12-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
@@ -21,20 +21,31 @@
       "lon": -75.18224512389479,
       "heading": "N",
       "velocity": 4.08688926696777,
-      "lastUpdate": "2026-03-01T01:24:14-05:00",
+      "lastUpdate": "2026-03-01T02:06:15-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "165",
       "routeName": "Northeast Regional",
-      "lat": 39.43866377664471,
-      "lon": -76.23955743776618,
+      "lat": 39.03624744802875,
+      "lon": -76.74982673784974,
       "heading": "SW",
-      "velocity": 118.642822265625,
-      "lastUpdate": "2026-03-01T01:24:14-05:00",
-      "nextStation": "Baltimore Penn",
+      "velocity": 120.195259094238,
+      "lastUpdate": "2026-03-01T02:06:13-05:00",
+      "nextStation": "New Carrollton",
       "status": "Active"
+    },
+    {
+      "trainNum": "169",
+      "routeName": "Northeast Regional",
+      "lat": 39.96137281231478,
+      "lon": -75.18301569364311,
+      "heading": "SE",
+      "velocity": 16.8978443145752,
+      "lastUpdate": "2026-03-01T02:00:15-05:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Completed"
     }
   ]
 }
