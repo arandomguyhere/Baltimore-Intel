@@ -1,28 +1,28 @@
 {
-  "collected_at": "2026-03-01T10:52:32.831178+00:00",
+  "collected_at": "2026-03-01T11:18:57.624076+00:00",
   "source": "amtraker.com",
-  "total_trains": 6,
+  "total_trains": 7,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.1933519736343,
-      "lon": -76.69511634237924,
-      "heading": "S",
-      "velocity": 11.8311758041382,
-      "lastUpdate": "2026-03-01T05:50:51-05:00",
-      "nextStation": "Baltimore Airport",
+      "lat": 38.91821305310902,
+      "lon": -76.96879805092931,
+      "heading": "W",
+      "velocity": 93.6785736083984,
+      "lastUpdate": "2026-03-01T06:17:52-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.560276110746884,
-      "lon": -77.2629799446744,
-      "heading": "N",
-      "velocity": 71.33154296875,
-      "lastUpdate": "2026-03-01T05:50:51-05:00",
-      "nextStation": "Alexandria",
+      "lat": 38.81552900824459,
+      "lon": -77.05314102793307,
+      "heading": "NE",
+      "velocity": 55.1293869018555,
+      "lastUpdate": "2026-03-01T06:17:51-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
@@ -39,23 +39,23 @@
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.54464753675737,
-      "lon": -76.10550131117293,
-      "heading": "SW",
-      "velocity": 42.8687171936035,
-      "lastUpdate": "2026-03-01T05:50:47-05:00",
-      "nextStation": "Baltimore Penn",
+      "lat": 39.30844523061427,
+      "lon": -76.61676244296126,
+      "heading": "NW",
+      "velocity": 13.5938844680786,
+      "lastUpdate": "2026-03-01T06:17:20-05:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
     },
     {
       "trainNum": "160",
       "routeName": "Northeast Regional",
-      "lat": 39.192440261468114,
-      "lon": -76.69466620718254,
-      "heading": "N",
-      "velocity": 0.0156585797667503,
-      "lastUpdate": "2026-03-01T05:50:46-05:00",
-      "nextStation": "Baltimore Airport",
+      "lat": 39.33483150376188,
+      "lon": -76.43186400969239,
+      "heading": "E",
+      "velocity": 120.624755859375,
+      "lastUpdate": "2026-03-01T06:17:47-05:00",
+      "nextStation": "Wilmington",
       "status": "Active"
     },
     {
@@ -67,6 +67,17 @@
       "velocity": 0,
       "lastUpdate": "2026-03-01T06:05:00-05:00",
       "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "600",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-01T06:25:00-05:00",
+      "nextStation": "Harrisburg",
       "status": "Predeparture"
     }
   ]
