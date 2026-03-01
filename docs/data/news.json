@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-01T18:31:30.005728+00:00",
+  "collected_at": "2026-03-01T19:02:03.424601+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -47,6 +47,13 @@
       "query": "Baltimore shipping"
     },
     {
+      "title": "Loose Wire on Containership Dali Leads to Blackouts and Contact with Baltimore\u2019s Francis Scott Key Bridge - NTSB (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kb1BqZld0UDdnaFF6dHJkQThpcHUweFNHOF9NVlRfUU1XT0pySTVEYzZ1dUFEVFViTW11UVdHdFlmQVloajM4WEZLV3dhRkRyVWwyVjZCdHhOSTc2MTgyMkpJUnRpeTF0UjN4a1pQOA?oc=5",
+      "source": "NTSB (.gov)",
+      "date": "Tue, 18 Nov 2025 08:00:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
       "title": "City Cruises to end operations in Baltimore, move 1 ship to Washington D.C. port - CBS News",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNS1hLaWdPZVJVQkl0OGxTY0NuTnU0WVItZDkwY3hPYzZZX2FYWHRmTkRoSW5MLWFVeUo2WVNSclFfLVVic3VQNEVyVGNEY2NKSk92VHBiSDdJcWpoRF9BNHl2SnZ0NU1ha0x5aFpuOVdDUDBWaFFrVnZzSFdPXzl5b3VzWUhsVDNYTGw2SmNYUFdHWFE?oc=5",
       "source": "CBS News",
@@ -58,13 +65,6 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVmpKTDd0bndPcldQd0R3Qm9pTVlBV3V2V09oVGhnX1dZaDI4MGRaWTlwd2ROUUJXWWd4U0o0bXpyWmFpdVdYWDdsNnFZR1o1NWJOMVNqc3M2X05wOEVFbUQzallZMk9sNzh6d3VqdDVjR0hYeWFNVzFFcmgzRzVLd1NpQmRBQm5uR3FmNS1qNTJ3X09xTGNKVjh0a3hqclZBRnFFek1PS3BJcG41?oc=5",
       "source": "WYPR",
       "date": "Tue, 19 Aug 2025 07:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
-      "title": "NTSB: Loose Wire Triggered Blackouts on Ship Before Crash into Baltimore Bridge - Supply Chain Brain",
-      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPNy0wbVg5MDB2MWg3UzE3eTRickVGLVh6V29nU3NobTBlVHNMdkZrRlhNX3lJc3Jxd0dxbkNZLW5tbERNNDVSeEJucXZreXhQOWhyRnQzRXdIeWc1YlBWeDFyZW1aeDkyellHSnBZVUZXZGREYXNXN0NKcUVKNVVKYUNQMGxSZXYxWVgtVEhmanhreGZLR0ZuTkxBdzgyRGFEclVrSDA3YXBpTGdTSFNKS0NjbTVfTzVQXzVMOVZTdHhnb0pk?oc=5",
-      "source": "Supply Chain Brain",
-      "date": "Wed, 19 Nov 2025 08:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -148,21 +148,21 @@
   "entities": {
     "topics": [
       "Port of Baltimore",
-      "Baltimore shipping",
       "Maryland transportation infrastructure",
-      "Baltimore harbor"
+      "Baltimore harbor",
+      "Baltimore shipping"
     ],
     "sources": [
-      "The BayNet",
+      "NTSB (.gov)",
+      "WBFF",
       "Baltimore Magazine",
-      "WMAR 2 News Baltimore",
-      "Jacobs",
+      "SouthBMore.com",
       "Baltimore Sun",
       "WYPR",
-      "constructconnect.com",
-      "WBFF",
+      "The BayNet",
+      "Maryland Daily Record",
       "The Business Journals",
-      "thebanner.com"
+      "Maryland Matters"
     ]
   }
 }
