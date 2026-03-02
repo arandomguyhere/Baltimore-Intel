@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-03-02T05:34:28.991924+00:00",
+  "collected_at": "2026-03-02T06:37:24.988713+00:00",
   "source": "amtraker.com",
-  "total_trains": 6,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "66",
@@ -10,63 +10,41 @@
       "lon": -75.18222223588407,
       "heading": "E",
       "velocity": 3.15855932235718,
-      "lastUpdate": "2026-03-02T00:32:41-05:00",
+      "lastUpdate": "2026-03-02T01:35:43-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "90",
-      "routeName": "Palmetto",
-      "lat": 39.95314832370743,
-      "lon": -75.18230615891832,
-      "heading": "NE",
-      "velocity": 5.4022102355957,
-      "lastUpdate": "2026-03-02T00:32:41-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "124",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.94946332488254,
-      "lon": -75.18489252451316,
-      "heading": "N",
+      "lat": 39.95421643899563,
+      "lon": -75.18019281631408,
+      "heading": "S",
       "velocity": 0,
-      "lastUpdate": "2026-03-02T00:21:15-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 39.95309491769654,
-      "lon": -75.18231378891747,
-      "heading": "N",
-      "velocity": 2.35549783706665,
-      "lastUpdate": "2026-03-02T00:32:39-05:00",
+      "lastUpdate": "2026-03-02T01:35:43-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "165",
       "routeName": "Northeast Regional",
-      "lat": 39.35168102696279,
-      "lon": -76.38247892525195,
-      "heading": "SW",
-      "velocity": 123.107757568359,
-      "lastUpdate": "2026-03-02T00:32:42-05:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
+      "lat": 38.90370194087212,
+      "lon": -77.00398482900341,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-02T01:30:14-05:00",
+      "nextStation": "Washington Union",
+      "status": "Completed"
     },
     {
       "trainNum": "655",
       "routeName": "Keystone",
-      "lat": 39.99460644126941,
-      "lon": -75.7494526428245,
-      "heading": "W",
-      "velocity": 0.0111846998333931,
-      "lastUpdate": "2026-03-02T00:32:42-05:00",
-      "nextStation": "Coatesville",
+      "lat": 40.22243923940939,
+      "lon": -76.82871477661,
+      "heading": "NW",
+      "velocity": 108.348426818848,
+      "lastUpdate": "2026-03-02T01:35:43-05:00",
+      "nextStation": "Harrisburg",
       "status": "Active"
     }
   ]
