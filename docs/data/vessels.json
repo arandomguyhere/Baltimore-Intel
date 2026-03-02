@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-02T21:06:16.888191+00:00",
+  "collected_at": "2026-03-02T21:50:02.496036+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,315 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 28,
+  "vessels": [
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.23232666666667,
+      "lon": -76.53898666666667,
+      "speed": 8.3,
+      "course": 41.7,
+      "heading": 40,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:58.601389+00:00"
+    },
+    {
+      "mmsi": 367139770,
+      "name": "KERRY MORAN",
+      "lat": 36.95333333333333,
+      "lon": -76.32883333333332,
+      "speed": 0.1,
+      "course": 291,
+      "heading": 101,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:38.788046+00:00"
+    },
+    {
+      "mmsi": 367395980,
+      "name": "CANDICE L",
+      "lat": 36.95004666666667,
+      "lon": -76.32978499999999,
+      "speed": 0,
+      "course": 240,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:39.302355+00:00"
+    },
+    {
+      "mmsi": 368271280,
+      "name": "DB AVALON",
+      "lat": 36.949623333333335,
+      "lon": -76.32958,
+      "speed": 0.3,
+      "course": 128.3,
+      "heading": 101,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:42.114251+00:00"
+    },
+    {
+      "mmsi": 366841550,
+      "name": "SURRIE MORAN",
+      "lat": 36.95308833333333,
+      "lon": -76.32796499999999,
+      "speed": 0,
+      "course": 101.4,
+      "heading": 96,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:42.320815+00:00"
+    },
+    {
+      "mmsi": 367574340,
+      "name": "HOS RED DAWN",
+      "lat": 36.92084,
+      "lon": -76.18267666666667,
+      "speed": 0,
+      "course": 197.6,
+      "heading": 272,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:43.057176+00:00"
+    },
+    {
+      "mmsi": 366991414,
+      "name": "USNS POINT LOMA",
+      "lat": 36.91576666666666,
+      "lon": -76.1823,
+      "speed": 0,
+      "course": 344.4,
+      "heading": 92,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:43.279185+00:00"
+    },
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.268953333333336,
+      "lon": -76.58083833333333,
+      "speed": 0,
+      "course": 324.7,
+      "heading": 203,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:45.222199+00:00"
+    },
+    {
+      "mmsi": 367455140,
+      "name": "D.GRAY KIMEL",
+      "lat": 38.10008833333333,
+      "lon": -76.49954,
+      "speed": 8.4,
+      "course": 127,
+      "heading": 123,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:45.546314+00:00"
+    },
+    {
+      "mmsi": 367083060,
+      "name": "CABARET2",
+      "lat": 38.96698166666667,
+      "lon": -76.47816666666667,
+      "speed": 0,
+      "course": 0,
+      "heading": 0,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:46.224650+00:00"
+    },
+    {
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.26873333333333,
+      "lon": -76.58093666666667,
+      "speed": 0,
+      "course": 14.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:47.031950+00:00"
+    },
+    {
+      "mmsi": 367309430,
+      "name": "ARCTIC DAWN",
+      "lat": 38.99028833333333,
+      "lon": -76.38333666666668,
+      "speed": 6.4,
+      "course": 199.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:48.254688+00:00"
+    },
+    {
+      "mmsi": 339067000,
+      "name": "OCEANUS V",
+      "lat": 36.919488333333334,
+      "lon": -76.18284999999999,
+      "speed": 0.1,
+      "course": 212.2,
+      "heading": 270,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:48.455286+00:00"
+    },
+    {
+      "mmsi": 367474640,
+      "name": "CAPE ELIZABETH",
+      "lat": 39.209375,
+      "lon": -76.58325166666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:48.911577+00:00"
+    },
+    {
+      "mmsi": 636015685,
+      "name": "GSL CHRISTEL ELISABE",
+      "lat": 36.908116666666665,
+      "lon": -76.32839333333332,
+      "speed": 2.6,
+      "course": 156.8,
+      "heading": 343,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:49.893206+00:00"
+    },
+    {
+      "mmsi": 366782000,
+      "name": "CHESAPEAKE COAST",
+      "lat": 39.11502666666667,
+      "lon": -76.330905,
+      "speed": 11,
+      "course": 179.2,
+      "heading": 179,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:50.319127+00:00"
+    },
+    {
+      "mmsi": 367150210,
+      "name": "SEAWARD 15",
+      "lat": 39.22091666666667,
+      "lon": -76.55812333333333,
+      "speed": 17.5,
+      "course": 94.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:50.448352+00:00"
+    },
+    {
+      "mmsi": 367457580,
+      "name": "TRACY MORAN",
+      "lat": 36.95316666666667,
+      "lon": -76.3285,
+      "speed": 0.1,
+      "course": 46.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:51.504646+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.255871666666664,
+      "lon": -76.53488999999999,
+      "speed": 0,
+      "course": 31.5,
+      "heading": 294,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:51.993303+00:00"
+    },
+    {
+      "mmsi": 255915734,
+      "name": "AAL DUBAI",
+      "lat": 36.98258666666666,
+      "lon": -76.32348,
+      "speed": 13.8,
+      "course": 226.5,
+      "heading": 225,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:52.019451+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413166666667,
+      "lon": -76.46738166666667,
+      "speed": 0,
+      "course": 320,
+      "heading": 320,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:52.125734+00:00"
+    },
+    {
+      "mmsi": 367139510,
+      "name": "APRIL MORAN",
+      "lat": 39.260421666666666,
+      "lon": -76.556135,
+      "speed": 0,
+      "course": 266.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:52.173607+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.219165,
+      "lon": -76.55989666666666,
+      "speed": 0.1,
+      "course": 176.8,
+      "heading": 84,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:52.442808+00:00"
+    },
+    {
+      "mmsi": 367841000,
+      "name": "TSV 1 PREVAIL",
+      "lat": 36.915076666666664,
+      "lon": -76.18289,
+      "speed": 0,
+      "course": 302,
+      "heading": 273,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:53.741576+00:00"
+    },
+    {
+      "mmsi": 367376440,
+      "name": "LONG ISLAND",
+      "lat": 39.243383333333334,
+      "lon": -76.57071166666667,
+      "speed": 0,
+      "course": 262.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:54.893142+00:00"
+    },
+    {
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.98383166666667,
+      "lon": -76.467515,
+      "speed": 0,
+      "course": 241,
+      "heading": 353,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:55.614109+00:00"
+    },
+    {
+      "mmsi": 338060011,
+      "name": "CAPT. KENNETH",
+      "lat": 39.252761666666665,
+      "lon": -76.53717166666667,
+      "speed": 0.1,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:49:59.839273+00:00"
+    },
+    {
+      "mmsi": 367612310,
+      "name": "HOS BLACK FOOT",
+      "lat": 36.955573333333334,
+      "lon": -76.04091,
+      "speed": 8.6,
+      "course": 289,
+      "heading": 292,
+      "ship_type": null,
+      "timestamp": "2026-03-02T21:50:00.815162+00:00"
+    }
+  ]
 }
