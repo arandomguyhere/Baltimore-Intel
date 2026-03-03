@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-03T11:53:45.064984+00:00",
+  "collected_at": "2026-03-03T12:55:08.184840+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,73 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 6,
+  "vessels": [
+    {
+      "mmsi": 366913820,
+      "name": "AJ MCALLISTER",
+      "lat": 36.93071333333333,
+      "lon": -76.32972833333334,
+      "speed": 0,
+      "course": 273.1,
+      "heading": 71,
+      "ship_type": null,
+      "timestamp": "2026-03-03T12:55:05.264354+00:00"
+    },
+    {
+      "mmsi": 367834000,
+      "name": "GARY I GORDON",
+      "lat": 39.269081666666665,
+      "lon": -76.57095166666666,
+      "speed": 0,
+      "course": 0,
+      "heading": 266,
+      "ship_type": null,
+      "timestamp": "2026-03-03T12:55:05.599601+00:00"
+    },
+    {
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.984188333333336,
+      "lon": -76.46723333333333,
+      "speed": 0,
+      "course": 172.3,
+      "heading": 330,
+      "ship_type": null,
+      "timestamp": "2026-03-03T12:55:05.808807+00:00"
+    },
+    {
+      "mmsi": 338060011,
+      "name": "CAPT. KENNETH",
+      "lat": 39.251841666666664,
+      "lon": -76.53792833333334,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-03T12:55:06.585033+00:00"
+    },
+    {
+      "mmsi": 368371930,
+      "name": "OCEANUS VI",
+      "lat": 36.919525,
+      "lon": -76.18188666666667,
+      "speed": 0,
+      "course": 31,
+      "heading": 271,
+      "ship_type": null,
+      "timestamp": "2026-03-03T12:55:07.545034+00:00"
+    },
+    {
+      "mmsi": 369493697,
+      "name": "CG45697",
+      "lat": 39.20118,
+      "lon": -76.574745,
+      "speed": 0,
+      "course": 288.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-03T12:55:07.618741+00:00"
+    }
+  ]
 }
