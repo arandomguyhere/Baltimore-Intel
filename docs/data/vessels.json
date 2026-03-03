@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-03T15:46:27.310509+00:00",
+  "collected_at": "2026-03-03T16:44:33.569089+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 4,
+  "vessels": [
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.252245,
+      "lon": -76.54465166666667,
+      "speed": 0,
+      "course": 20,
+      "heading": 61,
+      "ship_type": null,
+      "timestamp": "2026-03-03T16:44:29.688813+00:00"
+    },
+    {
+      "mmsi": 369970318,
+      "name": "YP 691",
+      "lat": 38.982458333333334,
+      "lon": -76.46728166666666,
+      "speed": 0,
+      "course": 247.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-03T16:44:30.658703+00:00"
+    },
+    {
+      "mmsi": 338329000,
+      "name": "KINGS POINT",
+      "lat": 39.196955,
+      "lon": -76.49937833333334,
+      "speed": 8,
+      "course": 105.7,
+      "heading": 111,
+      "ship_type": null,
+      "timestamp": "2026-03-03T16:44:32.789335+00:00"
+    },
+    {
+      "mmsi": 368199810,
+      "name": "CAROLINE",
+      "lat": 36.964931666666665,
+      "lon": -76.41209833333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-03T16:44:33.077500+00:00"
+    }
+  ]
 }
