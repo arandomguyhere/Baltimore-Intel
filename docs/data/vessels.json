@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-03T19:57:07.219493+00:00",
+  "collected_at": "2026-03-03T20:35:40.701618+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,150 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 13,
+  "vessels": [
+    {
+      "mmsi": 368242090,
+      "name": "GALE",
+      "lat": 39.23551666666666,
+      "lon": -76.54966666666665,
+      "speed": 4.8,
+      "course": 140.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:34.085301+00:00"
+    },
+    {
+      "mmsi": 338055000,
+      "name": "ALYSSA CHOUEST",
+      "lat": 36.916555,
+      "lon": -76.18197,
+      "speed": 0,
+      "course": 284.6,
+      "heading": 93,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:35.111363+00:00"
+    },
+    {
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.98410166666667,
+      "lon": -76.46754666666668,
+      "speed": 0,
+      "course": 14,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:35.368318+00:00"
+    },
+    {
+      "mmsi": 367694530,
+      "name": "JUSTIN",
+      "lat": 36.932705000000006,
+      "lon": -76.33193833333333,
+      "speed": 0,
+      "course": 275.8,
+      "heading": 87,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:35.464029+00:00"
+    },
+    {
+      "mmsi": 371811000,
+      "name": "CRYSTAL ADMIRER",
+      "lat": 39.25707333333333,
+      "lon": -76.56498833333333,
+      "speed": 0,
+      "course": 236.3,
+      "heading": 357,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:36.140664+00:00"
+    },
+    {
+      "mmsi": 414053000,
+      "name": "CHANG HANG HONG HAI",
+      "lat": 39.06419,
+      "lon": -76.39286166666668,
+      "speed": 13,
+      "course": 344,
+      "heading": 344,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:36.176958+00:00"
+    },
+    {
+      "mmsi": 367093970,
+      "name": "CAPT STEVE",
+      "lat": 39.21408333333333,
+      "lon": -76.53061166666666,
+      "speed": 0,
+      "course": 272.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:36.733482+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.22262833333333,
+      "lon": -76.53442666666666,
+      "speed": 24.7,
+      "course": 155.1,
+      "heading": 148,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:37.277276+00:00"
+    },
+    {
+      "mmsi": 212763000,
+      "name": "THEOSKEPASTI S",
+      "lat": 38.92335666666667,
+      "lon": -76.42280833333332,
+      "speed": 0.4,
+      "course": 13.5,
+      "heading": 113,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:37.987124+00:00"
+    },
+    {
+      "mmsi": 247341900,
+      "name": "GRANDE DAKAR",
+      "lat": 39.24158,
+      "lon": -76.52501333333333,
+      "speed": 0,
+      "course": 43.8,
+      "heading": 249,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:38.277524+00:00"
+    },
+    {
+      "mmsi": 367686270,
+      "name": "STASINOS BOYS",
+      "lat": 39.256765,
+      "lon": -76.59623333333334,
+      "speed": 0,
+      "course": 105.4,
+      "heading": 128,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:38.786682+00:00"
+    },
+    {
+      "mmsi": 368278130,
+      "name": "KIMBERLY-JO",
+      "lat": 39.18024333333334,
+      "lon": -76.52279333333333,
+      "speed": 8,
+      "course": 76.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:39.156377+00:00"
+    },
+    {
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.26072333333333,
+      "lon": -76.556165,
+      "speed": 0,
+      "course": 78.5,
+      "heading": 2,
+      "ship_type": null,
+      "timestamp": "2026-03-03T20:35:39.325377+00:00"
+    }
+  ]
 }
