@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-03T08:03:27.320834+00:00",
+  "collected_at": "2026-03-03T09:00:05.252339+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,106 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 9,
+  "vessel_count": 11,
   "vessels": [
     {
-      "mmsi": 368199810,
-      "name": "CAROLINE",
-      "lat": 36.964888333333334,
-      "lon": -76.41213833333333,
+      "mmsi": 368269610,
+      "name": "HOS ROSEBUD",
+      "lat": 36.92024666666667,
+      "lon": -76.18254333333333,
       "speed": 0,
-      "course": 360,
-      "heading": 511,
+      "course": 272.5,
+      "heading": 272,
       "ship_type": null,
-      "timestamp": "2026-03-03T08:03:12.838406+00:00"
-    },
-    {
-      "mmsi": 368707000,
-      "name": "GEORGE WATSON",
-      "lat": 39.267826666666664,
-      "lon": -76.57031666666667,
-      "speed": 0,
-      "course": 0,
-      "heading": 268,
-      "ship_type": null,
-      "timestamp": "2026-03-03T08:03:19.875454+00:00"
-    },
-    {
-      "mmsi": 367686270,
-      "name": "STASINOS BOYS",
-      "lat": 39.250505,
-      "lon": -76.56548166666667,
-      "speed": 8.7,
-      "course": 132.2,
-      "heading": 131,
-      "ship_type": null,
-      "timestamp": "2026-03-03T08:03:19.908793+00:00"
-    },
-    {
-      "mmsi": 366902270,
-      "name": "CHARLES JAMES",
-      "lat": 39.251418333333326,
-      "lon": -76.56374166666666,
-      "speed": 5,
-      "course": 315,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-03T08:03:21.619304+00:00"
-    },
-    {
-      "mmsi": 477311200,
-      "name": "MAGSENGER 10",
-      "lat": 38.95599166666667,
-      "lon": -76.40706166666668,
-      "speed": 0.2,
-      "course": 36.2,
-      "heading": 126,
-      "ship_type": null,
-      "timestamp": "2026-03-03T08:03:22.943580+00:00"
+      "timestamp": "2026-03-03T08:59:51.304546+00:00"
     },
     {
       "mmsi": 369970480,
       "name": "YP706",
-      "lat": 38.984114999999996,
-      "lon": -76.46738166666667,
+      "lat": 38.98413333333333,
+      "lon": -76.46738333333333,
       "speed": 0,
-      "course": 181,
-      "heading": 181,
+      "course": 181.4,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-03T08:03:23.390711+00:00"
+      "timestamp": "2026-03-03T08:59:51.450944+00:00"
     },
     {
-      "mmsi": 367585850,
-      "name": "HOS RED ROCK",
-      "lat": 36.92052666666667,
-      "lon": -76.18188833333333,
-      "speed": 0,
-      "course": 276.8,
-      "heading": 92,
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.20856333333334,
+      "lon": -76.50562666666666,
+      "speed": 0.1,
+      "course": 20.9,
+      "heading": 119,
       "ship_type": null,
-      "timestamp": "2026-03-03T08:03:25.570857+00:00"
+      "timestamp": "2026-03-03T08:59:51.985940+00:00"
     },
     {
-      "mmsi": 366913820,
-      "name": "AJ MCALLISTER",
-      "lat": 36.930755,
-      "lon": -76.32972333333333,
+      "mmsi": 367139510,
+      "name": "APRIL MORAN",
+      "lat": 39.26041333333333,
+      "lon": -76.55613833333334,
       "speed": 0,
-      "course": 236.7,
-      "heading": 76,
+      "course": 127.6,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-03T08:03:26.656068+00:00"
+      "timestamp": "2026-03-03T08:59:52.152400+00:00"
     },
     {
-      "mmsi": 369053000,
-      "name": "LIBERTY ISLAND",
-      "lat": 37.00004833333333,
-      "lon": -76.02302,
-      "speed": 0.9,
-      "course": 317.9,
-      "heading": 321,
+      "mmsi": 538011106,
+      "name": "STAR TEMBU",
+      "lat": 38.916338333333336,
+      "lon": -76.41246500000001,
+      "speed": 0,
+      "course": 57.5,
+      "heading": 169,
       "ship_type": null,
-      "timestamp": "2026-03-03T08:03:26.781031+00:00"
+      "timestamp": "2026-03-03T08:59:54.812075+00:00"
+    },
+    {
+      "mmsi": 367093970,
+      "name": "CAPT STEVE",
+      "lat": 39.208951666666664,
+      "lon": -76.58287166666668,
+      "speed": 0,
+      "course": 322.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-03T08:59:56.931864+00:00"
+    },
+    {
+      "mmsi": 368031660,
+      "name": "JOKER",
+      "lat": 39.20905833333334,
+      "lon": -76.58203499999999,
+      "speed": 0,
+      "course": 242.6,
+      "heading": 346,
+      "ship_type": null,
+      "timestamp": "2026-03-03T08:59:58.087865+00:00"
+    },
+    {
+      "mmsi": 367091050,
+      "name": "MCALLISTER RESPONDER",
+      "lat": 39.214328333333334,
+      "lon": -76.57332166666667,
+      "speed": 0,
+      "course": 19.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-03T08:59:58.462280+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.21915666666666,
+      "lon": -76.55987666666667,
+      "speed": 0,
+      "course": 214,
+      "heading": 82,
+      "ship_type": null,
+      "timestamp": "2026-03-03T09:00:01.779555+00:00"
+    },
+    {
+      "mmsi": 249431000,
+      "name": "CORATO",
+      "lat": 38.96788166666667,
+      "lon": -76.403295,
+      "speed": 0.1,
+      "course": 116.9,
+      "heading": 191,
+      "ship_type": null,
+      "timestamp": "2026-03-03T09:00:04.065128+00:00"
+    },
+    {
+      "mmsi": 636024120,
+      "name": "MEDI VENEZIA",
+      "lat": 39.267608333333335,
+      "lon": -76.58199833333333,
+      "speed": 0,
+      "course": 18.9,
+      "heading": 26,
+      "ship_type": null,
+      "timestamp": "2026-03-03T09:00:04.876995+00:00"
     }
   ]
 }
