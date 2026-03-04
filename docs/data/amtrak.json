@@ -1,61 +1,39 @@
 {
-  "collected_at": "2026-03-04T04:08:24.627355+00:00",
+  "collected_at": "2026-03-04T05:13:46.121376+00:00",
   "source": "amtraker.com",
-  "total_trains": 6,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.39282636163744,
-      "lon": -76.34353085656801,
+      "lat": 39.948948340735804,
+      "lon": -75.18612848687319,
       "heading": "NE",
-      "velocity": 88.6432189941406,
-      "lastUpdate": "2026-03-03T23:05:52-05:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 39.94406552711676,
-      "lon": -75.20415675128399,
-      "heading": "NE",
-      "velocity": 38.08837890625,
-      "lastUpdate": "2026-03-03T23:05:55-05:00",
+      "velocity": 8.9231538772583,
+      "lastUpdate": "2026-03-04T00:11:41-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "165",
       "routeName": "Northeast Regional",
-      "lat": 39.56132921367606,
-      "lon": -76.06231129562185,
-      "heading": "W",
-      "velocity": 40.9069213867188,
-      "lastUpdate": "2026-03-03T23:05:54-05:00",
-      "nextStation": "Baltimore Penn",
+      "lat": 38.93942277757013,
+      "lon": -76.88318858954548,
+      "heading": "SW",
+      "velocity": 58.7420425415039,
+      "lastUpdate": "2026-03-04T00:11:42-05:00",
+      "nextStation": "Washington Union",
       "status": "Active"
-    },
-    {
-      "trainNum": "622",
-      "routeName": "Keystone",
-      "lat": 39.961567362342144,
-      "lon": -75.18332849875401,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-03-03T23:03:22-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
     },
     {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 39.953068186407414,
-      "lon": -75.95644580856654,
-      "heading": "W",
-      "velocity": 109.889503479004,
-      "lastUpdate": "2026-03-03T23:05:55-05:00",
-      "nextStation": "Lancaster",
+      "lat": 40.23851819049595,
+      "lon": -76.85610431328244,
+      "heading": "NW",
+      "velocity": 81.4990234375,
+      "lastUpdate": "2026-03-03T23:55:51-05:00",
+      "nextStation": "Harrisburg",
       "status": "Active"
     },
     {
@@ -65,7 +43,7 @@
       "lon": -75.18293939940388,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-03-03T23:05:55-05:00",
+      "lastUpdate": "2026-03-04T00:10:35-05:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
