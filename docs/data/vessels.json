@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-04T07:52:50.571603+00:00",
+  "collected_at": "2026-03-04T08:37:47.588735+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,128 +12,84 @@
       -75.8
     ]
   ],
-  "vessel_count": 11,
+  "vessel_count": 7,
   "vessels": [
     {
-      "mmsi": 369970478,
-      "name": "YP704",
-      "lat": 38.984235,
-      "lon": -76.4672,
-      "speed": 0,
-      "course": 13.2,
-      "heading": 324,
-      "ship_type": null,
-      "timestamp": "2026-03-04T07:52:44.950540+00:00"
-    },
-    {
-      "mmsi": 367185680,
-      "name": "EAST COAST",
-      "lat": 36.95243833333333,
-      "lon": -76.35291333333333,
-      "speed": 0,
-      "course": 279.9,
-      "heading": 229,
-      "ship_type": null,
-      "timestamp": "2026-03-04T07:52:45.083783+00:00"
-    },
-    {
-      "mmsi": 368006020,
-      "name": "ROSEMARY MCALLISTER",
-      "lat": 36.93071166666667,
-      "lon": -76.33335833333334,
-      "speed": 0,
-      "course": 42.4,
-      "heading": 268,
-      "ship_type": null,
-      "timestamp": "2026-03-04T07:52:45.373500+00:00"
-    },
-    {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.26893333333333,
-      "lon": -76.58081666666666,
-      "speed": 0,
-      "course": 218.3,
-      "heading": 202,
-      "ship_type": null,
-      "timestamp": "2026-03-04T07:52:45.842058+00:00"
-    },
-    {
-      "mmsi": 367766220,
-      "name": "DALE PYATT",
-      "lat": 39.196218333333334,
-      "lon": -76.48082666666666,
-      "speed": 0,
-      "course": 223.8,
+      "mmsi": 368731000,
+      "name": "CG FRANK DREW",
+      "lat": 36.88323333333334,
+      "lon": -76.35176666666666,
+      "speed": 0.1,
+      "course": 282.3,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-04T07:52:47.317095+00:00"
+      "timestamp": "2026-03-04T08:37:41.049471+00:00"
     },
     {
-      "mmsi": 368409350,
-      "name": "OLD DOMINION",
-      "lat": 36.96659666666667,
-      "lon": -76.41402333333333,
-      "speed": 0.1,
-      "course": 339.7,
-      "heading": 147,
-      "ship_type": null,
-      "timestamp": "2026-03-04T07:52:47.519945+00:00"
-    },
-    {
-      "mmsi": 367169710,
-      "name": "CAPT TED",
-      "lat": 38.697718333333334,
-      "lon": -76.45461166666668,
-      "speed": 6.7,
-      "course": 172.8,
-      "heading": 172,
-      "ship_type": null,
-      "timestamp": "2026-03-04T07:52:48.526229+00:00"
-    },
-    {
-      "mmsi": 367686270,
-      "name": "STASINOS BOYS",
-      "lat": 39.25468,
-      "lon": -76.58718833333334,
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.983848333333334,
+      "lon": -76.4675,
       "speed": 0,
-      "course": 274.6,
-      "heading": 261,
+      "course": 241,
+      "heading": 353,
       "ship_type": null,
-      "timestamp": "2026-03-04T07:52:48.807488+00:00"
+      "timestamp": "2026-03-04T08:37:42.716171+00:00"
     },
     {
-      "mmsi": 368342060,
-      "name": "DEFIANT_ONE",
-      "lat": 39.12115333333334,
-      "lon": -76.44724833333333,
+      "mmsi": 366991414,
+      "name": "USNS POINT LOMA",
+      "lat": 36.91576666666666,
+      "lon": -76.1823,
+      "speed": 0,
+      "course": 332.7,
+      "heading": 92,
+      "ship_type": null,
+      "timestamp": "2026-03-04T08:37:43.622363+00:00"
+    },
+    {
+      "mmsi": 366920910,
+      "name": "THOMAS DANN",
+      "lat": 39.19635166666667,
+      "lon": -76.48127333333333,
+      "speed": 0,
+      "course": 111.8,
+      "heading": 60,
+      "ship_type": null,
+      "timestamp": "2026-03-04T08:37:44.833180+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.25589333333333,
+      "lon": -76.53488166666666,
+      "speed": 0,
+      "course": 71.1,
+      "heading": 297,
+      "ship_type": null,
+      "timestamp": "2026-03-04T08:37:45.231487+00:00"
+    },
+    {
+      "mmsi": 367083060,
+      "name": "CABARET2",
+      "lat": 38.967009999999995,
+      "lon": -76.47819333333334,
       "speed": 0,
       "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-04T07:52:49.147210+00:00"
+      "timestamp": "2026-03-04T08:37:46.916346+00:00"
     },
     {
-      "mmsi": 368312320,
-      "name": "JANE MCALLISTER",
-      "lat": 36.931448333333336,
-      "lon": -76.333615,
-      "speed": 0,
-      "course": 263.2,
-      "heading": 21,
+      "mmsi": 367069420,
+      "name": "S MARTIN THORPE",
+      "lat": 38.87006333333333,
+      "lon": -76.41670166666667,
+      "speed": 8.2,
+      "course": 17.6,
+      "heading": 17,
       "ship_type": null,
-      "timestamp": "2026-03-04T07:52:50.054995+00:00"
-    },
-    {
-      "mmsi": 369970318,
-      "name": "YP 691",
-      "lat": 38.98247,
-      "lon": -76.46728166666666,
-      "speed": 0,
-      "course": 275,
-      "heading": 275,
-      "ship_type": null,
-      "timestamp": "2026-03-04T07:52:50.345174+00:00"
+      "timestamp": "2026-03-04T08:37:47.135839+00:00"
     }
   ]
 }
