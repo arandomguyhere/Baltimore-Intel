@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-04T01:55:55.516567+00:00",
+  "collected_at": "2026-03-04T04:08:58.082403+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 9,
   "vessels": [
-    {
-      "mmsi": 367161960,
-      "name": "TIMOTHY M",
-      "lat": 39.198033333333335,
-      "lon": -76.48163333333333,
-      "speed": 0,
-      "course": 109.9,
-      "heading": 321,
-      "ship_type": null,
-      "timestamp": "2026-03-04T01:55:51.283791+00:00"
-    },
-    {
-      "mmsi": 367862000,
-      "name": "NAVAL AUXILIARY 188",
-      "lat": 36.88690166666667,
-      "lon": -76.33862500000001,
-      "speed": 0,
-      "course": 265.9,
-      "heading": 10,
-      "ship_type": null,
-      "timestamp": "2026-03-04T01:55:51.406429+00:00"
-    },
     {
       "mmsi": 367498820,
       "name": "PAUL HENRY",
-      "lat": 39.196848333333335,
-      "lon": -76.49761666666667,
-      "speed": 4.1,
-      "course": 110.1,
+      "lat": 39.17168,
+      "lon": -76.31325333333332,
+      "speed": 3.5,
+      "course": 54.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-04T01:55:51.541259+00:00"
+      "timestamp": "2026-03-04T04:08:51.391225+00:00"
     },
     {
-      "mmsi": 366878280,
-      "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.965915,
-      "lon": -76.47872666666667,
-      "speed": 0.1,
-      "course": 178.3,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-04T01:55:52.299335+00:00"
-    },
-    {
-      "mmsi": 367029690,
-      "name": "IVORY COAST",
-      "lat": 39.264536666666665,
-      "lon": -76.5714,
-      "speed": 0,
-      "course": 252.2,
-      "heading": 85,
-      "ship_type": null,
-      "timestamp": "2026-03-04T01:55:53.688789+00:00"
-    },
-    {
-      "mmsi": 368199810,
-      "name": "CAROLINE",
-      "lat": 36.96494333333333,
-      "lon": -76.41208166666667,
+      "mmsi": 366980000,
+      "name": "WARSHIP 67",
+      "lat": 36.94410833333333,
+      "lon": -76.330195,
       "speed": 0,
       "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-04T01:55:53.766163+00:00"
+      "timestamp": "2026-03-04T04:08:51.782303+00:00"
+    },
+    {
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.96595,
+      "lon": -76.47872833333332,
+      "speed": 0.2,
+      "course": 183.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-04T04:08:52.362084+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413166666667,
+      "lon": -76.46738166666667,
+      "speed": 0,
+      "course": 181,
+      "heading": 181,
+      "ship_type": null,
+      "timestamp": "2026-03-04T04:08:52.624889+00:00"
+    },
+    {
+      "mmsi": 368235760,
+      "name": "JAN MORAN",
+      "lat": 36.99279,
+      "lon": -76.30539166666668,
+      "speed": 9.5,
+      "course": 238.5,
+      "heading": 237,
+      "ship_type": null,
+      "timestamp": "2026-03-04T04:08:54.417137+00:00"
+    },
+    {
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.98401,
+      "lon": -76.46764499999999,
+      "speed": 0,
+      "course": 185,
+      "heading": 185,
+      "ship_type": null,
+      "timestamp": "2026-03-04T04:08:55.802800+00:00"
+    },
+    {
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.984188333333336,
+      "lon": -76.46724166666667,
+      "speed": 0.1,
+      "course": 159.1,
+      "heading": 326,
+      "ship_type": null,
+      "timestamp": "2026-03-04T04:08:55.805570+00:00"
     },
     {
       "mmsi": 368441690,
       "name": "FEDERAL HILL",
       "lat": 39.25589333333333,
-      "lon": -76.534885,
+      "lon": -76.53487333333334,
       "speed": 0,
-      "course": 156.6,
+      "course": 249.8,
       "heading": 292,
       "ship_type": null,
-      "timestamp": "2026-03-04T01:55:54.631342+00:00"
+      "timestamp": "2026-03-04T04:08:55.937289+00:00"
+    },
+    {
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.268775,
+      "lon": -76.58099333333332,
+      "speed": 0,
+      "course": 329.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-04T04:08:56.438500+00:00"
     }
   ]
 }
