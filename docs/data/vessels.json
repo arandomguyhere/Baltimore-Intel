@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-04T21:33:30.662295+00:00",
+  "collected_at": "2026-03-04T22:02:35.859487+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,216 +12,40 @@
       -75.8
     ]
   ],
-  "vessel_count": 19,
+  "vessel_count": 3,
   "vessels": [
     {
-      "mmsi": 368396250,
-      "name": "ISABEL MCALLISTER",
-      "lat": 39.26920833333334,
-      "lon": -76.580665,
+      "mmsi": 368242090,
+      "name": "GALE",
+      "lat": 39.21861333333333,
+      "lon": -76.57945666666666,
       "speed": 0,
-      "course": 287.2,
-      "heading": 205,
+      "course": 261.3,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-04T21:33:13.374007+00:00"
+      "timestamp": "2026-03-04T22:02:34.977758+00:00"
+    },
+    {
+      "mmsi": 366948330,
+      "name": "NIGHT HAWK",
+      "lat": 36.9837,
+      "lon": -76.32591666666667,
+      "speed": 9.6,
+      "course": 54.7,
+      "heading": 54,
+      "ship_type": null,
+      "timestamp": "2026-03-04T22:02:35.477439+00:00"
     },
     {
       "mmsi": 369970478,
       "name": "YP704",
-      "lat": 38.9842,
-      "lon": -76.46722,
+      "lat": 38.98422166666667,
+      "lon": -76.46720499999999,
       "speed": 0,
-      "course": 340.5,
-      "heading": 322,
+      "course": 308,
+      "heading": 326,
       "ship_type": null,
-      "timestamp": "2026-03-04T21:33:15.042163+00:00"
-    },
-    {
-      "mmsi": 369970482,
-      "name": "YP708",
-      "lat": 38.98403666666666,
-      "lon": -76.467575,
-      "speed": 0,
-      "course": 344,
-      "heading": 344,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:25.524929+00:00"
-    },
-    {
-      "mmsi": 366902270,
-      "name": "CHARLES JAMES",
-      "lat": 39.20922666666667,
-      "lon": -76.58098166666667,
-      "speed": 3,
-      "course": 235.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:16.057621+00:00"
-    },
-    {
-      "mmsi": 369454545,
-      "name": "US WARSHIP",
-      "lat": 36.94039333333333,
-      "lon": -76.33023166666666,
-      "speed": 0.1,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:16.379102+00:00"
-    },
-    {
-      "mmsi": 367093970,
-      "name": "CAPT STEVE",
-      "lat": 39.20894333333333,
-      "lon": -76.582865,
-      "speed": 0,
-      "course": 256,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:16.909993+00:00"
-    },
-    {
-      "mmsi": 368277530,
-      "name": "MISS MADELINE",
-      "lat": 39.207231666666665,
-      "lon": -76.507215,
-      "speed": 0.2,
-      "course": 151.6,
-      "heading": 155,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:17.637399+00:00"
-    },
-    {
-      "mmsi": 367159090,
-      "name": "WILLIAM E POOLE",
-      "lat": 37.01715,
-      "lon": -76.34989833333334,
-      "speed": 0.7,
-      "course": 90.2,
-      "heading": 110,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:18.879063+00:00"
-    },
-    {
-      "mmsi": 367686270,
-      "name": "STASINOS BOYS",
-      "lat": 39.25451833333333,
-      "lon": -76.588285,
-      "speed": 0,
-      "course": 190.6,
-      "heading": 86,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:18.883256+00:00"
-    },
-    {
-      "mmsi": 431929000,
-      "name": "ONE MINATO",
-      "lat": 36.91017333333333,
-      "lon": -76.327275,
-      "speed": 0,
-      "course": 356.3,
-      "heading": 353,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:20.019029+00:00"
-    },
-    {
-      "mmsi": 368707000,
-      "name": "GEORGE WATSON",
-      "lat": 39.267788333333336,
-      "lon": -76.57034833333334,
-      "speed": 0,
-      "course": 0,
-      "heading": 268,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:20.034867+00:00"
-    },
-    {
-      "mmsi": 369970481,
-      "name": "YP707",
-      "lat": 38.98383166666667,
-      "lon": -76.46753166666667,
-      "speed": 0,
-      "course": 195,
-      "heading": 353,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:21.265658+00:00"
-    },
-    {
-      "mmsi": 477311200,
-      "name": "MAGSENGER 10",
-      "lat": 38.95605333333333,
-      "lon": -76.40695000000001,
-      "speed": 0.3,
-      "course": 36.8,
-      "heading": 124,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:23.052327+00:00"
-    },
-    {
-      "mmsi": 368105330,
-      "name": "BIG C TOO",
-      "lat": 39.20101,
-      "lon": -76.43483166666667,
-      "speed": 0.5,
-      "course": 183.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:23.102773+00:00"
-    },
-    {
-      "mmsi": 367686010,
-      "name": "MARY EMMA",
-      "lat": 39.0501,
-      "lon": -76.34640166666667,
-      "speed": 9.5,
-      "course": 26,
-      "heading": 27,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:24.304484+00:00"
-    },
-    {
-      "mmsi": 367083060,
-      "name": "CABARET2",
-      "lat": 38.966966666666664,
-      "lon": -76.47815666666666,
-      "speed": 0,
-      "course": 0,
-      "heading": 0,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:26.768157+00:00"
-    },
-    {
-      "mmsi": 414053000,
-      "name": "CHANG HANG HONG HAI",
-      "lat": 38.9459,
-      "lon": -76.40943,
-      "speed": 0.3,
-      "course": 33,
-      "heading": 270,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:27.612723+00:00"
-    },
-    {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.19842666666667,
-      "lon": -76.48234333333333,
-      "speed": 3.3,
-      "course": 176.4,
-      "heading": 183,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:28.599672+00:00"
-    },
-    {
-      "mmsi": 367832000,
-      "name": "CHARLES L GILLILAND",
-      "lat": 39.26879333333333,
-      "lon": -76.570795,
-      "speed": 0,
-      "course": 0,
-      "heading": 267,
-      "ship_type": null,
-      "timestamp": "2026-03-04T21:33:29.735019+00:00"
+      "timestamp": "2026-03-04T22:02:35.619373+00:00"
     }
   ]
 }
