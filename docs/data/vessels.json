@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-04T10:03:51.423171+00:00",
+  "collected_at": "2026-03-04T10:57:09.525852+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 11,
+  "vessels": [
+    {
+      "mmsi": 538011106,
+      "name": "STAR TEMBU",
+      "lat": 38.916695,
+      "lon": -76.41123833333333,
+      "speed": 0,
+      "course": 319.8,
+      "heading": 194,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:04.929155+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.25589333333333,
+      "lon": -76.534875,
+      "speed": 0,
+      "course": 229.5,
+      "heading": 292,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:05.119765+00:00"
+    },
+    {
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.96591,
+      "lon": -76.47872000000001,
+      "speed": 0,
+      "course": 182,
+      "heading": 182,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:05.233434+00:00"
+    },
+    {
+      "mmsi": 366902260,
+      "name": "CHRISTINE MCALLISTER",
+      "lat": 38.613166666666665,
+      "lon": -76.45322666666667,
+      "speed": 8.5,
+      "course": 353.2,
+      "heading": 353,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:05.680871+00:00"
+    },
+    {
+      "mmsi": 367474640,
+      "name": "CAPE ELIZABETH",
+      "lat": 39.20940666666667,
+      "lon": -76.583245,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:06.081115+00:00"
+    },
+    {
+      "mmsi": 258002000,
+      "name": "BELMAR",
+      "lat": 38.730511666666665,
+      "lon": -76.4337,
+      "speed": 13.9,
+      "course": 181.2,
+      "heading": 181,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:06.122617+00:00"
+    },
+    {
+      "mmsi": 367083060,
+      "name": "CABARET2",
+      "lat": 38.96701666666667,
+      "lon": -76.47813500000001,
+      "speed": 0,
+      "course": 0,
+      "heading": 0,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:06.425122+00:00"
+    },
+    {
+      "mmsi": 368222360,
+      "name": "SEAWARD 20",
+      "lat": 36.96248833333333,
+      "lon": -76.295185,
+      "speed": 3,
+      "course": 296.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:07.580041+00:00"
+    },
+    {
+      "mmsi": 369970039,
+      "name": "YP703",
+      "lat": 38.98238,
+      "lon": -76.465975,
+      "speed": 0,
+      "course": 170.8,
+      "heading": 205,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:07.597649+00:00"
+    },
+    {
+      "mmsi": 366966210,
+      "name": "MCALLISTER SISTERS",
+      "lat": 39.15960166666667,
+      "lon": -76.30829833333334,
+      "speed": 6.7,
+      "course": 41.5,
+      "heading": 43,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:07.949858+00:00"
+    },
+    {
+      "mmsi": 367483860,
+      "name": "NORTHSTAR VOYAGER",
+      "lat": 36.996970000000005,
+      "lon": -76.325315,
+      "speed": 0,
+      "course": 277.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-04T10:57:09.110709+00:00"
+    }
+  ]
 }
