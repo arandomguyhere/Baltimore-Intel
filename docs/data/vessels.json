@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-05T21:01:24.023059+00:00",
+  "collected_at": "2026-03-05T21:50:31.936480+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,73 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 6,
+  "vessels": [
+    {
+      "mmsi": 303994000,
+      "name": "CAPE WRATH",
+      "lat": 39.261988333333335,
+      "lon": -76.60129,
+      "speed": 0,
+      "course": 0,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-05T21:50:25.680587+00:00"
+    },
+    {
+      "mmsi": 366920910,
+      "name": "THOMAS DANN",
+      "lat": 38.522335,
+      "lon": -76.437545,
+      "speed": 9.1,
+      "course": 342.8,
+      "heading": 346,
+      "ship_type": null,
+      "timestamp": "2026-03-05T21:50:25.814907+00:00"
+    },
+    {
+      "mmsi": 563186600,
+      "name": "PL GERMANY",
+      "lat": 36.912866666666666,
+      "lon": -76.32770000000001,
+      "speed": 0,
+      "course": 16,
+      "heading": 352,
+      "ship_type": null,
+      "timestamp": "2026-03-05T21:50:27.512099+00:00"
+    },
+    {
+      "mmsi": 355400000,
+      "name": "SAN FRANCISCO BRIDGE",
+      "lat": 37.00436666666667,
+      "lon": -76.22703333333334,
+      "speed": 12,
+      "course": 288,
+      "heading": 289,
+      "ship_type": null,
+      "timestamp": "2026-03-05T21:50:27.587881+00:00"
+    },
+    {
+      "mmsi": 368312320,
+      "name": "",
+      "lat": 36.86131,
+      "lon": -76.318615,
+      "speed": 10.3,
+      "course": 315.6,
+      "heading": 311,
+      "ship_type": null,
+      "timestamp": "2026-03-05T21:50:29.911482+00:00"
+    },
+    {
+      "mmsi": 338060011,
+      "name": "CAPT. KENNETH",
+      "lat": 39.252285,
+      "lon": -76.53829333333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-05T21:50:31.513335+00:00"
+    }
+  ]
 }
