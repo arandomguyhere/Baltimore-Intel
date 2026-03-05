@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-05T09:00:51.289994+00:00",
+  "collected_at": "2026-03-05T10:01:43.201536+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,29 +12,227 @@
       -75.8
     ]
   ],
-  "vessel_count": 2,
+  "vessel_count": 20,
   "vessels": [
     {
-      "mmsi": 367474640,
-      "name": "CAPE ELIZABETH",
-      "lat": 39.198523333333334,
-      "lon": -76.49669166666666,
-      "speed": 12.6,
-      "course": 284,
+      "mmsi": 366980000,
+      "name": "WARSHIP 67",
+      "lat": 36.944131666666664,
+      "lon": -76.33009666666666,
+      "speed": 0,
+      "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-05T09:00:49.843786+00:00"
+      "timestamp": "2026-03-05T10:01:32.341336+00:00"
     },
     {
-      "mmsi": 563284700,
-      "name": "SEATTLE HARMONY",
-      "lat": 39.27574833333333,
-      "lon": -76.59461,
+      "mmsi": 367139770,
+      "name": "KERRY MORAN",
+      "lat": 36.95336833333333,
+      "lon": -76.32879833333332,
       "speed": 0,
-      "course": 238,
-      "heading": 63,
+      "course": 264.8,
+      "heading": 101,
       "ship_type": null,
-      "timestamp": "2026-03-05T09:00:51.112671+00:00"
+      "timestamp": "2026-03-05T10:01:32.767855+00:00"
+    },
+    {
+      "mmsi": 353478000,
+      "name": "NAVIOS SOL",
+      "lat": 39.22181666666667,
+      "lon": -76.57636666666667,
+      "speed": 0,
+      "course": 258,
+      "heading": 276,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:32.882278+00:00"
+    },
+    {
+      "mmsi": 255915734,
+      "name": "AAL DUBAI",
+      "lat": 36.857234999999996,
+      "lon": -76.32749666666668,
+      "speed": 0,
+      "course": 184.9,
+      "heading": 260,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:33.064396+00:00"
+    },
+    {
+      "mmsi": 366902270,
+      "name": "CHARLES JAMES",
+      "lat": 39.19826666666667,
+      "lon": -76.48249166666666,
+      "speed": 2.1,
+      "course": 356.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:33.269113+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.269239999999996,
+      "lon": -76.58065166666667,
+      "speed": 0,
+      "course": 213.6,
+      "heading": 205,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:34.269075+00:00"
+    },
+    {
+      "mmsi": 368006020,
+      "name": "ROSEMARY MCALLISTER",
+      "lat": 36.87379166666666,
+      "lon": -76.34896,
+      "speed": 0,
+      "course": 192.5,
+      "heading": 297,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:34.664230+00:00"
+    },
+    {
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.96592,
+      "lon": -76.478725,
+      "speed": 0,
+      "course": 187,
+      "heading": 187,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:34.774996+00:00"
+    },
+    {
+      "mmsi": 311321000,
+      "name": "VISION OF THE SEAS",
+      "lat": 39.15918333333333,
+      "lon": -76.41921,
+      "speed": 13.8,
+      "course": 329.3,
+      "heading": 330,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:35.604541+00:00"
+    },
+    {
+      "mmsi": 367686010,
+      "name": "MARY EMMA",
+      "lat": 39.16932666666666,
+      "lon": -76.29769333333334,
+      "speed": 8.4,
+      "course": 220.5,
+      "heading": 218,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:35.631298+00:00"
+    },
+    {
+      "mmsi": 367083060,
+      "name": "CABARET2",
+      "lat": 38.96701666666667,
+      "lon": -76.478145,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:35.741625+00:00"
+    },
+    {
+      "mmsi": 367694530,
+      "name": "JUSTIN",
+      "lat": 36.96331833333333,
+      "lon": -76.409115,
+      "speed": 0,
+      "course": 280.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:37.016403+00:00"
+    },
+    {
+      "mmsi": 368031660,
+      "name": "JOKER",
+      "lat": 39.20697,
+      "lon": -76.50755000000001,
+      "speed": 0,
+      "course": 74.3,
+      "heading": 121,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:37.097404+00:00"
+    },
+    {
+      "mmsi": 367472930,
+      "name": "ISLAND LOOKOUT",
+      "lat": 39.204523333333334,
+      "lon": -76.58213833333333,
+      "speed": 0,
+      "course": 317.1,
+      "heading": 253,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:37.429740+00:00"
+    },
+    {
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.96263,
+      "lon": -76.29585,
+      "speed": 0,
+      "course": 317.6,
+      "heading": 39,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:37.493253+00:00"
+    },
+    {
+      "mmsi": 368357570,
+      "name": "PAUL T. MORAN",
+      "lat": 36.93082833333334,
+      "lon": -76.33786,
+      "speed": 7.9,
+      "course": 183.4,
+      "heading": 184,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:39.397967+00:00"
+    },
+    {
+      "mmsi": 303615000,
+      "name": "PRIDE OF BALTIMORE 2",
+      "lat": 39.26966,
+      "lon": -76.56952500000001,
+      "speed": 0,
+      "course": 305.3,
+      "heading": 80,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:40.511996+00:00"
+    },
+    {
+      "mmsi": 366991414,
+      "name": "USNS POINT LOMA",
+      "lat": 36.91578333333334,
+      "lon": -76.1823,
+      "speed": 0,
+      "course": 170.7,
+      "heading": 92,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:42.133192+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.984116666666665,
+      "lon": -76.46738333333333,
+      "speed": 0,
+      "course": 195,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:42.710726+00:00"
+    },
+    {
+      "mmsi": 339067000,
+      "name": "OCEANUS V",
+      "lat": 36.91945666666666,
+      "lon": -76.18281833333334,
+      "speed": 0,
+      "course": 230.7,
+      "heading": 271,
+      "ship_type": null,
+      "timestamp": "2026-03-05T10:01:42.965672+00:00"
     }
   ]
 }
