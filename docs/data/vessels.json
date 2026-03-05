@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-05T07:30:09.681951+00:00",
+  "collected_at": "2026-03-05T08:02:34.710411+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,40 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 3,
+  "vessel_count": 4,
   "vessels": [
     {
-      "mmsi": 368164470,
-      "name": "EASTERN BRANCH",
-      "lat": 36.96284166666667,
-      "lon": -76.40872833333333,
+      "mmsi": 369970318,
+      "name": "YP 691",
+      "lat": 38.98246833333334,
+      "lon": -76.46727,
       "speed": 0,
-      "course": 272.3,
-      "heading": 212,
-      "ship_type": null,
-      "timestamp": "2026-03-05T07:30:08.610776+00:00"
-    },
-    {
-      "mmsi": 367093970,
-      "name": "CAPT STEVE",
-      "lat": 39.208951666666664,
-      "lon": -76.58285833333333,
-      "speed": 0,
-      "course": 113.6,
+      "course": 286.1,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-05T07:30:09.237467+00:00"
+      "timestamp": "2026-03-05T08:02:29.977367+00:00"
     },
     {
-      "mmsi": 255915742,
-      "name": "BOCHEM CASABLANCA",
-      "lat": 39.27453666666667,
-      "lon": -76.58852166666667,
+      "mmsi": 368185620,
+      "name": "FELLS POINT",
+      "lat": 39.255779999999994,
+      "lon": -76.53496833333334,
       "speed": 0,
-      "course": 194.4,
-      "heading": 204,
+      "course": 16.9,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-05T07:30:09.512383+00:00"
+      "timestamp": "2026-03-05T08:02:30.412093+00:00"
+    },
+    {
+      "mmsi": 368402460,
+      "name": "GAMEKEEPER",
+      "lat": 36.86724666666667,
+      "lon": -76.31606666666667,
+      "speed": 0,
+      "course": 98.1,
+      "heading": 311,
+      "ship_type": null,
+      "timestamp": "2026-03-05T08:02:31.648069+00:00"
+    },
+    {
+      "mmsi": 538007440,
+      "name": "GLOVIS SUNLIGHT",
+      "lat": 39.186321666666664,
+      "lon": -76.46151833333333,
+      "speed": 11.4,
+      "course": 290,
+      "heading": 291,
+      "ship_type": null,
+      "timestamp": "2026-03-05T08:02:33.255673+00:00"
     }
   ]
 }
