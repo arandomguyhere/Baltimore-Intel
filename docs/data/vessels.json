@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-06T19:03:38.016807+00:00",
+  "collected_at": "2026-03-06T19:48:16.424326+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,161 +12,40 @@
       -75.8
     ]
   ],
-  "vessel_count": 14,
+  "vessel_count": 3,
   "vessels": [
     {
-      "mmsi": 338329000,
-      "name": "KINGS POINT",
-      "lat": 39.243458333333336,
-      "lon": -76.57037,
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.98385,
+      "lon": -76.46753333333332,
       "speed": 0,
-      "course": 177.9,
-      "heading": 87,
+      "course": 338.8,
+      "heading": 351,
       "ship_type": null,
-      "timestamp": "2026-03-06T19:03:28.299949+00:00"
+      "timestamp": "2026-03-06T19:48:14.402306+00:00"
+    },
+    {
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.98408,
+      "lon": -76.46758166666667,
+      "speed": 0,
+      "course": 57,
+      "heading": 57,
+      "ship_type": null,
+      "timestamp": "2026-03-06T19:48:15.294452+00:00"
     },
     {
       "mmsi": 311001623,
       "name": "SAGA MORUS",
-      "lat": 39.059205,
-      "lon": -76.390275,
-      "speed": 13.1,
-      "course": 164,
-      "heading": 164,
+      "lat": 38.88728166666667,
+      "lon": -76.395155,
+      "speed": 14.8,
+      "course": 184.9,
+      "heading": 185,
       "ship_type": null,
-      "timestamp": "2026-03-06T19:03:30.302440+00:00"
-    },
-    {
-      "mmsi": 367150210,
-      "name": "SEAWARD 15",
-      "lat": 39.21868833333333,
-      "lon": -76.52595,
-      "speed": 0,
-      "course": 141.1,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:30.925275+00:00"
-    },
-    {
-      "mmsi": 538011158,
-      "name": "AL BATEEN",
-      "lat": 36.85816666666666,
-      "lon": -76.31856666666665,
-      "speed": 0,
-      "course": 155.4,
-      "heading": 95,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:31.230820+00:00"
-    },
-    {
-      "mmsi": 538008347,
-      "name": "ELECTRA.GR",
-      "lat": 38.95395499999999,
-      "lon": -76.41012,
-      "speed": 0.1,
-      "course": 174,
-      "heading": 26,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:31.878198+00:00"
-    },
-    {
-      "mmsi": 248711000,
-      "name": "APL OREGON",
-      "lat": 36.91253,
-      "lon": -76.32758,
-      "speed": 0,
-      "course": 168.3,
-      "heading": 352,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:33.448282+00:00"
-    },
-    {
-      "mmsi": 368105330,
-      "name": "BIG C TOO",
-      "lat": 39.19762333333333,
-      "lon": -76.52816166666666,
-      "speed": 0.1,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:33.475946+00:00"
-    },
-    {
-      "mmsi": 414053000,
-      "name": "CHANG HANG HONG HAI",
-      "lat": 38.943729999999995,
-      "lon": -76.41230999999999,
-      "speed": 0,
-      "course": 358.9,
-      "heading": 19,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:34.076355+00:00"
-    },
-    {
-      "mmsi": 367474640,
-      "name": "CAPE ELIZABETH",
-      "lat": 39.220641666666666,
-      "lon": -76.49615166666668,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:34.450796+00:00"
-    },
-    {
-      "mmsi": 368277530,
-      "name": "MISS MADELINE",
-      "lat": 39.214045000000006,
-      "lon": -76.52982333333333,
-      "speed": 0.3,
-      "course": 281.8,
-      "heading": 288,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:35.264993+00:00"
-    },
-    {
-      "mmsi": 367083060,
-      "name": "CABARET2",
-      "lat": 38.96699666666667,
-      "lon": -76.47813166666667,
-      "speed": 0,
-      "course": 0,
-      "heading": 0,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:35.778126+00:00"
-    },
-    {
-      "mmsi": 338060011,
-      "name": "CAPT. KENNETH",
-      "lat": 39.25152833333333,
-      "lon": -76.53867666666666,
-      "speed": 0.1,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:35.978578+00:00"
-    },
-    {
-      "mmsi": 338316398,
-      "name": "VMP 38 SAFE BOAT",
-      "lat": 36.96106833333333,
-      "lon": -76.39205833333334,
-      "speed": 29.8,
-      "course": 243.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:36.055966+00:00"
-    },
-    {
-      "mmsi": 366841550,
-      "name": "SURRIE MORAN",
-      "lat": 36.9533,
-      "lon": -76.32841499999999,
-      "speed": 0,
-      "course": 198.3,
-      "heading": 275,
-      "ship_type": null,
-      "timestamp": "2026-03-06T19:03:36.295632+00:00"
+      "timestamp": "2026-03-06T19:48:15.462771+00:00"
     }
   ]
 }
