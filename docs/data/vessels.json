@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-06T16:00:07.744389+00:00",
+  "collected_at": "2026-03-06T16:55:04.822196+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 11,
+  "vessels": [
+    {
+      "mmsi": 367186210,
+      "name": "CYCLONE",
+      "lat": 36.95923166666667,
+      "lon": -76.32893333333332,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:54:58.622097+00:00"
+    },
+    {
+      "mmsi": 367457590,
+      "name": "WENDY MORAN",
+      "lat": 36.95316666666667,
+      "lon": -76.329,
+      "speed": 0,
+      "course": 244.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:54:59.256201+00:00"
+    },
+    {
+      "mmsi": 366926050,
+      "name": "RV SPERRY STAR III",
+      "lat": 38.979123333333334,
+      "lon": -76.332725,
+      "speed": 0.1,
+      "course": 187.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:54:59.454305+00:00"
+    },
+    {
+      "mmsi": 311001549,
+      "name": "BTG MISTI",
+      "lat": 37.21252666666667,
+      "lon": -76.11081666666668,
+      "speed": 0.1,
+      "course": 282.1,
+      "heading": 115,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:55:00.146219+00:00"
+    },
+    {
+      "mmsi": 215797000,
+      "name": "ATLANTIC STAR",
+      "lat": 36.91585,
+      "lon": -76.33850000000001,
+      "speed": 1.4,
+      "course": 111.5,
+      "heading": 290,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:55:00.170203+00:00"
+    },
+    {
+      "mmsi": 338737000,
+      "name": "OCEAN WIND",
+      "lat": 36.987865000000006,
+      "lon": -76.31907500000001,
+      "speed": 5.7,
+      "course": 228.3,
+      "heading": 224,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:55:01.347084+00:00"
+    },
+    {
+      "mmsi": 311001623,
+      "name": "SAGA MORUS",
+      "lat": 39.25930666666667,
+      "lon": -76.56908333333334,
+      "speed": 0,
+      "course": 128.9,
+      "heading": 308,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:55:01.362071+00:00"
+    },
+    {
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.98383333333334,
+      "lon": -76.4675,
+      "speed": 0,
+      "course": 338.8,
+      "heading": 351,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:55:03.613179+00:00"
+    },
+    {
+      "mmsi": 368164470,
+      "name": "EASTERN BRANCH",
+      "lat": 36.97962833333334,
+      "lon": -76.44472666666667,
+      "speed": 7.6,
+      "course": 329.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:55:03.879563+00:00"
+    },
+    {
+      "mmsi": 367150210,
+      "name": "SEAWARD 15",
+      "lat": 39.222229999999996,
+      "lon": -76.520115,
+      "speed": 0,
+      "course": 199.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:55:04.010674+00:00"
+    },
+    {
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.14879333333333,
+      "lon": -76.41260000000001,
+      "speed": 1.3,
+      "course": 188.5,
+      "heading": 112,
+      "ship_type": null,
+      "timestamp": "2026-03-06T16:55:04.309759+00:00"
+    }
+  ]
 }
