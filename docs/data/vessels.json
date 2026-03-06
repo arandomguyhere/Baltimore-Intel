@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-05T23:41:22.433352+00:00",
+  "collected_at": "2026-03-06T00:59:20.973891+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 9,
+  "vessels": [
+    {
+      "mmsi": 367472930,
+      "name": "ISLAND LOOKOUT",
+      "lat": 39.204586666666664,
+      "lon": -76.581635,
+      "speed": 0,
+      "course": 227.5,
+      "heading": 258,
+      "ship_type": null,
+      "timestamp": "2026-03-06T00:59:13.015527+00:00"
+    },
+    {
+      "mmsi": 367832000,
+      "name": "CHARLES L GILLILAND",
+      "lat": 39.26878166666667,
+      "lon": -76.57078,
+      "speed": 0,
+      "course": 0,
+      "heading": 267,
+      "ship_type": null,
+      "timestamp": "2026-03-06T00:59:13.070138+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413166666667,
+      "lon": -76.46738166666667,
+      "speed": 0,
+      "course": 195,
+      "heading": 195,
+      "ship_type": null,
+      "timestamp": "2026-03-06T00:59:13.381855+00:00"
+    },
+    {
+      "mmsi": 367841000,
+      "name": "TSV 1 PREVAIL",
+      "lat": 36.91515833333334,
+      "lon": -76.18290833333334,
+      "speed": 0,
+      "course": 302,
+      "heading": 273,
+      "ship_type": null,
+      "timestamp": "2026-03-06T00:59:14.735702+00:00"
+    },
+    {
+      "mmsi": 367686010,
+      "name": "MARY EMMA",
+      "lat": 39.21353666666666,
+      "lon": -76.53934333333333,
+      "speed": 0,
+      "course": 333.1,
+      "heading": 231,
+      "ship_type": null,
+      "timestamp": "2026-03-06T00:59:15.150666+00:00"
+    },
+    {
+      "mmsi": 636024120,
+      "name": "MEDI VENEZIA",
+      "lat": 39.176264999999994,
+      "lon": -76.427825,
+      "speed": 10.8,
+      "course": 113,
+      "heading": 113,
+      "ship_type": null,
+      "timestamp": "2026-03-06T00:59:15.259784+00:00"
+    },
+    {
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.98402,
+      "lon": -76.467625,
+      "speed": 0,
+      "course": 153,
+      "heading": 153,
+      "ship_type": null,
+      "timestamp": "2026-03-06T00:59:16.703581+00:00"
+    },
+    {
+      "mmsi": 368155390,
+      "name": "INTRA REBEL",
+      "lat": 39.181574999999995,
+      "lon": -76.45330666666668,
+      "speed": 7.8,
+      "course": 311.8,
+      "heading": 310,
+      "ship_type": null,
+      "timestamp": "2026-03-06T00:59:20.449564+00:00"
+    },
+    {
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.96593,
+      "lon": -76.47873,
+      "speed": 0,
+      "course": 178,
+      "heading": 178,
+      "ship_type": null,
+      "timestamp": "2026-03-06T00:59:20.212156+00:00"
+    }
+  ]
 }
