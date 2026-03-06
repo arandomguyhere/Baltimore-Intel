@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-06T05:59:02.463511+00:00",
+  "collected_at": "2026-03-06T07:02:13.825398+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -103,13 +103,6 @@
       "query": "Baltimore harbor"
     },
     {
-      "title": "Harborplace Developer MCB Real Estate To Manage Inner Harbor Marina For Next 20 Years - citybiz",
-      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPSzd1XzNfQmFvOWJ2SzdmUnNxUVVCd0JQNUJLUFhDTmJlVHZyRFdGUktLY19QWm5HVERIWWpNM3MtQTlEU2laMHNRUUF3RExuTWxlbFN5eWtzX2dVbHY1MWQ3T2tMVE5xUHRSeF9jVU9NYVVJcktfa29qWks1YzA2ZmRRdDgyamdlUkZXRU10bENxQzl0ZEQtazJNY2NrVjYtcmhxRC13SFV1bVdHeVk2bHRMU25kVm8xczlvalpBak1ZQQ?oc=5",
-      "source": "citybiz",
-      "date": "Thu, 05 Mar 2026 09:21:18 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
       "title": "Greater Baltimore Committee Names Co-Chairs of Transportation Funding Task Force - Heavy Duty Trucking",
       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQSUZUd3JMR2VHVmw3YTAxZU43QzlmTjhIV0tVekNIS1gxcnJVTkR4U29Ha1kySFNFQlFRa01zLVRoWl9QT19tX1hzVndmUGR3OFUwQkNJS1Iwa2xaa3RZYWRqTGlQWmlBN2pDQWRSQzlPOFZUR3JReEV5WmNMR3EwQWM1MFNvOEs5MjJ0aHUwVlluWnhhWmlielYtRWNCaTM1Z04ydFFkM210LWdCUjR4enFjWHM?oc=5",
       "source": "Heavy Duty Trucking",
@@ -143,26 +136,34 @@
       "source": "Baltimore Sun",
       "date": "Wed, 17 Dec 2025 08:00:00 GMT",
       "query": "Maryland transportation infrastructure"
+    },
+    {
+      "title": "Howard Street Tunnel reopens to freight trains, but double-stacked cargo starts next year - thebanner.com",
+      "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQbGk3cmUwTHgxdTE3OVZCUTl5dEhZTGVQNTMyckpOZXU0bG9PVUNTeE1fc09JNWZORk1fWjhXbUFjV0c3eklNSk5pTjJEYTFEQl81M255REhMb2dLXzJraFJaS1hsUkFvakM2UExScXhya1Z1azZfY1huclpGaGpsajBiSHBQanRwc29fdWExajItRzAzWmwtLVViSUU3RVBwbmtHTndvb2dLRklndlE5dXo5NA?oc=5",
+      "source": "thebanner.com",
+      "date": "Fri, 26 Sep 2025 07:00:00 GMT",
+      "query": "Baltimore rail freight"
     }
   ],
   "entities": {
     "topics": [
-      "Baltimore harbor",
+      "Port of Baltimore",
       "Maryland transportation infrastructure",
-      "Baltimore shipping",
-      "Port of Baltimore"
+      "Baltimore harbor",
+      "Baltimore rail freight",
+      "Baltimore shipping"
     ],
     "sources": [
-      "CBS News",
-      "WMAR 2 News Baltimore",
-      "WYPR",
+      "Maryland Matters",
       "Baltimore Sun",
-      "Heavy Duty Trucking",
+      "NTSB (.gov)",
+      "Jacobs",
+      "thebanner.com",
+      "The Drive",
       "WUSA9",
-      "citybiz",
-      "WBAL-TV",
       "Baltimore Fishbowl",
-      "Jacobs"
+      "WBAL News Radio",
+      "WBAL-TV"
     ]
   }
 }
