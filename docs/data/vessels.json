@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-06T20:58:02.405415+00:00",
+  "collected_at": "2026-03-06T21:34:45.163279+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,161 +12,95 @@
       -75.8
     ]
   ],
-  "vessel_count": 14,
+  "vessel_count": 8,
   "vessels": [
     {
-      "mmsi": 366980000,
-      "name": "WARSHIP 67",
-      "lat": 36.94411,
-      "lon": -76.33014499999999,
+      "mmsi": 366837130,
+      "name": "SUSAN MORAN",
+      "lat": 36.94363166666667,
+      "lon": -76.33412,
+      "speed": 7.4,
+      "course": 172.5,
+      "heading": 170,
+      "ship_type": null,
+      "timestamp": "2026-03-06T21:34:41.846232+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413166666667,
+      "lon": -76.467365,
       "speed": 0,
-      "course": 360,
-      "heading": 511,
+      "course": 195,
+      "heading": 195,
       "ship_type": null,
-      "timestamp": "2026-03-06T20:57:51.707792+00:00"
+      "timestamp": "2026-03-06T21:34:42.408088+00:00"
     },
     {
-      "mmsi": 367686910,
-      "name": "STEPHEN DANN",
-      "lat": 36.98120166666667,
-      "lon": -76.34256333333333,
-      "speed": 1.1,
-      "course": 340.5,
-      "heading": 244,
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.229405,
+      "lon": -76.55224833333334,
+      "speed": 1,
+      "course": 195.7,
+      "heading": 177,
       "ship_type": null,
-      "timestamp": "2026-03-06T20:57:53.744228+00:00"
+      "timestamp": "2026-03-06T21:34:42.546811+00:00"
     },
     {
-      "mmsi": 368242090,
-      "name": "GALE",
-      "lat": 39.199349999999995,
-      "lon": -76.52761666666667,
-      "speed": 1.3,
-      "course": 147.1,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-06T20:57:54.214910+00:00"
-    },
-    {
-      "mmsi": 367185680,
-      "name": "EAST COAST",
-      "lat": 36.952035,
-      "lon": -76.35495333333333,
+      "mmsi": 368185620,
+      "name": "FELLS POINT",
+      "lat": 39.25575333333334,
+      "lon": -76.53494,
       "speed": 0,
-      "course": 336,
-      "heading": 151,
-      "ship_type": null,
-      "timestamp": "2026-03-06T20:57:54.298115+00:00"
-    },
-    {
-      "mmsi": 369970478,
-      "name": "YP704",
-      "lat": 38.98421666666666,
-      "lon": -76.467215,
-      "speed": 0,
-      "course": 3,
-      "heading": 326,
-      "ship_type": null,
-      "timestamp": "2026-03-06T20:57:54.680463+00:00"
-    },
-    {
-      "mmsi": 338410357,
-      "name": "WATERWAY PARKER 2320",
-      "lat": 36.951015,
-      "lon": -76.38576166666667,
-      "speed": 12.6,
-      "course": 125.2,
+      "course": 186.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-06T20:57:54.932998+00:00"
+      "timestamp": "2026-03-06T21:34:42.937219+00:00"
     },
     {
-      "mmsi": 338060011,
-      "name": "CAPT. KENNETH",
-      "lat": 39.251435,
-      "lon": -76.538505,
-      "speed": 0.4,
-      "course": 153.7,
-      "heading": 511,
+      "mmsi": 366991414,
+      "name": "USNS POINT LOMA",
+      "lat": 36.91576666666666,
+      "lon": -76.1823,
+      "speed": 0.1,
+      "course": 279.1,
+      "heading": 92,
       "ship_type": null,
-      "timestamp": "2026-03-06T20:57:55.508036+00:00"
+      "timestamp": "2026-03-06T21:34:43.512000+00:00"
     },
     {
       "mmsi": 367686010,
       "name": "MARY EMMA",
-      "lat": 39.21277833333333,
-      "lon": -76.54050666666667,
+      "lat": 39.21282,
+      "lon": -76.54051333333334,
       "speed": 0,
-      "course": 26.5,
-      "heading": 29,
+      "course": 182.1,
+      "heading": 28,
       "ship_type": null,
-      "timestamp": "2026-03-06T20:57:55.508103+00:00"
+      "timestamp": "2026-03-06T21:34:44.307083+00:00"
     },
     {
-      "mmsi": 366999646,
-      "name": "USCGC SLEDGE",
-      "lat": 39.200511666666664,
-      "lon": -76.57429666666667,
-      "speed": 0.1,
-      "course": 24.2,
-      "heading": 330,
-      "ship_type": null,
-      "timestamp": "2026-03-06T20:57:55.600831+00:00"
-    },
-    {
-      "mmsi": 367585850,
-      "name": "HOS RED ROCK",
-      "lat": 37.005755,
-      "lon": -76.26618333333333,
-      "speed": 11.8,
-      "course": 71.7,
-      "heading": 74,
-      "ship_type": null,
-      "timestamp": "2026-03-06T20:57:57.155378+00:00"
-    },
-    {
-      "mmsi": 367093970,
-      "name": "CAPT STEVE",
-      "lat": 39.208951666666664,
-      "lon": -76.58287666666666,
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.25588666666667,
+      "lon": -76.53488166666666,
       "speed": 0,
-      "course": 323.2,
-      "heading": 511,
+      "course": 105.4,
+      "heading": 294,
       "ship_type": null,
-      "timestamp": "2026-03-06T20:57:57.806831+00:00"
+      "timestamp": "2026-03-06T21:34:44.775475+00:00"
     },
     {
-      "mmsi": 368031660,
-      "name": "JOKER",
-      "lat": 39.20788833333334,
-      "lon": -76.50952166666666,
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.268951666666666,
+      "lon": -76.580845,
       "speed": 0,
-      "course": 331.2,
-      "heading": 59,
+      "course": 308,
+      "heading": 204,
       "ship_type": null,
-      "timestamp": "2026-03-06T20:57:57.976536+00:00"
-    },
-    {
-      "mmsi": 366926050,
-      "name": "RV SPERRY STAR III",
-      "lat": 38.97914,
-      "lon": -76.33270999999999,
-      "speed": 0,
-      "course": 162.2,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-06T20:57:58.426794+00:00"
-    },
-    {
-      "mmsi": 368358680,
-      "name": "ATLAS",
-      "lat": 36.95908333333333,
-      "lon": -76.41625166666667,
-      "speed": 7.7,
-      "course": 311,
-      "heading": 313,
-      "ship_type": null,
-      "timestamp": "2026-03-06T20:58:01.593280+00:00"
+      "timestamp": "2026-03-06T21:34:44.978765+00:00"
     }
   ]
 }
