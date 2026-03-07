@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-06T23:58:47.501135+00:00",
+  "collected_at": "2026-03-07T02:32:03.859277+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,95 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 8,
+  "vessels": [
+    {
+      "mmsi": 367093970,
+      "name": "CAPT STEVE",
+      "lat": 39.20894833333333,
+      "lon": -76.58286833333334,
+      "speed": 0,
+      "course": 283.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-07T02:31:57.108482+00:00"
+    },
+    {
+      "mmsi": 368702000,
+      "name": "WARSHIP",
+      "lat": 36.95940666666667,
+      "lon": -76.32907166666668,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-07T02:31:59.139984+00:00"
+    },
+    {
+      "mmsi": 368357570,
+      "name": "PAUL T. MORAN",
+      "lat": 36.91498166666667,
+      "lon": -76.33007333333333,
+      "speed": 0,
+      "course": 120.2,
+      "heading": 82,
+      "ship_type": null,
+      "timestamp": "2026-03-07T02:31:59.219721+00:00"
+    },
+    {
+      "mmsi": 477311200,
+      "name": "MAGSENGER 10",
+      "lat": 38.949484999999996,
+      "lon": -76.38940666666667,
+      "speed": 4.9,
+      "course": 195,
+      "heading": 197,
+      "ship_type": null,
+      "timestamp": "2026-03-07T02:31:59.280534+00:00"
+    },
+    {
+      "mmsi": 538011775,
+      "name": "SHANDONG XIN SHENG",
+      "lat": 38.89611333333333,
+      "lon": -76.42570833333333,
+      "speed": 0.1,
+      "course": 7.9,
+      "heading": 101,
+      "ship_type": null,
+      "timestamp": "2026-03-07T02:31:59.488358+00:00"
+    },
+    {
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.26249,
+      "lon": -76.59380333333334,
+      "speed": 0,
+      "course": 337.3,
+      "heading": 304,
+      "ship_type": null,
+      "timestamp": "2026-03-07T02:32:00.652121+00:00"
+    },
+    {
+      "mmsi": 367073820,
+      "name": "WILLIAM F FALLON JR",
+      "lat": 39.212790000000005,
+      "lon": -76.579425,
+      "speed": 0,
+      "course": 356.7,
+      "heading": 241,
+      "ship_type": null,
+      "timestamp": "2026-03-07T02:32:01.503753+00:00"
+    },
+    {
+      "mmsi": 355623000,
+      "name": "EVER FAITH",
+      "lat": 37.988798333333335,
+      "lon": -76.19518833333333,
+      "speed": 17.8,
+      "course": 328.7,
+      "heading": 330,
+      "ship_type": null,
+      "timestamp": "2026-03-07T02:32:01.700356+00:00"
+    }
+  ]
 }
