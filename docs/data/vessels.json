@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-07T09:56:49.894401+00:00",
+  "collected_at": "2026-03-07T10:26:12.364751+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 12,
+  "vessels": [
+    {
+      "mmsi": 538011775,
+      "name": "SHANDONG XIN SHENG",
+      "lat": 38.894125,
+      "lon": -76.42308166666666,
+      "speed": 0,
+      "course": 161.8,
+      "heading": 8,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:02.629005+00:00"
+    },
+    {
+      "mmsi": 368199810,
+      "name": "CAROLINE",
+      "lat": 36.96494333333333,
+      "lon": -76.41209666666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:02.733488+00:00"
+    },
+    {
+      "mmsi": 367073820,
+      "name": "WILLIAM F FALLON JR",
+      "lat": 39.21234666666667,
+      "lon": -76.5804,
+      "speed": 0,
+      "course": 293.2,
+      "heading": 254,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:03.140714+00:00"
+    },
+    {
+      "mmsi": 232061513,
+      "name": "STORM DIVER",
+      "lat": 36.92453,
+      "lon": -76.19101666666667,
+      "speed": 0,
+      "course": 261.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:04.048618+00:00"
+    },
+    {
+      "mmsi": 367376440,
+      "name": "LONG ISLAND",
+      "lat": 39.24344833333334,
+      "lon": -76.57072166666667,
+      "speed": 0,
+      "course": 295.3,
+      "heading": 83,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:04.271671+00:00"
+    },
+    {
+      "mmsi": 368242090,
+      "name": "GALE",
+      "lat": 39.21860166666667,
+      "lon": -76.57945500000001,
+      "speed": 0,
+      "course": 292.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:04.475738+00:00"
+    },
+    {
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.98386666666667,
+      "lon": -76.46753333333332,
+      "speed": 0,
+      "course": 338.8,
+      "heading": 353,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:04.482864+00:00"
+    },
+    {
+      "mmsi": 368371930,
+      "name": "OCEANUS VI",
+      "lat": 36.919531666666664,
+      "lon": -76.181885,
+      "speed": 0,
+      "course": 226.4,
+      "heading": 271,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:05.038118+00:00"
+    },
+    {
+      "mmsi": 367472930,
+      "name": "ISLAND LOOKOUT",
+      "lat": 36.98003166666667,
+      "lon": -76.33838833333333,
+      "speed": 1,
+      "course": 243.2,
+      "heading": 239,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:06.792872+00:00"
+    },
+    {
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.963010000000004,
+      "lon": -76.29589,
+      "speed": 0,
+      "course": 297,
+      "heading": 221,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:07.569987+00:00"
+    },
+    {
+      "mmsi": 368312320,
+      "name": "JANE MCALLISTER",
+      "lat": 36.914991666666666,
+      "lon": -76.32967000000001,
+      "speed": 0.1,
+      "course": 115.5,
+      "heading": 286,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:09.763510+00:00"
+    },
+    {
+      "mmsi": 369970318,
+      "name": "YP 691",
+      "lat": 38.98247,
+      "lon": -76.46726666666667,
+      "speed": 0,
+      "course": 289,
+      "heading": 289,
+      "ship_type": null,
+      "timestamp": "2026-03-07T10:26:10.277443+00:00"
+    }
+  ]
 }
