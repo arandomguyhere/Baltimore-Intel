@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-07T22:48:37.164818+00:00",
+  "collected_at": "2026-03-07T23:21:15.792121+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,18 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 1,
+  "vessels": [
+    {
+      "mmsi": 366920910,
+      "name": "THOMAS DANN",
+      "lat": 38.70086833333333,
+      "lon": -76.46333833333333,
+      "speed": 9.8,
+      "course": 359.1,
+      "heading": 358,
+      "ship_type": null,
+      "timestamp": "2026-03-07T23:21:15.560939+00:00"
+    }
+  ]
 }
