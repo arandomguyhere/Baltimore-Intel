@@ -1,84 +1,29 @@
 {
-  "collected_at": "2026-03-07T04:13:30.790539+00:00",
+  "collected_at": "2026-03-07T05:09:13.962799+00:00",
   "source": "amtraker.com",
-  "total_trains": 7,
+  "total_trains": 2,
   "trains": [
-    {
-      "trainNum": "50",
-      "routeName": "Cardinal",
-      "lat": 39.97933622565433,
-      "lon": -75.18927942972005,
-      "heading": "NE",
-      "velocity": 41.9202537536621,
-      "lastUpdate": "2026-03-06T23:11:48-05:00",
-      "nextStation": "Trenton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "57",
-      "routeName": "Vermonter",
-      "lat": 38.91025177730914,
-      "lon": -77.00086440643148,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-03-06T23:00:28-05:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.09436437445282,
-      "lon": -76.70317297883106,
-      "heading": "N",
-      "velocity": 70.1526718139648,
-      "lastUpdate": "2026-03-06T23:11:51-05:00",
-      "nextStation": "Baltimore Airport",
+      "lat": 39.604687075633734,
+      "lon": -75.94503983839782,
+      "heading": "NE",
+      "velocity": 97.025032043457,
+      "lastUpdate": "2026-03-07T00:05:42-05:00",
+      "nextStation": "Wilmington",
       "status": "Active"
-    },
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 39.945103124547366,
-      "lon": -75.19792353437374,
-      "heading": "E",
-      "velocity": 41.6719551086426,
-      "lastUpdate": "2026-03-06T23:11:47-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 39.07181569320361,
-      "lon": -76.72241431646253,
-      "heading": "SW",
-      "velocity": 118.155174255371,
-      "lastUpdate": "2026-03-06T23:11:52-05:00",
-      "nextStation": "New Carrollton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "622",
-      "routeName": "Keystone",
-      "lat": 39.9692272753025,
-      "lon": -75.19886958114125,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-03-06T22:57:27-05:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
     },
     {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 39.98639720017818,
-      "lon": -76.03230490358291,
-      "heading": "W",
-      "velocity": 42.1538009643555,
-      "lastUpdate": "2026-03-06T23:10:55-05:00",
-      "nextStation": "Lancaster",
-      "status": "Active"
+      "lat": 40.26094861406669,
+      "lon": -76.87710041436345,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-07T00:03:23-05:00",
+      "nextStation": "Harrisburg",
+      "status": "Completed"
     }
   ]
 }
