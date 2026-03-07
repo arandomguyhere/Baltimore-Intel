@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-07T19:53:15.263065+00:00",
+  "collected_at": "2026-03-07T20:24:09.317225+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 11,
+  "vessels": [
+    {
+      "mmsi": 368169560,
+      "name": "ATLANTIC ENDEAVOR",
+      "lat": 36.967765,
+      "lon": -76.12610500000001,
+      "speed": 21.1,
+      "course": 240.8,
+      "heading": 239,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:23:59.527099+00:00"
+    },
+    {
+      "mmsi": 367766220,
+      "name": "DALE PYATT",
+      "lat": 39.19645833333333,
+      "lon": -76.481385,
+      "speed": 0.2,
+      "course": 240.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:23:59.581480+00:00"
+    },
+    {
+      "mmsi": 338060011,
+      "name": "CAPT. KENNETH",
+      "lat": 39.24591,
+      "lon": -76.53878666666667,
+      "speed": 0.3,
+      "course": 31.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:23:59.966820+00:00"
+    },
+    {
+      "mmsi": 367834000,
+      "name": "GARY I GORDON",
+      "lat": 39.269056666666664,
+      "lon": -76.57089666666667,
+      "speed": 0,
+      "course": 0,
+      "heading": 266,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:24:01.450120+00:00"
+    },
+    {
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.266981666666666,
+      "lon": -76.57952333333333,
+      "speed": 0,
+      "course": 271.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:24:01.751622+00:00"
+    },
+    {
+      "mmsi": 368324270,
+      "name": "GRAPE APE",
+      "lat": 39.222139999999996,
+      "lon": -76.57036166666667,
+      "speed": 5.5,
+      "course": 101.2,
+      "heading": 101,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:24:02.650816+00:00"
+    },
+    {
+      "mmsi": 367389480,
+      "name": "MAVERICK",
+      "lat": 36.965423333333334,
+      "lon": -76.41235499999999,
+      "speed": 0,
+      "course": 149.6,
+      "heading": 239,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:24:02.779569+00:00"
+    },
+    {
+      "mmsi": 368006020,
+      "name": "ROSEMARY MCALLISTER",
+      "lat": 36.942665000000005,
+      "lon": -76.33505833333334,
+      "speed": 5.9,
+      "course": 7.9,
+      "heading": 9,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:24:04.691728+00:00"
+    },
+    {
+      "mmsi": 212763000,
+      "name": "THEOSKEPASTI S",
+      "lat": 38.92044833333333,
+      "lon": -76.420665,
+      "speed": 0,
+      "course": 153.4,
+      "heading": 1,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:24:05.184035+00:00"
+    },
+    {
+      "mmsi": 367093970,
+      "name": "CAPT STEVE",
+      "lat": 39.208978333333334,
+      "lon": -76.58286333333334,
+      "speed": 0,
+      "course": 302,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:24:07.685919+00:00"
+    },
+    {
+      "mmsi": 368337530,
+      "name": "EZRA SOL",
+      "lat": 39.25474,
+      "lon": -76.58753666666667,
+      "speed": 0,
+      "course": 246.5,
+      "heading": 266,
+      "ship_type": null,
+      "timestamp": "2026-03-07T20:24:08.849532+00:00"
+    }
+  ]
 }
