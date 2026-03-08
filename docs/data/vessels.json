@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-08T16:54:11.245996+00:00",
+  "collected_at": "2026-03-08T17:22:11.509417+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,117 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 10,
+  "vessels": [
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.26325,
+      "lon": -76.59758333333333,
+      "speed": 0,
+      "course": 63.2,
+      "heading": 283,
+      "ship_type": null,
+      "timestamp": "2026-03-08T17:22:03.718537+00:00"
+    },
+    {
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.98422666666667,
+      "lon": -76.46723,
+      "speed": 0,
+      "course": 118.7,
+      "heading": 325,
+      "ship_type": null,
+      "timestamp": "2026-03-08T17:22:04.777430+00:00"
+    },
+    {
+      "mmsi": 367308110,
+      "name": "THE HUNTER",
+      "lat": 39.26837666666667,
+      "lon": -76.58112666666666,
+      "speed": 0,
+      "course": 232.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-08T17:22:05.537069+00:00"
+    },
+    {
+      "mmsi": 367083060,
+      "name": "CABARET2",
+      "lat": 38.96702666666667,
+      "lon": -76.478165,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-08T17:22:06.138214+00:00"
+    },
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.268948333333334,
+      "lon": -76.580855,
+      "speed": 0,
+      "course": 22.9,
+      "heading": 204,
+      "ship_type": null,
+      "timestamp": "2026-03-08T17:22:06.325401+00:00"
+    },
+    {
+      "mmsi": 367474640,
+      "name": "CAPE ELIZABETH",
+      "lat": 39.219865,
+      "lon": -76.4971,
+      "speed": 1.5,
+      "course": 78.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-08T17:22:06.998366+00:00"
+    },
+    {
+      "mmsi": 367619930,
+      "name": "STARSHIP 3",
+      "lat": 39.27696,
+      "lon": -76.58101833333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-08T17:22:07.921721+00:00"
+    },
+    {
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.26875,
+      "lon": -76.58095666666667,
+      "speed": 0,
+      "course": 227.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-08T17:22:08.009588+00:00"
+    },
+    {
+      "mmsi": 338060011,
+      "name": "CAPT. KENNETH",
+      "lat": 39.23645833333333,
+      "lon": -76.53795833333334,
+      "speed": 6.5,
+      "course": 167.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-08T17:22:08.347639+00:00"
+    },
+    {
+      "mmsi": 368169560,
+      "name": "ATLANTIC ENDEAVOR",
+      "lat": 36.92288,
+      "lon": -76.18809166666666,
+      "speed": 0,
+      "course": 350.7,
+      "heading": 107,
+      "ship_type": null,
+      "timestamp": "2026-03-08T17:22:09.481119+00:00"
+    }
+  ]
 }
