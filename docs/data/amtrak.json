@@ -1,17 +1,17 @@
 {
-  "collected_at": "2026-03-08T09:44:10.437255+00:00",
+  "collected_at": "2026-03-08T09:59:34.097730+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.306396738945125,
-      "lon": -76.59685734660583,
-      "heading": "W",
-      "velocity": 43.8395500183105,
-      "lastUpdate": "2026-03-08T05:41:13-04:00",
-      "nextStation": "Baltimore Penn",
+      "lat": 39.192699660514236,
+      "lon": -76.69482642524852,
+      "heading": "S",
+      "velocity": 0.017895519733429,
+      "lastUpdate": "2026-03-08T05:56:43-04:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
     },
     {
@@ -28,24 +28,35 @@
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.30763388350283,
-      "lon": -76.61539318848273,
-      "heading": "S",
-      "velocity": 0,
-      "lastUpdate": "2026-03-08T05:39:41-04:00",
+      "lat": 39.434223468376636,
+      "lon": -76.2498647527283,
+      "heading": "SW",
+      "velocity": 123.599884033203,
+      "lastUpdate": "2026-03-08T05:57:11-04:00",
       "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "160",
       "routeName": "Northeast Regional",
-      "lat": 39.192251857433675,
-      "lon": -76.69457720614315,
+      "lat": 39.23890328291518,
+      "lon": -76.69116431694626,
+      "heading": "N",
+      "velocity": 101.910514831543,
+      "lastUpdate": "2026-03-08T05:57:10-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "162",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-03-08T05:39:39-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
+      "lastUpdate": "2026-03-08T06:05:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
