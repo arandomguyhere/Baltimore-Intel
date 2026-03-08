@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-08T11:57:08.683728+00:00",
+  "collected_at": "2026-03-08T12:54:27.867521+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,29 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 2,
+  "vessels": [
+    {
+      "mmsi": 366948330,
+      "name": "NIGHT HAWK",
+      "lat": 39.187400000000004,
+      "lon": -76.2838,
+      "speed": 9.4,
+      "course": 43.2,
+      "heading": 45,
+      "ship_type": null,
+      "timestamp": "2026-03-08T12:54:26.293577+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.25208666666666,
+      "lon": -76.56476166666667,
+      "speed": 1.5,
+      "course": 335.8,
+      "heading": 73,
+      "ship_type": null,
+      "timestamp": "2026-03-08T12:54:26.874334+00:00"
+    }
+  ]
 }
