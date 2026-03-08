@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-08T23:22:38.522879+00:00",
+  "collected_at": "2026-03-08T23:46:51.818549+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,18 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 1,
+  "vessels": [
+    {
+      "mmsi": 367862000,
+      "name": "NAVAL AUXILIARY 188",
+      "lat": 36.886921666666666,
+      "lon": -76.338605,
+      "speed": 0,
+      "course": 265.9,
+      "heading": 10,
+      "ship_type": null,
+      "timestamp": "2026-03-08T23:46:51.435362+00:00"
+    }
+  ]
 }
