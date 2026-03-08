@@ -1,9 +1,16 @@
 {
-  "collected_at": "2026-03-08T15:30:32.380778+00:00",
+  "collected_at": "2026-03-08T15:55:39.365139+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
   "stories": [
+    {
+      "title": "Jonathan Daniels, Executive Director, Maryland Port Administration \u2014 Port of Baltimore - Journal of Commerce",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWXFKTVN3RVE3X3dXampmN1ZVdG1TX0J3cjVYelhpWDdiMGNxWGFPRUlwSTNxUnF0LVU5YThwV1Zad0VHNWRKb1RPT1BUdkpyWUQ5d2JpNENPVzVITW1JbXdVUm5IYUdDZHFvX3RsWVVvN1dITnBWdlZYQ1AyVGp6cjBMMkRwTmliUlFzekJpOFdnNXZzemIzYVFwWTRudGRhOGNJN2Vpc2NxQnBNb1VnZWstQ28?oc=5",
+      "source": "Journal of Commerce",
+      "date": "Fri, 06 Mar 2026 15:28:00 GMT",
+      "query": "Port of Baltimore"
+    },
     {
       "title": "Port of Baltimore Handles Record Amount of Cargo - Heavy Duty Trucking",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVUJlRk8zeVh3OTNRdktWcXJsRURBY0FlNjA0dHJNSExua2NEWkxjY210M1QyYkoyYXV6V2JRa2NXZUFfblhDdDZFNXhqTFVrVDMyNG5IcUJ4cFJ1amNEeVRVRnJtOC1rSXZ4SG4zeWowb3k1dUh0eGVIbW5haWFVNmJ3UGxKcDBpcmc?oc=5",
@@ -30,13 +37,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQlRLTkp4blBiVm51bmJQZTJ0eWttb2ZLcWVzVFVNNWxBamRzRVZ1N2FKQ0RzSk8xdHRjeEF4MGJRTmIwSmpzbG1kMkN1MkFWTi1PdFhYOGNFOFNMOTRsMmFLWlFXbVJ0bnd2NlZ6UkU5ZHZjenh5dGw0RV9FV01JN2RoTTB6R2dDbWcxeGhMQWZBUnIyZVJrcVFNUzE4Sldi?oc=5",
       "source": "CBS News",
       "date": "Wed, 04 Mar 2026 17:14:00 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "UPDATE | BGE temporarily pauses Port Covington transmission line project in South Baltimore - WBAL-TV",
-      "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQcjZucnJqM3Z5Rm00NzlxWjhKcFEtSmRrM0RIV0lYS3RTcDYtQk9mazdkenc3TGk2V284cXJlYldBTnJkOTZXYTRHaFNuTDdJYkpOQWtSQnNUUE1PTHNKdGktc0otaXFtQV91OXlvd25zLWl5OHdhbFk2WTBnR056MGpwNkR2cFV4b2RBOVVnMnlMWWo2MFpGUGo2SQ?oc=5",
-      "source": "WBAL-TV",
-      "date": "Wed, 04 Mar 2026 17:10:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore harbor",
+      "Baltimore shipping",
       "Maryland transportation infrastructure",
-      "Port of Baltimore",
-      "Baltimore shipping"
+      "Baltimore harbor",
+      "Port of Baltimore"
     ],
     "sources": [
-      "CBS News",
-      "Heavy Duty Trucking",
+      "thebanner.com",
+      "Baltimore Fishbowl",
+      "carnival-news.com",
+      "Jacobs",
+      "The BayNet",
+      "islands.com",
       "NTSB (.gov)",
-      "nottinghammd.com",
-      "WYPR",
       "WMAR 2 News Baltimore",
-      "WBAL-TV",
-      "NBC10 Philadelphia",
-      "Maryland Matters",
-      "Baltimore Sun"
+      "Heavy Duty Trucking",
+      "The Drive"
     ]
   }
 }
