@@ -1,9 +1,16 @@
 {
-  "collected_at": "2026-03-08T22:21:48.659888+00:00",
+  "collected_at": "2026-03-08T22:48:40.753855+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
   "stories": [
+    {
+      "title": "Key Bridge Replacement Battles Soaring Costs to Restore Port of Baltimore Traffic - ConstructConnect",
+      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPWG9maWh2aEp4aXpNMmdQOVZ0RWs1eGJ3UEdaWGxYTUVfMHVoYUVSR2U2TTJpQ01NUVN1bGtfemZsV29SclExeU5RSEoxcFRTQkhINEFsUGgtUm9XQnV4MmNXc01BdDE1VFd5T1E5ZGJ4YlRrTmt4dFliSmt6YzlDVDVBQ1dOTE1uR0dEVWJpMktfaUZhaEhYVjJRZ0tiSllqVTBWYTFUTTFhU1hWNHFBV3Q5VFJWZ9IBxgFBVV95cUxQZm1OcHlOYXJrOHFTXzM4cVU3Q0VoLXZMZUlqWVlDbDRxUzdBejdURXVwcTlWLXE5bzR2QUpzUWlxSnpTWFVuUk00QkJEVW1kSVE2aEJaQTVaV3ZjTXJWb1JlX1JZNWhOMUN2Q1dXVUlHcXRnOHUyNGFHdHNQdGg4RDc5SF9obDdIOU9jaXp4ZTRHcXVETjlFZkQ3MXp0c1lXRnU5RUJ4aVBrYW9yN0twdjhSZ2xpUmN2TUxDZG5MSXN3NXlMYXc?oc=5",
+      "source": "ConstructConnect",
+      "date": "Tue, 03 Mar 2026 13:28:35 GMT",
+      "query": "Port of Baltimore"
+    },
     {
       "title": "BGE temporarily halts work on Port Covington transmission lines, amid pressure from State Senate President - WMAR 2 News Baltimore",
       "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOa0JzVVZBa1pPelplU3JfWmVtdDU1NlVpaWthdGF1dmVDa05fZUVRd3RuWXlFQmgwWjg4djdMdXExT3d1dEhPSmlZbFZuZklIUXhybmxrd2ZmYmxpdlBFVmVrTGVPbWhFeWpaX0xsUXFBSGx6UEdKeUpwb25JenF3SEJPaGVPaWRMYXBXR0JwRS0tcW1YYVZSaUhNbWt0aFpQY0NVSG11VzBRcm8tMjh2M1A0MGVkMGdfSEZ2dWd1Sk9OSWlIeXJMdVQ3UmNHbEktTkhQQnNZaU9KcmtNS1I5T0pOb1JaYmVjVlNUc01NSQ?oc=5",
@@ -30,13 +37,6 @@
       "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQQlRLTkp4blBiVm51bmJQZTJ0eWttb2ZLcWVzVFVNNWxBamRzRVZ1N2FKQ0RzSk8xdHRjeEF4MGJRTmIwSmpzbG1kMkN1MkFWTi1PdFhYOGNFOFNMOTRsMmFLWlFXbVJ0bnd2NlZ6UkU5ZHZjenh5dGw0RV9FV01JN2RoTTB6R2dDbWcxeGhMQWZBUnIyZVJrcVFNUzE4Sldi?oc=5",
       "source": "CBS News",
       "date": "Wed, 04 Mar 2026 17:14:00 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "Key Bridge Reopening Spurs Record Vessel Visits At Port Of Baltimore - The BayNet",
-      "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOR082UmNmaVRDOFBsYVJYVGVWSEgxYjl1bmZwYTRkUThOQmtTS2w3U1RybFlnQmtfZkREV3NaSzJ6cm41NW5rclItNHJpU0NxazRmUTZ4ejFxUlE2MVdIRFdDNnVEOXU5ZG5sNk5fZkZ1UHhNQ1VubEJpTmtQQ0Y3ZURXMEViMUZ1bVBZb2trdk5nX2NjN3c?oc=5",
-      "source": "The BayNet",
-      "date": "Thu, 29 Jan 2026 08:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore shipping",
       "Baltimore harbor",
       "Port of Baltimore",
-      "Maryland transportation infrastructure"
+      "Maryland transportation infrastructure",
+      "Baltimore shipping"
     ],
     "sources": [
-      "The BayNet",
-      "WYPR",
-      "NBC10 Philadelphia",
+      "thebanner.com",
+      "CBS News",
       "WMAR 2 News Baltimore",
       "Baltimore Sun",
-      "AFRO American Newspapers",
+      "ConstructConnect",
+      "WUSA9",
       "carnival-news.com",
-      "islands.com",
-      "CBS News",
-      "WUSA9"
+      "NBC10 Philadelphia",
+      "Maryland Matters",
+      "WYPR"
     ]
   }
 }
