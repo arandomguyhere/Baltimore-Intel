@@ -1,19 +1,8 @@
 {
-  "collected_at": "2026-03-09T07:38:31.630962+00:00",
+  "collected_at": "2026-03-09T08:26:08.437655+00:00",
   "source": "amtraker.com",
   "total_trains": 2,
   "trains": [
-    {
-      "trainNum": "66",
-      "routeName": "Northeast Regional",
-      "lat": 40.00504729201595,
-      "lon": -75.1265123824033,
-      "heading": "E",
-      "velocity": 69.2489547729492,
-      "lastUpdate": "2026-03-09T03:35:46-04:00",
-      "nextStation": "Newark Penn",
-      "status": "Active"
-    },
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
@@ -21,8 +10,19 @@
       "lon": -75.18184839591251,
       "heading": "S",
       "velocity": 0,
-      "lastUpdate": "2026-03-09T03:35:46-04:00",
+      "lastUpdate": "2026-03-09T04:20:48-04:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 37.99205775980753,
+      "lon": -77.36782308337969,
+      "heading": "N",
+      "velocity": 69.5263290405273,
+      "lastUpdate": "2026-03-09T04:23:48-04:00",
+      "nextStation": "Fredericksburg",
       "status": "Active"
     }
   ]

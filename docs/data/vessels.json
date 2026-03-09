@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-09T07:39:04.657828+00:00",
+  "collected_at": "2026-03-09T08:26:41.639575+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,51 +12,62 @@
       -75.8
     ]
   ],
-  "vessel_count": 4,
+  "vessel_count": 5,
   "vessels": [
     {
-      "mmsi": 368235760,
-      "name": "JAN MORAN",
-      "lat": 36.915913333333336,
-      "lon": -76.330515,
+      "mmsi": 367611520,
+      "name": "WASHINGTON",
+      "lat": 36.931940000000004,
+      "lon": -76.33364333333334,
       "speed": 0,
-      "course": 297.3,
-      "heading": 245,
+      "course": 281.9,
+      "heading": 355,
       "ship_type": null,
-      "timestamp": "2026-03-09T07:39:03.605146+00:00"
+      "timestamp": "2026-03-09T08:26:39.024325+00:00"
     },
     {
-      "mmsi": 303829003,
-      "name": "TSV-5 VINDICATOR",
-      "lat": 36.91614666666667,
-      "lon": -76.18202333333333,
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.260731666666665,
+      "lon": -76.55616,
       "speed": 0,
-      "course": 169.6,
-      "heading": 98,
+      "course": 198.1,
+      "heading": 2,
       "ship_type": null,
-      "timestamp": "2026-03-09T07:39:04.397758+00:00"
+      "timestamp": "2026-03-09T08:26:40.437751+00:00"
     },
     {
-      "mmsi": 368386690,
-      "name": "GEORGE JAMES MORAN",
-      "lat": 39.257823333333334,
-      "lon": -76.55593333333333,
+      "mmsi": 369970318,
+      "name": "YP 691",
+      "lat": 38.98246833333334,
+      "lon": -76.46731166666667,
       "speed": 0,
-      "course": 357.6,
-      "heading": 180,
+      "course": 93.8,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-09T07:39:04.427325+00:00"
+      "timestamp": "2026-03-09T08:26:40.663757+00:00"
     },
     {
-      "mmsi": 368312320,
-      "name": "JANE MCALLISTER",
-      "lat": 36.91578333333334,
-      "lon": -76.331545,
-      "speed": 0.1,
-      "course": 217.1,
-      "heading": 105,
+      "mmsi": 636022758,
+      "name": "WOLFSBURG",
+      "lat": 38.93111666666667,
+      "lon": -76.41209,
+      "speed": 0,
+      "course": 39.6,
+      "heading": 19,
       "ship_type": null,
-      "timestamp": "2026-03-09T07:39:04.453422+00:00"
+      "timestamp": "2026-03-09T08:26:40.746552+00:00"
+    },
+    {
+      "mmsi": 538007573,
+      "name": "SANDERLING ACE",
+      "lat": 39.05193333333333,
+      "lon": -76.3878,
+      "speed": 13.2,
+      "course": 163,
+      "heading": 164,
+      "ship_type": null,
+      "timestamp": "2026-03-09T08:26:41.179720+00:00"
     }
   ]
 }
