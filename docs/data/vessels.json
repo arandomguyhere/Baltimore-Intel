@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-09T08:26:41.639575+00:00",
+  "collected_at": "2026-03-09T09:08:34.484249+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,62 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 5,
+  "vessel_count": 11,
   "vessels": [
     {
-      "mmsi": 367611520,
-      "name": "WASHINGTON",
-      "lat": 36.931940000000004,
-      "lon": -76.33364333333334,
-      "speed": 0,
-      "course": 281.9,
-      "heading": 355,
+      "mmsi": 368278130,
+      "name": "KIMBERLY-JO",
+      "lat": 39.232973333333334,
+      "lon": -76.55169333333333,
+      "speed": 7.8,
+      "course": 33.8,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-09T08:26:39.024325+00:00"
+      "timestamp": "2026-03-09T09:08:28.574182+00:00"
+    },
+    {
+      "mmsi": 372160000,
+      "name": "NAVIOS ETOILE",
+      "lat": 38.86352333333333,
+      "lon": -76.40909666666667,
+      "speed": 0,
+      "course": 256.1,
+      "heading": 10,
+      "ship_type": null,
+      "timestamp": "2026-03-09T09:08:29.428085+00:00"
     },
     {
       "mmsi": 367483830,
       "name": "LYNNE MORAN",
-      "lat": 39.260731666666665,
-      "lon": -76.55616,
+      "lat": 39.26072833333333,
+      "lon": -76.55617000000001,
       "speed": 0,
-      "course": 198.1,
-      "heading": 2,
+      "course": 226.5,
+      "heading": 358,
       "ship_type": null,
-      "timestamp": "2026-03-09T08:26:40.437751+00:00"
+      "timestamp": "2026-03-09T09:08:29.614193+00:00"
+    },
+    {
+      "mmsi": 367465570,
+      "name": "CAPT MEL",
+      "lat": 37.65884666666667,
+      "lon": -76.44076333333334,
+      "speed": 0,
+      "course": 244.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-09T09:08:29.884293+00:00"
     },
     {
       "mmsi": 369970318,
       "name": "YP 691",
-      "lat": 38.98246833333334,
-      "lon": -76.46731166666667,
+      "lat": 38.982481666666665,
+      "lon": -76.46728499999999,
       "speed": 0,
       "course": 93.8,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-09T08:26:40.663757+00:00"
+      "timestamp": "2026-03-09T09:08:30.235398+00:00"
     },
     {
-      "mmsi": 636022758,
-      "name": "WOLFSBURG",
-      "lat": 38.93111666666667,
-      "lon": -76.41209,
+      "mmsi": 367389480,
+      "name": "MAVERICK",
+      "lat": 36.965424999999996,
+      "lon": -76.41235333333334,
       "speed": 0,
-      "course": 39.6,
-      "heading": 19,
+      "course": 233.6,
+      "heading": 242,
       "ship_type": null,
-      "timestamp": "2026-03-09T08:26:40.746552+00:00"
+      "timestamp": "2026-03-09T09:08:32.204160+00:00"
     },
     {
-      "mmsi": 538007573,
-      "name": "SANDERLING ACE",
-      "lat": 39.05193333333333,
-      "lon": -76.3878,
-      "speed": 13.2,
-      "course": 163,
-      "heading": 164,
+      "mmsi": 367214000,
+      "name": "TSV-4 NARRAGANSETT",
+      "lat": 36.915288333333336,
+      "lon": -76.18229166666667,
+      "speed": 0,
+      "course": 201.4,
+      "heading": 91,
       "ship_type": null,
-      "timestamp": "2026-03-09T08:26:41.179720+00:00"
+      "timestamp": "2026-03-09T09:08:32.342142+00:00"
+    },
+    {
+      "mmsi": 368199810,
+      "name": "CAROLINE",
+      "lat": 36.96492166666667,
+      "lon": -76.41208333333334,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-09T09:08:32.581577+00:00"
+    },
+    {
+      "mmsi": 353499000,
+      "name": "MSC DAMLA",
+      "lat": 36.874633333333335,
+      "lon": -76.34903333333334,
+      "speed": 0,
+      "course": 258.9,
+      "heading": 347,
+      "ship_type": null,
+      "timestamp": "2026-03-09T09:08:33.448119+00:00"
+    },
+    {
+      "mmsi": 368193830,
+      "name": "ROCK HALL",
+      "lat": 38.93931,
+      "lon": -76.40043333333332,
+      "speed": 9.3,
+      "course": 192.2,
+      "heading": 190,
+      "ship_type": null,
+      "timestamp": "2026-03-09T09:08:33.754939+00:00"
+    },
+    {
+      "mmsi": 367304270,
+      "name": "VIRGINIA",
+      "lat": 36.85814166666667,
+      "lon": -76.35139166666666,
+      "speed": 0,
+      "course": 223.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-09T09:08:34.035392+00:00"
     }
   ]
 }
