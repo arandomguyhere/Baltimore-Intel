@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-09T06:41:38.169469+00:00",
+  "collected_at": "2026-03-09T07:39:04.657828+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 4,
+  "vessels": [
+    {
+      "mmsi": 368235760,
+      "name": "JAN MORAN",
+      "lat": 36.915913333333336,
+      "lon": -76.330515,
+      "speed": 0,
+      "course": 297.3,
+      "heading": 245,
+      "ship_type": null,
+      "timestamp": "2026-03-09T07:39:03.605146+00:00"
+    },
+    {
+      "mmsi": 303829003,
+      "name": "TSV-5 VINDICATOR",
+      "lat": 36.91614666666667,
+      "lon": -76.18202333333333,
+      "speed": 0,
+      "course": 169.6,
+      "heading": 98,
+      "ship_type": null,
+      "timestamp": "2026-03-09T07:39:04.397758+00:00"
+    },
+    {
+      "mmsi": 368386690,
+      "name": "GEORGE JAMES MORAN",
+      "lat": 39.257823333333334,
+      "lon": -76.55593333333333,
+      "speed": 0,
+      "course": 357.6,
+      "heading": 180,
+      "ship_type": null,
+      "timestamp": "2026-03-09T07:39:04.427325+00:00"
+    },
+    {
+      "mmsi": 368312320,
+      "name": "JANE MCALLISTER",
+      "lat": 36.91578333333334,
+      "lon": -76.331545,
+      "speed": 0.1,
+      "course": 217.1,
+      "heading": 105,
+      "ship_type": null,
+      "timestamp": "2026-03-09T07:39:04.453422+00:00"
+    }
+  ]
 }
