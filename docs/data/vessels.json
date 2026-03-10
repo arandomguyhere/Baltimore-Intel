@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-10T23:41:57.466407+00:00",
+  "collected_at": "2026-03-10T23:58:17.304890+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 9,
+  "vessels": [
+    {
+      "mmsi": 366962220,
+      "name": "BART L",
+      "lat": 36.989865,
+      "lon": -76.18782833333333,
+      "speed": 5.9,
+      "course": 105.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-10T23:58:10.002697+00:00"
+    },
+    {
+      "mmsi": 367766220,
+      "name": "DALE PYATT",
+      "lat": 39.19515833333333,
+      "lon": -76.48014833333333,
+      "speed": 0,
+      "course": 0,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-10T23:58:10.523730+00:00"
+    },
+    {
+      "mmsi": 367611520,
+      "name": "WASHINGTON",
+      "lat": 36.931945000000006,
+      "lon": -76.33361666666666,
+      "speed": 0,
+      "course": 41.9,
+      "heading": 354,
+      "ship_type": null,
+      "timestamp": "2026-03-10T23:58:10.532547+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.24336666666667,
+      "lon": -76.57028333333332,
+      "speed": 0.1,
+      "course": 240.7,
+      "heading": 76,
+      "ship_type": null,
+      "timestamp": "2026-03-10T23:58:11.358196+00:00"
+    },
+    {
+      "mmsi": 373279000,
+      "name": "BALSA 88",
+      "lat": 36.940765000000006,
+      "lon": -76.36194833333334,
+      "speed": 0,
+      "course": 274.1,
+      "heading": 250,
+      "ship_type": null,
+      "timestamp": "2026-03-10T23:58:11.880525+00:00"
+    },
+    {
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.25823333333334,
+      "lon": -76.55592333333334,
+      "speed": 0,
+      "course": 141.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-10T23:58:12.103762+00:00"
+    },
+    {
+      "mmsi": 367139510,
+      "name": "APRIL MORAN",
+      "lat": 39.25861666666666,
+      "lon": -76.56541999999999,
+      "speed": 0.1,
+      "course": 92.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-10T23:58:12.553813+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.26497833333334,
+      "lon": -76.57084833333333,
+      "speed": 0,
+      "course": 190.2,
+      "heading": 89,
+      "ship_type": null,
+      "timestamp": "2026-03-10T23:58:12.739243+00:00"
+    },
+    {
+      "mmsi": 368312320,
+      "name": "JANE MCALLISTER",
+      "lat": 36.93124666666667,
+      "lon": -76.33361,
+      "speed": 0.2,
+      "course": 3.3,
+      "heading": 24,
+      "ship_type": null,
+      "timestamp": "2026-03-10T23:58:14.204975+00:00"
+    }
+  ]
 }
