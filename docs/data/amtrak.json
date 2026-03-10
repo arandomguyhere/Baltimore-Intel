@@ -1,40 +1,84 @@
 {
-  "collected_at": "2026-03-10T08:39:34.490873+00:00",
+  "collected_at": "2026-03-10T09:27:26.064811+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 7,
   "trains": [
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.95562787721514,
-      "lon": -75.1818789129338,
-      "heading": "S",
-      "velocity": 0,
-      "lastUpdate": "2026-03-10T04:35:45-04:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lat": 39.60142551163466,
+      "lon": -75.87264449041447,
+      "heading": "W",
+      "velocity": 115.097274780273,
+      "lastUpdate": "2026-03-10T05:23:46-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.23486710292365,
+      "lon": -77.43958520489423,
+      "heading": "NE",
+      "velocity": 70.8841552734375,
+      "lastUpdate": "2026-03-10T05:23:46-04:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "150",
+      "routeName": "Northeast Regional",
+      "lat": 39.996799914306756,
+      "lon": -75.15632043634457,
+      "heading": "NE",
+      "velocity": 55.8787612915039,
+      "lastUpdate": "2026-03-10T05:23:47-04:00",
+      "nextStation": "Trenton",
       "status": "Active"
     },
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
+      "lat": 39.714954749378684,
+      "lon": -75.59548376600512,
+      "heading": "SW",
+      "velocity": 108.095649719238,
+      "lastUpdate": "2026-03-10T05:23:45-04:00",
+      "nextStation": "Newark",
+      "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-03-10T04:42:00-04:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lastUpdate": "2026-03-10T05:10:00-04:00",
+      "nextStation": "Washington Union",
       "status": "Predeparture"
+    },
+    {
+      "trainNum": "601",
+      "routeName": "Keystone",
+      "lat": 40.002857650160244,
+      "lon": -75.27674283785048,
+      "heading": "W",
+      "velocity": 65.9651260375977,
+      "lastUpdate": "2026-03-10T05:23:48-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
     },
     {
       "trainNum": "640",
       "routeName": "Keystone",
-      "lat": 40.261108062055214,
-      "lon": -76.8782023317206,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-03-10T04:45:00-04:00",
-      "nextStation": "Harrisburg",
-      "status": "Predeparture"
+      "lat": 40.10894817160203,
+      "lon": -76.50367957192849,
+      "heading": "SE",
+      "velocity": 0.267189502716064,
+      "lastUpdate": "2026-03-10T05:23:48-04:00",
+      "nextStation": "Mount Joy",
+      "status": "Active"
     }
   ]
 }
