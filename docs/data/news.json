@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-10T21:41:25.735107+00:00",
+  "collected_at": "2026-03-10T21:57:25.178205+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -9,6 +9,13 @@
       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQRXpNSEhYQVdnN1R0S185RTJ6V09YNEZ5cjlhNURCcnA0QUtFRXJwU1UtcTFoZE5PeEYwUmhqTzFwQ1F0TVNRM3ZyZ0V3RHlaamd5SjR6c2ppU0wxNUVOcVMzVWhDbkRyb3h1SEd0ZVlibXgyLXFxa1RFaER6Y01MV3JOYVNrVVVfZDM3bGNQNzJfOE52N2JoLWxseW41MmM?oc=5",
       "source": "Dredging Today",
       "date": "Tue, 10 Mar 2026 06:57:53 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
+      "title": "Jonathan Daniels, Executive Director, Maryland Port Administration \u2014 Port of Baltimore - Journal of Commerce",
+      "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPWXFKTVN3RVE3X3dXampmN1ZVdG1TX0J3cjVYelhpWDdiMGNxWGFPRUlwSTNxUnF0LVU5YThwV1Zad0VHNWRKb1RPT1BUdkpyWUQ5d2JpNENPVzVITW1JbXdVUm5IYUdDZHFvX3RsWVVvN1dITnBWdlZYQ1AyVGp6cjBMMkRwTmliUlFzekJpOFdnNXZzemIzYVFwWTRudGRhOGNJN2Vpc2NxQnBNb1VnZWstQ28?oc=5",
+      "source": "Journal of Commerce",
+      "date": "Fri, 06 Mar 2026 15:28:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -26,17 +33,10 @@
       "query": "Port of Baltimore"
     },
     {
-      "title": "BGE temporarily halts work on Port Covington transmission lines, amid pressure from State Senate President - WMAR 2 News Baltimore",
-      "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxOa0JzVVZBa1pPelplU3JfWmVtdDU1NlVpaWthdGF1dmVDa05fZUVRd3RuWXlFQmgwWjg4djdMdXExT3d1dEhPSmlZbFZuZklIUXhybmxrd2ZmYmxpdlBFVmVrTGVPbWhFeWpaX0xsUXFBSGx6UEdKeUpwb25JenF3SEJPaGVPaWRMYXBXR0JwRS0tcW1YYVZSaUhNbWt0aFpQY0NVSG11VzBRcm8tMjh2M1A0MGVkMGdfSEZ2dWd1Sk9OSWlIeXJMdVQ3UmNHbEktTkhQQnNZaU9KcmtNS1I5T0pOb1JaYmVjVlNUc01NSQ?oc=5",
-      "source": "WMAR 2 News Baltimore",
-      "date": "Wed, 04 Mar 2026 16:32:13 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "Moore admin\u2019s delayed report has Locust Point pier in limbo - thebanner.com",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQVkNjQUZmTFdIc3ZTNnlaWVhmMG1PNmItR3pLbVJDRzZOd1dNSGowczF3OW5GbjVwTmhJWUFMTEZUa3NJS3BZcU9NQUZCcXYtbFY2OFJGYW95RlVBckxlNEVCNkY3WlBSREhfMi12WUNDLXRnOTR4c2RGWHY0ajV0MFZxMkRUNWFNZWF5c3h6V21IcFJoNkVGLTZ2b1lacm90aklFU1hqVnA4bXBZZUU0?oc=5",
-      "source": "thebanner.com",
-      "date": "Fri, 19 Sep 2025 07:00:00 GMT",
+      "title": "Carnival adding second ship to Baltimore for 2027-28 season - WBAL-TV",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY21CYzUzX3pueVJUT0tzMlNENEM2azhkUFQyTlg2aG1MRktDdGRfTldsUHZpUjNseG5JQ0gyX083bjNYM0M2c0tvQzU5UExWTlhpYUltR1pWZGZvYzBtT1pLMGJVVEpnQkJaSURta0ZDcmxNb3Q2ckxsdTZXaEVXOTE1eWd1aW1sZEs4OVNlTGVFRXRTazVsSnYyOGw4Nlk?oc=5",
+      "source": "WBAL-TV",
+      "date": "Fri, 06 Feb 2026 08:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Port of Baltimore",
       "Baltimore shipping",
-      "Maryland transportation infrastructure",
+      "Baltimore harbor",
+      "Port of Baltimore",
       "Baltimore rail freight",
-      "Baltimore harbor"
+      "Maryland transportation infrastructure"
     ],
     "sources": [
-      "CBS News",
-      "WMAR 2 News Baltimore",
-      "Dredging Today",
-      "New Haven Register",
       "carnival-news.com",
       "Patch",
-      "NTSB (.gov)",
-      "Jacobs",
       "thebanner.com",
-      "The Business Journals"
+      "Jacobs",
+      "Dredging Today",
+      "WYPR",
+      "Maryland Matters",
+      "Heavy Duty Trucking",
+      "WBAL-TV",
+      "Baltimore Sun"
     ]
   }
 }
