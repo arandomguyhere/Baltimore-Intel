@@ -1,117 +1,40 @@
 {
-  "collected_at": "2026-03-11T02:30:14.275077+00:00",
+  "collected_at": "2026-03-11T04:22:21.853294+00:00",
   "source": "amtraker.com",
-  "total_trains": 10,
+  "total_trains": 3,
   "trains": [
-    {
-      "trainNum": "57",
-      "routeName": "Vermonter",
-      "lat": 38.948902302914114,
-      "lon": -76.87153850149141,
-      "heading": "SW",
-      "velocity": 0.0246063396334648,
-      "lastUpdate": "2026-03-10T22:27:17-04:00",
-      "nextStation": "New Carrollton",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.01913471207509,
-      "lon": -76.76352150408042,
-      "heading": "NE",
-      "velocity": 115.117408752441,
-      "lastUpdate": "2026-03-10T22:27:17-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "90",
-      "routeName": "Palmetto",
-      "lat": 39.969730815470385,
-      "lon": -75.19698511957519,
-      "heading": "NW",
-      "velocity": 31.415584564209,
-      "lastUpdate": "2026-03-10T22:27:15-04:00",
-      "nextStation": "Trenton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "97",
-      "routeName": "Silver Meteor",
-      "lat": 38.673473461870216,
-      "lon": -77.23144765473394,
-      "heading": "SW",
-      "velocity": 67.5913772583008,
-      "lastUpdate": "2026-03-10T22:27:15-04:00",
-      "nextStation": "Fredericksburg",
-      "status": "Active"
-    },
-    {
-      "trainNum": "107",
-      "routeName": "Vermonter",
-      "lat": 38.911365669606504,
-      "lon": -76.99891128089118,
-      "heading": "SW",
-      "velocity": 16.9112663269043,
-      "lastUpdate": "2026-03-10T22:27:15-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "124",
-      "routeName": "Northeast Regional",
-      "lat": 39.903740351655145,
-      "lon": -75.27213467634482,
-      "heading": "NE",
-      "velocity": 90.685546875,
-      "lastUpdate": "2026-03-10T22:27:20-04:00",
+      "lat": 39.95312543570208,
+      "lon": -75.18232904792416,
+      "heading": "N",
+      "velocity": 1.47638034820557,
+      "lastUpdate": "2026-03-11T00:20:39-04:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 39.56607851322899,
-      "lon": -76.04585468673956,
-      "heading": "E",
-      "velocity": 83.8850936889648,
-      "lastUpdate": "2026-03-10T22:25:44-04:00",
-      "nextStation": "Wilmington",
       "status": "Active"
     },
     {
       "trainNum": "165",
       "routeName": "Northeast Regional",
-      "lat": 39.94146390247197,
-      "lon": -75.20771205025125,
-      "heading": "SW",
-      "velocity": 68.8798599243164,
-      "lastUpdate": "2026-03-10T22:27:19-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "622",
-      "routeName": "Keystone",
-      "lat": 40.03062482565351,
-      "lon": -75.57899665819386,
-      "heading": "E",
-      "velocity": 90.2582931518555,
-      "lastUpdate": "2026-03-10T22:27:19-04:00",
-      "nextStation": "Paoli",
+      "lat": 38.90684525155088,
+      "lon": -77.00277938481989,
+      "heading": "S",
+      "velocity": 11.7416982650757,
+      "lastUpdate": "2026-03-11T00:21:10-04:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 39.97860761613453,
-      "lon": -75.22740352574768,
-      "heading": "NW",
-      "velocity": 39.146369934082,
-      "lastUpdate": "2026-03-10T22:25:47-04:00",
-      "nextStation": "Ardmore",
-      "status": "Active"
+      "lat": 40.26035733596391,
+      "lon": -76.8767723512213,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-11T00:12:31-04:00",
+      "nextStation": "Harrisburg",
+      "status": "Completed"
     }
   ]
 }
