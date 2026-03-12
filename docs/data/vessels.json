@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-11T23:49:47.648005+00:00",
+  "collected_at": "2026-03-12T01:59:37.383339+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,84 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 7,
+  "vessels": [
+    {
+      "mmsi": 368145530,
+      "name": "ANNABELLE MILLER",
+      "lat": 36.941826666666664,
+      "lon": -76.35399000000001,
+      "speed": 0,
+      "course": 161,
+      "heading": 234,
+      "ship_type": null,
+      "timestamp": "2026-03-12T01:59:27.645861+00:00"
+    },
+    {
+      "mmsi": 368199810,
+      "name": "CAROLINE",
+      "lat": 36.964931666666665,
+      "lon": -76.41210333333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-12T01:59:32.372072+00:00"
+    },
+    {
+      "mmsi": 367474640,
+      "name": "CAPE ELIZABETH",
+      "lat": 39.198724999999996,
+      "lon": -76.48560666666667,
+      "speed": 14.3,
+      "course": 228.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-12T01:59:32.790907+00:00"
+    },
+    {
+      "mmsi": 367932000,
+      "name": "JOHN LENTHALL",
+      "lat": 36.94360833333334,
+      "lon": -76.33044833333334,
+      "speed": 0,
+      "course": 15.7,
+      "heading": 87,
+      "ship_type": null,
+      "timestamp": "2026-03-12T01:59:33.028779+00:00"
+    },
+    {
+      "mmsi": 538011775,
+      "name": "SHANDONG XIN SHENG",
+      "lat": 38.897998333333334,
+      "lon": -76.42281666666666,
+      "speed": 0.2,
+      "course": 80.2,
+      "heading": 182,
+      "ship_type": null,
+      "timestamp": "2026-03-12T01:59:33.680987+00:00"
+    },
+    {
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.984024999999995,
+      "lon": -76.46761666666666,
+      "speed": 0,
+      "course": 204,
+      "heading": 204,
+      "ship_type": null,
+      "timestamp": "2026-03-12T01:59:36.382945+00:00"
+    },
+    {
+      "mmsi": 367619930,
+      "name": "STARSHIP 3",
+      "lat": 39.27699333333333,
+      "lon": -76.58101833333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-03-12T01:59:37.055292+00:00"
+    }
+  ]
 }
