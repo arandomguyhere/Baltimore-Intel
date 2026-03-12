@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-12T01:59:37.383339+00:00",
+  "collected_at": "2026-03-12T04:20:43.370152+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,161 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 14,
   "vessels": [
     {
-      "mmsi": 368145530,
-      "name": "ANNABELLE MILLER",
-      "lat": 36.941826666666664,
-      "lon": -76.35399000000001,
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413333333333,
+      "lon": -76.46738333333333,
       "speed": 0,
-      "course": 161,
-      "heading": 234,
-      "ship_type": null,
-      "timestamp": "2026-03-12T01:59:27.645861+00:00"
-    },
-    {
-      "mmsi": 368199810,
-      "name": "CAROLINE",
-      "lat": 36.964931666666665,
-      "lon": -76.41210333333333,
-      "speed": 0,
-      "course": 360,
+      "course": 184.6,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-12T01:59:32.372072+00:00"
+      "timestamp": "2026-03-12T04:20:33.148130+00:00"
     },
     {
-      "mmsi": 367474640,
-      "name": "CAPE ELIZABETH",
-      "lat": 39.198724999999996,
-      "lon": -76.48560666666667,
-      "speed": 14.3,
-      "course": 228.7,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-03-12T01:59:32.790907+00:00"
-    },
-    {
-      "mmsi": 367932000,
-      "name": "JOHN LENTHALL",
-      "lat": 36.94360833333334,
-      "lon": -76.33044833333334,
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.22502333333333,
+      "lon": -76.57985333333333,
       "speed": 0,
-      "course": 15.7,
-      "heading": 87,
+      "course": 233.1,
+      "heading": 328,
       "ship_type": null,
-      "timestamp": "2026-03-12T01:59:33.028779+00:00"
+      "timestamp": "2026-03-12T04:20:34.233454+00:00"
+    },
+    {
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.98420833333333,
+      "lon": -76.46723833333334,
+      "speed": 0,
+      "course": 139.5,
+      "heading": 324,
+      "ship_type": null,
+      "timestamp": "2026-03-12T04:20:35.488454+00:00"
+    },
+    {
+      "mmsi": 215804000,
+      "name": "ATLANTIC SKY",
+      "lat": 39.248718333333336,
+      "lon": -76.54203000000001,
+      "speed": 2.1,
+      "course": 156.3,
+      "heading": 333,
+      "ship_type": null,
+      "timestamp": "2026-03-12T04:20:35.498645+00:00"
+    },
+    {
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.965965,
+      "lon": -76.47873,
+      "speed": 0,
+      "course": 148,
+      "heading": 148,
+      "ship_type": null,
+      "timestamp": "2026-03-12T04:20:35.503864+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.255885,
+      "lon": -76.53489833333333,
+      "speed": 0,
+      "course": 44.8,
+      "heading": 293,
+      "ship_type": null,
+      "timestamp": "2026-03-12T04:20:36.020621+00:00"
     },
     {
       "mmsi": 538011775,
       "name": "SHANDONG XIN SHENG",
-      "lat": 38.897998333333334,
-      "lon": -76.42281666666666,
-      "speed": 0.2,
-      "course": 80.2,
-      "heading": 182,
+      "lat": 38.898201666666665,
+      "lon": -76.42213,
+      "speed": 0,
+      "course": 81,
+      "heading": 201,
       "ship_type": null,
-      "timestamp": "2026-03-12T01:59:33.680987+00:00"
+      "timestamp": "2026-03-12T04:20:37.618912+00:00"
     },
     {
-      "mmsi": 369970482,
-      "name": "YP708",
-      "lat": 38.984024999999995,
-      "lon": -76.46761666666666,
+      "mmsi": 367472930,
+      "name": "ISLAND LOOKOUT",
+      "lat": 39.20451333333333,
+      "lon": -76.58209833333333,
       "speed": 0,
-      "course": 204,
-      "heading": 204,
+      "course": 122.2,
+      "heading": 257,
       "ship_type": null,
-      "timestamp": "2026-03-12T01:59:36.382945+00:00"
+      "timestamp": "2026-03-12T04:20:37.799888+00:00"
     },
     {
       "mmsi": 367619930,
       "name": "STARSHIP 3",
-      "lat": 39.27699333333333,
-      "lon": -76.58101833333333,
+      "lat": 39.27695833333333,
+      "lon": -76.58097666666666,
       "speed": 0,
       "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-03-12T01:59:37.055292+00:00"
+      "timestamp": "2026-03-12T04:20:38.309586+00:00"
+    },
+    {
+      "mmsi": 367473520,
+      "name": "RIVER PILOT",
+      "lat": 39.20468833333334,
+      "lon": -76.58065833333333,
+      "speed": 0,
+      "course": 82.9,
+      "heading": 144,
+      "ship_type": null,
+      "timestamp": "2026-03-12T04:20:40.038283+00:00"
+    },
+    {
+      "mmsi": 369970318,
+      "name": "YP 691",
+      "lat": 38.98247,
+      "lon": -76.46729666666667,
+      "speed": 0,
+      "course": 287,
+      "heading": 287,
+      "ship_type": null,
+      "timestamp": "2026-03-12T04:20:41.233667+00:00"
+    },
+    {
+      "mmsi": 367083060,
+      "name": "CABARET2",
+      "lat": 38.96699,
+      "lon": -76.47815,
+      "speed": 0,
+      "course": 73,
+      "heading": 73,
+      "ship_type": null,
+      "timestamp": "2026-03-12T04:20:41.054715+00:00"
+    },
+    {
+      "mmsi": 369390000,
+      "name": "MAERSK TENNESSEE",
+      "lat": 36.874628333333334,
+      "lon": -76.34924833333334,
+      "speed": 0,
+      "course": 143,
+      "heading": 348,
+      "ship_type": null,
+      "timestamp": "2026-03-12T04:20:42.135595+00:00"
+    },
+    {
+      "mmsi": 367769180,
+      "name": "CLAYTON W MORAN",
+      "lat": 36.856811666666665,
+      "lon": -76.33063999999999,
+      "speed": 0,
+      "course": 110.8,
+      "heading": 108,
+      "ship_type": null,
+      "timestamp": "2026-03-12T04:20:43.046310+00:00"
     }
   ]
 }
