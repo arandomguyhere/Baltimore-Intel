@@ -1,40 +1,29 @@
 {
-  "collected_at": "2026-03-13T04:15:21.274262+00:00",
+  "collected_at": "2026-03-13T05:31:50.703725+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.73790778816671,
-      "lon": -75.56204411985269,
-      "heading": "NE",
-      "velocity": 28.1481094360352,
-      "lastUpdate": "2026-03-13T00:12:09-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 38.99077624564451,
-      "lon": -76.80983194180075,
-      "heading": "SW",
-      "velocity": 121.651504516602,
-      "lastUpdate": "2026-03-13T00:12:10-04:00",
-      "nextStation": "New Carrollton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.25196118554047,
-      "lon": -76.87117237290683,
+      "lat": 39.95608945523452,
+      "lon": -75.18388544459722,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-03-13T00:12:34-04:00",
-      "nextStation": "Harrisburg",
-      "status": "Completed"
+      "lastUpdate": "2026-03-13T01:25:40-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 39.95531888717768,
+      "lon": -75.18121515570486,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-03-13T01:30:10-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
     },
     {
       "trainNum": "887",
@@ -43,7 +32,7 @@
       "lon": -75.18298517541237,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-03-13T00:10:35-04:00",
+      "lastUpdate": "2026-03-13T01:25:37-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
