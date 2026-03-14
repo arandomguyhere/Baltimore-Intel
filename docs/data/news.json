@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-14T22:24:00.777585+00:00",
+  "collected_at": "2026-03-14T22:52:26.234079+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -54,6 +54,13 @@
       "query": "Baltimore shipping"
     },
     {
+      "title": "Loose Wire on Containership Dali Leads to Blackouts and Contact with Baltimore\u2019s Francis Scott Key Bridge - NTSB (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kb1BqZld0UDdnaFF6dHJkQThpcHUweFNHOF9NVlRfUU1XT0pySTVEYzZ1dUFEVFViTW11UVdHdFlmQVloajM4WEZLV3dhRkRyVWwyVjZCdHhOSTc2MTgyMkpJUnRpeTF0UjN4a1pQOA?oc=5",
+      "source": "NTSB (.gov)",
+      "date": "Tue, 18 Nov 2025 08:00:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
       "title": "Explosion on cargo ship closes Baltimore shipping channel near site of 2024 bridge collapse - Los Angeles Times",
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdjhwWVRCSUdwdVJIaG9NU1dVUGhLMTIwYk53MHFBTTBoNUtNUXN4aFlzM29kcnVuSVFtYTZIU0dnenhYUGsxaTUyN2twNVlmT1ZQUV80eUJqckNYR1IzSUw0U3FWQm1jR1JESEdsN0xjMGRWaWhhU2REejhrei1WNmd4TVlXUUlyM3FrTk10RFc1c1JIWi1XWEhJbkxpWkRaUEpnek9jclV1VmkyYkc5cGNxOV9sTTJSeUVUM3F1dFZhSHpmLUdkbWdKdGNSaDNwRDlQRHJ4RjkzbUpfcXc?oc=5",
       "source": "Los Angeles Times",
@@ -65,13 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQVmpKTDd0bndPcldQd0R3Qm9pTVlBV3V2V09oVGhnX1dZaDI4MGRaWTlwd2ROUUJXWWd4U0o0bXpyWmFpdVdYWDdsNnFZR1o1NWJOMVNqc3M2X05wOEVFbUQzallZMk9sNzh6d3VqdDVjR0hYeWFNVzFFcmgzRzVLd1NpQmRBQm5uR3FmNS1qNTJ3X09xTGNKVjh0a3hqclZBRnFFek1PS3BJcG41?oc=5",
       "source": "WYPR",
       "date": "Tue, 19 Aug 2025 07:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
-      "title": "Baltimore shipping channel reopens after explosion on coal ship - WMAR 2 News Baltimore",
-      "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNUjNWeVdDSDh4TWxEN2dGOVRTVGE4R3JRcUNrOVowak40Q20xT1MzMUh1RkcyVTJtWFBENTFPN1FCdjFESnVtSXlTQkVMX0VldVVuWjdadmRiVTRKb185cHVKRDBFTDJOTTdrd0w2TE96bmtfX0Zzd0xaUjBkY2I0bElrTzRiTVI4Y2JOREM4YkE0QnN3cnJuNWlfVFhuc1U0a3pPb19iVmVWakY5bFZuMEI4NzJ1VzQ?oc=5",
-      "source": "WMAR 2 News Baltimore",
-      "date": "Tue, 19 Aug 2025 20:40:12 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore harbor",
-      "Port of Baltimore",
       "Baltimore shipping",
-      "Maryland transportation infrastructure"
+      "Baltimore harbor",
+      "Maryland transportation infrastructure",
+      "Port of Baltimore"
     ],
     "sources": [
-      "WMAR 2 News Baltimore",
-      "GovTech",
-      "Baltimore Sun",
-      "Los Angeles Times",
-      "WYPR",
-      "The BayNet",
-      "Heavy Duty Trucking",
-      "thebanner.com",
       "CBS News",
-      "Baltimore Fishbowl"
+      "Baltimore Fishbowl",
+      "Baltimore Sun",
+      "Maryland Daily Record",
+      "American Journal of Transportation",
+      "Los Angeles Times",
+      "GovTech",
+      "WYPR",
+      "carnival-news.com",
+      "Heavy Duty Trucking"
     ]
   }
 }
