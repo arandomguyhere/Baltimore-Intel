@@ -1,39 +1,61 @@
 {
-  "collected_at": "2026-03-15T08:34:55.431514+00:00",
+  "collected_at": "2026-03-15T09:05:40.363316+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.82273523330356,
-      "lon": -75.41726105930073,
+      "lat": 39.5677264627124,
+      "lon": -76.04165088951893,
       "heading": "SW",
-      "velocity": 109.715194702148,
-      "lastUpdate": "2026-03-15T04:33:16-04:00",
-      "nextStation": "Wilmington",
+      "velocity": 92.4236526489258,
+      "lastUpdate": "2026-03-15T05:03:16-04:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 37.857181477745684,
-      "lon": -77.45803306436713,
-      "heading": "N",
-      "velocity": 68.4570770263672,
-      "lastUpdate": "2026-03-15T04:33:15-04:00",
+      "lat": 38.25714875325279,
+      "lon": -77.44558191207636,
+      "heading": "NW",
+      "velocity": 69.548698425293,
+      "lastUpdate": "2026-03-15T05:03:16-04:00",
       "nextStation": "Fredericksburg",
       "status": "Active"
     },
     {
-      "trainNum": "151",
+      "trainNum": "150",
       "routeName": "Northeast Regional",
       "lat": 39.95680206539882,
       "lon": -75.18325177743992,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-03-15T04:42:00-04:00",
+      "lastUpdate": "2026-03-15T05:00:00-04:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.938576175755266,
+      "lon": -75.21168696633394,
+      "heading": "SW",
+      "velocity": 73.4633483886719,
+      "lastUpdate": "2026-03-15T05:03:15-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-15T05:10:00-04:00",
+      "nextStation": "Washington Union",
       "status": "Predeparture"
     }
   ]
