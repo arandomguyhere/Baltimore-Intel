@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-15T14:57:41.107255+00:00",
+  "collected_at": "2026-03-15T15:34:03.075873+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -40,6 +40,13 @@
       "query": "Port of Baltimore"
     },
     {
+      "title": "Trump considering temporary U.S. energy shipping waivers - The Center Square",
+      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR1NqUFBGREdEZTFRNTAwSlR2ZXN1RGc5Mi1SVkxNS2hBdVJEU053OEU2OU9tN3lrV0JOQlJDcnZUTjMyU2JWSWlwWWZYdDBwS0JOS3pyT0lPSE5PVF8td0VCYzhSX3lkMUszaGZob0o5c1BobDJnWFhJZFpPV3FGTmRxdFFxUkwzc1pZd0NvcWxVWXhw0gGaAUFVX3lxTFBSbXJ5dlczYVpWcGw5Q1ZlenpXc2M1TGFNME5DekxmNUUzR01PYV9ZSm9jNXpEQ3AwVnRmRTRqYTZuQk5QZ2lVV3BteXhpby1wczZMalBhbFFlTVhRTGpaQklJN0xSakxGZW5WYndfNGVBRzhnNFVEWXV1NEpPWUtjelYyNldpY2l5aWNRRkg1ZFVrNkZSeHl4cnc?oc=5",
+      "source": "The Center Square",
+      "date": "Fri, 13 Mar 2026 21:45:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
       "title": "Carnival Cruise Line Expands Baltimore Presence with Second Ship for 2027/28 Season - carnival-news.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb1R6Y3N4c012c0dkU2doNHhRMUNaaGN2WTFyalMwdl9LcmY2NzcxV2hHd1FBYzNJX0JYbG1CaVRZVThZanp5dm5CN3d3bzJXOEp5MFYtS1FrOENFVmZmTlRIbmlQblNOcTgwSlF5ZWNsWFFQZ1NSNXVjcDR5YVFlSlJyNWJqWUZHMEdOcHh6YXpoa3VTdkFPNGVYY3BxM2M5c1NYM2xPbmlVNEJJLUxNaHZ1NjV1ak9PMllaY2t2Qi0?oc=5",
       "source": "carnival-news.com",
@@ -65,13 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdjhwWVRCSUdwdVJIaG9NU1dVUGhLMTIwYk53MHFBTTBoNUtNUXN4aFlzM29kcnVuSVFtYTZIU0dnenhYUGsxaTUyN2twNVlmT1ZQUV80eUJqckNYR1IzSUw0U3FWQm1jR1JESEdsN0xjMGRWaWhhU2REejhrei1WNmd4TVlXUUlyM3FrTk10RFc1c1JIWi1XWEhJbkxpWkRaUEpnek9jclV1VmkyYkc5cGNxOV9sTTJSeUVUM3F1dFZhSHpmLUdkbWdKdGNSaDNwRDlQRHJ4RjkzbUpfcXc?oc=5",
       "source": "Los Angeles Times",
       "date": "Tue, 19 Aug 2025 07:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
-      "title": "Fire and Explosion Damage Ship in Baltimore Harbor - The New York Times - The New York Times",
-      "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1uV0JmalFyMzY2Q1dySU5lM2didG82OVZ2NDNZTjdscmMyOWtFOVJIbDFXa1RQZklQdjFiWVlpamVaSnZjYWZrMmNMS2EzU1REc1d2SE9rMTRGWnAxd2hyNU9nWVYtV1Z4VHk0NENST0RVeUpiRlE?oc=5",
-      "source": "The New York Times",
-      "date": "Mon, 18 Aug 2025 07:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore shipping",
-      "Baltimore harbor",
       "Port of Baltimore",
-      "Maryland transportation infrastructure"
+      "Maryland transportation infrastructure",
+      "Baltimore harbor",
+      "Baltimore shipping"
     ],
     "sources": [
       "WMAR 2 News Baltimore",
-      "carnival-news.com",
-      "thebanner.com",
-      "NTSB (.gov)",
-      "Maryland Daily Record",
-      "Heavy Duty Trucking",
-      "GovTech",
-      "Los Angeles Times",
+      "American Journal of Transportation",
       "WYPR",
-      "Baltimore Fishbowl"
+      "Baltimore Sun",
+      "Heavy Duty Trucking",
+      "Jacobs",
+      "Los Angeles Times",
+      "NTSB (.gov)",
+      "Eye On Annapolis",
+      "GovTech"
     ]
   }
 }
