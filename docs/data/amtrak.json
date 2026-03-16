@@ -1,17 +1,83 @@
 {
-  "collected_at": "2026-03-16T08:12:17.771716+00:00",
+  "collected_at": "2026-03-16T09:13:42.563137+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 7,
   "trains": [
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.95640989036381,
-      "lon": -75.18206201903934,
+      "lat": 39.73838844053938,
+      "lon": -75.55441472347441,
+      "heading": "NW",
+      "velocity": 24.7616291046143,
+      "lastUpdate": "2026-03-16T05:12:17-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.41416172833601,
+      "lon": -77.36279533583334,
+      "heading": "N",
+      "velocity": 70.6470413208008,
+      "lastUpdate": "2026-03-16T05:12:16-04:00",
+      "nextStation": "Alexandria",
+      "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.79550591750574,
+      "lon": -75.45534700767503,
       "heading": "SW",
+      "velocity": 106.999549865723,
+      "lastUpdate": "2026-03-16T05:12:18-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "170",
+      "routeName": "Northeast Regional",
+      "lat": 38.916996165817636,
+      "lon": -76.9431709068712,
+      "heading": "E",
+      "velocity": 89.3948364257813,
+      "lastUpdate": "2026-03-16T05:12:16-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
+    },
+    {
+      "trainNum": "601",
+      "routeName": "Keystone",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-03-16T04:05:44-04:00",
+      "lastUpdate": "2026-03-16T04:55:00-04:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.19585842673019,
+      "lon": -76.7371696410655,
+      "heading": "E",
+      "velocity": 25.9857292175293,
+      "lastUpdate": "2026-03-16T05:11:18-04:00",
+      "nextStation": "Elizabethtown",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 39.03658314111129,
+      "lon": -76.74942237974399,
+      "heading": "NE",
+      "velocity": 117.931480407715,
+      "lastUpdate": "2026-03-16T05:12:17-04:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
     }
   ]
