@@ -1,61 +1,17 @@
 {
-  "collected_at": "2026-03-17T03:12:02.167062+00:00",
+  "collected_at": "2026-03-17T05:02:51.894085+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 1,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.405445383122526,
-      "lon": -76.31753750119158,
-      "heading": "NE",
-      "velocity": 109.04411315918,
-      "lastUpdate": "2026-03-16T23:09:17-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 39.19341682364617,
-      "lon": -76.69514685939274,
-      "heading": "S",
-      "velocity": 22.9532413482666,
-      "lastUpdate": "2026-03-16T23:09:20-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 39.956707436459986,
-      "lon": -75.1810320497313,
+      "lat": 39.95311017670041,
+      "lon": -75.18229090091116,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-03-16T23:09:20-04:00",
+      "velocity": 1.35558569431305,
+      "lastUpdate": "2026-03-17T01:00:11-04:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "622",
-      "routeName": "Keystone",
-      "lat": 39.9680065722453,
-      "lon": -75.19373499644108,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-03-16T23:03:48-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 39.98547786575478,
-      "lon": -75.82293899346107,
-      "heading": "W",
-      "velocity": 20.7413692474365,
-      "lastUpdate": "2026-03-16T23:07:52-04:00",
-      "nextStation": "Parkesburg",
       "status": "Active"
     }
   ]
