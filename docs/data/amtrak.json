@@ -1,17 +1,28 @@
 {
-  "collected_at": "2026-03-18T08:29:04.694873+00:00",
+  "collected_at": "2026-03-18T09:30:01.501274+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 9,
   "trains": [
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.9578785486175,
-      "lon": -75.18311487546202,
-      "heading": "W",
-      "velocity": 0,
-      "lastUpdate": "2026-03-18T04:25:27-04:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lat": 39.607548099465205,
+      "lon": -75.93792924033569,
+      "heading": "SW",
+      "velocity": 97.3225479125977,
+      "lastUpdate": "2026-03-18T05:27:30-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.29823686621192,
+      "lon": -77.45709467409083,
+      "heading": "NE",
+      "velocity": 0.00447387993335724,
+      "lastUpdate": "2026-03-18T05:27:30-04:00",
+      "nextStation": "Fredericksburg",
       "status": "Active"
     },
     {
@@ -26,6 +37,50 @@
       "status": "Predeparture"
     },
     {
+      "trainNum": "170",
+      "routeName": "Northeast Regional",
+      "lat": 39.18402885185903,
+      "lon": -76.69255286400535,
+      "heading": "N",
+      "velocity": 56.0849494934082,
+      "lastUpdate": "2026-03-18T05:27:28-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
+    },
+    {
+      "trainNum": "601",
+      "routeName": "Keystone",
+      "lat": 39.96060987315312,
+      "lon": -75.18329798168614,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-03-18T05:25:31-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.108066975922405,
+      "lon": -76.49067907977789,
+      "heading": "E",
+      "velocity": 77.9385681152344,
+      "lastUpdate": "2026-03-18T05:25:31-04:00",
+      "nextStation": "Lancaster",
+      "status": "Active"
+    },
+    {
+      "trainNum": "642",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-18T05:40:00-04:00",
+      "nextStation": "Harrisburg",
+      "status": "Predeparture"
+    },
+    {
       "trainNum": "657",
       "routeName": "Keystone",
       "lat": 40.22507900974144,
@@ -34,6 +89,17 @@
       "velocity": 108.118598937988,
       "lastUpdate": "2026-03-17T23:55:49-04:00",
       "nextStation": "Harrisburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 39.251716853492695,
+      "lon": -76.69089728965238,
+      "heading": "N",
+      "velocity": 105.140655517578,
+      "lastUpdate": "2026-03-18T05:27:01-04:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     }
   ]
