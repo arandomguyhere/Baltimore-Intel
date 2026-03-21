@@ -1,40 +1,29 @@
 {
-  "collected_at": "2026-03-21T04:04:43.768549+00:00",
+  "collected_at": "2026-03-21T05:11:49.462640+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 2,
   "trains": [
     {
-      "trainNum": "40",
-      "routeName": "Floridian",
-      "lat": 39.6190111873496,
-      "lon": -78.02428701101536,
-      "heading": "NW",
-      "velocity": 64.2605743408203,
-      "lastUpdate": "2026-03-21T00:03:36-04:00",
-      "nextStation": "Cumberland",
+      "trainNum": "65",
+      "routeName": "Northeast Regional",
+      "lat": 39.955418069186386,
+      "lon": -75.18152033180749,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-03-21T01:09:11-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.601696354972475,
-      "lon": -75.86488539398867,
-      "heading": "E",
-      "velocity": 111.623306274414,
-      "lastUpdate": "2026-03-21T00:02:48-04:00",
-      "nextStation": "Wilmington",
+      "lat": 39.95324369072799,
+      "lon": -75.18226038290959,
+      "heading": "NE",
+      "velocity": 17.5443210601807,
+      "lastUpdate": "2026-03-21T01:09:10-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.260979131069384,
-      "lon": -76.8771843383919,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-03-21T00:03:52-04:00",
-      "nextStation": "Harrisburg",
-      "status": "Completed"
     }
   ]
 }
