@@ -1,39 +1,61 @@
 {
-  "collected_at": "2026-03-22T08:37:32.713282+00:00",
+  "collected_at": "2026-03-22T09:04:04.209432+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.819157046306586,
-      "lon": -75.42513459657067,
-      "heading": "SW",
-      "velocity": 79.1787261962891,
-      "lastUpdate": "2026-03-22T04:36:14-04:00",
-      "nextStation": "Wilmington",
+      "lat": 39.57805666698732,
+      "lon": -75.98138628320031,
+      "heading": "W",
+      "velocity": 105.026573181152,
+      "lastUpdate": "2026-03-22T05:03:15-04:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.186546321616206,
-      "lon": -77.45119714361417,
-      "heading": "NE",
-      "velocity": 68.3228607177734,
-      "lastUpdate": "2026-03-22T04:36:13-04:00",
-      "nextStation": "Fredericksburg",
+      "lat": 38.503486699479,
+      "lon": -77.30961844471902,
+      "heading": "N",
+      "velocity": 70.5732192993164,
+      "lastUpdate": "2026-03-22T05:03:15-04:00",
+      "nextStation": "Alexandria",
       "status": "Active"
     },
     {
-      "trainNum": "151",
+      "trainNum": "150",
       "routeName": "Northeast Regional",
       "lat": 39.95680206539882,
       "lon": -75.18325177743992,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-03-22T04:42:00-04:00",
+      "lastUpdate": "2026-03-22T05:00:00-04:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.924694489283574,
+      "lon": -75.23150813876362,
+      "heading": "SW",
+      "velocity": 86.0461349487305,
+      "lastUpdate": "2026-03-22T05:03:13-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-22T05:05:00-04:00",
+      "nextStation": "Washington Union",
       "status": "Predeparture"
     }
   ]
