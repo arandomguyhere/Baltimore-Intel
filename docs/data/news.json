@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-03-23T20:23:21.506886+00:00",
+  "collected_at": "2026-03-23T21:01:41.149388+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -40,10 +40,17 @@
       "query": "Port of Baltimore"
     },
     {
-      "title": "Trump considering temporary U.S. energy shipping waivers - The Center Square",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOR1NqUFBGREdEZTFRNTAwSlR2ZXN1RGc5Mi1SVkxNS2hBdVJEU053OEU2OU9tN3lrV0JOQlJDcnZUTjMyU2JWSWlwWWZYdDBwS0JOS3pyT0lPSE5PVF8td0VCYzhSX3lkMUszaGZob0o5c1BobDJnWFhJZFpPV3FGTmRxdFFxUkwzc1pZd0NvcWxVWXhw0gGaAUFVX3lxTFBSbXJ5dlczYVpWcGw5Q1ZlenpXc2M1TGFNME5DekxmNUUzR01PYV9ZSm9jNXpEQ3AwVnRmRTRqYTZuQk5QZ2lVV3BteXhpby1wczZMalBhbFFlTVhRTGpaQklJN0xSakxGZW5WYndfNGVBRzhnNFVEWXV1NEpPWUtjelYyNldpY2l5aWNRRkg1ZFVrNkZSeHl4cnc?oc=5",
-      "source": "The Center Square",
-      "date": "Fri, 13 Mar 2026 07:00:00 GMT",
+      "title": "Jeeps stolen from Southeast DC found on shipping container headed for Africa - WUSA9",
+      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOanRPdHRvTzNVVUtxMmg5UE9MZzItQzR0WVhtcEFBbmtYbzlFUExRWXR0OUNtM293NVFBeThIRmxxa2hBZW5FWEp6RHFoWUZsMFM1QUVnOUltLVI0UEZQTTFDcURvdHBQM3pjbkt5bVRkZ0k3R1BzcVpSbEctU2FDLUZ1ZnRjZnpNQnpYTTVnajdITUNHLTBQajVGRkZsaExCV0Y3UG5GZ0YwMVpqOUk3SWlSZGhyZ0N0bWdEcGo1SG9zXzNGaXJ0UmtHamVoZHFF?oc=5",
+      "source": "WUSA9",
+      "date": "Tue, 03 Mar 2026 08:00:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
+      "title": "Carnival Cruise Line Expands Baltimore Presence with Second Ship for 2027/28 Season - carnival-news.com",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb1R6Y3N4c012c0dkU2doNHhRMUNaaGN2WTFyalMwdl9LcmY2NzcxV2hHd1FBYzNJX0JYbG1CaVRZVThZanp5dm5CN3d3bzJXOEp5MFYtS1FrOENFVmZmTlRIbmlQblNOcTgwSlF5ZWNsWFFQZ1NSNXVjcDR5YVFlSlJyNWJqWUZHMEdOcHh6YXpoa3VTdkFPNGVYY3BxM2M5c1NYM2xPbmlVNEJJLUxNaHZ1NjV1ak9PMllaY2t2Qi0?oc=5",
+      "source": "carnival-news.com",
+      "date": "Thu, 05 Feb 2026 08:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -58,13 +65,6 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOFNUVXV6R0N6N05mUFpmX01OcXBkdUhLT0pqUkxhZkdwbWxGOVZSWkRERWJjSXBScE5NLWpFN3d4Y0tDSUxyYVIwUE4xY3o5Tlo0NXhiZXYzczlHNzhlanFTc0dIUGxqbDBCODhEaU0xNDZDaE0zZFoxaGg5aHZUVFdXMW51QWN4bXJTcXNmQ19ST250SlVEaW5iQmwtT2xVMkYyOVAxWkFnSFVMSGt1ekVRb0R1V1FPam1jLTZGckV1bTN4SlJqRll4NA?oc=5",
       "source": "Tradewinds News",
       "date": "Wed, 04 Feb 2026 08:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
-      "title": "Loose Wire on Containership Dali Leads to Blackouts and Contact with Baltimore\u2019s Francis Scott Key Bridge - NTSB (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1kb1BqZld0UDdnaFF6dHJkQThpcHUweFNHOF9NVlRfUU1XT0pySTVEYzZ1dUFEVFViTW11UVdHdFlmQVloajM4WEZLV3dhRkRyVWwyVjZCdHhOSTc2MTgyMkpJUnRpeTF0UjN4a1pQOA?oc=5",
-      "source": "NTSB (.gov)",
-      "date": "Tue, 18 Nov 2025 08:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
+      "Baltimore harbor",
+      "Port of Baltimore",
       "Maryland transportation infrastructure",
       "Baltimore rail freight",
-      "Baltimore shipping",
-      "Port of Baltimore",
-      "Baltimore harbor"
+      "Baltimore shipping"
     ],
     "sources": [
-      "Baltimore Sun",
-      "CBS News",
+      "WUSA9",
+      "carnival-news.com",
+      "Maryland Matters",
       "Tradewinds News",
-      "The BayNet",
-      "The Detroit News",
       "thebanner.com",
-      "NTSB (.gov)",
-      "WBFF",
+      "CBS News",
       "WBAL-TV",
-      "Heavy Duty Trucking"
+      "The BayNet",
+      "WBFF",
+      "The Detroit News"
     ]
   }
 }
