@@ -1,19 +1,8 @@
 {
-  "collected_at": "2026-03-24T07:41:58.759311+00:00",
+  "collected_at": "2026-03-24T08:31:42.978802+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 5,
   "trains": [
-    {
-      "trainNum": "66",
-      "routeName": "Northeast Regional",
-      "lat": 39.99514433481641,
-      "lon": -75.1608141506672,
-      "heading": "NE",
-      "velocity": 55.1964950561523,
-      "lastUpdate": "2026-03-24T03:39:14-04:00",
-      "nextStation": "Newark Penn",
-      "status": "Active"
-    },
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
@@ -21,9 +10,31 @@
       "lon": -75.18350397451165,
       "heading": "W",
       "velocity": 0.142915293574333,
-      "lastUpdate": "2026-03-24T03:35:43-04:00",
+      "lastUpdate": "2026-03-24T04:25:44-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-24T04:42:00-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-24T04:45:00-04:00",
+      "nextStation": "Harrisburg",
+      "status": "Predeparture"
     },
     {
       "trainNum": "657",
@@ -35,6 +46,17 @@
       "lastUpdate": "2026-03-23T23:57:39-04:00",
       "nextStation": "Harrisburg",
       "status": "Active"
+    },
+    {
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-24T04:45:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
