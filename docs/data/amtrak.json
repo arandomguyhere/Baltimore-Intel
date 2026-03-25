@@ -1,27 +1,38 @@
 {
-  "collected_at": "2026-03-25T04:28:05.808588+00:00",
+  "collected_at": "2026-03-25T05:43:48.880661+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 3,
   "trains": [
-    {
-      "trainNum": "55",
-      "routeName": "Vermonter",
-      "lat": 39.36233166460077,
-      "lon": -76.36879941661785,
-      "heading": "SW",
-      "velocity": 121.447944641113,
-      "lastUpdate": "2026-03-25T00:24:37-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.73736228742825,
-      "lon": -75.55184361660054,
-      "heading": "SE",
-      "velocity": 10.3078193664551,
-      "lastUpdate": "2026-03-25T00:22:09-04:00",
+      "lat": 39.953045326684794,
+      "lon": -75.18236719393138,
+      "heading": "N",
+      "velocity": 2.95276069641113,
+      "lastUpdate": "2026-03-25T01:42:39-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 39.95660825443009,
+      "lon": -75.18131433781464,
+      "heading": "S",
+      "velocity": 0.17398390173912,
+      "lastUpdate": "2026-03-25T01:42:39-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "179",
+      "routeName": "Northeast Regional",
+      "lat": 39.975517712687584,
+      "lon": -75.19507777132365,
+      "heading": "SW",
+      "velocity": 4.48953866958618,
+      "lastUpdate": "2026-03-25T01:42:40-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
