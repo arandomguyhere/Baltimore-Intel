@@ -1,6 +1,205 @@
 {
-  "collected_at": "2026-03-26T20:19:03.229990+00:00",
+  "collected_at": "2026-03-26T20:58:12.301267+00:00",
   "source": "amtraker.com",
-  "total_trains": 0,
-  "trains": []
+  "total_trains": 18,
+  "trains": [
+    {
+      "trainNum": "19",
+      "routeName": "Crescent",
+      "lat": 39.97636838989573,
+      "lon": -75.19398676702998,
+      "heading": "SW",
+      "velocity": 28.3890056610107,
+      "lastUpdate": "2026-03-26T16:51:29-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "20",
+      "routeName": "Crescent",
+      "lat": 39.953232246726266,
+      "lon": -75.18224512390405,
+      "heading": "N",
+      "velocity": 13.969690322876,
+      "lastUpdate": "2026-03-26T16:51:26-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "40",
+      "routeName": "Floridian",
+      "lat": 39.11808414901756,
+      "lon": -77.16285177369889,
+      "heading": "NW",
+      "velocity": 11.6276140213013,
+      "lastUpdate": "2026-03-26T16:51:27-04:00",
+      "nextStation": "Harpers Ferry",
+      "status": "Active"
+    },
+    {
+      "trainNum": "41",
+      "routeName": "Floridian",
+      "lat": 37.939491218130875,
+      "lon": -77.44605491547102,
+      "heading": "S",
+      "velocity": 68.0007400512695,
+      "lastUpdate": "2026-03-26T16:51:27-04:00",
+      "nextStation": "Richmond Staples Mill Road",
+      "status": "Active"
+    },
+    {
+      "trainNum": "43",
+      "routeName": "Pennsylvanian",
+      "lat": 40.58276793300511,
+      "lon": -78.09800230950533,
+      "heading": "NW",
+      "velocity": 18.2931594848633,
+      "lastUpdate": "2026-03-26T16:50:31-04:00",
+      "nextStation": "Tyrone",
+      "status": "Active"
+    },
+    {
+      "trainNum": "53",
+      "routeName": "Auto Train",
+      "lat": 38.07463834231251,
+      "lon": -77.38015219303485,
+      "heading": "S",
+      "velocity": 20.0765361785889,
+      "lastUpdate": "2026-03-26T16:51:30-04:00",
+      "nextStation": "Sanford",
+      "status": "Active"
+    },
+    {
+      "trainNum": "80",
+      "routeName": "Carolinian",
+      "lat": 38.89920059693423,
+      "lon": -77.00479354498053,
+      "heading": "N",
+      "velocity": 0.0111846998333931,
+      "lastUpdate": "2026-03-26T16:51:27-04:00",
+      "nextStation": "Washington Union",
+      "status": "Active"
+    },
+    {
+      "trainNum": "93",
+      "routeName": "Northeast Regional",
+      "lat": 39.2840120877516,
+      "lon": -76.66967993800908,
+      "heading": "SW",
+      "velocity": 77.7470855712891,
+      "lastUpdate": "2026-03-26T16:51:32-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
+    },
+    {
+      "trainNum": "125",
+      "routeName": "Northeast Regional",
+      "lat": 38.53223045023848,
+      "lon": -77.28486868277433,
+      "heading": "S",
+      "velocity": 53.8118286132813,
+      "lastUpdate": "2026-03-26T16:51:36-04:00",
+      "nextStation": "Quantico",
+      "status": "Active"
+    },
+    {
+      "trainNum": "136",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-03-26T16:50:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "138",
+      "routeName": "Northeast Regional",
+      "lat": 38.661396126851834,
+      "lon": -77.24680562977072,
+      "heading": "NE",
+      "velocity": 18.5106391906738,
+      "lastUpdate": "2026-03-26T16:51:39-04:00",
+      "nextStation": "Alexandria",
+      "status": "Active"
+    },
+    {
+      "trainNum": "148",
+      "routeName": "Northeast Regional",
+      "lat": 39.953201729715026,
+      "lon": -75.18239008294812,
+      "heading": "N",
+      "velocity": 17.6941947937012,
+      "lastUpdate": "2026-03-26T16:51:33-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "171",
+      "routeName": "Northeast Regional",
+      "lat": 39.19383644072294,
+      "lon": -76.69534522448053,
+      "heading": "S",
+      "velocity": 29.018030166626,
+      "lastUpdate": "2026-03-26T16:51:36-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
+    },
+    {
+      "trainNum": "176",
+      "routeName": "Northeast Regional",
+      "lat": 39.69718969830121,
+      "lon": -75.66524696992418,
+      "heading": "NE",
+      "velocity": 118.593612670898,
+      "lastUpdate": "2026-03-26T16:51:32-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "178",
+      "routeName": "Northeast Regional",
+      "lat": 39.19396613975012,
+      "lon": -76.69531470647895,
+      "heading": "N",
+      "velocity": 13.614239692688,
+      "lastUpdate": "2026-03-26T16:51:36-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "652",
+      "routeName": "Keystone",
+      "lat": 39.972485026540234,
+      "lon": -75.21020686492949,
+      "heading": "E",
+      "velocity": 28.9191608428955,
+      "lastUpdate": "2026-03-26T16:51:35-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "654",
+      "routeName": "Keystone",
+      "lat": 40.115742146845264,
+      "lon": -76.53239662240864,
+      "heading": "SE",
+      "velocity": 98.9778823852539,
+      "lastUpdate": "2026-03-26T16:51:35-04:00",
+      "nextStation": "Mount Joy",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2172",
+      "routeName": "Acela",
+      "lat": 39.40494565797295,
+      "lon": -76.31888027558206,
+      "heading": "NE",
+      "velocity": 122.93775177002,
+      "lastUpdate": "2026-03-26T16:51:33-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    }
+  ]
 }
