@@ -1,51 +1,40 @@
 {
-  "collected_at": "2026-03-30T03:41:28.040251+00:00",
+  "collected_at": "2026-03-30T05:50:56.039661+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.73740806342328,
-      "lon": -75.55223271572613,
-      "heading": "SE",
-      "velocity": 0.0134216398000717,
-      "lastUpdate": "2026-03-29T23:39:37-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "139",
-      "routeName": "Northeast Regional",
-      "lat": 39.35607174508447,
-      "lon": -76.37591764346489,
-      "heading": "SW",
-      "velocity": 126.306579589844,
-      "lastUpdate": "2026-03-29T23:39:39-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 38.912777108039556,
-      "lon": -76.99492873573696,
-      "heading": "SW",
-      "velocity": 19.4009799957275,
-      "lastUpdate": "2026-03-29T23:39:39-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "671",
-      "routeName": "Keystone",
-      "lat": 39.97611658979419,
-      "lon": -76.01490224944858,
+      "lat": 39.95317884071375,
+      "lon": -75.18229852991773,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-03-29T23:28:09-04:00",
-      "nextStation": "Lancaster",
-      "status": "Completed"
+      "velocity": 6.90319681167603,
+      "lastUpdate": "2026-03-30T01:48:39-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 39.95414777387071,
+      "lon": -75.1832827222883,
+      "heading": "NW",
+      "velocity": 0.260975807905197,
+      "lastUpdate": "2026-03-30T01:45:40-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "169",
+      "routeName": "Northeast Regional",
+      "lat": 39.96291776457939,
+      "lon": -75.18418299110678,
+      "heading": "SE",
+      "velocity": 14.725775718689,
+      "lastUpdate": "2026-03-30T01:48:40-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
     }
   ]
 }
