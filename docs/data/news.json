@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-02T14:08:11.122494+00:00",
+  "collected_at": "2026-04-02T15:15:10.635522+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -40,6 +40,13 @@
       "query": "Port of Baltimore"
     },
     {
+      "title": "Container ship collides with Baltimore\u2019s Key Bridge - History.com",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQRWpEc0d2NHVwWjBxMmRISHJfLVZOeVVRVnNwWk1hTEJaa1lqSXZSU0lFQnVwalktZXJpTzlmdl92MTVqb3lDak9PVzVXaGNQZFFkRlJ5cVp4ME9YS3N6bUd5bklMYzlTNGQ4emNDTS1RMzhwY2d1Z0Nxd3dlUVlFVXZ2X0prNUthSzRQem41MTNvSW8tRnVybXpPMmRZNnRacHVn?oc=5",
+      "source": "History.com",
+      "date": "Wed, 25 Mar 2026 07:00:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
       "title": "Carnival Cruise Line Expands Baltimore Presence with Second Ship for 2027/28 Season - carnival-news.com",
       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPb1R6Y3N4c012c0dkU2doNHhRMUNaaGN2WTFyalMwdl9LcmY2NzcxV2hHd1FBYzNJX0JYbG1CaVRZVThZanp5dm5CN3d3bzJXOEp5MFYtS1FrOENFVmZmTlRIbmlQblNOcTgwSlF5ZWNsWFFQZ1NSNXVjcDR5YVFlSlJyNWJqWUZHMEdOcHh6YXpoa3VTdkFPNGVYY3BxM2M5c1NYM2xPbmlVNEJJLUxNaHZ1NjV1ak9PMllaY2t2Qi0?oc=5",
       "source": "carnival-news.com",
@@ -51,13 +58,6 @@
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQOFNUVXV6R0N6N05mUFpmX01OcXBkdUhLT0pqUkxhZkdwbWxGOVZSWkRERWJjSXBScE5NLWpFN3d4Y0tDSUxyYVIwUE4xY3o5Tlo0NXhiZXYzczlHNzhlanFTc0dIUGxqbDBCODhEaU0xNDZDaE0zZFoxaGg5aHZUVFdXMW51QWN4bXJTcXNmQ19ST250SlVEaW5iQmwtT2xVMkYyOVAxWkFnSFVMSGt1ekVRb0R1V1FPam1jLTZGckV1bTN4SlJqRll4NA?oc=5",
       "source": "Tradewinds News",
       "date": "Wed, 04 Feb 2026 08:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
-      "title": "Carnival adding second ship to Baltimore for 2027-28 season - WBAL-TV",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQY21CYzUzX3pueVJUT0tzMlNENEM2azhkUFQyTlg2aG1MRktDdGRfTldsUHZpUjNseG5JQ0gyX083bjNYM0M2c0tvQzU5UExWTlhpYUltR1pWZGZvYzBtT1pLMGJVVEpnQkJaSURta0ZDcmxNb3Q2ckxsdTZXaEVXOTE1eWd1aW1sZEs4OVNlTGVFRXRTazVsSnYyOGw4Nlk?oc=5",
-      "source": "WBAL-TV",
-      "date": "Fri, 06 Feb 2026 08:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Maryland transportation infrastructure",
-      "Port of Baltimore",
       "Baltimore rail freight",
+      "Port of Baltimore",
+      "Baltimore harbor",
       "Baltimore shipping",
-      "Baltimore harbor"
+      "Maryland transportation infrastructure"
     ],
     "sources": [
-      "Baltimore Magazine",
-      "Maryland Matters",
       "Office of Governor Wes Moore (.gov)",
-      "WMAR 2 News Baltimore",
-      "WBFF",
-      "thebanner.com",
+      "FreightWaves",
+      "Baltimore Sun",
       "marketplace.org",
-      "WBAL-TV",
-      "WYPR",
-      "carnival-news.com"
+      "History.com",
+      "WBFF",
+      "CBS News",
+      "Tradewinds News",
+      "nottinghammd.com",
+      "WYPR"
     ]
   }
 }
