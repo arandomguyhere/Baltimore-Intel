@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-03T20:34:58.487775+00:00",
+  "collected_at": "2026-04-03T21:17:00.507957+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,150 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 13,
+  "vessels": [
+    {
+      "mmsi": 367686270,
+      "name": "STASINOS BOYS",
+      "lat": 39.009570000000004,
+      "lon": -76.37782999999999,
+      "speed": 7.1,
+      "course": 184,
+      "heading": 187,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:41.024198+00:00"
+    },
+    {
+      "mmsi": 367393830,
+      "name": "",
+      "lat": 39.254565,
+      "lon": -76.58843666666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:41.225397+00:00"
+    },
+    {
+      "mmsi": 368926275,
+      "name": "",
+      "lat": 36.940263333333334,
+      "lon": -76.33018666666666,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:42.572151+00:00"
+    },
+    {
+      "mmsi": 636016437,
+      "name": "",
+      "lat": 36.945431666666664,
+      "lon": -76.33640333333332,
+      "speed": 10,
+      "course": 3.4,
+      "heading": 3,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:43.041973+00:00"
+    },
+    {
+      "mmsi": 368185620,
+      "name": "",
+      "lat": 39.255779999999994,
+      "lon": -76.53496833333334,
+      "speed": 0,
+      "course": 208.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:45.689225+00:00"
+    },
+    {
+      "mmsi": 368242090,
+      "name": "",
+      "lat": 39.21864,
+      "lon": -76.57946666666666,
+      "speed": 0,
+      "course": 242.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:46.101238+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "",
+      "lat": 39.215601666666664,
+      "lon": -76.52609833333332,
+      "speed": 8.6,
+      "course": 320,
+      "heading": 305,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:46.675410+00:00"
+    },
+    {
+      "mmsi": 229711000,
+      "name": "",
+      "lat": 39.243876666666665,
+      "lon": -76.556315,
+      "speed": 7.2,
+      "course": 316.7,
+      "heading": 317,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:48.027224+00:00"
+    },
+    {
+      "mmsi": 368015740,
+      "name": "",
+      "lat": 36.962151666666664,
+      "lon": -76.409375,
+      "speed": 0,
+      "course": 229.5,
+      "heading": 23,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:48.717076+00:00"
+    },
+    {
+      "mmsi": 368342060,
+      "name": "",
+      "lat": 39.121155,
+      "lon": -76.44721666666666,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:53.894859+00:00"
+    },
+    {
+      "mmsi": 366828620,
+      "name": "",
+      "lat": 39.268789999999996,
+      "lon": -76.580985,
+      "speed": 0,
+      "course": 138,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:55.912455+00:00"
+    },
+    {
+      "mmsi": 538011158,
+      "name": "",
+      "lat": 36.85816666666666,
+      "lon": -76.31856666666665,
+      "speed": 0,
+      "course": 21,
+      "heading": 95,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:56.279189+00:00"
+    },
+    {
+      "mmsi": 367029690,
+      "name": "IVORY COAST",
+      "lat": 39.26468166666667,
+      "lon": -76.57194833333332,
+      "speed": 0,
+      "course": 182.9,
+      "heading": 85,
+      "ship_type": null,
+      "timestamp": "2026-04-03T21:16:58.897489+00:00"
+    }
+  ]
 }
