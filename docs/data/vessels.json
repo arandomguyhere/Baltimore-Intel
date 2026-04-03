@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-03T21:56:24.842373+00:00",
+  "collected_at": "2026-04-03T22:34:18.878277+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 9,
+  "vessels": [
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.26178,
+      "lon": -76.572665,
+      "speed": 0.7,
+      "course": 309.1,
+      "heading": 130,
+      "ship_type": null,
+      "timestamp": "2026-04-03T22:33:50.122948+00:00"
+    },
+    {
+      "mmsi": 636022134,
+      "name": "RED SAKURA",
+      "lat": 39.222865,
+      "lon": -76.57762333333334,
+      "speed": 0,
+      "course": 267.6,
+      "heading": 271,
+      "ship_type": null,
+      "timestamp": "2026-04-03T22:33:50.418118+00:00"
+    },
+    {
+      "mmsi": 244903000,
+      "name": "",
+      "lat": 38.94934833333333,
+      "lon": -76.40046666666667,
+      "speed": 0,
+      "course": 51.2,
+      "heading": 190,
+      "ship_type": null,
+      "timestamp": "2026-04-03T22:33:55.318131+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413166666667,
+      "lon": -76.46738166666667,
+      "speed": 0,
+      "course": 333.4,
+      "heading": 357,
+      "ship_type": null,
+      "timestamp": "2026-04-03T22:33:58.850456+00:00"
+    },
+    {
+      "mmsi": 367523580,
+      "name": "",
+      "lat": 39.23119833333333,
+      "lon": -76.54087666666666,
+      "speed": 7.5,
+      "course": 159,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-03T22:33:58.931156+00:00"
+    },
+    {
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.93599833333334,
+      "lon": -76.41393500000001,
+      "speed": 13.6,
+      "course": 129,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-03T22:34:03.746846+00:00"
+    },
+    {
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.26871166666667,
+      "lon": -76.58099,
+      "speed": 0,
+      "course": 337.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-03T22:34:06.054747+00:00"
+    },
+    {
+      "mmsi": 255806297,
+      "name": "NORDTAJO",
+      "lat": 39.275805,
+      "lon": -76.59453833333333,
+      "speed": 0,
+      "course": 242.1,
+      "heading": 63,
+      "ship_type": null,
+      "timestamp": "2026-04-03T22:34:07.148799+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "",
+      "lat": 39.213033333333335,
+      "lon": -76.57976666666667,
+      "speed": 0,
+      "course": 240.1,
+      "heading": 249,
+      "ship_type": null,
+      "timestamp": "2026-04-03T22:34:11.020639+00:00"
+    }
+  ]
 }
