@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-07T12:43:31.619690+00:00",
+  "collected_at": "2026-04-07T14:17:09.281842+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,348 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 31,
+  "vessels": [
+    {
+      "mmsi": 636018248,
+      "name": "AQUALEO",
+      "lat": 39.20285666666667,
+      "lon": -76.48219833333333,
+      "speed": 0.1,
+      "course": 165.3,
+      "heading": 175,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:40.943754+00:00"
+    },
+    {
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.26105166666667,
+      "lon": -76.55619499999999,
+      "speed": 0,
+      "course": 285.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:43.473059+00:00"
+    },
+    {
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.98298333333333,
+      "lon": -76.46525,
+      "speed": 0,
+      "course": 112.8,
+      "heading": 294,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:44.165411+00:00"
+    },
+    {
+      "mmsi": 368444000,
+      "name": "",
+      "lat": 39.25078333333333,
+      "lon": -76.58066166666667,
+      "speed": 0,
+      "course": 233.8,
+      "heading": 31,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:44.941434+00:00"
+    },
+    {
+      "mmsi": 373662000,
+      "name": "BALSA 87",
+      "lat": 36.937583333333336,
+      "lon": -76.38329666666667,
+      "speed": 0.1,
+      "course": 249.7,
+      "heading": 16,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:44.941496+00:00"
+    },
+    {
+      "mmsi": 368702000,
+      "name": "",
+      "lat": 36.955081666666665,
+      "lon": -76.33157166666666,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:46.664126+00:00"
+    },
+    {
+      "mmsi": 352724000,
+      "name": "TAI KNOWLEDGE",
+      "lat": 36.87936833333333,
+      "lon": -76.33135333333333,
+      "speed": 0,
+      "course": 183.8,
+      "heading": 96,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:46.869024+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "",
+      "lat": 39.239095,
+      "lon": -76.55311833333333,
+      "speed": 9.4,
+      "course": 140,
+      "heading": 141,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:47.183640+00:00"
+    },
+    {
+      "mmsi": 257758000,
+      "name": "TAMERLANE",
+      "lat": 39.24124166666666,
+      "lon": -76.53507833333333,
+      "speed": 0,
+      "course": 50.8,
+      "heading": 324,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:48.609858+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.19656666666666,
+      "lon": -76.49634999999999,
+      "speed": 8.3,
+      "course": 295.1,
+      "heading": 293,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:48.668371+00:00"
+    },
+    {
+      "mmsi": 368185620,
+      "name": "",
+      "lat": 39.23945833333333,
+      "lon": -76.53205333333334,
+      "speed": 0.1,
+      "course": 233.4,
+      "heading": 331,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:50.556431+00:00"
+    },
+    {
+      "mmsi": 338533000,
+      "name": "SHANNON DANN",
+      "lat": 36.994789999999995,
+      "lon": -76.32385333333333,
+      "speed": 1.7,
+      "course": 284.1,
+      "heading": 263,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:51.078501+00:00"
+    },
+    {
+      "mmsi": 367841000,
+      "name": "",
+      "lat": 36.91513166666667,
+      "lon": -76.18292,
+      "speed": 0,
+      "course": 310.7,
+      "heading": 274,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:51.246631+00:00"
+    },
+    {
+      "mmsi": 366902270,
+      "name": "CHARLES JAMES",
+      "lat": 39.19748166666667,
+      "lon": -76.481605,
+      "speed": 0,
+      "course": 228.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:51.435824+00:00"
+    },
+    {
+      "mmsi": 370567000,
+      "name": "",
+      "lat": 39.24418333333333,
+      "lon": -76.53761666666666,
+      "speed": 0,
+      "course": 336.4,
+      "heading": 324,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:53.237189+00:00"
+    },
+    {
+      "mmsi": 374208000,
+      "name": "THOUSAND SPRING",
+      "lat": 38.904003333333335,
+      "lon": -76.42067333333333,
+      "speed": 0.1,
+      "course": 318.7,
+      "heading": 302,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:53.675144+00:00"
+    },
+    {
+      "mmsi": 356963000,
+      "name": "",
+      "lat": 36.961130000000004,
+      "lon": -76.37694333333334,
+      "speed": 0.2,
+      "course": 264.7,
+      "heading": 23,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:53.675193+00:00"
+    },
+    {
+      "mmsi": 367309390,
+      "name": "",
+      "lat": 39.31945333333333,
+      "lon": -76.20873166666667,
+      "speed": 0,
+      "course": 178.7,
+      "heading": 86,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:54.290754+00:00"
+    },
+    {
+      "mmsi": 367261000,
+      "name": "CG FORWARD",
+      "lat": 36.88134166666667,
+      "lon": -76.35193666666667,
+      "speed": 0,
+      "course": 243.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:54.664323+00:00"
+    },
+    {
+      "mmsi": 210623000,
+      "name": "MSC ARCHIMIDIS VIII",
+      "lat": 39.25337833333333,
+      "lon": -76.54606833333334,
+      "speed": 0.1,
+      "course": 160.3,
+      "heading": 307,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:55.586613+00:00"
+    },
+    {
+      "mmsi": 366920910,
+      "name": "THOMAS DANN",
+      "lat": 39.25443666666667,
+      "lon": -76.58819166666667,
+      "speed": 0,
+      "course": 161.2,
+      "heading": 76,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:55.747719+00:00"
+    },
+    {
+      "mmsi": 369493601,
+      "name": "CG45601",
+      "lat": 36.942143333333334,
+      "lon": -76.17569166666667,
+      "speed": 1.4,
+      "course": 180.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:57.447299+00:00"
+    },
+    {
+      "mmsi": 367139510,
+      "name": "APRIL MORAN",
+      "lat": 39.26040833333333,
+      "lon": -76.55613166666667,
+      "speed": 0,
+      "course": 286.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:16:58.804513+00:00"
+    },
+    {
+      "mmsi": 369970489,
+      "name": "",
+      "lat": 38.11551833333333,
+      "lon": -76.40295333333333,
+      "speed": 7.4,
+      "course": 220.1,
+      "heading": 222,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:17:00.536944+00:00"
+    },
+    {
+      "mmsi": 367766220,
+      "name": "",
+      "lat": 39.197705,
+      "lon": -76.48170166666667,
+      "speed": 0,
+      "course": 18.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:17:00.650924+00:00"
+    },
+    {
+      "mmsi": 367473520,
+      "name": "RIVER PILOT",
+      "lat": 39.204548333333335,
+      "lon": -76.58329,
+      "speed": 0,
+      "course": 219.9,
+      "heading": 346,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:17:00.864066+00:00"
+    },
+    {
+      "mmsi": 477043400,
+      "name": "",
+      "lat": 36.96162833333334,
+      "lon": -76.36087333333333,
+      "speed": 0.1,
+      "course": 168.6,
+      "heading": 32,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:17:02.438313+00:00"
+    },
+    {
+      "mmsi": 338902000,
+      "name": "",
+      "lat": 39.27234333333333,
+      "lon": -76.58699666666666,
+      "speed": 0.1,
+      "course": 139.8,
+      "heading": 24,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:17:04.232826+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "",
+      "lat": 39.243325,
+      "lon": -76.57114,
+      "speed": 0,
+      "course": 270.1,
+      "heading": 257,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:17:05.316157+00:00"
+    },
+    {
+      "mmsi": 368382440,
+      "name": "",
+      "lat": 36.87906833333333,
+      "lon": -76.35045666666666,
+      "speed": 0,
+      "course": 349.8,
+      "heading": 271,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:17:05.964211+00:00"
+    },
+    {
+      "mmsi": 367472930,
+      "name": "",
+      "lat": 39.204703333333335,
+      "lon": -76.58068,
+      "speed": 0,
+      "course": 65.7,
+      "heading": 151,
+      "ship_type": null,
+      "timestamp": "2026-04-07T14:17:07.964412+00:00"
+    }
+  ]
 }
