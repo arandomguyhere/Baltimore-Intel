@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-07T10:33:58.972640+00:00",
+  "collected_at": "2026-04-07T11:38:16.513534+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,183 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 16,
+  "vessels": [
+    {
+      "mmsi": 367686270,
+      "name": "STASINOS BOYS",
+      "lat": 39.075435,
+      "lon": -76.39338333333333,
+      "speed": 8.6,
+      "course": 3.6,
+      "heading": 8,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:37:47.132262+00:00"
+    },
+    {
+      "mmsi": 366902270,
+      "name": "CHARLES JAMES",
+      "lat": 39.197424999999996,
+      "lon": -76.481555,
+      "speed": 0,
+      "course": 291.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:38:14.562387+00:00"
+    },
+    {
+      "mmsi": 367137180,
+      "name": "ALLIE B",
+      "lat": 39.287308333333335,
+      "lon": -76.22713333333333,
+      "speed": 0,
+      "course": 95.3,
+      "heading": 200,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:37:48.332714+00:00"
+    },
+    {
+      "mmsi": 367489820,
+      "name": "CAPTAIN MAC",
+      "lat": 39.006975000000004,
+      "lon": -76.40411833333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:37:48.332789+00:00"
+    },
+    {
+      "mmsi": 367261000,
+      "name": "CG FORWARD",
+      "lat": 36.8814,
+      "lon": -76.35194333333334,
+      "speed": 0,
+      "course": 243.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:37:50.741856+00:00"
+    },
+    {
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.21234166666667,
+      "lon": -76.49740666666666,
+      "speed": 0,
+      "course": 355.2,
+      "heading": 268,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:37:51.885807+00:00"
+    },
+    {
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.98298333333333,
+      "lon": -76.46526666666666,
+      "speed": 0,
+      "course": 112.8,
+      "heading": 294,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:37:53.561741+00:00"
+    },
+    {
+      "mmsi": 367472930,
+      "name": "ISLAND LOOKOUT",
+      "lat": 39.22129333333333,
+      "lon": -76.57128333333334,
+      "speed": 5.8,
+      "course": 259.5,
+      "heading": 246,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:37:53.731992+00:00"
+    },
+    {
+      "mmsi": 368707000,
+      "name": "GEORGE WATSON",
+      "lat": 39.267801666666664,
+      "lon": -76.57031166666667,
+      "speed": 0,
+      "course": 0,
+      "heading": 268,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:37:57.278206+00:00"
+    },
+    {
+      "mmsi": 368702000,
+      "name": "WARSHIP",
+      "lat": 36.95498333333333,
+      "lon": -76.33166166666666,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:37:57.463667+00:00"
+    },
+    {
+      "mmsi": 367474640,
+      "name": "CAPE ELIZABETH",
+      "lat": 39.22067666666667,
+      "lon": -76.49614666666666,
+      "speed": 0.1,
+      "course": 85.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:38:00.425389+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "",
+      "lat": 39.25589166666667,
+      "lon": -76.53487333333334,
+      "speed": 0,
+      "course": 205,
+      "heading": 304,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:38:04.948835+00:00"
+    },
+    {
+      "mmsi": 258872000,
+      "name": "HOEGH TRAPPER",
+      "lat": 38.595,
+      "lon": -76.42983333333333,
+      "speed": 15.8,
+      "course": 11.3,
+      "heading": 11,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:38:09.854522+00:00"
+    },
+    {
+      "mmsi": 636016206,
+      "name": "SIEM EDISON",
+      "lat": 39.26177166666666,
+      "lon": -76.59201833333333,
+      "speed": 0,
+      "course": 186.4,
+      "heading": 294,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:38:10.683506+00:00"
+    },
+    {
+      "mmsi": 368430000,
+      "name": "CAPE CANAVERAL",
+      "lat": 36.994521666666664,
+      "lon": -76.30343500000001,
+      "speed": 4.6,
+      "course": 240.8,
+      "heading": 243,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:38:12.344709+00:00"
+    },
+    {
+      "mmsi": 311053300,
+      "name": "JAGUAR MAX",
+      "lat": 36.977675,
+      "lon": -76.340725,
+      "speed": 0,
+      "course": 130.8,
+      "heading": 227,
+      "ship_type": null,
+      "timestamp": "2026-04-07T11:38:15.027263+00:00"
+    }
+  ]
 }
