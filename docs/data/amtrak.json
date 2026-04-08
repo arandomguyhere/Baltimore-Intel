@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-04-08T05:57:09.814974+00:00",
+  "collected_at": "2026-04-08T07:27:04.387694+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "66",
@@ -10,8 +10,8 @@
       "lon": -75.18235193592977,
       "heading": "N",
       "velocity": 2.27273106575012,
-      "lastUpdate": "2026-04-08T01:55:10-04:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lastUpdate": "2026-04-08T03:24:43-04:00",
+      "nextStation": "Newark Penn",
       "status": "Active"
     },
     {
@@ -21,20 +21,9 @@
       "lon": -75.18760859140292,
       "heading": "SE",
       "velocity": 12.2069816589355,
-      "lastUpdate": "2026-04-08T01:55:11-04:00",
+      "lastUpdate": "2026-04-08T02:08:41-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
-    },
-    {
-      "trainNum": "179",
-      "routeName": "Northeast Regional",
-      "lat": 39.962711771541834,
-      "lon": -75.18409143906524,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-04-08T01:52:23-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
     }
   ]
 }
