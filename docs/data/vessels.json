@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-08T17:33:49.547782+00:00",
+  "collected_at": "2026-04-08T18:50:44.476113+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,117 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 10,
+  "vessels": [
+    {
+      "mmsi": 368031660,
+      "name": "JOKER",
+      "lat": 39.21895166666666,
+      "lon": -76.52564833333332,
+      "speed": 0.6,
+      "course": 154.9,
+      "heading": 293,
+      "ship_type": null,
+      "timestamp": "2026-04-08T18:50:15.244714+00:00"
+    },
+    {
+      "mmsi": 367150210,
+      "name": "SEAWARD 15",
+      "lat": 39.20939,
+      "lon": -76.57871833333334,
+      "speed": 6.1,
+      "course": 189.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-08T18:50:15.709894+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "",
+      "lat": 39.24401666666667,
+      "lon": -76.56905,
+      "speed": 0,
+      "course": 64.8,
+      "heading": 256,
+      "ship_type": null,
+      "timestamp": "2026-04-08T18:50:17.612183+00:00"
+    },
+    {
+      "mmsi": 338060011,
+      "name": "CAPT. KENNETH",
+      "lat": 39.222094999999996,
+      "lon": -76.55954833333334,
+      "speed": 5,
+      "course": 268.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-08T18:50:18.352848+00:00"
+    },
+    {
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.232261666666666,
+      "lon": -76.54652833333333,
+      "speed": 7.9,
+      "course": 151.1,
+      "heading": 154,
+      "ship_type": null,
+      "timestamp": "2026-04-08T18:50:20.233268+00:00"
+    },
+    {
+      "mmsi": 636092784,
+      "name": "TUCAPEL",
+      "lat": 36.91249166666667,
+      "lon": -76.32769833333333,
+      "speed": 0,
+      "course": 229.3,
+      "heading": 353,
+      "ship_type": null,
+      "timestamp": "2026-04-08T18:50:20.664674+00:00"
+    },
+    {
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.96454000000001,
+      "lon": -76.29958166666667,
+      "speed": 6.7,
+      "course": 147.9,
+      "heading": 145,
+      "ship_type": null,
+      "timestamp": "2026-04-08T18:50:21.316108+00:00"
+    },
+    {
+      "mmsi": 367473520,
+      "name": "RIVER PILOT",
+      "lat": 39.204348333333336,
+      "lon": -76.58318,
+      "speed": 0,
+      "course": 139,
+      "heading": 167,
+      "ship_type": null,
+      "timestamp": "2026-04-08T18:50:21.508055+00:00"
+    },
+    {
+      "mmsi": 368358680,
+      "name": "",
+      "lat": 36.958463333333334,
+      "lon": -76.41427166666668,
+      "speed": 7.1,
+      "course": 128.8,
+      "heading": 122,
+      "ship_type": null,
+      "timestamp": "2026-04-08T18:50:24.575664+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.27552,
+      "lon": -76.59577833333333,
+      "speed": 0,
+      "course": 228.1,
+      "heading": 63,
+      "ship_type": null,
+      "timestamp": "2026-04-08T18:50:24.930111+00:00"
+    }
+  ]
 }
