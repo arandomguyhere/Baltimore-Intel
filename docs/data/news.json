@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-15T10:38:30.283351+00:00",
+  "collected_at": "2026-04-15T11:39:07.375998+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -54,13 +54,6 @@
       "query": "Baltimore shipping"
     },
     {
-      "title": "Maryland settles with owner of ship that crashed into Baltimore\u2019s Key Bridge - The Washington Post",
-      "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxORVRNLXNQNjd1WU1GcUk1WEFOd2ZsWnhTZUFXQ2ZDOXlnQk1MU0h6eDdtYXo4MWtpMmo5ZlZURVhqWmxlaFJyOTNCWXFQLXpXVHlXYWwtQURXN0wtVld4OFhvbWdEczhGMm52Yl9IZ0V4OUhhZTl6RXdjMFlDUi1nY1lwcXd5a1YyVkR5SjJRUWRkVFNk?oc=5",
-      "source": "The Washington Post",
-      "date": "Fri, 10 Apr 2026 04:13:16 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
       "title": "Maryland settles with owners and operators of cargo ship that hit Baltimore's Key Bridge - CBS News",
       "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQcHgySHl2RVE0Mlk4N1VIS21WbkFzUlQtZ2kxQnllNFRQUDRhUWRRUE9Hd2Jac3V2eFkwM3czeVR0RlQ1dW1mYW8ybU95X2QwTzVFV2dpTFJFMFFBNWxhTXpCcnBNYld2WlJnQjlhUDVYOGkwX2trV1BwZzhXd1ZQdDZzbnhrUkQ2UDJaTDdZSVRpSTFVajNrRmg1RnUyRFpNVEE?oc=5",
       "source": "CBS News",
@@ -75,17 +68,24 @@
       "query": "Baltimore shipping"
     },
     {
-      "title": "Police identify body found in Inner Harbor as missing Branson Oduor - WBAL-TV",
-      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcjlyaE5MbTZaaGU5bmkwZHI3MWJXVUpsRXNqMzBEQURmNDUyU2t5dklwZzNRaDNub2hJZ0Jkd0lhZE9PdVdwb25QcE1mTHVJV1hucERQVGlMOW5JVER4N1Z0WS1xY2dKVEJQa09pVnNEeEcxLTVyZjZDbE1LbUhtcW51YXNra1FQcTlUaTF1cGxIMUlPYW9hRE9hSFdVQUU?oc=5",
-      "source": "WBAL-TV",
-      "date": "Tue, 14 Apr 2026 21:42:00 GMT",
-      "query": "Baltimore harbor"
+      "title": "Maryland settles with owner and operator of ship that crashed into Baltimore\u2019s Key Bridge - AP News",
+      "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQUThMMVhMUmZ0TTlmQ2U2bl9hU1FXTzFTY2k3RGZUQzhveGZ3cnc4SS00ZUpOY1ZDY1dfeEloNnduTVByOFFkMFFIdmpFYjVVZzNWUXlHaHBDazBCS095T2hoUS1pQ3Qzek03UnFpbFRJR1phVVpZV29fWXp2MWczRzFaUjhTbGZnbnJFZ1JETmtQd1pIN1J3anV4dXgtTHZuamNN?oc=5",
+      "source": "AP News",
+      "date": "Thu, 09 Apr 2026 19:24:00 GMT",
+      "query": "Baltimore shipping"
     },
     {
       "title": "Body of missing man pulled from Baltimore's Inner Harbor - CBS News",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPNzR5OHlXSHRBWGpjS2lDd2p0MnJvOU1oQnVDYkJRUklmakRTQ2NwQ0toLVYwWnU5OGVSN1F4cnV2dEpQblp0MTlzd1J3S2RRYzdkdk1iWDBpdTZrQ3ZXREFteTdsbjVkR0VVOFZwb0dibS1kc2RNM28wLXVTUUZxWnIwaE8tMjEzN0ZQVnNZSQ?oc=5",
       "source": "CBS News",
       "date": "Tue, 14 Apr 2026 15:11:00 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
+      "title": "Police identify body found in Inner Harbor as missing Branson Oduor - WBAL-TV",
+      "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNcjlyaE5MbTZaaGU5bmkwZHI3MWJXVUpsRXNqMzBEQURmNDUyU2t5dklwZzNRaDNub2hJZ0Jkd0lhZE9PdVdwb25QcE1mTHVJV1hucERQVGlMOW5JVER4N1Z0WS1xY2dKVEJQa09pVnNEeEcxLTVyZjZDbE1LbUhtcW51YXNra1FQcTlUaTF1cGxIMUlPYW9hRE9hSFdVQUU?oc=5",
+      "source": "WBAL-TV",
+      "date": "Tue, 14 Apr 2026 21:42:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore shipping",
       "Port of Baltimore",
       "Maryland transportation infrastructure",
-      "Baltimore harbor"
+      "Baltimore harbor",
+      "Baltimore shipping"
     ],
     "sources": [
-      "DredgeWire",
+      "Maryland Daily Record",
+      "Jacobs",
       "WBFF",
       "Maryland Matters",
-      "CBS News",
-      "Jacobs",
+      "thebanner.com",
       "USA Today",
+      "WBAL-TV",
       "Office of Governor Wes Moore (.gov)",
-      "WMAR 2 News Baltimore",
-      "Baltimore Sun",
-      "The Washington Post"
+      "TheTrucker.com",
+      "WMAR 2 News Baltimore"
     ]
   }
 }
