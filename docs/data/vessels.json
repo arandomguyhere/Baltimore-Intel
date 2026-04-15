@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-04-15T11:39:38.031965+00:00",
+  "collected_at": "2026-04-15T12:45:00.839298+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,227 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 20,
+  "vessels": [
+    {
+      "mmsi": 369970475,
+      "name": "REYNOLDS",
+      "lat": 39.26686333333334,
+      "lon": -76.57930666666667,
+      "speed": 0,
+      "course": 257.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:31.429221+00:00"
+    },
+    {
+      "mmsi": 352005481,
+      "name": "NORSE OGIJIMA",
+      "lat": 37.13806,
+      "lon": -76.12091666666667,
+      "speed": 8.8,
+      "course": 186.9,
+      "heading": 188,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:31.852158+00:00"
+    },
+    {
+      "mmsi": 368453080,
+      "name": "",
+      "lat": 39.44233,
+      "lon": -75.99201666666666,
+      "speed": 0,
+      "course": 238.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:33.400038+00:00"
+    },
+    {
+      "mmsi": 367728310,
+      "name": "",
+      "lat": 36.97866333333333,
+      "lon": -76.30234999999999,
+      "speed": 0,
+      "course": 284.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:35.489604+00:00"
+    },
+    {
+      "mmsi": 367261000,
+      "name": "",
+      "lat": 36.881355,
+      "lon": -76.35192833333333,
+      "speed": 0,
+      "course": 243.4,
+      "heading": 268,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:37.189913+00:00"
+    },
+    {
+      "mmsi": 367097970,
+      "name": "CRYSTAL COAST",
+      "lat": 37.08559833333334,
+      "lon": -76.33724166666666,
+      "speed": 0.1,
+      "course": 11.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:39.707247+00:00"
+    },
+    {
+      "mmsi": 538010274,
+      "name": "CL XIANGXI",
+      "lat": 38.91843166666667,
+      "lon": -76.413555,
+      "speed": 0,
+      "course": 120.3,
+      "heading": 29,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:40.486775+00:00"
+    },
+    {
+      "mmsi": 367139510,
+      "name": "APRIL MORAN",
+      "lat": 39.26043333333334,
+      "lon": -76.55618,
+      "speed": 0,
+      "course": 256.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:41.941639+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.24379833333333,
+      "lon": -76.56138333333334,
+      "speed": 5.9,
+      "course": 127.8,
+      "heading": 127,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:43.875934+00:00"
+    },
+    {
+      "mmsi": 255806423,
+      "name": "STOLT EBONY",
+      "lat": 39.214126666666665,
+      "lon": -76.57647166666668,
+      "speed": 2.8,
+      "course": 196.8,
+      "heading": 211,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:47.410789+00:00"
+    },
+    {
+      "mmsi": 367563240,
+      "name": "PATRICA JEAN",
+      "lat": 39.20988833333333,
+      "lon": -76.57761166666666,
+      "speed": 0,
+      "course": 224,
+      "heading": 98,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:49.217702+00:00"
+    },
+    {
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.98420333333333,
+      "lon": -76.4672,
+      "speed": 0,
+      "course": 53.9,
+      "heading": 326,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:49.769857+00:00"
+    },
+    {
+      "mmsi": 367150210,
+      "name": "SEAWARD 15",
+      "lat": 39.212718333333335,
+      "lon": -76.495195,
+      "speed": 0,
+      "course": 14.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:51.203397+00:00"
+    },
+    {
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.261015,
+      "lon": -76.55622666666666,
+      "speed": 0,
+      "course": 255.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:51.616710+00:00"
+    },
+    {
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.214595,
+      "lon": -76.52862333333334,
+      "speed": 0,
+      "course": 300.1,
+      "heading": 313,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:52.145456+00:00"
+    },
+    {
+      "mmsi": 367091050,
+      "name": "MCALLISTER RESPONDER",
+      "lat": 39.21438166666667,
+      "lon": -76.57336166666667,
+      "speed": 0,
+      "course": 269.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:53.249284+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.27549,
+      "lon": -76.59591833333334,
+      "speed": 0,
+      "course": 261.2,
+      "heading": 240,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:54.135611+00:00"
+    },
+    {
+      "mmsi": 311000552,
+      "name": "UNITY EXPLORER",
+      "lat": 38.91920666666667,
+      "lon": -76.40171833333333,
+      "speed": 0,
+      "course": 162.5,
+      "heading": 18,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:57.775443+00:00"
+    },
+    {
+      "mmsi": 367137180,
+      "name": "ALLIE B",
+      "lat": 39.22557,
+      "lon": -76.56741666666667,
+      "speed": 0,
+      "course": 276.4,
+      "heading": 344,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:58.195178+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.22130166666667,
+      "lon": -76.56745666666667,
+      "speed": 7.4,
+      "course": 230.9,
+      "heading": 231,
+      "ship_type": null,
+      "timestamp": "2026-04-15T12:44:59.695387+00:00"
+    }
+  ]
 }
