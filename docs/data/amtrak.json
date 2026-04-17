@@ -1,17 +1,116 @@
 {
-  "collected_at": "2026-04-17T08:11:17.329226+00:00",
+  "collected_at": "2026-04-17T09:47:39.645927+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 10,
   "trains": [
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.95652814639582,
-      "lon": -75.18182550697163,
-      "heading": "S",
-      "velocity": 4.86533498764038,
-      "lastUpdate": "2026-04-17T04:05:43-04:00",
+      "lat": 39.33709362049161,
+      "lon": -76.42438720148881,
+      "heading": "W",
+      "velocity": 125.091918945313,
+      "lastUpdate": "2026-04-17T05:46:15-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.77117932531227,
+      "lon": -77.159685553373,
+      "heading": "NE",
+      "velocity": 54.9929313659668,
+      "lastUpdate": "2026-04-17T05:46:14-04:00",
+      "nextStation": "Alexandria",
+      "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.57354387810899,
+      "lon": -76.00802050830053,
+      "heading": "W",
+      "velocity": 115.524528503418,
+      "lastUpdate": "2026-04-17T05:46:17-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "170",
+      "routeName": "Northeast Regional",
+      "lat": 39.31048227971714,
+      "lon": -76.6249487856486,
+      "heading": "NE",
+      "velocity": 20.5283985137939,
+      "lastUpdate": "2026-04-17T05:46:17-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "190",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-04-17T05:43:00-04:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "601",
+      "routeName": "Keystone",
+      "lat": 40.017658665279505,
+      "lon": -75.62835885599527,
+      "heading": "W",
+      "velocity": 59.6764717102051,
+      "lastUpdate": "2026-04-17T05:45:46-04:00",
+      "nextStation": "Downingtown",
+      "status": "Active"
+    },
+    {
+      "trainNum": "605",
+      "routeName": "Keystone",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-04-17T06:00:00-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 39.99829905736896,
+      "lon": -76.06345573215577,
+      "heading": "E",
+      "velocity": 86.283576965332,
+      "lastUpdate": "2026-04-17T05:45:46-04:00",
+      "nextStation": "Parkesburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "642",
+      "routeName": "Keystone",
+      "lat": 40.26271863338754,
+      "lon": -76.87774128468162,
+      "heading": "S",
+      "velocity": 0.62758469581604,
+      "lastUpdate": "2026-04-17T05:46:16-04:00",
+      "nextStation": "Middletown",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 39.2985270196935,
+      "lon": -76.53431154954468,
+      "heading": "E",
+      "velocity": 90.1442108154297,
+      "lastUpdate": "2026-04-17T05:46:16-04:00",
+      "nextStation": "Wilmington",
       "status": "Active"
     }
   ]
