@@ -1,17 +1,28 @@
 {
-  "collected_at": "2026-04-17T04:21:17.137334+00:00",
+  "collected_at": "2026-04-17T06:19:20.909298+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.19224952643158,
-      "lon": -76.69462043115648,
-      "heading": "NW",
-      "velocity": 0.017895519733429,
-      "lastUpdate": "2026-04-17T00:19:09-04:00",
-      "nextStation": "Baltimore Airport",
+      "lat": 39.95648618438005,
+      "lon": -75.1820315010343,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-04-17T01:56:10-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 39.95652814639582,
+      "lon": -75.18182550697163,
+      "heading": "S",
+      "velocity": 4.86533498764038,
+      "lastUpdate": "2026-04-17T02:16:11-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
   ]
