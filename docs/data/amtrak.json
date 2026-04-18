@@ -1,28 +1,61 @@
 {
-  "collected_at": "2026-04-18T08:26:42.018043+00:00",
+  "collected_at": "2026-04-18T09:12:12.164768+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 6,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.89543956828937,
-      "lon": -75.29197873711759,
+      "lat": 39.467525783918845,
+      "lon": -76.19875542472987,
       "heading": "SW",
-      "velocity": 88.3770217895508,
-      "lastUpdate": "2026-04-18T04:25:15-04:00",
-      "nextStation": "Wilmington",
+      "velocity": 118.721115112305,
+      "lastUpdate": "2026-04-18T05:10:15-04:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
-      "trainNum": "151",
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.097331980367976,
+      "lon": -77.3964256984021,
+      "heading": "NW",
+      "velocity": 69.5710678100586,
+      "lastUpdate": "2026-04-18T05:10:14-04:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "150",
       "routeName": "Northeast Regional",
       "lat": 39.95680206539882,
       "lon": -75.18325177743992,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-04-18T04:37:00-04:00",
+      "lastUpdate": "2026-04-18T05:00:00-04:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.83382074739956,
+      "lon": -75.3926486261979,
+      "heading": "SW",
+      "velocity": 37.3859786987305,
+      "lastUpdate": "2026-04-18T05:10:16-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-04-18T05:05:00-04:00",
+      "nextStation": "Washington Union",
       "status": "Predeparture"
     },
     {
