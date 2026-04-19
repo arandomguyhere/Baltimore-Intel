@@ -1,51 +1,40 @@
 {
-  "collected_at": "2026-04-19T03:43:41.431265+00:00",
+  "collected_at": "2026-04-19T05:49:40.608287+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
-      "trainNum": "66",
+      "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.7373508424174,
-      "lon": -75.55208012767444,
+      "lat": 39.955757577249145,
+      "lon": -75.18165003086922,
       "heading": "N",
-      "velocity": 0.174481317400932,
-      "lastUpdate": "2026-04-18T23:40:12-04:00",
+      "velocity": 0,
+      "lastUpdate": "2026-04-19T01:46:11-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "165",
+      "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.94815080673261,
-      "lon": -76.87234721769772,
+      "lat": 39.953220802713844,
+      "lon": -75.18252741199274,
       "heading": "N",
-      "velocity": 0.0156585797667503,
-      "lastUpdate": "2026-04-18T23:40:14-04:00",
-      "nextStation": "Washington Union",
+      "velocity": 10.7596817016602,
+      "lastUpdate": "2026-04-19T01:46:10-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "671",
-      "routeName": "Keystone",
-      "lat": 40.25579877119567,
-      "lon": -76.87361377992747,
+      "trainNum": "169",
+      "routeName": "Northeast Regional",
+      "lat": 39.964294870807684,
+      "lon": -75.18543421258673,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-04-18T23:31:56-04:00",
-      "nextStation": "Harrisburg",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "2259",
-      "routeName": "Acela",
-      "lat": 38.906868140552994,
-      "lon": -77.00284804884271,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-04-18T23:40:56-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
+      "velocity": 19.5463809967041,
+      "lastUpdate": "2026-04-19T01:46:11-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
     }
   ]
 }
