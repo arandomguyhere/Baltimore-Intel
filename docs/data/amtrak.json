@@ -1,50 +1,28 @@
 {
-  "collected_at": "2026-04-20T04:28:43.904382+00:00",
+  "collected_at": "2026-04-20T06:32:49.757495+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 2,
   "trains": [
     {
-      "trainNum": "124",
+      "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.24753189971293,
-      "lon": -77.43413018696043,
+      "lat": 38.61518104354776,
+      "lon": -77.69835148197221,
       "heading": "N",
-      "velocity": 68.448127746582,
-      "lastUpdate": "2026-04-20T00:25:40-04:00",
-      "nextStation": "Fredericksburg",
+      "velocity": 74.0717926025391,
+      "lastUpdate": "2026-04-20T02:31:41-04:00",
+      "nextStation": "Manassas",
       "status": "Active"
     },
     {
-      "trainNum": "139",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.28538537909885,
-      "lon": -76.6677420714877,
+      "lat": 39.9563793724083,
+      "lon": -75.18065820959296,
       "heading": "N",
-      "velocity": 55.7132263183594,
-      "lastUpdate": "2026-04-20T00:25:40-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 38.90723435163277,
-      "lon": -77.00268783181514,
-      "heading": "N",
-      "velocity": 10.511381149292,
-      "lastUpdate": "2026-04-20T00:25:40-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2275",
-      "routeName": "Acela",
-      "lat": 38.918308421048415,
-      "lon": -76.97094191160296,
-      "heading": "N",
-      "velocity": 43.4000015258789,
-      "lastUpdate": "2026-04-20T00:25:40-04:00",
-      "nextStation": "Washington Union",
+      "velocity": 0,
+      "lastUpdate": "2026-04-20T02:31:41-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
   ]
