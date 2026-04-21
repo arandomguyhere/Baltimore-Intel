@@ -1,50 +1,39 @@
 {
-  "collected_at": "2026-04-21T03:28:18.598382+00:00",
+  "collected_at": "2026-04-21T05:39:39.313386+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.61649357034656,
-      "lon": -75.82599835864994,
+      "lat": 39.95315213770596,
+      "lon": -75.18236719393786,
       "heading": "N",
-      "velocity": 121.376365661621,
-      "lastUpdate": "2026-04-20T23:25:38-04:00",
-      "nextStation": "Wilmington",
+      "velocity": 11.0974597930908,
+      "lastUpdate": "2026-04-21T01:35:40-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "175",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 38.910167854283706,
-      "lon": -77.00109328749762,
+      "lat": 39.95724912355161,
+      "lon": -75.18147455490433,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-04-20T23:19:59-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 40.00455138109682,
-      "lon": -75.1215303857946,
-      "heading": "N",
-      "velocity": 69.5308074951172,
-      "lastUpdate": "2026-04-20T23:25:40-04:00",
-      "nextStation": "Trenton",
+      "velocity": 0.800824522972107,
+      "lastUpdate": "2026-04-21T01:37:39-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "657",
       "routeName": "Keystone",
-      "lat": 40.05508464237075,
-      "lon": -76.30896972914546,
+      "lat": 40.25917477976775,
+      "lon": -76.87587208186022,
       "heading": "N",
-      "velocity": 0.00223693996667862,
-      "lastUpdate": "2026-04-20T23:25:41-04:00",
-      "nextStation": "Lancaster",
+      "velocity": 22.6780967712402,
+      "lastUpdate": "2026-04-20T23:58:37-04:00",
+      "nextStation": "Harrisburg",
       "status": "Active"
     }
   ]
