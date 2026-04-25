@@ -1,51 +1,62 @@
 {
-  "collected_at": "2026-04-25T08:51:00.498457+00:00",
+  "collected_at": "2026-04-25T09:51:01.178410+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.738346478533224,
-      "lon": -75.55435368845261,
+      "lat": 39.1938288107223,
+      "lon": -76.69532233547294,
       "heading": "N",
-      "velocity": 21.7666206359863,
-      "lastUpdate": "2026-04-25T04:49:52-04:00",
-      "nextStation": "Baltimore Penn",
+      "velocity": 39.3824996948242,
+      "lastUpdate": "2026-04-25T05:49:53-04:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
     },
     {
       "trainNum": "98",
       "routeName": "Silver Meteor",
-      "lat": 38.105281810766755,
-      "lon": -77.40269706280968,
+      "lat": 38.64419183919593,
+      "lon": -77.25139089615132,
       "heading": "N",
-      "velocity": 68.7255096435547,
-      "lastUpdate": "2026-04-25T04:49:52-04:00",
-      "nextStation": "Fredericksburg",
+      "velocity": 68.9559097290039,
+      "lastUpdate": "2026-04-25T05:49:53-04:00",
+      "nextStation": "Alexandria",
       "status": "Active"
     },
     {
-      "trainNum": "151",
+      "trainNum": "144",
       "routeName": "Northeast Regional",
       "lat": 39.95680206539882,
       "lon": -75.18325177743992,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-04-25T04:42:00-04:00",
+      "lastUpdate": "2026-04-25T05:55:00-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Predeparture"
     },
     {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.54939302190983,
+      "lon": -76.09992422171172,
+      "heading": "N",
+      "velocity": 94.5129547119141,
+      "lastUpdate": "2026-04-25T05:49:53-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
       "trainNum": "160",
       "routeName": "Northeast Regional",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
+      "lat": 39.19916557372563,
+      "lon": -76.69713050336604,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-04-25T05:05:00-04:00",
-      "nextStation": "Washington Union",
-      "status": "Predeparture"
+      "velocity": 57.5162010192871,
+      "lastUpdate": "2026-04-25T05:49:51-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
     }
   ]
 }
