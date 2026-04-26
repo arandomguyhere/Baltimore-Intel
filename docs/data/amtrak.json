@@ -1,28 +1,50 @@
 {
-  "collected_at": "2026-04-26T14:09:22.335760+00:00",
+  "collected_at": "2026-04-26T15:01:24.321653+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 5,
   "trains": [
     {
-      "trainNum": "118",
-      "routeName": "Northeast Regional",
-      "lat": 38.91946809158214,
-      "lon": -76.90912853841458,
-      "heading": "N",
-      "velocity": 107.556549072266,
-      "lastUpdate": "2026-04-26T10:07:50-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "154",
+      "trainNum": "88",
       "routeName": "Northeast Regional",
       "lat": 38.90137078736586,
       "lon": -77.00495528516336,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-04-26T10:05:00-04:00",
+      "lastUpdate": "2026-04-26T11:10:00-04:00",
       "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "118",
+      "routeName": "Northeast Regional",
+      "lat": 39.34527233414639,
+      "lon": -76.39689848437759,
+      "heading": "N",
+      "velocity": 122.353904724121,
+      "lastUpdate": "2026-04-26T10:58:50-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "154",
+      "routeName": "Northeast Regional",
+      "lat": 39.29744745512235,
+      "lon": -76.65140753312247,
+      "heading": "N",
+      "velocity": 23.3335208892822,
+      "lastUpdate": "2026-04-26T10:58:57-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "666",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-04-26T11:05:00-04:00",
+      "nextStation": "Harrisburg",
       "status": "Predeparture"
     },
     {
