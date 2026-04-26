@@ -1,18 +1,62 @@
 {
-  "collected_at": "2026-04-26T08:04:45.364533+00:00",
+  "collected_at": "2026-04-26T09:14:05.160072+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.95663877241721,
-      "lon": -75.1818407659832,
+      "lat": 39.557426776402146,
+      "lon": -76.07576955161298,
+      "heading": "N",
+      "velocity": 85.5137405395508,
+      "lastUpdate": "2026-04-26T05:10:44-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.23077774599036,
+      "lon": -77.44222497546755,
+      "heading": "N",
+      "velocity": 70.5687484741211,
+      "lastUpdate": "2026-04-26T05:10:43-04:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "150",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-04-26T04:00:42-04:00",
+      "lastUpdate": "2026-04-26T06:00:00-04:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.87600368012182,
+      "lon": -75.32809630035813,
+      "heading": "N",
+      "velocity": 108.100128173828,
+      "lastUpdate": "2026-04-26T05:10:45-04:00",
+      "nextStation": "Wilmington",
       "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-04-26T05:05:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
