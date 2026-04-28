@@ -1,29 +1,95 @@
 {
-  "collected_at": "2026-04-28T06:43:38.860274+00:00",
+  "collected_at": "2026-04-28T09:09:48.781480+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 11,
   "trains": [
-    {
-      "trainNum": "66",
-      "routeName": "Northeast Regional",
-      "lat": 39.95312543569492,
-      "lon": -75.18252741198694,
-      "heading": "N",
-      "velocity": 5.3194432258606,
-      "lastUpdate": "2026-04-28T02:40:40-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
     {
       "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.95614667635328,
-      "lon": -75.18090235065611,
+      "lat": 39.736717603358784,
+      "lon": -75.55021855504843,
       "heading": "N",
-      "velocity": 0.130487903952599,
-      "lastUpdate": "2026-04-28T02:40:40-04:00",
-      "nextStation": "Philadelphia 30th Street",
+      "velocity": 15.2715892791748,
+      "lastUpdate": "2026-04-28T05:07:44-04:00",
+      "nextStation": "Wilmington",
       "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.06575772560966,
+      "lon": -77.37690969951028,
+      "heading": "N",
+      "velocity": 69.2489547729492,
+      "lastUpdate": "2026-04-28T05:07:44-04:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.8950428391764,
+      "lon": -75.29292478239269,
+      "heading": "N",
+      "velocity": 89.1823272705078,
+      "lastUpdate": "2026-04-28T05:07:46-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "170",
+      "routeName": "Northeast Regional",
+      "lat": 38.90414444597014,
+      "lon": -77.0037483179568,
+      "heading": "N",
+      "velocity": 13.9786376953125,
+      "lastUpdate": "2026-04-28T05:07:43-04:00",
+      "nextStation": "Washington Union",
+      "status": "Active"
+    },
+    {
+      "trainNum": "190",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-04-28T05:43:00-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "601",
+      "routeName": "Keystone",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-04-28T04:55:00-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.2252583007609,
+      "lon": -76.83389513742466,
+      "heading": "N",
+      "velocity": 108.087501525879,
+      "lastUpdate": "2026-04-28T05:05:45-04:00",
+      "nextStation": "Middletown",
+      "status": "Active"
+    },
+    {
+      "trainNum": "642",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-04-28T05:30:00-04:00",
+      "nextStation": "Harrisburg",
+      "status": "Predeparture"
     },
     {
       "trainNum": "657",
@@ -34,6 +100,28 @@
       "velocity": 14.9377603530884,
       "lastUpdate": "2026-04-27T23:58:39-04:00",
       "nextStation": "Harrisburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2102",
+      "routeName": "Acela",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-04-28T05:40:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 38.94974535112464,
+      "lon": -76.87044749720268,
+      "heading": "N",
+      "velocity": 126.179077148438,
+      "lastUpdate": "2026-04-28T05:07:45-04:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
     }
   ]
