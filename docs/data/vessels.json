@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-02T06:30:31.926976+00:00",
+  "collected_at": "2026-05-02T08:11:19.340996+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,216 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 19,
+  "vessel_count": 12,
   "vessels": [
     {
-      "mmsi": 367416830,
-      "name": "INNER HARBOR SPIRIT",
-      "lat": 39.283175,
-      "lon": -76.61137166666667,
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.269081666666665,
+      "lon": -76.58078666666667,
       "speed": 0,
-      "course": 265.6,
+      "course": 354.9,
+      "heading": 208,
+      "ship_type": null,
+      "timestamp": "2026-05-02T08:10:57.190420+00:00"
+    },
+    {
+      "mmsi": 563252300,
+      "name": "ONE SPRINTER",
+      "lat": 36.978743333333334,
+      "lon": -76.12991000000001,
+      "speed": 15.8,
+      "course": 108.5,
+      "heading": 108,
+      "ship_type": null,
+      "timestamp": "2026-05-02T08:10:58.882246+00:00"
+    },
+    {
+      "mmsi": 367069420,
+      "name": "S MARTIN THORPE",
+      "lat": 36.99839166666666,
+      "lon": -76.34665,
+      "speed": 6,
+      "course": 229.8,
+      "heading": 231,
+      "ship_type": null,
+      "timestamp": "2026-05-02T08:11:02.586793+00:00"
+    },
+    {
+      "mmsi": 367350650,
+      "name": "LADY MARYLAND",
+      "lat": 39.27887,
+      "lon": -76.59633333333333,
+      "speed": 0,
+      "course": 334.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-05-02T06:30:02.343382+00:00"
+      "timestamp": "2026-05-02T08:11:03.882581+00:00"
+    },
+    {
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.26699333333333,
+      "lon": -76.57952,
+      "speed": 0,
+      "course": 135.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-05-02T08:11:06.426508+00:00"
     },
     {
       "mmsi": 367139510,
       "name": "APRIL MORAN",
-      "lat": 39.255806666666665,
-      "lon": -76.56581833333333,
-      "speed": 0.4,
-      "course": 174.3,
+      "lat": 39.2604,
+      "lon": -76.55609166666666,
+      "speed": 0,
+      "course": 84.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-05-02T06:30:08.487166+00:00"
+      "timestamp": "2026-05-02T08:11:08.013415+00:00"
     },
     {
-      "mmsi": 352003115,
-      "name": "TRITON CENTURY",
-      "lat": 39.222885,
-      "lon": -76.57727666666666,
-      "speed": 0.1,
-      "course": 176.1,
-      "heading": 271,
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.98426,
+      "lon": -76.46724166666667,
+      "speed": 0,
+      "course": 183.8,
+      "heading": 296,
       "ship_type": null,
-      "timestamp": "2026-05-02T06:30:09.026604+00:00"
+      "timestamp": "2026-05-02T08:11:08.160952+00:00"
     },
     {
       "mmsi": 368269610,
       "name": "HOS ROSEBUD",
-      "lat": 36.92023666666667,
-      "lon": -76.182535,
+      "lat": 36.92022,
+      "lon": -76.18252333333334,
       "speed": 0,
       "course": 260,
-      "heading": 272,
+      "heading": 273,
       "ship_type": null,
-      "timestamp": "2026-05-02T06:30:09.558262+00:00"
+      "timestamp": "2026-05-02T08:11:09.072179+00:00"
     },
     {
-      "mmsi": 366966210,
-      "name": "MCALLISTER SISTERS",
-      "lat": 36.90917666666667,
-      "lon": -76.32724,
-      "speed": 0,
-      "course": 286,
-      "heading": 167,
+      "mmsi": 319261700,
+      "name": "NORN",
+      "lat": 38.97555,
+      "lon": -76.46513333333334,
+      "speed": 0.1,
+      "course": 166.6,
+      "heading": 236,
       "ship_type": null,
-      "timestamp": "2026-05-02T06:30:09.741907+00:00"
+      "timestamp": "2026-05-02T08:11:10.325010+00:00"
     },
     {
-      "mmsi": 366828620,
-      "name": "VICKI M MCALLISTER",
-      "lat": 39.26862333333334,
-      "lon": -76.58106500000001,
+      "mmsi": 209682000,
+      "name": "AESCHYLUS GRAECIA",
+      "lat": 38.92199666666667,
+      "lon": -76.41572833333333,
       "speed": 0,
-      "course": 224.2,
-      "heading": 511,
+      "course": 291,
+      "heading": 204,
       "ship_type": null,
-      "timestamp": "2026-05-02T06:30:10.137914+00:00"
+      "timestamp": "2026-05-02T08:11:10.490624+00:00"
     },
     {
-      "mmsi": 368271280,
-      "name": "DB AVALON",
-      "lat": 39.170089999999995,
-      "lon": -76.40518666666667,
+      "mmsi": 367834000,
+      "name": "GARY I GORDON",
+      "lat": 39.26905,
+      "lon": -76.57088666666667,
       "speed": 0,
-      "course": 134.2,
-      "heading": 113,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:10.367180+00:00"
-    },
-    {
-      "mmsi": 338329000,
-      "name": "KINGS POINT",
-      "lat": 39.24361833333333,
-      "lon": -76.56887666666667,
-      "speed": 0,
-      "course": 5.3,
+      "course": 0,
       "heading": 266,
       "ship_type": null,
-      "timestamp": "2026-05-02T06:30:10.697832+00:00"
-    },
-    {
-      "mmsi": 366811580,
-      "name": "MISS CATE",
-      "lat": 37.03403333333333,
-      "lon": -76.17518333333334,
-      "speed": 1.5,
-      "course": 194.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:11.095740+00:00"
-    },
-    {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.25425499999999,
-      "lon": -76.567565,
-      "speed": 0.9,
-      "course": 316.3,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:22.674633+00:00"
+      "timestamp": "2026-05-02T08:11:11.500088+00:00"
     },
     {
       "mmsi": 368441690,
       "name": "FEDERAL HILL",
-      "lat": 39.25588833333334,
+      "lat": 39.25589,
       "lon": -76.53488166666666,
       "speed": 0,
-      "course": 283.1,
-      "heading": 293,
+      "course": 56.9,
+      "heading": 295,
       "ship_type": null,
-      "timestamp": "2026-05-02T06:30:17.440166+00:00"
-    },
-    {
-      "mmsi": 232061513,
-      "name": "STORM DIVER",
-      "lat": 36.92452333333333,
-      "lon": -76.19101500000001,
-      "speed": 0,
-      "course": 255.3,
-      "heading": 180,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:17.599695+00:00"
-    },
-    {
-      "mmsi": 367093970,
-      "name": "CAPT STEVE",
-      "lat": 39.209075,
-      "lon": -76.58316166666667,
-      "speed": 0,
-      "course": 261.1,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:18.124129+00:00"
-    },
-    {
-      "mmsi": 636023593,
-      "name": "LAKE WAKATIPU",
-      "lat": 39.211668333333336,
-      "lon": -76.48288166666666,
-      "speed": 0,
-      "course": 298.9,
-      "heading": 264,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:22.279145+00:00"
-    },
-    {
-      "mmsi": 367304270,
-      "name": "VIRGINIA",
-      "lat": 36.96496833333333,
-      "lon": -76.41212666666667,
-      "speed": 0,
-      "course": 244.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:24.715849+00:00"
-    },
-    {
-      "mmsi": 367660050,
-      "name": "ISLAND EXPLORER",
-      "lat": 39.204746666666665,
-      "lon": -76.58067833333332,
-      "speed": 0,
-      "course": 279.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:24.764026+00:00"
-    },
-    {
-      "mmsi": 636022717,
-      "name": "ADALINE",
-      "lat": 38.61527,
-      "lon": -76.43664166666667,
-      "speed": 13.5,
-      "course": 178.8,
-      "heading": 180,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:27.805462+00:00"
-    },
-    {
-      "mmsi": 563029900,
-      "name": "TAIPEI TRIUMPH",
-      "lat": 36.99851,
-      "lon": -76.20995333333333,
-      "speed": 15.6,
-      "course": 107.8,
-      "heading": 107,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:28.699967+00:00"
-    },
-    {
-      "mmsi": 367474640,
-      "name": "CAPE ELIZABETH",
-      "lat": 39.20994833333334,
-      "lon": -76.50359666666667,
-      "speed": 10.1,
-      "course": 349.9,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-02T06:30:28.772868+00:00"
+      "timestamp": "2026-05-02T08:11:17.527475+00:00"
     }
   ]
 }
