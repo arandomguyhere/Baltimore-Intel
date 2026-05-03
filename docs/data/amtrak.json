@@ -1,51 +1,40 @@
 {
-  "collected_at": "2026-05-03T08:25:22.510012+00:00",
+  "collected_at": "2026-05-03T09:47:10.075182+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.955547768210764,
-      "lon": -75.18155847882747,
+      "lat": 39.28921533612867,
+      "lon": -76.66068487951657,
       "heading": "N",
-      "velocity": 0.124274201691151,
-      "lastUpdate": "2026-05-03T04:20:43-04:00",
-      "nextStation": "Wilmington",
+      "velocity": 68.7903823852539,
+      "lastUpdate": "2026-05-03T05:46:14-04:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
-    },
-    {
-      "trainNum": "150",
-      "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-05-03T05:00:00-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Predeparture"
     },
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
+      "lat": 39.57113298869531,
+      "lon": -76.03340351113476,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-05-03T04:42:00-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Predeparture"
+      "velocity": 92.1820602416992,
+      "lastUpdate": "2026-05-03T05:46:16-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
     },
     {
       "trainNum": "160",
       "routeName": "Northeast Regional",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
+      "lat": 39.19267677251333,
+      "lon": -76.69472724321612,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-05-03T05:05:00-04:00",
-      "nextStation": "Washington Union",
-      "status": "Predeparture"
+      "velocity": 0.0268432796001434,
+      "lastUpdate": "2026-05-03T05:46:16-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
     }
   ]
 }
