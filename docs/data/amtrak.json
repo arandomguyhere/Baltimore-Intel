@@ -1,171 +1,17 @@
 {
-  "collected_at": "2026-05-03T00:08:08.255318+00:00",
+  "collected_at": "2026-05-03T04:10:51.156470+00:00",
   "source": "amtraker.com",
-  "total_trains": 15,
+  "total_trains": 1,
   "trains": [
-    {
-      "trainNum": "19",
-      "routeName": "Crescent",
-      "lat": 38.74507914836431,
-      "lon": -77.49767546375014,
-      "heading": "N",
-      "velocity": 46.0093803405762,
-      "lastUpdate": "2026-05-02T20:05:04-04:00",
-      "nextStation": "Culpeper",
-      "status": "Active"
-    },
-    {
-      "trainNum": "40",
-      "routeName": "Floridian",
-      "lat": 39.47995018826739,
-      "lon": -77.96403765415414,
-      "heading": "N",
-      "velocity": 50.7964324951172,
-      "lastUpdate": "2026-05-02T20:05:02-04:00",
-      "nextStation": "Cumberland",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.47794345627826,
-      "lon": -77.97550457426175,
+      "lat": 39.95323606172292,
+      "lon": -75.18235956494053,
       "heading": "N",
-      "velocity": 0.017895519733429,
-      "lastUpdate": "2026-05-02T20:05:06-04:00",
-      "nextStation": "Manassas",
-      "status": "Active"
-    },
-    {
-      "trainNum": "87",
-      "routeName": "Northeast Regional",
-      "lat": 38.60591897330029,
-      "lon": -77.25509878098538,
-      "heading": "N",
-      "velocity": 38.5760307312012,
-      "lastUpdate": "2026-05-02T20:05:06-04:00",
-      "nextStation": "Quantico",
-      "status": "Active"
-    },
-    {
-      "trainNum": "90",
-      "routeName": "Palmetto",
-      "lat": 38.9164315915593,
-      "lon": -76.92016827566965,
-      "heading": "N",
-      "velocity": 120.673965454102,
-      "lastUpdate": "2026-05-02T20:05:05-04:00",
-      "nextStation": "New Carrollton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "97",
-      "routeName": "Silver Meteor",
-      "lat": 38.80556501684092,
-      "lon": -77.06363144759113,
-      "heading": "N",
-      "velocity": 18.0252628326416,
-      "lastUpdate": "2026-05-02T20:05:05-04:00",
-      "nextStation": "Fredericksburg",
-      "status": "Active"
-    },
-    {
-      "trainNum": "107",
-      "routeName": "Vermonter",
-      "lat": 39.89725917879832,
-      "lon": -75.28789700993707,
-      "heading": "N",
-      "velocity": 88.3747863769531,
-      "lastUpdate": "2026-05-02T20:05:06-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "124",
-      "routeName": "Northeast Regional",
-      "lat": 38.89875809183591,
-      "lon": -77.00503768502958,
-      "heading": "N",
-      "velocity": 0.0223693996667862,
-      "lastUpdate": "2026-05-02T20:05:09-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 38.762012604942846,
-      "lon": -77.1735329081198,
-      "heading": "N",
-      "velocity": 70.2868881225586,
-      "lastUpdate": "2026-05-02T20:05:06-04:00",
-      "nextStation": "Alexandria",
-      "status": "Active"
-    },
-    {
-      "trainNum": "135",
-      "routeName": "Northeast Regional",
-      "lat": 39.737057111397924,
-      "lon": -75.55100438231712,
-      "heading": "N",
-      "velocity": 5.51853084564209,
-      "lastUpdate": "2026-05-02T20:05:09-04:00",
-      "nextStation": "Newark",
-      "status": "Active"
-    },
-    {
-      "trainNum": "158",
-      "routeName": "Northeast Regional",
-      "lat": 39.93645901822839,
-      "lon": -75.2146395421398,
-      "heading": "N",
-      "velocity": 71.3091735839844,
-      "lastUpdate": "2026-05-02T20:05:09-04:00",
+      "velocity": 18.63818359375,
+      "lastUpdate": "2026-05-03T00:08:07-04:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "163",
-      "routeName": "Northeast Regional",
-      "lat": 39.19024299506163,
-      "lon": -76.69374305075902,
-      "heading": "N",
-      "velocity": 26.8007774353027,
-      "lastUpdate": "2026-05-02T20:05:09-04:00",
-      "nextStation": "New Carrollton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "669",
-      "routeName": "Keystone",
-      "lat": 39.958897046732424,
-      "lon": -75.924799069948,
-      "heading": "N",
-      "velocity": 37.7172203063965,
-      "lastUpdate": "2026-05-02T20:04:08-04:00",
-      "nextStation": "Lancaster",
-      "status": "Active"
-    },
-    {
-      "trainNum": "674",
-      "routeName": "Keystone",
-      "lat": 39.98603862695802,
-      "lon": -75.82043655070603,
-      "heading": "N",
-      "velocity": 0.017895519733429,
-      "lastUpdate": "2026-05-02T20:05:09-04:00",
-      "nextStation": "Downingtown",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2255",
-      "routeName": "Acela",
-      "lat": 39.3081019085879,
-      "lon": -76.61562566258432,
-      "heading": "N",
-      "velocity": 18.1482944488525,
-      "lastUpdate": "2026-05-02T20:05:07-04:00",
-      "nextStation": "Baltimore Airport",
       "status": "Active"
     }
   ]
