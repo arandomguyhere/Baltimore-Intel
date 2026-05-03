@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-03T22:55:56.591166+00:00",
+  "collected_at": "2026-05-03T23:43:42.687863+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,161 +12,183 @@
       -75.8
     ]
   ],
-  "vessel_count": 14,
+  "vessel_count": 16,
   "vessels": [
     {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.24075333333334,
-      "lon": -76.53501166666666,
+      "mmsi": 366999646,
+      "name": "USCGC SLEDGE",
+      "lat": 39.200515,
+      "lon": -76.57429166666667,
+      "speed": 0.1,
+      "course": 8.6,
+      "heading": 331,
+      "ship_type": null,
+      "timestamp": "2026-05-03T23:43:14.342564+00:00"
+    },
+    {
+      "mmsi": 367093970,
+      "name": "CAPT STEVE",
+      "lat": 39.20907833333333,
+      "lon": -76.583165,
       "speed": 0,
-      "course": 130,
-      "heading": 39,
+      "course": 211.7,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-05-03T22:55:28.742195+00:00"
+      "timestamp": "2026-05-03T23:43:18.918273+00:00"
     },
     {
-      "mmsi": 366870980,
-      "name": "GERI T",
-      "lat": 38.79699666666667,
-      "lon": -76.36848666666667,
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.963004999999995,
+      "lon": -76.29589333333334,
       "speed": 0,
-      "course": 292.9,
-      "heading": 344,
+      "course": 289,
+      "heading": 222,
       "ship_type": null,
-      "timestamp": "2026-05-03T22:55:30.913070+00:00"
+      "timestamp": "2026-05-03T23:43:20.173821+00:00"
     },
     {
-      "mmsi": 215809000,
-      "name": "ATLANTIC SAIL",
-      "lat": 39.239916666666666,
-      "lon": -76.53037666666667,
-      "speed": 0.2,
-      "course": 66.5,
-      "heading": 246,
+      "mmsi": 368337530,
+      "name": "EZRA SOL",
+      "lat": 39.16614666666667,
+      "lon": -76.39277333333332,
+      "speed": 0,
+      "course": 109.1,
+      "heading": 112,
       "ship_type": null,
-      "timestamp": "2026-05-03T22:55:33.430056+00:00"
+      "timestamp": "2026-05-03T23:43:25.668777+00:00"
     },
     {
-      "mmsi": 368441690,
-      "name": "FEDERAL HILL",
-      "lat": 39.24050666666667,
-      "lon": -76.52749333333333,
-      "speed": 7.8,
-      "course": 353.8,
-      "heading": 342,
+      "mmsi": 636025390,
+      "name": "KERKYRA I",
+      "lat": 39.22178666666667,
+      "lon": -76.576675,
+      "speed": 0.1,
+      "course": 334,
+      "heading": 276,
       "ship_type": null,
-      "timestamp": "2026-05-03T22:55:36.011963+00:00"
+      "timestamp": "2026-05-03T23:43:25.911181+00:00"
+    },
+    {
+      "mmsi": 232061513,
+      "name": "STORM DIVER",
+      "lat": 36.924510000000005,
+      "lon": -76.19101,
+      "speed": 0,
+      "course": 260.8,
+      "heading": 179,
+      "ship_type": null,
+      "timestamp": "2026-05-03T23:43:26.741296+00:00"
     },
     {
       "mmsi": 367161960,
       "name": "TIMOTHY M",
-      "lat": 38.89633333333334,
-      "lon": -76.4087,
-      "speed": 7.3,
-      "course": 191,
-      "heading": 193,
+      "lat": 38.80055,
+      "lon": -76.43476666666668,
+      "speed": 7.6,
+      "course": 191.3,
+      "heading": 191,
       "ship_type": null,
-      "timestamp": "2026-05-03T22:55:37.424901+00:00"
+      "timestamp": "2026-05-03T23:43:37.977711+00:00"
+    },
+    {
+      "mmsi": 368269610,
+      "name": "HOS ROSEBUD",
+      "lat": 36.920190000000005,
+      "lon": -76.18253,
+      "speed": 0,
+      "course": 260,
+      "heading": 273,
+      "ship_type": null,
+      "timestamp": "2026-05-03T23:43:29.638254+00:00"
+    },
+    {
+      "mmsi": 368453080,
+      "name": "PESCADERO PT",
+      "lat": 38.797378333333334,
+      "lon": -76.36842833333334,
+      "speed": 0,
+      "course": 236.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-05-03T23:43:29.896413+00:00"
+    },
+    {
+      "mmsi": 367309390,
+      "name": "ALICE C",
+      "lat": 39.108801666666665,
+      "lon": -76.39503666666666,
+      "speed": 2.6,
+      "course": 177.8,
+      "heading": 166,
+      "ship_type": null,
+      "timestamp": "2026-05-03T23:43:30.899230+00:00"
+    },
+    {
+      "mmsi": 271043028,
+      "name": "KAAN KALKAVAN",
+      "lat": 36.98211833333333,
+      "lon": -76.32230666666666,
+      "speed": 12.5,
+      "course": 43.6,
+      "heading": 45,
+      "ship_type": null,
+      "timestamp": "2026-05-03T23:43:32.279610+00:00"
+    },
+    {
+      "mmsi": 369493601,
+      "name": "CG45601",
+      "lat": 36.91865166666666,
+      "lon": -76.17678333333333,
+      "speed": 5.5,
+      "course": 352.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-05-03T23:43:33.966115+00:00"
+    },
+    {
+      "mmsi": 636017062,
+      "name": "",
+      "lat": 37.05143666666667,
+      "lon": -76.07915833333333,
+      "speed": 17,
+      "course": 321.3,
+      "heading": 321,
+      "ship_type": null,
+      "timestamp": "2026-05-03T23:43:38.372234+00:00"
+    },
+    {
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.26072833333333,
+      "lon": -76.55614999999999,
+      "speed": 0,
+      "course": 266.1,
+      "heading": 358,
+      "ship_type": null,
+      "timestamp": "2026-05-03T23:43:38.964064+00:00"
     },
     {
       "mmsi": 352003115,
       "name": "TRITON CENTURY",
-      "lat": 39.22288,
-      "lon": -76.577285,
-      "speed": 0,
-      "course": 177.5,
+      "lat": 39.222883333333336,
+      "lon": -76.57728333333333,
+      "speed": 0.1,
+      "course": 168.5,
       "heading": 271,
       "ship_type": null,
-      "timestamp": "2026-05-03T22:55:41.754759+00:00"
-    },
-    {
-      "mmsi": 367137180,
-      "name": "ALLIE B",
-      "lat": 39.08745833333333,
-      "lon": -76.39360333333335,
-      "speed": 7.2,
-      "course": 175.6,
-      "heading": 176,
-      "ship_type": null,
-      "timestamp": "2026-05-03T22:55:42.677671+00:00"
-    },
-    {
-      "mmsi": 367367390,
-      "name": "DIAMOND COAST",
-      "lat": 39.260905,
-      "lon": -76.59063166666667,
-      "speed": 0.1,
-      "course": 103.6,
-      "heading": 292,
-      "ship_type": null,
-      "timestamp": "2026-05-03T22:55:43.531304+00:00"
-    },
-    {
-      "mmsi": 367660050,
-      "name": "ISLAND EXPLORER",
-      "lat": 39.20451666666667,
-      "lon": -76.58036999999999,
-      "speed": 0,
-      "course": 166.1,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-03T22:55:45.025033+00:00"
-    },
-    {
-      "mmsi": 368271280,
-      "name": "DB AVALON",
-      "lat": 39.16642,
-      "lon": -76.39370166666666,
-      "speed": 0,
-      "course": 215.5,
-      "heading": 113,
-      "ship_type": null,
-      "timestamp": "2026-05-03T22:55:50.829155+00:00"
-    },
-    {
-      "mmsi": 367416830,
-      "name": "INNER HARBOR SPIRIT",
-      "lat": 39.28319166666667,
-      "lon": -76.61136333333334,
-      "speed": 0,
-      "course": 279.5,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-03T22:55:51.540686+00:00"
-    },
-    {
-      "mmsi": 354215000,
-      "name": "CARNIVAL PRIDE",
-      "lat": 38.934830000000005,
-      "lon": -76.38632166666666,
-      "speed": 18.5,
-      "course": 184.5,
-      "heading": 185,
-      "ship_type": null,
-      "timestamp": "2026-05-03T22:55:52.079499+00:00"
+      "timestamp": "2026-05-03T23:43:41.551353+00:00"
     },
     {
       "mmsi": 366948330,
       "name": "NIGHT HAWK",
-      "lat": 39.177350000000004,
-      "lon": -76.29333333333334,
-      "speed": 8.8,
-      "course": 41,
-      "heading": 39,
+      "lat": 39.28008333333333,
+      "lon": -76.22456666666668,
+      "speed": 8.9,
+      "course": 16.4,
+      "heading": 14,
       "ship_type": null,
-      "timestamp": "2026-05-03T22:55:52.292185+00:00"
-    },
-    {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.24018,
-      "lon": -76.53441833333333,
-      "speed": 0,
-      "course": 355.7,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-03T22:55:53.612166+00:00"
+      "timestamp": "2026-05-03T23:43:41.964408+00:00"
     }
   ]
 }
