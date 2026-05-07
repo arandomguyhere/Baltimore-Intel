@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-07T02:43:06.129145+00:00",
+  "collected_at": "2026-05-07T05:49:03.016703+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -40,13 +40,6 @@
       "query": "Port of Baltimore"
     },
     {
-      "title": "3 passengers evacuated from cruise ship amid outbreak of hantavirus - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNnB2Tnl3aDBkVUlMTDNUeElVLVlZOUp3ZThkd0NOUElZUy1VQjBlTi1DZ2YxdlUzWHg3elBEV2prWjE3dkt2eVJxNkphVTAtMDVvdXMyTVhBa1NoX1ZPVkRHS3BQM0N4LUxnNDhaS2labGQ3YTNKR2ZkMVVkZGNTMW5KMlo0aURuc0FCS3hIQUlYRlhTZ0FNOG9zRVh1LUlZN2ZtVWFRRDVWZlZM?oc=5",
-      "source": "CBS News",
-      "date": "Wed, 06 May 2026 16:48:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
       "title": "Work begins on major new shipping terminal at former Bethlehem Steel site - Maryland Matters",
       "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPbzcxQXlQQXFuOUdONXBOM0Y0RGcyRkVXUkwyMkRxTE14ajVnWl8xaC05QXdXcFJXVzR1dUo3ZkFMLVZRU3h2MUk1XzZzcUdZTW45bTFVZXlGbXBDTlNVTUFmU0pCWDJBS0U4Y0R2eDVucGVDVGhSZVZhb2N3anNMbXBzM0oteWRNRkU2NFZnUGkyMUhXM00w?oc=5",
       "source": "Maryland Matters",
@@ -58,6 +51,13 @@
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOWG9zLTdPckFGTFdXUWpVQTFIWU5lR1g5NVd5b2Zkc28wcGpUbjNCaXh1Y3Vtc1Z2MS1MZkxUeHhValRsalFyX21uQWs1WFJsdWJURjYtZVo4c3YzVTA4UnQ5cmluUXE2UjNYeUNwbjBFcmp5TmNrdzhDSnU4N0JaWFZib3BRYnBTM041YzNUbw?oc=5",
       "source": "Yahoo",
       "date": "Mon, 04 May 2026 18:02:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
+      "title": "Owner of cargo ship that struck Baltimore\u2019s Key Bridge in court for pretrial hearing - CBS News",
+      "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeC1UR1BkZ0VPU1djQUwxYWtpQ01fcVU4cVJFcGNacWYtcjBiT1NLMXozR2R6enhVSHRKeEh4V0tJTVJUR0ZCaFpEM2dQNGFDSlU0RUhoblYzS2VNalp0VUV3bF9XQ0RVOXFsUTVRUXJZeDlyd0lHY1RkOXU5SDNNRFdwVy0wak1sbTJNcmdkQWJuZVNqMUpVMm5ydXFLY1E2ejBIbEtzaXRVeDBiZG8wZDBGNk9MeW5HZFJfTDF5TnkwZw?oc=5",
+      "source": "CBS News",
+      "date": "Tue, 05 May 2026 18:48:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -124,10 +124,10 @@
       "query": "Maryland transportation infrastructure"
     },
     {
-      "title": "The way we plan highway projects overlooks health. We can fix it. - Maryland Matters",
-      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORFo3NVA3NlZHQWhLZmFvdC1CcG9aZVhwMHBld1FOeGtCLUIxVUxRLVQ0SWhfclpINi1mZG1FbHowbi1UbnZBbXdzekhwbXE4dzI4eENIV1otMEpJUGthb3I2ZG4ydHFPejc0d1dtdDhRejFwb1VJWlFSU3JLT1pOTDYzM3had3V4N0dlaUttU2toaFRDTTl1MUZLTU1WZnVDY1lmTTBR?oc=5",
-      "source": "Maryland Matters",
-      "date": "Fri, 12 Dec 2025 08:00:00 GMT",
+      "title": "Maryland Creates MTA Board to Oversee Transit - Moovit",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNWGVxRUxkWVc0alBVYXRuOXlQUnJPY3dZS1VMV0xuUFJxTmxZS3JUX1otTHFXYmlIZURoay1Gd1c3MDBMWUZVbEpyVkNTbHI3R05aNG54MUFCelNVU2xEak00UnB6dnRoNzlzRGphWGVYZUpZZC1BQnR4R2F6ZXlIR2FtNzc0XzBUekpmZjlrdWVNNWFjQVNYYVp3Y0tMdnQtMnYza2tLbkVCOTh5aUE?oc=5",
+      "source": "Moovit",
+      "date": "Mon, 27 Apr 2026 07:00:00 GMT",
       "query": "Maryland transportation infrastructure"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore harbor",
       "Port of Baltimore",
-      "Maryland transportation infrastructure",
-      "Baltimore shipping"
+      "Baltimore shipping",
+      "Baltimore harbor",
+      "Maryland transportation infrastructure"
     ],
     "sources": [
       "Maryland Matters",
-      "Transportation Today",
-      "thebanner.com",
-      "Office of Governor Wes Moore (.gov)",
-      "Baltimore Sun",
-      "Baltimore Fishbowl",
+      "Port Technology",
       "Savannah Morning News",
-      "Metro Magazine",
+      "thebanner.com",
+      "nottinghammd.com",
+      "Baltimore Sun",
+      "Moovit",
       "Yahoo",
-      "CBS News"
+      "Office of Governor Wes Moore (.gov)",
+      "Baltimore Fishbowl"
     ]
   }
 }
