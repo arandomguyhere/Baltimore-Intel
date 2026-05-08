@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-08T18:50:29.556009+00:00",
+  "collected_at": "2026-05-08T20:06:21.179231+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -68,17 +68,17 @@
       "query": "Baltimore shipping"
     },
     {
-      "title": "Man's body pulled from Inner Harbor on Friday morning - WBFF",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVHNyenBPZTl5MzIyM3hzVC12dHdzN3dPV1paMEwtN0oyWHlMcDlUNDNUN0JHRllQQjlNOTVYZGtjNHN4d0JXVnE1MmVzSzhDZzRELXRTT3Vva1d2b01hb1VWYWNvcjAyU216VE5ScUFVVWdtSkI5bTIzcUpwX05EaVVuRjNINDlyM2k2MQ?oc=5",
-      "source": "WBFF",
-      "date": "Fri, 08 May 2026 18:28:42 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
       "title": "Police: Body recovered from Inner Harbor Friday morning - WBAL-TV",
       "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxONF94TWR4Q0xzeWdmQU4tZ3M0d041cXo2VWJpOWR5RUZ3d0pwV0FMTm5Ndk9VS29wUVAtRWl6MG9YRTRCNV8ybnd6d2c0dldOSDJsODRfX2k0UFRVUVNaYXE4aTJIWk5ra0JMdzdudXMzd3NyMWFiUW9jM19xWlVlcFBNNDZFN243WVdKeXVuV200RFk?oc=5",
       "source": "WBAL-TV",
       "date": "Fri, 08 May 2026 11:46:00 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
+      "title": "Man's body pulled from Inner Harbor on Friday morning - WBFF",
+      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVHNyenBPZTl5MzIyM3hzVC12dHdzN3dPV1paMEwtN0oyWHlMcDlUNDNUN0JHRllQQjlNOTVYZGtjNHN4d0JXVnE1MmVzSzhDZzRELXRTT3Vva1d2b01hb1VWYWNvcjAyU216VE5ScUFVVWdtSkI5bTIzcUpwX05EaVVuRjNINDlyM2k2MQ?oc=5",
+      "source": "WBFF",
+      "date": "Fri, 08 May 2026 18:28:42 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore shipping",
+      "Baltimore harbor",
       "Baltimore rail freight",
-      "Port of Baltimore",
       "Maryland transportation infrastructure",
-      "Baltimore harbor"
+      "Baltimore shipping",
+      "Port of Baltimore"
     ],
     "sources": [
       "Maryland Matters",
-      "WBFF",
-      "The Office of Governor Wes Moore (.gov)",
       "WYPR",
       "CBS News",
-      "Progressive Railroading",
+      "FreightWaves",
       "Baltimore Sun",
-      "MSN",
-      "Port Technology",
-      "FreightWaves"
+      "Progressive Railroading",
+      "WBAL-TV",
+      "Jacobs",
+      "Law.com",
+      "WBFF"
     ]
   }
 }
