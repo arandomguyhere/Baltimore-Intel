@@ -1,62 +1,40 @@
 {
-  "collected_at": "2026-05-09T03:55:27.088173+00:00",
+  "collected_at": "2026-05-09T06:14:09.182175+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 3,
   "trains": [
+    {
+      "trainNum": "65",
+      "routeName": "Northeast Regional",
+      "lat": 39.956600625440686,
+      "lon": -75.18097864470788,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-05-09T02:11:38-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.73859062013801,
-      "lon": -75.53902622963034,
+      "lat": 39.95313306470302,
+      "lon": -75.18234430592948,
       "heading": "N",
-      "velocity": 38.5268173217773,
-      "lastUpdate": "2026-05-08T23:53:43-04:00",
+      "velocity": 2.35997176170349,
+      "lastUpdate": "2026-05-09T02:11:38-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "175",
+      "trainNum": "179",
       "routeName": "Northeast Regional",
-      "lat": 38.90790955277942,
-      "lon": -77.00240554376845,
+      "lat": 39.96133848030351,
+      "lon": -75.18313776367972,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-05-08T23:45:12-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "177",
-      "routeName": "Northeast Regional",
-      "lat": 39.96866270034061,
-      "lon": -75.19470392978785,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-05-08T23:39:14-04:00",
+      "lastUpdate": "2026-05-09T02:03:04-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Completed"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 39.84162180553523,
-      "lon": -75.37650482257027,
-      "heading": "N",
-      "velocity": 19.8125782012939,
-      "lastUpdate": "2026-05-08T23:53:43-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.196648069671866,
-      "lon": -76.74271621286255,
-      "heading": "N",
-      "velocity": 39.2706489562988,
-      "lastUpdate": "2026-05-08T23:51:43-04:00",
-      "nextStation": "Harrisburg",
-      "status": "Active"
     }
   ]
 }
