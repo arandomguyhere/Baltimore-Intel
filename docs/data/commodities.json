@@ -1,36 +1,36 @@
 {
-  "collected_at": "2026-05-15T01:30:13.126955+00:00",
+  "collected_at": "2026-05-15T05:35:23.797458+00:00",
   "source": "market_data",
   "note": "Simulated data - real API integration pending",
   "commodities": [
     {
       "name": "coal_mtf",
-      "price": 143.82,
-      "change_pct": 0.92,
+      "price": 139.16,
+      "change_pct": -2.34,
       "unit": "USD"
     },
     {
       "name": "lng_henry_hub",
-      "price": 3.27,
-      "change_pct": 0.81,
+      "price": 3.21,
+      "change_pct": -1.01,
       "unit": "USD"
     },
     {
       "name": "soybeans",
-      "price": 996.84,
-      "change_pct": -2.65,
+      "price": 1024.67,
+      "change_pct": 0.07,
       "unit": "USD"
     },
     {
       "name": "corn",
-      "price": 493.45,
-      "change_pct": 1.74,
+      "price": 486.86,
+      "change_pct": 0.38,
       "unit": "USD"
     },
     {
       "name": "auto_index",
-      "price": 48771.14,
-      "change_pct": 1.18,
+      "price": 47403.36,
+      "change_pct": -1.65,
       "unit": "USD"
     }
   ]
