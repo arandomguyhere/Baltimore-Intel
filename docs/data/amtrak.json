@@ -1,49 +1,60 @@
 {
-  "collected_at": "2026-05-23T08:31:12.879785+00:00",
+  "collected_at": "2026-05-23T10:14:55.493832+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.89592403441869,
-      "lon": -75.29106320885745,
+      "lat": 38.94697588044555,
+      "lon": -76.87369762104713,
       "heading": "N",
-      "velocity": 85.6748046875,
-      "lastUpdate": "2026-05-23T04:30:09-04:00",
-      "nextStation": "Wilmington",
+      "velocity": 37.7617835998535,
+      "lastUpdate": "2026-05-23T06:12:18-04:00",
+      "nextStation": "Washington Union",
       "status": "Active"
     },
     {
-      "trainNum": "150",
+      "trainNum": "144",
       "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
+      "lat": 39.95910688192454,
+      "lon": -75.18136011398107,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-05-23T05:00:00-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Predeparture"
+      "velocity": 19.9087657928467,
+      "lastUpdate": "2026-05-23T06:12:09-04:00",
+      "nextStation": "Trenton",
+      "status": "Active"
     },
     {
       "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.95680206539882,
-      "lon": -75.18325177743992,
+      "lat": 39.29982401722905,
+      "lon": -76.52688051729818,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-05-23T04:42:00-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Predeparture"
+      "velocity": 84.2901382446289,
+      "lastUpdate": "2026-05-23T06:12:12-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
     },
     {
       "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 39.301029461650835,
+      "lon": -76.52202059185083,
+      "heading": "N",
+      "velocity": 42.139476776123,
+      "lastUpdate": "2026-05-23T06:12:12-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "162",
       "routeName": "Northeast Regional",
       "lat": 38.90137078736586,
       "lon": -77.00495528516336,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-05-23T05:05:00-04:00",
+      "lastUpdate": "2026-05-23T06:05:00-04:00",
       "nextStation": "Washington Union",
       "status": "Predeparture"
     }
