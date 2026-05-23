@@ -1,94 +1,17 @@
 {
-  "collected_at": "2026-05-23T02:49:29.101772+00:00",
+  "collected_at": "2026-05-23T06:11:14.437421+00:00",
   "source": "amtraker.com",
-  "total_trains": 8,
+  "total_trains": 1,
   "trains": [
-    {
-      "trainNum": "40",
-      "routeName": "Floridian",
-      "lat": 39.5591089862997,
-      "lon": -77.97950244714217,
-      "heading": "N",
-      "velocity": 51.0492095947266,
-      "lastUpdate": "2026-05-22T22:48:31-04:00",
-      "nextStation": "Cumberland",
-      "status": "Active"
-    },
-    {
-      "trainNum": "50",
-      "routeName": "Cardinal",
-      "lat": 39.49355728408581,
-      "lon": -76.17255607710105,
-      "heading": "N",
-      "velocity": 52.0871467590332,
-      "lastUpdate": "2026-05-22T22:48:31-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.310425058704816,
-      "lon": -76.62497167365225,
+      "lat": 39.95314450870721,
+      "lon": -75.18229090091324,
       "heading": "N",
-      "velocity": 19.553092956543,
-      "lastUpdate": "2026-05-22T22:48:33-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 39.30323816963766,
-      "lon": -76.5881216866773,
-      "heading": "N",
-      "velocity": 44.4614181518555,
-      "lastUpdate": "2026-05-22T22:48:32-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "186",
-      "routeName": "Northeast Regional",
-      "lat": 39.94559522076273,
-      "lon": -75.19465815236987,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-05-22T22:42:48-04:00",
+      "velocity": 1.60612297058105,
+      "lastUpdate": "2026-05-23T02:09:09-04:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 39.60825000444752,
-      "lon": -75.91494949714705,
-      "heading": "N",
-      "velocity": 90.1240768432617,
-      "lastUpdate": "2026-05-22T22:48:32-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "624",
-      "routeName": "Keystone",
-      "lat": 39.98424955468093,
-      "lon": -75.24326504311395,
-      "heading": "N",
-      "velocity": 62.9821662902832,
-      "lastUpdate": "2026-05-22T22:45:32-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.0425648349006,
-      "lon": -75.47273441832255,
-      "heading": "N",
-      "velocity": 65.8591079711914,
-      "lastUpdate": "2026-05-22T22:48:31-04:00",
-      "nextStation": "Paoli",
       "status": "Active"
     }
   ]
