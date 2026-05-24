@@ -1,62 +1,29 @@
 {
-  "collected_at": "2026-05-24T03:34:16.876410+00:00",
+  "collected_at": "2026-05-24T06:51:07.111021+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 2,
   "trains": [
+    {
+      "trainNum": "65",
+      "routeName": "Northeast Regional",
+      "lat": 39.95581479731901,
+      "lon": -75.18002496935812,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-05-24T02:48:08-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.50057251367292,
-      "lon": -76.16751304594803,
+      "lat": 39.953121620700195,
+      "lon": -75.18235956493356,
       "heading": "N",
-      "velocity": 56.1248245239258,
-      "lastUpdate": "2026-05-23T23:33:10-04:00",
-      "nextStation": "Wilmington",
+      "velocity": 1.93495309352875,
+      "lastUpdate": "2026-05-24T02:48:08-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
-    },
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 40.00417372612377,
-      "lon": -75.11869987987484,
-      "heading": "N",
-      "velocity": 79.3397903442383,
-      "lastUpdate": "2026-05-23T23:33:11-04:00",
-      "nextStation": "Trenton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 39.07520314605889,
-      "lon": -76.71772986720666,
-      "heading": "N",
-      "velocity": 103.058059692383,
-      "lastUpdate": "2026-05-23T23:33:11-04:00",
-      "nextStation": "New Carrollton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "671",
-      "routeName": "Keystone",
-      "lat": 40.24040265076079,
-      "lon": -76.85878223124878,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-05-23T23:24:47-04:00",
-      "nextStation": "Harrisburg",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "2259",
-      "routeName": "Acela",
-      "lat": 38.904602209065615,
-      "lon": -77.00366439395859,
-      "heading": "N",
-      "velocity": 12.3999996185303,
-      "lastUpdate": "2026-05-23T23:33:10-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
     }
   ]
 }
