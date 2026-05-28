@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-05-27T23:44:24.756930+00:00",
+  "collected_at": "2026-05-28T01:26:17.252074+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,238 +12,95 @@
       -75.8
     ]
   ],
-  "vessel_count": 21,
+  "vessel_count": 8,
   "vessels": [
     {
-      "mmsi": 368277530,
-      "name": "MISS MADELINE",
-      "lat": 39.20950666666667,
-      "lon": -76.58240166666666,
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.22496833333333,
+      "lon": -76.57981333333333,
       "speed": 0,
-      "course": 284.8,
-      "heading": 217,
+      "course": 270.6,
+      "heading": 153,
       "ship_type": null,
-      "timestamp": "2026-05-27T23:43:56.477622+00:00"
+      "timestamp": "2026-05-28T01:25:48.861629+00:00"
     },
     {
-      "mmsi": 368193830,
-      "name": "ROCK HALL",
-      "lat": 38.518815000000004,
-      "lon": -76.43674,
-      "speed": 9,
-      "course": 334.5,
-      "heading": 333,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:43:57.900365+00:00"
-    },
-    {
-      "mmsi": 368031660,
-      "name": "JOKER",
-      "lat": 39.207589999999996,
-      "lon": -76.50483,
+      "mmsi": 565448000,
+      "name": "MAERSK SEMBAWANG",
+      "lat": 39.25328833333333,
+      "lon": -76.54594,
       "speed": 0,
-      "course": 220.3,
-      "heading": 324,
+      "course": 49.2,
+      "heading": 308,
       "ship_type": null,
-      "timestamp": "2026-05-27T23:43:58.318427+00:00"
+      "timestamp": "2026-05-28T01:25:49.410232+00:00"
     },
     {
       "mmsi": 636024633,
       "name": "PAVO LEADER",
-      "lat": 39.23225333333333,
-      "lon": -76.54409166666666,
-      "speed": 4.4,
-      "course": 142.2,
-      "heading": 139,
+      "lat": 39.21836,
+      "lon": -76.248695,
+      "speed": 11.5,
+      "course": 24.2,
+      "heading": 24,
       "ship_type": null,
-      "timestamp": "2026-05-27T23:44:19.367834+00:00"
+      "timestamp": "2026-05-28T01:25:50.809243+00:00"
     },
     {
-      "mmsi": 367498820,
-      "name": "PAUL HENRY",
-      "lat": 39.148505,
-      "lon": -76.32517,
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.209515,
+      "lon": -76.58237833333332,
       "speed": 0,
-      "course": 290.6,
+      "course": 280,
+      "heading": 217,
+      "ship_type": null,
+      "timestamp": "2026-05-28T01:25:55.663089+00:00"
+    },
+    {
+      "mmsi": 368149000,
+      "name": "TOPAZ COAST",
+      "lat": 39.27562833333333,
+      "lon": -76.5946,
+      "speed": 0,
+      "course": 56,
+      "heading": 72,
+      "ship_type": null,
+      "timestamp": "2026-05-28T01:25:58.404006+00:00"
+    },
+    {
+      "mmsi": 366926050,
+      "name": "RV SPERRY STAR III",
+      "lat": 38.97911833333333,
+      "lon": -76.33271333333333,
+      "speed": 0.1,
+      "course": 173.3,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-05-27T23:43:59.925559+00:00"
+      "timestamp": "2026-05-28T01:26:03.258946+00:00"
     },
     {
-      "mmsi": 338326371,
-      "name": "SUMMER WINDS",
-      "lat": 39.182845,
-      "lon": -76.48899333333334,
+      "mmsi": 367314530,
+      "name": "ALEXANDER,DUFF",
+      "lat": 37.659045,
+      "lon": -76.44069833333333,
       "speed": 0,
-      "course": 360,
-      "heading": 511,
+      "course": 317.4,
+      "heading": 11,
       "ship_type": null,
-      "timestamp": "2026-05-27T23:44:00.405986+00:00"
-    },
-    {
-      "mmsi": 368271280,
-      "name": "DB AVALON",
-      "lat": 39.148918333333334,
-      "lon": -76.32475500000001,
-      "speed": 0,
-      "course": 194.2,
-      "heading": 258,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:00.773156+00:00"
-    },
-    {
-      "mmsi": 366828620,
-      "name": "VICKI M MCALLISTER",
-      "lat": 39.232393333333334,
-      "lon": -76.54456666666667,
-      "speed": 8.8,
-      "course": 141.7,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:01.160675+00:00"
-    },
-    {
-      "mmsi": 368331070,
-      "name": "JOHN R. FRAZIER",
-      "lat": 39.267086666666664,
-      "lon": -76.57946833333334,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:06.543350+00:00"
-    },
-    {
-      "mmsi": 366782000,
-      "name": "CHESAPEAKE COAST",
-      "lat": 37.002878333333335,
-      "lon": -76.28726333333334,
-      "speed": 7.5,
-      "course": 254.3,
-      "heading": 254,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:06.815543+00:00"
-    },
-    {
-      "mmsi": 232061194,
-      "name": "SETO HORIZON",
-      "lat": 39.222851666666664,
-      "lon": -76.57725833333333,
-      "speed": 0,
-      "course": 344.4,
-      "heading": 273,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:07.279627+00:00"
-    },
-    {
-      "mmsi": 367473520,
-      "name": "RIVER PILOT",
-      "lat": 36.97597833333334,
-      "lon": -76.33680666666667,
-      "speed": 6.6,
-      "course": 28,
-      "heading": 34,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:07.736592+00:00"
+      "timestamp": "2026-05-28T01:26:07.683117+00:00"
     },
     {
       "mmsi": 303829003,
       "name": "TSV-5 VINDICATOR",
-      "lat": 36.9161,
-      "lon": -76.18209833333334,
+      "lat": 36.91612833333333,
+      "lon": -76.18215333333333,
       "speed": 0,
       "course": 300.5,
-      "heading": 92,
+      "heading": 93,
       "ship_type": null,
-      "timestamp": "2026-05-27T23:44:10.382630+00:00"
-    },
-    {
-      "mmsi": 477928200,
-      "name": "WESTERN VENTURE",
-      "lat": 38.91048333333333,
-      "lon": -76.42581166666668,
-      "speed": 0.1,
-      "course": 153.1,
-      "heading": 75,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:14.595604+00:00"
-    },
-    {
-      "mmsi": 367834000,
-      "name": "GARY I GORDON",
-      "lat": 39.269041666666666,
-      "lon": -76.57092333333334,
-      "speed": 0,
-      "course": 0,
-      "heading": 267,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:15.237971+00:00"
-    },
-    {
-      "mmsi": 368425410,
-      "name": "TARA",
-      "lat": 38.96541,
-      "lon": -76.47919499999999,
-      "speed": 0,
-      "course": 203.3,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:16.653741+00:00"
-    },
-    {
-      "mmsi": 369970481,
-      "name": "YP707",
-      "lat": 38.98386666666667,
-      "lon": -76.46751666666667,
-      "speed": 0,
-      "course": 329,
-      "heading": 348,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:17.025052+00:00"
-    },
-    {
-      "mmsi": 368453080,
-      "name": "PESCADERO PT",
-      "lat": 38.741438333333335,
-      "lon": -76.37617833333334,
-      "speed": 0,
-      "course": 269.2,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:17.061378+00:00"
-    },
-    {
-      "mmsi": 357072000,
-      "name": "ORANGE HARMONY",
-      "lat": 38.96817166666666,
-      "lon": -76.40400666666666,
-      "speed": 0,
-      "course": 151.5,
-      "heading": 56,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:17.498295+00:00"
-    },
-    {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.23371833333333,
-      "lon": -76.54538166666666,
-      "speed": 0.6,
-      "course": 171.8,
-      "heading": 230,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:17.603460+00:00"
-    },
-    {
-      "mmsi": 368441690,
-      "name": "FEDERAL HILL",
-      "lat": 39.25577833333333,
-      "lon": -76.53496333333332,
-      "speed": 0,
-      "course": 359.1,
-      "heading": 297,
-      "ship_type": null,
-      "timestamp": "2026-05-27T23:44:20.701047+00:00"
+      "timestamp": "2026-05-28T01:26:15.204732+00:00"
     }
   ]
 }
