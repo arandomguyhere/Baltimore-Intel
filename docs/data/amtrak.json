@@ -1,28 +1,50 @@
 {
-  "collected_at": "2026-05-31T06:16:40.190157+00:00",
+  "collected_at": "2026-05-31T09:28:26.448733+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.9557270592112,
-      "lon": -75.18253504114759,
+      "lat": 39.33585765808936,
+      "lon": -76.42856811072285,
       "heading": "N",
-      "velocity": 0.646225810050964,
-      "lastUpdate": "2026-05-31T02:15:39-04:00",
-      "nextStation": "Philadelphia 30th Street",
+      "velocity": 123.38737487793,
+      "lastUpdate": "2026-05-31T05:24:39-04:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
-      "trainNum": "66",
+      "trainNum": "150",
       "routeName": "Northeast Regional",
-      "lat": 39.95309873269458,
-      "lon": -75.18239008294186,
+      "lat": 39.99362227038642,
+      "lon": -75.16436944970071,
       "heading": "N",
-      "velocity": 2.00429821014404,
-      "lastUpdate": "2026-05-31T02:15:39-04:00",
-      "nextStation": "Philadelphia 30th Street",
+      "velocity": 58.4088745117188,
+      "lastUpdate": "2026-05-31T05:24:39-04:00",
+      "nextStation": "Trenton",
+      "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.73737373180757,
+      "lon": -75.54145237732193,
+      "heading": "N",
+      "velocity": 32.2947044372559,
+      "lastUpdate": "2026-05-31T05:24:39-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90866867794584,
+      "lon": -77.00204696270312,
+      "heading": "N",
+      "velocity": 39.265007019043,
+      "lastUpdate": "2026-05-31T05:24:38-04:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
     }
   ]
