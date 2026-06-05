@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-05T14:06:55.573581+00:00",
+  "collected_at": "2026-06-05T16:40:11.494188+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,95 +12,161 @@
       -75.8
     ]
   ],
-  "vessel_count": 8,
+  "vessel_count": 14,
   "vessels": [
-    {
-      "mmsi": 368424420,
-      "name": "FLEETING GLIMPSE",
-      "lat": 38.752718333333334,
-      "lon": -76.423135,
-      "speed": 102.3,
-      "course": 360,
-      "heading": 9,
-      "ship_type": null,
-      "timestamp": "2026-06-05T14:06:35.187174+00:00"
-    },
-    {
-      "mmsi": 367527050,
-      "name": "RAVEN",
-      "lat": 39.28292,
-      "lon": -76.61134666666666,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-06-05T14:06:35.985913+00:00"
-    },
-    {
-      "mmsi": 368031660,
-      "name": "JOKER",
-      "lat": 39.20909166666667,
-      "lon": -76.50913666666666,
-      "speed": 0,
-      "course": 209.9,
-      "heading": 176,
-      "ship_type": null,
-      "timestamp": "2026-06-05T14:06:38.765028+00:00"
-    },
     {
       "mmsi": 369970039,
       "name": "YP703",
-      "lat": 38.98430666666666,
-      "lon": -76.46704,
+      "lat": 38.98438,
+      "lon": -76.466995,
       "speed": 0,
       "course": 168.3,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-05T14:06:43.042659+00:00"
+      "timestamp": "2026-06-05T16:39:41.753190+00:00"
     },
     {
-      "mmsi": 366258310,
-      "name": "RISING SUN",
-      "lat": 39.269173333333335,
-      "lon": -76.57772,
-      "speed": 6,
-      "course": 138.7,
-      "heading": 140,
-      "ship_type": null,
-      "timestamp": "2026-06-05T14:06:45.642391+00:00"
-    },
-    {
-      "mmsi": 538072639,
-      "name": "ST.SOMEWHERE",
-      "lat": 39.13382166666667,
-      "lon": -76.24477666666667,
+      "mmsi": 368438750,
+      "name": "DULCINEA",
+      "lat": 39.02072166666667,
+      "lon": -76.51378500000001,
       "speed": 0,
-      "course": 241.9,
-      "heading": 48,
+      "course": 288.7,
+      "heading": 288,
       "ship_type": null,
-      "timestamp": "2026-06-05T14:06:48.412709+00:00"
+      "timestamp": "2026-06-05T16:39:41.770659+00:00"
     },
     {
-      "mmsi": 563268300,
-      "name": "EVER MAGNA",
-      "lat": 38.348865,
-      "lon": -76.31888666666667,
-      "speed": 18.4,
-      "course": 157.2,
-      "heading": 157,
+      "mmsi": 538002510,
+      "name": "APOLO",
+      "lat": 38.95685,
+      "lon": -76.40414333333334,
+      "speed": 0.1,
+      "course": 308,
+      "heading": 123,
       "ship_type": null,
-      "timestamp": "2026-06-05T14:06:51.089320+00:00"
+      "timestamp": "2026-06-05T16:39:43.741583+00:00"
     },
     {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.266953333333326,
-      "lon": -76.57952333333333,
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.21357833333333,
+      "lon": -76.531355,
       "speed": 0,
-      "course": 275.2,
+      "course": 263.5,
+      "heading": 313,
+      "ship_type": null,
+      "timestamp": "2026-06-05T16:39:49.922456+00:00"
+    },
+    {
+      "mmsi": 367150210,
+      "name": "SEAWARD 15",
+      "lat": 39.21734166666667,
+      "lon": -76.52512833333334,
+      "speed": 0,
+      "course": 323.4,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-05T14:06:54.271037+00:00"
+      "timestamp": "2026-06-05T16:39:51.904851+00:00"
+    },
+    {
+      "mmsi": 339067000,
+      "name": "OCEANUS V",
+      "lat": 36.91889166666667,
+      "lon": -76.18290166666667,
+      "speed": 0,
+      "course": 203.5,
+      "heading": 264,
+      "ship_type": null,
+      "timestamp": "2026-06-05T16:39:54.047396+00:00"
+    },
+    {
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.984053333333335,
+      "lon": -76.46747166666667,
+      "speed": 0,
+      "course": 311.8,
+      "heading": 348,
+      "ship_type": null,
+      "timestamp": "2026-06-05T16:39:55.304328+00:00"
+    },
+    {
+      "mmsi": 367304020,
+      "name": "JACKIE F. MCALLISTER",
+      "lat": 39.208036666666665,
+      "lon": -76.50805999999999,
+      "speed": 0,
+      "course": 112.5,
+      "heading": 285,
+      "ship_type": null,
+      "timestamp": "2026-06-05T16:39:57.438832+00:00"
+    },
+    {
+      "mmsi": 368420640,
+      "name": "TRIFECTA",
+      "lat": 38.90235666666667,
+      "lon": -76.50724166666667,
+      "speed": 0,
+      "course": 133.4,
+      "heading": 349,
+      "ship_type": null,
+      "timestamp": "2026-06-05T16:39:57.527929+00:00"
+    },
+    {
+      "mmsi": 368031660,
+      "name": "JOKER",
+      "lat": 39.20779,
+      "lon": -76.50840333333333,
+      "speed": 0.1,
+      "course": 233.4,
+      "heading": 334,
+      "ship_type": null,
+      "timestamp": "2026-06-05T16:39:58.386895+00:00"
+    },
+    {
+      "mmsi": 368453080,
+      "name": "PESCADERO PT",
+      "lat": 39.199261666666665,
+      "lon": -76.52788833333334,
+      "speed": 0,
+      "course": 305.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-05T16:39:59.372872+00:00"
+    },
+    {
+      "mmsi": 367091050,
+      "name": "MCALLISTER RESPONDER",
+      "lat": 39.214420000000004,
+      "lon": -76.57333166666668,
+      "speed": 0,
+      "course": 359.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-05T16:40:00.092043+00:00"
+    },
+    {
+      "mmsi": 367515090,
+      "name": "TOULA C.",
+      "lat": 39.18785833333333,
+      "lon": -76.462225,
+      "speed": 0.2,
+      "course": 132.2,
+      "heading": 189,
+      "ship_type": null,
+      "timestamp": "2026-06-05T16:40:05.039682+00:00"
+    },
+    {
+      "mmsi": 538010274,
+      "name": "CL XIANGXI",
+      "lat": 39.25713833333334,
+      "lon": -76.56501499999999,
+      "speed": 0,
+      "course": 123,
+      "heading": 357,
+      "ship_type": null,
+      "timestamp": "2026-06-05T16:40:05.755101+00:00"
     }
   ]
 }
