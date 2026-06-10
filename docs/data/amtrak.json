@@ -1,161 +1,40 @@
 {
-  "collected_at": "2026-06-10T01:35:32.992707+00:00",
+  "collected_at": "2026-06-10T06:06:23.893173+00:00",
   "source": "amtraker.com",
-  "total_trains": 14,
+  "total_trains": 3,
   "trains": [
-    {
-      "trainNum": "55",
-      "routeName": "Vermonter",
-      "lat": 39.299011481439095,
-      "lon": -76.651308351188,
-      "heading": "N",
-      "velocity": 36.9591484069824,
-      "lastUpdate": "2026-06-09T21:30:41-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.898548283795286,
-      "lon": -77.00499190900253,
+      "lat": 39.95313687969555,
+      "lon": -75.18257318800217,
       "heading": "N",
-      "velocity": 0.00223693996667862,
-      "lastUpdate": "2026-06-09T21:34:12-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "90",
-      "routeName": "Palmetto",
-      "lat": 39.74503745985361,
-      "lon": -75.52713962927112,
-      "heading": "N",
-      "velocity": 81.8921356201172,
-      "lastUpdate": "2026-06-09T21:34:13-04:00",
+      "velocity": 3.18316555023193,
+      "lastUpdate": "2026-06-10T02:04:08-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "137",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.05945607131125,
-      "lon": -76.73334724212154,
-      "heading": "N",
-      "velocity": 45.6559448242188,
-      "lastUpdate": "2026-06-09T21:34:11-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 39.95731015956345,
-      "lon": -75.18148218491048,
-      "heading": "N",
-      "velocity": 9.58081436157227,
-      "lastUpdate": "2026-06-09T21:34:11-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "186",
-      "routeName": "Northeast Regional",
-      "lat": 39.29814936271159,
-      "lon": -76.55871799016116,
-      "heading": "N",
-      "velocity": 68.9961776733398,
-      "lastUpdate": "2026-06-09T21:34:11-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "193",
-      "routeName": "Vermonter",
-      "lat": 38.910293739321304,
-      "lon": -77.00076522340316,
+      "lat": 39.95671506642877,
+      "lon": -75.18193994801922,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-06-09T21:28:48-04:00",
-      "nextStation": "Washington Union",
+      "lastUpdate": "2026-06-10T02:04:08-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "179",
+      "routeName": "Northeast Regional",
+      "lat": 39.960716684200754,
+      "lon": -75.18256555946073,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-06-10T02:01:31-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Completed"
-    },
-    {
-      "trainNum": "197",
-      "routeName": "Northeast Regional",
-      "lat": 39.00285357989696,
-      "lon": -76.78775246764884,
-      "heading": "N",
-      "velocity": 99.9241104125977,
-      "lastUpdate": "2026-06-09T21:34:11-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 39.08516332244562,
-      "lon": -76.70739966458902,
-      "heading": "N",
-      "velocity": 101.794189453125,
-      "lastUpdate": "2026-06-09T21:34:11-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "622",
-      "routeName": "Keystone",
-      "lat": 40.14611858483275,
-      "lon": -76.6104758729539,
-      "heading": "N",
-      "velocity": 45.7950401306152,
-      "lastUpdate": "2026-06-09T21:33:41-04:00",
-      "nextStation": "Mount Joy",
-      "status": "Active"
-    },
-    {
-      "trainNum": "626",
-      "routeName": "Keystone",
-      "lat": 40.00291105633565,
-      "lon": -75.27218808741173,
-      "heading": "N",
-      "velocity": 68.4253768920898,
-      "lastUpdate": "2026-06-09T21:30:40-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "655",
-      "routeName": "Keystone",
-      "lat": 40.04314085352072,
-      "lon": -75.48626133863786,
-      "heading": "N",
-      "velocity": 47.0439987182617,
-      "lastUpdate": "2026-06-09T21:31:42-04:00",
-      "nextStation": "Exton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2171",
-      "routeName": "Acela",
-      "lat": 39.29710032164858,
-      "lon": -76.55475833385724,
-      "heading": "N",
-      "velocity": 75.6999969482422,
-      "lastUpdate": "2026-06-09T21:34:12-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2193",
-      "routeName": "Acela",
-      "lat": 38.89987579809459,
-      "lon": -77.00414504581981,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-06-09T21:34:12-04:00",
-      "nextStation": "New York Penn",
-      "status": "Active"
     }
   ]
 }
