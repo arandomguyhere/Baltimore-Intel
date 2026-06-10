@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-10T14:02:35.839461+00:00",
+  "collected_at": "2026-06-10T17:35:09.460634+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,150 +12,205 @@
       -75.8
     ]
   ],
-  "vessel_count": 13,
+  "vessel_count": 18,
   "vessels": [
     {
-      "mmsi": 367029690,
-      "name": "IVORY COAST",
-      "lat": 39.067618333333336,
-      "lon": -76.35084166666667,
-      "speed": 7,
-      "course": 194.3,
-      "heading": 195,
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.26861833333333,
+      "lon": -76.58102666666667,
+      "speed": 0,
+      "course": 160.7,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-10T14:02:14.832952+00:00"
+      "timestamp": "2026-06-10T17:34:41.340822+00:00"
+    },
+    {
+      "mmsi": 367309390,
+      "name": "ALICE C",
+      "lat": 39.189814999999996,
+      "lon": -76.47001666666667,
+      "speed": 3.7,
+      "course": 288.4,
+      "heading": 285,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:34:41.758815+00:00"
+    },
+    {
+      "mmsi": 368134210,
+      "name": "DAUNTLESS",
+      "lat": 39.27518166666667,
+      "lon": -76.25441166666666,
+      "speed": 9.2,
+      "course": 41.5,
+      "heading": 46,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:34:41.944593+00:00"
+    },
+    {
+      "mmsi": 338024391,
+      "name": "TERESA",
+      "lat": 39.148226666666666,
+      "lon": -76.33542666666668,
+      "speed": 4.3,
+      "course": 112.4,
+      "heading": 122,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:34:44.261342+00:00"
+    },
+    {
+      "mmsi": 367150210,
+      "name": "SEAWARD 15",
+      "lat": 39.21387333333333,
+      "lon": -76.52743166666667,
+      "speed": 5.1,
+      "course": 291,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:34:48.112987+00:00"
+    },
+    {
+      "mmsi": 338926101,
+      "name": "CG26101",
+      "lat": 39.19507833333333,
+      "lon": -76.56888333333333,
+      "speed": 0,
+      "course": 299.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:34:49.108105+00:00"
+    },
+    {
+      "mmsi": 636093350,
+      "name": "DORTMUND EXPRESS",
+      "lat": 37.233915,
+      "lon": -76.13640333333333,
+      "speed": 15.7,
+      "course": 197.1,
+      "heading": 197,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:34:51.748500+00:00"
+    },
+    {
+      "mmsi": 538009327,
+      "name": "NORDIC QINNGUA",
+      "lat": 36.962795,
+      "lon": -76.42405833333333,
+      "speed": 0,
+      "course": 36.1,
+      "heading": 38,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:34:51.755644+00:00"
+    },
+    {
+      "mmsi": 369970479,
+      "name": "YP705",
+      "lat": 38.98428166666667,
+      "lon": -76.46711166666667,
+      "speed": 0,
+      "course": 349.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:34:54.554268+00:00"
     },
     {
       "mmsi": 368324270,
       "name": "GRAPE APE",
-      "lat": 39.16313,
-      "lon": -76.38594833333333,
-      "speed": 3.3,
-      "course": 284.4,
-      "heading": 288,
-      "ship_type": null,
-      "timestamp": "2026-06-10T14:02:06.250681+00:00"
-    },
-    {
-      "mmsi": 538010430,
-      "name": "RUBY ETERNITY",
-      "lat": 37.832625,
-      "lon": -76.1704,
-      "speed": 11.7,
-      "course": 186.6,
-      "heading": 186,
-      "ship_type": null,
-      "timestamp": "2026-06-10T14:02:09.024097+00:00"
-    },
-    {
-      "mmsi": 232037842,
-      "name": "ON LIBERTY",
-      "lat": 38.97235833333333,
-      "lon": -76.48859833333333,
-      "speed": 0,
-      "course": 31.8,
+      "lat": 39.17588833333333,
+      "lon": -76.30844,
+      "speed": 8.5,
+      "course": 58.9,
       "heading": 62,
       "ship_type": null,
-      "timestamp": "2026-06-10T14:02:09.453139+00:00"
+      "timestamp": "2026-06-10T17:34:55.384625+00:00"
     },
     {
-      "mmsi": 367367390,
-      "name": "DIAMOND COAST",
-      "lat": 39.20670833333334,
-      "lon": -76.516755,
-      "speed": 7,
-      "course": 137.3,
-      "heading": 134,
-      "ship_type": null,
-      "timestamp": "2026-06-10T14:02:16.723842+00:00"
-    },
-    {
-      "mmsi": 368031660,
-      "name": "JOKER",
-      "lat": 39.214775,
-      "lon": -76.52858166666667,
+      "mmsi": 366999701,
+      "name": "MORAY",
+      "lat": 39.197736666666664,
+      "lon": -76.57143333333333,
       "speed": 0,
-      "course": 245.8,
-      "heading": 259,
+      "course": 92.3,
+      "heading": 25,
       "ship_type": null,
-      "timestamp": "2026-06-10T14:02:17.782948+00:00"
+      "timestamp": "2026-06-10T17:34:55.384674+00:00"
     },
     {
-      "mmsi": 538072639,
-      "name": "ST.SOMEWHERE",
-      "lat": 39.133813333333336,
-      "lon": -76.24478500000001,
+      "mmsi": 368086399,
+      "name": "JOY",
+      "lat": 38.902588333333334,
+      "lon": -76.50843,
       "speed": 0,
-      "course": 269.3,
-      "heading": 49,
-      "ship_type": null,
-      "timestamp": "2026-06-10T14:02:19.963574+00:00"
-    },
-    {
-      "mmsi": 232035614,
-      "name": "IRON DUKE",
-      "lat": 39.20281166666667,
-      "lon": -76.48222166666666,
-      "speed": 0.1,
-      "course": 1.1,
-      "heading": 174,
-      "ship_type": null,
-      "timestamp": "2026-06-10T14:02:24.944269+00:00"
-    },
-    {
-      "mmsi": 367165450,
-      "name": "TREASURE COAST",
-      "lat": 39.15900333333333,
-      "lon": -76.37019166666667,
-      "speed": 8.3,
-      "course": 294.5,
-      "heading": 296,
-      "ship_type": null,
-      "timestamp": "2026-06-10T14:02:27.270226+00:00"
-    },
-    {
-      "mmsi": 368396250,
-      "name": "ISABEL MCALLISTER",
-      "lat": 39.26902833333334,
-      "lon": -76.580835,
-      "speed": 0,
-      "course": 238.3,
-      "heading": 203,
-      "ship_type": null,
-      "timestamp": "2026-06-10T14:02:28.664646+00:00"
-    },
-    {
-      "mmsi": 366828620,
-      "name": "VICKI M MCALLISTER",
-      "lat": 39.26866833333334,
-      "lon": -76.58107,
-      "speed": 0,
-      "course": 136,
+      "course": 53.4,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-10T14:02:31.192765+00:00"
+      "timestamp": "2026-06-10T17:34:55.450859+00:00"
     },
     {
-      "mmsi": 368164470,
-      "name": "EASTERN BRANCH",
-      "lat": 36.962734999999995,
-      "lon": -76.40859666666667,
-      "speed": 1.5,
-      "course": 10.4,
-      "heading": 4,
+      "mmsi": 338902000,
+      "name": "CORNELIUS H CHARLTON",
+      "lat": 39.27233666666667,
+      "lon": -76.58700166666667,
+      "speed": 0,
+      "course": 246.1,
+      "heading": 24,
       "ship_type": null,
-      "timestamp": "2026-06-10T14:02:31.331784+00:00"
+      "timestamp": "2026-06-10T17:34:59.234974+00:00"
     },
     {
-      "mmsi": 367263000,
-      "name": "CG VIGOROUS",
-      "lat": 36.91203333333333,
-      "lon": -76.34024833333334,
-      "speed": 4.4,
-      "course": 338.8,
+      "mmsi": 367515090,
+      "name": "TOULA C.",
+      "lat": 39.192771666666665,
+      "lon": -76.48701833333332,
+      "speed": 1.8,
+      "course": 83.1,
+      "heading": 77,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:34:59.489304+00:00"
+    },
+    {
+      "mmsi": 367335820,
+      "name": "ANNAPOLITAN II",
+      "lat": 39.27824333333333,
+      "lon": -76.59452666666667,
+      "speed": 6.5,
+      "course": 260.9,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-10T14:02:33.457105+00:00"
+      "timestamp": "2026-06-10T17:35:00.291590+00:00"
+    },
+    {
+      "mmsi": 368766000,
+      "name": "",
+      "lat": 36.91065666666667,
+      "lon": -76.33924,
+      "speed": 8.6,
+      "course": 174,
+      "heading": 176,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:35:03.465089+00:00"
+    },
+    {
+      "mmsi": 367350650,
+      "name": "LADY MARYLAND",
+      "lat": 38.50163833333333,
+      "lon": -76.37658833333333,
+      "speed": 5.9,
+      "course": 159.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:35:06.754096+00:00"
+    },
+    {
+      "mmsi": 367353070,
+      "name": "EVERGREEN STATE",
+      "lat": 36.89010666666666,
+      "lon": -76.33592833333334,
+      "speed": 4.6,
+      "course": 11.2,
+      "heading": 2,
+      "ship_type": null,
+      "timestamp": "2026-06-10T17:35:08.524742+00:00"
     }
   ]
 }
