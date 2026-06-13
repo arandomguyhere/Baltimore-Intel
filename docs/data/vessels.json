@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-13T00:19:21.002466+00:00",
+  "collected_at": "2026-06-13T05:00:38.435538+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,106 +12,172 @@
       -75.8
     ]
   ],
-  "vessel_count": 9,
+  "vessel_count": 15,
   "vessels": [
     {
-      "mmsi": 319591000,
-      "name": "STOLT SPRAY",
-      "lat": 39.274555,
-      "lon": -76.58863666666666,
-      "speed": 0,
-      "course": 216.9,
-      "heading": 204,
-      "ship_type": null,
-      "timestamp": "2026-06-13T00:19:00.056338+00:00"
-    },
-    {
-      "mmsi": 368425410,
-      "name": "TARA",
-      "lat": 38.965421666666664,
-      "lon": -76.479175,
-      "speed": 0,
-      "course": 243.4,
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.965975,
+      "lon": -76.47873166666666,
+      "speed": 0.1,
+      "course": 44,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-13T00:19:00.707761+00:00"
+      "timestamp": "2026-06-13T05:00:08.553594+00:00"
     },
     {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.26881166666667,
-      "lon": -76.58092333333335,
-      "speed": 0,
-      "course": 225.2,
-      "heading": 197,
+      "mmsi": 249909000,
+      "name": "TYSLA",
+      "lat": 39.138765,
+      "lon": -76.40443166666667,
+      "speed": 13.9,
+      "course": 154.5,
+      "heading": 153,
       "ship_type": null,
-      "timestamp": "2026-06-13T00:19:05.792825+00:00"
+      "timestamp": "2026-06-13T05:00:10.847460+00:00"
     },
     {
-      "mmsi": 232035614,
-      "name": "IRON DUKE",
-      "lat": 39.202641666666665,
-      "lon": -76.48221166666667,
-      "speed": 0,
-      "course": 124,
-      "heading": 174,
-      "ship_type": null,
-      "timestamp": "2026-06-13T00:19:06.009708+00:00"
-    },
-    {
-      "mmsi": 367139510,
-      "name": "APRIL MORAN",
-      "lat": 39.273745,
-      "lon": -76.58894833333333,
-      "speed": 0.3,
-      "course": 241,
+      "mmsi": 369493661,
+      "name": "CG45661",
+      "lat": 39.19963,
+      "lon": -76.50599166666666,
+      "speed": 3.8,
+      "course": 87.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-13T00:19:10.771525+00:00"
+      "timestamp": "2026-06-13T05:00:11.508148+00:00"
     },
     {
-      "mmsi": 366991414,
-      "name": "USNS POINT LOMA",
-      "lat": 36.91693333333333,
-      "lon": -76.18273333333333,
-      "speed": 0,
-      "course": 69.6,
-      "heading": 272,
+      "mmsi": 366948330,
+      "name": "NIGHT HAWK",
+      "lat": 39.022349999999996,
+      "lon": -76.36948166666666,
+      "speed": 9.4,
+      "course": 19.1,
+      "heading": 17,
       "ship_type": null,
-      "timestamp": "2026-06-13T00:19:11.264211+00:00"
+      "timestamp": "2026-06-13T05:00:13.018787+00:00"
+    },
+    {
+      "mmsi": 209470000,
+      "name": "MSC BOSPHORUS",
+      "lat": 39.25523333333333,
+      "lon": -76.54868333333334,
+      "speed": 0,
+      "course": 307.4,
+      "heading": 307,
+      "ship_type": null,
+      "timestamp": "2026-06-13T05:00:14.733355+00:00"
+    },
+    {
+      "mmsi": 367302540,
+      "name": "KIMBERLY C",
+      "lat": 39.19922,
+      "lon": -76.527435,
+      "speed": 0,
+      "course": 218.7,
+      "heading": 244,
+      "ship_type": null,
+      "timestamp": "2026-06-13T05:00:15.907580+00:00"
+    },
+    {
+      "mmsi": 368317840,
+      "name": "AMERICAN EAGLE",
+      "lat": 39.283305000000006,
+      "lon": -76.60527499999999,
+      "speed": 0,
+      "course": 294.1,
+      "heading": 120,
+      "ship_type": null,
+      "timestamp": "2026-06-13T05:00:16.465745+00:00"
+    },
+    {
+      "mmsi": 368386690,
+      "name": "GEORGE JAMES MORAN",
+      "lat": 39.257666666666665,
+      "lon": -76.55592499999999,
+      "speed": 0,
+      "course": 160.6,
+      "heading": 175,
+      "ship_type": null,
+      "timestamp": "2026-06-13T05:00:22.073262+00:00"
     },
     {
       "mmsi": 338514578,
       "name": "KLASY LADY FB19",
-      "lat": 39.013419999999996,
-      "lon": -76.40185666666666,
-      "speed": 0,
+      "lat": 39.01428,
+      "lon": -76.40234666666667,
+      "speed": 0.1,
       "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-13T00:19:12.693972+00:00"
+      "timestamp": "2026-06-13T05:00:23.898033+00:00"
     },
     {
-      "mmsi": 369970480,
-      "name": "YP706",
-      "lat": 38.984116666666665,
-      "lon": -76.46736666666668,
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.266958333333335,
+      "lon": -76.57954,
       "speed": 0,
-      "course": 333,
+      "course": 206.3,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-13T00:19:13.364053+00:00"
+      "timestamp": "2026-06-13T05:00:24.300927+00:00"
     },
     {
-      "mmsi": 247341500,
-      "name": "GRANDE COTONOU",
-      "lat": 39.261455,
-      "lon": -76.59156166666666,
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.26105,
+      "lon": -76.59083833333334,
       "speed": 0,
-      "course": 39.8,
-      "heading": 293,
+      "course": 304.4,
+      "heading": 22,
       "ship_type": null,
-      "timestamp": "2026-06-13T00:19:14.495070+00:00"
+      "timestamp": "2026-06-13T05:00:27.647321+00:00"
+    },
+    {
+      "mmsi": 338329000,
+      "name": "KINGS POINT",
+      "lat": 39.24345,
+      "lon": -76.57035833333333,
+      "speed": 0,
+      "course": 234.3,
+      "heading": 86,
+      "ship_type": null,
+      "timestamp": "2026-06-13T05:00:29.002277+00:00"
+    },
+    {
+      "mmsi": 303994000,
+      "name": "CAPE WRATH",
+      "lat": 39.261963333333334,
+      "lon": -76.60141,
+      "speed": 0,
+      "course": 0,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-13T05:00:29.325179+00:00"
+    },
+    {
+      "mmsi": 368086399,
+      "name": "JOY",
+      "lat": 38.90259666666667,
+      "lon": -76.50844666666667,
+      "speed": 0,
+      "course": 318.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-13T05:00:35.735934+00:00"
+    },
+    {
+      "mmsi": 636023459,
+      "name": "PARABOLICA",
+      "lat": 39.25937833333333,
+      "lon": -76.56925166666666,
+      "speed": 0,
+      "course": 241.2,
+      "heading": 308,
+      "ship_type": null,
+      "timestamp": "2026-06-13T05:00:35.807414+00:00"
     }
   ]
 }
