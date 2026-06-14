@@ -1,29 +1,62 @@
 {
-  "collected_at": "2026-06-14T06:21:07.121534+00:00",
+  "collected_at": "2026-06-14T10:02:18.546095+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 5,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.955837685255666,
-      "lon": -75.18190943095624,
-      "heading": "S",
-      "velocity": 0.248548403382301,
-      "lastUpdate": "2026-06-14T02:19:09-04:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lat": 39.030555918696116,
+      "lon": -76.75486213907428,
+      "heading": "SW",
+      "velocity": 118.300575256348,
+      "lastUpdate": "2026-06-14T06:01:09-04:00",
+      "nextStation": "New Carrollton",
       "status": "Active"
     },
     {
-      "trainNum": "66",
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.10153577810734,
+      "lon": -77.3997521156783,
+      "heading": "NW",
+      "velocity": 68.9424896240234,
+      "lastUpdate": "2026-06-14T06:01:09-04:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.95645948130935,
-      "lon": -75.18384729760764,
+      "lat": 39.34722545973385,
+      "lon": -76.39158842483343,
+      "heading": "SW",
+      "velocity": 121.720855712891,
+      "lastUpdate": "2026-06-14T06:01:10-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 39.30700709044087,
+      "lon": -76.6136877959104,
+      "heading": "SE",
+      "velocity": 0,
+      "lastUpdate": "2026-06-14T06:01:09-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "162",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-06-14T02:15:39-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
+      "lastUpdate": "2026-06-14T05:59:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
