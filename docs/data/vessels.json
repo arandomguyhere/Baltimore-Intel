@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-14T14:32:23.196122+00:00",
+  "collected_at": "2026-06-14T16:12:13.823563+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,150 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 13,
+  "vessel_count": 9,
   "vessels": [
     {
-      "mmsi": 367015620,
-      "name": "DRAGONFLY",
-      "lat": 39.276338333333335,
-      "lon": -76.58165333333334,
-      "speed": 0,
-      "course": 4.8,
-      "heading": 36,
-      "ship_type": null,
-      "timestamp": "2026-06-14T14:31:54.314387+00:00"
-    },
-    {
-      "mmsi": 368455330,
-      "name": "CHANCES ARE",
-      "lat": 38.78626,
-      "lon": -76.20941333333333,
-      "speed": 0,
-      "course": 129.9,
-      "heading": 184,
-      "ship_type": null,
-      "timestamp": "2026-06-14T14:31:54.733123+00:00"
-    },
-    {
-      "mmsi": 212125000,
-      "name": "UBC SANTOS",
-      "lat": 39.275904999999995,
-      "lon": -76.59429666666666,
-      "speed": 0,
-      "course": 240.4,
-      "heading": 64,
-      "ship_type": null,
-      "timestamp": "2026-06-14T14:31:55.272794+00:00"
-    },
-    {
-      "mmsi": 368475340,
-      "name": "TESORO",
-      "lat": 39.28005333333333,
-      "lon": -76.60134333333333,
-      "speed": 0,
-      "course": 237.2,
+      "mmsi": 367308110,
+      "name": "THE HUNTER",
+      "lat": 39.26833,
+      "lon": -76.58110833333333,
+      "speed": 0.1,
+      "course": 324.6,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-14T14:31:57.962666+00:00"
+      "timestamp": "2026-06-14T16:11:45.569046+00:00"
     },
     {
-      "mmsi": 368317840,
-      "name": "AMERICAN EAGLE",
-      "lat": 39.16667666666667,
-      "lon": -76.39626,
-      "speed": 9.8,
-      "course": 111,
-      "heading": 111,
+      "mmsi": 338360438,
+      "name": "HALCYON",
+      "lat": 39.12804666666667,
+      "lon": -76.39950666666667,
+      "speed": 9.2,
+      "course": 344.2,
+      "heading": 342,
       "ship_type": null,
-      "timestamp": "2026-06-14T14:31:58.144306+00:00"
+      "timestamp": "2026-06-14T16:11:45.756911+00:00"
     },
     {
-      "mmsi": 369493713,
-      "name": "CG45713",
-      "lat": 38.11874833333333,
-      "lon": -76.44667333333334,
-      "speed": 28,
-      "course": 5.9,
+      "mmsi": 368077920,
+      "name": "RANGER",
+      "lat": 39.23387,
+      "lon": -76.32626499999999,
+      "speed": 4.3,
+      "course": 242.9,
+      "heading": 242,
+      "ship_type": null,
+      "timestamp": "2026-06-14T16:11:49.803933+00:00"
+    },
+    {
+      "mmsi": 367139510,
+      "name": "APRIL MORAN",
+      "lat": 39.26042666666667,
+      "lon": -76.55611166666667,
+      "speed": 0,
+      "course": 271.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-14T14:32:01.290432+00:00"
+      "timestamp": "2026-06-14T16:12:00.123007+00:00"
+    },
+    {
+      "mmsi": 244936000,
+      "name": "NATO WARSHIP A834",
+      "lat": 36.98369833333334,
+      "lon": -76.32265833333332,
+      "speed": 11.4,
+      "course": 222.2,
+      "heading": 224,
+      "ship_type": null,
+      "timestamp": "2026-06-14T16:12:00.505704+00:00"
     },
     {
       "mmsi": 367309390,
       "name": "ALICE C",
-      "lat": 39.19223833333333,
-      "lon": -76.48308166666668,
-      "speed": 3,
-      "course": 290.6,
-      "heading": 288,
+      "lat": 39.19005666666667,
+      "lon": -76.47653,
+      "speed": 3.9,
+      "course": 112.7,
+      "heading": 115,
       "ship_type": null,
-      "timestamp": "2026-06-14T14:32:02.479659+00:00"
+      "timestamp": "2026-06-14T16:12:02.024594+00:00"
     },
     {
-      "mmsi": 368336010,
-      "name": "WINDEA COURAGEOUS",
-      "lat": 36.99589666666667,
-      "lon": -76.29751333333334,
-      "speed": 102.3,
-      "course": 360,
-      "heading": 65,
-      "ship_type": null,
-      "timestamp": "2026-06-14T14:32:03.594930+00:00"
-    },
-    {
-      "mmsi": 367541760,
-      "name": "WINNING DRIVE",
-      "lat": 38.97395166666667,
-      "lon": -76.48407,
+      "mmsi": 368475340,
+      "name": "TESORO",
+      "lat": 39.280071666666664,
+      "lon": -76.60133333333333,
       "speed": 0,
-      "course": 319.1,
-      "heading": 327,
+      "course": 237.2,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-14T14:32:05.677786+00:00"
+      "timestamp": "2026-06-14T16:12:07.904124+00:00"
     },
     {
-      "mmsi": 368271280,
-      "name": "DB AVALON",
-      "lat": 39.1872,
-      "lon": -76.46657833333333,
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.26862166666667,
+      "lon": -76.58103833333332,
       "speed": 0,
-      "course": 30.9,
-      "heading": 291,
+      "course": 317,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-14T14:32:09.620734+00:00"
+      "timestamp": "2026-06-14T16:12:09.732060+00:00"
     },
     {
-      "mmsi": 259041000,
-      "name": "",
-      "lat": 37.00240333333333,
-      "lon": -76.28808833333332,
-      "speed": 16.4,
-      "course": 250.3,
-      "heading": 249,
+      "mmsi": 368386690,
+      "name": "GEORGE JAMES MORAN",
+      "lat": 39.25767833333334,
+      "lon": -76.55593999999999,
+      "speed": 0.1,
+      "course": 291,
+      "heading": 177,
       "ship_type": null,
-      "timestamp": "2026-06-14T14:32:11.148202+00:00"
-    },
-    {
-      "mmsi": 367619720,
-      "name": "SHREDDER",
-      "lat": 39.00237,
-      "lon": -76.42371499999999,
-      "speed": 0,
-      "course": 259.5,
-      "heading": 70,
-      "ship_type": null,
-      "timestamp": "2026-06-14T14:32:18.004128+00:00"
-    },
-    {
-      "mmsi": 636024760,
-      "name": "EVORA",
-      "lat": 38.930985,
-      "lon": -76.41208499999999,
-      "speed": 0.7,
-      "course": 224.3,
-      "heading": 43,
-      "ship_type": null,
-      "timestamp": "2026-06-14T14:32:18.451691+00:00"
+      "timestamp": "2026-06-14T16:12:13.023150+00:00"
     }
   ]
 }
