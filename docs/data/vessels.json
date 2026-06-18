@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-18T14:08:58.925690+00:00",
+  "collected_at": "2026-06-18T17:28:57.792429+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,172 +12,216 @@
       -75.8
     ]
   ],
-  "vessel_count": 15,
+  "vessel_count": 19,
   "vessels": [
     {
-      "mmsi": 368388560,
-      "name": "GYPSY SOUL",
-      "lat": 38.95178833333333,
-      "lon": -76.55129166666667,
+      "mmsi": 366395000,
+      "name": "TANZANITE",
+      "lat": 38.97434666666666,
+      "lon": -76.48390500000001,
       "speed": 0,
-      "course": 246,
-      "heading": 138,
+      "course": 353.3,
+      "heading": 141,
       "ship_type": null,
-      "timestamp": "2026-06-18T14:08:31.388875+00:00"
+      "timestamp": "2026-06-18T17:28:34.568674+00:00"
     },
     {
-      "mmsi": 368386690,
-      "name": "GEORGE JAMES MORAN",
-      "lat": 39.25765833333333,
-      "lon": -76.55593333333333,
-      "speed": 0.1,
-      "course": 284.8,
-      "heading": 175,
-      "ship_type": null,
-      "timestamp": "2026-06-18T14:08:33.329155+00:00"
-    },
-    {
-      "mmsi": 366866810,
-      "name": "FAY SLOVER",
-      "lat": 36.92214166666667,
-      "lon": -76.1887,
+      "mmsi": 367686010,
+      "name": "MARY EMMA",
+      "lat": 39.19927333333333,
+      "lon": -76.52746833333335,
       "speed": 0,
-      "course": 0,
-      "heading": 511,
+      "course": 312.1,
+      "heading": 243,
       "ship_type": null,
-      "timestamp": "2026-06-18T14:08:34.042836+00:00"
+      "timestamp": "2026-06-18T17:28:34.945805+00:00"
     },
     {
-      "mmsi": 431440000,
-      "name": "DIVINE ACE",
-      "lat": 39.241355,
-      "lon": -76.56581666666666,
-      "speed": 0,
-      "course": 55.1,
-      "heading": 143,
-      "ship_type": null,
-      "timestamp": "2026-06-18T14:08:38.814518+00:00"
-    },
-    {
-      "mmsi": 369970479,
-      "name": "YP705",
-      "lat": 38.984285,
-      "lon": -76.467105,
-      "speed": 0,
-      "course": 340,
-      "heading": 340,
-      "ship_type": null,
-      "timestamp": "2026-06-18T14:08:39.570823+00:00"
-    },
-    {
-      "mmsi": 368031660,
-      "name": "JOKER",
-      "lat": 39.20687833333333,
-      "lon": -76.50563666666667,
-      "speed": 0,
-      "course": 108.8,
-      "heading": 240,
-      "ship_type": null,
-      "timestamp": "2026-06-18T14:08:39.677096+00:00"
-    },
-    {
-      "mmsi": 372321000,
-      "name": "SIDER MOMPOX",
-      "lat": 39.26707666666667,
-      "lon": -76.57238000000001,
-      "speed": 0,
-      "course": 90.4,
-      "heading": 87,
-      "ship_type": null,
-      "timestamp": "2026-06-18T14:08:40.973039+00:00"
-    },
-    {
-      "mmsi": 368371930,
-      "name": "OCEANUS VI",
-      "lat": 36.91952166666667,
-      "lon": -76.18190333333334,
-      "speed": 0,
-      "course": 45.6,
-      "heading": 272,
-      "ship_type": null,
-      "timestamp": "2026-06-18T14:08:42.178706+00:00"
-    },
-    {
-      "mmsi": 367162820,
+      "mmsi": 224948000,
       "name": "",
-      "lat": 38.96776333333333,
-      "lon": -76.46828666666667,
-      "speed": 7,
-      "course": 34.2,
+      "lat": 36.94587333333333,
+      "lon": -76.33053,
+      "speed": 0.1,
+      "course": 183.4,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-18T14:08:43.798975+00:00"
+      "timestamp": "2026-06-18T17:28:35.323012+00:00"
     },
     {
-      "mmsi": 367619720,
-      "name": "SHREDDER",
-      "lat": 39.00239333333333,
-      "lon": -76.42372,
-      "speed": 0,
-      "course": 264.8,
-      "heading": 71,
-      "ship_type": null,
-      "timestamp": "2026-06-18T14:08:45.967841+00:00"
-    },
-    {
-      "mmsi": 367841000,
-      "name": "TSV 1 PREVAIL",
-      "lat": 36.91502,
-      "lon": -76.18272166666667,
-      "speed": 0,
-      "course": 237.5,
-      "heading": 274,
-      "ship_type": null,
-      "timestamp": "2026-06-18T14:08:49.389031+00:00"
-    },
-    {
-      "mmsi": 368455330,
-      "name": "CHANCES ARE",
-      "lat": 38.997925,
-      "lon": -76.504095,
-      "speed": 0,
-      "course": 280,
-      "heading": 210,
-      "ship_type": null,
-      "timestamp": "2026-06-18T14:08:50.664001+00:00"
-    },
-    {
-      "mmsi": 368382440,
-      "name": "PATRICIA B. MORAN",
-      "lat": 36.91714666666667,
-      "lon": -76.33861833333334,
-      "speed": 4.9,
-      "course": 181,
-      "heading": 197,
-      "ship_type": null,
-      "timestamp": "2026-06-18T14:08:53.692372+00:00"
-    },
-    {
-      "mmsi": 367367390,
-      "name": "DIAMOND COAST",
-      "lat": 39.24197,
-      "lon": -76.52369666666667,
+      "mmsi": 366926050,
+      "name": "RV SPERRY STAR III",
+      "lat": 38.979121666666664,
+      "lon": -76.33269333333332,
       "speed": 0.1,
-      "course": 214.8,
-      "heading": 246,
+      "course": 161.4,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-18T14:08:57.011669+00:00"
+      "timestamp": "2026-06-18T17:28:37.253025+00:00"
     },
     {
       "mmsi": 367515090,
       "name": "TOULA C.",
-      "lat": 39.25654333333333,
-      "lon": -76.55641833333334,
-      "speed": 0.1,
-      "course": 1.4,
-      "heading": 283,
+      "lat": 39.256701666666665,
+      "lon": -76.55537666666667,
+      "speed": 0.3,
+      "course": 225.3,
+      "heading": 350,
       "ship_type": null,
-      "timestamp": "2026-06-18T14:08:57.979892+00:00"
+      "timestamp": "2026-06-18T17:28:37.309072+00:00"
+    },
+    {
+      "mmsi": 368425410,
+      "name": "TARA",
+      "lat": 38.96541,
+      "lon": -76.479185,
+      "speed": 0,
+      "course": 42,
+      "heading": 42,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:37.365434+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413166666667,
+      "lon": -76.46738166666667,
+      "speed": 0,
+      "course": 184,
+      "heading": 184,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:38.539361+00:00"
+    },
+    {
+      "mmsi": 246912000,
+      "name": "TAAGBORG",
+      "lat": 39.26280833333333,
+      "lon": -76.59494666666666,
+      "speed": 0,
+      "course": 94.2,
+      "heading": 115,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:39.385516+00:00"
+    },
+    {
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.268564999999995,
+      "lon": -76.58103,
+      "speed": 0,
+      "course": 16,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:40.763032+00:00"
+    },
+    {
+      "mmsi": 368395580,
+      "name": "DENA LYNN",
+      "lat": 38.90244,
+      "lon": -76.50684333333334,
+      "speed": 0,
+      "course": 264.6,
+      "heading": 342,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:40.818639+00:00"
+    },
+    {
+      "mmsi": 367612310,
+      "name": "HOS BLACK FOOT",
+      "lat": 37.00046666666666,
+      "lon": -76.28916166666666,
+      "speed": 8.9,
+      "course": 57.7,
+      "heading": 58,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:44.602106+00:00"
+    },
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.26884833333334,
+      "lon": -76.58090666666666,
+      "speed": 0,
+      "course": 186.1,
+      "heading": 201,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:47.960340+00:00"
+    },
+    {
+      "mmsi": 366991413,
+      "name": "USNS CODY",
+      "lat": 36.916533333333334,
+      "lon": -76.18226666666666,
+      "speed": 0,
+      "course": 40.2,
+      "heading": 93,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:48.099314+00:00"
+    },
+    {
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.26697333333333,
+      "lon": -76.57954500000001,
+      "speed": 0,
+      "course": 70.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:48.277504+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.22547,
+      "lon": -76.56767833333333,
+      "speed": 0,
+      "course": 102,
+      "heading": 159,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:48.311059+00:00"
+    },
+    {
+      "mmsi": 366258310,
+      "name": "RISING SUN",
+      "lat": 39.20295833333333,
+      "lon": -76.48222333333334,
+      "speed": 0,
+      "course": 250.6,
+      "heading": 350,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:48.675252+00:00"
+    },
+    {
+      "mmsi": 367162820,
+      "name": "",
+      "lat": 38.97669,
+      "lon": -76.48416666666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:52.384107+00:00"
+    },
+    {
+      "mmsi": 368371930,
+      "name": "OCEANUS VI",
+      "lat": 36.998871666666666,
+      "lon": -76.28822833333334,
+      "speed": 4.9,
+      "course": 255,
+      "heading": 248,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:53.345108+00:00"
+    },
+    {
+      "mmsi": 339244000,
+      "name": "TORTUGA",
+      "lat": 37.01000166666667,
+      "lon": -76.317115,
+      "speed": 0.1,
+      "course": 122.1,
+      "heading": 245,
+      "ship_type": null,
+      "timestamp": "2026-06-18T17:28:57.008139+00:00"
     }
   ]
 }
