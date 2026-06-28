@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-28T10:35:46.238380+00:00",
+  "collected_at": "2026-06-28T12:08:49.083736+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,150 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 13,
   "vessels": [
-    {
-      "mmsi": 366878280,
-      "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.96599666666667,
-      "lon": -76.47873166666666,
-      "speed": 0.1,
-      "course": 185,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-06-28T10:35:17.775959+00:00"
-    },
     {
       "mmsi": 339644000,
       "name": "EDISON",
-      "lat": 38.7179,
-      "lon": -76.17064,
+      "lat": 38.717906666666664,
+      "lon": -76.17062666666668,
       "speed": 0,
-      "course": 272.4,
+      "course": 284.1,
       "heading": 296,
       "ship_type": null,
-      "timestamp": "2026-06-28T10:35:18.473652+00:00"
+      "timestamp": "2026-06-28T12:08:19.394744+00:00"
     },
     {
-      "mmsi": 367834000,
-      "name": "GARY I GORDON",
-      "lat": 39.26904833333333,
-      "lon": -76.57086666666667,
+      "mmsi": 224977000,
+      "name": "J.S. DE ELCANO",
+      "lat": 39.27616,
+      "lon": -76.59020333333333,
       "speed": 0,
-      "course": 0,
-      "heading": 267,
+      "course": 256.4,
+      "heading": 106,
       "ship_type": null,
-      "timestamp": "2026-06-28T10:35:19.847132+00:00"
+      "timestamp": "2026-06-28T12:08:19.436950+00:00"
     },
     {
-      "mmsi": 538070059,
-      "name": "TSALTA",
-      "lat": 38.97375666666667,
-      "lon": -76.48489500000001,
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.98408166666666,
+      "lon": -76.467455,
       "speed": 0,
-      "course": 353.3,
-      "heading": 329,
+      "course": 20,
+      "heading": 348,
       "ship_type": null,
-      "timestamp": "2026-06-28T10:35:34.667139+00:00"
+      "timestamp": "2026-06-28T12:08:20.959486+00:00"
     },
     {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.268816666666666,
-      "lon": -76.58092666666667,
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413166666667,
+      "lon": -76.46738166666667,
       "speed": 0,
-      "course": 314.5,
-      "heading": 202,
+      "course": 189,
+      "heading": 341,
       "ship_type": null,
-      "timestamp": "2026-06-28T10:35:36.698151+00:00"
+      "timestamp": "2026-06-28T12:08:32.784006+00:00"
     },
     {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.26694166666667,
-      "lon": -76.57953833333333,
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.26070666666667,
+      "lon": -76.55617333333333,
       "speed": 0,
-      "course": 244.6,
+      "course": 272,
+      "heading": 3,
+      "ship_type": null,
+      "timestamp": "2026-06-28T12:08:22.105339+00:00"
+    },
+    {
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.96601,
+      "lon": -76.47871,
+      "speed": 0,
+      "course": 212,
+      "heading": 212,
+      "ship_type": null,
+      "timestamp": "2026-06-28T12:08:26.502885+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 38.96654,
+      "lon": -76.47849500000001,
+      "speed": 0,
+      "course": 179,
+      "heading": 195,
+      "ship_type": null,
+      "timestamp": "2026-06-28T12:08:27.552175+00:00"
+    },
+    {
+      "mmsi": 367457590,
+      "name": "WENDY MORAN",
+      "lat": 36.98266666666667,
+      "lon": -76.32466666666666,
+      "speed": 8.1,
+      "course": 224,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-28T10:35:37.175428+00:00"
+      "timestamp": "2026-06-28T12:08:34.235693+00:00"
     },
     {
-      "mmsi": 369970478,
-      "name": "YP704",
-      "lat": 38.98276166666667,
-      "lon": -76.4658,
+      "mmsi": 367302540,
+      "name": "KIMBERLY C",
+      "lat": 39.213251666666665,
+      "lon": -76.53989833333334,
       "speed": 0,
-      "course": 100,
-      "heading": 332,
+      "course": 273.2,
+      "heading": 231,
       "ship_type": null,
-      "timestamp": "2026-06-28T10:35:39.954153+00:00"
+      "timestamp": "2026-06-28T12:08:37.260173+00:00"
+    },
+    {
+      "mmsi": 367585850,
+      "name": "HOS RED ROCK",
+      "lat": 36.93270166666667,
+      "lon": -76.17755666666667,
+      "speed": 8.6,
+      "course": 172.3,
+      "heading": 169,
+      "ship_type": null,
+      "timestamp": "2026-06-28T12:08:38.009441+00:00"
+    },
+    {
+      "mmsi": 636093133,
+      "name": "NORDIC OSLO",
+      "lat": 39.21378,
+      "lon": -76.54005000000001,
+      "speed": 0,
+      "course": 180.8,
+      "heading": 231,
+      "ship_type": null,
+      "timestamp": "2026-06-28T12:08:40.800957+00:00"
+    },
+    {
+      "mmsi": 538072639,
+      "name": "ST.SOMEWHERE",
+      "lat": 39.13380333333334,
+      "lon": -76.24486666666667,
+      "speed": 0,
+      "course": 315.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-28T12:08:44.157653+00:00"
+    },
+    {
+      "mmsi": 368425410,
+      "name": "TARA",
+      "lat": 38.965394999999994,
+      "lon": -76.47923,
+      "speed": 0,
+      "course": 51,
+      "heading": 51,
+      "ship_type": null,
+      "timestamp": "2026-06-28T12:08:45.320088+00:00"
     }
   ]
 }
