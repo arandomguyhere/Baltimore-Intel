@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-06-29T06:22:55.665251+00:00",
+  "collected_at": "2026-06-29T11:31:15.433400+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,106 +12,161 @@
       -75.8
     ]
   ],
-  "vessel_count": 9,
+  "vessel_count": 14,
   "vessels": [
     {
-      "mmsi": 211210280,
-      "name": "GORCH FOCK",
-      "lat": 39.28395,
-      "lon": -76.606155,
+      "mmsi": 303994000,
+      "name": "CAPE WRATH",
+      "lat": 39.261963333333334,
+      "lon": -76.60133,
       "speed": 0,
-      "course": 100.2,
-      "heading": 356,
-      "ship_type": null,
-      "timestamp": "2026-06-29T06:22:30.523906+00:00"
-    },
-    {
-      "mmsi": 311053400,
-      "name": "PANTHER MAX",
-      "lat": 38.934405,
-      "lon": -76.41111833333333,
-      "speed": 0.2,
-      "course": 342.6,
-      "heading": 79,
-      "ship_type": null,
-      "timestamp": "2026-06-29T06:22:34.108055+00:00"
-    },
-    {
-      "mmsi": 538071496,
-      "name": "",
-      "lat": 37.022821666666665,
-      "lon": -76.34295833333334,
-      "speed": 0,
-      "course": 182.2,
-      "heading": 158,
-      "ship_type": null,
-      "timestamp": "2026-06-29T06:22:36.256406+00:00"
-    },
-    {
-      "mmsi": 636017540,
-      "name": "SIEM CONFUCIUS",
-      "lat": 38.8395,
-      "lon": -76.4096,
-      "speed": 15.5,
-      "course": 9,
-      "heading": 9,
-      "ship_type": null,
-      "timestamp": "2026-06-29T06:22:37.525914+00:00"
-    },
-    {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.266958333333335,
-      "lon": -76.57949333333333,
-      "speed": 0,
-      "course": 237.6,
+      "course": 0,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-29T06:22:48.684830+00:00"
+      "timestamp": "2026-06-29T11:30:46.339104+00:00"
     },
     {
-      "mmsi": 369970481,
-      "name": "YP707",
-      "lat": 38.984095,
-      "lon": -76.46748166666666,
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.261044999999996,
+      "lon": -76.55618666666666,
       "speed": 0,
-      "course": 192,
-      "heading": 346,
-      "ship_type": null,
-      "timestamp": "2026-06-29T06:22:49.984152+00:00"
-    },
-    {
-      "mmsi": 369970478,
-      "name": "YP704",
-      "lat": 38.98281166666666,
-      "lon": -76.46587500000001,
-      "speed": 0,
-      "course": 213,
-      "heading": 333,
-      "ship_type": null,
-      "timestamp": "2026-06-29T06:22:50.885348+00:00"
-    },
-    {
-      "mmsi": 367763450,
-      "name": "SWEET BABY",
-      "lat": 38.77561333333333,
-      "lon": -76.56356166666666,
-      "speed": 0,
-      "course": 277.6,
+      "course": 265.8,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-29T06:22:50.946804+00:00"
+      "timestamp": "2026-06-29T11:30:50.759307+00:00"
+    },
+    {
+      "mmsi": 636093177,
+      "name": "TSINGTAO EXPRESS",
+      "lat": 36.91556166666667,
+      "lon": -76.338245,
+      "speed": 2.9,
+      "course": 252,
+      "heading": 80,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:30:51.258807+00:00"
+    },
+    {
+      "mmsi": 368388560,
+      "name": "GYPSY SOUL",
+      "lat": 38.951775,
+      "lon": -76.55129666666667,
+      "speed": 0,
+      "course": 210.6,
+      "heading": 139,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:30:51.984627+00:00"
+    },
+    {
+      "mmsi": 368395580,
+      "name": "DENA LYNN",
+      "lat": 38.90241,
+      "lon": -76.50684166666666,
+      "speed": 0,
+      "course": 351,
+      "heading": 342,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:30:52.033587+00:00"
+    },
+    {
+      "mmsi": 369970719,
+      "name": "USGOVT VESSEL 24",
+      "lat": 39.26243,
+      "lon": -76.60268500000001,
+      "speed": 0.1,
+      "course": 127.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:30:54.163908+00:00"
+    },
+    {
+      "mmsi": 367832000,
+      "name": "CHARLES L GILLILAND",
+      "lat": 39.26871166666667,
+      "lon": -76.570735,
+      "speed": 0,
+      "course": 0,
+      "heading": 267,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:30:54.610961+00:00"
+    },
+    {
+      "mmsi": 367619720,
+      "name": "SHREDDER",
+      "lat": 39.00223166666667,
+      "lon": -76.42370666666667,
+      "speed": 0,
+      "course": 261,
+      "heading": 72,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:30:54.836171+00:00"
+    },
+    {
+      "mmsi": 367574820,
+      "name": "NAVY RELENTLESS",
+      "lat": 36.918879999999994,
+      "lon": -76.182345,
+      "speed": 0,
+      "course": 3.5,
+      "heading": 273,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:30:59.002722+00:00"
+    },
+    {
+      "mmsi": 366991414,
+      "name": "USNS POINT LOMA",
+      "lat": 36.91695,
+      "lon": -76.18278333333333,
+      "speed": 0,
+      "course": 19.7,
+      "heading": 273,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:31:09.375586+00:00"
     },
     {
       "mmsi": 366878280,
       "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.966015,
-      "lon": -76.47875,
-      "speed": 0,
-      "course": 163,
-      "heading": 163,
+      "lat": 38.96599166666667,
+      "lon": -76.478725,
+      "speed": 0.1,
+      "course": 201.9,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-06-29T06:22:51.297013+00:00"
+      "timestamp": "2026-06-29T11:31:10.282885+00:00"
+    },
+    {
+      "mmsi": 232037842,
+      "name": "ON LIBERTY",
+      "lat": 38.972355,
+      "lon": -76.48855499999999,
+      "speed": 0,
+      "course": 346.5,
+      "heading": 61,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:31:11.798422+00:00"
+    },
+    {
+      "mmsi": 538090723,
+      "name": "ULTRA BOSQUE",
+      "lat": 39.212525,
+      "lon": -76.25185833333333,
+      "speed": 10.5,
+      "course": 203.7,
+      "heading": 204,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:31:13.972054+00:00"
+    },
+    {
+      "mmsi": 232061513,
+      "name": "STORM DIVER",
+      "lat": 36.92454333333333,
+      "lon": -76.19103,
+      "speed": 0,
+      "course": 259.2,
+      "heading": 180,
+      "ship_type": null,
+      "timestamp": "2026-06-29T11:31:14.055842+00:00"
     }
   ]
 }
