@@ -1,51 +1,40 @@
 {
-  "collected_at": "2026-07-01T03:38:36.651786+00:00",
+  "collected_at": "2026-07-01T07:57:55.823246+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
-      "trainNum": "66",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.34214046612868,
-      "lon": -76.40745756949413,
-      "heading": "E",
-      "velocity": 123.727394104004,
-      "lastUpdate": "2026-06-30T23:30:42-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "177",
-      "routeName": "Northeast Regional",
-      "lat": 39.96046109915935,
-      "lon": -75.18230615936302,
-      "heading": "SE",
-      "velocity": 18.2310256958008,
-      "lastUpdate": "2026-06-30T23:35:41-04:00",
+      "lat": 39.95497937807179,
+      "lon": -75.18228327102237,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-07-01T03:55:39-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "198",
+      "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.96806379231472,
-      "lon": -75.19212519393479,
-      "heading": "W",
-      "velocity": 27.8230590820313,
-      "lastUpdate": "2026-06-30T23:35:10-04:00",
-      "nextStation": "Trenton",
-      "status": "Active"
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-07-01T04:42:00-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
     },
     {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.137241782744766,
-      "lon": -76.59334787598715,
-      "heading": "NW",
-      "velocity": 81.1945495605469,
-      "lastUpdate": "2026-06-30T23:35:40-04:00",
-      "nextStation": "Elizabethtown",
-      "status": "Active"
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-07-01T04:35:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
