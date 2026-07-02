@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-02T13:16:00.925564+00:00",
+  "collected_at": "2026-07-02T15:39:55.293034+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,150 +12,205 @@
       -75.8
     ]
   ],
-  "vessel_count": 13,
+  "vessel_count": 18,
   "vessels": [
     {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.227711666666664,
-      "lon": -76.53644833333333,
-      "speed": 0.3,
-      "course": 114.4,
+      "mmsi": 338514578,
+      "name": "",
+      "lat": 39.014289999999995,
+      "lon": -76.40231666666666,
+      "speed": 0,
+      "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-02T13:15:31.642771+00:00"
+      "timestamp": "2026-07-02T15:39:26.885769+00:00"
     },
     {
-      "mmsi": 369970479,
-      "name": "YP705",
-      "lat": 38.9843,
-      "lon": -76.46711499999999,
+      "mmsi": 211109210,
+      "name": "ELISE",
+      "lat": 36.85756666666667,
+      "lon": -76.32443166666667,
       "speed": 0,
-      "course": 318,
-      "heading": 318,
+      "course": 183.2,
+      "heading": 80,
       "ship_type": null,
-      "timestamp": "2026-07-02T13:15:31.832127+00:00"
-    },
-    {
-      "mmsi": 369970480,
-      "name": "YP706",
-      "lat": 38.984165,
-      "lon": -76.46733833333333,
-      "speed": 0,
-      "course": 356.2,
-      "heading": 341,
-      "ship_type": null,
-      "timestamp": "2026-07-02T13:15:35.804646+00:00"
-    },
-    {
-      "mmsi": 367393330,
-      "name": "EMMA MILLER",
-      "lat": 36.974484999999994,
-      "lon": -76.339995,
-      "speed": 9.9,
-      "course": 2.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-02T13:15:37.638678+00:00"
+      "timestamp": "2026-07-02T15:39:27.489992+00:00"
     },
     {
       "mmsi": 367139510,
       "name": "APRIL MORAN",
-      "lat": 39.21931333333334,
-      "lon": -76.52803833333334,
-      "speed": 0.1,
-      "course": 302.7,
+      "lat": 39.26045166666667,
+      "lon": -76.55613833333334,
+      "speed": 0,
+      "course": 215.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-02T13:15:39.313037+00:00"
+      "timestamp": "2026-07-02T15:39:29.738381+00:00"
     },
     {
-      "mmsi": 352003799,
-      "name": "FREJA BULKER",
-      "lat": 39.27587333333334,
-      "lon": -76.59461666666667,
+      "mmsi": 367304020,
+      "name": "JACKIE F. MCALLISTER",
+      "lat": 39.269351666666665,
+      "lon": -76.58061500000001,
       "speed": 0,
-      "course": 0.4,
-      "heading": 63,
+      "course": 226.8,
+      "heading": 206,
       "ship_type": null,
-      "timestamp": "2026-07-02T13:15:41.922437+00:00"
+      "timestamp": "2026-07-02T15:39:31.549207+00:00"
+    },
+    {
+      "mmsi": 367538350,
+      "name": "",
+      "lat": 36.981205,
+      "lon": -76.30247666666668,
+      "speed": 0,
+      "course": 222.4,
+      "heading": 175,
+      "ship_type": null,
+      "timestamp": "2026-07-02T15:39:35.130624+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.24332166666667,
+      "lon": -76.571135,
+      "speed": 0.1,
+      "course": 170.8,
+      "heading": 260,
+      "ship_type": null,
+      "timestamp": "2026-07-02T15:39:35.335521+00:00"
+    },
+    {
+      "mmsi": 369993000,
+      "name": "US GOVT VESSEL",
+      "lat": 36.94992,
+      "lon": -76.32934166666668,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-02T15:39:35.806283+00:00"
     },
     {
       "mmsi": 368192510,
       "name": "SUNDAY MORNING",
-      "lat": 38.972455,
-      "lon": -76.48781166666666,
+      "lat": 38.97247,
+      "lon": -76.487805,
       "speed": 0,
       "course": 6,
-      "heading": 64,
+      "heading": 63,
       "ship_type": null,
-      "timestamp": "2026-07-02T13:15:42.340439+00:00"
+      "timestamp": "2026-07-02T15:39:38.432770+00:00"
+    },
+    {
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.966005,
+      "lon": -76.47872000000001,
+      "speed": 0,
+      "course": 36,
+      "heading": 36,
+      "ship_type": null,
+      "timestamp": "2026-07-02T15:39:41.913487+00:00"
+    },
+    {
+      "mmsi": 352003799,
+      "name": "FREJA BULKER",
+      "lat": 39.27585,
+      "lon": -76.594615,
+      "speed": 0,
+      "course": 0.4,
+      "heading": 63,
+      "ship_type": null,
+      "timestamp": "2026-07-02T15:39:42.083858+00:00"
+    },
+    {
+      "mmsi": 368448780,
+      "name": "FOREVER FRIDAY",
+      "lat": 38.962695000000004,
+      "lon": -76.45258666666668,
+      "speed": 8.4,
+      "course": 316,
+      "heading": 316,
+      "ship_type": null,
+      "timestamp": "2026-07-02T15:39:44.037274+00:00"
+    },
+    {
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 37.006463333333336,
+      "lon": -76.32259833333333,
+      "speed": 0.1,
+      "course": 130,
+      "heading": 83,
+      "ship_type": null,
+      "timestamp": "2026-07-02T15:39:44.081222+00:00"
     },
     {
       "mmsi": 366828620,
       "name": "VICKI M MCALLISTER",
-      "lat": 39.268609999999995,
-      "lon": -76.581095,
-      "speed": 0,
-      "course": 339.6,
+      "lat": 39.25572666666667,
+      "lon": -76.58022666666668,
+      "speed": 9.3,
+      "course": 270.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-02T13:15:45.085124+00:00"
+      "timestamp": "2026-07-02T15:39:45.019480+00:00"
     },
     {
-      "mmsi": 368268250,
-      "name": "SOLITUDE",
-      "lat": 38.97334166666667,
-      "lon": -76.24267666666667,
+      "mmsi": 366999646,
+      "name": "USCGC SLEDGE",
+      "lat": 39.200511666666664,
+      "lon": -76.57428666666667,
       "speed": 0,
-      "course": 300.3,
-      "heading": 357,
+      "course": 287.9,
+      "heading": 331,
       "ship_type": null,
-      "timestamp": "2026-07-02T13:15:49.273944+00:00"
+      "timestamp": "2026-07-02T15:39:47.633003+00:00"
     },
     {
-      "mmsi": 368386690,
-      "name": "GEORGE JAMES MORAN",
-      "lat": 39.25766833333333,
-      "lon": -76.55592,
+      "mmsi": 255803770,
+      "name": "MSC FAIRFIELD",
+      "lat": 39.25327666666667,
+      "lon": -76.54568333333333,
       "speed": 0,
-      "course": 36.2,
-      "heading": 175,
+      "course": 360,
+      "heading": 307,
       "ship_type": null,
-      "timestamp": "2026-07-02T13:15:53.570672+00:00"
+      "timestamp": "2026-07-02T15:39:47.694545+00:00"
     },
     {
-      "mmsi": 366258310,
-      "name": "RISING SUN",
-      "lat": 39.264446666666664,
-      "lon": -76.57136833333334,
-      "speed": 0.3,
-      "course": 270.5,
-      "heading": 85,
+      "mmsi": 368219430,
+      "name": "GENESIS",
+      "lat": 39.28149,
+      "lon": -76.6011,
+      "speed": 0.1,
+      "course": 229.6,
+      "heading": 353,
       "ship_type": null,
-      "timestamp": "2026-07-02T13:15:55.959522+00:00"
+      "timestamp": "2026-07-02T15:39:48.200989+00:00"
     },
     {
-      "mmsi": 367302540,
-      "name": "KIMBERLY C",
-      "lat": 39.21308,
-      "lon": -76.53918833333334,
+      "mmsi": 368357570,
+      "name": "PAUL T. MORAN",
+      "lat": 36.909236666666665,
+      "lon": -76.32868166666667,
+      "speed": 1.5,
+      "course": 79.6,
+      "heading": 68,
+      "ship_type": null,
+      "timestamp": "2026-07-02T15:39:50.048874+00:00"
+    },
+    {
+      "mmsi": 367593540,
+      "name": "14 TO SMILE",
+      "lat": 38.97450333333334,
+      "lon": -76.48402166666666,
       "speed": 0,
-      "course": 265.4,
-      "heading": 49,
+      "course": 317,
+      "heading": 147,
       "ship_type": null,
-      "timestamp": "2026-07-02T13:15:57.089674+00:00"
-    },
-    {
-      "mmsi": 367178000,
-      "name": "ANTARES",
-      "lat": 38.97411,
-      "lon": -76.48386666666667,
-      "speed": 0,
-      "course": 320,
-      "heading": 329,
-      "ship_type": null,
-      "timestamp": "2026-07-02T13:15:58.445563+00:00"
+      "timestamp": "2026-07-02T15:39:53.896549+00:00"
     }
   ]
 }
