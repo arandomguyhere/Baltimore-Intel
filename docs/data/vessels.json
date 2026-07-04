@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-04T15:07:26.917329+00:00",
+  "collected_at": "2026-07-04T16:15:28.391457+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,161 +12,183 @@
       -75.8
     ]
   ],
-  "vessel_count": 14,
+  "vessel_count": 16,
   "vessels": [
     {
-      "mmsi": 367314530,
-      "name": "ALEXANDER,DUFF",
-      "lat": 39.02798666666667,
-      "lon": -76.37349999999999,
-      "speed": 7.7,
-      "course": 23,
-      "heading": 23,
+      "mmsi": 368219430,
+      "name": "GENESIS",
+      "lat": 39.28075,
+      "lon": -76.60112333333333,
+      "speed": 0.1,
+      "course": 301.4,
+      "heading": 354,
       "ship_type": null,
-      "timestamp": "2026-07-04T15:07:00.342585+00:00"
+      "timestamp": "2026-07-04T16:14:58.745260+00:00"
     },
     {
-      "mmsi": 367462360,
-      "name": "CINDY R",
-      "lat": 36.85886333333334,
-      "lon": -76.34697333333334,
+      "mmsi": 367169710,
+      "name": "CAPT TED",
+      "lat": 39.25861833333333,
+      "lon": -76.58604166666667,
       "speed": 0,
-      "course": 360,
-      "heading": 511,
+      "course": 164.4,
+      "heading": 260,
       "ship_type": null,
-      "timestamp": "2026-07-04T15:07:00.870564+00:00"
-    },
-    {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.261023333333334,
-      "lon": -76.55618,
-      "speed": 0,
-      "course": 250.1,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T15:07:01.744343+00:00"
-    },
-    {
-      "mmsi": 368185620,
-      "name": "FELLS POINT",
-      "lat": 39.25576,
-      "lon": -76.53495333333333,
-      "speed": 0,
-      "course": 36,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T15:07:02.674791+00:00"
-    },
-    {
-      "mmsi": 367162820,
-      "name": "",
-      "lat": 38.977785000000004,
-      "lon": -76.479525,
-      "speed": 6.1,
-      "course": 48,
-      "heading": 48,
-      "ship_type": null,
-      "timestamp": "2026-07-04T15:07:06.762907+00:00"
-    },
-    {
-      "mmsi": 366991414,
-      "name": "USNS POINT LOMA",
-      "lat": 36.91693333333333,
-      "lon": -76.18278333333333,
-      "speed": 0,
-      "course": 313.6,
-      "heading": 272,
-      "ship_type": null,
-      "timestamp": "2026-07-04T15:07:09.655641+00:00"
-    },
-    {
-      "mmsi": 538011084,
-      "name": "AL SAMHA",
-      "lat": 36.868003333333334,
-      "lon": -76.31850666666666,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T15:07:13.721927+00:00"
-    },
-    {
-      "mmsi": 368234460,
-      "name": "JAMES K",
-      "lat": 39.290171666666666,
-      "lon": -76.22644833333334,
-      "speed": 5.6,
-      "course": 19.4,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T15:07:16.815919+00:00"
-    },
-    {
-      "mmsi": 366878280,
-      "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.96602333333333,
-      "lon": -76.47874666666667,
-      "speed": 0,
-      "course": 177.3,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T15:07:16.830789+00:00"
+      "timestamp": "2026-07-04T16:14:59.278778+00:00"
     },
     {
       "mmsi": 367619720,
       "name": "SHREDDER",
       "lat": 39.002245,
-      "lon": -76.42370666666667,
+      "lon": -76.42371499999999,
       "speed": 0,
-      "course": 221,
-      "heading": 71,
+      "course": 220,
+      "heading": 72,
       "ship_type": null,
-      "timestamp": "2026-07-04T15:07:19.445902+00:00"
+      "timestamp": "2026-07-04T16:14:59.784833+00:00"
     },
     {
-      "mmsi": 338199403,
-      "name": "HPD MP1",
-      "lat": 36.999165,
-      "lon": -76.306515,
-      "speed": 32.6,
-      "course": 78.6,
+      "mmsi": 367585850,
+      "name": "HOS RED ROCK",
+      "lat": 36.92081333333333,
+      "lon": -76.18248833333334,
+      "speed": 0,
+      "course": 263.3,
+      "heading": 272,
+      "ship_type": null,
+      "timestamp": "2026-07-04T16:15:02.835134+00:00"
+    },
+    {
+      "mmsi": 538009892,
+      "name": "SCOT FLENSBURG",
+      "lat": 38.978105,
+      "lon": -76.40294666666667,
+      "speed": 0,
+      "course": 50.7,
+      "heading": 123,
+      "ship_type": null,
+      "timestamp": "2026-07-04T16:15:07.449867+00:00"
+    },
+    {
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.984055,
+      "lon": -76.46745166666666,
+      "speed": 0,
+      "course": 87.5,
+      "heading": 347,
+      "ship_type": null,
+      "timestamp": "2026-07-04T16:15:08.145875+00:00"
+    },
+    {
+      "mmsi": 368271280,
+      "name": "DB AVALON",
+      "lat": 39.21349333333333,
+      "lon": -76.53936333333333,
+      "speed": 0,
+      "course": 333.2,
+      "heading": 51,
+      "ship_type": null,
+      "timestamp": "2026-07-04T16:15:08.765846+00:00"
+    },
+    {
+      "mmsi": 368185620,
+      "name": "FELLS POINT",
+      "lat": 39.255775,
+      "lon": -76.53493499999999,
+      "speed": 0,
+      "course": 161.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-04T15:07:23.790607+00:00"
+      "timestamp": "2026-07-04T16:15:13.745923+00:00"
     },
     {
-      "mmsi": 319235600,
-      "name": "MY IZUMI",
-      "lat": 38.961275,
-      "lon": -76.45219999999999,
-      "speed": 13.3,
-      "course": 140,
-      "heading": 140,
+      "mmsi": 319268200,
+      "name": "NEW JOURNEY",
+      "lat": 38.97694,
+      "lon": -76.46825666666668,
+      "speed": 0.2,
+      "course": 71.8,
+      "heading": 117,
       "ship_type": null,
-      "timestamp": "2026-07-04T15:07:24.599044+00:00"
+      "timestamp": "2026-07-04T16:15:15.100682+00:00"
     },
     {
-      "mmsi": 367308110,
-      "name": "THE HUNTER",
-      "lat": 39.26835666666667,
-      "lon": -76.58112166666666,
+      "mmsi": 367083060,
+      "name": "CABARET2",
+      "lat": 38.976773333333334,
+      "lon": -76.48455333333332,
       "speed": 0,
-      "course": 193.3,
+      "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-04T15:07:25.456842+00:00"
+      "timestamp": "2026-07-04T16:15:18.702314+00:00"
     },
     {
-      "mmsi": 338401516,
-      "name": "KALLISTO",
-      "lat": 39.02934333333334,
-      "lon": -76.53031333333334,
-      "speed": 7.7,
-      "course": 144.6,
-      "heading": 143,
+      "mmsi": 257672000,
+      "name": "TARAGO",
+      "lat": 39.24096333333333,
+      "lon": -76.534815,
+      "speed": 0,
+      "course": 346.8,
+      "heading": 324,
       "ship_type": null,
-      "timestamp": "2026-07-04T15:07:26.237886+00:00"
+      "timestamp": "2026-07-04T16:15:19.227225+00:00"
+    },
+    {
+      "mmsi": 368420640,
+      "name": "TRIFECTA",
+      "lat": 38.902026666666664,
+      "lon": -76.507035,
+      "speed": 0,
+      "course": 214,
+      "heading": 214,
+      "ship_type": null,
+      "timestamp": "2026-07-04T16:15:19.703405+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98415166666667,
+      "lon": -76.46731,
+      "speed": 0,
+      "course": 111,
+      "heading": 341,
+      "ship_type": null,
+      "timestamp": "2026-07-04T16:15:20.256304+00:00"
+    },
+    {
+      "mmsi": 367314530,
+      "name": "ALEXANDER,DUFF",
+      "lat": 39.156745,
+      "lon": -76.31187333333334,
+      "speed": 7.3,
+      "course": 41.1,
+      "heading": 45,
+      "ship_type": null,
+      "timestamp": "2026-07-04T16:15:20.597749+00:00"
+    },
+    {
+      "mmsi": 367834000,
+      "name": "GARY I GORDON",
+      "lat": 39.269036666666665,
+      "lon": -76.57088833333334,
+      "speed": 0,
+      "course": 0,
+      "heading": 267,
+      "ship_type": null,
+      "timestamp": "2026-07-04T16:15:24.089694+00:00"
+    },
+    {
+      "mmsi": 367612350,
+      "name": "HOS BRIARWOOD",
+      "lat": 36.93743333333334,
+      "lon": -76.39256999999999,
+      "speed": 0,
+      "course": 176.1,
+      "heading": 97,
+      "ship_type": null,
+      "timestamp": "2026-07-04T16:15:24.571817+00:00"
     }
   ]
 }
