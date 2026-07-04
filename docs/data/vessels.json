@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-04T06:01:41.869067+00:00",
+  "collected_at": "2026-07-04T08:50:14.204671+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,139 +12,84 @@
       -75.8
     ]
   ],
-  "vessel_count": 12,
+  "vessel_count": 7,
   "vessels": [
     {
-      "mmsi": 538071496,
-      "name": "ARCTIC PRIDE II",
-      "lat": 39.28288,
-      "lon": -76.60851666666667,
+      "mmsi": 311321000,
+      "name": "VISION OF THE SEAS",
+      "lat": 39.12029333333333,
+      "lon": -76.39480666666667,
+      "speed": 15,
+      "course": 349.6,
+      "heading": 349,
+      "ship_type": null,
+      "timestamp": "2026-07-04T08:49:51.295315+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.26907666666667,
+      "lon": -76.58080333333334,
       "speed": 0,
-      "course": 191.3,
-      "heading": 269,
+      "course": 196.9,
+      "heading": 206,
       "ship_type": null,
-      "timestamp": "2026-07-04T06:01:18.514578+00:00"
+      "timestamp": "2026-07-04T08:49:51.794388+00:00"
     },
     {
-      "mmsi": 367314530,
-      "name": "ALEXANDER,DUFF",
-      "lat": 38.068403333333336,
-      "lon": -76.26384333333334,
-      "speed": 7.1,
-      "course": 341.3,
-      "heading": 342,
-      "ship_type": null,
-      "timestamp": "2026-07-04T06:01:18.514635+00:00"
-    },
-    {
-      "mmsi": 368271280,
-      "name": "DB AVALON",
-      "lat": 39.21348833333333,
-      "lon": -76.539385,
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.266913333333335,
+      "lon": -76.57951166666666,
       "speed": 0,
-      "course": 328.2,
-      "heading": 51,
-      "ship_type": null,
-      "timestamp": "2026-07-04T06:01:18.750029+00:00"
-    },
-    {
-      "mmsi": 367367390,
-      "name": "DIAMOND COAST",
-      "lat": 39.21305333333333,
-      "lon": -76.57973,
-      "speed": 0.1,
-      "course": 266.2,
-      "heading": 251,
-      "ship_type": null,
-      "timestamp": "2026-07-04T06:01:22.960351+00:00"
-    },
-    {
-      "mmsi": 367308110,
-      "name": "THE HUNTER",
-      "lat": 39.268366666666665,
-      "lon": -76.58113333333334,
-      "speed": 0,
-      "course": 276.5,
+      "course": 255.1,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-04T06:01:24.874903+00:00"
+      "timestamp": "2026-07-04T08:49:58.011047+00:00"
     },
     {
-      "mmsi": 367180940,
-      "name": "USHER",
-      "lat": 39.00246,
-      "lon": -76.42378000000001,
+      "mmsi": 366826000,
+      "name": "ARCTIC",
+      "lat": 39.21285,
+      "lon": -76.578865,
       "speed": 0,
-      "course": 247.8,
-      "heading": 79,
+      "course": 275.4,
+      "heading": 251,
       "ship_type": null,
-      "timestamp": "2026-07-04T06:01:25.207516+00:00"
+      "timestamp": "2026-07-04T08:49:59.186729+00:00"
+    },
+    {
+      "mmsi": 367289000,
+      "name": "CG CAMPBELL",
+      "lat": 39.197775,
+      "lon": -76.57286166666667,
+      "speed": 0,
+      "course": 170.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-04T08:50:02.207571+00:00"
     },
     {
       "mmsi": 367029870,
       "name": "SUN COAST",
       "lat": 39.2266,
-      "lon": -76.58137,
+      "lon": -76.581385,
       "speed": 0,
-      "course": 339.5,
-      "heading": 140,
+      "course": 259.8,
+      "heading": 129,
       "ship_type": null,
-      "timestamp": "2026-07-04T06:01:25.728382+00:00"
+      "timestamp": "2026-07-04T08:50:09.299436+00:00"
     },
     {
-      "mmsi": 367302540,
-      "name": "KIMBERLY C",
-      "lat": 39.21308833333333,
-      "lon": -76.53969833333333,
+      "mmsi": 311053400,
+      "name": "PANTHER MAX",
+      "lat": 38.933101666666666,
+      "lon": -76.40907833333334,
       "speed": 0,
-      "course": 309.8,
-      "heading": 230,
+      "course": 269.3,
+      "heading": 5,
       "ship_type": null,
-      "timestamp": "2026-07-04T06:01:26.928523+00:00"
-    },
-    {
-      "mmsi": 367557690,
-      "name": "PRINCESS IRENE",
-      "lat": 39.153155,
-      "lon": -76.49991666666666,
-      "speed": 0,
-      "course": 0,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T06:01:31.097246+00:00"
-    },
-    {
-      "mmsi": 367612350,
-      "name": "HOS BRIARWOOD",
-      "lat": 36.937940000000005,
-      "lon": -76.39226833333333,
-      "speed": 0,
-      "course": 192.8,
-      "heading": 150,
-      "ship_type": null,
-      "timestamp": "2026-07-04T06:01:33.902111+00:00"
-    },
-    {
-      "mmsi": 636017150,
-      "name": "ALEXANDROS P.",
-      "lat": 36.97658166666667,
-      "lon": -76.33991333333333,
-      "speed": 0.7,
-      "course": 171.3,
-      "heading": 276,
-      "ship_type": null,
-      "timestamp": "2026-07-04T06:01:36.614012+00:00"
-    },
-    {
-      "mmsi": 369970480,
-      "name": "YP706",
-      "lat": 38.98418166666667,
-      "lon": -76.46735666666667,
-      "speed": 0,
-      "course": 188,
-      "heading": 341,
-      "ship_type": null,
-      "timestamp": "2026-07-04T06:01:40.731174+00:00"
+      "timestamp": "2026-07-04T08:50:12.393702+00:00"
     }
   ]
 }
