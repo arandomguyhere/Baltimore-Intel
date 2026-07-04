@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-03T23:45:59.644638+00:00",
+  "collected_at": "2026-07-04T02:43:45.029497+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,194 +12,117 @@
       -75.8
     ]
   ],
-  "vessel_count": 17,
+  "vessel_count": 10,
   "vessels": [
     {
-      "mmsi": 538072639,
-      "name": "ST.SOMEWHERE",
-      "lat": 39.13381666666667,
-      "lon": -76.24478333333333,
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.242266666666666,
+      "lon": -76.538705,
+      "speed": 8.9,
+      "course": 121.5,
+      "heading": 130,
+      "ship_type": null,
+      "timestamp": "2026-07-04T02:43:15.745841+00:00"
+    },
+    {
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.24428833333333,
+      "lon": -76.53883,
+      "speed": 7.4,
+      "course": 150,
+      "heading": 156,
+      "ship_type": null,
+      "timestamp": "2026-07-04T02:43:16.779474+00:00"
+    },
+    {
+      "mmsi": 368388560,
+      "name": "GYPSY SOUL",
+      "lat": 38.951796666666674,
+      "lon": -76.55130333333334,
       "speed": 0,
-      "course": 24.2,
-      "heading": 47,
+      "course": 189.7,
+      "heading": 139,
       "ship_type": null,
-      "timestamp": "2026-07-03T23:45:36.058527+00:00"
+      "timestamp": "2026-07-04T02:43:42.019465+00:00"
     },
     {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.2266,
-      "lon": -76.581375,
+      "mmsi": 367169710,
+      "name": "CAPT TED",
+      "lat": 39.25893333333333,
+      "lon": -76.58606,
       "speed": 0,
-      "course": 331.9,
-      "heading": 141,
+      "course": 315,
+      "heading": 238,
       "ship_type": null,
-      "timestamp": "2026-07-03T23:45:36.339818+00:00"
+      "timestamp": "2026-07-04T02:43:20.997241+00:00"
     },
     {
-      "mmsi": 352006060,
-      "name": "NORSE HONSHU",
-      "lat": 38.94940999999999,
-      "lon": -76.40077,
-      "speed": 1.9,
-      "course": 195,
-      "heading": 191,
-      "ship_type": null,
-      "timestamp": "2026-07-03T23:45:36.574010+00:00"
-    },
-    {
-      "mmsi": 563808000,
-      "name": "WAN HAI 502",
-      "lat": 36.91,
-      "lon": -76.32753333333334,
+      "mmsi": 369494428,
+      "name": "CG49428",
+      "lat": 39.20097666666666,
+      "lon": -76.57466333333333,
       "speed": 0,
-      "course": 252,
-      "heading": 352,
-      "ship_type": null,
-      "timestamp": "2026-07-03T23:45:36.694425+00:00"
-    },
-    {
-      "mmsi": 338053574,
-      "name": "FLYING COLORS",
-      "lat": 39.04614,
-      "lon": -76.55295333333333,
-      "speed": 7.5,
-      "course": 159.9,
+      "course": 0,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-03T23:45:37.231165+00:00"
+      "timestamp": "2026-07-04T02:43:27.236423+00:00"
     },
     {
-      "mmsi": 369970481,
-      "name": "YP707",
-      "lat": 38.984065,
-      "lon": -76.46747166666667,
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.965995,
+      "lon": -76.47870666666667,
       "speed": 0,
-      "course": 47,
-      "heading": 6,
+      "course": 166,
+      "heading": 166,
       "ship_type": null,
-      "timestamp": "2026-07-03T23:45:37.821864+00:00"
+      "timestamp": "2026-07-04T02:43:28.474609+00:00"
     },
     {
-      "mmsi": 369970478,
-      "name": "YP704",
-      "lat": 38.98422,
-      "lon": -76.46720499999999,
+      "mmsi": 368271280,
+      "name": "DB AVALON",
+      "lat": 39.213505000000005,
+      "lon": -76.539385,
       "speed": 0,
-      "course": 54.7,
-      "heading": 341,
+      "course": 162.3,
+      "heading": 50,
       "ship_type": null,
-      "timestamp": "2026-07-03T23:45:38.398725+00:00"
-    },
-    {
-      "mmsi": 368420640,
-      "name": "TRIFECTA",
-      "lat": 38.90208666666667,
-      "lon": -76.50708166666666,
-      "speed": 0,
-      "course": 7.5,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-03T23:45:38.912974+00:00"
+      "timestamp": "2026-07-04T02:43:30.119920+00:00"
     },
     {
       "mmsi": 367523580,
       "name": "MARK MORAN",
-      "lat": 39.24216166666667,
-      "lon": -76.541815,
-      "speed": 3.2,
-      "course": 209.8,
+      "lat": 39.261035,
+      "lon": -76.556175,
+      "speed": 0,
+      "course": 260.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-03T23:45:41.640884+00:00"
+      "timestamp": "2026-07-04T02:43:30.812419+00:00"
     },
     {
-      "mmsi": 352003799,
-      "name": "FREJA BULKER",
-      "lat": 39.275816666666664,
-      "lon": -76.594595,
+      "mmsi": 368420640,
+      "name": "TRIFECTA",
+      "lat": 38.902103333333336,
+      "lon": -76.50701166666666,
       "speed": 0,
-      "course": 211.3,
-      "heading": 63,
-      "ship_type": null,
-      "timestamp": "2026-07-03T23:45:41.954794+00:00"
-    },
-    {
-      "mmsi": 367165450,
-      "name": "TREASURE COAST",
-      "lat": 39.17988166666667,
-      "lon": -76.286055,
-      "speed": 9.6,
-      "course": 224.5,
-      "heading": 224,
-      "ship_type": null,
-      "timestamp": "2026-07-03T23:45:43.664443+00:00"
-    },
-    {
-      "mmsi": 368192510,
-      "name": "SUNDAY MORNING",
-      "lat": 38.97246,
-      "lon": -76.48775166666665,
-      "speed": 0,
-      "course": 6,
-      "heading": 64,
-      "ship_type": null,
-      "timestamp": "2026-07-03T23:45:46.993175+00:00"
-    },
-    {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.266933333333334,
-      "lon": -76.57954,
-      "speed": 0,
-      "course": 237.1,
+      "course": 306.3,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-03T23:45:47.456576+00:00"
+      "timestamp": "2026-07-04T02:43:42.019405+00:00"
     },
     {
-      "mmsi": 367619720,
-      "name": "SHREDDER",
-      "lat": 39.033455000000004,
-      "lon": -76.53947166666667,
-      "speed": 1.1,
-      "course": 282.6,
-      "heading": 87,
+      "mmsi": 368777000,
+      "name": "CG JAMES RANKIN",
+      "lat": 39.20005333333334,
+      "lon": -76.57400333333334,
+      "speed": 0.1,
+      "course": 122,
+      "heading": 149,
       "ship_type": null,
-      "timestamp": "2026-07-03T23:45:48.692471+00:00"
-    },
-    {
-      "mmsi": 368185620,
-      "name": "FELLS POINT",
-      "lat": 39.255765,
-      "lon": -76.53494166666665,
-      "speed": 0,
-      "course": 310.3,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-03T23:45:51.908639+00:00"
-    },
-    {
-      "mmsi": 367397810,
-      "name": "CATHERINE MARIE",
-      "lat": 38.956675000000004,
-      "lon": -76.44043166666667,
-      "speed": 2.5,
-      "course": 108,
-      "heading": 108,
-      "ship_type": null,
-      "timestamp": "2026-07-03T23:45:56.221030+00:00"
-    },
-    {
-      "mmsi": 367593540,
-      "name": "14 TO SMILE",
-      "lat": 38.974486666666664,
-      "lon": -76.48409833333334,
-      "speed": 0,
-      "course": 314.6,
-      "heading": 147,
-      "ship_type": null,
-      "timestamp": "2026-07-03T23:45:57.092517+00:00"
+      "timestamp": "2026-07-04T02:43:42.890062+00:00"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-03T23:45:29.005355+00:00",
+  "collected_at": "2026-07-04T02:43:14.398380+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -33,10 +33,10 @@
       "query": "Port of Baltimore"
     },
     {
-      "title": "SUN: Port of Baltimore closes cargo bridge to trucks over structural concerns - WBFF",
-      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPcFBxNHdjOHRNa3NQM2tIQ1lEU3NTU3hTaHNDOXVOLWhQODA0czRrMHo5RzFGTFFsU1BMX0dNYVVFMzd4Rk9wbHlzN3pReVNiLVhVRDBEbUFzbEUtMGhEb1I3N05wcHRLZ3dBREZIaGlpeWtoZWR3VVpYRFFPNFBNRGZRYVRQNTRYMmpLRktvdFVHRXRIcWxBdXhkQW96QzQwUmc?oc=5",
-      "source": "WBFF",
-      "date": "Sat, 30 May 2026 07:00:00 GMT",
+      "title": "Port of Baltimore leader to depart after 2 years - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOeUEybjB6RG9iTUdQUVpvdDRyT1Z3X0VGb2taM0RyQ3NnMmpsVU9GalB6aXlHamE0UHo4SVpnRl96cWxjeE9wQ2FNXy1VSXIxcENkbXRNaWN5ZEh4b084Ul9iVEh1MmdNZ0VLaGpsWHEtam5DVEs5cURiNzkyRHRlREprUGlGY1ZzU3RneFpQcmhiTzhYWWxzQktGTUZFQnR4TkotV0RVOG1QTVYwZ0E?oc=5",
+      "source": "The Business Journals",
+      "date": "Tue, 23 Jun 2026 15:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -68,6 +68,13 @@
       "query": "Baltimore shipping"
     },
     {
+      "title": "Baltimore has a future in medical tourism | READER COMMENTARY - Baltimore Sun",
+      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kVjg3bnBHbl9mRFl6bXZSU0JGTUlPMXVPMHFUaHhIWDBsNllXZW91M000ODkwcjZ5dWhzb3pQekVIVnVSNHZsSEVtNjNZNUlmMjdRYlVkOHV2NnRqbmJ1V0lEamtCUnk4N1BXMVJiT2V4bHo0?oc=5",
+      "source": "Baltimore Sun",
+      "date": "Fri, 03 Jul 2026 22:41:48 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
       "title": "Oil spills into Baltimore's Inner Harbor - CBS News",
       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9IVGp6U21DcnJhWG85VFU2VUV1VUpVMTJnM1VmbmVINXRfcHoyX05vcF90T3B6Q2RrbkNpSWY3M1NuMURxY19YdTBud1V3NkxVU0VvR09RNHdqcnA3YWk5cTBzYVNiUXFfMDZUSy14T0Z1U0ppdzFZTHc4SQ?oc=5",
       "source": "CBS News",
@@ -79,13 +86,6 @@
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQUDBmRTlQdDJudk1CVlFoTkN1Uy1SVjZmTE0tQ2xsVm5DZTI3Q21DOWp0S0p3M1J3UU5jLWFRX3lmZU95RjZwWUpTb19TVW1xQlBMTEk1TmtvazVwNl9wUWprWjJvRDVpdmZTYUdVTFYwUU9XWnpiYmNqbEx5dDV1OVZUaWZEVTAtQlV0ZFZLMUV0Y0M4bGxiUUNGWWphNnBkNnpaRjhUY2QxcVllZ19mc2dzSmFZWDZNYXFvcUZJSmdUbW8teW1GX0hqdGE?oc=5",
       "source": "WMAR 2 News",
       "date": "Fri, 03 Jul 2026 06:02:01 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "Baltimore has a future in medical tourism | READER COMMENTARY - Baltimore Sun",
-      "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1kVjg3bnBHbl9mRFl6bXZSU0JGTUlPMXVPMHFUaHhIWDBsNllXZW91M000ODkwcjZ5dWhzb3pQekVIVnVSNHZsSEVtNjNZNUlmMjdRYlVkOHV2NnRqbmJ1V0lEamtCUnk4N1BXMVJiT2V4bHo0?oc=5",
-      "source": "Baltimore Sun",
-      "date": "Fri, 03 Jul 2026 22:41:48 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore shipping",
-      "Maryland transportation infrastructure",
       "Baltimore harbor",
       "Baltimore rail freight",
+      "Maryland transportation infrastructure",
+      "Baltimore shipping",
       "Port of Baltimore"
     ],
     "sources": [
-      "Engineering News-Record (ENR)",
-      "WMAR 2 News",
-      "WYPR",
-      "WBFF",
-      "WTOP",
-      "The Baltimore Banner",
-      "Baltimore Sun",
-      "U.S. Department of War (.gov)",
       "WBAL-TV",
-      "CBS News"
+      "The Business Journals",
+      "DredgeWire",
+      "CBS News",
+      "Patch",
+      "Maryland Matters",
+      "WYPR",
+      "WMAR 2 News",
+      "Conduit Street Blog",
+      "U.S. Customs and Border Protection (.gov)"
     ]
   }
 }
