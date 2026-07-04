@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-04T02:43:45.029497+00:00",
+  "collected_at": "2026-07-04T06:01:41.869067+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,117 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 10,
+  "vessel_count": 12,
   "vessels": [
     {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.242266666666666,
-      "lon": -76.538705,
-      "speed": 8.9,
-      "course": 121.5,
-      "heading": 130,
-      "ship_type": null,
-      "timestamp": "2026-07-04T02:43:15.745841+00:00"
-    },
-    {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.24428833333333,
-      "lon": -76.53883,
-      "speed": 7.4,
-      "course": 150,
-      "heading": 156,
-      "ship_type": null,
-      "timestamp": "2026-07-04T02:43:16.779474+00:00"
-    },
-    {
-      "mmsi": 368388560,
-      "name": "GYPSY SOUL",
-      "lat": 38.951796666666674,
-      "lon": -76.55130333333334,
+      "mmsi": 538071496,
+      "name": "ARCTIC PRIDE II",
+      "lat": 39.28288,
+      "lon": -76.60851666666667,
       "speed": 0,
-      "course": 189.7,
-      "heading": 139,
+      "course": 191.3,
+      "heading": 269,
       "ship_type": null,
-      "timestamp": "2026-07-04T02:43:42.019465+00:00"
+      "timestamp": "2026-07-04T06:01:18.514578+00:00"
     },
     {
-      "mmsi": 367169710,
-      "name": "CAPT TED",
-      "lat": 39.25893333333333,
-      "lon": -76.58606,
-      "speed": 0,
-      "course": 315,
-      "heading": 238,
+      "mmsi": 367314530,
+      "name": "ALEXANDER,DUFF",
+      "lat": 38.068403333333336,
+      "lon": -76.26384333333334,
+      "speed": 7.1,
+      "course": 341.3,
+      "heading": 342,
       "ship_type": null,
-      "timestamp": "2026-07-04T02:43:20.997241+00:00"
-    },
-    {
-      "mmsi": 369494428,
-      "name": "CG49428",
-      "lat": 39.20097666666666,
-      "lon": -76.57466333333333,
-      "speed": 0,
-      "course": 0,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T02:43:27.236423+00:00"
-    },
-    {
-      "mmsi": 366878280,
-      "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.965995,
-      "lon": -76.47870666666667,
-      "speed": 0,
-      "course": 166,
-      "heading": 166,
-      "ship_type": null,
-      "timestamp": "2026-07-04T02:43:28.474609+00:00"
+      "timestamp": "2026-07-04T06:01:18.514635+00:00"
     },
     {
       "mmsi": 368271280,
       "name": "DB AVALON",
-      "lat": 39.213505000000005,
+      "lat": 39.21348833333333,
       "lon": -76.539385,
       "speed": 0,
-      "course": 162.3,
-      "heading": 50,
+      "course": 328.2,
+      "heading": 51,
       "ship_type": null,
-      "timestamp": "2026-07-04T02:43:30.119920+00:00"
+      "timestamp": "2026-07-04T06:01:18.750029+00:00"
     },
     {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.261035,
-      "lon": -76.556175,
-      "speed": 0,
-      "course": 260.2,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T02:43:30.812419+00:00"
-    },
-    {
-      "mmsi": 368420640,
-      "name": "TRIFECTA",
-      "lat": 38.902103333333336,
-      "lon": -76.50701166666666,
-      "speed": 0,
-      "course": 306.3,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T02:43:42.019405+00:00"
-    },
-    {
-      "mmsi": 368777000,
-      "name": "CG JAMES RANKIN",
-      "lat": 39.20005333333334,
-      "lon": -76.57400333333334,
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.21305333333333,
+      "lon": -76.57973,
       "speed": 0.1,
-      "course": 122,
-      "heading": 149,
+      "course": 266.2,
+      "heading": 251,
       "ship_type": null,
-      "timestamp": "2026-07-04T02:43:42.890062+00:00"
+      "timestamp": "2026-07-04T06:01:22.960351+00:00"
+    },
+    {
+      "mmsi": 367308110,
+      "name": "THE HUNTER",
+      "lat": 39.268366666666665,
+      "lon": -76.58113333333334,
+      "speed": 0,
+      "course": 276.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-04T06:01:24.874903+00:00"
+    },
+    {
+      "mmsi": 367180940,
+      "name": "USHER",
+      "lat": 39.00246,
+      "lon": -76.42378000000001,
+      "speed": 0,
+      "course": 247.8,
+      "heading": 79,
+      "ship_type": null,
+      "timestamp": "2026-07-04T06:01:25.207516+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.2266,
+      "lon": -76.58137,
+      "speed": 0,
+      "course": 339.5,
+      "heading": 140,
+      "ship_type": null,
+      "timestamp": "2026-07-04T06:01:25.728382+00:00"
+    },
+    {
+      "mmsi": 367302540,
+      "name": "KIMBERLY C",
+      "lat": 39.21308833333333,
+      "lon": -76.53969833333333,
+      "speed": 0,
+      "course": 309.8,
+      "heading": 230,
+      "ship_type": null,
+      "timestamp": "2026-07-04T06:01:26.928523+00:00"
+    },
+    {
+      "mmsi": 367557690,
+      "name": "PRINCESS IRENE",
+      "lat": 39.153155,
+      "lon": -76.49991666666666,
+      "speed": 0,
+      "course": 0,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-04T06:01:31.097246+00:00"
+    },
+    {
+      "mmsi": 367612350,
+      "name": "HOS BRIARWOOD",
+      "lat": 36.937940000000005,
+      "lon": -76.39226833333333,
+      "speed": 0,
+      "course": 192.8,
+      "heading": 150,
+      "ship_type": null,
+      "timestamp": "2026-07-04T06:01:33.902111+00:00"
+    },
+    {
+      "mmsi": 636017150,
+      "name": "ALEXANDROS P.",
+      "lat": 36.97658166666667,
+      "lon": -76.33991333333333,
+      "speed": 0.7,
+      "course": 171.3,
+      "heading": 276,
+      "ship_type": null,
+      "timestamp": "2026-07-04T06:01:36.614012+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98418166666667,
+      "lon": -76.46735666666667,
+      "speed": 0,
+      "course": 188,
+      "heading": 341,
+      "ship_type": null,
+      "timestamp": "2026-07-04T06:01:40.731174+00:00"
     }
   ]
 }
