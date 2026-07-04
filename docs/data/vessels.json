@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-04T12:06:02.770354+00:00",
+  "collected_at": "2026-07-04T13:57:27.598421+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,106 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 9,
+  "vessel_count": 12,
   "vessels": [
     {
-      "mmsi": 563808000,
-      "name": "WAN HAI 502",
-      "lat": 36.91,
-      "lon": -76.32753333333334,
-      "speed": 0,
-      "course": 252,
-      "heading": 352,
-      "ship_type": null,
-      "timestamp": "2026-07-04T12:05:35.701773+00:00"
-    },
-    {
-      "mmsi": 366926050,
-      "name": "RV SPERRY STAR III",
-      "lat": 38.979121666666664,
-      "lon": -76.33271833333333,
-      "speed": 0.1,
-      "course": 200.3,
+      "mmsi": 367397810,
+      "name": "CATHERINE MARIE",
+      "lat": 38.984,
+      "lon": -76.39681333333333,
+      "speed": 8.6,
+      "course": 43.4,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-04T12:05:38.012386+00:00"
+      "timestamp": "2026-07-04T13:57:01.577373+00:00"
     },
     {
-      "mmsi": 367165450,
-      "name": "TREASURE COAST",
-      "lat": 39.20938,
-      "lon": -76.46109833333334,
-      "speed": 0.2,
-      "course": 343.1,
-      "heading": 180,
+      "mmsi": 366955460,
+      "name": "COASTAL DAWN",
+      "lat": 39.18945166666666,
+      "lon": -76.27422166666666,
+      "speed": 5.4,
+      "course": 43.4,
+      "heading": 43,
       "ship_type": null,
-      "timestamp": "2026-07-04T12:05:43.184715+00:00"
+      "timestamp": "2026-07-04T13:57:02.891666+00:00"
     },
     {
-      "mmsi": 319235600,
-      "name": "MY IZUMI",
-      "lat": 38.9739,
-      "lon": -76.484285,
+      "mmsi": 538072639,
+      "name": "ST.SOMEWHERE",
+      "lat": 39.13381833333334,
+      "lon": -76.24479,
       "speed": 0,
-      "course": 296,
-      "heading": 296,
+      "course": 176.6,
+      "heading": 49,
       "ship_type": null,
-      "timestamp": "2026-07-04T12:05:44.480975+00:00"
-    },
-    {
-      "mmsi": 369970039,
-      "name": "YP703",
-      "lat": 38.98430833333334,
-      "lon": -76.46699166666667,
-      "speed": 0,
-      "course": 180.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T12:05:45.390317+00:00"
-    },
-    {
-      "mmsi": 367308110,
-      "name": "THE HUNTER",
-      "lat": 39.26835833333334,
-      "lon": -76.58112166666666,
-      "speed": 0,
-      "course": 276,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-04T12:05:45.710002+00:00"
-    },
-    {
-      "mmsi": 636023579,
-      "name": "GAIL SAGAR",
-      "lat": 38.07327333333333,
-      "lon": -76.21851333333333,
-      "speed": 15.9,
-      "course": 176.5,
-      "heading": 176,
-      "ship_type": null,
-      "timestamp": "2026-07-04T12:05:53.712353+00:00"
+      "timestamp": "2026-07-04T13:57:05.942530+00:00"
     },
     {
       "mmsi": 367712350,
       "name": "UNCLE MIKE",
       "lat": 36.96283666666667,
-      "lon": -76.29565166666666,
+      "lon": -76.29566,
       "speed": 0,
-      "course": 187.1,
-      "heading": 220,
+      "course": 278.2,
+      "heading": 219,
       "ship_type": null,
-      "timestamp": "2026-07-04T12:05:54.051844+00:00"
+      "timestamp": "2026-07-04T13:57:14.928003+00:00"
     },
     {
-      "mmsi": 368271280,
-      "name": "DB AVALON",
-      "lat": 39.21351333333334,
-      "lon": -76.53937666666667,
+      "mmsi": 538070059,
+      "name": "TSALTA",
+      "lat": 38.97373833333334,
+      "lon": -76.48488333333333,
       "speed": 0,
-      "course": 186,
-      "heading": 51,
+      "course": 342.3,
+      "heading": 328,
       "ship_type": null,
-      "timestamp": "2026-07-04T12:05:59.790389+00:00"
+      "timestamp": "2026-07-04T13:57:16.111819+00:00"
+    },
+    {
+      "mmsi": 367308110,
+      "name": "THE HUNTER",
+      "lat": 39.268386666666665,
+      "lon": -76.58116333333334,
+      "speed": 0,
+      "course": 279.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-04T13:57:16.225966+00:00"
+    },
+    {
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.984051666666666,
+      "lon": -76.46746833333333,
+      "speed": 0,
+      "course": 327.9,
+      "heading": 346,
+      "ship_type": null,
+      "timestamp": "2026-07-04T13:57:17.278691+00:00"
+    },
+    {
+      "mmsi": 367214000,
+      "name": "TSV-4 NARRAGANSETT",
+      "lat": 36.915255,
+      "lon": -76.18225000000001,
+      "speed": 0,
+      "course": 333.7,
+      "heading": 93,
+      "ship_type": null,
+      "timestamp": "2026-07-04T13:57:17.573255+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.269104999999996,
+      "lon": -76.58075666666667,
+      "speed": 0,
+      "course": 140.1,
+      "heading": 206,
+      "ship_type": null,
+      "timestamp": "2026-07-04T13:57:21.679972+00:00"
+    },
+    {
+      "mmsi": 367165450,
+      "name": "TREASURE COAST",
+      "lat": 39.209825,
+      "lon": -76.46116166666667,
+      "speed": 0,
+      "course": 281.1,
+      "heading": 179,
+      "ship_type": null,
+      "timestamp": "2026-07-04T13:57:23.151792+00:00"
+    },
+    {
+      "mmsi": 367834000,
+      "name": "GARY I GORDON",
+      "lat": 39.269075,
+      "lon": -76.570925,
+      "speed": 0,
+      "course": 0,
+      "heading": 267,
+      "ship_type": null,
+      "timestamp": "2026-07-04T13:57:24.231922+00:00"
+    },
+    {
+      "mmsi": 338531103,
+      "name": "MISS AVALON (FB41)",
+      "lat": 38.83575666666666,
+      "lon": -76.531645,
+      "speed": 2.8,
+      "course": 286.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-04T13:57:25.796588+00:00"
     }
   ]
 }
