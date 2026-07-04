@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-04T08:50:14.204671+00:00",
+  "collected_at": "2026-07-04T10:53:08.876726+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 11,
   "vessels": [
     {
-      "mmsi": 311321000,
-      "name": "VISION OF THE SEAS",
-      "lat": 39.12029333333333,
-      "lon": -76.39480666666667,
-      "speed": 15,
-      "course": 349.6,
-      "heading": 349,
+      "mmsi": 367619720,
+      "name": "SHREDDER",
+      "lat": 39.002248333333334,
+      "lon": -76.42369166666667,
+      "speed": 0,
+      "course": 245,
+      "heading": 72,
       "ship_type": null,
-      "timestamp": "2026-07-04T08:49:51.295315+00:00"
+      "timestamp": "2026-07-04T10:52:39.118211+00:00"
     },
     {
-      "mmsi": 368396250,
-      "name": "ISABEL MCALLISTER",
-      "lat": 39.26907666666667,
-      "lon": -76.58080333333334,
+      "mmsi": 255805858,
+      "name": "RABEA",
+      "lat": 39.262725,
+      "lon": -76.59506166666667,
       "speed": 0,
-      "course": 196.9,
-      "heading": 206,
+      "course": 136.1,
+      "heading": 115,
       "ship_type": null,
-      "timestamp": "2026-07-04T08:49:51.794388+00:00"
+      "timestamp": "2026-07-04T10:52:40.679462+00:00"
     },
     {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.266913333333335,
-      "lon": -76.57951166666666,
+      "mmsi": 368388560,
+      "name": "GYPSY SOUL",
+      "lat": 38.951775,
+      "lon": -76.55129000000001,
       "speed": 0,
-      "course": 255.1,
+      "course": 189,
+      "heading": 138,
+      "ship_type": null,
+      "timestamp": "2026-07-04T10:52:41.932083+00:00"
+    },
+    {
+      "mmsi": 366955460,
+      "name": "COASTAL DAWN",
+      "lat": 38.937689999999996,
+      "lon": -76.396845,
+      "speed": 5.1,
+      "course": 18,
+      "heading": 15,
+      "ship_type": null,
+      "timestamp": "2026-07-04T10:52:42.773645+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.220400000000005,
+      "lon": -76.57440833333334,
+      "speed": 5.4,
+      "course": 38.1,
+      "heading": 61,
+      "ship_type": null,
+      "timestamp": "2026-07-04T10:52:43.252715+00:00"
+    },
+    {
+      "mmsi": 367308110,
+      "name": "THE HUNTER",
+      "lat": 39.268350000000005,
+      "lon": -76.58113833333333,
+      "speed": 0,
+      "course": 251,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-04T08:49:58.011047+00:00"
+      "timestamp": "2026-07-04T10:52:44.596663+00:00"
     },
     {
-      "mmsi": 366826000,
-      "name": "ARCTIC",
-      "lat": 39.21285,
-      "lon": -76.578865,
+      "mmsi": 366999705,
+      "name": "CG_POMPANO",
+      "lat": 36.912945,
+      "lon": -76.17635666666666,
       "speed": 0,
-      "course": 275.4,
-      "heading": 251,
+      "course": 360,
+      "heading": 198,
       "ship_type": null,
-      "timestamp": "2026-07-04T08:49:59.186729+00:00"
+      "timestamp": "2026-07-04T10:52:45.205427+00:00"
+    },
+    {
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.98421,
+      "lon": -76.46721333333333,
+      "speed": 0,
+      "course": 176,
+      "heading": 340,
+      "ship_type": null,
+      "timestamp": "2026-07-04T10:52:48.787433+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98414833333333,
+      "lon": -76.46735666666667,
+      "speed": 0.1,
+      "course": 138.1,
+      "heading": 341,
+      "ship_type": null,
+      "timestamp": "2026-07-04T10:52:49.493941+00:00"
     },
     {
       "mmsi": 367289000,
       "name": "CG CAMPBELL",
-      "lat": 39.197775,
-      "lon": -76.57286166666667,
+      "lat": 39.197755,
+      "lon": -76.57284166666666,
       "speed": 0,
       "course": 170.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-04T08:50:02.207571+00:00"
+      "timestamp": "2026-07-04T10:53:00.020222+00:00"
     },
     {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.2266,
-      "lon": -76.581385,
+      "mmsi": 369970479,
+      "name": "YP705",
+      "lat": 38.98428333333333,
+      "lon": -76.46713333333334,
       "speed": 0,
-      "course": 259.8,
-      "heading": 129,
+      "course": 342.4,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-04T08:50:09.299436+00:00"
-    },
-    {
-      "mmsi": 311053400,
-      "name": "PANTHER MAX",
-      "lat": 38.933101666666666,
-      "lon": -76.40907833333334,
-      "speed": 0,
-      "course": 269.3,
-      "heading": 5,
-      "ship_type": null,
-      "timestamp": "2026-07-04T08:50:12.393702+00:00"
+      "timestamp": "2026-07-04T10:53:04.858599+00:00"
     }
   ]
 }
