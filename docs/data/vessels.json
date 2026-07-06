@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-05T23:18:25.285539+00:00",
+  "collected_at": "2026-07-06T01:15:09.617510+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,172 +12,117 @@
       -75.8
     ]
   ],
-  "vessel_count": 15,
+  "vessel_count": 10,
   "vessels": [
     {
-      "mmsi": 369494428,
-      "name": "CG49428",
-      "lat": 39.20097666666666,
-      "lon": -76.57468833333334,
+      "mmsi": 319268200,
+      "name": "NEW JOURNEY",
+      "lat": 38.854751666666665,
+      "lon": -76.185855,
       "speed": 0,
-      "course": 0,
+      "course": 45.2,
+      "heading": 107,
+      "ship_type": null,
+      "timestamp": "2026-07-06T01:14:41.149533+00:00"
+    },
+    {
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.261044999999996,
+      "lon": -76.556185,
+      "speed": 0,
+      "course": 210.7,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-05T23:17:55.942825+00:00"
+      "timestamp": "2026-07-06T01:14:41.447346+00:00"
     },
     {
-      "mmsi": 369970478,
-      "name": "YP704",
-      "lat": 38.984215,
-      "lon": -76.467235,
+      "mmsi": 369970039,
+      "name": "YP703",
+      "lat": 38.98435166666666,
+      "lon": -76.46702499999999,
       "speed": 0,
-      "course": 6,
-      "heading": 340,
+      "course": 181,
+      "heading": 181,
       "ship_type": null,
-      "timestamp": "2026-07-05T23:17:58.033210+00:00"
+      "timestamp": "2026-07-06T01:14:43.523013+00:00"
     },
     {
-      "mmsi": 338531103,
-      "name": "MISS AVALON (FB41)",
-      "lat": 38.876305,
-      "lon": -76.47662,
-      "speed": 5.1,
-      "course": 248,
-      "heading": 248,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:17:58.955430+00:00"
-    },
-    {
-      "mmsi": 368388560,
-      "name": "GYPSY SOUL",
-      "lat": 38.951789999999995,
-      "lon": -76.55131666666666,
+      "mmsi": 367054050,
+      "name": "INTENT",
+      "lat": 39.27849666666667,
+      "lon": -76.583225,
       "speed": 0,
-      "course": 60,
-      "heading": 141,
+      "course": 313.9,
+      "heading": 309,
       "ship_type": null,
-      "timestamp": "2026-07-05T23:18:01.695243+00:00"
-    },
-    {
-      "mmsi": 538009892,
-      "name": "SCOT FLENSBURG",
-      "lat": 38.97736333333333,
-      "lon": -76.40303333333333,
-      "speed": 0,
-      "course": 109.1,
-      "heading": 81,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:18:07.466265+00:00"
-    },
-    {
-      "mmsi": 563808000,
-      "name": "WAN HAI 502",
-      "lat": 36.91,
-      "lon": -76.32753333333334,
-      "speed": 0,
-      "course": 252,
-      "heading": 352,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:18:08.044042+00:00"
-    },
-    {
-      "mmsi": 257795000,
-      "name": "SPAR SCORPIO",
-      "lat": 39.17680333333333,
-      "lon": -76.43487333333334,
-      "speed": 13.5,
-      "course": 310.1,
-      "heading": 307,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:18:09.310832+00:00"
-    },
-    {
-      "mmsi": 368271280,
-      "name": "DB AVALON",
-      "lat": 39.22599,
-      "lon": -76.54364333333334,
-      "speed": 0,
-      "course": 206.4,
-      "heading": 259,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:18:09.401575+00:00"
-    },
-    {
-      "mmsi": 369970480,
-      "name": "YP706",
-      "lat": 38.98419,
-      "lon": -76.46736166666666,
-      "speed": 0,
-      "course": 24,
-      "heading": 341,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:18:20.827994+00:00"
-    },
-    {
-      "mmsi": 368420640,
-      "name": "TRIFECTA",
-      "lat": 38.90209,
-      "lon": -76.507035,
-      "speed": 0,
-      "course": 338.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:18:09.625499+00:00"
-    },
-    {
-      "mmsi": 338329000,
-      "name": "KINGS POINT",
-      "lat": 39.24347,
-      "lon": -76.57049166666667,
-      "speed": 0.1,
-      "course": 270.1,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:18:11.038949+00:00"
-    },
-    {
-      "mmsi": 366828620,
-      "name": "VICKI M MCALLISTER",
-      "lat": 39.24892,
-      "lon": -76.57395666666666,
-      "speed": 0,
-      "course": 204.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:18:14.450515+00:00"
-    },
-    {
-      "mmsi": 367083060,
-      "name": "CABARET2",
-      "lat": 38.967018333333336,
-      "lon": -76.47819166666666,
-      "speed": 0.1,
-      "course": 90.2,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:18:15.375403+00:00"
-    },
-    {
-      "mmsi": 366878280,
-      "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.966005,
-      "lon": -76.47869666666666,
-      "speed": 0,
-      "course": 135.3,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-05T23:18:15.735799+00:00"
+      "timestamp": "2026-07-06T01:14:45.858935+00:00"
     },
     {
       "mmsi": 369970481,
       "name": "YP707",
-      "lat": 38.98388166666667,
-      "lon": -76.4674,
+      "lat": 38.983865,
+      "lon": -76.467365,
       "speed": 0,
-      "course": 298,
-      "heading": 349,
+      "course": 108,
+      "heading": 347,
       "ship_type": null,
-      "timestamp": "2026-07-05T23:18:17.007808+00:00"
+      "timestamp": "2026-07-06T01:14:47.365294+00:00"
+    },
+    {
+      "mmsi": 368271280,
+      "name": "DB AVALON",
+      "lat": 39.226005,
+      "lon": -76.543675,
+      "speed": 0,
+      "course": 342.3,
+      "heading": 260,
+      "ship_type": null,
+      "timestamp": "2026-07-06T01:14:48.494674+00:00"
+    },
+    {
+      "mmsi": 369494428,
+      "name": "CG49428",
+      "lat": 39.20094666666667,
+      "lon": -76.57467333333334,
+      "speed": 0,
+      "course": 0,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-06T01:14:57.594875+00:00"
+    },
+    {
+      "mmsi": 367302540,
+      "name": "KIMBERLY C",
+      "lat": 39.2263,
+      "lon": -76.54395,
+      "speed": 0,
+      "course": 200.4,
+      "heading": 258,
+      "ship_type": null,
+      "timestamp": "2026-07-06T01:14:57.867037+00:00"
+    },
+    {
+      "mmsi": 368420640,
+      "name": "TRIFECTA",
+      "lat": 38.90209333333333,
+      "lon": -76.50706,
+      "speed": 0,
+      "course": 182.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-06T01:14:59.485415+00:00"
+    },
+    {
+      "mmsi": 368388560,
+      "name": "GYPSY SOUL",
+      "lat": 38.95180333333334,
+      "lon": -76.551315,
+      "speed": 0,
+      "course": 36.7,
+      "heading": 138,
+      "ship_type": null,
+      "timestamp": "2026-07-06T01:15:02.029222+00:00"
     }
   ]
 }
