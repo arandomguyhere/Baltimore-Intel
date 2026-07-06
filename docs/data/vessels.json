@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-06T09:43:31.805350+00:00",
+  "collected_at": "2026-07-06T13:31:10.211087+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 11,
   "vessels": [
     {
-      "mmsi": 366828620,
-      "name": "VICKI M MCALLISTER",
-      "lat": 39.26866333333333,
-      "lon": -76.58103166666666,
+      "mmsi": 366258310,
+      "name": "RISING SUN",
+      "lat": 39.20514166666667,
+      "lon": -76.50680833333332,
+      "speed": 5.2,
+      "course": 199.4,
+      "heading": 184,
+      "ship_type": null,
+      "timestamp": "2026-07-06T13:30:40.393452+00:00"
+    },
+    {
+      "mmsi": 366999646,
+      "name": "USCGC SLEDGE",
+      "lat": 39.200511666666664,
+      "lon": -76.57429,
+      "speed": 0.1,
+      "course": 297.5,
+      "heading": 332,
+      "ship_type": null,
+      "timestamp": "2026-07-06T13:30:46.106897+00:00"
+    },
+    {
+      "mmsi": 366991413,
+      "name": "USNS CODY",
+      "lat": 36.916533333333334,
+      "lon": -76.18226666666666,
       "speed": 0,
-      "course": 331.5,
+      "course": 232,
+      "heading": 93,
+      "ship_type": null,
+      "timestamp": "2026-07-06T13:30:46.136941+00:00"
+    },
+    {
+      "mmsi": 338466925,
+      "name": "GENEVIEVE",
+      "lat": 38.622883333333334,
+      "lon": -76.476795,
+      "speed": 9.3,
+      "course": 351.1,
+      "heading": 353,
+      "ship_type": null,
+      "timestamp": "2026-07-06T13:30:47.037570+00:00"
+    },
+    {
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.96057333333333,
+      "lon": -76.285775,
+      "speed": 0,
+      "course": 304.2,
+      "heading": 136,
+      "ship_type": null,
+      "timestamp": "2026-07-06T13:30:48.439090+00:00"
+    },
+    {
+      "mmsi": 563808000,
+      "name": "WAN HAI 502",
+      "lat": 36.91,
+      "lon": -76.32753333333334,
+      "speed": 0,
+      "course": 252,
+      "heading": 352,
+      "ship_type": null,
+      "timestamp": "2026-07-06T13:30:49.756993+00:00"
+    },
+    {
+      "mmsi": 368420640,
+      "name": "TRIFECTA",
+      "lat": 38.90208333333333,
+      "lon": -76.50708833333333,
+      "speed": 0,
+      "course": 256.9,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-06T09:43:06.273442+00:00"
+      "timestamp": "2026-07-06T13:30:50.377662+00:00"
     },
     {
-      "mmsi": 368192510,
-      "name": "SUNDAY MORNING",
-      "lat": 38.972480000000004,
-      "lon": -76.48780000000001,
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.26881166666667,
+      "lon": -76.580905,
       "speed": 0,
-      "course": 338,
-      "heading": 64,
+      "course": 260.7,
+      "heading": 202,
       "ship_type": null,
-      "timestamp": "2026-07-06T09:43:07.904243+00:00"
+      "timestamp": "2026-07-06T13:30:53.463068+00:00"
     },
     {
-      "mmsi": 366991414,
-      "name": "USNS POINT LOMA",
-      "lat": 36.91693333333333,
-      "lon": -76.18278333333333,
-      "speed": 0,
-      "course": 312.2,
-      "heading": 272,
-      "ship_type": null,
-      "timestamp": "2026-07-06T09:43:08.855228+00:00"
-    },
-    {
-      "mmsi": 368441690,
-      "name": "FEDERAL HILL",
-      "lat": 39.25589,
-      "lon": -76.53488333333333,
-      "speed": 0,
-      "course": 271.5,
-      "heading": 294,
-      "ship_type": null,
-      "timestamp": "2026-07-06T09:43:09.007456+00:00"
-    },
-    {
-      "mmsi": 367619720,
-      "name": "SHREDDER",
-      "lat": 39.00224,
-      "lon": -76.42371666666666,
-      "speed": 0,
-      "course": 265,
-      "heading": 72,
-      "ship_type": null,
-      "timestamp": "2026-07-06T09:43:09.604440+00:00"
-    },
-    {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.262058333333336,
-      "lon": -76.59266666666667,
-      "speed": 0,
-      "course": 236.9,
-      "heading": 86,
-      "ship_type": null,
-      "timestamp": "2026-07-06T09:43:18.531899+00:00"
-    },
-    {
-      "mmsi": 367287000,
-      "name": "CG LEGARE",
-      "lat": 39.197716666666665,
-      "lon": -76.57264,
-      "speed": 0,
-      "course": 360,
+      "mmsi": 369493661,
+      "name": "CG45661",
+      "lat": 39.217081666666665,
+      "lon": -76.57563166666667,
+      "speed": 31.2,
+      "course": 14,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-06T09:43:28.069924+00:00"
+      "timestamp": "2026-07-06T13:30:59.267754+00:00"
+    },
+    {
+      "mmsi": 367593540,
+      "name": "14 TO SMILE",
+      "lat": 38.974465,
+      "lon": -76.48404666666667,
+      "speed": 0,
+      "course": 247,
+      "heading": 148,
+      "ship_type": null,
+      "timestamp": "2026-07-06T13:31:02.062910+00:00"
+    },
+    {
+      "mmsi": 255805858,
+      "name": "RABEA",
+      "lat": 38.91256666666666,
+      "lon": -76.393615,
+      "speed": 13.1,
+      "course": 189,
+      "heading": 188,
+      "ship_type": null,
+      "timestamp": "2026-07-06T13:31:04.078234+00:00"
     }
   ]
 }
