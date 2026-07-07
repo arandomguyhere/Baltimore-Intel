@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-07T11:48:10.766221+00:00",
+  "collected_at": "2026-07-07T14:29:01.226040+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,139 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 12,
+  "vessel_count": 11,
   "vessels": [
+    {
+      "mmsi": 367612350,
+      "name": "HOS BRIARWOOD",
+      "lat": 36.93824,
+      "lon": -76.39152333333332,
+      "speed": 0,
+      "course": 245.5,
+      "heading": 262,
+      "ship_type": null,
+      "timestamp": "2026-07-07T14:28:34.314489+00:00"
+    },
+    {
+      "mmsi": 338466925,
+      "name": "GENEVIEVE",
+      "lat": 38.90272,
+      "lon": -76.50889000000001,
+      "speed": 0,
+      "course": 288,
+      "heading": 26,
+      "ship_type": null,
+      "timestamp": "2026-07-07T14:28:34.942902+00:00"
+    },
     {
       "mmsi": 367308110,
       "name": "THE HUNTER",
-      "lat": 39.268328333333336,
-      "lon": -76.58116833333334,
+      "lat": 39.268321666666665,
+      "lon": -76.58111666666667,
       "speed": 0,
-      "course": 227.1,
+      "course": 271.6,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-07T11:47:44.980739+00:00"
+      "timestamp": "2026-07-07T14:28:36.141355+00:00"
     },
     {
-      "mmsi": 338060011,
-      "name": "CAPT. KENNETH",
-      "lat": 39.218615,
-      "lon": -76.579285,
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98415,
+      "lon": -76.46733333333333,
       "speed": 0,
-      "course": 360,
+      "course": 344,
+      "heading": 339,
+      "ship_type": null,
+      "timestamp": "2026-07-07T14:28:39.386727+00:00"
+    },
+    {
+      "mmsi": 367473520,
+      "name": "RIVER PILOT",
+      "lat": 38.85472166666667,
+      "lon": -76.43897666666666,
+      "speed": 6.6,
+      "course": 18,
+      "heading": 18,
+      "ship_type": null,
+      "timestamp": "2026-07-07T14:28:39.789781+00:00"
+    },
+    {
+      "mmsi": 368388560,
+      "name": "GYPSY SOUL",
+      "lat": 38.95180666666667,
+      "lon": -76.55132833333333,
+      "speed": 0,
+      "course": 331.1,
+      "heading": 139,
+      "ship_type": null,
+      "timestamp": "2026-07-07T14:28:42.934053+00:00"
+    },
+    {
+      "mmsi": 338024391,
+      "name": "TERESA",
+      "lat": 39.218563333333336,
+      "lon": -76.44267166666667,
+      "speed": 5.9,
+      "course": 248.1,
+      "heading": 239,
+      "ship_type": null,
+      "timestamp": "2026-07-07T14:28:45.865009+00:00"
+    },
+    {
+      "mmsi": 367029690,
+      "name": "IVORY COAST",
+      "lat": 39.258975,
+      "lon": -76.57151833333334,
+      "speed": 7.4,
+      "course": 334.2,
+      "heading": 341,
+      "ship_type": null,
+      "timestamp": "2026-07-07T14:28:45.907910+00:00"
+    },
+    {
+      "mmsi": 319268200,
+      "name": "NEW JOURNEY",
+      "lat": 38.91512,
+      "lon": -76.39915166666667,
+      "speed": 8.9,
+      "course": 3.7,
+      "heading": 4,
+      "ship_type": null,
+      "timestamp": "2026-07-07T14:28:48.475917+00:00"
+    },
+    {
+      "mmsi": 368420640,
+      "name": "TRIFECTA",
+      "lat": 38.90206833333333,
+      "lon": -76.507045,
+      "speed": 0,
+      "course": 208.6,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-07T11:47:48.352844+00:00"
+      "timestamp": "2026-07-07T14:28:49.543328+00:00"
     },
     {
-      "mmsi": 477172900,
-      "name": "GREAT FAITH",
-      "lat": 39.21177333333333,
-      "lon": -76.48153166666665,
-      "speed": 0,
-      "course": 24.1,
-      "heading": 263,
+      "mmsi": 366258310,
+      "name": "RISING SUN",
+      "lat": 39.247265,
+      "lon": -76.562865,
+      "speed": 4.9,
+      "course": 330.3,
+      "heading": 338,
       "ship_type": null,
-      "timestamp": "2026-07-07T11:47:48.973046+00:00"
-    },
-    {
-      "mmsi": 368271280,
-      "name": "DB AVALON",
-      "lat": 39.22600833333333,
-      "lon": -76.54362666666665,
-      "speed": 0,
-      "course": 293.3,
-      "heading": 258,
-      "ship_type": null,
-      "timestamp": "2026-07-07T11:47:49.299610+00:00"
-    },
-    {
-      "mmsi": 256003000,
-      "name": "FOXTON",
-      "lat": 39.22284333333334,
-      "lon": -76.577395,
-      "speed": 0,
-      "course": 263.7,
-      "heading": 271,
-      "ship_type": null,
-      "timestamp": "2026-07-07T11:47:50.678506+00:00"
-    },
-    {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.26070166666667,
-      "lon": -76.55615333333334,
-      "speed": 0,
-      "course": 320.8,
-      "heading": 3,
-      "ship_type": null,
-      "timestamp": "2026-07-07T11:47:56.829347+00:00"
-    },
-    {
-      "mmsi": 367455140,
-      "name": "D.GRAY KIMEL",
-      "lat": 39.25750666666667,
-      "lon": -76.58769000000001,
-      "speed": 0.1,
-      "course": 249.2,
-      "heading": 1,
-      "ship_type": null,
-      "timestamp": "2026-07-07T11:47:59.347689+00:00"
-    },
-    {
-      "mmsi": 367367390,
-      "name": "DIAMOND COAST",
-      "lat": 39.253681666666665,
-      "lon": -76.53767166666667,
-      "speed": 4.3,
-      "course": 183.4,
-      "heading": 181,
-      "ship_type": null,
-      "timestamp": "2026-07-07T11:48:02.932743+00:00"
-    },
-    {
-      "mmsi": 338902000,
-      "name": "CORNELIUS H CHARLTON",
-      "lat": 39.27236166666667,
-      "lon": -76.58702166666667,
-      "speed": 0,
-      "course": 240.7,
-      "heading": 24,
-      "ship_type": null,
-      "timestamp": "2026-07-07T11:48:05.492213+00:00"
-    },
-    {
-      "mmsi": 257366000,
-      "name": "HOEGH ST.PETERSBURG",
-      "lat": 39.24132833333333,
-      "lon": -76.52601833333333,
-      "speed": 0,
-      "course": 329.5,
-      "heading": 248,
-      "ship_type": null,
-      "timestamp": "2026-07-07T11:48:06.135276+00:00"
-    },
-    {
-      "mmsi": 538009892,
-      "name": "SCOT FLENSBURG",
-      "lat": 38.97661,
-      "lon": -76.40291166666665,
-      "speed": 0,
-      "course": 233.9,
-      "heading": 46,
-      "ship_type": null,
-      "timestamp": "2026-07-07T11:48:08.264995+00:00"
-    },
-    {
-      "mmsi": 368219430,
-      "name": "GENESIS",
-      "lat": 38.97377166666667,
-      "lon": -76.484515,
-      "speed": 0,
-      "course": 297.4,
-      "heading": 326,
-      "ship_type": null,
-      "timestamp": "2026-07-07T11:48:08.734026+00:00"
+      "timestamp": "2026-07-07T14:28:55.682774+00:00"
     }
   ]
 }
