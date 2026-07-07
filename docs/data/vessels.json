@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-07T01:23:54.262961+00:00",
+  "collected_at": "2026-07-07T05:35:19.240019+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,106 +12,73 @@
       -75.8
     ]
   ],
-  "vessel_count": 9,
+  "vessel_count": 6,
   "vessels": [
     {
-      "mmsi": 367308110,
-      "name": "THE HUNTER",
-      "lat": 39.268339999999995,
-      "lon": -76.58112833333333,
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.21374333333333,
+      "lon": -76.5398,
       "speed": 0,
-      "course": 209.4,
+      "course": 282.6,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-07T01:23:24.357274+00:00"
+      "timestamp": "2026-07-07T05:35:00.461335+00:00"
     },
     {
-      "mmsi": 369970479,
-      "name": "YP705",
-      "lat": 38.984265,
-      "lon": -76.46711499999999,
-      "speed": 0,
-      "course": 340,
-      "heading": 340,
+      "mmsi": 431687000,
+      "name": "AQUAMARINE ACE",
+      "lat": 38.79461166666667,
+      "lon": -76.42117,
+      "speed": 18.5,
+      "course": 14,
+      "heading": 15,
       "ship_type": null,
-      "timestamp": "2026-07-07T01:23:25.037659+00:00"
+      "timestamp": "2026-07-07T05:35:11.159498+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.24279333333333,
+      "lon": -76.56616833333332,
+      "speed": 0.6,
+      "course": 124.5,
+      "heading": 216,
+      "ship_type": null,
+      "timestamp": "2026-07-07T05:35:11.793001+00:00"
+    },
+    {
+      "mmsi": 367457590,
+      "name": "WENDY MORAN",
+      "lat": 36.95316666666667,
+      "lon": -76.3285,
+      "speed": 0,
+      "course": 210.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-07T05:35:13.655994+00:00"
     },
     {
       "mmsi": 319235600,
       "name": "MY IZUMI",
-      "lat": 38.97388,
-      "lon": -76.48432666666666,
+      "lat": 38.97390166666666,
+      "lon": -76.48434,
       "speed": 0,
       "course": 315,
       "heading": 315,
       "ship_type": null,
-      "timestamp": "2026-07-07T01:23:37.430709+00:00"
+      "timestamp": "2026-07-07T05:35:16.501609+00:00"
     },
     {
-      "mmsi": 367619720,
-      "name": "SHREDDER",
-      "lat": 39.00224166666667,
-      "lon": -76.42370166666666,
+      "mmsi": 369494428,
+      "name": "CG49428",
+      "lat": 39.200975,
+      "lon": -76.57468833333334,
       "speed": 0,
-      "course": 203,
-      "heading": 75,
-      "ship_type": null,
-      "timestamp": "2026-07-07T01:23:40.438541+00:00"
-    },
-    {
-      "mmsi": 338329000,
-      "name": "KINGS POINT",
-      "lat": 39.243446666666664,
-      "lon": -76.57050166666666,
-      "speed": 0,
-      "course": 223,
+      "course": 0,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-07T01:23:41.307456+00:00"
-    },
-    {
-      "mmsi": 256003000,
-      "name": "FOXTON",
-      "lat": 39.22286,
-      "lon": -76.57743166666667,
-      "speed": 0,
-      "course": 263.7,
-      "heading": 271,
-      "ship_type": null,
-      "timestamp": "2026-07-07T01:23:42.366257+00:00"
-    },
-    {
-      "mmsi": 477172900,
-      "name": "GREAT FAITH",
-      "lat": 39.211755000000004,
-      "lon": -76.48150333333334,
-      "speed": 0,
-      "course": 24.1,
-      "heading": 263,
-      "ship_type": null,
-      "timestamp": "2026-07-07T01:23:46.343898+00:00"
-    },
-    {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.258201666666665,
-      "lon": -76.55598499999999,
-      "speed": 0,
-      "course": 22.7,
-      "heading": 138,
-      "ship_type": null,
-      "timestamp": "2026-07-07T01:23:47.926186+00:00"
-    },
-    {
-      "mmsi": 368420640,
-      "name": "TRIFECTA",
-      "lat": 38.902051666666665,
-      "lon": -76.50710333333333,
-      "speed": 0,
-      "course": 164.9,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-07T01:23:49.991281+00:00"
+      "timestamp": "2026-07-07T05:35:17.987803+00:00"
     }
   ]
 }
