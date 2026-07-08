@@ -1,17 +1,72 @@
 {
-  "collected_at": "2026-07-08T06:26:07.710387+00:00",
+  "collected_at": "2026-07-08T09:06:30.965817+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 6,
   "trains": [
     {
-      "trainNum": "66",
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 37.95553583910061,
+      "lon": -77.40050741734208,
+      "heading": "E",
+      "velocity": 69.6583099365234,
+      "lastUpdate": "2026-07-08T05:05:39-04:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.95595212631768,
-      "lon": -75.18081842661768,
-      "heading": "NE",
+      "lat": 39.899715844503255,
+      "lon": -75.28189267418706,
+      "heading": "SW",
+      "velocity": 102.362373352051,
+      "lastUpdate": "2026-07-08T05:05:40-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "170",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-07-08T02:20:39-04:00",
+      "lastUpdate": "2026-07-08T04:50:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "601",
+      "routeName": "Keystone",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-07-08T04:55:00-04:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.20512432659414,
+      "lon": -76.78790513163605,
+      "heading": "SE",
+      "velocity": 108.43342590332,
+      "lastUpdate": "2026-07-08T05:05:39-04:00",
+      "nextStation": "Middletown",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 39.08358403709316,
+      "lon": -76.70833807978563,
+      "heading": "NE",
+      "velocity": 84.607780456543,
+      "lastUpdate": "2026-07-08T05:05:39-04:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
     }
   ]
