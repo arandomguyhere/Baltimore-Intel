@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-08T03:47:52.355609+00:00",
+  "collected_at": "2026-07-08T06:26:41.412270+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 9,
   "vessels": [
+    {
+      "mmsi": 563808000,
+      "name": "WAN HAI 502",
+      "lat": 36.91,
+      "lon": -76.32753333333334,
+      "speed": 0,
+      "course": 252,
+      "heading": 352,
+      "ship_type": null,
+      "timestamp": "2026-07-08T06:26:14.919769+00:00"
+    },
+    {
+      "mmsi": 477464100,
+      "name": "CHINA SPIRIT",
+      "lat": 38.89551666666667,
+      "lon": -76.40653,
+      "speed": 0,
+      "course": 115,
+      "heading": 172,
+      "ship_type": null,
+      "timestamp": "2026-07-08T06:26:15.058969+00:00"
+    },
+    {
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.26072666666666,
+      "lon": -76.55618166666666,
+      "speed": 0,
+      "course": 263.5,
+      "heading": 357,
+      "ship_type": null,
+      "timestamp": "2026-07-08T06:26:17.365034+00:00"
+    },
+    {
+      "mmsi": 366999705,
+      "name": "CG_POMPANO",
+      "lat": 36.912915,
+      "lon": -76.17633333333333,
+      "speed": 0,
+      "course": 0,
+      "heading": 199,
+      "ship_type": null,
+      "timestamp": "2026-07-08T06:26:22.735685+00:00"
+    },
+    {
+      "mmsi": 367611520,
+      "name": "WASHINGTON",
+      "lat": 36.823676666666664,
+      "lon": -75.91683166666667,
+      "speed": 0.3,
+      "course": 155,
+      "heading": 72,
+      "ship_type": null,
+      "timestamp": "2026-07-08T06:26:23.680751+00:00"
+    },
     {
       "mmsi": 368302990,
       "name": "REEDVILLE",
-      "lat": 37.07301833333334,
-      "lon": -76.24791,
-      "speed": 0,
-      "course": 287.9,
-      "heading": 34,
+      "lat": 37.07311166666667,
+      "lon": -76.24794166666668,
+      "speed": 0.1,
+      "course": 206,
+      "heading": 93,
       "ship_type": null,
-      "timestamp": "2026-07-08T03:47:31.048096+00:00"
+      "timestamp": "2026-07-08T06:26:35.441262+00:00"
     },
     {
-      "mmsi": 367024030,
-      "name": "",
-      "lat": 36.86933666666666,
-      "lon": -76.00584333333333,
+      "mmsi": 311053400,
+      "name": "PANTHER MAX",
+      "lat": 38.93634,
+      "lon": -76.40938,
       "speed": 0,
-      "course": 241,
-      "heading": 241,
+      "course": 70,
+      "heading": 153,
       "ship_type": null,
-      "timestamp": "2026-07-08T03:47:32.785698+00:00"
+      "timestamp": "2026-07-08T06:26:36.714151+00:00"
     },
     {
-      "mmsi": 338533000,
-      "name": "SHANNON DANN",
-      "lat": 36.88788666666667,
-      "lon": -75.92311333333333,
-      "speed": 3.1,
-      "course": 285,
-      "heading": 289,
+      "mmsi": 319235600,
+      "name": "MY IZUMI",
+      "lat": 38.973875,
+      "lon": -76.48430499999999,
+      "speed": 0,
+      "course": 185,
+      "heading": 185,
       "ship_type": null,
-      "timestamp": "2026-07-08T03:47:33.891124+00:00"
+      "timestamp": "2026-07-08T06:26:37.293063+00:00"
     },
     {
-      "mmsi": 369970479,
-      "name": "YP705",
-      "lat": 38.984265,
-      "lon": -76.46713166666667,
-      "speed": 0,
-      "course": 348,
-      "heading": 348,
+      "mmsi": 636093148,
+      "name": "TANGIER EXPRESS",
+      "lat": 38.977489999999996,
+      "lon": -76.38601999999999,
+      "speed": 12.4,
+      "course": 179,
+      "heading": 179,
       "ship_type": null,
-      "timestamp": "2026-07-08T03:47:45.267421+00:00"
-    },
-    {
-      "mmsi": 246865000,
-      "name": "AVONBORG",
-      "lat": 36.86448666666667,
-      "lon": -76.31513,
-      "speed": 0,
-      "course": 298,
-      "heading": 46,
-      "ship_type": null,
-      "timestamp": "2026-07-08T03:47:45.523961+00:00"
-    },
-    {
-      "mmsi": 369389000,
-      "name": "WINDSERVE ODYSSEY",
-      "lat": 36.82837166666666,
-      "lon": -75.97187833333334,
-      "speed": 0,
-      "course": 299,
-      "heading": 296,
-      "ship_type": null,
-      "timestamp": "2026-07-08T03:47:47.742980+00:00"
-    },
-    {
-      "mmsi": 368271280,
-      "name": "DB AVALON",
-      "lat": 39.225993333333335,
-      "lon": -76.543675,
-      "speed": 0,
-      "course": 210.4,
-      "heading": 259,
-      "ship_type": null,
-      "timestamp": "2026-07-08T03:47:49.224357+00:00"
+      "timestamp": "2026-07-08T06:26:38.834603+00:00"
     }
   ]
 }
