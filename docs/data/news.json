@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-10T21:03:53.559298+00:00",
+  "collected_at": "2026-07-10T22:14:54.956926+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -54,13 +54,6 @@
       "query": "Baltimore shipping"
     },
     {
-      "title": "\u2018Double-stacked\u2019 trains arrive in Baltimore after tunnel expansion - Maryland Matters",
-      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVmhoTi1DYVJQOTl3ZURMX1NYOGxDMlBlUGN0VkU2VlFvYnZQaU1ha04tTHZyOEJRR1ZjR3B3TU5MRE5sSTVnZzBTbEtoaEYtQkF5T2lHcld3QldSWWRFTGRBc3FPTmVpaHQ4YkdSNVVIaUdaY3c4cmVBa1lfbV95Vkx0bmRldEhrUzk0VmI5VlR0OHNaMVRNMDU3NXBTR01DNUVCUFpHcw?oc=5",
-      "source": "Maryland Matters",
-      "date": "Mon, 22 Jun 2026 07:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
       "title": "Visitors Welcome International Tall Ships to Baltimore for Sail 250 - U.S. Department of War (.gov)",
       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWmxJS1g0SEt2bWhvdGUzcmhhNC0ydUxuaHlvZUZwaUwxWUtNLW9JOENZNGVoZzVjMTJmMjRJTDVFZFNWbWxMbVdXTnNFak1iamVHZThKdlBpWnRaYUdaaGpoenRaam90cUhsQkx3M19RYmVFd1VMcVFyUkd4dnhuc3pRNGd3UjlVbGpBY29DUVJ4XzUzS3NNbzVRT3dvTVVkY0pCU3RiSUd6M2hPTHFMTlc1dE1rUjRQTDFhSjRqMFBGNUpRcDl2OHJaaw?oc=5",
       "source": "U.S. Department of War (.gov)",
@@ -72,6 +65,13 @@
       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPME9oSVN4Ujk3LU9NenNGT0JzcVJmendrdzFmc3g4SVMwMHlNNkRHaEtITjZqcnAybjNhdU94MjlkdXg5VXZpNkpfUU9vQmRuLXNLUmN1V0REU0NXeFdIZUFMY0xadld4TlBaVzJUMUE0YmlFOXpfVS0yX3puOVZCbUZKNFBWay10aDhJX0lkYkpTZzYtVnhzcGxtU2dkb1dNUEFhZ0dCMFN6UnFhMmJ0RnFMdTYzUQ?oc=5",
       "source": "U.S. Customs and Border Protection (.gov)",
       "date": "Thu, 18 Jun 2026 07:00:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
+      "title": "\u2018Double-stacked\u2019 trains arrive in Baltimore after tunnel expansion - Maryland Matters",
+      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVmhoTi1DYVJQOTl3ZURMX1NYOGxDMlBlUGN0VkU2VlFvYnZQaU1ha04tTHZyOEJRR1ZjR3B3TU5MRE5sSTVnZzBTbEtoaEYtQkF5T2lHcld3QldSWWRFTGRBc3FPTmVpaHQ4YkdSNVVIaUdaY3c4cmVBa1lfbV95Vkx0bmRldEhrUzk0VmI5VlR0OHNaMVRNMDU3NXBTR01DNUVCUFpHcw?oc=5",
+      "source": "Maryland Matters",
+      "date": "Mon, 22 Jun 2026 07:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Port of Baltimore",
       "Baltimore shipping",
-      "Maryland transportation infrastructure",
-      "Baltimore harbor"
+      "Port of Baltimore",
+      "Baltimore harbor",
+      "Maryland transportation infrastructure"
     ],
     "sources": [
-      "WBAL-TV",
-      "ClickOnDetroit | WDIV Local 4",
-      "U.S. Customs and Border Protection (.gov)",
-      "WTOP",
-      "Journal of Commerce",
-      "U.S. Department of War (.gov)",
-      "Baltimore Fishbowl",
       "the-independent.com",
-      "Engineering News-Record (ENR)",
-      "Baltimore Sun"
+      "Baltimore Sun",
+      "U.S. Customs and Border Protection (.gov)",
+      "U.S. Department of War (.gov)",
+      "WTOP",
+      "Conduit Street Blog",
+      "CBS News",
+      "Journal of Commerce",
+      "Greater Greater Washington",
+      "Maryland Matters"
     ]
   }
 }
