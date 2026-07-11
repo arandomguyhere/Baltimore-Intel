@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-07-11T06:01:58.878818+00:00",
+  "collected_at": "2026-07-11T08:14:07.219206+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "65",
@@ -10,20 +10,31 @@
       "lon": -75.18090997962001,
       "heading": "S",
       "velocity": 0.236120983958244,
-      "lastUpdate": "2026-07-11T01:58:09-04:00",
+      "lastUpdate": "2026-07-11T04:05:39-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "66",
+      "trainNum": "151",
       "routeName": "Northeast Regional",
-      "lat": 39.953159767710254,
-      "lon": -75.18229090091417,
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
       "heading": "N",
-      "velocity": 9.14013671875,
-      "lastUpdate": "2026-07-11T01:58:09-04:00",
+      "velocity": 0,
+      "lastUpdate": "2026-07-11T04:42:00-04:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "2250",
+      "routeName": "Acela",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-07-11T04:33:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
