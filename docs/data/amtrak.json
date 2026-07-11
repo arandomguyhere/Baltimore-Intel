@@ -1,50 +1,28 @@
 {
-  "collected_at": "2026-07-11T03:43:03.707756+00:00",
+  "collected_at": "2026-07-11T06:01:58.878818+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 2,
   "trains": [
+    {
+      "trainNum": "65",
+      "routeName": "Northeast Regional",
+      "lat": 39.955513436227314,
+      "lon": -75.18090997962001,
+      "heading": "S",
+      "velocity": 0.236120983958244,
+      "lastUpdate": "2026-07-11T01:58:09-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.41485624482277,
-      "lon": -76.29539699182492,
-      "heading": "NE",
-      "velocity": 29.3039131164551,
-      "lastUpdate": "2026-07-10T23:40:10-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "90",
-      "routeName": "Palmetto",
-      "lat": 39.56077989649541,
-      "lon": -76.06424153319495,
-      "heading": "E",
-      "velocity": 100.161224365234,
-      "lastUpdate": "2026-07-10T23:40:09-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 38.90132156935372,
-      "lon": -77.0050147971789,
-      "heading": "S",
-      "velocity": 11.5157670974731,
-      "lastUpdate": "2026-07-10T23:28:10-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.14639324285056,
-      "lon": -76.61142191826949,
-      "heading": "W",
-      "velocity": 0.0807782262563705,
-      "lastUpdate": "2026-07-10T23:38:40-04:00",
-      "nextStation": "Middletown",
+      "lat": 39.953159767710254,
+      "lon": -75.18229090091417,
+      "heading": "N",
+      "velocity": 9.14013671875,
+      "lastUpdate": "2026-07-11T01:58:09-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
   ]
