@@ -1,73 +1,29 @@
 {
-  "collected_at": "2026-07-12T03:55:58.903720+00:00",
+  "collected_at": "2026-07-12T06:32:20.471783+00:00",
   "source": "amtraker.com",
-  "total_trains": 6,
+  "total_trains": 2,
   "trains": [
+    {
+      "trainNum": "65",
+      "routeName": "Northeast Regional",
+      "lat": 39.955440957180194,
+      "lon": -75.18181787790311,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-07-12T02:31:38-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.8254856310783,
-      "lon": -75.41097443648177,
-      "heading": "NE",
-      "velocity": 23.7607765197754,
-      "lastUpdate": "2026-07-11T23:52:40-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "87",
-      "routeName": "Northeast Regional",
-      "lat": 38.899562993008736,
-      "lon": -77.00475539799078,
-      "heading": "S",
-      "velocity": 0.00894775986671448,
-      "lastUpdate": "2026-07-11T23:50:40-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "124",
-      "routeName": "Northeast Regional",
-      "lat": 39.94514890158392,
-      "lon": -75.19716059413504,
-      "heading": "E",
-      "velocity": 27.360013961792,
-      "lastUpdate": "2026-07-11T23:52:40-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 39.912376827913995,
-      "lon": -75.25708950610985,
-      "heading": "E",
-      "velocity": 12.3121175765991,
-      "lastUpdate": "2026-07-11T23:52:40-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 39.296806585986964,
-      "lon": -76.65159826814256,
-      "heading": "S",
-      "velocity": 40.1933364868164,
-      "lastUpdate": "2026-07-11T23:52:40-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2271",
-      "routeName": "Acela",
-      "lat": 38.910446327360035,
-      "lon": -77.00055160034591,
+      "lat": 39.95318647071582,
+      "lon": -75.18228327091336,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-07-11T23:43:53-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
+      "velocity": 6.10908317565918,
+      "lastUpdate": "2026-07-12T02:31:38-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
     }
   ]
 }
