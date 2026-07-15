@@ -1,51 +1,40 @@
 {
-  "collected_at": "2026-07-15T03:32:36.701363+00:00",
+  "collected_at": "2026-07-15T05:58:18.549736+00:00",
   "source": "amtraker.com",
-  "total_trains": 6,
+  "total_trains": 4,
   "trains": [
-    {
-      "trainNum": "40",
-      "routeName": "Floridian",
-      "lat": 39.14197560132047,
-      "lon": -77.2021584284339,
-      "heading": "W",
-      "velocity": 63.4754104614258,
-      "lastUpdate": "2026-07-14T23:31:49-04:00",
-      "nextStation": "Harpers Ferry",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.302448526546,
-      "lon": -76.58633640806991,
-      "heading": "E",
-      "velocity": 47.548397064209,
-      "lastUpdate": "2026-07-14T23:31:49-04:00",
-      "nextStation": "Wilmington",
+      "lat": 39.953167396698,
+      "lon": -75.1826723700354,
+      "heading": "NW",
+      "velocity": 5.78696393966675,
+      "lastUpdate": "2026-07-15T01:55:38-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "175",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 38.91242234093303,
-      "lon": -76.9958671510076,
+      "lat": 39.95640607545948,
+      "lon": -75.17938410019113,
+      "heading": "SE",
+      "velocity": 0,
+      "lastUpdate": "2026-07-15T01:55:38-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "179",
+      "routeName": "Northeast Regional",
+      "lat": 39.95870633883512,
+      "lon": -75.1816347730437,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-07-14T23:26:05-04:00",
-      "nextStation": "Washington Union",
+      "lastUpdate": "2026-07-15T01:55:55-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Completed"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.081112325544375,
-      "lon": -76.36066652509598,
-      "heading": "W",
-      "velocity": 102.352233886719,
-      "lastUpdate": "2026-07-14T23:30:49-04:00",
-      "nextStation": "Mount Joy",
-      "status": "Active"
     },
     {
       "trainNum": "802",
@@ -55,17 +44,6 @@
       "heading": "N",
       "velocity": 0,
       "lastUpdate": "2026-07-14T03:45:00-04:00",
-      "nextStation": "Washington Union",
-      "status": "Predeparture"
-    },
-    {
-      "trainNum": "802",
-      "routeName": "Northest Regional",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-07-13T03:45:00-04:00",
       "nextStation": "Washington Union",
       "status": "Predeparture"
     }
