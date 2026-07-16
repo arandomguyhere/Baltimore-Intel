@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-16T09:02:28.086795+00:00",
+  "collected_at": "2026-07-16T11:11:48.400399+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,128 +12,205 @@
       -75.8
     ]
   ],
-  "vessel_count": 11,
+  "vessel_count": 18,
   "vessels": [
     {
-      "mmsi": 367763450,
-      "name": "SWEET BABY",
-      "lat": 38.77559,
-      "lon": -76.56350833333333,
+      "mmsi": 319235600,
+      "name": "MY IZUMI",
+      "lat": 38.97385166666666,
+      "lon": -76.48433,
       "speed": 0,
-      "course": 266.2,
+      "course": 329,
+      "heading": 329,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:20.144031+00:00"
+    },
+    {
+      "mmsi": 368129160,
+      "name": "MEGALODON",
+      "lat": 39.00695833333334,
+      "lon": -76.40412333333333,
+      "speed": 0,
+      "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-16T09:02:07.689377+00:00"
+      "timestamp": "2026-07-16T11:11:20.292323+00:00"
     },
     {
-      "mmsi": 366948330,
-      "name": "NIGHT HAWK",
-      "lat": 36.84231666666667,
-      "lon": -76.26936666666667,
+      "mmsi": 367091990,
+      "name": "MERRIMAC",
+      "lat": 36.808009999999996,
+      "lon": -76.28707833333333,
       "speed": 0,
-      "course": 260.3,
-      "heading": 330,
+      "course": 67,
+      "heading": 245,
       "ship_type": null,
-      "timestamp": "2026-07-16T09:02:14.883536+00:00"
-    },
-    {
-      "mmsi": 563020400,
-      "name": "TOKYO TRIUMPH",
-      "lat": 39.25177333333333,
-      "lon": -76.54325833333334,
-      "speed": 0.1,
-      "course": 129.1,
-      "heading": 307,
-      "ship_type": null,
-      "timestamp": "2026-07-16T09:02:16.919443+00:00"
-    },
-    {
-      "mmsi": 538008657,
-      "name": "PRAIRIE",
-      "lat": 37.08044833333334,
-      "lon": -76.10367833333333,
-      "speed": 7.3,
-      "course": 151.9,
-      "heading": 152,
-      "ship_type": null,
-      "timestamp": "2026-07-16T09:02:17.380940+00:00"
-    },
-    {
-      "mmsi": 368169560,
-      "name": "ATLANTIC ENDEAVOR",
-      "lat": 36.92286,
-      "lon": -76.18811666666667,
-      "speed": 0,
-      "course": 106.5,
-      "heading": 106,
-      "ship_type": null,
-      "timestamp": "2026-07-16T09:02:18.480358+00:00"
-    },
-    {
-      "mmsi": 368420640,
-      "name": "TRIFECTA",
-      "lat": 38.90207,
-      "lon": -76.50708833333333,
-      "speed": 0,
-      "course": 87.3,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-16T09:02:18.719672+00:00"
-    },
-    {
-      "mmsi": 636020783,
-      "name": "MSC MATTINA",
-      "lat": 39.00263666666667,
-      "lon": -76.37884333333334,
-      "speed": 12.5,
-      "course": 196.3,
-      "heading": 195,
-      "ship_type": null,
-      "timestamp": "2026-07-16T09:02:18.785826+00:00"
-    },
-    {
-      "mmsi": 367098270,
-      "name": "PALM COAST",
-      "lat": 39.248513333333335,
-      "lon": -76.57195833333334,
-      "speed": 2,
-      "course": 277.5,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-16T09:02:20.977100+00:00"
-    },
-    {
-      "mmsi": 246100000,
-      "name": "SUOMIGRACHT",
-      "lat": 38.25728166666667,
-      "lon": -76.27198166666668,
-      "speed": 15.3,
-      "course": 165,
-      "heading": 164,
-      "ship_type": null,
-      "timestamp": "2026-07-16T09:02:22.025429+00:00"
-    },
-    {
-      "mmsi": 368382440,
-      "name": "PATRICIA B. MORAN",
-      "lat": 36.85679833333334,
-      "lon": -76.33062333333334,
-      "speed": 0,
-      "course": 345.6,
-      "heading": 100,
-      "ship_type": null,
-      "timestamp": "2026-07-16T09:02:23.009526+00:00"
+      "timestamp": "2026-07-16T11:11:21.802642+00:00"
     },
     {
       "mmsi": 477221600,
       "name": "COSCO SHIPPING LILY",
-      "lat": 36.879153333333335,
-      "lon": -76.35039,
+      "lat": 36.879128333333334,
+      "lon": -76.35040000000001,
       "speed": 0,
       "course": 174.4,
       "heading": 347,
       "ship_type": null,
-      "timestamp": "2026-07-16T09:02:26.321162+00:00"
+      "timestamp": "2026-07-16T11:11:23.839323+00:00"
+    },
+    {
+      "mmsi": 367139510,
+      "name": "APRIL MORAN",
+      "lat": 39.26023166666666,
+      "lon": -76.57233166666667,
+      "speed": 7.6,
+      "course": 158.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:25.881706+00:00"
+    },
+    {
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.98422,
+      "lon": -76.46724666666667,
+      "speed": 0,
+      "course": 357,
+      "heading": 341,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:26.799573+00:00"
+    },
+    {
+      "mmsi": 339067000,
+      "name": "OCEANUS V",
+      "lat": 36.932763333333334,
+      "lon": -76.17741333333333,
+      "speed": 8.7,
+      "course": 4.2,
+      "heading": 351,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:27.913749+00:00"
+    },
+    {
+      "mmsi": 368420640,
+      "name": "TRIFECTA",
+      "lat": 38.902100000000004,
+      "lon": -76.50707000000001,
+      "speed": 0,
+      "course": 277.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:30.088325+00:00"
+    },
+    {
+      "mmsi": 338924264,
+      "name": "OSCAR V. PETERSON",
+      "lat": 36.94818333333333,
+      "lon": -76.32993333333334,
+      "speed": 0,
+      "course": 279.4,
+      "heading": 279,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:30.150642+00:00"
+    },
+    {
+      "mmsi": 368023560,
+      "name": "ANGELINA AUTUMN",
+      "lat": 36.966613333333335,
+      "lon": -76.41334166666667,
+      "speed": 0,
+      "course": 110.7,
+      "heading": 333,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:30.685560+00:00"
+    },
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.24231833333333,
+      "lon": -76.554445,
+      "speed": 8.9,
+      "course": 323.7,
+      "heading": 321,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:32.204059+00:00"
+    },
+    {
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.21357,
+      "lon": -76.52400666666668,
+      "speed": 7,
+      "course": 277,
+      "heading": 276,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:35.055618+00:00"
+    },
+    {
+      "mmsi": 352004564,
+      "name": "PONTUS HIGHWAY",
+      "lat": 39.255835000000005,
+      "lon": -76.53560999999999,
+      "speed": 0,
+      "course": 0.4,
+      "heading": 13,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:35.614925+00:00"
+    },
+    {
+      "mmsi": 563064600,
+      "name": "CEMTEX SINCERITY",
+      "lat": 39.23626,
+      "lon": -76.546705,
+      "speed": 5.2,
+      "course": 172,
+      "heading": 161,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:36.087611+00:00"
+    },
+    {
+      "mmsi": 367763450,
+      "name": "SWEET BABY",
+      "lat": 38.775596666666665,
+      "lon": -76.56355,
+      "speed": 0,
+      "course": 249.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:37.943293+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.23959833333333,
+      "lon": -76.54635499999999,
+      "speed": 10.2,
+      "course": 190.9,
+      "heading": 191,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:39.044555+00:00"
+    },
+    {
+      "mmsi": 368357570,
+      "name": "PAUL T. MORAN",
+      "lat": 36.91806666666666,
+      "lon": -76.33734666666666,
+      "speed": 8.5,
+      "course": 343.7,
+      "heading": 349,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:39.793464+00:00"
+    },
+    {
+      "mmsi": 538009667,
+      "name": "DEVBULK SINEM",
+      "lat": 39.27583333333334,
+      "lon": -76.59433333333332,
+      "speed": 0.1,
+      "course": 25,
+      "heading": 61,
+      "ship_type": null,
+      "timestamp": "2026-07-16T11:11:47.408658+00:00"
     }
   ]
 }
