@@ -1,62 +1,29 @@
 {
-  "collected_at": "2026-07-17T04:24:08.049925+00:00",
+  "collected_at": "2026-07-17T06:36:39.317731+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 2,
   "trains": [
-    {
-      "trainNum": "41",
-      "routeName": "Floridian",
-      "lat": 38.68072901746327,
-      "lon": -77.22812123714108,
-      "heading": "S",
-      "velocity": 67.4325561523438,
-      "lastUpdate": "2026-07-17T00:22:39-04:00",
-      "nextStation": "Richmond Staples Mill Road",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.814857622095005,
-      "lon": -77.05351486800856,
-      "heading": "NE",
-      "velocity": 46.2711029052734,
-      "lastUpdate": "2026-07-17T00:22:38-04:00",
-      "nextStation": "Washington Union",
+      "lat": 39.67805517022961,
+      "lon": -75.72721293129024,
+      "heading": "E",
+      "velocity": 103.695587158203,
+      "lastUpdate": "2026-07-17T02:34:08-04:00",
+      "nextStation": "Wilmington",
       "status": "Active"
     },
     {
-      "trainNum": "93",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 38.91609208102691,
-      "lon": -76.98636855227306,
-      "heading": "W",
+      "lat": 39.95503278412803,
+      "lon": -75.1810167916246,
+      "heading": "S",
       "velocity": 0,
-      "lastUpdate": "2026-07-17T00:21:38-04:00",
-      "nextStation": "Norfolk",
+      "lastUpdate": "2026-07-17T02:34:08-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.26030011495478,
-      "lon": -76.87671894520075,
-      "heading": "NW",
-      "velocity": 15.062032699585,
-      "lastUpdate": "2026-07-16T23:58:40-04:00",
-      "nextStation": "Harrisburg",
-      "status": "Active"
-    },
-    {
-      "trainNum": "802",
-      "routeName": "Northest Regional",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-07-15T03:45:00-04:00",
-      "nextStation": "Washington Union",
-      "status": "Predeparture"
     }
   ]
 }
