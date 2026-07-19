@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-19T18:26:43.630745+00:00",
+  "collected_at": "2026-07-19T19:40:42.295399+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,139 +12,95 @@
       -75.8
     ]
   ],
-  "vessel_count": 12,
+  "vessel_count": 8,
   "vessels": [
     {
-      "mmsi": 338466925,
-      "name": "GENEVIEVE",
-      "lat": 38.90276333333334,
-      "lon": -76.50895,
+      "mmsi": 368006020,
+      "name": "ROSEMARY MCALLISTER",
+      "lat": 36.930748333333334,
+      "lon": -76.32963500000001,
       "speed": 0,
-      "course": 237.9,
-      "heading": 511,
+      "course": 332.2,
+      "heading": 68,
       "ship_type": null,
-      "timestamp": "2026-07-19T18:26:15.331821+00:00"
+      "timestamp": "2026-07-19T19:40:15.154320+00:00"
     },
     {
-      "mmsi": 367795990,
-      "name": "SEA WOLF",
-      "lat": 37.19913333333333,
-      "lon": -76.17701333333333,
-      "speed": 6.5,
-      "course": 182,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-19T18:26:19.819260+00:00"
-    },
-    {
-      "mmsi": 369970482,
-      "name": "YP708",
-      "lat": 38.98322666666666,
-      "lon": -76.46541333333333,
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.252673333333334,
+      "lon": -76.536535,
       "speed": 0,
-      "course": 189.8,
+      "course": 148.4,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-19T18:26:20.854946+00:00"
+      "timestamp": "2026-07-19T19:40:15.852319+00:00"
     },
     {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.25870333333333,
-      "lon": -76.56543666666667,
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.25213333333333,
+      "lon": -76.56541833333334,
+      "speed": 10.3,
+      "course": 323.5,
+      "heading": 323,
+      "ship_type": null,
+      "timestamp": "2026-07-19T19:40:41.358506+00:00"
+    },
+    {
+      "mmsi": 205375000,
+      "name": "GOLDEN FRIS",
+      "lat": 37.205000000000005,
+      "lon": -76.11638333333333,
       "speed": 0.1,
-      "course": 174.5,
-      "heading": 98,
+      "course": 75,
+      "heading": 159,
       "ship_type": null,
-      "timestamp": "2026-07-19T18:26:21.734813+00:00"
-    },
-    {
-      "mmsi": 369494428,
-      "name": "CG49428",
-      "lat": 39.200968333333336,
-      "lon": -76.57466333333333,
-      "speed": 0,
-      "course": 0,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-19T18:26:27.669517+00:00"
-    },
-    {
-      "mmsi": 368457210,
-      "name": "LARRY GRAVELY",
-      "lat": 36.838766666666665,
-      "lon": -76.29135333333333,
-      "speed": 0,
-      "course": 306,
-      "heading": 148,
-      "ship_type": null,
-      "timestamp": "2026-07-19T18:26:28.763487+00:00"
-    },
-    {
-      "mmsi": 338329000,
-      "name": "KINGS POINT",
-      "lat": 39.24622166666666,
-      "lon": -76.57063833333333,
-      "speed": 102.3,
-      "course": 360,
-      "heading": 223,
-      "ship_type": null,
-      "timestamp": "2026-07-19T18:26:29.298615+00:00"
-    },
-    {
-      "mmsi": 303829071,
-      "name": "US GOVT VESSEL 124",
-      "lat": 36.940241666666665,
-      "lon": -76.33026666666666,
-      "speed": 0.1,
-      "course": 126.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-19T18:26:30.209489+00:00"
-    },
-    {
-      "mmsi": 369053000,
-      "name": "LIBERTY ISLAND",
-      "lat": 36.83717333333333,
-      "lon": -76.26589666666668,
-      "speed": 0,
-      "course": 213.9,
-      "heading": 170,
-      "ship_type": null,
-      "timestamp": "2026-07-19T18:26:32.653949+00:00"
-    },
-    {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.243335,
-      "lon": -76.57114499999999,
-      "speed": 0,
-      "course": 267.8,
-      "heading": 258,
-      "ship_type": null,
-      "timestamp": "2026-07-19T18:26:37.834638+00:00"
-    },
-    {
-      "mmsi": 367334360,
-      "name": "ROSS SEA",
-      "lat": 38.77072166666667,
-      "lon": -76.453435,
-      "speed": 8.5,
-      "course": 11.4,
-      "heading": 13,
-      "ship_type": null,
-      "timestamp": "2026-07-19T18:26:38.808775+00:00"
+      "timestamp": "2026-07-19T19:40:20.777956+00:00"
     },
     {
       "mmsi": 367466730,
       "name": "CHALLENGER",
-      "lat": 36.81346333333333,
-      "lon": -76.290625,
-      "speed": 6,
-      "course": 355.8,
+      "lat": 36.915218333333335,
+      "lon": -76.33840666666667,
+      "speed": 5.7,
+      "course": 1.8,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-19T18:26:39.620188+00:00"
+      "timestamp": "2026-07-19T19:40:29.628156+00:00"
+    },
+    {
+      "mmsi": 367557690,
+      "name": "PRINCESS IRENE",
+      "lat": 39.153151666666666,
+      "lon": -76.49991333333334,
+      "speed": 0,
+      "course": 0,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-19T19:40:30.648516+00:00"
+    },
+    {
+      "mmsi": 338466925,
+      "name": "GENEVIEVE",
+      "lat": 38.90275666666666,
+      "lon": -76.50894166666667,
+      "speed": 0,
+      "course": 245.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-19T19:40:34.529701+00:00"
+    },
+    {
+      "mmsi": 246887000,
+      "name": "THAMESBORG",
+      "lat": 38.45572166666667,
+      "lon": -76.37753166666667,
+      "speed": 12.7,
+      "course": 335,
+      "heading": 335,
+      "ship_type": null,
+      "timestamp": "2026-07-19T19:40:35.986731+00:00"
     }
   ]
 }
