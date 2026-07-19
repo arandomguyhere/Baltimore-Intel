@@ -1,9 +1,16 @@
 {
-  "collected_at": "2026-07-19T08:54:18.149948+00:00",
+  "collected_at": "2026-07-19T10:25:26.670777+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
   "stories": [
+    {
+      "title": "Baltimore, MD (USA) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
+      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9yNmEya2pVa1NidGY4R3lsa3d5WVFDTFJVckxfcWw2OTVWQ0tVUk1FUExXLXp0LU1CZEtoemlHRGFCeFRrcVByLUw3WnoySjFrLUhpMXpHeENEV0xCcTQ3N1BLX2laZFhwTFlvcTZoaw?oc=5",
+      "source": "The Observatory of Economic Complexity",
+      "date": "Wed, 08 Jul 2026 00:19:12 GMT",
+      "query": "Port of Baltimore"
+    },
     {
       "title": "'It's tremendous': Achilles heel of the Port of Baltimore no longer - WBAL-TV",
       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPZlBGelpwMFBRQjFBX1pCR1A5Z0ExOGpJeVFxQWZCcHFaY1U3ZW9qcjBoRVRZeEZqdjA1cmo5OVZyOXpCbWNKcXotc1V6TWpfN3R1bkxLbHVvLWl0Snl6c2EyeDhxclY2bms5N28xQWtDR2s5aF9RbWZTSUxKdzRuMFE0Smsxb0dmcTUxSHlOLXB1RGZYNjBLQVh5cVlrUQ?oc=5",
@@ -16,13 +23,6 @@
       "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBNl9nT0gxM09ubUJTLW1udU5pVmM0ZVpTNWJDTFZaV3ZaR0NkSXg3X0ZUa3N2MGRkdUN4eFFtQmpETVVBOW80Z0J2c1RubG9NX2tPMVZodVZaMHJ6MF9Gc2dPUk1NUWlzNG5zZ3d3UzA5N2QtUlVBbA?oc=5",
       "source": "USNI News",
       "date": "Tue, 14 Jul 2026 19:51:00 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "Baltimore, MD (USA) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
-      "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9yNmEya2pVa1NidGY4R3lsa3d5WVFDTFJVckxfcWw2OTVWQ0tVUk1FUExXLXp0LU1CZEtoemlHRGFCeFRrcVByLUw3WnoySjFrLUhpMXpHeENEV0xCcTQ3N1BLX2laZFhwTFlvcTZoaw?oc=5",
-      "source": "The Observatory of Economic Complexity",
-      "date": "Wed, 08 Jul 2026 00:19:12 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Maryland transportation infrastructure",
-      "Port of Baltimore",
       "Baltimore rail freight",
-      "Baltimore harbor",
-      "Baltimore shipping"
+      "Port of Baltimore",
+      "Maryland transportation infrastructure",
+      "Baltimore shipping",
+      "Baltimore harbor"
     ],
     "sources": [
       "Baird Maritime",
-      "WBAL-TV",
-      "Maryland Matters",
-      "Conduit Street Blog",
-      "The Baltimore Banner",
-      "Lexington Institute",
       "The Observatory of Economic Complexity",
-      "Greater Greater Washington",
-      "FreightWaves",
-      "WYPR"
+      "WBAL-TV",
+      "inc.com",
+      "The Office of Governor Wes Moore (.gov)",
+      "Lexington Institute",
+      "WYPR",
+      "Maryland Matters",
+      "USNI News",
+      "The Baltimore Banner"
     ]
   }
 }
