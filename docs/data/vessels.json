@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-19T12:36:10.778238+00:00",
+  "collected_at": "2026-07-19T14:12:11.843087+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,172 +12,183 @@
       -75.8
     ]
   ],
-  "vessel_count": 15,
+  "vessel_count": 16,
   "vessels": [
     {
-      "mmsi": 248923000,
-      "name": "TORRENS",
-      "lat": 39.21346166666667,
-      "lon": -76.52457666666666,
-      "speed": 9,
-      "course": 140,
-      "heading": 140,
-      "ship_type": null,
-      "timestamp": "2026-07-19T12:35:41.058017+00:00"
-    },
-    {
-      "mmsi": 636093219,
-      "name": "NAGOYA EXPRESS",
-      "lat": 37.001945,
-      "lon": -76.22124000000001,
-      "speed": 15.9,
-      "course": 107.9,
-      "heading": 107,
-      "ship_type": null,
-      "timestamp": "2026-07-19T12:35:42.887643+00:00"
-    },
-    {
-      "mmsi": 367841000,
-      "name": "TSV 1 PREVAIL",
-      "lat": 36.915083333333335,
-      "lon": -76.18280666666666,
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98415,
+      "lon": -76.46731666666666,
       "speed": 0,
-      "course": 249.6,
-      "heading": 274,
+      "course": 344.1,
+      "heading": 341,
       "ship_type": null,
-      "timestamp": "2026-07-19T12:35:43.639604+00:00"
+      "timestamp": "2026-07-19T14:11:45.651848+00:00"
     },
     {
-      "mmsi": 368702000,
-      "name": "WARSHIP",
-      "lat": 36.959485,
-      "lon": -76.32912,
+      "mmsi": 367611520,
+      "name": "WASHINGTON",
+      "lat": 36.931913333333334,
+      "lon": -76.33364333333334,
+      "speed": 0.6,
+      "course": 33.4,
+      "heading": 1,
+      "ship_type": null,
+      "timestamp": "2026-07-19T14:11:46.965782+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.18120166666667,
+      "lon": -76.52040333333333,
+      "speed": 0.5,
+      "course": 69.5,
+      "heading": 51,
+      "ship_type": null,
+      "timestamp": "2026-07-19T14:11:48.919065+00:00"
+    },
+    {
+      "mmsi": 366811580,
+      "name": "MISS CATE",
+      "lat": 36.83745666666667,
+      "lon": -76.27798666666666,
       "speed": 0,
-      "course": 360,
+      "course": 150.1,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-19T12:35:44.641520+00:00"
+      "timestamp": "2026-07-19T14:11:50.958614+00:00"
     },
     {
       "mmsi": 303994000,
       "name": "CAPE WRATH",
-      "lat": 39.26197,
-      "lon": -76.60134333333333,
+      "lat": 39.26196166666667,
+      "lon": -76.60134500000001,
       "speed": 0,
       "course": 269.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-19T12:35:51.105740+00:00"
+      "timestamp": "2026-07-19T14:11:55.772182+00:00"
     },
     {
-      "mmsi": 367769180,
-      "name": "CLAYTON W MORAN",
-      "lat": 36.856655,
-      "lon": -76.33163833333333,
+      "mmsi": 338926407,
+      "name": "CGC CHARLES DAVID JR",
+      "lat": 39.197696666666666,
+      "lon": -76.57143333333333,
       "speed": 0,
-      "course": 274.6,
-      "heading": 245,
+      "course": 21.5,
+      "heading": 27,
       "ship_type": null,
-      "timestamp": "2026-07-19T12:35:52.878652+00:00"
-    },
-    {
-      "mmsi": 636018053,
-      "name": "BAHAMAS L",
-      "lat": 37.18665333333333,
-      "lon": -76.13522333333334,
-      "speed": 0,
-      "course": 223.8,
-      "heading": 329,
-      "ship_type": null,
-      "timestamp": "2026-07-19T12:35:53.412821+00:00"
-    },
-    {
-      "mmsi": 367091990,
-      "name": "MERRIMAC",
-      "lat": 36.80843,
-      "lon": -76.28590000000001,
-      "speed": 0,
-      "course": 259,
-      "heading": 255,
-      "ship_type": null,
-      "timestamp": "2026-07-19T12:35:53.412889+00:00"
-    },
-    {
-      "mmsi": 246887000,
-      "name": "THAMESBORG",
-      "lat": 37.05165,
-      "lon": -76.07957333333334,
-      "speed": 11.7,
-      "course": 321.6,
-      "heading": 320,
-      "ship_type": null,
-      "timestamp": "2026-07-19T12:35:55.584279+00:00"
-    },
-    {
-      "mmsi": 368441690,
-      "name": "FEDERAL HILL",
-      "lat": 39.25588333333334,
-      "lon": -76.534885,
-      "speed": 0,
-      "course": 270.4,
-      "heading": 293,
-      "ship_type": null,
-      "timestamp": "2026-07-19T12:35:56.322248+00:00"
+      "timestamp": "2026-07-19T14:11:56.109849+00:00"
     },
     {
       "mmsi": 538071496,
       "name": "ARCTIC PRIDE II",
-      "lat": 39.28288166666667,
+      "lat": 39.28288666666666,
       "lon": -76.60851666666667,
       "speed": 0,
-      "course": 179.8,
-      "heading": 269,
+      "course": 182.8,
+      "heading": 268,
       "ship_type": null,
-      "timestamp": "2026-07-19T12:35:57.640587+00:00"
+      "timestamp": "2026-07-19T14:11:57.750066+00:00"
     },
     {
-      "mmsi": 303829071,
-      "name": "US GOVT VESSEL 124",
-      "lat": 36.94028166666667,
-      "lon": -76.330265,
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.250548333333334,
+      "lon": -76.53776666666666,
       "speed": 0,
-      "course": 99.3,
-      "heading": 511,
+      "course": 257.6,
+      "heading": 11,
       "ship_type": null,
-      "timestamp": "2026-07-19T12:36:00.385926+00:00"
+      "timestamp": "2026-07-19T14:11:58.029843+00:00"
     },
     {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.268800000000006,
-      "lon": -76.580905,
-      "speed": 0,
-      "course": 223.2,
-      "heading": 200,
+      "mmsi": 366837130,
+      "name": "SUSAN MORAN",
+      "lat": 36.953185,
+      "lon": -76.32846666666666,
+      "speed": 0.1,
+      "course": 227,
+      "heading": 286,
       "ship_type": null,
-      "timestamp": "2026-07-19T12:36:03.097045+00:00"
+      "timestamp": "2026-07-19T14:11:58.061156+00:00"
+    },
+    {
+      "mmsi": 563064600,
+      "name": "CEMTEX SINCERITY",
+      "lat": 39.22178333333333,
+      "lon": -76.57665333333333,
+      "speed": 0,
+      "course": 256.7,
+      "heading": 276,
+      "ship_type": null,
+      "timestamp": "2026-07-19T14:11:58.667424+00:00"
+    },
+    {
+      "mmsi": 354215000,
+      "name": "CARNIVAL PRIDE",
+      "lat": 39.263915,
+      "lon": -76.59967499999999,
+      "speed": 0,
+      "course": 196.6,
+      "heading": 286,
+      "ship_type": null,
+      "timestamp": "2026-07-19T14:12:01.398107+00:00"
     },
     {
       "mmsi": 367376440,
       "name": "LONG ISLAND",
-      "lat": 39.24339666666666,
-      "lon": -76.57074833333333,
+      "lat": 39.24339333333333,
+      "lon": -76.57071833333333,
       "speed": 0,
-      "course": 296.7,
-      "heading": 83,
+      "course": 189.3,
+      "heading": 84,
       "ship_type": null,
-      "timestamp": "2026-07-19T12:36:03.865532+00:00"
+      "timestamp": "2026-07-19T14:12:03.294984+00:00"
     },
     {
-      "mmsi": 368396250,
-      "name": "ISABEL MCALLISTER",
-      "lat": 39.269055,
-      "lon": -76.58074833333333,
+      "mmsi": 369970479,
+      "name": "YP705",
+      "lat": 38.98428333333333,
+      "lon": -76.46711666666667,
       "speed": 0,
-      "course": 218.7,
-      "heading": 208,
+      "course": 347.2,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-19T12:36:09.193488+00:00"
+      "timestamp": "2026-07-19T14:12:06.437621+00:00"
+    },
+    {
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.98222,
+      "lon": -76.466225,
+      "speed": 0,
+      "course": 323.1,
+      "heading": 199,
+      "ship_type": null,
+      "timestamp": "2026-07-19T14:12:06.516128+00:00"
+    },
+    {
+      "mmsi": 563138700,
+      "name": "FEDERAL MASAMUNE",
+      "lat": 36.879556666666666,
+      "lon": -76.326455,
+      "speed": 0,
+      "course": 283.6,
+      "heading": 274,
+      "ship_type": null,
+      "timestamp": "2026-07-19T14:12:07.464036+00:00"
+    },
+    {
+      "mmsi": 241680000,
+      "name": "GEORGE H",
+      "lat": 39.22284666666667,
+      "lon": -76.57727833333334,
+      "speed": 0,
+      "course": 170.5,
+      "heading": 271,
+      "ship_type": null,
+      "timestamp": "2026-07-19T14:12:08.452776+00:00"
     }
   ]
 }
