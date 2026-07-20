@@ -1,40 +1,18 @@
 {
-  "collected_at": "2026-07-20T04:51:09.399494+00:00",
+  "collected_at": "2026-07-20T07:56:27.270235+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 1,
   "trains": [
     {
-      "trainNum": "50",
-      "routeName": "Cardinal",
-      "lat": 39.440365132129834,
-      "lon": -76.2356282986375,
-      "heading": "NE",
-      "velocity": 43.3272895812988,
-      "lastUpdate": "2026-07-20T00:50:08-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "66",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.9530682146808,
-      "lon": -75.18260370600767,
-      "heading": "W",
-      "velocity": 2.71788215637207,
-      "lastUpdate": "2026-07-20T00:50:08-04:00",
+      "lat": 39.95595975629121,
+      "lon": -75.18159662586459,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-07-20T03:50:39-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
-    },
-    {
-      "trainNum": "139",
-      "routeName": "Northeast Regional",
-      "lat": 38.90118042531899,
-      "lon": -77.00518264422256,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-07-20T00:38:19-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
     }
   ]
 }
