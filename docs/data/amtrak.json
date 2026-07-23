@@ -1,27 +1,38 @@
 {
-  "collected_at": "2026-07-23T04:37:22.299405+00:00",
+  "collected_at": "2026-07-23T07:18:00.758481+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "50",
       "routeName": "Cardinal",
-      "lat": 38.49074939956364,
-      "lon": -77.93091075027075,
+      "lat": 39.334755209747954,
+      "lon": -76.43182586267575,
       "heading": "E",
-      "velocity": 76.9686279296875,
-      "lastUpdate": "2026-07-23T00:35:08-04:00",
-      "nextStation": "Manassas",
+      "velocity": 56.943546295166,
+      "lastUpdate": "2026-07-23T03:17:08-04:00",
+      "nextStation": "Wilmington",
       "status": "Active"
     },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.94506879250622,
-      "lon": -75.1988772086736,
-      "heading": "E",
-      "velocity": 38.7393264770508,
-      "lastUpdate": "2026-07-23T00:35:09-04:00",
+      "lat": 39.95312924970115,
+      "lon": -75.18237482393887,
+      "heading": "N",
+      "velocity": 4.61480712890625,
+      "lastUpdate": "2026-07-23T03:17:09-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 39.955711800273,
+      "lon": -75.18073450357653,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-07-23T03:15:39-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
