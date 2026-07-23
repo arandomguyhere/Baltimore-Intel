@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-23T07:18:34.174755+00:00",
+  "collected_at": "2026-07-23T09:56:37.564105+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,172 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 15,
+  "vessels": [
+    {
+      "mmsi": 368420640,
+      "name": "TRIFECTA",
+      "lat": 38.90204333333334,
+      "lon": -76.50702166666666,
+      "speed": 0,
+      "course": 285.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:10.418259+00:00"
+    },
+    {
+      "mmsi": 636093146,
+      "name": "KYOTO EXPRESS",
+      "lat": 36.91,
+      "lon": -76.32733333333334,
+      "speed": 0,
+      "course": 52,
+      "heading": 353,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:12.780935+00:00"
+    },
+    {
+      "mmsi": 303829071,
+      "name": "US GOVT VESSEL 124",
+      "lat": 36.94027333333334,
+      "lon": -76.33015333333333,
+      "speed": 0.1,
+      "course": 162.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:13.258774+00:00"
+    },
+    {
+      "mmsi": 367304020,
+      "name": "JACKIE F. MCALLISTER",
+      "lat": 39.26935666666667,
+      "lon": -76.580605,
+      "speed": 0,
+      "course": 254.6,
+      "heading": 205,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:18.260387+00:00"
+    },
+    {
+      "mmsi": 367462360,
+      "name": "CINDY R",
+      "lat": 36.85885666666666,
+      "lon": -76.34698666666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:19.300860+00:00"
+    },
+    {
+      "mmsi": 368357470,
+      "name": "WINDEA RELIANCE",
+      "lat": 36.84216,
+      "lon": -76.29949166666667,
+      "speed": 0,
+      "course": 151.3,
+      "heading": 266,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:19.300926+00:00"
+    },
+    {
+      "mmsi": 235008930,
+      "name": "VOE VIKING",
+      "lat": 36.867333333333335,
+      "lon": -76.31647333333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:21.708039+00:00"
+    },
+    {
+      "mmsi": 368312320,
+      "name": "JANE MCALLISTER",
+      "lat": 36.931335,
+      "lon": -76.33355,
+      "speed": 0.1,
+      "course": 172.9,
+      "heading": 171,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:21.708090+00:00"
+    },
+    {
+      "mmsi": 308017000,
+      "name": "CARNIVAL SUNSHINE",
+      "lat": 36.92132,
+      "lon": -76.33973999999999,
+      "speed": 9.4,
+      "course": 183.4,
+      "heading": 182,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:21.708115+00:00"
+    },
+    {
+      "mmsi": 367290000,
+      "name": "CG TAMPA",
+      "lat": 36.881993333333334,
+      "lon": -76.35186666666667,
+      "speed": 0,
+      "course": 353.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:21.708158+00:00"
+    },
+    {
+      "mmsi": 538012556,
+      "name": "GRAND VICTORY",
+      "lat": 39.24159833333333,
+      "lon": -76.56518333333334,
+      "speed": 1,
+      "course": 287.1,
+      "heading": 138,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:21.708180+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.225,
+      "lon": -76.57983833333333,
+      "speed": 0.1,
+      "course": 285.8,
+      "heading": 332,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:29.180902+00:00"
+    },
+    {
+      "mmsi": 367455140,
+      "name": "D.GRAY KIMEL",
+      "lat": 39.30824833333334,
+      "lon": -76.21194666666666,
+      "speed": 6.5,
+      "course": 213.5,
+      "heading": 211,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:29.180953+00:00"
+    },
+    {
+      "mmsi": 368159780,
+      "name": "CLAIRE HOLLAND",
+      "lat": 36.87379333333333,
+      "lon": -76.34590333333334,
+      "speed": 3.4,
+      "course": 211.4,
+      "heading": 211,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:33.075488+00:00"
+    },
+    {
+      "mmsi": 368926275,
+      "name": "WARSHIP 94",
+      "lat": 36.941053333333336,
+      "lon": -76.33249,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-23T09:56:33.075566+00:00"
+    }
+  ]
 }
