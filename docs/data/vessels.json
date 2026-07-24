@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-24T12:57:15.500703+00:00",
+  "collected_at": "2026-07-24T14:57:07.780302+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,139 +12,161 @@
       -75.8
     ]
   ],
-  "vessel_count": 12,
+  "vessel_count": 14,
   "vessels": [
     {
-      "mmsi": 319235600,
-      "name": "MY IZUMI",
-      "lat": 38.973868333333336,
-      "lon": -76.48430833333333,
+      "mmsi": 368349880,
+      "name": "SANTA CLARA",
+      "lat": 38.96169666666666,
+      "lon": -76.481945,
       "speed": 0,
-      "course": 292.5,
+      "course": 142.8,
+      "heading": 177,
+      "ship_type": null,
+      "timestamp": "2026-07-24T14:56:41.593702+00:00"
+    },
+    {
+      "mmsi": 367091120,
+      "name": "ROBERT E. MCALLISTER",
+      "lat": 39.27386166666667,
+      "lon": -76.5993,
+      "speed": 0,
+      "course": 328.7,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-24T12:56:49.662878+00:00"
+      "timestamp": "2026-07-24T14:56:43.901949+00:00"
     },
     {
-      "mmsi": 368382440,
-      "name": "PATRICIA B. MORAN",
-      "lat": 36.84089166666667,
-      "lon": -76.27187166666666,
+      "mmsi": 367287000,
+      "name": "CG LEGARE",
+      "lat": 36.94013666666667,
+      "lon": -76.33204833333333,
       "speed": 0,
-      "course": 17.2,
-      "heading": 15,
+      "course": 360,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-24T12:56:49.981551+00:00"
+      "timestamp": "2026-07-24T14:56:44.663133+00:00"
     },
     {
-      "mmsi": 367455140,
-      "name": "D.GRAY KIMEL",
-      "lat": 39.244074999999995,
-      "lon": -76.60292666666666,
-      "speed": 0,
-      "course": 116.8,
-      "heading": 267,
+      "mmsi": 636023978,
+      "name": "CLARA B",
+      "lat": 37.21558666666667,
+      "lon": -76.11287333333333,
+      "speed": 0.2,
+      "course": 127,
+      "heading": 43,
       "ship_type": null,
-      "timestamp": "2026-07-24T12:56:50.103561+00:00"
+      "timestamp": "2026-07-24T14:56:47.460511+00:00"
     },
     {
-      "mmsi": 368235760,
-      "name": "JAN MORAN",
-      "lat": 36.84064,
-      "lon": -76.271515,
-      "speed": 0,
-      "course": 50.1,
-      "heading": 349,
+      "mmsi": 368283570,
+      "name": "MATTY T",
+      "lat": 38.562165,
+      "lon": -76.44265333333333,
+      "speed": 5,
+      "course": 344,
+      "heading": 359,
       "ship_type": null,
-      "timestamp": "2026-07-24T12:56:50.494406+00:00"
+      "timestamp": "2026-07-24T14:56:48.452482+00:00"
     },
     {
-      "mmsi": 636018053,
-      "name": "BAHAMAS L",
-      "lat": 37.186505000000004,
-      "lon": -76.138555,
+      "mmsi": 338060011,
+      "name": "CAPT. KENNETH",
+      "lat": 39.218603333333334,
+      "lon": -76.57934666666667,
       "speed": 0,
-      "course": 224.4,
-      "heading": 55,
+      "course": 360,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-24T12:56:51.682119+00:00"
+      "timestamp": "2026-07-24T14:56:49.259507+00:00"
+    },
+    {
+      "mmsi": 368817000,
+      "name": "USNS COMFORT",
+      "lat": 36.997025,
+      "lon": -76.19896999999999,
+      "speed": 12.8,
+      "course": 287.1,
+      "heading": 288,
+      "ship_type": null,
+      "timestamp": "2026-07-24T14:56:51.900895+00:00"
+    },
+    {
+      "mmsi": 367091990,
+      "name": "MERRIMAC",
+      "lat": 36.80842833333334,
+      "lon": -76.28590000000001,
+      "speed": 0,
+      "course": 35.3,
+      "heading": 253,
+      "ship_type": null,
+      "timestamp": "2026-07-24T14:56:52.265342+00:00"
+    },
+    {
+      "mmsi": 246887000,
+      "name": "THAMESBORG",
+      "lat": 39.26283,
+      "lon": -76.59500666666666,
+      "speed": 0.1,
+      "course": 213.2,
+      "heading": 113,
+      "ship_type": null,
+      "timestamp": "2026-07-24T14:56:54.172025+00:00"
+    },
+    {
+      "mmsi": 367304020,
+      "name": "JACKIE F. MCALLISTER",
+      "lat": 39.20690666666667,
+      "lon": -76.507305,
+      "speed": 0,
+      "course": 94.4,
+      "heading": 74,
+      "ship_type": null,
+      "timestamp": "2026-07-24T14:56:54.261615+00:00"
+    },
+    {
+      "mmsi": 477392400,
+      "name": "AMOY POWER",
+      "lat": 37.14854666666667,
+      "lon": -76.149755,
+      "speed": 13.1,
+      "course": 347.4,
+      "heading": 354,
+      "ship_type": null,
+      "timestamp": "2026-07-24T14:56:55.038371+00:00"
     },
     {
       "mmsi": 367574340,
       "name": "HOS RED DAWN",
-      "lat": 36.84144333333334,
-      "lon": -76.27045333333334,
+      "lat": 36.84146,
+      "lon": -76.27041166666666,
       "speed": 0,
       "course": 320.9,
       "heading": 330,
       "ship_type": null,
-      "timestamp": "2026-07-24T12:56:54.417812+00:00"
+      "timestamp": "2026-07-24T14:56:56.136496+00:00"
     },
     {
-      "mmsi": 367795990,
-      "name": "SEA WOLF",
-      "lat": 36.89785333333334,
-      "lon": -76.34691666666666,
-      "speed": 6.3,
-      "course": 89.5,
-      "heading": 511,
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.984159999999996,
+      "lon": -76.46734,
+      "speed": 0,
+      "course": 99,
+      "heading": 341,
       "ship_type": null,
-      "timestamp": "2026-07-24T12:57:00.195374+00:00"
+      "timestamp": "2026-07-24T14:56:59.852697+00:00"
     },
     {
-      "mmsi": 368371930,
-      "name": "OCEANUS VI",
-      "lat": 37.118084999999994,
-      "lon": -76.07613833333333,
-      "speed": 5.9,
-      "course": 178.2,
-      "heading": 177,
+      "mmsi": 369990190,
+      "name": "CG29190",
+      "lat": 38.697755,
+      "lon": -76.17107166666666,
+      "speed": 1,
+      "course": 208,
+      "heading": 208,
       "ship_type": null,
-      "timestamp": "2026-07-24T12:57:01.398229+00:00"
-    },
-    {
-      "mmsi": 338150367,
-      "name": "TEDDI C",
-      "lat": 36.958324999999995,
-      "lon": -76.32853666666666,
-      "speed": 6.1,
-      "course": 87.7,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-24T12:57:01.522301+00:00"
-    },
-    {
-      "mmsi": 369990277,
-      "name": "CG29277",
-      "lat": 39.21845833333334,
-      "lon": -76.53176,
-      "speed": 7.4,
-      "course": 129.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-24T12:57:06.900586+00:00"
-    },
-    {
-      "mmsi": 368302990,
-      "name": "REEDVILLE",
-      "lat": 37.181133333333335,
-      "lon": -76.15622333333334,
-      "speed": 0.8,
-      "course": 355.9,
-      "heading": 230,
-      "ship_type": null,
-      "timestamp": "2026-07-24T12:57:08.379980+00:00"
-    },
-    {
-      "mmsi": 367031390,
-      "name": "CAPTAIN HANK",
-      "lat": 38.596266666666665,
-      "lon": -76.45003333333334,
-      "speed": 8,
-      "course": 357.3,
-      "heading": 357,
-      "ship_type": null,
-      "timestamp": "2026-07-24T12:57:12.247562+00:00"
+      "timestamp": "2026-07-24T14:57:02.899885+00:00"
     }
   ]
 }
