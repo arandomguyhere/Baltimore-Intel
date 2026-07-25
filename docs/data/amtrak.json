@@ -1,8 +1,19 @@
 {
-  "collected_at": "2026-07-25T04:18:18.937065+00:00",
+  "collected_at": "2026-07-25T06:37:02.366310+00:00",
   "source": "amtraker.com",
   "total_trains": 2,
   "trains": [
+    {
+      "trainNum": "65",
+      "routeName": "Northeast Regional",
+      "lat": 39.95504422815556,
+      "lon": -75.1803148864031,
+      "heading": "SE",
+      "velocity": 0,
+      "lastUpdate": "2026-07-25T02:34:09-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
@@ -10,20 +21,9 @@
       "lon": -75.18233667692633,
       "heading": "NW",
       "velocity": 4.57454252243042,
-      "lastUpdate": "2026-07-25T00:16:08-04:00",
+      "lastUpdate": "2026-07-25T02:30:39-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
-    },
-    {
-      "trainNum": "177",
-      "routeName": "Northeast Regional",
-      "lat": 39.96567579203372,
-      "lon": -75.18676935709352,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-07-25T00:07:39-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
     }
   ]
 }
