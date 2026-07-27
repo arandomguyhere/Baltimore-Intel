@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-27T20:19:50.967847+00:00",
+  "collected_at": "2026-07-27T21:37:29.548839+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -68,6 +68,13 @@
       "query": "Baltimore shipping"
     },
     {
+      "title": "Baltimore will turn 911 into more than just an emergency number - NPR",
+      "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWm56R0tycjFnSWE0S1drQ0xiSTQ4bUtLTGlLbHVmcUIxZ0E1LUxhdFM3cXQ5VV9ybVQ2d1R5RFdvX0RBcF91QTFHNEM5N2FLMmlsd1ExaWlodkxlWGhBLUg4b3Z1MVhkVWJzM19PZmdDOHBHQllZLTRrZ2hDS1hmOGhLazctejQ2LWRaRHpTVEJwUGNqMkpTb1FsSnB0WTR4V1VYUS1NME9Wbmp5?oc=5",
+      "source": "NPR",
+      "date": "Mon, 27 Jul 2026 09:00:00 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
       "title": "Popup pickleball courts bring excitement to Baltimore's Inner Harbor - WBAL-TV",
       "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaG1tMVJnS212M2I2SllaQnNJdVJTd1VqdkJhaDhONkVHSFZQVUVYRnZDUVNiZWZYTWNwOWVRZWtKOGFydDZFTVNKS2U1V1ZvRjVfbGlKd2dQVndlTTZLcXhfNDVuTFRvNUIwX2s0cWxjbjN6Z2Z3bDctek9nUUpYUFB3M2NXXzlrMUR6WkJmcw?oc=5",
       "source": "WBAL-TV",
@@ -93,13 +100,6 @@
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOG5DcDJ6U0lROG94ME9TdVByTURCc0dYbFNhTFMzUXFpMV90Q3NjdE5BYzhnWGdFaGNxeFV3a1VSdmc0NUQ4NnBJQW9ELW13TmlMOFRDREJ2ZV94cDYyRG5sWmRKMFJrRWlqOXg4bXA2QzQ3NTU4QlJRZk5iSzB5dVFndGxvQUN1MlM0dXd4aFFNNk1wTzVUZXA5cEdmaXFqSXFydjRn?oc=5",
       "source": "WBFF",
       "date": "Wed, 22 Jul 2026 23:20:54 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "Why are 5,000 dead fish floating on surface of Baltimore's Inner Harbor? - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVUNTN0cxOTA0V3FlNmtCX2JHbnc3TjVnNFNMZWZTUDlTTnlaTERReVU5RXZLb2xpRFpEQlg0NlNSN0ZQMTB5cGNZY1EtX0E2a2ZtWEJnOTJLRHc1Ujd5bmhjVlJlR0FwYVYzcTJMRHpGVXB3OG5CdTZFTzQzOGsyQms2U1dPZGFjUmZWYQ?oc=5",
-      "source": "CBS News",
-      "date": "Thu, 09 Jul 2026 07:00:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -148,22 +148,22 @@
   "entities": {
     "topics": [
       "Maryland transportation infrastructure",
-      "Baltimore rail freight",
+      "Baltimore shipping",
       "Baltimore harbor",
       "Port of Baltimore",
-      "Baltimore shipping"
+      "Baltimore rail freight"
     ],
     "sources": [
+      "Baltimore Sun",
+      "Transportation Today",
+      "NPR",
+      "WBAL-TV",
+      "Salem, MA | Official Website (.gov)",
+      "WTOP",
       "The Maritime Executive",
-      "The Hill",
-      "CBS News",
-      "WBFF",
-      "The Baltimore Banner",
-      "The Observatory of Economic Complexity",
-      "Conduit Street Blog",
-      "WYPR",
+      "USNI News",
       "The Office of Governor Wes Moore (.gov)",
-      "Maryland Matters"
+      "The Observatory of Economic Complexity"
     ]
   }
 }
