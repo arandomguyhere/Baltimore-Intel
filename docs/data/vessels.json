@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-07-29T20:01:00.087783+00:00",
+  "collected_at": "2026-07-29T21:12:02.276934+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,161 +12,117 @@
       -75.8
     ]
   ],
-  "vessel_count": 14,
+  "vessel_count": 10,
   "vessels": [
     {
-      "mmsi": 367574340,
-      "name": "HOS RED DAWN",
-      "lat": 36.84142333333333,
-      "lon": -76.270415,
-      "speed": 0,
-      "course": 320.9,
-      "heading": 332,
+      "mmsi": 563051500,
+      "name": "POLAR COSTA RICA",
+      "lat": 36.91395,
+      "lon": -76.33365,
+      "speed": 2.8,
+      "course": 119.4,
+      "heading": 304,
       "ship_type": null,
-      "timestamp": "2026-07-29T20:00:30.666710+00:00"
+      "timestamp": "2026-07-29T21:11:34.218532+00:00"
     },
     {
-      "mmsi": 368185620,
-      "name": "FELLS POINT",
-      "lat": 39.25577666666666,
-      "lon": -76.53493166666667,
+      "mmsi": 428002000,
+      "name": "ZIM VIRGINIA",
+      "lat": 36.98936666666667,
+      "lon": -76.31481666666667,
+      "speed": 12.9,
+      "course": 227,
+      "heading": 226,
+      "ship_type": null,
+      "timestamp": "2026-07-29T21:11:34.867532+00:00"
+    },
+    {
+      "mmsi": 368138460,
+      "name": "DEFENDER",
+      "lat": 37.133898333333335,
+      "lon": -76.19959999999999,
+      "speed": 10.1,
+      "course": 187.5,
+      "heading": 189,
+      "ship_type": null,
+      "timestamp": "2026-07-29T21:11:42.330984+00:00"
+    },
+    {
+      "mmsi": 368337530,
+      "name": "EZRA SOL",
+      "lat": 36.973679999999995,
+      "lon": -76.33584666666667,
+      "speed": 4.3,
+      "course": 344.7,
+      "heading": 336,
+      "ship_type": null,
+      "timestamp": "2026-07-29T21:11:45.275408+00:00"
+    },
+    {
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.983155000000004,
+      "lon": -76.46547166666666,
       "speed": 0,
-      "course": 288.9,
+      "course": 31.9,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-29T20:00:30.792436+00:00"
+      "timestamp": "2026-07-29T21:11:46.272567+00:00"
     },
     {
-      "mmsi": 367031390,
-      "name": "CAPTAIN HANK",
-      "lat": 38.8207,
-      "lon": -76.43293333333332,
-      "speed": 8.2,
-      "course": 10.9,
-      "heading": 7,
+      "mmsi": 338329000,
+      "name": "KINGS POINT",
+      "lat": 39.24348,
+      "lon": -76.57031166666667,
+      "speed": 102.3,
+      "course": 360,
+      "heading": 81,
       "ship_type": null,
-      "timestamp": "2026-07-29T20:00:35.051872+00:00"
+      "timestamp": "2026-07-29T21:11:47.675367+00:00"
+    },
+    {
+      "mmsi": 368226870,
+      "name": "SEAWARD  21",
+      "lat": 36.96529666666667,
+      "lon": -76.29697333333334,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-07-29T21:11:52.704149+00:00"
     },
     {
       "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.261026666666666,
-      "lon": -76.55619,
+      "name": "",
+      "lat": 39.26100333333333,
+      "lon": -76.55619833333334,
       "speed": 0,
-      "course": 319.4,
+      "course": 61.3,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-07-29T20:00:35.500266+00:00"
-    },
-    {
-      "mmsi": 367611520,
-      "name": "WASHINGTON",
-      "lat": 36.96058,
-      "lon": -76.063315,
-      "speed": 9.8,
-      "course": 108.8,
-      "heading": 106,
-      "ship_type": null,
-      "timestamp": "2026-07-29T20:00:37.737788+00:00"
-    },
-    {
-      "mmsi": 368420640,
-      "name": "TRIFECTA",
-      "lat": 38.90213833333333,
-      "lon": -76.50704666666667,
-      "speed": 0,
-      "course": 288.4,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-29T20:00:39.070395+00:00"
-    },
-    {
-      "mmsi": 367795990,
-      "name": "SEA WOLF",
-      "lat": 36.99458166666667,
-      "lon": -76.27401,
-      "speed": 9,
-      "course": 84.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-29T20:00:40.212878+00:00"
-    },
-    {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.268816666666666,
-      "lon": -76.580905,
-      "speed": 0,
-      "course": 227.7,
-      "heading": 197,
-      "ship_type": null,
-      "timestamp": "2026-07-29T20:00:42.845849+00:00"
-    },
-    {
-      "mmsi": 368412120,
-      "name": "REBECCA H",
-      "lat": 36.921465,
-      "lon": -76.16599333333333,
-      "speed": 0,
-      "course": 248.8,
-      "heading": 277,
-      "ship_type": null,
-      "timestamp": "2026-07-29T20:00:43.577916+00:00"
-    },
-    {
-      "mmsi": 367214000,
-      "name": "TSV-4 NARRAGANSETT",
-      "lat": 36.91534166666667,
-      "lon": -76.18227499999999,
-      "speed": 0,
-      "course": 282,
-      "heading": 92,
-      "ship_type": null,
-      "timestamp": "2026-07-29T20:00:45.045333+00:00"
-    },
-    {
-      "mmsi": 338466925,
-      "name": "GENEVIEVE",
-      "lat": 38.90276666666667,
-      "lon": -76.50893166666667,
-      "speed": 0,
-      "course": 261.1,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-07-29T20:00:45.628516+00:00"
-    },
-    {
-      "mmsi": 563199200,
-      "name": "ARMADA 78 08",
-      "lat": 36.918875,
-      "lon": -76.18196666666667,
-      "speed": 0,
-      "course": 264.1,
-      "heading": 273,
-      "ship_type": null,
-      "timestamp": "2026-07-29T20:00:46.631319+00:00"
+      "timestamp": "2026-07-29T21:11:58.455102+00:00"
     },
     {
       "mmsi": 368382440,
       "name": "PATRICIA B. MORAN",
-      "lat": 36.91578833333333,
-      "lon": -76.33142166666667,
-      "speed": 0.1,
-      "course": 66.5,
-      "heading": 261,
+      "lat": 36.914833333333334,
+      "lon": -76.335485,
+      "speed": 3.1,
+      "course": 116.3,
+      "heading": 108,
       "ship_type": null,
-      "timestamp": "2026-07-29T20:00:50.694549+00:00"
+      "timestamp": "2026-07-29T21:11:59.071185+00:00"
     },
     {
-      "mmsi": 303994000,
-      "name": "CAPE WRATH",
-      "lat": 39.26199,
-      "lon": -76.60131333333334,
+      "mmsi": 368226910,
+      "name": "DELTA",
+      "lat": 36.919628333333335,
+      "lon": -76.34200166666666,
       "speed": 0,
-      "course": 269.5,
-      "heading": 511,
+      "course": 210.6,
+      "heading": 32,
       "ship_type": null,
-      "timestamp": "2026-07-29T20:00:53.970138+00:00"
+      "timestamp": "2026-07-29T21:12:01.415703+00:00"
     }
   ]
 }
