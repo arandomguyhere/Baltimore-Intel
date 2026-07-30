@@ -1,7 +1,7 @@
 {
-  "collected_at": "2026-07-29T23:14:28.087065+00:00",
+  "collected_at": "2026-07-30T00:12:26.755995+00:00",
   "source": "amtraker.com",
-  "total_trains": 24,
+  "total_trains": 20,
   "trains": [
     {
       "trainNum": "19",
@@ -92,17 +92,6 @@
       "status": "Active"
     },
     {
-      "trainNum": "129",
-      "routeName": "Northeast Regional",
-      "lat": 39.73611106638104,
-      "lon": -75.54627415676676,
-      "heading": "W",
-      "velocity": 29.5320816040039,
-      "lastUpdate": "2026-07-29T18:28:40-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
       "trainNum": "136",
       "routeName": "Northeast Regional",
       "lat": 39.60163531956686,
@@ -136,17 +125,6 @@
       "status": "Active"
     },
     {
-      "trainNum": "173",
-      "routeName": "Northeast Regional",
-      "lat": 39.572330803167596,
-      "lon": -76.02705585321225,
-      "heading": "W",
-      "velocity": 93.0746002197266,
-      "lastUpdate": "2026-07-29T18:28:40-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
       "trainNum": "186",
       "routeName": "Northeast Regional",
       "lat": 38.197334288272955,
@@ -166,17 +144,6 @@
       "velocity": 122.620101928711,
       "lastUpdate": "2026-07-29T18:28:40-04:00",
       "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "651",
-      "routeName": "Keystone",
-      "lat": 39.99395031292245,
-      "lon": -75.75535016664634,
-      "heading": "W",
-      "velocity": 90.6580276489258,
-      "lastUpdate": "2026-07-29T18:28:11-04:00",
-      "nextStation": "Coatesville",
       "status": "Active"
     },
     {
@@ -224,17 +191,6 @@
       "status": "Active"
     },
     {
-      "trainNum": "2123",
-      "routeName": "Acela",
-      "lat": 39.31571604971037,
-      "lon": -76.49187684531525,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-07-29T19:10:42-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Completed"
-    },
-    {
       "trainNum": "2124",
       "routeName": "Acela",
       "lat": 38.95096223941359,
@@ -261,11 +217,11 @@
       "routeName": "Acela",
       "lat": 39.914741941754,
       "lon": -75.24682796700655,
-      "heading": "SW",
-      "velocity": 70.154914855957,
-      "lastUpdate": "2026-07-29T18:28:40-04:00",
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-07-29T20:07:43-04:00",
       "nextStation": "Wilmington",
-      "status": "Active"
+      "status": "Completed"
     }
   ]
 }
