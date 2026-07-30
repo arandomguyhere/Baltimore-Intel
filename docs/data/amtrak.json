@@ -1,51 +1,40 @@
 {
-  "collected_at": "2026-07-30T03:30:08.195936+00:00",
+  "collected_at": "2026-07-30T06:08:44.034865+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.334778098742404,
-      "lon": -76.43210052176322,
-      "heading": "E",
-      "velocity": 122.329299926758,
-      "lastUpdate": "2026-07-29T23:28:40-04:00",
-      "nextStation": "Wilmington",
+      "lat": 39.953129249697305,
+      "lon": -75.1824816349727,
+      "heading": "NE",
+      "velocity": 3.26593232154846,
+      "lastUpdate": "2026-07-30T02:07:09-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "175",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 38.903087774734644,
-      "lon": -77.00435104008001,
-      "heading": "N",
+      "lat": 39.95593686724847,
+      "lon": -75.18265711119898,
+      "heading": "SW",
       "velocity": 0,
-      "lastUpdate": "2026-07-29T23:19:52-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
+      "lastUpdate": "2026-07-30T02:07:09-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
     },
     {
-      "trainNum": "198",
+      "trainNum": "179",
       "routeName": "Northeast Regional",
-      "lat": 39.960888346234505,
-      "lon": -75.18257318847357,
-      "heading": "NW",
-      "velocity": 9.32804012298584,
-      "lastUpdate": "2026-07-29T23:28:40-04:00",
-      "nextStation": "Trenton",
-      "status": "Active"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.07420390783002,
-      "lon": -76.34357667526982,
-      "heading": "NW",
-      "velocity": 96.6853332519531,
-      "lastUpdate": "2026-07-29T23:25:40-04:00",
-      "nextStation": "Mount Joy",
-      "status": "Active"
+      "lat": 39.96066709319337,
+      "lon": -75.18249689443594,
+      "heading": "SE",
+      "velocity": 19.6539649963379,
+      "lastUpdate": "2026-07-30T01:54:39-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Completed"
     }
   ]
 }
