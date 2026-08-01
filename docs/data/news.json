@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-01T21:36:31.887817+00:00",
+  "collected_at": "2026-08-01T22:38:20.374908+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -26,9 +26,9 @@
       "query": "Port of Baltimore"
     },
     {
-      "title": "Governor Moore Announces Banner Year for Handling Cargo at the Helen Delich Bentley Port of Baltimore - governor.maryland.gov",
+      "title": "Governor Moore Announces Banner Year for Handling Cargo at the Helen Delich Bentley Port of Baltimore - The Office of Governor Wes Moore (.gov)",
       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOeWtMWmVaQW53U3N5N0htajduMGtKeU8tcjF2RGxLM1VjYURLSGllZE5jSUI0TlNYWC1GV1lQaHY4OVUzSHkxV1NjSHhuWGJQSkdHcW1VeFZDRUJMSzFoT0FnN200UTF6NTdOUnVxOWZqMER2MlB1dXBiZjFNT2dWZlJGSzBjM05yWjVwaExCMTNxUnJOZUhjc2tyWW00cHdqRVVWdmpIX1BCQkxuT3ZOVzVBaXY4WWJicERrcGtzVkJNbW1HQ1dzbi1HMEdBck5xN0N3?oc=5",
-      "source": "governor.maryland.gov",
+      "source": "The Office of Governor Wes Moore (.gov)",
       "date": "Tue, 24 Mar 2026 07:00:00 GMT",
       "query": "Port of Baltimore"
     },
@@ -38,6 +38,13 @@
       "source": "The Baltimore Banner",
       "date": "Tue, 14 Jul 2026 07:00:00 GMT",
       "query": "Port of Baltimore"
+    },
+    {
+      "title": "Salem Prepares for a Tall Ship Weekend - Salem, MA | Official Website (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBXelVVX3BZVFE4ZWVqbHRrTnZnUkdKaWpld0k3c2ptWEd5dEdFWUV0VEZuNVhoQ29wbnM0dHhDTXh6X3hTS3FIcmxlREowMnlZVDQzc3FFWk42SEFjUnlxQg?oc=5",
+      "source": "Salem, MA | Official Website (.gov)",
+      "date": "Thu, 23 Jul 2026 23:07:23 GMT",
+      "query": "Baltimore shipping"
     },
     {
       "title": "Fire Aboard US Ready Reserve Vessel in Baltimore Harbor - The Maritime Executive",
@@ -124,9 +131,9 @@
       "query": "Maryland transportation infrastructure"
     },
     {
-      "title": "\u2018Double-stacked\u2019 trains arrive in Baltimore after tunnel expansion - marylandmatters.org",
+      "title": "\u2018Double-stacked\u2019 trains arrive in Baltimore after tunnel expansion - Maryland Matters",
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVmhoTi1DYVJQOTl3ZURMX1NYOGxDMlBlUGN0VkU2VlFvYnZQaU1ha04tTHZyOEJRR1ZjR3B3TU5MRE5sSTVnZzBTbEtoaEYtQkF5T2lHcld3QldSWWRFTGRBc3FPTmVpaHQ4YkdSNVVIaUdaY3c4cmVBa1lfbV95Vkx0bmRldEhrUzk0VmI5VlR0OHNaMVRNMDU3NXBTR01DNUVCUFpHcw?oc=5",
-      "source": "marylandmatters.org",
+      "source": "Maryland Matters",
       "date": "Mon, 22 Jun 2026 07:00:00 GMT",
       "query": "Baltimore rail freight"
     },
@@ -136,34 +143,27 @@
       "source": "FreightWaves",
       "date": "Tue, 23 Jun 2026 07:00:00 GMT",
       "query": "Baltimore rail freight"
-    },
-    {
-      "title": "Baltimore built the next generation of American freight | GUEST COMMENTARY - Baltimore Sun",
-      "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9jbndRYlVDekJWMjl5cTBBN0t6bDZCU1N5YW5lWlZwOVVtaENUSGtMdGd2VlhKUTc1ODZqbmFGQi1qYlV3R21IWWZKUDB6RnJNQ085VVF2cmUtYzFObFZVSnRGLWNhM1pfUVdnSFo0UnBIbk9zUm9Z?oc=5",
-      "source": "Baltimore Sun",
-      "date": "Mon, 22 Jun 2026 07:00:00 GMT",
-      "query": "Baltimore rail freight"
     }
   ],
   "entities": {
     "topics": [
       "Maryland transportation infrastructure",
-      "Port of Baltimore",
-      "Baltimore rail freight",
       "Baltimore harbor",
-      "Baltimore shipping"
+      "Baltimore shipping",
+      "Baltimore rail freight",
+      "Port of Baltimore"
     ],
     "sources": [
-      "The Baltimore Banner",
-      "The Business Journals",
-      "FreightWaves",
-      "The Maritime Executive",
       "The Washington Post",
-      "marylandmatters.org",
+      "The Business Journals",
+      "USNI News",
+      "Baltimore Sun",
+      "Salem, MA | Official Website (.gov)",
+      "CBS News",
+      "The Baltimore Banner",
+      "WBAL-TV",
       "DVIDS",
-      "Transportation Today",
-      "Lexington Institute",
-      "United States Coast Guard News (.mil)"
+      "Lexington Institute"
     ]
   }
 }
