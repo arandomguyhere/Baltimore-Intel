@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-02T01:15:40.114178+00:00",
+  "collected_at": "2026-08-02T04:42:34.036935+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,73 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 6,
+  "vessel_count": 4,
   "vessels": [
     {
-      "mmsi": 367139510,
-      "name": "APRIL MORAN",
-      "lat": 39.26041,
-      "lon": -76.55613,
+      "mmsi": 368219010,
+      "name": "VENGEANCE",
+      "lat": 36.80274166666666,
+      "lon": -76.29042,
       "speed": 0,
-      "course": 244,
-      "heading": 511,
+      "course": 236.9,
+      "heading": 13,
       "ship_type": null,
-      "timestamp": "2026-08-02T01:15:12.531716+00:00"
+      "timestamp": "2026-08-02T04:42:10.427324+00:00"
     },
     {
-      "mmsi": 368382440,
-      "name": "PATRICIA B. MORAN",
-      "lat": 36.87506,
-      "lon": -76.34628166666667,
-      "speed": 0.9,
-      "course": 154.5,
-      "heading": 338,
-      "ship_type": null,
-      "timestamp": "2026-08-02T01:15:20.542601+00:00"
-    },
-    {
-      "mmsi": 367795990,
-      "name": "SEA WOLF",
-      "lat": 36.897420000000004,
-      "lon": -76.350095,
+      "mmsi": 367082130,
+      "name": "TIMOTHY MCALLISTER",
+      "lat": 36.93076,
+      "lon": -76.32966333333334,
       "speed": 0,
-      "course": 221.2,
-      "heading": 511,
+      "course": 243.9,
+      "heading": 80,
       "ship_type": null,
-      "timestamp": "2026-08-02T01:15:24.206867+00:00"
+      "timestamp": "2026-08-02T04:42:23.796508+00:00"
     },
     {
-      "mmsi": 636019011,
-      "name": "STABILITY",
-      "lat": 36.879940000000005,
-      "lon": -76.33114333333333,
-      "speed": 0,
-      "course": 145.2,
-      "heading": 94,
+      "mmsi": 368402460,
+      "name": "GAMEKEEPER",
+      "lat": 36.870715000000004,
+      "lon": -76.33180333333333,
+      "speed": 10,
+      "course": 151.8,
+      "heading": 148,
       "ship_type": null,
-      "timestamp": "2026-08-02T01:15:33.772094+00:00"
+      "timestamp": "2026-08-02T04:42:24.444815+00:00"
     },
     {
-      "mmsi": 538009261,
-      "name": "",
-      "lat": 37.207548333333335,
-      "lon": -76.10688499999999,
-      "speed": 0,
-      "course": 223,
-      "heading": 153,
+      "mmsi": 636024395,
+      "name": "BULK POLAND",
+      "lat": 37.007235,
+      "lon": -76.24326166666667,
+      "speed": 8.8,
+      "course": 105.7,
+      "heading": 107,
       "ship_type": null,
-      "timestamp": "2026-08-02T01:15:34.087398+00:00"
-    },
-    {
-      "mmsi": 367020530,
-      "name": "LADY SARAH",
-      "lat": 39.05285333333334,
-      "lon": -76.5555,
-      "speed": 4.9,
-      "course": 157.2,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-08-02T01:15:35.192327+00:00"
+      "timestamp": "2026-08-02T04:42:27.089499+00:00"
     }
   ]
 }
