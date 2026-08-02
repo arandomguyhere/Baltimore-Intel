@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-02T11:07:09.343859+00:00",
+  "collected_at": "2026-08-02T12:16:00.925952+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,128 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 11,
+  "vessel_count": 12,
   "vessels": [
     {
-      "mmsi": 368226910,
-      "name": "DELTA",
-      "lat": 36.91926,
-      "lon": -76.34197166666667,
-      "speed": 0.6,
-      "course": 178.9,
-      "heading": 10,
+      "mmsi": 368388560,
+      "name": "GYPSY SOUL",
+      "lat": 38.95169666666666,
+      "lon": -76.551265,
+      "speed": 0.1,
+      "course": 250.4,
+      "heading": 142,
       "ship_type": null,
-      "timestamp": "2026-08-02T11:06:41.760223+00:00"
+      "timestamp": "2026-08-02T12:15:32.884322+00:00"
     },
     {
-      "mmsi": 366837130,
-      "name": "SUSAN MORAN",
-      "lat": 36.953068333333334,
-      "lon": -76.32799666666666,
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.25116666666667,
+      "lon": -76.5525,
+      "speed": 8.3,
+      "course": 163.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-02T12:15:33.825143+00:00"
+    },
+    {
+      "mmsi": 636019176,
+      "name": "MISTRAL BEACON",
+      "lat": 39.19174666666667,
+      "lon": -76.47798166666666,
+      "speed": 11.1,
+      "course": 292.2,
+      "heading": 293,
+      "ship_type": null,
+      "timestamp": "2026-08-02T12:15:39.308229+00:00"
+    },
+    {
+      "mmsi": 368386690,
+      "name": "GEORGE JAMES MORAN",
+      "lat": 39.234968333333335,
+      "lon": -76.54623333333333,
+      "speed": 7.2,
+      "course": 142.5,
+      "heading": 141,
+      "ship_type": null,
+      "timestamp": "2026-08-02T12:15:46.614236+00:00"
+    },
+    {
+      "mmsi": 354215000,
+      "name": "CARNIVAL PRIDE",
+      "lat": 39.255338333333334,
+      "lon": -76.57325999999999,
+      "speed": 6.5,
+      "course": 271.6,
+      "heading": 274,
+      "ship_type": null,
+      "timestamp": "2026-08-02T12:15:46.892722+00:00"
+    },
+    {
+      "mmsi": 368015740,
+      "name": "PINNERS POINT",
+      "lat": 36.84958833333334,
+      "lon": -76.315365,
       "speed": 0,
-      "course": 171.5,
-      "heading": 99,
+      "course": 177.4,
+      "heading": 6,
       "ship_type": null,
-      "timestamp": "2026-08-02T11:06:43.815523+00:00"
+      "timestamp": "2026-08-02T12:15:47.710833+00:00"
     },
     {
-      "mmsi": 563199200,
-      "name": "ARMADA 78 08",
-      "lat": 36.91887333333333,
-      "lon": -76.18196666666667,
+      "mmsi": 368155390,
+      "name": "INTRA REBEL",
+      "lat": 36.80824166666666,
+      "lon": -76.28667166666668,
       "speed": 0,
-      "course": 322.4,
-      "heading": 273,
+      "course": 344.1,
+      "heading": 77,
       "ship_type": null,
-      "timestamp": "2026-08-02T11:06:45.996972+00:00"
+      "timestamp": "2026-08-02T12:15:47.800645+00:00"
     },
     {
-      "mmsi": 367029690,
-      "name": "IVORY COAST",
-      "lat": 39.25287166666667,
-      "lon": -76.56636333333333,
-      "speed": 9.5,
-      "course": 320.2,
-      "heading": 322,
-      "ship_type": null,
-      "timestamp": "2026-08-02T11:06:46.154503+00:00"
-    },
-    {
-      "mmsi": 244730000,
-      "name": "SCHELDEGRACHT",
-      "lat": 39.26226166666667,
-      "lon": -76.59345,
+      "mmsi": 338902000,
+      "name": "CORNELIUS H CHARLTON",
+      "lat": 39.27231166666666,
+      "lon": -76.58698166666666,
       "speed": 0,
-      "course": 54.5,
-      "heading": 294,
+      "course": 256.2,
+      "heading": 24,
       "ship_type": null,
-      "timestamp": "2026-08-02T11:06:53.535454+00:00"
+      "timestamp": "2026-08-02T12:15:48.143170+00:00"
     },
     {
-      "mmsi": 367642480,
-      "name": "CAMIE",
-      "lat": 36.897756666666666,
-      "lon": -76.34416666666667,
+      "mmsi": 368420640,
+      "name": "TRIFECTA",
+      "lat": 38.902105,
+      "lon": -76.50709333333333,
+      "speed": 0,
+      "course": 46.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-02T12:15:49.611947+00:00"
+    },
+    {
+      "mmsi": 636022465,
+      "name": "LILA SYDNEY",
+      "lat": 38.93069666666667,
+      "lon": -76.41721666666668,
+      "speed": 0,
+      "course": 257.2,
+      "heading": 176,
+      "ship_type": null,
+      "timestamp": "2026-08-02T12:15:52.890636+00:00"
+    },
+    {
+      "mmsi": 367327910,
+      "name": "GATEWAY ENDEAVOR",
+      "lat": 36.97081333333333,
+      "lon": -76.09038333333334,
+      "speed": 10.3,
+      "course": 282.4,
+      "heading": 282,
+      "ship_type": null,
+      "timestamp": "2026-08-02T12:15:56.337492+00:00"
+    },
+    {
+      "mmsi": 368888000,
+      "name": "BURLINGTON",
+      "lat": 36.866906666666665,
+      "lon": -76.31733166666666,
       "speed": 0,
       "course": 360,
-      "heading": 240,
-      "ship_type": null,
-      "timestamp": "2026-08-02T11:06:56.142456+00:00"
-    },
-    {
-      "mmsi": 369970482,
-      "name": "YP708",
-      "lat": 38.98312333333333,
-      "lon": -76.46549333333334,
-      "speed": 0,
-      "course": 347.4,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-02T11:06:56.285028+00:00"
-    },
-    {
-      "mmsi": 367538350,
-      "name": "BILL HALL",
-      "lat": 36.96266,
-      "lon": -76.295875,
-      "speed": 0,
-      "course": 348,
-      "heading": 42,
-      "ship_type": null,
-      "timestamp": "2026-08-02T11:06:58.431123+00:00"
-    },
-    {
-      "mmsi": 338496704,
-      "name": "FIREBOAT 13 NORFOLK",
-      "lat": 36.96527666666667,
-      "lon": -76.25767333333333,
-      "speed": 22.2,
-      "course": 273.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-08-02T11:07:01.447846+00:00"
-    },
-    {
-      "mmsi": 367120550,
-      "name": "HIGH ROLLER",
-      "lat": 39.209215,
-      "lon": -76.58184166666666,
-      "speed": 0,
-      "course": 277.9,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-08-02T11:06:59.741817+00:00"
-    },
-    {
-      "mmsi": 367834000,
-      "name": "GARY I GORDON",
-      "lat": 39.26906333333333,
-      "lon": -76.570905,
-      "speed": 0,
-      "course": 0,
-      "heading": 266,
-      "ship_type": null,
-      "timestamp": "2026-08-02T11:07:07.906203+00:00"
+      "timestamp": "2026-08-02T12:15:56.656183+00:00"
     }
   ]
 }
