@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-02T04:42:34.036935+00:00",
+  "collected_at": "2026-08-02T07:19:04.261818+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,51 +12,172 @@
       -75.8
     ]
   ],
-  "vessel_count": 4,
+  "vessel_count": 15,
   "vessels": [
+    {
+      "mmsi": 538009261,
+      "name": "AQUAVITA VICTORY",
+      "lat": 37.207665,
+      "lon": -76.10597666666666,
+      "speed": 0.1,
+      "course": 96.3,
+      "heading": 178,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:18:38.742168+00:00"
+    },
+    {
+      "mmsi": 368337530,
+      "name": "EZRA SOL",
+      "lat": 36.912895000000006,
+      "lon": -76.17794166666665,
+      "speed": 0,
+      "course": 161.5,
+      "heading": 207,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:18:42.240758+00:00"
+    },
+    {
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.20937,
+      "lon": -76.58204666666667,
+      "speed": 0,
+      "course": 293.8,
+      "heading": 205,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:18:43.377245+00:00"
+    },
+    {
+      "mmsi": 369390000,
+      "name": "MAERSK TENNESSEE",
+      "lat": 36.87746333333334,
+      "lon": -76.348445,
+      "speed": 1.8,
+      "course": 315.2,
+      "heading": 326,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:18:45.499446+00:00"
+    },
+    {
+      "mmsi": 338902000,
+      "name": "CORNELIUS H CHARLTON",
+      "lat": 39.27236166666667,
+      "lon": -76.58701166666667,
+      "speed": 0,
+      "course": 122.3,
+      "heading": 24,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:18:47.345717+00:00"
+    },
     {
       "mmsi": 368219010,
       "name": "VENGEANCE",
-      "lat": 36.80274166666666,
+      "lat": 36.80274333333333,
       "lon": -76.29042,
       "speed": 0,
-      "course": 236.9,
-      "heading": 13,
+      "course": 215.9,
+      "heading": 14,
       "ship_type": null,
-      "timestamp": "2026-08-02T04:42:10.427324+00:00"
+      "timestamp": "2026-08-02T07:18:48.703665+00:00"
     },
     {
-      "mmsi": 367082130,
-      "name": "TIMOTHY MCALLISTER",
-      "lat": 36.93076,
-      "lon": -76.32966333333334,
+      "mmsi": 338244719,
+      "name": "ALCHEMY",
+      "lat": 38.90257666666666,
+      "lon": -76.508425,
       "speed": 0,
-      "course": 243.9,
-      "heading": 80,
+      "course": 289.8,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-02T04:42:23.796508+00:00"
+      "timestamp": "2026-08-02T07:18:49.106315+00:00"
+    },
+    {
+      "mmsi": 367711530,
+      "name": "CAPE CHARLES",
+      "lat": 36.91605833333333,
+      "lon": -76.09042333333333,
+      "speed": 28.2,
+      "course": 188.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:18:49.897999+00:00"
     },
     {
       "mmsi": 368402460,
       "name": "GAMEKEEPER",
-      "lat": 36.870715000000004,
-      "lon": -76.33180333333333,
-      "speed": 10,
-      "course": 151.8,
-      "heading": 148,
+      "lat": 37.002444999999994,
+      "lon": -76.231835,
+      "speed": 9.4,
+      "course": 108.6,
+      "heading": 109,
       "ship_type": null,
-      "timestamp": "2026-08-02T04:42:24.444815+00:00"
+      "timestamp": "2026-08-02T07:18:52.457373+00:00"
     },
     {
-      "mmsi": 636024395,
-      "name": "BULK POLAND",
-      "lat": 37.007235,
-      "lon": -76.24326166666667,
-      "speed": 8.8,
-      "course": 105.7,
-      "heading": 107,
+      "mmsi": 368032040,
+      "name": "IIWII",
+      "lat": 38.79184,
+      "lon": -76.21418833333334,
+      "speed": 0,
+      "course": 239,
+      "heading": 131,
       "ship_type": null,
-      "timestamp": "2026-08-02T04:42:27.089499+00:00"
+      "timestamp": "2026-08-02T07:18:53.590398+00:00"
+    },
+    {
+      "mmsi": 338926407,
+      "name": "CGC CHARLES DAVID JR",
+      "lat": 39.19771,
+      "lon": -76.57144666666666,
+      "speed": 0,
+      "course": 41.9,
+      "heading": 27,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:18:54.851287+00:00"
+    },
+    {
+      "mmsi": 352003983,
+      "name": "NEREUS HIGHWAY",
+      "lat": 37.115941666666664,
+      "lon": -76.128245,
+      "speed": 16.3,
+      "course": 149.7,
+      "heading": 151,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:18:54.908849+00:00"
+    },
+    {
+      "mmsi": 368192510,
+      "name": "SUNDAY MORNING",
+      "lat": 38.972485,
+      "lon": -76.48778,
+      "speed": 0,
+      "course": 324.5,
+      "heading": 63,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:18:58.468770+00:00"
+    },
+    {
+      "mmsi": 367139510,
+      "name": "APRIL MORAN",
+      "lat": 39.26042333333333,
+      "lon": -76.55612333333333,
+      "speed": 0,
+      "course": 296.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:18:59.521434+00:00"
+    },
+    {
+      "mmsi": 366757230,
+      "name": "GARY CHOUEST",
+      "lat": 36.91931666666667,
+      "lon": -76.18169166666667,
+      "speed": 0,
+      "course": 268.9,
+      "heading": 91,
+      "ship_type": null,
+      "timestamp": "2026-08-02T07:19:01.135816+00:00"
     }
   ]
 }
