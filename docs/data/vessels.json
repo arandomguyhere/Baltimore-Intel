@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-04T04:30:10.921242+00:00",
+  "collected_at": "2026-08-04T07:17:14.481447+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,128 +12,150 @@
       -75.8
     ]
   ],
-  "vessel_count": 11,
+  "vessel_count": 13,
   "vessels": [
+    {
+      "mmsi": 367642480,
+      "name": "CAMIE",
+      "lat": 36.89747,
+      "lon": -76.34403166666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 252,
+      "ship_type": null,
+      "timestamp": "2026-08-04T07:16:48.039557+00:00"
+    },
+    {
+      "mmsi": 366991413,
+      "name": "USNS CODY",
+      "lat": 36.916900000000005,
+      "lon": -76.18225000000001,
+      "speed": 0,
+      "course": 109.7,
+      "heading": 94,
+      "ship_type": null,
+      "timestamp": "2026-08-04T07:16:49.669342+00:00"
+    },
+    {
+      "mmsi": 368093970,
+      "name": "MR. PAUL MUTTA",
+      "lat": 36.83815666666667,
+      "lon": -76.24651999999999,
+      "speed": 0,
+      "course": 332.8,
+      "heading": 290,
+      "ship_type": null,
+      "timestamp": "2026-08-04T07:16:50.184949+00:00"
+    },
+    {
+      "mmsi": 255915819,
+      "name": "BULK SWEDEN",
+      "lat": 37.27166666666667,
+      "lon": -76.10328,
+      "speed": 0,
+      "course": 83.9,
+      "heading": 216,
+      "ship_type": null,
+      "timestamp": "2026-08-04T07:16:52.329723+00:00"
+    },
     {
       "mmsi": 367165450,
       "name": "TREASURE COAST",
-      "lat": 39.20906,
-      "lon": -76.46105833333333,
+      "lat": 39.20954833333334,
+      "lon": -76.46113333333332,
       "speed": 0,
-      "course": 248.1,
-      "heading": 328,
+      "course": 304.6,
+      "heading": 334,
       "ship_type": null,
-      "timestamp": "2026-08-04T04:29:43.868163+00:00"
+      "timestamp": "2026-08-04T07:17:03.864748+00:00"
     },
     {
-      "mmsi": 338926407,
-      "name": "CGC CHARLES DAVID JR",
-      "lat": 39.19769333333333,
-      "lon": -76.57142666666667,
+      "mmsi": 538012115,
+      "name": "FEDRA.GR",
+      "lat": 39.26756666666667,
+      "lon": -76.58202833333333,
       "speed": 0,
-      "course": 41.9,
-      "heading": 28,
+      "course": 133.8,
+      "heading": 24,
       "ship_type": null,
-      "timestamp": "2026-08-04T04:29:45.379669+00:00"
+      "timestamp": "2026-08-04T07:16:55.047306+00:00"
     },
     {
-      "mmsi": 338926406,
-      "name": "CGC PAUL CLARK",
-      "lat": 39.197221666666664,
-      "lon": -76.571735,
+      "mmsi": 368386690,
+      "name": "GEORGE JAMES MORAN",
+      "lat": 39.25765,
+      "lon": -76.55591666666666,
       "speed": 0,
-      "course": 261.9,
-      "heading": 28,
+      "course": 90.4,
+      "heading": 176,
       "ship_type": null,
-      "timestamp": "2026-08-04T04:29:46.759643+00:00"
+      "timestamp": "2026-08-04T07:16:57.006938+00:00"
     },
     {
-      "mmsi": 369970480,
-      "name": "YP706",
-      "lat": 38.98413333333333,
-      "lon": -76.46735,
-      "speed": 0,
-      "course": 174.1,
-      "heading": 341,
+      "mmsi": 368371930,
+      "name": "OCEANUS VI",
+      "lat": 36.972345000000004,
+      "lon": -76.14032333333333,
+      "speed": 5.7,
+      "course": 241.3,
+      "heading": 240,
       "ship_type": null,
-      "timestamp": "2026-08-04T04:29:53.814518+00:00"
-    },
-    {
-      "mmsi": 371210000,
-      "name": "CENTURY BRIGHT",
-      "lat": 39.07062666666666,
-      "lon": -76.39369,
-      "speed": 9.8,
-      "course": 357.8,
-      "heading": 0,
-      "ship_type": null,
-      "timestamp": "2026-08-04T04:29:56.598975+00:00"
-    },
-    {
-      "mmsi": 367462360,
-      "name": "CINDY R",
-      "lat": 36.858873333333335,
-      "lon": -76.34700666666666,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-08-04T04:29:57.397146+00:00"
-    },
-    {
-      "mmsi": 367309860,
-      "name": "ALICIA F. MCALLISTER",
-      "lat": 36.931536666666666,
-      "lon": -76.33369666666667,
-      "speed": 0.1,
-      "course": 299,
-      "heading": 171,
-      "ship_type": null,
-      "timestamp": "2026-08-04T04:29:58.002832+00:00"
+      "timestamp": "2026-08-04T07:16:58.616619+00:00"
     },
     {
       "mmsi": 368395580,
       "name": "DENA LYNN",
-      "lat": 38.902431666666665,
-      "lon": -76.50682666666667,
+      "lat": 38.902453333333334,
+      "lon": -76.50670666666666,
       "speed": 0.2,
-      "course": 12.7,
+      "course": 176.4,
       "heading": 343,
       "ship_type": null,
-      "timestamp": "2026-08-04T04:30:00.553630+00:00"
+      "timestamp": "2026-08-04T07:17:00.413677+00:00"
     },
     {
-      "mmsi": 368365460,
-      "name": "PATRIOT LEADER",
-      "lat": 36.91912833333333,
-      "lon": -76.33770166666666,
-      "speed": 9.7,
-      "course": 359.2,
-      "heading": 359,
-      "ship_type": null,
-      "timestamp": "2026-08-04T04:30:00.579422+00:00"
-    },
-    {
-      "mmsi": 368169560,
-      "name": "ATLANTIC ENDEAVOR",
-      "lat": 36.92286,
-      "lon": -76.18811333333333,
+      "mmsi": 368412120,
+      "name": "REBECCA H",
+      "lat": 36.921416666666666,
+      "lon": -76.166005,
       "speed": 0,
-      "course": 286.6,
-      "heading": 106,
+      "course": 250.8,
+      "heading": 279,
       "ship_type": null,
-      "timestamp": "2026-08-04T04:30:01.355712+00:00"
+      "timestamp": "2026-08-04T07:17:03.194270+00:00"
     },
     {
-      "mmsi": 366828620,
-      "name": "VICKI M MCALLISTER",
-      "lat": 39.25667166666666,
-      "lon": -76.56363666666667,
+      "mmsi": 339067000,
+      "name": "OCEANUS V",
+      "lat": 36.91951666666667,
+      "lon": -76.18283166666667,
       "speed": 0,
-      "course": 235.4,
+      "course": 8,
+      "heading": 255,
+      "ship_type": null,
+      "timestamp": "2026-08-04T07:17:04.143331+00:00"
+    },
+    {
+      "mmsi": 367795990,
+      "name": "SEA WOLF",
+      "lat": 36.89748,
+      "lon": -76.350135,
+      "speed": 0,
+      "course": 178.8,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-04T04:30:05.524961+00:00"
+      "timestamp": "2026-08-04T07:17:08.472010+00:00"
+    },
+    {
+      "mmsi": 215800000,
+      "name": "ATLANTIC SEA",
+      "lat": 38.221603333333334,
+      "lon": -76.25480833333333,
+      "speed": 17.9,
+      "course": 157.2,
+      "heading": 157,
+      "ship_type": null,
+      "timestamp": "2026-08-04T07:17:08.472064+00:00"
     }
   ]
 }
