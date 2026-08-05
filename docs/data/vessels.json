@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-04T23:44:51.603878+00:00",
+  "collected_at": "2026-08-05T01:07:53.657353+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,106 +12,150 @@
       -75.8
     ]
   ],
-  "vessel_count": 9,
+  "vessel_count": 13,
   "vessels": [
     {
-      "mmsi": 367116570,
-      "name": "SORENSEN MILLER",
-      "lat": 36.823035,
-      "lon": -76.28851666666667,
+      "mmsi": 367304020,
+      "name": "JACKIE F. MCALLISTER",
+      "lat": 39.26937,
+      "lon": -76.58063666666666,
       "speed": 0,
-      "course": 323,
+      "course": 206.7,
+      "heading": 204,
+      "ship_type": null,
+      "timestamp": "2026-08-05T01:07:26.718521+00:00"
+    },
+    {
+      "mmsi": 367841000,
+      "name": "TSV 1 PREVAIL",
+      "lat": 36.91511666666667,
+      "lon": -76.18277666666667,
+      "speed": 0,
+      "course": 267.7,
+      "heading": 274,
+      "ship_type": null,
+      "timestamp": "2026-08-05T01:07:30.084212+00:00"
+    },
+    {
+      "mmsi": 367465570,
+      "name": "CAPT MEL",
+      "lat": 38.744955,
+      "lon": -76.45952833333334,
+      "speed": 6.2,
+      "course": 4,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-04T23:44:23.186014+00:00"
+      "timestamp": "2026-08-05T01:07:30.204358+00:00"
     },
     {
-      "mmsi": 368177450,
-      "name": "RUBY COAST",
-      "lat": 36.93544333333333,
-      "lon": -76.33993166666667,
-      "speed": 11.9,
-      "course": 358.1,
-      "heading": 358,
-      "ship_type": null,
-      "timestamp": "2026-08-04T23:44:23.655687+00:00"
-    },
-    {
-      "mmsi": 636021387,
-      "name": "EVER FAVOR",
-      "lat": 37.17839166666667,
-      "lon": -76.15408166666666,
-      "speed": 15.2,
-      "course": 352.3,
-      "heading": 353,
-      "ship_type": null,
-      "timestamp": "2026-08-04T23:44:24.260234+00:00"
-    },
-    {
-      "mmsi": 338926407,
-      "name": "CGC CHARLES DAVID JR",
-      "lat": 39.19769333333333,
-      "lon": -76.57143333333333,
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.26849,
+      "lon": -76.58111833333334,
       "speed": 0,
-      "course": 41.9,
-      "heading": 28,
-      "ship_type": null,
-      "timestamp": "2026-08-04T23:44:24.742003+00:00"
-    },
-    {
-      "mmsi": 367457590,
-      "name": "WENDY MORAN",
-      "lat": 36.95333333333333,
-      "lon": -76.3285,
-      "speed": 0,
-      "course": 4.2,
+      "course": 178.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-04T23:44:31.678879+00:00"
+      "timestamp": "2026-08-05T01:07:34.276614+00:00"
     },
     {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.260999999999996,
-      "lon": -76.55616666666667,
+      "mmsi": 368015740,
+      "name": "PINNERS POINT",
+      "lat": 36.849606666666666,
+      "lon": -76.31530833333333,
+      "speed": 0,
+      "course": 274.6,
+      "heading": 4,
+      "ship_type": null,
+      "timestamp": "2026-08-05T01:07:36.296613+00:00"
+    },
+    {
+      "mmsi": 368382440,
+      "name": "PATRICIA B. MORAN",
+      "lat": 36.915036666666666,
+      "lon": -76.32931833333333,
+      "speed": 0,
+      "course": 73.6,
+      "heading": 285,
+      "ship_type": null,
+      "timestamp": "2026-08-05T01:07:40.943814+00:00"
+    },
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.268863333333336,
+      "lon": -76.58088666666666,
+      "speed": 0,
+      "course": 317.2,
+      "heading": 203,
+      "ship_type": null,
+      "timestamp": "2026-08-05T01:07:43.621569+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98415,
+      "lon": -76.46735,
+      "speed": 0,
+      "course": 338,
+      "heading": 341,
+      "ship_type": null,
+      "timestamp": "2026-08-05T01:07:45.658093+00:00"
+    },
+    {
+      "mmsi": 367462360,
+      "name": "CINDY R",
+      "lat": 36.85887,
+      "lon": -76.34700666666666,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-05T01:07:47.889908+00:00"
+    },
+    {
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.260729999999995,
+      "lon": -76.55614,
+      "speed": 0,
+      "course": 276.3,
+      "heading": 359,
+      "ship_type": null,
+      "timestamp": "2026-08-05T01:07:48.447354+00:00"
+    },
+    {
+      "mmsi": 366999646,
+      "name": "USCGC SLEDGE",
+      "lat": 39.20051,
+      "lon": -76.57428833333333,
       "speed": 0.1,
-      "course": 166.9,
-      "heading": 511,
+      "course": 68.6,
+      "heading": 332,
       "ship_type": null,
-      "timestamp": "2026-08-04T23:44:33.106026+00:00"
+      "timestamp": "2026-08-05T01:07:49.362744+00:00"
     },
     {
-      "mmsi": 369970482,
-      "name": "YP708",
-      "lat": 38.983125,
-      "lon": -76.46547666666667,
+      "mmsi": 366991413,
+      "name": "USNS CODY",
+      "lat": 36.916900000000005,
+      "lon": -76.18225000000001,
       "speed": 0,
-      "course": 181.4,
+      "course": 314.4,
+      "heading": 94,
+      "ship_type": null,
+      "timestamp": "2026-08-05T01:07:49.572199+00:00"
+    },
+    {
+      "mmsi": 367120550,
+      "name": "HIGH ROLLER",
+      "lat": 39.20578166666667,
+      "lon": -76.50587999999999,
+      "speed": 0,
+      "course": 297.8,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-04T23:44:40.268635+00:00"
-    },
-    {
-      "mmsi": 368164890,
-      "name": "PRICUS",
-      "lat": 36.92256166666667,
-      "lon": -76.18630499999999,
-      "speed": 4.1,
-      "course": 278.7,
-      "heading": 278,
-      "ship_type": null,
-      "timestamp": "2026-08-04T23:44:45.524334+00:00"
-    },
-    {
-      "mmsi": 636022660,
-      "name": "MSC CHIARA X",
-      "lat": 38.891075,
-      "lon": -76.394875,
-      "speed": 13.7,
-      "course": 187.1,
-      "heading": 184,
-      "ship_type": null,
-      "timestamp": "2026-08-04T23:44:46.189891+00:00"
+      "timestamp": "2026-08-05T01:07:51.678910+00:00"
     }
   ]
 }
