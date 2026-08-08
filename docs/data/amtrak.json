@@ -1,28 +1,72 @@
 {
-  "collected_at": "2026-08-08T08:00:43.196347+00:00",
+  "collected_at": "2026-08-08T08:59:07.722445+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 6,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.955639321235275,
-      "lon": -75.18138300277748,
-      "heading": "S",
-      "velocity": 0.298258066177368,
-      "lastUpdate": "2026-08-08T03:55:38-04:00",
-      "nextStation": "Philadelphia 30th Street",
+      "lat": 39.7376102420894,
+      "lon": -75.56254003099103,
+      "heading": "SW",
+      "velocity": 42.4951477050781,
+      "lastUpdate": "2026-08-08T04:57:08-04:00",
+      "nextStation": "Baltimore Penn",
       "status": "Active"
     },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.956062753369885,
-      "lon": -75.1799791933587,
-      "heading": "NE",
-      "velocity": 0.186411306262016,
-      "lastUpdate": "2026-08-08T03:55:38-04:00",
+      "lat": 39.959179360897146,
+      "lon": -75.18251978235268,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-08-08T04:55:38-04:00",
+      "nextStation": "Newark Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "150",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-08T05:00:00-04:00",
       "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-08T04:37:00-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "160",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-08T05:05:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "2250",
+      "routeName": "Acela",
+      "lat": 38.91718308687145,
+      "lon": -76.91585003636987,
+      "heading": "E",
+      "velocity": 123.10327911377,
+      "lastUpdate": "2026-08-08T04:57:08-04:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
     }
   ]
