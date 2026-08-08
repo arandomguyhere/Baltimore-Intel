@@ -1,39 +1,28 @@
 {
-  "collected_at": "2026-08-08T04:20:51.199315+00:00",
+  "collected_at": "2026-08-08T05:17:18.629506+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 2,
   "trains": [
+    {
+      "trainNum": "65",
+      "routeName": "Northeast Regional",
+      "lat": 39.955639321235275,
+      "lon": -75.18138300277748,
+      "heading": "S",
+      "velocity": 0.298258066177368,
+      "lastUpdate": "2026-08-08T01:15:08-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.017234992618945,
-      "lon": -76.76550514758365,
+      "lat": 39.37229565590486,
+      "lon": -76.36042233960336,
       "heading": "NE",
-      "velocity": 0,
-      "lastUpdate": "2026-08-08T00:15:38-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 39.21924995887105,
-      "lon": -76.69397193461398,
-      "heading": "S",
-      "velocity": 89.9205169677734,
-      "lastUpdate": "2026-08-08T00:18:08-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "177",
-      "routeName": "Northeast Regional",
-      "lat": 39.96858640633675,
-      "lon": -75.19439112468413,
-      "heading": "E",
-      "velocity": 27.7470035552979,
-      "lastUpdate": "2026-08-07T23:57:10-04:00",
-      "nextStation": "Philadelphia 30th Street",
+      "velocity": 40.3891143798828,
+      "lastUpdate": "2026-08-08T01:10:38-04:00",
+      "nextStation": "Wilmington",
       "status": "Active"
     }
   ]
