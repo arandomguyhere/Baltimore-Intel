@@ -1,29 +1,51 @@
 {
-  "collected_at": "2026-08-12T04:27:03.910689+00:00",
+  "collected_at": "2026-08-12T05:56:19.610452+00:00",
   "source": "amtraker.com",
-  "total_trains": 2,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "41",
       "routeName": "Floridian",
-      "lat": 38.90544144324563,
-      "lon": -77.00337447691957,
-      "heading": "S",
-      "velocity": 10.2988719940186,
-      "lastUpdate": "2026-08-12T00:24:08-04:00",
-      "nextStation": "Washington Union",
+      "lat": 38.38053516331474,
+      "lon": -77.39441155461084,
+      "heading": "SW",
+      "velocity": 61.5717735290527,
+      "lastUpdate": "2026-08-12T01:54:08-04:00",
+      "nextStation": "Richmond Staples Mill Road",
       "status": "Active"
     },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.949840979974304,
-      "lon": -75.1844271313888,
-      "heading": "NE",
-      "velocity": 8.49142456054688,
-      "lastUpdate": "2026-08-12T00:24:08-04:00",
+      "lat": 39.95314450870612,
+      "lon": -75.18232141792286,
+      "heading": "N",
+      "velocity": 5.73104047775269,
+      "lastUpdate": "2026-08-12T01:54:08-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
+    },
+    {
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 39.95562024822926,
+      "lon": -75.18144403779564,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-08-12T01:50:38-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "179",
+      "routeName": "Northeast Regional",
+      "lat": 39.96275373354932,
+      "lon": -75.18411432707502,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-12T01:54:40-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Completed"
     }
   ]
 }
