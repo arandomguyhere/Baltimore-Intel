@@ -1,128 +1,29 @@
 {
-  "collected_at": "2026-08-12T02:33:24.205725+00:00",
+  "collected_at": "2026-08-12T04:27:03.910689+00:00",
   "source": "amtraker.com",
-  "total_trains": 11,
+  "total_trains": 2,
   "trains": [
     {
-      "trainNum": "55",
-      "routeName": "Vermonter",
-      "lat": 38.905613104281976,
-      "lon": -77.00332870091574,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-08-11T22:27:48-04:00",
+      "trainNum": "41",
+      "routeName": "Floridian",
+      "lat": 38.90544144324563,
+      "lon": -77.00337447691957,
+      "heading": "S",
+      "velocity": 10.2988719940186,
+      "lastUpdate": "2026-08-12T00:24:08-04:00",
       "nextStation": "Washington Union",
-      "status": "Completed"
+      "status": "Active"
     },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.961261924791486,
-      "lon": -76.86114726400501,
+      "lat": 39.949840979974304,
+      "lon": -75.1844271313888,
       "heading": "NE",
-      "velocity": 110.596549987793,
-      "lastUpdate": "2026-08-11T22:30:27-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "137",
-      "routeName": "Northeast Regional",
-      "lat": 38.90738693866497,
-      "lon": -77.00264968481257,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-08-11T22:21:49-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 39.3076594035473,
-      "lon": -76.61433629415353,
-      "heading": "NW",
-      "velocity": 0.0425018593668938,
-      "lastUpdate": "2026-08-11T22:30:27-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "186",
-      "routeName": "Northeast Regional",
-      "lat": 39.938023044620394,
-      "lon": -75.21238124152008,
-      "heading": "NE",
-      "velocity": 42.2781677246094,
-      "lastUpdate": "2026-08-11T22:30:27-04:00",
+      "velocity": 8.49142456054688,
+      "lastUpdate": "2026-08-12T00:24:08-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 39.540806135851035,
-      "lon": -76.10929312112856,
-      "heading": "NE",
-      "velocity": 80.6850280761719,
-      "lastUpdate": "2026-08-11T22:30:26-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "622",
-      "routeName": "Keystone",
-      "lat": 40.04301496850447,
-      "lon": -75.48602482755521,
-      "heading": "E",
-      "velocity": 25.6004848480225,
-      "lastUpdate": "2026-08-11T22:30:26-04:00",
-      "nextStation": "Paoli",
-      "status": "Active"
-    },
-    {
-      "trainNum": "639",
-      "routeName": "Keystone",
-      "lat": 39.96067090819326,
-      "lon": -75.1825197824434,
-      "heading": "SE",
-      "velocity": 28.2537403106689,
-      "lastUpdate": "2026-08-11T22:27:26-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.042580092939005,
-      "lon": -75.47176548501696,
-      "heading": "W",
-      "velocity": 14.4655170440674,
-      "lastUpdate": "2026-08-11T22:30:27-04:00",
-      "nextStation": "Paoli",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2131",
-      "routeName": "Acela",
-      "lat": 39.243538140844834,
-      "lon": -76.69114142922467,
-      "heading": "S",
-      "velocity": 99.7787094116211,
-      "lastUpdate": "2026-08-11T22:30:26-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2171",
-      "routeName": "Acela",
-      "lat": 38.90676895753208,
-      "lon": -77.00287093684379,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-08-11T22:30:49-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
     }
   ]
 }
