@@ -1,17 +1,28 @@
 {
-  "collected_at": "2026-08-15T08:24:16.809126+00:00",
+  "collected_at": "2026-08-15T08:54:18.419856+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 6,
   "trains": [
     {
       "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.95679517441063,
-      "lon": -75.18288599332362,
-      "heading": "NW",
-      "velocity": 0,
-      "lastUpdate": "2026-08-15T04:20:38-04:00",
-      "nextStation": "Wilmington",
+      "lat": 39.70632590097938,
+      "lon": -75.64168739305228,
+      "heading": "W",
+      "velocity": 111.163269042969,
+      "lastUpdate": "2026-08-15T04:50:38-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "98",
+      "routeName": "Silver Meteor",
+      "lat": 38.007293663778086,
+      "lon": -77.37220235762486,
+      "heading": "N",
+      "velocity": 70.6761169433594,
+      "lastUpdate": "2026-08-15T04:51:08-04:00",
+      "nextStation": "Fredericksburg",
       "status": "Active"
     },
     {
@@ -50,13 +61,13 @@
     {
       "trainNum": "2250",
       "routeName": "Acela",
-      "lat": 38.90137078736586,
-      "lon": -77.00495528516336,
+      "lat": 38.90440384502531,
+      "lon": -77.00367202394887,
       "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-08-15T04:33:00-04:00",
-      "nextStation": "Washington Union",
-      "status": "Predeparture"
+      "velocity": 12.3999996185303,
+      "lastUpdate": "2026-08-15T04:51:09-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
     }
   ]
 }
