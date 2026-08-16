@@ -1,62 +1,29 @@
 {
-  "collected_at": "2026-08-16T02:46:45.116705+00:00",
+  "collected_at": "2026-08-16T03:45:17.351254+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.19398521375511,
-      "lon": -76.69528418847062,
-      "heading": "N",
-      "velocity": 31.2860298156738,
-      "lastUpdate": "2026-08-15T22:45:40-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "128",
-      "routeName": "Northeast Regional",
-      "lat": 39.715717688615804,
-      "lon": -75.59314154031269,
-      "heading": "NE",
-      "velocity": 108.081275939941,
-      "lastUpdate": "2026-08-15T22:45:39-04:00",
+      "lat": 39.67012059771027,
+      "lon": -75.75291636890567,
+      "heading": "E",
+      "velocity": 25.1722850799561,
+      "lastUpdate": "2026-08-15T23:42:39-04:00",
       "nextStation": "Wilmington",
       "status": "Active"
     },
     {
       "trainNum": "165",
       "routeName": "Northeast Regional",
-      "lat": 39.333240775239915,
-      "lon": -76.43735717631563,
-      "heading": "W",
-      "velocity": 117.414268493652,
-      "lastUpdate": "2026-08-15T22:45:39-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "671",
-      "routeName": "Keystone",
-      "lat": 40.026836809330206,
-      "lon": -76.16174525494937,
-      "heading": "W",
-      "velocity": 94.914421081543,
-      "lastUpdate": "2026-08-15T22:45:39-04:00",
-      "nextStation": "Lancaster",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2271",
-      "routeName": "Acela",
-      "lat": 38.960666831644104,
-      "lon": -76.86188731519947,
-      "heading": "S",
-      "velocity": 120.400001525879,
-      "lastUpdate": "2026-08-15T22:45:39-04:00",
+      "lat": 38.91152588665475,
+      "lon": -76.9984840337679,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-15T23:39:49-04:00",
       "nextStation": "Washington Union",
-      "status": "Active"
+      "status": "Completed"
     }
   ]
 }
