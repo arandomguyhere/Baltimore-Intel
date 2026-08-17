@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-17T21:02:29.399918+00:00",
+  "collected_at": "2026-08-17T21:39:44.951968+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,73 +12,194 @@
       -75.8
     ]
   ],
-  "vessel_count": 6,
+  "vessel_count": 17,
   "vessels": [
     {
-      "mmsi": 367307850,
-      "name": "ATLANTIC COAST",
-      "lat": 39.17962833333333,
-      "lon": -76.52411166666667,
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.984,
+      "lon": -76.46721666666667,
       "speed": 0,
-      "course": 194.5,
-      "heading": 255,
+      "course": 342.7,
+      "heading": 347,
       "ship_type": null,
-      "timestamp": "2026-08-17T21:02:00.283520+00:00"
+      "timestamp": "2026-08-17T21:39:18.228578+00:00"
     },
     {
-      "mmsi": 367538350,
-      "name": "BILL HALL",
-      "lat": 36.855066666666666,
-      "lon": -76.31030666666668,
-      "speed": 6.9,
-      "course": 132.9,
-      "heading": 137,
-      "ship_type": null,
-      "timestamp": "2026-08-17T21:02:04.390595+00:00"
-    },
-    {
-      "mmsi": 338370000,
-      "name": "WARSHIP",
-      "lat": 36.952011666666664,
-      "lon": -76.33056166666667,
+      "mmsi": 368058330,
+      "name": "ADDISON ELISE",
+      "lat": 36.821061666666665,
+      "lon": -76.289695,
       "speed": 0,
-      "course": 0,
+      "course": 128,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-17T21:02:18.394480+00:00"
+      "timestamp": "2026-08-17T21:39:18.964797+00:00"
     },
     {
-      "mmsi": 368185620,
-      "name": "FELLS POINT",
-      "lat": 39.255766666666666,
-      "lon": -76.53495166666667,
+      "mmsi": 367082130,
+      "name": "TIMOTHY MCALLISTER",
+      "lat": 36.880653333333335,
+      "lon": -76.33364499999999,
+      "speed": 8.2,
+      "course": 354.3,
+      "heading": 347,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:21.973686+00:00"
+    },
+    {
+      "mmsi": 367091990,
+      "name": "MERRIMAC",
+      "lat": 36.808123333333334,
+      "lon": -76.28697666666667,
       "speed": 0,
-      "course": 10.7,
+      "course": 31.9,
+      "heading": 68,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:23.099335+00:00"
+    },
+    {
+      "mmsi": 538011856,
+      "name": "ARGOS M",
+      "lat": 39.26285333333333,
+      "lon": -76.59494500000001,
+      "speed": 0,
+      "course": 73.4,
+      "heading": 115,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:25.441309+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.255896666666665,
+      "lon": -76.53488166666666,
+      "speed": 0,
+      "course": 22.1,
+      "heading": 298,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:25.688581+00:00"
+    },
+    {
+      "mmsi": 235008930,
+      "name": "VOE VIKING",
+      "lat": 36.86761,
+      "lon": -76.31658,
+      "speed": 0,
+      "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-17T21:02:15.941179+00:00"
+      "timestamp": "2026-08-17T21:39:27.585178+00:00"
     },
     {
-      "mmsi": 338924075,
-      "name": "CAPE SAN ROMAN",
-      "lat": 36.86803,
-      "lon": -76.31852,
-      "speed": 0,
-      "course": 123.2,
-      "heading": 226,
+      "mmsi": 244315000,
+      "name": "NEPTUN POWER",
+      "lat": 36.990278333333336,
+      "lon": -76.195835,
+      "speed": 10.2,
+      "course": 104.7,
+      "heading": 104,
       "ship_type": null,
-      "timestamp": "2026-08-17T21:02:19.054437+00:00"
+      "timestamp": "2026-08-17T21:39:27.585230+00:00"
     },
     {
-      "mmsi": 368371930,
-      "name": "OCEANUS VI",
-      "lat": 36.91952166666667,
-      "lon": -76.18192666666667,
+      "mmsi": 255805854,
+      "name": "MSC JEONGMIN",
+      "lat": 36.875366666666665,
+      "lon": -76.34932,
       "speed": 0,
-      "course": 228.4,
-      "heading": 273,
+      "course": 173.1,
+      "heading": 347,
       "ship_type": null,
-      "timestamp": "2026-08-17T21:02:19.393024+00:00"
+      "timestamp": "2026-08-17T21:39:28.643794+00:00"
+    },
+    {
+      "mmsi": 367619930,
+      "name": "LADY THAMES",
+      "lat": 39.27694833333333,
+      "lon": -76.58100166666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:28.643839+00:00"
+    },
+    {
+      "mmsi": 244903000,
+      "name": "SLUISGRACHT",
+      "lat": 39.26132,
+      "lon": -76.59097666666666,
+      "speed": 0,
+      "course": 294.6,
+      "heading": 294,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:29.242248+00:00"
+    },
+    {
+      "mmsi": 366999275,
+      "name": "USACE HARRELL",
+      "lat": 36.857319999999994,
+      "lon": -76.30777333333334,
+      "speed": 0,
+      "course": 240,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:32.349141+00:00"
+    },
+    {
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.268645,
+      "lon": -76.58105166666665,
+      "speed": 0,
+      "course": 5.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:33.709963+00:00"
+    },
+    {
+      "mmsi": 538071633,
+      "name": "DEEP SEA",
+      "lat": 36.84229833333333,
+      "lon": -76.29944333333333,
+      "speed": 0,
+      "course": 168.3,
+      "heading": 261,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:35.641067+00:00"
+    },
+    {
+      "mmsi": 241404000,
+      "name": "MARAN GAS ULYSSES",
+      "lat": 36.906931666666665,
+      "lon": -75.92195166666667,
+      "speed": 13.8,
+      "course": 127.4,
+      "heading": 127,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:39.959437+00:00"
+    },
+    {
+      "mmsi": 249904000,
+      "name": "TONSBERG",
+      "lat": 39.17149333333334,
+      "lon": -76.42889833333334,
+      "speed": 13.5,
+      "course": 328.9,
+      "heading": 329,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:41.753848+00:00"
+    },
+    {
+      "mmsi": 367473540,
+      "name": "ROYAL ENGINEER",
+      "lat": 36.873601666666666,
+      "lon": -76.33357333333333,
+      "speed": 5.9,
+      "course": 154.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-17T21:39:43.824644+00:00"
     }
   ]
 }
