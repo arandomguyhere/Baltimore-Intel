@@ -1,13 +1,13 @@
 {
-  "collected_at": "2026-08-17T10:47:28.313026+00:00",
+  "collected_at": "2026-08-17T11:22:30.777863+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
   "stories": [
     {
-      "title": "NWS confirms weak tornado formed over Port of Baltimore, Dundalk - wbaltv.com",
+      "title": "NWS confirms weak tornado formed over Port of Baltimore, Dundalk - WBAL-TV",
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTVdvSUxYM3pRZEJVYTZ6eXd6bXk5Vk1yTjVSWUxObHBCeUpDalFOUC1mdjZVY0VHZlhfSm1wNTFBTHF6b0RiTUw4OG9DM0NEUXV3d0t3T3JqQVdEZUZtcnh5YU04bnFUbzI5RVNNaGdMeGk4REp3bnJWSkI0VVBqUHltYw?oc=5",
-      "source": "wbaltv.com",
+      "source": "WBAL-TV",
       "date": "Thu, 13 Aug 2026 00:06:00 GMT",
       "query": "Port of Baltimore"
     },
@@ -40,6 +40,13 @@
       "query": "Port of Baltimore"
     },
     {
+      "title": "2 foreign companies, supervisor indicted in Baltimore bridge crash as $2.5B settlement reached with state of Maryland - ABC News - Breaking News, Latest News and Videos",
+      "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb1U4REd0cjc2ektVTzdzZDE3SjV0NTdUeFhtM0E5aF9pakNwa2N1RkY4d2pWTEhKU2ZmREhicDBtdTdYSEdVZ21hdFQtbDhFTE15TThtMVdBUlAweTVxdnV5RGllVy15QTRyR2ZzaXg2NW00VEpBZkhmdVkwTGNtNmVweDFGMlBVX0U5VHFuSm5mWHVLcWFMb2tMNEJmYm1pMDNtRmNR0gGrAUFVX3lxTE1OUGdnTTk3TmpNQTVHbVpGeHlqS0YyNjI3ci1ScDRCdkNTVFBHTmxCSktNSVhVZDR4V05MVHhlbnQzSkFZQzhkRm9LUFpoSVpfY0JGM0JqSzlyMkdQdlRRSDhldUlsLXhEWk1lMVRkaEtyN0MyZWp1NmFjeUtrZjhqSW5KNDhoN2Vob3liX0Z0SVZCZzVxUTZ5ZGMwa1F0aTg5Y05HMnAyQktDUQ?oc=5",
+      "source": "ABC News - Breaking News, Latest News and Videos",
+      "date": "Mon, 17 Aug 2026 02:47:45 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
       "title": "Salem Prepares for a Tall Ship Weekend - Salem, MA | Official Website (.gov)",
       "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1XRGFHcS0wVnM4TFVwVVoyTmdxbzhJVm5Cb3pnV1hjNWZ1UFl0SmtrbU5FMnA0OW5ESkpLRHVzUWhDLTNVckN5aGFoUnRuOEZjRTFjQ0hpUQ?oc=5",
       "source": "Salem, MA | Official Website (.gov)",
@@ -65,13 +72,6 @@
       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPVmhoTi1DYVJQOTl3ZURMX1NYOGxDMlBlUGN0VkU2VlFvYnZQaU1ha04tTHZyOEJRR1ZjR3B3TU5MRE5sSTVnZzBTbEtoaEYtQkF5T2lHcld3QldSWWRFTGRBc3FPTmVpaHQ4YkdSNVVIaUdaY3c4cmVBa1lfbV95Vkx0bmRldEhrUzk0VmI5VlR0OHNaMVRNMDU3NXBTR01DNUVCUFpHcw?oc=5",
       "source": "marylandmatters.org",
       "date": "Mon, 22 Jun 2026 07:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
-      "title": "Baltimore CBP officers intercept 5-tons of marijuana bound to England - cbp.gov",
-      "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPME9oSVN4Ujk3LU9NenNGT0JzcVJmendrdzFmc3g4SVMwMHlNNkRHaEtITjZqcnAybjNhdU94MjlkdXg5VXZpNkpfUU9vQmRuLXNLUmN1V0REU0NXeFdIZUFMY0xadld4TlBaVzJUMUE0YmlFOXpfVS0yX3puOVZCbUZKNFBWay10aDhJX0lkYkpTZzYtVnhzcGxtU2dkb1dNUEFhZ0dCMFN6UnFhMmJ0RnFMdTYzUQ?oc=5",
-      "source": "cbp.gov",
-      "date": "Thu, 18 Jun 2026 07:00:00 GMT",
       "query": "Baltimore shipping"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Port of Baltimore",
+      "Baltimore shipping",
       "Baltimore harbor",
+      "Port of Baltimore",
       "Maryland transportation infrastructure",
-      "Baltimore rail freight",
-      "Baltimore shipping"
+      "Baltimore rail freight"
     ],
     "sources": [
+      "USNI News",
+      "WTOP",
+      "ABC News - Breaking News, Latest News and Videos",
+      "WBFF",
       "FreightWaves",
-      "marylandmatters.org",
-      "Greater Greater Washington",
-      "cbp.gov",
-      "Supply Chain Dive",
-      "The Observatory of Economic Complexity",
-      "WBAL News Radio",
       "Conduit Street Blog",
-      "Baltimore Sun",
-      "ABC News - Breaking News, Latest News and Videos"
+      "Supply Chain Dive",
+      "CBS News",
+      "The Observatory of Economic Complexity",
+      "Baltimore Sun"
     ]
   }
 }
