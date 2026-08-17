@@ -1,51 +1,40 @@
 {
-  "collected_at": "2026-08-17T04:25:03.813072+00:00",
+  "collected_at": "2026-08-17T05:07:36.257348+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 38.91692368517011,
-      "lon": -76.98702468052821,
-      "heading": "NE",
+      "lat": 38.915279549773814,
+      "lon": -76.98876418296969,
+      "heading": "SW",
       "velocity": 0,
-      "lastUpdate": "2026-08-17T00:20:08-04:00",
+      "lastUpdate": "2026-08-17T01:05:08-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 39.95560498920566,
+      "lon": -75.18201624197587,
+      "heading": "S",
+      "velocity": 0,
+      "lastUpdate": "2026-08-17T01:06:38-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "139",
       "routeName": "Northeast Regional",
-      "lat": 39.57343706705459,
-      "lon": -76.00892077657711,
+      "lat": 39.30229593622366,
+      "lon": -76.64789801132382,
       "heading": "W",
-      "velocity": 86.0908737182617,
-      "lastUpdate": "2026-08-17T00:21:38-04:00",
-      "nextStation": "Baltimore Penn",
+      "velocity": 23.067325592041,
+      "lastUpdate": "2026-08-17T01:06:38-04:00",
+      "nextStation": "Baltimore Airport",
       "status": "Active"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 38.906982580577704,
-      "lon": -77.0028022728354,
-      "heading": "S",
-      "velocity": 16.5980949401855,
-      "lastUpdate": "2026-08-16T23:57:39-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2233",
-      "routeName": "Acela",
-      "lat": 38.90294663070534,
-      "lon": -77.00437392807851,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-08-17T00:18:51-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
     }
   ]
 }
