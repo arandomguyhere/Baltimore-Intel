@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-18T05:54:57.803418+00:00",
+  "collected_at": "2026-08-18T06:39:01.160123+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,216 +12,172 @@
       -75.8
     ]
   ],
-  "vessel_count": 19,
+  "vessel_count": 15,
   "vessels": [
     {
-      "mmsi": 636022465,
-      "name": "LILA SYDNEY",
-      "lat": 38.927458333333334,
-      "lon": -76.41628333333333,
+      "mmsi": 368081170,
+      "name": "HUNTSMAN",
+      "lat": 36.84956,
+      "lon": -76.31503166666667,
       "speed": 0,
-      "course": 166.8,
-      "heading": 350,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:28.252448+00:00"
-    },
-    {
-      "mmsi": 244903000,
-      "name": "SLUISGRACHT",
-      "lat": 39.261340000000004,
-      "lon": -76.59096166666667,
-      "speed": 0,
-      "course": 294.6,
-      "heading": 294,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:29.428149+00:00"
-    },
-    {
-      "mmsi": 367515970,
-      "name": "VIATOR",
-      "lat": 38.96831833333333,
-      "lon": -76.47787833333334,
-      "speed": 0,
-      "course": 2.7,
+      "course": 245.3,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T05:54:29.789637+00:00"
+      "timestamp": "2026-08-18T06:38:32.614287+00:00"
     },
     {
       "mmsi": 367694530,
       "name": "JUSTIN",
-      "lat": 36.9633,
-      "lon": -76.409195,
+      "lat": 36.96328833333334,
+      "lon": -76.40920833333332,
       "speed": 0,
-      "course": 326.1,
+      "course": 268.3,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T05:54:35.371673+00:00"
+      "timestamp": "2026-08-18T06:38:34.859029+00:00"
     },
     {
-      "mmsi": 338514578,
-      "name": "KLASY LADY FB19",
-      "lat": 39.01428333333333,
-      "lon": -76.40232333333333,
+      "mmsi": 368192510,
+      "name": "SUNDAY MORNING",
+      "lat": 38.97247,
+      "lon": -76.48778166666666,
       "speed": 0,
-      "course": 360,
+      "course": 180.4,
+      "heading": 65,
+      "ship_type": null,
+      "timestamp": "2026-08-18T06:38:36.864524+00:00"
+    },
+    {
+      "mmsi": 367309860,
+      "name": "ALICIA F. MCALLISTER",
+      "lat": 36.930325,
+      "lon": -76.32975499999999,
+      "speed": 0,
+      "course": 281.4,
+      "heading": 82,
+      "ship_type": null,
+      "timestamp": "2026-08-18T06:38:39.106870+00:00"
+    },
+    {
+      "mmsi": 367612310,
+      "name": "HOS BLACK FOOT",
+      "lat": 36.999244999999995,
+      "lon": -76.20825166666667,
+      "speed": 8,
+      "course": 288.7,
+      "heading": 288,
+      "ship_type": null,
+      "timestamp": "2026-08-18T06:38:41.472375+00:00"
+    },
+    {
+      "mmsi": 367473520,
+      "name": "RIVER PILOT",
+      "lat": 36.86808666666666,
+      "lon": -76.3288,
+      "speed": 6,
+      "course": 145,
+      "heading": 136,
+      "ship_type": null,
+      "timestamp": "2026-08-18T06:38:41.833668+00:00"
+    },
+    {
+      "mmsi": 367769180,
+      "name": "CLAYTON W MORAN",
+      "lat": 36.880491666666664,
+      "lon": -76.33519500000001,
+      "speed": 5.8,
+      "course": 30.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T05:54:38.172251+00:00"
+      "timestamp": "2026-08-18T06:38:43.581633+00:00"
     },
     {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.266951666666664,
-      "lon": -76.57954,
+      "mmsi": 368219010,
+      "name": "VENGEANCE",
+      "lat": 36.85860666666667,
+      "lon": -76.34655,
       "speed": 0,
-      "course": 212.6,
-      "heading": 511,
+      "course": 12.4,
+      "heading": 64,
       "ship_type": null,
-      "timestamp": "2026-08-18T05:54:39.468608+00:00"
-    },
-    {
-      "mmsi": 366837130,
-      "name": "SUSAN MORAN",
-      "lat": 36.95307666666667,
-      "lon": -76.32799166666668,
-      "speed": 0.1,
-      "course": 230.2,
-      "heading": 101,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:40.675140+00:00"
-    },
-    {
-      "mmsi": 215809000,
-      "name": "ATLANTIC SAIL",
-      "lat": 39.24438166666666,
-      "lon": -76.54114333333334,
-      "speed": 3.2,
-      "course": 356.3,
-      "heading": 349,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:41.832578+00:00"
-    },
-    {
-      "mmsi": 368441690,
-      "name": "FEDERAL HILL",
-      "lat": 39.25589333333333,
-      "lon": -76.53488666666667,
-      "speed": 0,
-      "course": 327.6,
-      "heading": 294,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:43.342276+00:00"
-    },
-    {
-      "mmsi": 414009000,
-      "name": "SHENG MAO HAI",
-      "lat": 36.96734666666667,
-      "lon": -76.43001,
-      "speed": 0,
-      "course": 40.6,
-      "heading": 41,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:45.049694+00:00"
+      "timestamp": "2026-08-18T06:38:44.545197+00:00"
     },
     {
       "mmsi": 235008930,
       "name": "VOE VIKING",
-      "lat": 36.86758666666666,
-      "lon": -76.31658666666667,
+      "lat": 36.8676,
+      "lon": -76.31658,
       "speed": 0,
       "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T05:54:45.262003+00:00"
+      "timestamp": "2026-08-18T06:38:45.536319+00:00"
     },
     {
-      "mmsi": 368015740,
-      "name": "PINNERS POINT",
-      "lat": 36.849623333333334,
-      "lon": -76.31536,
+      "mmsi": 367064470,
+      "name": "SUSAN MILLER",
+      "lat": 36.897373333333334,
+      "lon": -76.34404666666666,
       "speed": 0,
-      "course": 246.9,
-      "heading": 10,
+      "course": 318.2,
+      "heading": 65,
       "ship_type": null,
-      "timestamp": "2026-08-18T05:54:46.258075+00:00"
+      "timestamp": "2026-08-18T06:38:46.519891+00:00"
     },
     {
-      "mmsi": 366913820,
-      "name": "AJ MCALLISTER",
-      "lat": 36.93178833333333,
-      "lon": -76.333615,
+      "mmsi": 368269610,
+      "name": "HOS ROSEBUD",
+      "lat": 36.91988666666667,
+      "lon": -76.18190166666666,
       "speed": 0,
-      "course": 266.6,
-      "heading": 173,
+      "course": 277.4,
+      "heading": 92,
       "ship_type": null,
-      "timestamp": "2026-08-18T05:54:46.399364+00:00"
+      "timestamp": "2026-08-18T06:38:48.093581+00:00"
+    },
+    {
+      "mmsi": 368888000,
+      "name": "BURLINGTON",
+      "lat": 36.866925,
+      "lon": -76.317325,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-18T06:38:51.128090+00:00"
+    },
+    {
+      "mmsi": 366999275,
+      "name": "USACE HARRELL",
+      "lat": 36.857315,
+      "lon": -76.307755,
+      "speed": 0,
+      "course": 272.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-18T06:38:51.819157+00:00"
+    },
+    {
+      "mmsi": 367389480,
+      "name": "MAVERICK",
+      "lat": 36.808323333333334,
+      "lon": -76.28655833333333,
+      "speed": 0,
+      "course": 29.9,
+      "heading": 252,
+      "ship_type": null,
+      "timestamp": "2026-08-18T06:38:57.401462+00:00"
     },
     {
       "mmsi": 367462360,
       "name": "CINDY R",
-      "lat": 36.85885666666666,
+      "lat": 36.85887,
       "lon": -76.347,
       "speed": 0,
       "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T05:54:47.700196+00:00"
-    },
-    {
-      "mmsi": 368226910,
-      "name": "DELTA",
-      "lat": 36.837340000000005,
-      "lon": -76.29128333333333,
-      "speed": 0,
-      "course": 210.9,
-      "heading": 153,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:50.931289+00:00"
-    },
-    {
-      "mmsi": 338902000,
-      "name": "CORNELIUS H CHARLTON",
-      "lat": 39.27234833333333,
-      "lon": -76.58701833333333,
-      "speed": 0.1,
-      "course": 123,
-      "heading": 24,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:52.984243+00:00"
-    },
-    {
-      "mmsi": 636025108,
-      "name": "CANARIAS",
-      "lat": 38.572003333333335,
-      "lon": -76.43580333333333,
-      "speed": 12.3,
-      "course": 174,
-      "heading": 174,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:54.489903+00:00"
-    },
-    {
-      "mmsi": 477269400,
-      "name": "COSCO SHIPPING LOTUS",
-      "lat": 36.879104999999996,
-      "lon": -76.35024,
-      "speed": 0,
-      "course": 24.2,
-      "heading": 347,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:54.824906+00:00"
-    },
-    {
-      "mmsi": 367029690,
-      "name": "IVORY COAST",
-      "lat": 38.74601166666666,
-      "lon": -76.45518,
-      "speed": 7.2,
-      "course": 183.1,
-      "heading": 186,
-      "ship_type": null,
-      "timestamp": "2026-08-18T05:54:55.285326+00:00"
+      "timestamp": "2026-08-18T06:38:57.676153+00:00"
     }
   ]
 }
