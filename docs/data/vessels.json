@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-18T12:00:26.789958+00:00",
+  "collected_at": "2026-08-18T13:00:52.655609+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,139 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 12,
+  "vessel_count": 4,
   "vessels": [
     {
-      "mmsi": 367309860,
-      "name": "ALICIA F. MCALLISTER",
-      "lat": 36.930011666666665,
-      "lon": -76.33248499999999,
-      "speed": 6.5,
-      "course": 82.8,
-      "heading": 80,
-      "ship_type": null,
-      "timestamp": "2026-08-18T12:00:15.723891+00:00"
-    },
-    {
-      "mmsi": 368277530,
-      "name": "MISS MADELINE",
-      "lat": 39.21343,
-      "lon": -76.53194666666667,
-      "speed": 0.2,
-      "course": 81.9,
-      "heading": 223,
-      "ship_type": null,
-      "timestamp": "2026-08-18T12:00:01.414472+00:00"
-    },
-    {
-      "mmsi": 366701350,
-      "name": "SEA_ISLANDER",
-      "lat": 36.96172,
-      "lon": -76.40940166666665,
-      "speed": 0.1,
-      "course": 289,
-      "heading": 21,
-      "ship_type": null,
-      "timestamp": "2026-08-18T12:00:01.663363+00:00"
-    },
-    {
-      "mmsi": 353601000,
-      "name": "HOSEI VENTURE",
-      "lat": 38.96057166666667,
-      "lon": -76.41104666666666,
-      "speed": 0.1,
-      "course": 299.3,
-      "heading": 56,
-      "ship_type": null,
-      "timestamp": "2026-08-18T12:00:02.424355+00:00"
-    },
-    {
-      "mmsi": 563256100,
-      "name": "WAN HAI A18",
-      "lat": 36.910835,
-      "lon": -76.32751166666667,
+      "mmsi": 338514578,
+      "name": "KLASY LADY FB19",
+      "lat": 39.01426666666667,
+      "lon": -76.402345,
       "speed": 0,
-      "course": 236.6,
-      "heading": 353,
+      "course": 360,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T12:00:05.335977+00:00"
+      "timestamp": "2026-08-18T13:00:37.513822+00:00"
     },
     {
-      "mmsi": 232014452,
-      "name": "ANGLO ALEXANDRIA",
-      "lat": 39.25709,
-      "lon": -76.56508000000001,
+      "mmsi": 368376830,
+      "name": "ROARING POINT",
+      "lat": 36.816453333333335,
+      "lon": -76.28970833333332,
       "speed": 0,
-      "course": 14.1,
-      "heading": 357,
+      "course": 329.3,
+      "heading": 0,
       "ship_type": null,
-      "timestamp": "2026-08-18T12:00:09.691216+00:00"
+      "timestamp": "2026-08-18T13:00:44.216894+00:00"
     },
     {
-      "mmsi": 255806170,
-      "name": "MSC JAMBOREE IX",
-      "lat": 39.24627833333333,
-      "lon": -76.54061833333334,
-      "speed": 1.9,
-      "course": 0.3,
-      "heading": 348,
-      "ship_type": null,
-      "timestamp": "2026-08-18T12:00:12.505261+00:00"
-    },
-    {
-      "mmsi": 367554180,
-      "name": "MISS ANNE",
-      "lat": 36.85738,
-      "lon": -76.35138833333333,
+      "mmsi": 367634660,
+      "name": "IDA M",
+      "lat": 36.99096333333333,
+      "lon": -76.44707333333334,
       "speed": 0,
-      "course": 248.6,
-      "heading": 358,
+      "course": 47,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T12:00:13.018034+00:00"
+      "timestamp": "2026-08-18T13:00:50.701734+00:00"
     },
     {
-      "mmsi": 212122000,
-      "name": "VITA KOUAN",
-      "lat": 39.23444,
-      "lon": -76.54673166666666,
-      "speed": 7.6,
-      "course": 320.8,
-      "heading": 321,
+      "mmsi": 636092890,
+      "name": "BBC DAKOTA",
+      "lat": 37.07365166666667,
+      "lon": -76.09841833333333,
+      "speed": 12.9,
+      "course": 329.6,
+      "heading": 330,
       "ship_type": null,
-      "timestamp": "2026-08-18T12:00:14.428520+00:00"
-    },
-    {
-      "mmsi": 368336010,
-      "name": "WINDEA COURAGEOUS",
-      "lat": 36.972168333333336,
-      "lon": -76.33252833333333,
-      "speed": 10.1,
-      "course": 33.4,
-      "heading": 30,
-      "ship_type": null,
-      "timestamp": "2026-08-18T12:00:21.596416+00:00"
-    },
-    {
-      "mmsi": 367091990,
-      "name": "MERRIMAC",
-      "lat": 36.808121666666665,
-      "lon": -76.28697833333334,
-      "speed": 0,
-      "course": 222.5,
-      "heading": 67,
-      "ship_type": null,
-      "timestamp": "2026-08-18T12:00:23.238065+00:00"
-    },
-    {
-      "mmsi": 538011856,
-      "name": "ARGOS M",
-      "lat": 39.262816666666666,
-      "lon": -76.59492166666668,
-      "speed": 0,
-      "course": 73.4,
-      "heading": 115,
-      "ship_type": null,
-      "timestamp": "2026-08-18T12:00:25.118640+00:00"
+      "timestamp": "2026-08-18T13:00:50.710773+00:00"
     }
   ]
 }
