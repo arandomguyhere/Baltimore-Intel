@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-18T21:21:17.461491+00:00",
+  "collected_at": "2026-08-18T21:47:28.066019+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,95 +12,161 @@
       -75.8
     ]
   ],
-  "vessel_count": 8,
+  "vessel_count": 14,
   "vessels": [
     {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.22494666666667,
-      "lon": -76.579815,
+      "mmsi": 368382440,
+      "name": "PATRICIA B. MORAN",
+      "lat": 36.879086666666666,
+      "lon": -76.32648833333333,
+      "speed": 0.4,
+      "course": 261.1,
+      "heading": 84,
+      "ship_type": null,
+      "timestamp": "2026-08-18T21:46:59.067483+00:00"
+    },
+    {
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.983983333333335,
+      "lon": -76.46726666666667,
       "speed": 0,
-      "course": 73.9,
-      "heading": 161,
+      "course": 346.2,
+      "heading": 350,
       "ship_type": null,
-      "timestamp": "2026-08-18T21:20:48.684843+00:00"
+      "timestamp": "2026-08-18T21:47:01.262748+00:00"
     },
     {
-      "mmsi": 366913820,
-      "name": "AJ MCALLISTER",
-      "lat": 36.93132666666667,
-      "lon": -76.33359833333334,
-      "speed": 0.1,
-      "course": 130.6,
-      "heading": 174,
-      "ship_type": null,
-      "timestamp": "2026-08-18T21:20:58.194797+00:00"
-    },
-    {
-      "mmsi": 353601000,
-      "name": "HOSEI VENTURE",
-      "lat": 39.02413166666667,
-      "lon": -76.37703499999999,
-      "speed": 11.8,
-      "course": 341.3,
-      "heading": 344,
-      "ship_type": null,
-      "timestamp": "2026-08-18T21:21:06.624091+00:00"
-    },
-    {
-      "mmsi": 338924264,
-      "name": "OSCAR V. PETERSON",
-      "lat": 36.94818333333333,
-      "lon": -76.32991666666666,
+      "mmsi": 367834000,
+      "name": "GARY I GORDON",
+      "lat": 39.269043333333336,
+      "lon": -76.57088833333334,
       "speed": 0,
-      "course": 280.7,
-      "heading": 281,
+      "course": 0,
+      "heading": 266,
       "ship_type": null,
-      "timestamp": "2026-08-18T21:21:07.017545+00:00"
+      "timestamp": "2026-08-18T21:47:05.750430+00:00"
     },
     {
-      "mmsi": 232014452,
-      "name": "ANGLO ALEXANDRIA",
-      "lat": 39.25702666666667,
-      "lon": -76.56508833333334,
-      "speed": 0,
-      "course": 14.1,
-      "heading": 358,
+      "mmsi": 367176210,
+      "name": "GRAM-ME",
+      "lat": 36.94125833333333,
+      "lon": -76.33842166666666,
+      "speed": 7.7,
+      "course": 9.5,
+      "heading": 16,
       "ship_type": null,
-      "timestamp": "2026-08-18T21:21:08.947598+00:00"
+      "timestamp": "2026-08-18T21:47:06.939118+00:00"
     },
     {
-      "mmsi": 210614000,
-      "name": "CYMONA PROGRESS",
-      "lat": 38.90620166666667,
-      "lon": -76.42002166666666,
-      "speed": 0,
-      "course": 17.7,
-      "heading": 12,
+      "mmsi": 636092890,
+      "name": "BBC DAKOTA",
+      "lat": 38.947874999999996,
+      "lon": -76.39086333333333,
+      "speed": 13.3,
+      "course": 358.5,
+      "heading": 359,
       "ship_type": null,
-      "timestamp": "2026-08-18T21:21:09.189662+00:00"
+      "timestamp": "2026-08-18T21:47:07.324213+00:00"
     },
     {
-      "mmsi": 368388560,
-      "name": "GYPSY SOUL",
-      "lat": 38.95171833333333,
-      "lon": -76.551215,
+      "mmsi": 367763450,
+      "name": "SWEET BABY",
+      "lat": 38.77564333333333,
+      "lon": -76.56351333333333,
       "speed": 0,
-      "course": 257.4,
+      "course": 148.8,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T21:21:12.498782+00:00"
+      "timestamp": "2026-08-18T21:47:08.257089+00:00"
     },
     {
-      "mmsi": 235008930,
-      "name": "VOE VIKING",
-      "lat": 36.867603333333335,
-      "lon": -76.31658,
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.98402,
+      "lon": -76.46747333333333,
       "speed": 0,
-      "course": 360,
+      "course": 81.4,
+      "heading": 343,
+      "ship_type": null,
+      "timestamp": "2026-08-18T21:47:11.461202+00:00"
+    },
+    {
+      "mmsi": 368172430,
+      "name": "JANE TYLER",
+      "lat": 37.013461666666664,
+      "lon": -76.49219,
+      "speed": 9.1,
+      "course": 118.7,
+      "heading": 118,
+      "ship_type": null,
+      "timestamp": "2026-08-18T21:47:12.338023+00:00"
+    },
+    {
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.268636666666666,
+      "lon": -76.58101166666667,
+      "speed": 0,
+      "course": 337.9,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T21:21:16.558149+00:00"
+      "timestamp": "2026-08-18T21:47:12.963477+00:00"
+    },
+    {
+      "mmsi": 368219010,
+      "name": "VENGEANCE",
+      "lat": 36.85854166666666,
+      "lon": -76.34659833333333,
+      "speed": 0,
+      "course": 23.1,
+      "heading": 68,
+      "ship_type": null,
+      "timestamp": "2026-08-18T21:47:14.357847+00:00"
+    },
+    {
+      "mmsi": 338924075,
+      "name": "CAPE SAN ROMAN",
+      "lat": 36.868026666666665,
+      "lon": -76.31852666666667,
+      "speed": 0,
+      "course": 57.7,
+      "heading": 226,
+      "ship_type": null,
+      "timestamp": "2026-08-18T21:47:17.054450+00:00"
+    },
+    {
+      "mmsi": 368226910,
+      "name": "DELTA",
+      "lat": 36.95225166666667,
+      "lon": -76.34127833333334,
+      "speed": 6.7,
+      "course": 174.6,
+      "heading": 172,
+      "ship_type": null,
+      "timestamp": "2026-08-18T21:47:18.964783+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413333333333,
+      "lon": -76.46733333333333,
+      "speed": 0,
+      "course": 351.5,
+      "heading": 343,
+      "ship_type": null,
+      "timestamp": "2026-08-18T21:47:24.240466+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.24309,
+      "lon": -76.57110666666668,
+      "speed": 0,
+      "course": 219.8,
+      "heading": 349,
+      "ship_type": null,
+      "timestamp": "2026-08-18T21:47:25.127213+00:00"
     }
   ]
 }
