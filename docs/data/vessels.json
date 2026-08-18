@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-18T20:49:11.473190+00:00",
+  "collected_at": "2026-08-18T21:21:17.461491+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,172 +12,95 @@
       -75.8
     ]
   ],
-  "vessel_count": 15,
+  "vessel_count": 8,
   "vessels": [
     {
-      "mmsi": 319060200,
-      "name": "GRACE OF TIDES",
-      "lat": 39.28080666666666,
-      "lon": -76.60222999999999,
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.22494666666667,
+      "lon": -76.579815,
       "speed": 0,
-      "course": 312.4,
-      "heading": 316,
+      "course": 73.9,
+      "heading": 161,
       "ship_type": null,
-      "timestamp": "2026-08-18T20:48:42.966131+00:00"
+      "timestamp": "2026-08-18T21:20:48.684843+00:00"
     },
     {
-      "mmsi": 367694530,
-      "name": "JUSTIN",
-      "lat": 36.96329,
-      "lon": -76.40920166666666,
-      "speed": 0,
-      "course": 247.8,
-      "heading": 322,
+      "mmsi": 366913820,
+      "name": "AJ MCALLISTER",
+      "lat": 36.93132666666667,
+      "lon": -76.33359833333334,
+      "speed": 0.1,
+      "course": 130.6,
+      "heading": 174,
       "ship_type": null,
-      "timestamp": "2026-08-18T20:48:43.703154+00:00"
+      "timestamp": "2026-08-18T21:20:58.194797+00:00"
     },
     {
-      "mmsi": 255805661,
-      "name": "MSC ODESSA V",
-      "lat": 39.255068333333334,
-      "lon": -76.54881166666668,
-      "speed": 0,
-      "course": 284,
-      "heading": 307,
+      "mmsi": 353601000,
+      "name": "HOSEI VENTURE",
+      "lat": 39.02413166666667,
+      "lon": -76.37703499999999,
+      "speed": 11.8,
+      "course": 341.3,
+      "heading": 344,
       "ship_type": null,
-      "timestamp": "2026-08-18T20:48:46.805452+00:00"
+      "timestamp": "2026-08-18T21:21:06.624091+00:00"
     },
     {
-      "mmsi": 368379170,
-      "name": "WINDSERVE SPARTAN",
-      "lat": 37.00682,
-      "lon": -76.26075666666667,
-      "speed": 9.5,
-      "course": 81.3,
-      "heading": 84,
+      "mmsi": 338924264,
+      "name": "OSCAR V. PETERSON",
+      "lat": 36.94818333333333,
+      "lon": -76.32991666666666,
+      "speed": 0,
+      "course": 280.7,
+      "heading": 281,
       "ship_type": null,
-      "timestamp": "2026-08-18T20:48:49.201631+00:00"
+      "timestamp": "2026-08-18T21:21:07.017545+00:00"
     },
     {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.266960000000005,
-      "lon": -76.57953666666667,
+      "mmsi": 232014452,
+      "name": "ANGLO ALEXANDRIA",
+      "lat": 39.25702666666667,
+      "lon": -76.56508833333334,
       "speed": 0,
-      "course": 139,
+      "course": 14.1,
+      "heading": 358,
+      "ship_type": null,
+      "timestamp": "2026-08-18T21:21:08.947598+00:00"
+    },
+    {
+      "mmsi": 210614000,
+      "name": "CYMONA PROGRESS",
+      "lat": 38.90620166666667,
+      "lon": -76.42002166666666,
+      "speed": 0,
+      "course": 17.7,
+      "heading": 12,
+      "ship_type": null,
+      "timestamp": "2026-08-18T21:21:09.189662+00:00"
+    },
+    {
+      "mmsi": 368388560,
+      "name": "GYPSY SOUL",
+      "lat": 38.95171833333333,
+      "lon": -76.551215,
+      "speed": 0,
+      "course": 257.4,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T20:48:49.429781+00:00"
-    },
-    {
-      "mmsi": 368185620,
-      "name": "FELLS POINT",
-      "lat": 39.25575,
-      "lon": -76.53490833333333,
-      "speed": 0,
-      "course": 278,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-08-18T20:48:50.709166+00:00"
-    },
-    {
-      "mmsi": 369970482,
-      "name": "YP708",
-      "lat": 38.983111666666666,
-      "lon": -76.46544833333334,
-      "speed": 0,
-      "course": 31.5,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-08-18T20:48:51.419920+00:00"
-    },
-    {
-      "mmsi": 367795990,
-      "name": "SEA WOLF",
-      "lat": 36.89669833333333,
-      "lon": -76.34695333333335,
-      "speed": 0,
-      "course": 226.2,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-08-18T20:48:56.861906+00:00"
-    },
-    {
-      "mmsi": 538009160,
-      "name": "SHANDONG DE TAI",
-      "lat": 38.94544166666667,
-      "lon": -76.39829833333333,
-      "speed": 0,
-      "course": 133.4,
-      "heading": 29,
-      "ship_type": null,
-      "timestamp": "2026-08-18T20:49:01.705798+00:00"
-    },
-    {
-      "mmsi": 367712350,
-      "name": "UNCLE MIKE",
-      "lat": 36.962961666666665,
-      "lon": -76.29587666666666,
-      "speed": 0,
-      "course": 134.2,
-      "heading": 222,
-      "ship_type": null,
-      "timestamp": "2026-08-18T20:49:03.278901+00:00"
-    },
-    {
-      "mmsi": 636092890,
-      "name": "BBC DAKOTA",
-      "lat": 38.73382,
-      "lon": -76.43390166666667,
-      "speed": 13.7,
-      "course": 4.6,
-      "heading": 5,
-      "ship_type": null,
-      "timestamp": "2026-08-18T20:49:06.254937+00:00"
+      "timestamp": "2026-08-18T21:21:12.498782+00:00"
     },
     {
       "mmsi": 235008930,
       "name": "VOE VIKING",
-      "lat": 36.8676,
+      "lat": 36.867603333333335,
       "lon": -76.31658,
       "speed": 0,
       "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-18T20:49:06.421763+00:00"
-    },
-    {
-      "mmsi": 367376440,
-      "name": "LONG ISLAND",
-      "lat": 39.24337166666667,
-      "lon": -76.57071666666667,
-      "speed": 0,
-      "course": 278.5,
-      "heading": 83,
-      "ship_type": null,
-      "timestamp": "2026-08-18T20:49:06.763641+00:00"
-    },
-    {
-      "mmsi": 368164470,
-      "name": "EASTERN BRANCH",
-      "lat": 36.96284166666667,
-      "lon": -76.40874000000001,
-      "speed": 0,
-      "course": 126.3,
-      "heading": 207,
-      "ship_type": null,
-      "timestamp": "2026-08-18T20:49:09.507096+00:00"
-    },
-    {
-      "mmsi": 368199810,
-      "name": "CAROLINE",
-      "lat": 36.969,
-      "lon": -76.43087833333334,
-      "speed": 0.1,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-08-18T20:49:10.038721+00:00"
+      "timestamp": "2026-08-18T21:21:16.558149+00:00"
     }
   ]
 }
