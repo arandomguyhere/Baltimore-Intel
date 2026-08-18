@@ -1,62 +1,40 @@
 {
-  "collected_at": "2026-08-18T04:06:12.112261+00:00",
+  "collected_at": "2026-08-18T04:50:33.164317+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 3,
   "trains": [
     {
       "trainNum": "40",
       "routeName": "Floridian",
-      "lat": 38.95921724101895,
-      "lon": -77.00507583573766,
+      "lat": 39.289036012275965,
+      "lon": -77.55423984634885,
       "heading": "NW",
-      "velocity": 59.8739356994629,
-      "lastUpdate": "2026-08-18T00:03:39-04:00",
-      "nextStation": "Rockville",
+      "velocity": 39.9047737121582,
+      "lastUpdate": "2026-08-18T00:48:38-04:00",
+      "nextStation": "Harpers Ferry",
       "status": "Active"
     },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.50124008582059,
-      "lon": -76.16712394686681,
+      "lat": 39.92185635357757,
+      "lon": -75.23545253683936,
       "heading": "NE",
-      "velocity": 122.490867614746,
-      "lastUpdate": "2026-08-18T00:03:39-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 38.90302673873083,
-      "lon": -77.00412215800502,
-      "heading": "S",
-      "velocity": 13.7260856628418,
-      "lastUpdate": "2026-08-18T00:02:40-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
-    },
-    {
-      "trainNum": "177",
-      "routeName": "Northeast Regional",
-      "lat": 39.968410930328886,
-      "lon": -75.19364344443669,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-08-17T23:54:59-04:00",
+      "velocity": 102.24382019043,
+      "lastUpdate": "2026-08-18T00:48:38-04:00",
       "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
+      "status": "Active"
     },
     {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.19950527729771,
-      "lon": -76.76701584269576,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-08-17T23:57:56-04:00",
-      "nextStation": "Harrisburg",
-      "status": "Completed"
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 40.000744312471944,
+      "lon": -75.14569268621803,
+      "heading": "SW",
+      "velocity": 58.5269355773926,
+      "lastUpdate": "2026-08-18T00:46:08-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
     }
   ]
 }
