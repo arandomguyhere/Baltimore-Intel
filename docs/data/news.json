@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-19T09:30:57.490806+00:00",
+  "collected_at": "2026-08-19T10:03:13.115539+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -82,6 +82,13 @@
       "query": "Baltimore harbor"
     },
     {
+      "title": "Air rights above former Chasen property in Harbor East hit the market - The Business Journals",
+      "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxON2tmaHpIblhJdDY4bmd1SksyYUVaUHZlaks4ODZJdmYxVUZVcjg4eE9xeU90NHJzWlotajlibENjaWFrVkpqc1JmdXdtQ1ZmZndTRWxXUzU4LVlOS1NmYUR1RWxseS1HTDZIOGNtRE5QbkVFcnZOX3I3MUdHQTU4cW5HWnk2UDNkOFhwZGdZWkZCaW1Mc1RPUk9iR1RiUmdqLXc?oc=5",
+      "source": "The Business Journals",
+      "date": "Tue, 18 Aug 2026 09:30:00 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
       "title": "Man arrested, charged with murder for man's death at Baltimore's Inner Harbor - WBFF",
       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQb1hnVEthMWZZQm8ta01ueE1EUkZmNlF5VVpEaE5VMk8yZVlNWEwxdVp2bFdrdlJ2WW1VVXU2RFJjemU4S0tlcml5SUxBeWVrSGg5ZFpWbDN3d1RDQ1pHamFydV9KSnFPMzQ3QlJNVkV0TXJVeFNwQ1VGVUN4aUUtWmNBNzlpUTVrREVtaHFPWExOR0JKRWpPM1doNV9VZkZvbmt3aw?oc=5",
       "source": "WBFF",
@@ -93,13 +100,6 @@
       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNTVdvSUxYM3pRZEJVYTZ6eXd6bXk5Vk1yTjVSWUxObHBCeUpDalFOUC1mdjZVY0VHZlhfSm1wNTFBTHF6b0RiTUw4OG9DM0NEUXV3d0t3T3JqQVdEZUZtcnh5YU04bnFUbzI5RVNNaGdMeGk4REp3bnJWSkI0VVBqUHltYw?oc=5",
       "source": "WBAL-TV",
       "date": "Thu, 13 Aug 2026 00:06:00 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "Parkville man charged with murder after allegedly pushing man into Inner Harbor - WMAR 2 News Baltimore",
-      "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOUi16a25TSDFWcXlhd0ZDUXVZN0t2Rm5rQUEzS0t3Q0VBanBJa1M3YU1CWDloYWFMSVA0TVp5U0dVbk1XRTNuZi1kZUhySUVITG03T1VWbmRlTnBWaW5aRXJteHJQUkh2czFmYVRXeWZybVB5bDUxV1VFbHlSME9rMU1EbDdjRTdqR0FPME56dVJWOWY4OU5GWVhkQVZEUklNSG4wMTZWbE05SXZqSmRRUjNBY3lkYWEwTm9JQWVwcUMwUHY5QWZVQjVsLXRwVnVp?oc=5",
-      "source": "WMAR 2 News Baltimore",
-      "date": "Mon, 03 Aug 2026 07:00:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Maryland transportation infrastructure",
-      "Baltimore rail freight",
-      "Port of Baltimore",
       "Baltimore shipping",
-      "Baltimore harbor"
+      "Port of Baltimore",
+      "Baltimore harbor",
+      "Maryland transportation infrastructure",
+      "Baltimore rail freight"
     ],
     "sources": [
-      "Conduit Street Blog",
-      "WMAR 2 News Baltimore",
       "Greater Greater Washington",
-      "The Observatory of Economic Complexity",
-      "FreightWaves",
-      "WBAL-TV",
       "CBS News",
+      "The Business Journals",
+      "WTOP",
+      "ABC News - Breaking News, Latest News and Videos",
       "Baltimore Sun",
+      "Maryland Matters",
+      "Conduit Street Blog",
       "WBFF",
-      "WTOP"
+      "FreightWaves"
     ]
   }
 }
