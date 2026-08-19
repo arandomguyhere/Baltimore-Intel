@@ -1,40 +1,29 @@
 {
-  "collected_at": "2026-08-19T04:09:12.979948+00:00",
+  "collected_at": "2026-08-19T04:50:48.751052+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.79073373027938,
-      "lon": -75.46297640379423,
-      "heading": "NE",
-      "velocity": 106.913093566895,
-      "lastUpdate": "2026-08-19T00:05:38-04:00",
+      "lat": 39.953060585689464,
+      "lon": -75.18232141791776,
+      "heading": "N",
+      "velocity": 2.03561544418335,
+      "lastUpdate": "2026-08-19T00:48:38-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
       "trainNum": "175",
       "routeName": "Northeast Regional",
-      "lat": 39.306598916401306,
-      "lon": -76.63940649293271,
-      "heading": "NW",
-      "velocity": 13.8006496429443,
-      "lastUpdate": "2026-08-19T00:05:38-04:00",
-      "nextStation": "Baltimore Airport",
-      "status": "Active"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.14620632284152,
-      "lon": -76.61069712502925,
-      "heading": "W",
-      "velocity": 13.5086050033569,
-      "lastUpdate": "2026-08-19T00:06:38-04:00",
-      "nextStation": "Elizabethtown",
-      "status": "Active"
+      "lat": 38.90252701361385,
+      "lon": -77.00455703410992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-19T00:48:55-04:00",
+      "nextStation": "Washington Union",
+      "status": "Completed"
     }
   ]
 }
