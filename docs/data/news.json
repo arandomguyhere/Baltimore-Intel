@@ -1,13 +1,13 @@
 {
-  "collected_at": "2026-08-20T02:37:01.032544+00:00",
+  "collected_at": "2026-08-20T03:28:06.462386+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
   "stories": [
     {
-      "title": "Worker dies after equipment strike at Dundalk Marine Terminal - WBAL-TV",
+      "title": "Worker dies after equipment strike at Dundalk Marine Terminal - wbaltv.com",
       "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR2xORlBGZmFkbjdyVnJNbFNKQnlzdVlIMXJRWkRkX0plbUE1Smk0ZFVwMlZpeUdyOGFlMHN0a2M0NU1Zb1haaE9YcGNiUC1UVGhVRWY3c3UtZ29RcUtYQUlGaWZEajRlV01UTEFyc2VVSlNjSXYzMklKdlYtcV96NHlEZ3dwN3daT1BqckgyZ1g1cmZ6YVd6S09n?oc=5",
-      "source": "WBAL-TV",
+      "source": "wbaltv.com",
       "date": "Mon, 03 Aug 2026 07:00:00 GMT",
       "query": "Port of Baltimore"
     },
@@ -61,13 +61,6 @@
       "query": "Baltimore shipping"
     },
     {
-      "title": "Salem Prepares for a Tall Ship Weekend - Salem, MA | Official Website (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE1XRGFHcS0wVnM4TFVwVVoyTmdxbzhJVm5Cb3pnV1hjNWZ1UFl0SmtrbU5FMnA0OW5ESkpLRHVzUWhDLTNVckN5aGFoUnRuOEZjRTFjQ0hpUQ?oc=5",
-      "source": "Salem, MA | Official Website (.gov)",
-      "date": "Thu, 23 Jul 2026 07:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
       "title": "Not guilty plea entered by operators in Key Bridge collapse case - CBS News",
       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPVlNGQm1IQTVBb19IeDdnRDhCMUtpRjFJTGEtSE5RNGxDWmVOZ3dEWUl3N1d2UkVuYUlRUmd3WGdlbHlEZlI0b01BSVpBUm1NRmpGa2QzUGZRREdKOTh1dDRiSDRNak1wTWNwNEJQTXpPSDlyTW9PdWVoM25jb1F1UGk3LWEtX1RndFVxQUFtZWpyY2o3T2w2WnJPX0xESjNCcDBfOTFBcExnRUZURWc?oc=5",
       "source": "CBS News",
@@ -75,10 +68,17 @@
       "query": "Baltimore shipping"
     },
     {
-      "title": "Sail 250 Maryland brings $114.5 million to Baltimore - WBAL-TV",
+      "title": "MARAD Ship Suffers Fire in Baltimore - USNI News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBNl9nT0gxM09ubUJTLW1udU5pVmM0ZVpTNWJDTFZaV3ZaR0NkSXg3X0ZUa3N2MGRkdUN4eFFtQmpETVVBOW80Z0J2c1RubG9NX2tPMVZodVZaMHJ6MF9Gc2dPUk1NUWlzNG5zZ3d3UzA5N2QtUlVBbA?oc=5",
+      "source": "USNI News",
+      "date": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
+      "title": "Sail 250 Maryland brings $114.5 million to Baltimore - wbaltv.com",
       "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdmpUZk9XdDEzNEVoSEMzZXcxQ1lCSnpyTk4wUWl5THUtdEZFbjVLRERJRE5OSjBhbjEzalExME52NG5RM2FjSU45ZG9IRURTS1FrcmtJd0xzNGJrZDgwRFItNW01MDRETDM1bHFLbnAxLXdKRWFLZnVobDcyNHNCcjhGQlJ4R2VoQzJN?oc=5",
-      "source": "WBAL-TV",
-      "date": "Wed, 19 Aug 2026 21:57:00 GMT",
+      "source": "wbaltv.com",
+      "date": "Wed, 19 Aug 2026 23:06:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,23 +147,23 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore rail freight",
-      "Baltimore shipping",
       "Baltimore harbor",
-      "Port of Baltimore",
-      "Maryland transportation infrastructure"
+      "Baltimore shipping",
+      "Maryland transportation infrastructure",
+      "Baltimore rail freight",
+      "Port of Baltimore"
     ],
     "sources": [
-      "CBS News",
       "Baltimore Sun",
-      "ABC News - Breaking News, Latest News and Videos",
       "WBFF",
-      "Maryland Matters",
-      "The Business Journals",
-      "FreightWaves",
-      "WTOP",
-      "Salem, MA | Official Website (.gov)",
-      "Conduit Street Blog"
+      "wbaltv.com",
+      "CBS News",
+      "Conduit Street Blog",
+      "ABC News - Breaking News, Latest News and Videos",
+      "The Observatory of Economic Complexity",
+      "DVIDS",
+      "The Baltimore Banner",
+      "FreightWaves"
     ]
   }
 }
