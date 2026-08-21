@@ -1,61 +1,50 @@
 {
-  "collected_at": "2026-08-21T02:59:37.608229+00:00",
+  "collected_at": "2026-08-21T03:55:16.359679+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 4,
   "trains": [
     {
       "trainNum": "55",
       "routeName": "Vermonter",
-      "lat": 39.30279947918097,
-      "lon": -76.57114627833737,
-      "heading": "W",
-      "velocity": 67.0813598632813,
-      "lastUpdate": "2026-08-20T22:57:40-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
+      "lat": 38.90410248395747,
+      "lon": -77.00386275898988,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-20T23:46:05-04:00",
+      "nextStation": "Washington Union",
+      "status": "Completed"
     },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.30805231756348,
-      "lon": -76.61601476170304,
-      "heading": "E",
-      "velocity": 0.00223693996667862,
-      "lastUpdate": "2026-08-20T22:57:40-04:00",
-      "nextStation": "Baltimore Penn",
+      "lat": 39.73128165760776,
+      "lon": -75.5686206595243,
+      "heading": "NE",
+      "velocity": 37.0772819519043,
+      "lastUpdate": "2026-08-20T23:51:40-04:00",
+      "nextStation": "Wilmington",
       "status": "Active"
     },
     {
       "trainNum": "175",
       "routeName": "Northeast Regional",
-      "lat": 39.63650166224541,
-      "lon": -75.80115704304913,
-      "heading": "SW",
-      "velocity": 77.5284576416016,
-      "lastUpdate": "2026-08-20T22:55:40-04:00",
-      "nextStation": "Baltimore Penn",
-      "status": "Active"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 39.737205884401796,
-      "lon": -75.55171391655009,
-      "heading": "SE",
-      "velocity": 0.00447387993335724,
-      "lastUpdate": "2026-08-20T22:57:39-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "2131",
-      "routeName": "Acela",
-      "lat": 38.903877416909204,
-      "lon": -77.0039390529999,
+      "lat": 39.193886031733236,
+      "lon": -76.69533759448123,
       "heading": "S",
-      "velocity": 12.3836994171143,
-      "lastUpdate": "2026-08-20T22:57:40-04:00",
-      "nextStation": "Washington Union",
+      "velocity": 20.9091358184814,
+      "lastUpdate": "2026-08-20T23:51:39-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
+    },
+    {
+      "trainNum": "177",
+      "routeName": "Northeast Regional",
+      "lat": 39.99868437486109,
+      "lon": -75.15130792187145,
+      "heading": "SW",
+      "velocity": 59.8515663146973,
+      "lastUpdate": "2026-08-20T23:51:39-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     }
   ]
