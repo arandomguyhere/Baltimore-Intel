@@ -1,18 +1,106 @@
 {
-  "collected_at": "2026-08-21T08:19:20.301022+00:00",
+  "collected_at": "2026-08-21T09:06:36.927121+00:00",
   "source": "amtraker.com",
-  "total_trains": 1,
+  "total_trains": 9,
   "trains": [
     {
-      "trainNum": "2150",
+      "trainNum": "67",
+      "routeName": "Northeast Regional",
+      "lat": 39.737919232956415,
+      "lon": -75.54034611500606,
+      "heading": "SW",
+      "velocity": 32.3112907409668,
+      "lastUpdate": "2026-08-21T05:03:39-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "151",
+      "routeName": "Northeast Regional",
+      "lat": 39.92282528681767,
+      "lon": -75.23413265048052,
+      "heading": "SW",
+      "velocity": 85.8134918212891,
+      "lastUpdate": "2026-08-21T05:03:39-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "170",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-21T04:50:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "190",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-21T05:43:00-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "601",
+      "routeName": "Keystone",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-21T04:55:00-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.26249356634741,
+      "lon": -76.8776421026356,
+      "heading": "NW",
+      "velocity": 1.80818963050842,
+      "lastUpdate": "2026-08-21T05:01:39-04:00",
+      "nextStation": "Middletown",
+      "status": "Active"
+    },
+    {
+      "trainNum": "642",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-21T05:40:00-04:00",
+      "nextStation": "Harrisburg",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "2102",
       "routeName": "Acela",
       "lat": 38.90137078736586,
       "lon": -77.00495528516336,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-08-21T04:32:00-04:00",
+      "lastUpdate": "2026-08-21T05:33:00-04:00",
       "nextStation": "Washington Union",
       "status": "Predeparture"
+    },
+    {
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 39.122825836442416,
+      "lon": -76.69594794231456,
+      "heading": "N",
+      "velocity": 103,
+      "lastUpdate": "2026-08-21T05:03:38-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
     }
   ]
 }
