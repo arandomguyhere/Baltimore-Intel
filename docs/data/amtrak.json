@@ -1,6 +1,260 @@
 {
-  "collected_at": "2026-08-22T22:57:54.833253+00:00",
+  "collected_at": "2026-08-22T23:25:24.009467+00:00",
   "source": "amtraker.com",
-  "total_trains": 0,
-  "trains": []
+  "total_trains": 23,
+  "trains": [
+    {
+      "trainNum": "19",
+      "routeName": "Crescent",
+      "lat": 38.899494329000554,
+      "lon": -77.00460280993906,
+      "heading": "S",
+      "velocity": 3.12500524520874,
+      "lastUpdate": "2026-08-22T19:07:22-04:00",
+      "nextStation": "Washington Union",
+      "status": "Active"
+    },
+    {
+      "trainNum": "41",
+      "routeName": "Floridian",
+      "lat": 38.89996353709436,
+      "lon": -77.00462569797482,
+      "heading": "S",
+      "velocity": 0.00894775986671448,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Alexandria",
+      "status": "Active"
+    },
+    {
+      "trainNum": "80",
+      "routeName": "Carolinian",
+      "lat": 39.97343107218163,
+      "lon": -75.19762599000344,
+      "heading": "NE",
+      "velocity": 28.1697845458984,
+      "lastUpdate": "2026-08-22T19:18:51-04:00",
+      "nextStation": "Trenton",
+      "status": "Active"
+    },
+    {
+      "trainNum": "87",
+      "routeName": "Northeast Regional",
+      "lat": 38.8994790699858,
+      "lon": -77.00491561503557,
+      "heading": "S",
+      "velocity": 0.00894775986671448,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Washington Union",
+      "status": "Active"
+    },
+    {
+      "trainNum": "90",
+      "routeName": "Palmetto",
+      "lat": 38.89913193291669,
+      "lon": -77.00489272700729,
+      "heading": "N",
+      "velocity": 0.0290802195668221,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Washington Union",
+      "status": "Active"
+    },
+    {
+      "trainNum": "97",
+      "routeName": "Silver Meteor",
+      "lat": 39.3075411475131,
+      "lon": -76.61461858223457,
+      "heading": "NE",
+      "velocity": 0.322119355201721,
+      "lastUpdate": "2026-08-22T19:18:53-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "99",
+      "routeName": "Northeast Regional",
+      "lat": 37.9809455446813,
+      "lon": -77.36350484339546,
+      "heading": "S",
+      "velocity": 69.6985778808594,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Ashland",
+      "status": "Active"
+    },
+    {
+      "trainNum": "124",
+      "routeName": "Northeast Regional",
+      "lat": 38.65864954423613,
+      "lon": -77.24840017309927,
+      "heading": "NE",
+      "velocity": 0.0134216398000717,
+      "lastUpdate": "2026-08-22T19:18:53-04:00",
+      "nextStation": "Woodbridge",
+      "status": "Active"
+    },
+    {
+      "trainNum": "128",
+      "routeName": "Northeast Regional",
+      "lat": 38.2910690475927,
+      "lon": -77.4613213599704,
+      "heading": "N",
+      "velocity": 40.0349349975586,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Fredericksburg",
+      "status": "Active"
+    },
+    {
+      "trainNum": "142",
+      "routeName": "Northeast Regional",
+      "lat": 39.95307202969036,
+      "lon": -75.18235956493055,
+      "heading": "N",
+      "velocity": 5.33957576751709,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Active"
+    },
+    {
+      "trainNum": "147",
+      "routeName": "Northeast Regional",
+      "lat": 38.50368122690312,
+      "lon": -77.88551584003477,
+      "heading": "W",
+      "velocity": 47.8995971679688,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Culpeper",
+      "status": "Active"
+    },
+    {
+      "trainNum": "158",
+      "routeName": "Northeast Regional",
+      "lat": 39.380714694847484,
+      "lon": -76.35344907093405,
+      "heading": "NE",
+      "velocity": 53.3219375610352,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "159",
+      "routeName": "Northeast Regional",
+      "lat": 39.60997043259472,
+      "lon": -75.92029770393559,
+      "heading": "W",
+      "velocity": 40.7481002807617,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "161",
+      "routeName": "Northeast Regional",
+      "lat": 39.29322077020374,
+      "lon": -76.65335302947024,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-22T19:16:19-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Completed"
+    },
+    {
+      "trainNum": "163",
+      "routeName": "Northeast Regional",
+      "lat": 39.30165125612604,
+      "lon": -76.5664389407933,
+      "heading": "NW",
+      "velocity": 66.3051376342773,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "667",
+      "routeName": "Keystone",
+      "lat": 40.00025218224765,
+      "lon": -76.07705894756853,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-22T19:16:19-04:00",
+      "nextStation": "Lancaster",
+      "status": "Completed"
+    },
+    {
+      "trainNum": "669",
+      "routeName": "Keystone",
+      "lat": 40.04287382467211,
+      "lon": -75.48066899085207,
+      "heading": "W",
+      "velocity": 28.5147151947021,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Paoli",
+      "status": "Active"
+    },
+    {
+      "trainNum": "672",
+      "routeName": "Keystone",
+      "lat": 39.99353834636011,
+      "lon": -75.16463647878015,
+      "heading": "NE",
+      "velocity": 59.1545181274414,
+      "lastUpdate": "2026-08-22T19:17:52-04:00",
+      "nextStation": "Trenton",
+      "status": "Active"
+    },
+    {
+      "trainNum": "674",
+      "routeName": "Keystone",
+      "lat": 40.19549221571501,
+      "lon": -76.73569716757822,
+      "heading": "E",
+      "velocity": 55.9668846130371,
+      "lastUpdate": "2026-08-22T19:15:55-04:00",
+      "nextStation": "Elizabethtown",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2219",
+      "routeName": "Acela",
+      "lat": 39.19312309159123,
+      "lon": -76.69504004834134,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-22T19:16:19-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Completed"
+    },
+    {
+      "trainNum": "2224",
+      "routeName": "Acela",
+      "lat": 39.28076959501623,
+      "lon": -76.67199164553202,
+      "heading": "NE",
+      "velocity": 41.0836410522461,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2265",
+      "routeName": "Acela",
+      "lat": 39.30763270052177,
+      "lon": -76.61487798132141,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-08-22T19:16:19-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Completed"
+    },
+    {
+      "trainNum": "2267",
+      "routeName": "Acela",
+      "lat": 39.43894224972514,
+      "lon": -76.23888605057256,
+      "heading": "S",
+      "velocity": 121.699996948242,
+      "lastUpdate": "2026-08-22T19:18:52-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    }
+  ]
 }
