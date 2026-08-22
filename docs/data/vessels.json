@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-22T15:45:38.187284+00:00",
+  "collected_at": "2026-08-22T15:59:57.499000+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,29 +12,183 @@
       -75.8
     ]
   ],
-  "vessel_count": 2,
+  "vessel_count": 16,
   "vessels": [
     {
-      "mmsi": 368081170,
-      "name": "",
-      "lat": 36.84954833333334,
-      "lon": -76.31498833333333,
-      "speed": 0,
-      "course": 70.2,
-      "heading": 511,
+      "mmsi": 367176210,
+      "name": "GRAM-ME",
+      "lat": 37.18405,
+      "lon": -76.19823166666667,
+      "speed": 7.1,
+      "course": 3.1,
+      "heading": 4,
       "ship_type": null,
-      "timestamp": "2026-08-22T15:45:33.869766+00:00"
+      "timestamp": "2026-08-22T15:59:27.464200+00:00"
     },
     {
-      "mmsi": 367304020,
-      "name": "JACKIE F. MCALLISTER",
-      "lat": 39.20718333333333,
-      "lon": -76.50832999999999,
+      "mmsi": 367795990,
+      "name": "SEA WOLF",
+      "lat": 36.897495000000006,
+      "lon": -76.35010333333334,
       "speed": 0,
-      "course": 80.7,
-      "heading": 129,
+      "course": 232.6,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-22T15:45:34.528811+00:00"
+      "timestamp": "2026-08-22T15:59:28.124630+00:00"
+    },
+    {
+      "mmsi": 215797000,
+      "name": "ATLANTIC STAR",
+      "lat": 39.1965,
+      "lon": -76.49514833333333,
+      "speed": 10.5,
+      "course": 290.7,
+      "heading": 292,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:28.453632+00:00"
+    },
+    {
+      "mmsi": 367763450,
+      "name": "SWEET BABY",
+      "lat": 38.775639999999996,
+      "lon": -76.56351166666667,
+      "speed": 0,
+      "course": 238.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:29.438114+00:00"
+    },
+    {
+      "mmsi": 366999275,
+      "name": "USACE HARRELL",
+      "lat": 36.85737166666667,
+      "lon": -76.30776833333333,
+      "speed": 0,
+      "course": 270.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:32.356352+00:00"
+    },
+    {
+      "mmsi": 538010610,
+      "name": "ATLANTIC SPIRIT II",
+      "lat": 38.917786666666665,
+      "lon": -76.40670333333334,
+      "speed": 0.1,
+      "course": 103.2,
+      "heading": 139,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:34.051169+00:00"
+    },
+    {
+      "mmsi": 339067000,
+      "name": "OCEANUS V",
+      "lat": 36.91952333333334,
+      "lon": -76.18285166666666,
+      "speed": 0,
+      "course": 178.2,
+      "heading": 271,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:36.362938+00:00"
+    },
+    {
+      "mmsi": 367162820,
+      "name": "HARBOR QUEEN",
+      "lat": 38.97669,
+      "lon": -76.48418,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:37.313878+00:00"
+    },
+    {
+      "mmsi": 367866000,
+      "name": "LEROY GRUMMAN",
+      "lat": 36.93407,
+      "lon": -76.33198833333333,
+      "speed": 0,
+      "course": 100.4,
+      "heading": 265,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:39.665304+00:00"
+    },
+    {
+      "mmsi": 367446390,
+      "name": "",
+      "lat": 36.95312833333333,
+      "lon": -76.32798333333334,
+      "speed": 0,
+      "course": 275.1,
+      "heading": 95,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:40.301186+00:00"
+    },
+    {
+      "mmsi": 257758000,
+      "name": "TAMERLANE",
+      "lat": 36.96288666666667,
+      "lon": -76.42864666666667,
+      "speed": 5.8,
+      "course": 316.5,
+      "heading": 315,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:42.484280+00:00"
+    },
+    {
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.96302333333333,
+      "lon": -76.295885,
+      "speed": 0,
+      "course": 248.8,
+      "heading": 221,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:44.933622+00:00"
+    },
+    {
+      "mmsi": 636019819,
+      "name": "FEDERAL OSAKA",
+      "lat": 39.267025,
+      "lon": -76.57234333333334,
+      "speed": 0,
+      "course": 83.7,
+      "heading": 86,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:50.371870+00:00"
+    },
+    {
+      "mmsi": 249602000,
+      "name": "ANAFI I",
+      "lat": 39.22181666666667,
+      "lon": -76.57672666666667,
+      "speed": 0,
+      "course": 261.7,
+      "heading": 276,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:50.965146+00:00"
+    },
+    {
+      "mmsi": 368376830,
+      "name": "ROARING POINT",
+      "lat": 36.84131,
+      "lon": -76.26636166666667,
+      "speed": 0,
+      "course": 18.4,
+      "heading": 165,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:51.389741+00:00"
+    },
+    {
+      "mmsi": 367159120,
+      "name": "ARIES",
+      "lat": 36.83905666666667,
+      "lon": -76.26249,
+      "speed": 4.4,
+      "course": 271.5,
+      "heading": 273,
+      "ship_type": null,
+      "timestamp": "2026-08-22T15:59:55.548456+00:00"
     }
   ]
 }
