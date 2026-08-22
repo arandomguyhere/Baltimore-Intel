@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-22T09:27:38.980225+00:00",
+  "collected_at": "2026-08-22T09:51:34.651495+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -29,7 +29,7 @@
       "title": "Baltimore, MD (USA) Exports, Imports, and Trade Partners - The Observatory of Economic Complexity",
       "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9yNmEya2pVa1NidGY4R3lsa3d5WVFDTFJVckxfcWw2OTVWQ0tVUk1FUExXLXp0LU1CZEtoemlHRGFCeFRrcVByLUw3WnoySjFrLUhpMXpHeENEV0xCcTQ3N1BLX2laZFhwTFlvcTZoaw?oc=5",
       "source": "The Observatory of Economic Complexity",
-      "date": "Tue, 11 Aug 2026 01:40:24 GMT",
+      "date": "Tue, 11 Aug 2026 07:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -82,6 +82,13 @@
       "query": "Baltimore harbor"
     },
     {
+      "title": "Waterfront Wellness combines scenic views with working out - WBAL-TV",
+      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRWNRZ1BZUXFkRGFIRVZQT3lyeldWLVVwXzkweG5ob2lpdVhJdHJ6LWJRd25LOHRJU1RiT2JiTUdldmVMck1uYXZVY05hQnM2T3VmcjVrVWUyaERacUNLbDB1S01BNWROX25YN0lFUHg2WHpKZkpxZXQ0alEtSzRGMGw5QmJJYXBCY1E4?oc=5",
+      "source": "WBAL-TV",
+      "date": "Fri, 21 Aug 2026 21:38:00 GMT",
+      "query": "Baltimore harbor"
+    },
+    {
       "title": "Harbor East security guards push to unionize, say company is fighting back - WMAR 2 News Baltimore",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOMnNyaTRVZVlOckV0c1pZQkZaVnlBbzNjUUpkZ1pyTGtaX0xlellGMWRVMnZtWVN1ajE3SEd4ejE3TW1LRGY2VHlUdlBxeTFzODdtSVZJTDY1YW5GWm1Pa3VzalhyWi1KVzNMQWdoYTJCNlp3S01hUVFIcTB1OXp4UC1xU1ltR1NqNE9BZFI2MndZWldrVWtMWTMtczQzMVNlaWVqZTdOQVFnMXRFYnlSZzEtMzVWeU5rX19ZaGltYWRVak9l?oc=5",
       "source": "WMAR 2 News Baltimore",
@@ -93,13 +100,6 @@
       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPS2xyX3JjUXJ1Ym5XNWlrT0FYVWxEa3pmMjZvQlpUc05XRG5GbHZMU3NoS3hVc2xPdjZpaWNDV2hWNkJRVWlibkJDVkpIMGUzM2FhSXhCZkpVWlBEbUhDYWthaGFhTVEzdjFzWWx5OXV6WjEwSFVwMWluRE9QdDlRNDVuM1BncDJlckdfX0lHanNyMF9WT2RkUVdFWTJxOF9xMk15SG5xNWplQlRsSHItRTB5Z3FpcTNRUzdFTzM5VTJEb3NSa0ZsdmJB?oc=5",
       "source": "CBS News",
       "date": "Fri, 21 Aug 2026 14:39:00 GMT",
-      "query": "Baltimore harbor"
-    },
-    {
-      "title": "Sail 250 Maryland brings $114.5 million to Baltimore - WBAL-TV",
-      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNdmpUZk9XdDEzNEVoSEMzZXcxQ1lCSnpyTk4wUWl5THUtdEZFbjVLRERJRE5OSjBhbjEzalExME52NG5RM2FjSU45ZG9IRURTS1FrcmtJd0xzNGJrZDgwRFItNW01MDRETDM1bHFLbnAxLXdKRWFLZnVobDcyNHNCcjhGQlJ4R2VoQzJN?oc=5",
-      "source": "WBAL-TV",
-      "date": "Wed, 19 Aug 2026 23:06:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Maryland transportation infrastructure",
-      "Baltimore harbor",
       "Port of Baltimore",
-      "Baltimore shipping"
+      "Baltimore shipping",
+      "Maryland transportation infrastructure",
+      "Baltimore harbor"
     ],
     "sources": [
-      "Maryland Matters",
       "WMAR 2 News Baltimore",
-      "The Observatory of Economic Complexity",
-      "FreightWaves",
-      "Maryland Daily Record",
-      "The Baltimore Banner",
-      "CBS News",
       "ABC News - Breaking News, Latest News and Videos",
-      "USNI News",
-      "Greater Greater Washington"
+      "Maryland Daily Record",
+      "Maryland Matters",
+      "WBFF",
+      "WBAL-TV",
+      "Baltimore Fishbowl",
+      "Conduit Street Blog",
+      "WTOP",
+      "Engineering News-Record"
     ]
   }
 }
