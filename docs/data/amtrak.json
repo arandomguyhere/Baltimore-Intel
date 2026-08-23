@@ -1,51 +1,18 @@
 {
-  "collected_at": "2026-08-23T03:55:59.625272+00:00",
+  "collected_at": "2026-08-23T04:35:51.753370+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 1,
   "trains": [
-    {
-      "trainNum": "41",
-      "routeName": "Floridian",
-      "lat": 37.95627589185055,
-      "lon": -77.3841881373442,
-      "heading": "W",
-      "velocity": 66.5042266845703,
-      "lastUpdate": "2026-08-22T23:54:52-04:00",
-      "nextStation": "Richmond Staples Mill Road",
-      "status": "Active"
-    },
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.67190969127517,
-      "lon": -75.74720958021669,
-      "heading": "E",
-      "velocity": 78.2554626464844,
-      "lastUpdate": "2026-08-22T23:50:52-04:00",
-      "nextStation": "Wilmington",
+      "lat": 39.95603986436893,
+      "lon": -75.17988001132595,
+      "heading": "NE",
+      "velocity": 0.155342742800713,
+      "lastUpdate": "2026-08-23T00:30:39-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
-    },
-    {
-      "trainNum": "165",
-      "routeName": "Northeast Regional",
-      "lat": 38.902729192658654,
-      "lon": -77.00445022208899,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-08-22T23:46:09-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "671",
-      "routeName": "Keystone",
-      "lat": 40.215313383510995,
-      "lon": -76.81586687210068,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-08-22T23:46:09-04:00",
-      "nextStation": "Harrisburg",
-      "status": "Completed"
     }
   ]
 }
