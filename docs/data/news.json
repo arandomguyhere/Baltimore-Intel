@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-23T22:30:34.177170+00:00",
+  "collected_at": "2026-08-23T22:57:43.019709+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -40,13 +40,6 @@
       "query": "Port of Baltimore"
     },
     {
-      "title": "Harbor Connector - Baltimore City (.gov)",
-      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BM24xOXJwZUtGc3hxTGs0VnpTbmpKTEFhXzVUdThtMV9xMk52cUt2d0ppcktFRUZZYjFCandaQ193T0Y3dDJOVlRkekFYV2VoWl9GZW5PcGlhREJ4RTBnSUVPYW54dTJseEc2YS1n?oc=5",
-      "source": "Baltimore City (.gov)",
-      "date": "Fri, 21 Aug 2026 07:00:00 GMT",
-      "query": "Baltimore shipping"
-    },
-    {
       "title": "2 foreign companies, supervisor indicted in Baltimore bridge crash as $2.5B settlement reached with state of Maryland - ABC News - Breaking News, Latest News and Videos",
       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPb1U4REd0cjc2ektVTzdzZDE3SjV0NTdUeFhtM0E5aF9pakNwa2N1RkY4d2pWTEhKU2ZmREhicDBtdTdYSEdVZ21hdFQtbDhFTE15TThtMVdBUlAweTVxdnV5RGllVy15QTRyR2ZzaXg2NW00VEpBZkhmdVkwTGNtNmVweDFGMlBVX0U5VHFuSm5mWHVLcWFMb2tMNEJmYm1pMDNtRmNR0gGrAUFVX3lxTE1OUGdnTTk3TmpNQTVHbVpGeHlqS0YyNjI3ci1ScDRCdkNTVFBHTmxCSktNSVhVZDR4V05MVHhlbnQzSkFZQzhkRm9LUFpoSVpfY0JGM0JqSzlyMkdQdlRRSDhldUlsLXhEWk1lMVRkaEtyN0MyZWp1NmFjeUtrZjhqSW5KNDhoN2Vob3liX0Z0SVZCZzVxUTZ5ZGMwa1F0aTg5Y05HMnAyQktDUQ?oc=5",
       "source": "ABC News - Breaking News, Latest News and Videos",
@@ -73,6 +66,20 @@
       "source": "CBS News",
       "date": "Fri, 31 Jul 2026 07:00:00 GMT",
       "query": "Baltimore shipping"
+    },
+    {
+      "title": "MARAD Ship Suffers Fire in Baltimore - USNI News",
+      "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTFBBNl9nT0gxM09ubUJTLW1udU5pVmM0ZVpTNWJDTFZaV3ZaR0NkSXg3X0ZUa3N2MGRkdUN4eFFtQmpETVVBOW80Z0J2c1RubG9NX2tPMVZodVZaMHJ6MF9Gc2dPUk1NUWlzNG5zZ3d3UzA5N2QtUlVBbA?oc=5",
+      "source": "USNI News",
+      "date": "Tue, 14 Jul 2026 07:00:00 GMT",
+      "query": "Baltimore shipping"
+    },
+    {
+      "title": "Harbor Connector - Baltimore City (.gov)",
+      "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1BM24xOXJwZUtGc3hxTGs0VnpTbmpKTEFhXzVUdThtMV9xMk52cUt2d0ppcktFRUZZYjFCandaQ193T0Y3dDJOVlRkekFYV2VoWl9GZW5PcGlhREJ4RTBnSUVPYW54dTJseEc2YS1n?oc=5",
+      "source": "Baltimore City (.gov)",
+      "date": "Fri, 21 Aug 2026 07:00:00 GMT",
+      "query": "Baltimore harbor"
     },
     {
       "title": "Harbor East security guards walk out in 2nd strike this year - Maryland Daily Record",
@@ -136,34 +143,26 @@
       "source": "CBS News",
       "date": "Thu, 30 Apr 2026 07:00:00 GMT",
       "query": "Maryland transportation infrastructure"
-    },
-    {
-      "title": "CSX officially opens $495M Baltimore intermodal rail tunnel project - FreightWaves",
-      "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQ25FWmJ3dmZER25PbDBqUlhxLUFESGo5Yi1SdUQ4dWFJbks4aEFrc1pGTGNNZnBLcE4yM0toOUlQaDUweWE0SXAzM2dYaHF6TmFUeHpENG52LUV6WXJKUEgwQWZRemZOaVNVMVBEeXpVaGJHdTZ2SjM4dWVEOXppWXBSRmY0aDVzZGRibU5CV0I5YVpENU90NXNQdUkzeDhP?oc=5",
-      "source": "FreightWaves",
-      "date": "Tue, 23 Jun 2026 07:00:00 GMT",
-      "query": "Baltimore rail freight"
     }
   ],
   "entities": {
     "topics": [
-      "Baltimore rail freight",
-      "Maryland transportation infrastructure",
       "Port of Baltimore",
-      "Baltimore shipping",
-      "Baltimore harbor"
+      "Maryland transportation infrastructure",
+      "Baltimore harbor",
+      "Baltimore shipping"
     ],
     "sources": [
-      "ABC News - Breaking News, Latest News and Videos",
-      "The Baltimore Banner",
-      "Baltimore Fishbowl",
-      "The Observatory of Economic Complexity",
-      "WTOP",
       "Maryland Daily Record",
-      "Greater Greater Washington",
-      "Salem, MA | Official Website (.gov)",
+      "The Baltimore Banner",
+      "Baltimore City (.gov)",
       "Conduit Street Blog",
-      "Baltimore City (.gov)"
+      "FreightWaves",
+      "USNI News",
+      "CBS News",
+      "WTOP",
+      "WBFF",
+      "ABC News - Breaking News, Latest News and Videos"
     ]
   }
 }
