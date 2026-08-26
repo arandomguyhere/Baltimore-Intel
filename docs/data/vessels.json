@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-26T06:43:38.414725+00:00",
+  "collected_at": "2026-08-26T07:33:21.173336+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,106 +12,150 @@
       -75.8
     ]
   ],
-  "vessel_count": 9,
+  "vessel_count": 13,
   "vessels": [
     {
-      "mmsi": 368386690,
-      "name": "GEORGE JAMES MORAN",
-      "lat": 39.257655,
-      "lon": -76.55591666666666,
+      "mmsi": 366757230,
+      "name": "GARY CHOUEST",
+      "lat": 36.95688,
+      "lon": -76.33055833333333,
       "speed": 0,
-      "course": 25.4,
-      "heading": 175,
+      "course": 348.7,
+      "heading": 99,
       "ship_type": null,
-      "timestamp": "2026-08-26T06:43:10.944548+00:00"
+      "timestamp": "2026-08-26T07:32:52.944071+00:00"
     },
     {
-      "mmsi": 368337530,
-      "name": "EZRA SOL",
-      "lat": 36.83777666666666,
-      "lon": -76.279085,
-      "speed": 0,
-      "course": 305,
-      "heading": 299,
+      "mmsi": 368235760,
+      "name": "JAN MORAN",
+      "lat": 36.917429999999996,
+      "lon": -76.33886000000001,
+      "speed": 2.7,
+      "course": 266.5,
+      "heading": 254,
       "ship_type": null,
-      "timestamp": "2026-08-26T06:43:11.662635+00:00"
+      "timestamp": "2026-08-26T07:32:53.041165+00:00"
     },
     {
-      "mmsi": 367304020,
-      "name": "JACKIE F. MCALLISTER",
-      "lat": 39.269400000000005,
-      "lon": -76.58059833333333,
-      "speed": 0,
-      "course": 269.6,
-      "heading": 207,
-      "ship_type": null,
-      "timestamp": "2026-08-26T06:43:15.129753+00:00"
-    },
-    {
-      "mmsi": 367384520,
-      "name": "ANNE JARRETT",
-      "lat": 36.83674499999999,
-      "lon": -76.27091833333334,
-      "speed": 0,
-      "course": 292.7,
-      "heading": 186,
-      "ship_type": null,
-      "timestamp": "2026-08-26T06:43:18.100772+00:00"
-    },
-    {
-      "mmsi": 538008886,
-      "name": "FURANO GALAXY",
-      "lat": 38.912553333333335,
-      "lon": -76.40736666666666,
-      "speed": 0,
-      "course": 46.9,
-      "heading": 194,
-      "ship_type": null,
-      "timestamp": "2026-08-26T06:43:21.582338+00:00"
-    },
-    {
-      "mmsi": 369494428,
-      "name": "CG49428",
-      "lat": 39.200965,
-      "lon": -76.57466333333333,
+      "mmsi": 367834000,
+      "name": "GARY I GORDON",
+      "lat": 39.269056666666664,
+      "lon": -76.57084499999999,
       "speed": 0,
       "course": 0,
+      "heading": 266,
+      "ship_type": null,
+      "timestamp": "2026-08-26T07:32:55.158467+00:00"
+    },
+    {
+      "mmsi": 368077920,
+      "name": "RANGER",
+      "lat": 38.720865,
+      "lon": -76.46080333333333,
+      "speed": 4.9,
+      "course": 179.6,
+      "heading": 182,
+      "ship_type": null,
+      "timestamp": "2026-08-26T07:32:58.282156+00:00"
+    },
+    {
+      "mmsi": 636019819,
+      "name": "FEDERAL OSAKA",
+      "lat": 39.267023333333334,
+      "lon": -76.57231666666667,
+      "speed": 0,
+      "course": 83.7,
+      "heading": 86,
+      "ship_type": null,
+      "timestamp": "2026-08-26T07:33:07.514599+00:00"
+    },
+    {
+      "mmsi": 367619930,
+      "name": "LADY THAMES",
+      "lat": 39.281481666666664,
+      "lon": -76.59263333333334,
+      "speed": 0,
+      "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-26T06:43:22.906406+00:00"
+      "timestamp": "2026-08-26T07:33:07.581990+00:00"
     },
     {
-      "mmsi": 367596850,
-      "name": "HOS BAYOU",
-      "lat": 36.95154166666667,
-      "lon": -76.34437,
+      "mmsi": 338924264,
+      "name": "OSCAR V. PETERSON",
+      "lat": 36.94818333333333,
+      "lon": -76.32991666666666,
       "speed": 0,
-      "course": 283.7,
-      "heading": 220,
+      "course": 279.6,
+      "heading": 280,
       "ship_type": null,
-      "timestamp": "2026-08-26T06:43:27.441268+00:00"
+      "timestamp": "2026-08-26T07:33:08.628753+00:00"
     },
     {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.26698333333333,
-      "lon": -76.57950666666667,
+      "mmsi": 248633000,
+      "name": "APL ANTWERP",
+      "lat": 36.976353333333336,
+      "lon": -76.12260833333333,
+      "speed": 14.5,
+      "course": 108.1,
+      "heading": 107,
+      "ship_type": null,
+      "timestamp": "2026-08-26T07:33:10.563746+00:00"
+    },
+    {
+      "mmsi": 209470000,
+      "name": "MSC BOSPHORUS",
+      "lat": 36.87415,
+      "lon": -76.34913333333334,
       "speed": 0,
-      "course": 264.2,
-      "heading": 511,
+      "course": 192.5,
+      "heading": 347,
       "ship_type": null,
-      "timestamp": "2026-08-26T06:43:29.597017+00:00"
+      "timestamp": "2026-08-26T07:33:10.839105+00:00"
     },
     {
-      "mmsi": 368006020,
-      "name": "ROSEMARY MCALLISTER",
-      "lat": 36.876355,
-      "lon": -76.33294833333333,
-      "speed": 8.5,
-      "course": 161.4,
-      "heading": 159,
+      "mmsi": 367069420,
+      "name": "S MARTIN THORPE",
+      "lat": 36.838735,
+      "lon": -76.29126666666666,
+      "speed": 0,
+      "course": 120.7,
+      "heading": 144,
       "ship_type": null,
-      "timestamp": "2026-08-26T06:43:33.593997+00:00"
+      "timestamp": "2026-08-26T07:33:12.167317+00:00"
+    },
+    {
+      "mmsi": 352652000,
+      "name": "SANTA SOPHIA",
+      "lat": 38.87667,
+      "lon": -76.42002333333333,
+      "speed": 0,
+      "course": 87.8,
+      "heading": 221,
+      "ship_type": null,
+      "timestamp": "2026-08-26T07:33:13.741248+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.24333,
+      "lon": -76.57114333333334,
+      "speed": 0,
+      "course": 333.3,
+      "heading": 287,
+      "ship_type": null,
+      "timestamp": "2026-08-26T07:33:15.494461+00:00"
+    },
+    {
+      "mmsi": 563066900,
+      "name": "POLAR MEXICO",
+      "lat": 36.932249999999996,
+      "lon": -75.93476666666668,
+      "speed": 9.6,
+      "course": 296.3,
+      "heading": 296,
+      "ship_type": null,
+      "timestamp": "2026-08-26T07:33:16.271920+00:00"
     }
   ]
 }
