@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-26T12:17:21.049020+00:00",
+  "collected_at": "2026-08-26T13:33:16.421207+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,172 +12,150 @@
       -75.8
     ]
   ],
-  "vessel_count": 15,
+  "vessel_count": 13,
   "vessels": [
     {
-      "mmsi": 440255000,
-      "name": "GLOVIS SUN",
-      "lat": 39.24225333333333,
-      "lon": -76.54896000000001,
+      "mmsi": 368376830,
+      "name": "ROARING POINT",
+      "lat": 37.016778333333335,
+      "lon": -76.26521666666666,
+      "speed": 7.1,
+      "course": 34.1,
+      "heading": 35,
+      "ship_type": null,
+      "timestamp": "2026-08-26T13:32:47.738816+00:00"
+    },
+    {
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.983086666666665,
+      "lon": -76.46541833333335,
       "speed": 0,
-      "course": 210.7,
-      "heading": 69,
-      "ship_type": null,
-      "timestamp": "2026-08-26T12:16:53.304179+00:00"
-    },
-    {
-      "mmsi": 367082130,
-      "name": "TIMOTHY MCALLISTER",
-      "lat": 36.930865000000004,
-      "lon": -76.329655,
-      "speed": 0,
-      "course": 7.7,
-      "heading": 79,
-      "ship_type": null,
-      "timestamp": "2026-08-26T12:16:59.160495+00:00"
-    },
-    {
-      "mmsi": 636090863,
-      "name": "JPO PISCES",
-      "lat": 36.87083166666666,
-      "lon": -76.34804166666666,
-      "speed": 0,
-      "course": 223.2,
-      "heading": 347,
-      "ship_type": null,
-      "timestamp": "2026-08-26T12:16:59.595641+00:00"
-    },
-    {
-      "mmsi": 368235760,
-      "name": "JAN MORAN",
-      "lat": 36.80406,
-      "lon": -76.29051666666666,
-      "speed": 0,
-      "course": 190.1,
-      "heading": 106,
-      "ship_type": null,
-      "timestamp": "2026-08-26T12:17:03.092603+00:00"
-    },
-    {
-      "mmsi": 367029690,
-      "name": "IVORY COAST",
-      "lat": 39.26468,
-      "lon": -76.57191333333334,
-      "speed": 0,
-      "course": 16.1,
-      "heading": 87,
-      "ship_type": null,
-      "timestamp": "2026-08-26T12:17:03.952940+00:00"
-    },
-    {
-      "mmsi": 209652000,
-      "name": "MORPHOU",
-      "lat": 37.19542,
-      "lon": -76.12865166666667,
-      "speed": 0.1,
-      "course": 49.5,
-      "heading": 70,
-      "ship_type": null,
-      "timestamp": "2026-08-26T12:17:05.142244+00:00"
-    },
-    {
-      "mmsi": 368015740,
-      "name": "PINNERS POINT",
-      "lat": 36.84956666666667,
-      "lon": -76.31535666666667,
-      "speed": 0,
-      "course": 328.7,
-      "heading": 8,
-      "ship_type": null,
-      "timestamp": "2026-08-26T12:17:07.349015+00:00"
-    },
-    {
-      "mmsi": 373234000,
-      "name": "GLOBAL EXPRESS",
-      "lat": 37.08345666666666,
-      "lon": -76.12053166666666,
-      "speed": 0.1,
-      "course": 189.6,
-      "heading": 109,
-      "ship_type": null,
-      "timestamp": "2026-08-26T12:17:07.910356+00:00"
-    },
-    {
-      "mmsi": 366991412,
-      "name": "USNS APALACHICOLA",
-      "lat": 36.862415000000006,
-      "lon": -76.315715,
-      "speed": 0,
-      "course": 360,
+      "course": 157,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-26T12:17:08.000652+00:00"
+      "timestamp": "2026-08-26T13:32:50.867394+00:00"
     },
     {
-      "mmsi": 368312320,
-      "name": "JANE MCALLISTER",
-      "lat": 36.93078333333334,
-      "lon": -76.33354833333333,
+      "mmsi": 368269610,
+      "name": "HOS ROSEBUD",
+      "lat": 36.91983333333334,
+      "lon": -76.181875,
       "speed": 0,
-      "course": 158,
-      "heading": 172,
+      "course": 282,
+      "heading": 92,
       "ship_type": null,
-      "timestamp": "2026-08-26T12:17:10.941391+00:00"
+      "timestamp": "2026-08-26T13:32:57.191627+00:00"
     },
     {
-      "mmsi": 366231000,
-      "name": "CAPE ARUNDEL",
-      "lat": 36.83465,
-      "lon": -76.29376833333335,
+      "mmsi": 368093970,
+      "name": "MR. PAUL MUTTA",
+      "lat": 36.942260000000005,
+      "lon": -76.341525,
+      "speed": 3.9,
+      "course": 125.4,
+      "heading": 150,
+      "ship_type": null,
+      "timestamp": "2026-08-26T13:32:57.835156+00:00"
+    },
+    {
+      "mmsi": 367159120,
+      "name": "ARIES",
+      "lat": 36.839259999999996,
+      "lon": -76.27898499999999,
+      "speed": 0.1,
+      "course": 155.4,
+      "heading": 171,
+      "ship_type": null,
+      "timestamp": "2026-08-26T13:32:58.130413+00:00"
+    },
+    {
+      "mmsi": 368358680,
+      "name": "ATLAS",
+      "lat": 36.96105166666667,
+      "lon": -76.40836666666668,
       "speed": 0,
-      "course": 0,
-      "heading": 347,
+      "course": 104.8,
+      "heading": 233,
       "ship_type": null,
-      "timestamp": "2026-08-26T12:17:13.024624+00:00"
+      "timestamp": "2026-08-26T13:32:59.033345+00:00"
     },
     {
-      "mmsi": 368006020,
-      "name": "ROSEMARY MCALLISTER",
-      "lat": 36.93080833333333,
-      "lon": -76.33366666666667,
+      "mmsi": 636023849,
+      "name": "HMM AMETHYST",
+      "lat": 36.910405,
+      "lon": -76.327525,
       "speed": 0,
-      "course": 118,
-      "heading": 168,
+      "course": 192.4,
+      "heading": 352,
       "ship_type": null,
-      "timestamp": "2026-08-26T12:17:14.563285+00:00"
+      "timestamp": "2026-08-26T13:33:00.238638+00:00"
     },
     {
-      "mmsi": 368777000,
-      "name": "CG JAMES RANKIN",
-      "lat": 39.21757,
-      "lon": -76.57544666666666,
-      "speed": 6.1,
-      "course": 190.2,
-      "heading": 185,
-      "ship_type": null,
-      "timestamp": "2026-08-26T12:17:17.860650+00:00"
-    },
-    {
-      "mmsi": 367489820,
-      "name": "CAPTAIN MAC",
-      "lat": 38.998405000000005,
-      "lon": -76.39866333333333,
+      "mmsi": 538012184,
+      "name": "ULUSOY-18",
+      "lat": 38.93159333333333,
+      "lon": -76.40895333333333,
       "speed": 0,
-      "course": 360,
+      "course": 152.7,
+      "heading": 14,
+      "ship_type": null,
+      "timestamp": "2026-08-26T13:33:02.401768+00:00"
+    },
+    {
+      "mmsi": 636018304,
+      "name": "SIEM ARISTOTLE",
+      "lat": 39.21177,
+      "lon": -76.48318666666667,
+      "speed": 0,
+      "course": 313.1,
+      "heading": 263,
+      "ship_type": null,
+      "timestamp": "2026-08-26T13:33:03.685813+00:00"
+    },
+    {
+      "mmsi": 366081080,
+      "name": "ZEUS",
+      "lat": 36.9423,
+      "lon": -76.35855666666666,
+      "speed": 0.2,
+      "course": 14.2,
+      "heading": 100,
+      "ship_type": null,
+      "timestamp": "2026-08-26T13:33:05.117568+00:00"
+    },
+    {
+      "mmsi": 367769180,
+      "name": "CLAYTON W MORAN",
+      "lat": 36.84092666666666,
+      "lon": -76.271925,
+      "speed": 0,
+      "course": 230.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-26T12:17:18.713258+00:00"
+      "timestamp": "2026-08-26T13:33:05.117641+00:00"
     },
     {
-      "mmsi": 255917223,
-      "name": "",
-      "lat": 36.92693,
-      "lon": -75.92438,
-      "speed": 9.7,
-      "course": 281.7,
-      "heading": 281,
+      "mmsi": 367763450,
+      "name": "SWEET BABY",
+      "lat": 38.775603333333336,
+      "lon": -76.56353833333333,
+      "speed": 0,
+      "course": 214.3,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-26T12:17:19.721984+00:00"
+      "timestamp": "2026-08-26T13:33:08.477426+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.180798333333335,
+      "lon": -76.52133833333333,
+      "speed": 0.1,
+      "course": 152.1,
+      "heading": 305,
+      "ship_type": null,
+      "timestamp": "2026-08-26T13:33:10.702016+00:00"
     }
   ]
 }
