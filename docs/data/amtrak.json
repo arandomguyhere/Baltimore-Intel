@@ -1,39 +1,17 @@
 {
-  "collected_at": "2026-08-26T03:38:43.064174+00:00",
+  "collected_at": "2026-08-26T04:23:52.440079+00:00",
   "source": "amtraker.com",
-  "total_trains": 5,
+  "total_trains": 2,
   "trains": [
     {
       "trainNum": "66",
       "routeName": "Northeast Regional",
-      "lat": 39.60383639907652,
-      "lon": -75.90104110649963,
-      "heading": "E",
-      "velocity": 77.4849624633789,
-      "lastUpdate": "2026-08-25T23:35:40-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "175",
-      "routeName": "Northeast Regional",
-      "lat": 38.91144577762951,
-      "lon": -76.99872817483904,
-      "heading": "N",
-      "velocity": 0,
-      "lastUpdate": "2026-08-25T23:34:17-04:00",
-      "nextStation": "Washington Union",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 40.144237938737184,
-      "lon": -76.60331186857678,
-      "heading": "W",
-      "velocity": 63.5289688110352,
-      "lastUpdate": "2026-08-25T23:36:39-04:00",
-      "nextStation": "Elizabethtown",
+      "lat": 39.928814363320356,
+      "lon": -75.22545039709685,
+      "heading": "NE",
+      "velocity": 33.504322052002,
+      "lastUpdate": "2026-08-26T00:20:38-04:00",
+      "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
@@ -46,17 +24,6 @@
       "lastUpdate": "2026-08-25T23:30:00-04:00",
       "nextStation": "Baltimore Penn",
       "status": "Predeparture"
-    },
-    {
-      "trainNum": "2131",
-      "routeName": "Acela",
-      "lat": 39.15925238770616,
-      "lon": -76.69738227099413,
-      "heading": "S",
-      "velocity": 111.808975219727,
-      "lastUpdate": "2026-08-25T23:36:39-04:00",
-      "nextStation": "Washington Union",
-      "status": "Active"
     }
   ]
 }
