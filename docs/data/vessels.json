@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-08-27T22:48:24.093850+00:00",
+  "collected_at": "2026-08-28T06:45:50.422985+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,106 +12,150 @@
       -75.8
     ]
   ],
-  "vessel_count": 9,
+  "vessel_count": 13,
   "vessels": [
     {
-      "mmsi": 367769180,
-      "name": "CLAYTON W MORAN",
-      "lat": 36.858063333333334,
-      "lon": -76.320715,
+      "mmsi": 367309860,
+      "name": "ALICIA F. MCALLISTER",
+      "lat": 36.94525,
+      "lon": -76.335095,
+      "speed": 0.8,
+      "course": 27.6,
+      "heading": 346,
+      "ship_type": null,
+      "timestamp": "2026-08-28T06:45:20.649920+00:00"
+    },
+    {
+      "mmsi": 368312320,
+      "name": "JANE MCALLISTER",
+      "lat": 36.877584999999996,
+      "lon": -76.35009666666666,
       "speed": 0.1,
-      "course": 7.9,
+      "course": 108,
+      "heading": 244,
+      "ship_type": null,
+      "timestamp": "2026-08-28T06:45:20.701517+00:00"
+    },
+    {
+      "mmsi": 368386690,
+      "name": "GEORGE JAMES MORAN",
+      "lat": 39.23623333333333,
+      "lon": -76.54799333333334,
+      "speed": 7.8,
+      "course": 140.6,
+      "heading": 139,
+      "ship_type": null,
+      "timestamp": "2026-08-28T06:45:21.256423+00:00"
+    },
+    {
+      "mmsi": 369494428,
+      "name": "CG49428",
+      "lat": 39.20097833333333,
+      "lon": -76.57466166666667,
+      "speed": 0,
+      "course": 0,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-27T22:47:54.470540+00:00"
+      "timestamp": "2026-08-28T06:45:23.159678+00:00"
     },
     {
-      "mmsi": 367367390,
-      "name": "DIAMOND COAST",
-      "lat": 39.243138333333334,
-      "lon": -76.57118,
+      "mmsi": 368324270,
+      "name": "GRAPE APE",
+      "lat": 38.80842666666667,
+      "lon": -76.44279333333334,
+      "speed": 5.9,
+      "course": 188.5,
+      "heading": 187,
+      "ship_type": null,
+      "timestamp": "2026-08-28T06:45:23.338441+00:00"
+    },
+    {
+      "mmsi": 245691000,
+      "name": "ROTRA HORIZON",
+      "lat": 36.95174166666666,
+      "lon": -76.35041833333334,
       "speed": 0,
-      "course": 282.6,
-      "heading": 341,
+      "course": 292.5,
+      "heading": 239,
       "ship_type": null,
-      "timestamp": "2026-08-27T22:47:55.517631+00:00"
+      "timestamp": "2026-08-28T06:45:23.357470+00:00"
     },
     {
-      "mmsi": 368457210,
-      "name": "LARRY GRAVELY",
-      "lat": 36.840165,
-      "lon": -76.26711,
-      "speed": 7.2,
-      "course": 264.8,
-      "heading": 261,
-      "ship_type": null,
-      "timestamp": "2026-08-27T22:48:00.597808+00:00"
-    },
-    {
-      "mmsi": 368441690,
-      "name": "FEDERAL HILL",
-      "lat": 39.25589333333333,
-      "lon": -76.53488,
+      "mmsi": 367091050,
+      "name": "MCALLISTER RESPONDER",
+      "lat": 39.214373333333334,
+      "lon": -76.57336333333333,
       "speed": 0,
-      "course": 68.4,
-      "heading": 296,
-      "ship_type": null,
-      "timestamp": "2026-08-27T22:48:02.955554+00:00"
-    },
-    {
-      "mmsi": 368357570,
-      "name": "PAUL T. MORAN",
-      "lat": 36.858915,
-      "lon": -76.32047833333333,
-      "speed": 8,
-      "course": 330.4,
-      "heading": 331,
-      "ship_type": null,
-      "timestamp": "2026-08-27T22:48:04.887586+00:00"
-    },
-    {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.26074166666667,
-      "lon": -76.55615666666667,
-      "speed": 0,
-      "course": 352.5,
-      "heading": 0,
-      "ship_type": null,
-      "timestamp": "2026-08-27T22:48:05.612390+00:00"
-    },
-    {
-      "mmsi": 352652000,
-      "name": "SANTA SOPHIA",
-      "lat": 38.877766666666666,
-      "lon": -76.42142,
-      "speed": 0,
-      "course": 239.2,
-      "heading": 188,
-      "ship_type": null,
-      "timestamp": "2026-08-27T22:48:14.097915+00:00"
-    },
-    {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.260999999999996,
-      "lon": -76.55616666666667,
-      "speed": 0.1,
-      "course": 346.6,
+      "course": 20.3,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-27T22:48:14.462123+00:00"
+      "timestamp": "2026-08-28T06:45:26.379938+00:00"
     },
     {
-      "mmsi": 366828620,
-      "name": "VICKI M MCALLISTER",
-      "lat": 39.26855166666667,
-      "lon": -76.58104666666667,
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.22590666666667,
+      "lon": -76.58053833333334,
       "speed": 0,
-      "course": 350.7,
+      "course": 279.3,
+      "heading": 128,
+      "ship_type": null,
+      "timestamp": "2026-08-28T06:45:30.188320+00:00"
+    },
+    {
+      "mmsi": 368329530,
+      "name": "MIA",
+      "lat": 36.912461666666665,
+      "lon": -76.17815333333333,
+      "speed": 0,
+      "course": 305.4,
+      "heading": 201,
+      "ship_type": null,
+      "timestamp": "2026-08-28T06:45:31.852988+00:00"
+    },
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.26885,
+      "lon": -76.58091666666665,
+      "speed": 0,
+      "course": 316.6,
+      "heading": 202,
+      "ship_type": null,
+      "timestamp": "2026-08-28T06:45:33.934273+00:00"
+    },
+    {
+      "mmsi": 367097970,
+      "name": "CRYSTAL COAST",
+      "lat": 37.085605,
+      "lon": -76.337245,
+      "speed": 0,
+      "course": 82.7,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-08-27T22:48:18.360738+00:00"
+      "timestamp": "2026-08-28T06:45:36.473985+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413333333333,
+      "lon": -76.46731666666666,
+      "speed": 0,
+      "course": 193.1,
+      "heading": 342,
+      "ship_type": null,
+      "timestamp": "2026-08-28T06:45:39.400872+00:00"
+    },
+    {
+      "mmsi": 369970479,
+      "name": "YP705",
+      "lat": 38.98431666666667,
+      "lon": -76.4671,
+      "speed": 0,
+      "course": 170.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-08-28T06:45:49.197801+00:00"
     }
   ]
 }
