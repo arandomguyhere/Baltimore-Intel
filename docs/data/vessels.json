@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-02T09:04:02.365242+00:00",
+  "collected_at": "2026-09-02T13:39:58.327423+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,95 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 8,
+  "vessel_count": 9,
   "vessels": [
     {
-      "mmsi": 368155390,
-      "name": "INTRA REBEL",
-      "lat": 36.808456666666665,
-      "lon": -76.28570333333333,
-      "speed": 0,
-      "course": 40.3,
-      "heading": 75,
+      "mmsi": 366841550,
+      "name": "SURRIE MORAN",
+      "lat": 36.95949666666667,
+      "lon": -76.33255166666666,
+      "speed": 1.6,
+      "course": 243.4,
+      "heading": 74,
       "ship_type": null,
-      "timestamp": "2026-09-02T09:03:37.176272+00:00"
+      "timestamp": "2026-09-02T13:39:33.982206+00:00"
     },
     {
-      "mmsi": 367554180,
-      "name": "MISS ANNE",
-      "lat": 36.85821833333333,
-      "lon": -76.35129833333333,
+      "mmsi": 477681700,
+      "name": "NORTH ISLAND",
+      "lat": 39.27126166666667,
+      "lon": -76.58207,
       "speed": 0,
-      "course": 309.8,
-      "heading": 355,
+      "course": 306.7,
+      "heading": 205,
       "ship_type": null,
-      "timestamp": "2026-09-02T09:03:37.773524+00:00"
+      "timestamp": "2026-09-02T13:39:36.005027+00:00"
     },
     {
-      "mmsi": 367462360,
-      "name": "CINDY R",
-      "lat": 36.85885666666666,
-      "lon": -76.34700666666666,
+      "mmsi": 368219010,
+      "name": "VENGEANCE",
+      "lat": 36.85856166666667,
+      "lon": -76.34657,
       "speed": 0,
-      "course": 360,
+      "course": 322.4,
+      "heading": 66,
+      "ship_type": null,
+      "timestamp": "2026-09-02T13:39:41.622732+00:00"
+    },
+    {
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.260999999999996,
+      "lon": -76.55616666666667,
+      "speed": 0,
+      "course": 127.7,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-09-02T09:03:37.773586+00:00"
+      "timestamp": "2026-09-02T13:39:44.133268+00:00"
+    },
+    {
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.266965,
+      "lon": -76.57948166666667,
+      "speed": 0,
+      "course": 296.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-09-02T13:39:45.796599+00:00"
+    },
+    {
+      "mmsi": 366828620,
+      "name": "VICKI M MCALLISTER",
+      "lat": 39.26855833333333,
+      "lon": -76.581035,
+      "speed": 0,
+      "course": 199.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-09-02T13:39:47.755216+00:00"
+    },
+    {
+      "mmsi": 368130840,
+      "name": "LITTLE RIVER",
+      "lat": 37.225498333333334,
+      "lon": -76.29746833333334,
+      "speed": 1.3,
+      "course": 49.3,
+      "heading": 55,
+      "ship_type": null,
+      "timestamp": "2026-09-02T13:39:49.205563+00:00"
     },
     {
       "mmsi": 368006020,
       "name": "ROSEMARY MCALLISTER",
-      "lat": 36.837223333333334,
-      "lon": -76.27803166666666,
+      "lat": 36.83719,
+      "lon": -76.27802,
       "speed": 0,
-      "course": 64.7,
+      "course": 328.4,
       "heading": 80,
       "ship_type": null,
-      "timestamp": "2026-09-02T09:03:45.043004+00:00"
+      "timestamp": "2026-09-02T13:39:54.806981+00:00"
     },
     {
-      "mmsi": 368058330,
-      "name": "ADDISON ELISE",
-      "lat": 36.82100666666667,
-      "lon": -76.28969666666667,
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.26909333333333,
+      "lon": -76.58077,
       "speed": 0,
-      "course": 222.4,
-      "heading": 511,
+      "course": 232.1,
+      "heading": 207,
       "ship_type": null,
-      "timestamp": "2026-09-02T09:03:50.062067+00:00"
-    },
-    {
-      "mmsi": 319235600,
-      "name": "MY IZUMI",
-      "lat": 38.97387333333334,
-      "lon": -76.48431333333333,
-      "speed": 0,
-      "course": 328.3,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-09-02T09:03:50.403231+00:00"
-    },
-    {
-      "mmsi": 636017036,
-      "name": "LAOURA",
-      "lat": 39.267135,
-      "lon": -76.57239333333334,
-      "speed": 0.1,
-      "course": 195.3,
-      "heading": 84,
-      "ship_type": null,
-      "timestamp": "2026-09-02T09:03:53.947398+00:00"
-    },
-    {
-      "mmsi": 338902000,
-      "name": "CORNELIUS H CHARLTON",
-      "lat": 39.27234333333333,
-      "lon": -76.58700833333334,
-      "speed": 0,
-      "course": 338.1,
-      "heading": 24,
-      "ship_type": null,
-      "timestamp": "2026-09-02T09:03:54.897189+00:00"
+      "timestamp": "2026-09-02T13:39:56.389188+00:00"
     }
   ]
 }
