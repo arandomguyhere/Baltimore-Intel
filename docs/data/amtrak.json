@@ -1,72 +1,28 @@
 {
-  "collected_at": "2026-09-05T04:27:07.294488+00:00",
+  "collected_at": "2026-09-05T08:29:56.889659+00:00",
   "source": "amtraker.com",
-  "total_trains": 6,
+  "total_trains": 2,
   "trains": [
     {
-      "trainNum": "40",
-      "routeName": "Floridian",
-      "lat": 39.11465092143262,
-      "lon": -77.16011282063204,
-      "heading": "NW",
-      "velocity": 42.3564605712891,
-      "lastUpdate": "2026-09-05T00:23:09-04:00",
-      "nextStation": "Harpers Ferry",
-      "status": "Active"
-    },
-    {
-      "trainNum": "66",
+      "trainNum": "65",
       "routeName": "Northeast Regional",
-      "lat": 39.39419202396369,
-      "lon": -76.34209652920208,
-      "heading": "NE",
-      "velocity": 99.4342193603516,
-      "lastUpdate": "2026-09-05T00:23:10-04:00",
+      "lat": 39.925816010564674,
+      "lon": -75.22989070631986,
+      "heading": "SW",
+      "velocity": 107.994277954102,
+      "lastUpdate": "2026-09-05T04:25:09-04:00",
       "nextStation": "Wilmington",
       "status": "Active"
     },
     {
-      "trainNum": "90",
-      "routeName": "Palmetto",
-      "lat": 39.95308728869616,
-      "lon": -75.18228327090732,
-      "heading": "N",
-      "velocity": 2.4897141456604,
-      "lastUpdate": "2026-09-05T00:23:09-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "198",
-      "routeName": "Northeast Regional",
-      "lat": 39.95311780570109,
-      "lon": -75.18231378891886,
-      "heading": "N",
-      "velocity": 3.24132609367371,
-      "lastUpdate": "2026-09-05T00:23:09-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "624",
-      "routeName": "Keystone",
-      "lat": 39.95586820325762,
-      "lon": -75.18202387199432,
-      "heading": "S",
-      "velocity": 0,
-      "lastUpdate": "2026-09-05T00:20:40-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "844",
-      "routeName": "Northest Regional",
-      "lat": 39.7368080083375,
-      "lon": -75.55130188039584,
+      "trainNum": "2250",
+      "routeName": "Acela",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-09-03T23:30:00-04:00",
-      "nextStation": "Wilmington",
+      "lastUpdate": "2026-09-05T04:33:00-04:00",
+      "nextStation": "Washington Union",
       "status": "Predeparture"
     }
   ]
