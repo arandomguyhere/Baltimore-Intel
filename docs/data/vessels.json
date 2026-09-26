@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-09-26T06:37:22.086819+00:00",
+  "collected_at": "2026-09-26T11:48:22.193844+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,249 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 22,
+  "vessel_count": 12,
   "vessels": [
-    {
-      "mmsi": 338385667,
-      "name": "SWELL",
-      "lat": 37.056484999999995,
-      "lon": -76.28673666666667,
-      "speed": 0,
-      "course": 212,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:36:52.986368+00:00"
-    },
-    {
-      "mmsi": 368219430,
-      "name": "GENESIS",
-      "lat": 39.280755,
-      "lon": -76.60104666666666,
-      "speed": 0,
-      "course": 318.2,
-      "heading": 354,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:36:55.053139+00:00"
-    },
-    {
-      "mmsi": 760126000,
-      "name": "WARSHIP TACNA",
-      "lat": 36.954674999999995,
-      "lon": -76.32927833333333,
-      "speed": 0,
-      "course": 164.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:36:55.053254+00:00"
-    },
-    {
-      "mmsi": 368169560,
-      "name": "ATLANTIC ENDEAVOR",
-      "lat": 36.92288333333333,
-      "lon": -76.18811666666667,
-      "speed": 0,
-      "course": 106.6,
-      "heading": 106,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:36:56.450876+00:00"
-    },
-    {
-      "mmsi": 367384520,
-      "name": "ANNE JARRETT",
-      "lat": 36.83723,
-      "lon": -76.27093666666666,
-      "speed": 0,
-      "course": 261.2,
-      "heading": 3,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:36:57.162290+00:00"
-    },
-    {
-      "mmsi": 367712350,
-      "name": "UNCLE MIKE",
-      "lat": 36.963,
-      "lon": -76.295895,
-      "speed": 0,
-      "course": 186,
-      "heading": 222,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:36:57.888362+00:00"
-    },
-    {
-      "mmsi": 367308110,
-      "name": "THE HUNTER",
-      "lat": 39.26838166666666,
-      "lon": -76.58116666666666,
-      "speed": 0.1,
-      "course": 259.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:36:59.355755+00:00"
-    },
-    {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.26041333333333,
-      "lon": -76.55615333333334,
-      "speed": 0,
-      "course": 261,
-      "heading": 2,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:36:59.987382+00:00"
-    },
-    {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.225008333333335,
-      "lon": -76.57985333333333,
-      "speed": 0,
-      "course": 296,
-      "heading": 332,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:37:01.848813+00:00"
-    },
-    {
-      "mmsi": 367285000,
-      "name": "CG SENECA",
-      "lat": 36.881811666666664,
-      "lon": -76.35074,
-      "speed": 0,
-      "course": 0,
-      "heading": 268,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:37:11.214944+00:00"
-    },
-    {
-      "mmsi": 366828620,
-      "name": "VICKI M MCALLISTER",
-      "lat": 39.268611666666665,
-      "lon": -76.58106333333333,
-      "speed": 0,
-      "course": 243.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:37:04.730070+00:00"
-    },
-    {
-      "mmsi": 246837000,
-      "name": "REESTBORG",
-      "lat": 38.9446,
-      "lon": -76.41725,
-      "speed": 0.3,
-      "course": 192.9,
-      "heading": 58,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:37:04.730131+00:00"
-    },
-    {
-      "mmsi": 368382440,
-      "name": "PATRICIA B. MORAN",
-      "lat": 36.840875,
-      "lon": -76.27186166666667,
-      "speed": 0,
-      "course": 176.3,
-      "heading": 19,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:37:04.730201+00:00"
-    },
     {
       "mmsi": 367523580,
       "name": "MARK MORAN",
       "lat": 39.260999999999996,
       "lon": -76.55616666666667,
       "speed": 0.1,
-      "course": 154.1,
-      "heading": 352,
+      "course": 356.7,
+      "heading": 350,
       "ship_type": null,
-      "timestamp": "2026-09-26T06:37:05.109563+00:00"
+      "timestamp": "2026-09-26T11:47:56.345176+00:00"
     },
     {
-      "mmsi": 368014340,
-      "name": "LATITUDE 25",
-      "lat": 37.05822,
-      "lon": -76.28506333333333,
+      "mmsi": 367725910,
+      "name": "LORETTE",
+      "lat": 37.005595,
+      "lon": -76.47371166666667,
+      "speed": 6,
+      "course": 123,
+      "heading": 125,
+      "ship_type": null,
+      "timestamp": "2026-09-26T11:47:57.317881+00:00"
+    },
+    {
+      "mmsi": 367466730,
+      "name": "CHALLENGER",
+      "lat": 36.808155000000006,
+      "lon": -76.286805,
       "speed": 0,
-      "course": 338.3,
+      "course": 267,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-09-26T06:37:07.600266+00:00"
+      "timestamp": "2026-09-26T11:47:58.728813+00:00"
     },
     {
-      "mmsi": 367515970,
-      "name": "VIATOR",
-      "lat": 38.968325,
-      "lon": -76.47788999999999,
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.96302166666667,
+      "lon": -76.29591,
       "speed": 0,
-      "course": 6.5,
+      "course": 314,
+      "heading": 222,
+      "ship_type": null,
+      "timestamp": "2026-09-26T11:47:58.728912+00:00"
+    },
+    {
+      "mmsi": 338902000,
+      "name": "CORNELIUS H CHARLTON",
+      "lat": 39.27235666666666,
+      "lon": -76.58703166666666,
+      "speed": 0,
+      "course": 189.5,
+      "heading": 24,
+      "ship_type": null,
+      "timestamp": "2026-09-26T11:48:00.698866+00:00"
+    },
+    {
+      "mmsi": 367029690,
+      "name": "IVORY COAST",
+      "lat": 39.26468,
+      "lon": -76.57191833333333,
+      "speed": 0,
+      "course": 262,
+      "heading": 87,
+      "ship_type": null,
+      "timestamp": "2026-09-26T11:48:01.031223+00:00"
+    },
+    {
+      "mmsi": 368357570,
+      "name": "PAUL T. MORAN",
+      "lat": 36.858216666666664,
+      "lon": -76.31405333333333,
+      "speed": 8,
+      "course": 132.2,
+      "heading": 130,
+      "ship_type": null,
+      "timestamp": "2026-09-26T11:48:03.595568+00:00"
+    },
+    {
+      "mmsi": 367308110,
+      "name": "THE HUNTER",
+      "lat": 39.268325,
+      "lon": -76.58114166666665,
+      "speed": 0,
+      "course": 255.6,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-09-26T06:37:07.930796+00:00"
+      "timestamp": "2026-09-26T11:48:08.859642+00:00"
     },
     {
-      "mmsi": 367120550,
-      "name": "HIGH ROLLER",
-      "lat": 39.209543333333336,
-      "lon": -76.58236666666667,
+      "mmsi": 368817000,
+      "name": "USNS COMFORT",
+      "lat": 36.933636666666665,
+      "lon": -76.33031,
       "speed": 0,
-      "course": 251.7,
+      "course": 0,
+      "heading": 86,
+      "ship_type": null,
+      "timestamp": "2026-09-26T11:48:08.859694+00:00"
+    },
+    {
+      "mmsi": 367097970,
+      "name": "CRYSTAL COAST",
+      "lat": 37.08557666666666,
+      "lon": -76.33735333333334,
+      "speed": 0,
+      "course": 324.7,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-09-26T06:37:11.693874+00:00"
+      "timestamp": "2026-09-26T11:48:13.140521+00:00"
     },
     {
-      "mmsi": 338466925,
-      "name": "GENEVIEVE",
-      "lat": 38.96648833333334,
-      "lon": -76.48018166666667,
+      "mmsi": 339067000,
+      "name": "OCEANUS V",
+      "lat": 36.91952166666667,
+      "lon": -76.18283333333333,
       "speed": 0,
-      "course": 319,
-      "heading": 53,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:37:12.179655+00:00"
-    },
-    {
-      "mmsi": 368268250,
-      "name": "SOLITUDE",
-      "lat": 38.973335,
-      "lon": -76.24269833333332,
-      "speed": 0,
-      "course": 253.7,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:37:12.465614+00:00"
-    },
-    {
-      "mmsi": 368226910,
-      "name": "DELTA",
-      "lat": 36.837329999999994,
-      "lon": -76.29110833333334,
-      "speed": 0,
-      "course": 27.6,
-      "heading": 199,
-      "ship_type": null,
-      "timestamp": "2026-09-26T06:37:15.074008+00:00"
-    },
-    {
-      "mmsi": 366757230,
-      "name": "GARY CHOUEST",
-      "lat": 36.92014166666667,
-      "lon": -76.18257833333334,
-      "speed": 0,
-      "course": 223.9,
+      "course": 183.4,
       "heading": 272,
       "ship_type": null,
-      "timestamp": "2026-09-26T06:37:16.293410+00:00"
+      "timestamp": "2026-09-26T11:48:15.413826+00:00"
     },
     {
-      "mmsi": 368386690,
-      "name": "GEORGE JAMES MORAN",
-      "lat": 39.26015833333334,
-      "lon": -76.55303333333333,
+      "mmsi": 368235760,
+      "name": "JAN MORAN",
+      "lat": 36.87940833333334,
+      "lon": -76.35058333333333,
       "speed": 0,
-      "course": 177,
-      "heading": 260,
+      "course": 207.1,
+      "heading": 333,
       "ship_type": null,
-      "timestamp": "2026-09-26T06:37:20.593485+00:00"
+      "timestamp": "2026-09-26T11:48:18.281617+00:00"
     }
   ]
 }
