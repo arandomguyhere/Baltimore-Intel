@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-12T17:43:42.234479+00:00",
+  "collected_at": "2026-10-12T23:46:59.469990+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,205 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 22,
+  "vessel_count": 16,
   "vessels": [
     {
-      "mmsi": 368359940,
-      "name": "VIEWFINDER",
-      "lat": 39.1149,
-      "lon": -76.33065333333334,
-      "speed": 10.8,
-      "course": 194.7,
-      "heading": 191,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:14.725315+00:00"
-    },
-    {
-      "mmsi": 338533000,
-      "name": "SHANNON DANN",
-      "lat": 36.92574666666667,
-      "lon": -76.33149666666667,
-      "speed": 0.3,
-      "course": 164.6,
-      "heading": 149,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:15.295618+00:00"
-    },
-    {
-      "mmsi": 338520073,
-      "name": "ANANDA",
-      "lat": 38.90273666666667,
-      "lon": -76.50895333333332,
+      "mmsi": 311057100,
+      "name": "CSL TACOMA",
+      "lat": 39.260306666666665,
+      "lon": -76.55428333333333,
       "speed": 0,
-      "course": 158.1,
-      "heading": 511,
+      "course": 273.9,
+      "heading": 178,
       "ship_type": null,
-      "timestamp": "2026-10-12T17:43:16.335598+00:00"
+      "timestamp": "2026-10-12T23:46:30.759170+00:00"
     },
     {
-      "mmsi": 338490724,
-      "name": "NEVERLAND",
-      "lat": 39.276356666666665,
-      "lon": -76.58080666666666,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:18.482330+00:00"
-    },
-    {
-      "mmsi": 368081170,
-      "name": "HUNTSMAN",
-      "lat": 36.84954833333334,
-      "lon": -76.31503,
+      "mmsi": 338164623,
+      "name": "ALMOST HEAVEN",
+      "lat": 39.274315,
+      "lon": -76.578715,
       "speed": 0.1,
-      "course": 252.3,
+      "course": 77,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-12T17:43:18.835357+00:00"
+      "timestamp": "2026-10-12T23:46:30.923462+00:00"
     },
     {
-      "mmsi": 367176210,
-      "name": "GRAM-ME",
-      "lat": 37.65918166666667,
-      "lon": -76.44120666666666,
-      "speed": 0.1,
-      "course": 174.8,
-      "heading": 10,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:20.618818+00:00"
-    },
-    {
-      "mmsi": 367029690,
-      "name": "IVORY COAST",
-      "lat": 39.26466333333334,
-      "lon": -76.57190833333334,
-      "speed": 0,
-      "course": 155,
-      "heading": 86,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:20.993909+00:00"
-    },
-    {
-      "mmsi": 368388560,
-      "name": "GYPSY SOUL",
-      "lat": 38.95178166666667,
-      "lon": -76.55130666666668,
-      "speed": 0,
-      "course": 14.1,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:22.444398+00:00"
-    },
-    {
-      "mmsi": 636021278,
-      "name": "SINTRA",
-      "lat": 39.271179999999994,
-      "lon": -76.58216666666667,
-      "speed": 0,
-      "course": 126.9,
-      "heading": 208,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:23.735765+00:00"
-    },
-    {
-      "mmsi": 338316851,
-      "name": "PRIME MERIDIAN",
-      "lat": 39.27936833333333,
-      "lon": -76.582645,
+      "mmsi": 232069078,
+      "name": "AURORA",
+      "lat": 39.278868333333335,
+      "lon": -76.58147833333334,
       "speed": 0,
       "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-12T17:43:24.205693+00:00"
+      "timestamp": "2026-10-12T23:46:30.923528+00:00"
     },
     {
-      "mmsi": 367876000,
-      "name": "CG THETIS",
-      "lat": 36.83667166666667,
-      "lon": -76.27713666666666,
+      "mmsi": 248912000,
+      "name": "TOSCANA",
+      "lat": 39.24388333333333,
+      "lon": -76.5377,
       "speed": 0,
-      "course": 360,
-      "heading": 511,
+      "course": 228,
+      "heading": 324,
       "ship_type": null,
-      "timestamp": "2026-10-12T17:43:25.345177+00:00"
-    },
-    {
-      "mmsi": 367489820,
-      "name": "CAPTAIN MAC",
-      "lat": 38.998979999999996,
-      "lon": -76.39924333333333,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:26.356127+00:00"
-    },
-    {
-      "mmsi": 368058330,
-      "name": "ADDISON ELISE",
-      "lat": 36.821886666666664,
-      "lon": -76.28956,
-      "speed": 0,
-      "course": 202.2,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:26.908768+00:00"
-    },
-    {
-      "mmsi": 366837130,
-      "name": "SUSAN MORAN",
-      "lat": 36.95324,
-      "lon": -76.327935,
-      "speed": 0,
-      "course": 260.1,
-      "heading": 112,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:27.961406+00:00"
-    },
-    {
-      "mmsi": 367304020,
-      "name": "JACKIE F. MCALLISTER",
-      "lat": 39.212305,
-      "lon": -76.49755666666667,
-      "speed": 0,
-      "course": 296,
-      "heading": 237,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:29.138759+00:00"
-    },
-    {
-      "mmsi": 316059486,
-      "name": "QUINTESSENCE",
-      "lat": 38.90213833333333,
-      "lon": -76.50663333333334,
-      "speed": 0,
-      "course": 352.9,
-      "heading": 352,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:29.138843+00:00"
-    },
-    {
-      "mmsi": 338131263,
-      "name": "COASTAL QUEEN",
-      "lat": 39.36640333333333,
-      "lon": -75.87993666666667,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:29.283530+00:00"
-    },
-    {
-      "mmsi": 368312320,
-      "name": "JANE MCALLISTER",
-      "lat": 36.954436666666666,
-      "lon": -76.40842333333333,
-      "speed": 0.4,
-      "course": 162,
-      "heading": 91,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:33.731856+00:00"
+      "timestamp": "2026-10-12T23:46:38.092477+00:00"
     },
     {
       "mmsi": 538004413,
@@ -218,43 +64,131 @@
       "lat": 39.25716666666666,
       "lon": -76.56516666666667,
       "speed": 0,
-      "course": 152,
+      "course": 11,
       "heading": 357,
       "ship_type": null,
-      "timestamp": "2026-10-12T17:43:38.160957+00:00"
-    },
-    {
-      "mmsi": 368226870,
-      "name": "SEAWARD  21",
-      "lat": 36.962896666666666,
-      "lon": -76.29564166666667,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:39.398494+00:00"
-    },
-    {
-      "mmsi": 367165130,
-      "name": "NORTHSTAR INTEGRITY",
-      "lat": 38.54216833333333,
-      "lon": -76.320995,
-      "speed": 0,
-      "course": 283.3,
-      "heading": 315,
-      "ship_type": null,
-      "timestamp": "2026-10-12T17:43:39.398559+00:00"
+      "timestamp": "2026-10-12T23:46:38.288832+00:00"
     },
     {
       "mmsi": 367834000,
       "name": "GARY I GORDON",
-      "lat": 39.269025000000006,
-      "lon": -76.57088333333333,
+      "lat": 39.269065,
+      "lon": -76.57088166666668,
       "speed": 0,
       "course": 169.3,
       "heading": 266,
       "ship_type": null,
-      "timestamp": "2026-10-12T17:43:41.256825+00:00"
+      "timestamp": "2026-10-12T23:46:40.818486+00:00"
+    },
+    {
+      "mmsi": 636024216,
+      "name": "GLOVIS SUNSHINE",
+      "lat": 39.21164833333333,
+      "lon": -76.48294,
+      "speed": 0,
+      "course": 187.9,
+      "heading": 263,
+      "ship_type": null,
+      "timestamp": "2026-10-12T23:46:42.572460+00:00"
+    },
+    {
+      "mmsi": 367376440,
+      "name": "LONG ISLAND",
+      "lat": 39.243318333333335,
+      "lon": -76.571085,
+      "speed": 0,
+      "course": 240.9,
+      "heading": 268,
+      "ship_type": null,
+      "timestamp": "2026-10-12T23:46:42.572499+00:00"
+    },
+    {
+      "mmsi": 367371810,
+      "name": "MAGOTHY",
+      "lat": 39.34388666666667,
+      "lon": -76.17705666666667,
+      "speed": 7,
+      "course": 228.3,
+      "heading": 229,
+      "ship_type": null,
+      "timestamp": "2026-10-12T23:46:43.694570+00:00"
+    },
+    {
+      "mmsi": 368239110,
+      "name": "SALACIA II",
+      "lat": 36.924481666666665,
+      "lon": -76.19081666666666,
+      "speed": 0,
+      "course": 245.7,
+      "heading": 353,
+      "ship_type": null,
+      "timestamp": "2026-10-12T23:46:45.076120+00:00"
+    },
+    {
+      "mmsi": 368453250,
+      "name": "KISSED SOME FROGS",
+      "lat": 39.27939166666667,
+      "lon": -76.58201666666668,
+      "speed": 0,
+      "course": 32.4,
+      "heading": 122,
+      "ship_type": null,
+      "timestamp": "2026-10-12T23:46:47.078735+00:00"
+    },
+    {
+      "mmsi": 367127830,
+      "name": "NIKI JO C",
+      "lat": 36.85888833333333,
+      "lon": -76.34703833333333,
+      "speed": 0,
+      "course": 281.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-12T23:46:49.418597+00:00"
+    },
+    {
+      "mmsi": 563196800,
+      "name": "",
+      "lat": 37.20444333333333,
+      "lon": -76.13757333333334,
+      "speed": 0,
+      "course": 300.5,
+      "heading": 28,
+      "ship_type": null,
+      "timestamp": "2026-10-12T23:46:49.418647+00:00"
+    },
+    {
+      "mmsi": 367466730,
+      "name": "CHALLENGER",
+      "lat": 36.997445,
+      "lon": -76.21867166666667,
+      "speed": 9.8,
+      "course": 110,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-12T23:46:51.118737+00:00"
+    },
+    {
+      "mmsi": 338445071,
+      "name": "SKY BLUE",
+      "lat": 39.28041666666666,
+      "lon": -76.582645,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-12T23:46:54.526552+00:00"
+    },
+    {
+      "mmsi": 538011304,
+      "name": "MANTA KEREM",
+      "lat": 39.261023333333334,
+      "lon": -76.57154,
+      "speed": 0,
+      "course": 112.7,
+      "heading": 347,
+      "ship_type": null,
+      "timestamp": "2026-10-12T23:46:56.001796+00:00"
     }
   ]
 }
