@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-14T13:05:36.650224+00:00",
+  "collected_at": "2026-10-14T18:00:45.205346+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,62 +12,161 @@
       -75.8
     ]
   ],
-  "vessel_count": 5,
+  "vessel_count": 14,
   "vessels": [
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.21954,
+      "lon": -76.560085,
+      "speed": 0,
+      "course": 222.2,
+      "heading": 258,
+      "ship_type": null,
+      "timestamp": "2026-10-14T18:00:15.984776+00:00"
+    },
+    {
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.24165,
+      "lon": -76.54627166666667,
+      "speed": 0.1,
+      "course": 120.7,
+      "heading": 78,
+      "ship_type": null,
+      "timestamp": "2026-10-14T18:00:19.504228+00:00"
+    },
+    {
+      "mmsi": 636025655,
+      "name": "MSC UGANDA",
+      "lat": 39.25393333333333,
+      "lon": -76.54684999999999,
+      "speed": 0,
+      "course": 85.9,
+      "heading": 307,
+      "ship_type": null,
+      "timestamp": "2026-10-14T18:00:20.217677+00:00"
+    },
+    {
+      "mmsi": 368129160,
+      "name": "MEGALODON",
+      "lat": 38.850410000000004,
+      "lon": -76.53283166666667,
+      "speed": 5.9,
+      "course": 19.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-14T18:00:20.731866+00:00"
+    },
+    {
+      "mmsi": 338327000,
+      "name": "DENIS SULLIVAN",
+      "lat": 39.279176666666665,
+      "lon": -76.58429333333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-14T18:00:22.186883+00:00"
+    },
+    {
+      "mmsi": 367029690,
+      "name": "IVORY COAST",
+      "lat": 39.21254,
+      "lon": -76.52250666666667,
+      "speed": 9.6,
+      "course": 140.8,
+      "heading": 141,
+      "ship_type": null,
+      "timestamp": "2026-10-14T18:00:23.576972+00:00"
+    },
     {
       "mmsi": 367618310,
       "name": "JUSTINE MCALLISTER",
-      "lat": 38.756566666666664,
-      "lon": -76.44901333333334,
-      "speed": 7.1,
-      "course": 184.9,
-      "heading": 182,
+      "lat": 38.159710000000004,
+      "lon": -76.26910500000001,
+      "speed": 7,
+      "course": 165.7,
+      "heading": 164,
       "ship_type": null,
-      "timestamp": "2026-10-14T13:05:12.558234+00:00"
+      "timestamp": "2026-10-14T18:00:28.145597+00:00"
     },
     {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.25116666666667,
-      "lon": -76.565,
-      "speed": 6.8,
-      "course": 147.3,
-      "heading": 144,
+      "mmsi": 369002000,
+      "name": "VIRGINIA",
+      "lat": 39.278365,
+      "lon": -76.58299333333333,
+      "speed": 0.1,
+      "course": 139.5,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-14T13:05:12.884185+00:00"
+      "timestamp": "2026-10-14T18:00:29.400607+00:00"
+    },
+    {
+      "mmsi": 369970518,
+      "name": "TSV 3 HUNTER",
+      "lat": 36.91581833333333,
+      "lon": -76.18207166666666,
+      "speed": 0,
+      "course": 59.2,
+      "heading": 96,
+      "ship_type": null,
+      "timestamp": "2026-10-14T18:00:32.745192+00:00"
     },
     {
       "mmsi": 367766220,
       "name": "DALE PYATT",
-      "lat": 39.198645000000006,
-      "lon": -76.48367333333334,
+      "lat": 39.199065000000004,
+      "lon": -76.48375,
       "speed": 0,
-      "course": 0,
+      "course": 228.9,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-14T13:05:13.862543+00:00"
+      "timestamp": "2026-10-14T18:00:33.977607+00:00"
     },
     {
-      "mmsi": 636023817,
-      "name": "CSPC TAURUS",
-      "lat": 39.259276666666665,
-      "lon": -76.569295,
-      "speed": 0,
-      "course": 77.9,
-      "heading": 307,
+      "mmsi": 440238000,
+      "name": "HL BALIKPAPAN",
+      "lat": 39.210285,
+      "lon": -76.52182333333333,
+      "speed": 7.9,
+      "course": 140.6,
+      "heading": 139,
       "ship_type": null,
-      "timestamp": "2026-10-14T13:05:32.592266+00:00"
+      "timestamp": "2026-10-14T18:00:33.977703+00:00"
     },
     {
-      "mmsi": 368235760,
-      "name": "JAN MORAN",
-      "lat": 36.916003333333336,
-      "lon": -76.32955666666666,
+      "mmsi": 367380790,
+      "name": "RACHEL CARSON",
+      "lat": 38.82455166666667,
+      "lon": -76.39746666666666,
       "speed": 0,
-      "course": 148.3,
-      "heading": 258,
+      "course": 81.9,
+      "heading": 342,
       "ship_type": null,
-      "timestamp": "2026-10-14T13:05:32.636996+00:00"
+      "timestamp": "2026-10-14T18:00:34.687487+00:00"
+    },
+    {
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.982814999999995,
+      "lon": -76.46585666666667,
+      "speed": 0,
+      "course": 299.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-14T18:00:40.231305+00:00"
+    },
+    {
+      "mmsi": 338572468,
+      "name": "SAFE HAVEN",
+      "lat": 37.42668666666667,
+      "lon": -76.19805666666666,
+      "speed": 9.1,
+      "course": 179.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-14T18:00:40.934519+00:00"
     }
   ]
 }
