@@ -1,51 +1,40 @@
 {
-  "collected_at": "2026-10-16T03:08:39.406260+00:00",
+  "collected_at": "2026-10-16T08:09:10.050310+00:00",
   "source": "amtraker.com",
-  "total_trains": 4,
+  "total_trains": 3,
   "trains": [
     {
-      "trainNum": "66",
+      "trainNum": "67",
       "routeName": "Northeast Regional",
-      "lat": 39.29858042471468,
-      "lon": -76.5340292624596,
-      "heading": "E",
-      "velocity": 91.1105651855469,
-      "lastUpdate": "2026-10-15T23:05:41-04:00",
-      "nextStation": "Wilmington",
-      "status": "Active"
-    },
-    {
-      "trainNum": "622",
-      "routeName": "Keystone",
-      "lat": 39.9688267322863,
-      "lon": -75.19711481956121,
-      "heading": "N",
+      "lat": 39.95615049139251,
+      "lon": -75.17983423431814,
+      "heading": "SE",
       "velocity": 0,
-      "lastUpdate": "2026-10-15T22:57:15-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
-    },
-    {
-      "trainNum": "657",
-      "routeName": "Keystone",
-      "lat": 39.95961420999661,
-      "lon": -75.92149554095062,
-      "heading": "W",
-      "velocity": 0,
-      "lastUpdate": "2026-10-15T23:05:41-04:00",
-      "nextStation": "Parkesburg",
-      "status": "Active"
-    },
-    {
-      "trainNum": "1128",
-      "routeName": "Vermonter",
-      "lat": 39.95319409971678,
-      "lon": -75.18229852991865,
-      "heading": "N",
-      "velocity": 24.4900188446045,
-      "lastUpdate": "2026-10-15T23:05:41-04:00",
+      "lastUpdate": "2026-10-16T04:05:39-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
+    },
+    {
+      "trainNum": "640",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-10-16T04:40:00-04:00",
+      "nextStation": "Harrisburg",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "1151",
+      "routeName": "Northeast Regional",
+      "lat": 39.95680206539882,
+      "lon": -75.18325177743992,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-10-16T04:42:00-04:00",
+      "nextStation": "Philadelphia 30th Street",
+      "status": "Predeparture"
     }
   ]
 }
