@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-18T21:53:38.828662+00:00",
+  "collected_at": "2026-10-18T23:55:13.707465+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,106 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 9,
+  "vessel_count": 12,
   "vessels": [
     {
-      "mmsi": 339067000,
-      "name": "OCEANUS V",
-      "lat": 36.919525,
-      "lon": -76.182855,
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.266960000000005,
+      "lon": -76.57950833333332,
       "speed": 0,
-      "course": 0.8,
-      "heading": 273,
-      "ship_type": null,
-      "timestamp": "2026-10-18T21:53:10.619531+00:00"
-    },
-    {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.26885666666667,
-      "lon": -76.580915,
-      "speed": 0,
-      "course": 241.2,
-      "heading": 203,
-      "ship_type": null,
-      "timestamp": "2026-10-18T21:53:13.472283+00:00"
-    },
-    {
-      "mmsi": 352003983,
-      "name": "NEREUS HIGHWAY",
-      "lat": 39.255878333333335,
-      "lon": -76.535595,
-      "speed": 0,
-      "course": 14.2,
-      "heading": 13,
-      "ship_type": null,
-      "timestamp": "2026-10-18T21:53:20.087361+00:00"
-    },
-    {
-      "mmsi": 368425410,
-      "name": "TARA",
-      "lat": 38.965408333333336,
-      "lon": -76.47920666666667,
-      "speed": 0,
-      "course": 133.6,
-      "heading": 146,
-      "ship_type": null,
-      "timestamp": "2026-10-18T21:53:22.003891+00:00"
-    },
-    {
-      "mmsi": 366757230,
-      "name": "GARY CHOUEST",
-      "lat": 36.919265,
-      "lon": -76.18169333333334,
-      "speed": 0,
-      "course": 272.3,
-      "heading": 91,
-      "ship_type": null,
-      "timestamp": "2026-10-18T21:53:27.607768+00:00"
-    },
-    {
-      "mmsi": 215801000,
-      "name": "ATLANTIC SUN",
-      "lat": 38.13199833333333,
-      "lon": -76.225115,
-      "speed": 17.2,
-      "course": 353.9,
-      "heading": 353,
-      "ship_type": null,
-      "timestamp": "2026-10-18T21:53:34.262004+00:00"
-    },
-    {
-      "mmsi": 368485480,
-      "name": "MARY MCALLISTER",
-      "lat": 39.26942666666666,
-      "lon": -76.580535,
-      "speed": 0,
-      "course": 172.6,
-      "heading": 202,
-      "ship_type": null,
-      "timestamp": "2026-10-18T21:53:35.013423+00:00"
-    },
-    {
-      "mmsi": 303829003,
-      "name": "TSV-5 VINDICATOR",
-      "lat": 36.916084999999995,
-      "lon": -76.18210666666667,
-      "speed": 0,
-      "course": 18.9,
-      "heading": 92,
-      "ship_type": null,
-      "timestamp": "2026-10-18T21:53:35.632872+00:00"
-    },
-    {
-      "mmsi": 367184740,
-      "name": "AMERICAN STAR",
-      "lat": 39.283766666666665,
-      "lon": -76.605035,
-      "speed": 0,
-      "course": 24.3,
+      "course": 158.1,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-18T21:53:36.976623+00:00"
+      "timestamp": "2026-10-18T23:54:45.435008+00:00"
+    },
+    {
+      "mmsi": 338533000,
+      "name": "SHANNON DANN",
+      "lat": 36.92633333333333,
+      "lon": -76.33155166666667,
+      "speed": 0,
+      "course": 339.6,
+      "heading": 171,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:54:45.704034+00:00"
+    },
+    {
+      "mmsi": 367161960,
+      "name": "TIMOTHY M",
+      "lat": 39.197,
+      "lon": -76.49418333333332,
+      "speed": 8.2,
+      "course": 92.7,
+      "heading": 84,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:54:46.227169+00:00"
+    },
+    {
+      "mmsi": 760126000,
+      "name": "WARSHIP TACNA",
+      "lat": 36.944118333333336,
+      "lon": -76.32939166666667,
+      "speed": 0.1,
+      "course": 85.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:54:48.527477+00:00"
+    },
+    {
+      "mmsi": 636023058,
+      "name": "MARIA Y",
+      "lat": 38.941203333333334,
+      "lon": -76.40479833333333,
+      "speed": 0,
+      "course": 11.3,
+      "heading": 91,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:54:48.766204+00:00"
+    },
+    {
+      "mmsi": 338186356,
+      "name": "TIL",
+      "lat": 39.07252833333334,
+      "lon": -76.51023166666667,
+      "speed": 0,
+      "course": 234.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:54:55.492480+00:00"
+    },
+    {
+      "mmsi": 367474640,
+      "name": "CAPE ELIZABETH",
+      "lat": 39.20026666666667,
+      "lon": -76.48376833333333,
+      "speed": 2.3,
+      "course": 68.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:54:58.911388+00:00"
+    },
+    {
+      "mmsi": 256524000,
+      "name": "CASTILLO DE MALPICA",
+      "lat": 38.926701666666666,
+      "lon": -76.40877333333333,
+      "speed": 0.1,
+      "course": 80.5,
+      "heading": 116,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:55:01.047372+00:00"
+    },
+    {
+      "mmsi": 368006020,
+      "name": "ROSEMARY MCALLISTER",
+      "lat": 36.83833666666667,
+      "lon": -76.278455,
+      "speed": 0,
+      "course": 301.7,
+      "heading": 174,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:55:05.405036+00:00"
+    },
+    {
+      "mmsi": 367611520,
+      "name": "WASHINGTON",
+      "lat": 36.90453,
+      "lon": -76.3265,
+      "speed": 0,
+      "course": 60.2,
+      "heading": 167,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:55:05.926724+00:00"
+    },
+    {
+      "mmsi": 354215000,
+      "name": "CARNIVAL PRIDE",
+      "lat": 38.99224666666667,
+      "lon": -76.38258,
+      "speed": 13.2,
+      "course": 184.8,
+      "heading": 185,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:55:06.088942+00:00"
+    },
+    {
+      "mmsi": 368258880,
+      "name": "",
+      "lat": 36.92634666666667,
+      "lon": -76.33112,
+      "speed": 0,
+      "course": 172.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-18T23:55:08.688377+00:00"
     }
   ]
 }
