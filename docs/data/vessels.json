@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-20T19:16:05.638174+00:00",
+  "collected_at": "2026-10-20T22:30:15.759281+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,128 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 11,
+  "vessel_count": 12,
   "vessels": [
-    {
-      "mmsi": 367161960,
-      "name": "TIMOTHY M",
-      "lat": 39.20105,
-      "lon": -76.48386666666667,
-      "speed": 0,
-      "course": 341.7,
-      "heading": 342,
-      "ship_type": null,
-      "timestamp": "2026-10-20T19:15:39.080809+00:00"
-    },
-    {
-      "mmsi": 368177450,
-      "name": "RUBY COAST",
-      "lat": 39.257886666666664,
-      "lon": -76.55886833333334,
-      "speed": 0.1,
-      "course": 21.9,
-      "heading": 177,
-      "ship_type": null,
-      "timestamp": "2026-10-20T19:15:44.549034+00:00"
-    },
-    {
-      "mmsi": 367083060,
-      "name": "CABARET2",
-      "lat": 39.005613333333336,
-      "lon": -76.50167666666667,
-      "speed": 5.8,
-      "course": 101.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-20T19:15:44.945413+00:00"
-    },
-    {
-      "mmsi": 538004696,
-      "name": "ARUNA HULYA",
-      "lat": 36.940886666666664,
-      "lon": -75.95866166666666,
-      "speed": 10.7,
-      "course": 295.5,
-      "heading": 301,
-      "ship_type": null,
-      "timestamp": "2026-10-20T19:15:45.914610+00:00"
-    },
-    {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.221505,
-      "lon": -76.55980833333334,
-      "speed": 6.4,
-      "course": 86.3,
-      "heading": 79,
-      "ship_type": null,
-      "timestamp": "2026-10-20T19:15:46.061389+00:00"
-    },
-    {
-      "mmsi": 338329000,
-      "name": "KINGS POINT",
-      "lat": 39.240993333333336,
-      "lon": -76.557345,
-      "speed": 2.2,
-      "course": 125,
-      "heading": 98,
-      "ship_type": null,
-      "timestamp": "2026-10-20T19:15:55.165438+00:00"
-    },
     {
       "mmsi": 367766220,
       "name": "DALE PYATT",
-      "lat": 39.201146666666666,
-      "lon": -76.48406833333334,
+      "lat": 39.19838333333333,
+      "lon": -76.483455,
       "speed": 0,
-      "course": 268.5,
+      "course": 0,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-20T19:15:58.197360+00:00"
+      "timestamp": "2026-10-20T22:29:46.462553+00:00"
     },
     {
-      "mmsi": 366946840,
-      "name": "MEAGHAN MARIE",
-      "lat": 39.254151666666665,
-      "lon": -76.56989666666666,
-      "speed": 2.4,
-      "course": 324.3,
-      "heading": 313,
+      "mmsi": 367841000,
+      "name": "TSV 1 PREVAIL",
+      "lat": 36.915060000000004,
+      "lon": -76.1828,
+      "speed": 0,
+      "course": 268.1,
+      "heading": 272,
       "ship_type": null,
-      "timestamp": "2026-10-20T19:16:02.528237+00:00"
+      "timestamp": "2026-10-20T22:29:47.279183+00:00"
     },
     {
-      "mmsi": 369974000,
+      "mmsi": 257533000,
+      "name": "HOEGH OSAKA",
+      "lat": 38.968923333333336,
+      "lon": -76.39824333333333,
+      "speed": 0.1,
+      "course": 309.3,
+      "heading": 34,
+      "ship_type": null,
+      "timestamp": "2026-10-20T22:29:50.090499+00:00"
+    },
+    {
+      "mmsi": 366913820,
+      "name": "AJ MCALLISTER",
+      "lat": 36.93082666666667,
+      "lon": -76.329615,
+      "speed": 0,
+      "course": 0.4,
+      "heading": 82,
+      "ship_type": null,
+      "timestamp": "2026-10-20T22:29:52.605727+00:00"
+    },
+    {
+      "mmsi": 538072013,
       "name": "",
-      "lat": 36.940285,
-      "lon": -76.33077,
+      "lat": 36.84231,
+      "lon": -76.29888166666666,
+      "speed": 0,
+      "course": 111.6,
+      "heading": 81,
+      "ship_type": null,
+      "timestamp": "2026-10-20T22:29:57.553754+00:00"
+    },
+    {
+      "mmsi": 367161960,
+      "name": "TIMOTHY M",
+      "lat": 39.21453333333333,
+      "lon": -76.52528333333333,
+      "speed": 3.2,
+      "course": 318.9,
+      "heading": 318,
+      "ship_type": null,
+      "timestamp": "2026-10-20T22:29:58.897580+00:00"
+    },
+    {
+      "mmsi": 366757230,
+      "name": "GARY CHOUEST",
+      "lat": 36.919266666666665,
+      "lon": -76.18171666666667,
+      "speed": 0,
+      "course": 272.3,
+      "heading": 91,
+      "ship_type": null,
+      "timestamp": "2026-10-20T22:30:00.774720+00:00"
+    },
+    {
+      "mmsi": 368386690,
+      "name": "GEORGE JAMES MORAN",
+      "lat": 39.25767166666667,
+      "lon": -76.55592666666666,
+      "speed": 0.1,
+      "course": 85.8,
+      "heading": 175,
+      "ship_type": null,
+      "timestamp": "2026-10-20T22:30:03.813961+00:00"
+    },
+    {
+      "mmsi": 367304020,
+      "name": "JACKIE F. MCALLISTER",
+      "lat": 39.26873666666667,
+      "lon": -76.58075000000001,
+      "speed": 2.4,
+      "course": 212.6,
+      "heading": 220,
+      "ship_type": null,
+      "timestamp": "2026-10-20T22:30:04.587155+00:00"
+    },
+    {
+      "mmsi": 367586480,
+      "name": "MANHATTAN ELITE",
+      "lat": 36.86417333333333,
+      "lon": -76.32098833333333,
+      "speed": 7.2,
+      "course": 305.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-20T22:30:08.201080+00:00"
+    },
+    {
+      "mmsi": 311001613,
+      "name": "SAGA FORTUNE",
+      "lat": 39.26077,
+      "lon": -76.57270166666667,
+      "speed": 0.4,
+      "course": 331,
+      "heading": 141,
+      "ship_type": null,
+      "timestamp": "2026-10-20T22:30:09.276813+00:00"
+    },
+    {
+      "mmsi": 338401516,
+      "name": "KALLISTO",
+      "lat": 38.694763333333334,
+      "lon": -76.16786499999999,
       "speed": 0,
       "course": 360,
-      "heading": 511,
+      "heading": 116,
       "ship_type": null,
-      "timestamp": "2026-10-20T19:16:03.771157+00:00"
-    },
-    {
-      "mmsi": 366782000,
-      "name": "CHESAPEAKE COAST",
-      "lat": 39.233084999999996,
-      "lon": -76.54073166666667,
-      "speed": 0.1,
-      "course": 302.6,
-      "heading": 353,
-      "ship_type": null,
-      "timestamp": "2026-10-20T19:16:03.771222+00:00"
-    },
-    {
-      "mmsi": 366939170,
-      "name": "ATLAS",
-      "lat": 39.21091833333333,
-      "lon": -76.48479999999999,
-      "speed": 0.4,
-      "course": 303.7,
-      "heading": 301,
-      "ship_type": null,
-      "timestamp": "2026-10-20T19:16:03.771259+00:00"
+      "timestamp": "2026-10-20T22:30:12.129876+00:00"
     }
   ]
 }
