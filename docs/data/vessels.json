@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-21T15:37:40.149064+00:00",
+  "collected_at": "2026-10-21T19:38:23.028413+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,117 +12,84 @@
       -75.8
     ]
   ],
-  "vessel_count": 10,
+  "vessel_count": 7,
   "vessels": [
     {
-      "mmsi": 366946840,
-      "name": "MEAGHAN MARIE",
-      "lat": 39.22055,
-      "lon": -76.49656333333334,
+      "mmsi": 367083060,
+      "name": "CABARET2",
+      "lat": 38.96662833333333,
+      "lon": -76.47887,
+      "speed": 2.9,
+      "course": 50,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-21T19:37:55.148705+00:00"
+    },
+    {
+      "mmsi": 368414540,
+      "name": "",
+      "lat": 37.02301666666666,
+      "lon": -76.343135,
       "speed": 0,
-      "course": 137.4,
-      "heading": 103,
+      "course": 160.6,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-21T15:37:16.959319+00:00"
+      "timestamp": "2026-10-21T19:37:56.768852+00:00"
     },
     {
-      "mmsi": 367261000,
-      "name": "CG FORWARD",
-      "lat": 36.88177833333334,
-      "lon": -76.35192166666667,
+      "mmsi": 368485480,
+      "name": "MARY MCALLISTER",
+      "lat": 39.269421666666666,
+      "lon": -76.580555,
       "speed": 0,
-      "course": 184.2,
-      "heading": 268,
+      "course": 300.9,
+      "heading": 205,
       "ship_type": null,
-      "timestamp": "2026-10-21T15:37:17.721451+00:00"
+      "timestamp": "2026-10-21T19:38:05.003865+00:00"
     },
     {
-      "mmsi": 367091990,
-      "name": "MERRIMAC",
-      "lat": 36.94652166666666,
-      "lon": -76.33274,
-      "speed": 0.1,
-      "course": 14.6,
-      "heading": 270,
-      "ship_type": null,
-      "timestamp": "2026-10-21T15:37:20.904374+00:00"
-    },
-    {
-      "mmsi": 367178000,
-      "name": "ANTARES",
-      "lat": 38.97403666666666,
-      "lon": -76.48402166666666,
+      "mmsi": 338520073,
+      "name": "ANANDA",
+      "lat": 38.90276666666667,
+      "lon": -76.50895166666666,
       "speed": 0,
-      "course": 277.5,
-      "heading": 329,
+      "course": 338.6,
+      "heading": 29,
       "ship_type": null,
-      "timestamp": "2026-10-21T15:37:21.214450+00:00"
+      "timestamp": "2026-10-21T19:38:05.499153+00:00"
     },
     {
-      "mmsi": 368235760,
-      "name": "JAN MORAN",
-      "lat": 36.88012666666667,
-      "lon": -76.35080833333333,
+      "mmsi": 368185620,
+      "name": "FELLS POINT",
+      "lat": 39.255745000000005,
+      "lon": -76.53493333333333,
       "speed": 0,
-      "course": 269.8,
-      "heading": 181,
+      "course": 166.2,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-21T15:37:24.316278+00:00"
+      "timestamp": "2026-10-21T19:38:05.795524+00:00"
     },
     {
-      "mmsi": 366962220,
-      "name": "BART L.",
-      "lat": 36.840275,
-      "lon": -76.27670833333333,
+      "mmsi": 368223180,
+      "name": "FETCH",
+      "lat": 38.676073333333335,
+      "lon": -76.17416666666666,
       "speed": 0,
-      "course": 119.4,
-      "heading": 93,
+      "course": 288.3,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-21T15:37:24.542394+00:00"
+      "timestamp": "2026-10-21T19:38:18.662972+00:00"
     },
     {
-      "mmsi": 367426260,
-      "name": "ROSS CANDIES",
-      "lat": 36.95357333333333,
-      "lon": -76.36792666666666,
-      "speed": 0,
-      "course": 239.9,
-      "heading": 7,
+      "mmsi": 357211000,
+      "name": "TAI KINGDOM",
+      "lat": 38.93717,
+      "lon": -76.402585,
+      "speed": 3.6,
+      "course": 246,
+      "heading": 249,
       "ship_type": null,
-      "timestamp": "2026-10-21T15:37:27.720476+00:00"
-    },
-    {
-      "mmsi": 366991519,
-      "name": "EMPIRE STATE",
-      "lat": 36.853595000000006,
-      "lon": -76.31145166666667,
-      "speed": 0,
-      "course": 214.1,
-      "heading": 41,
-      "ship_type": null,
-      "timestamp": "2026-10-21T15:37:31.409137+00:00"
-    },
-    {
-      "mmsi": 338192166,
-      "name": "DALL AZZURRO",
-      "lat": 38.90257999999999,
-      "lon": -76.50845333333334,
-      "speed": 0,
-      "course": 195.4,
-      "heading": 33,
-      "ship_type": null,
-      "timestamp": "2026-10-21T15:37:34.334722+00:00"
-    },
-    {
-      "mmsi": 338926141,
-      "name": "CG26141",
-      "lat": 37.899433333333334,
-      "lon": -76.79055166666667,
-      "speed": 26.2,
-      "course": 305,
-      "heading": 304,
-      "ship_type": null,
-      "timestamp": "2026-10-21T15:37:35.708380+00:00"
+      "timestamp": "2026-10-21T19:38:19.200630+00:00"
     }
   ]
 }
