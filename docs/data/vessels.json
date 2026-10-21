@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-21T00:50:01.323470+00:00",
+  "collected_at": "2026-10-21T05:43:17.001975+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,227 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 20,
+  "vessel_count": 11,
   "vessels": [
     {
-      "mmsi": 367457580,
-      "name": "TRACY MORAN",
-      "lat": 36.95316666666667,
-      "lon": -76.328,
+      "mmsi": 368358680,
+      "name": "ATLAS",
+      "lat": 36.82337666666667,
+      "lon": -76.28837666666666,
       "speed": 0,
-      "course": 9.7,
-      "heading": 108,
+      "course": 156.3,
+      "heading": 68,
       "ship_type": null,
-      "timestamp": "2026-10-21T00:49:52.327391+00:00"
+      "timestamp": "2026-10-21T05:42:50.059778+00:00"
     },
     {
-      "mmsi": 369970479,
-      "name": "YP705",
-      "lat": 38.98426666666667,
-      "lon": -76.46711666666667,
+      "mmsi": 368164470,
+      "name": "EASTERN BRANCH",
+      "lat": 36.96282833333333,
+      "lon": -76.40873833333333,
       "speed": 0,
-      "course": 344.6,
-      "heading": 511,
+      "course": 180.5,
+      "heading": 209,
       "ship_type": null,
-      "timestamp": "2026-10-21T00:49:32.407666+00:00"
-    },
-    {
-      "mmsi": 366913820,
-      "name": "AJ MCALLISTER",
-      "lat": 36.92171333333333,
-      "lon": -76.33895333333334,
-      "speed": 12,
-      "course": 189,
-      "heading": 191,
-      "ship_type": null,
-      "timestamp": "2026-10-21T00:49:32.945747+00:00"
-    },
-    {
-      "mmsi": 367472930,
-      "name": "ISLAND LOOKOUT",
-      "lat": 39.204335,
-      "lon": -76.58318833333333,
-      "speed": 0,
-      "course": 305.9,
-      "heading": 170,
-      "ship_type": null,
-      "timestamp": "2026-10-21T00:49:32.945821+00:00"
-    },
-    {
-      "mmsi": 367766220,
-      "name": "DALE PYATT",
-      "lat": 39.200135,
-      "lon": -76.48349833333333,
-      "speed": 0,
-      "course": 0,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-21T00:49:35.950532+00:00"
+      "timestamp": "2026-10-21T05:42:52.986781+00:00"
     },
     {
       "mmsi": 366946840,
       "name": "MEAGHAN MARIE",
-      "lat": 39.25467166666667,
-      "lon": -76.58753833333334,
+      "lat": 39.200799999999994,
+      "lon": -76.48398333333333,
       "speed": 0,
-      "course": 321.3,
-      "heading": 262,
+      "course": 332.7,
+      "heading": 318,
       "ship_type": null,
-      "timestamp": "2026-10-21T00:49:37.095136+00:00"
+      "timestamp": "2026-10-21T05:42:56.459551+00:00"
     },
     {
-      "mmsi": 367161960,
-      "name": "TIMOTHY M",
-      "lat": 39.20048333333333,
-      "lon": -76.48381666666667,
-      "speed": 0,
-      "course": 50.2,
-      "heading": 181,
+      "mmsi": 366782000,
+      "name": "CHESAPEAKE COAST",
+      "lat": 39.23312,
+      "lon": -76.54128666666666,
+      "speed": 0.1,
+      "course": 316.9,
+      "heading": 6,
       "ship_type": null,
-      "timestamp": "2026-10-21T00:49:38.189471+00:00"
+      "timestamp": "2026-10-21T05:42:57.466559+00:00"
     },
     {
-      "mmsi": 367541760,
-      "name": "WINNING DRIVE",
-      "lat": 38.97391833333334,
-      "lon": -76.48411333333334,
+      "mmsi": 338123697,
+      "name": "SOLSTICE",
+      "lat": 38.90245,
+      "lon": -76.50713999999999,
       "speed": 0,
-      "course": 322.7,
-      "heading": 327,
+      "course": 69.1,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-21T00:49:41.225743+00:00"
-    },
-    {
-      "mmsi": 367612350,
-      "name": "HOS BRIARWOOD",
-      "lat": 36.96187666666666,
-      "lon": -76.37297,
-      "speed": 0,
-      "course": 250.4,
-      "heading": 8,
-      "ship_type": null,
-      "timestamp": "2026-10-21T00:49:43.234839+00:00"
-    },
-    {
-      "mmsi": 367314640,
-      "name": "ROWAN M MCALLISTER",
-      "lat": 39.253903333333334,
-      "lon": -76.56872833333334,
-      "speed": 8.2,
-      "course": 300,
-      "heading": 294,
-      "ship_type": null,
-      "timestamp": "2026-10-21T00:49:45.637628+00:00"
+      "timestamp": "2026-10-21T05:43:00.864879+00:00"
     },
     {
       "mmsi": 368926258,
       "name": "CATLETT",
-      "lat": 39.26694333333333,
-      "lon": -76.57952833333334,
+      "lat": 39.266951666666664,
+      "lon": -76.57951,
       "speed": 0,
-      "course": 133.1,
+      "course": 247.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-21T00:49:45.767825+00:00"
-    },
-    {
-      "mmsi": 338803001,
-      "name": "",
-      "lat": 36.95530333333333,
-      "lon": -76.33092,
-      "speed": 0,
-      "course": 61,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-21T00:49:46.058498+00:00"
-    },
-    {
-      "mmsi": 367457590,
-      "name": "WENDY MORAN",
-      "lat": 36.95316666666667,
-      "lon": -76.3285,
-      "speed": 0.1,
-      "course": 180.1,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-21T00:49:46.950597+00:00"
+      "timestamp": "2026-10-21T05:43:04.193679+00:00"
     },
     {
       "mmsi": 215801000,
       "name": "ATLANTIC SUN",
-      "lat": 39.240118333333335,
-      "lon": -76.53009166666668,
-      "speed": 0,
+      "lat": 39.24012666666667,
+      "lon": -76.53009,
+      "speed": 0.1,
       "course": 46.1,
       "heading": 247,
       "ship_type": null,
-      "timestamp": "2026-10-21T00:49:50.506117+00:00"
+      "timestamp": "2026-10-21T05:43:10.497617+00:00"
     },
     {
-      "mmsi": 368086399,
-      "name": "JOY",
-      "lat": 38.752811666666666,
-      "lon": -76.275445,
+      "mmsi": 368159780,
+      "name": "CLAIRE HOLLAND",
+      "lat": 36.90764,
+      "lon": -76.33876166666667,
+      "speed": 8.3,
+      "course": 172.5,
+      "heading": 172,
+      "ship_type": null,
+      "timestamp": "2026-10-21T05:43:11.389334+00:00"
+    },
+    {
+      "mmsi": 367618310,
+      "name": "JUSTINE MCALLISTER",
+      "lat": 39.20122666666667,
+      "lon": -76.48373166666667,
       "speed": 0,
-      "course": 196.8,
-      "heading": 59,
+      "course": 267.5,
+      "heading": 321,
       "ship_type": null,
-      "timestamp": "2026-10-21T00:49:51.031124+00:00"
+      "timestamp": "2026-10-21T05:43:12.373266+00:00"
     },
     {
-      "mmsi": 352006682,
-      "name": "UM EHIME",
-      "lat": 39.22287333333334,
-      "lon": -76.57720666666667,
+      "mmsi": 368491720,
+      "name": "ST.SOMEWHERE",
+      "lat": 38.90215,
+      "lon": -76.50717666666667,
       "speed": 0,
-      "course": 16.1,
-      "heading": 272,
+      "course": 225,
+      "heading": 349,
       "ship_type": null,
-      "timestamp": "2026-10-21T00:49:53.195942+00:00"
+      "timestamp": "2026-10-21T05:43:14.090476+00:00"
     },
     {
-      "mmsi": 367290000,
-      "name": "",
-      "lat": 36.88138166666667,
-      "lon": -76.35082333333334,
+      "mmsi": 367434020,
+      "name": "BJOYCE",
+      "lat": 36.92283833333333,
+      "lon": -76.18880166666666,
       "speed": 0,
-      "course": 315,
-      "heading": 511,
+      "course": 320.6,
+      "heading": 14,
       "ship_type": null,
-      "timestamp": "2026-10-21T00:49:53.196014+00:00"
-    },
-    {
-      "mmsi": 368312320,
-      "name": "",
-      "lat": 36.96893166666667,
-      "lon": -76.428245,
-      "speed": 3.2,
-      "course": 228,
-      "heading": 46,
-      "ship_type": null,
-      "timestamp": "2026-10-21T00:49:54.931544+00:00"
-    },
-    {
-      "mmsi": 368169560,
-      "name": "ATLANTIC ENDEAVOR",
-      "lat": 36.922871666666666,
-      "lon": -76.18810833333333,
-      "speed": 0,
-      "course": 80.4,
-      "heading": 107,
-      "ship_type": null,
-      "timestamp": "2026-10-21T00:49:55.019718+00:00"
-    },
-    {
-      "mmsi": 367376440,
-      "name": "LONG ISLAND",
-      "lat": 39.24330166666667,
-      "lon": -76.57106333333333,
-      "speed": 0,
-      "course": 294.3,
-      "heading": 266,
-      "ship_type": null,
-      "timestamp": "2026-10-21T00:49:59.564430+00:00"
+      "timestamp": "2026-10-21T05:43:16.231632+00:00"
     }
   ]
 }
