@@ -1,40 +1,161 @@
 {
-  "collected_at": "2026-10-22T06:07:34.135388+00:00",
+  "collected_at": "2026-10-22T11:50:34.476499+00:00",
   "source": "amtraker.com",
-  "total_trains": 3,
+  "total_trains": 14,
   "trains": [
     {
-      "trainNum": "66",
-      "routeName": "Northeast Regional",
-      "lat": 39.95318265571231,
-      "lon": -75.18235956493727,
+      "trainNum": "52",
+      "routeName": "Auto Train",
+      "lat": 38.01632305358446,
+      "lon": -77.37352987356414,
+      "heading": "N",
+      "velocity": 69.3272476196289,
+      "lastUpdate": "2026-10-22T07:48:09-04:00",
+      "nextStation": "Lorton",
+      "status": "Active"
+    },
+    {
+      "trainNum": "56",
+      "routeName": "Vermonter",
+      "lat": 38.94766634062016,
+      "lon": -76.87274394579188,
       "heading": "NE",
-      "velocity": 8.77775287628174,
-      "lastUpdate": "2026-10-22T00:32:40-04:00",
+      "velocity": 0.0134216398000717,
+      "lastUpdate": "2026-10-22T07:48:10-04:00",
+      "nextStation": "New Carrollton",
+      "status": "Active"
+    },
+    {
+      "trainNum": "600",
+      "routeName": "Keystone",
+      "lat": 40.01691098504742,
+      "lon": -75.63065530367476,
+      "heading": "E",
+      "velocity": 68.4564437866211,
+      "lastUpdate": "2026-10-22T07:48:09-04:00",
+      "nextStation": "Exton",
+      "status": "Active"
+    },
+    {
+      "trainNum": "605",
+      "routeName": "Keystone",
+      "lat": 40.14714473789195,
+      "lon": -76.61419901819241,
+      "heading": "W",
+      "velocity": 34.0697746276855,
+      "lastUpdate": "2026-10-22T07:47:41-04:00",
+      "nextStation": "Middletown",
+      "status": "Active"
+    },
+    {
+      "trainNum": "607",
+      "routeName": "Keystone",
+      "lat": 40.00920530687701,
+      "lon": -75.29169645597335,
+      "heading": "NW",
+      "velocity": 29.5399780273438,
+      "lastUpdate": "2026-10-22T07:46:10-04:00",
+      "nextStation": "Paoli",
+      "status": "Active"
+    },
+    {
+      "trainNum": "642",
+      "routeName": "Keystone",
+      "lat": 39.96065946419072,
+      "lon": -75.1825274124451,
+      "heading": "SE",
+      "velocity": 21.3689479827881,
+      "lastUpdate": "2026-10-22T07:48:10-04:00",
       "nextStation": "Philadelphia 30th Street",
       "status": "Active"
     },
     {
-      "trainNum": "67",
-      "routeName": "Northeast Regional",
-      "lat": 39.95741315558391,
-      "lon": -75.18148218491673,
-      "heading": "S",
-      "velocity": 0.260975807905197,
-      "lastUpdate": "2026-10-22T02:06:09-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Active"
-    },
-    {
-      "trainNum": "1169",
-      "routeName": "Northeast Regional",
-      "lat": 39.96456189985162,
-      "lon": -75.18568598268273,
+      "trainNum": "644",
+      "routeName": "Keystone",
+      "lat": 40.261108062055214,
+      "lon": -76.8782023317206,
       "heading": "N",
       "velocity": 0,
-      "lastUpdate": "2026-10-22T02:00:26-04:00",
-      "nextStation": "Philadelphia 30th Street",
-      "status": "Completed"
+      "lastUpdate": "2026-10-22T07:35:00-04:00",
+      "nextStation": "Harrisburg",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "1089",
+      "routeName": "Northeast Regional",
+      "lat": 39.9231647949024,
+      "lon": -75.23365199934908,
+      "heading": "SW",
+      "velocity": 16.1037311553955,
+      "lastUpdate": "2026-10-22T07:48:10-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "1098",
+      "routeName": "Northeast Regional",
+      "lat": 39.12586615105843,
+      "lon": -76.69581061345775,
+      "heading": "N",
+      "velocity": 117.441589355469,
+      "lastUpdate": "2026-10-22T07:48:10-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "1109",
+      "routeName": "Northeast Regional",
+      "lat": 39.66670262762461,
+      "lon": -75.76399425318736,
+      "heading": "SW",
+      "velocity": 77.2594299316406,
+      "lastUpdate": "2026-10-22T07:48:10-04:00",
+      "nextStation": "Baltimore Penn",
+      "status": "Active"
+    },
+    {
+      "trainNum": "1152",
+      "routeName": "Northeast Regional",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-10-22T08:07:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
+    },
+    {
+      "trainNum": "1162",
+      "routeName": "Northeast Regional",
+      "lat": 39.68976629496839,
+      "lon": -75.68867684785823,
+      "heading": "E",
+      "velocity": 122.807762145996,
+      "lastUpdate": "2026-10-22T07:45:40-04:00",
+      "nextStation": "Wilmington",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2148",
+      "routeName": "Acela",
+      "lat": 38.91183869175824,
+      "lon": -76.99740065944961,
+      "heading": "NE",
+      "velocity": 43.4682197570801,
+      "lastUpdate": "2026-10-22T07:48:10-04:00",
+      "nextStation": "Baltimore Airport",
+      "status": "Active"
+    },
+    {
+      "trainNum": "2150",
+      "routeName": "Acela",
+      "lat": 38.90137078736586,
+      "lon": -77.00495528516336,
+      "heading": "N",
+      "velocity": 0,
+      "lastUpdate": "2026-10-22T08:30:00-04:00",
+      "nextStation": "Washington Union",
+      "status": "Predeparture"
     }
   ]
 }
