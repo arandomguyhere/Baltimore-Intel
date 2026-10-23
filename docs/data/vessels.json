@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-23T06:57:42.958622+00:00",
+  "collected_at": "2026-10-23T12:29:09.845381+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,161 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 14,
+  "vessel_count": 9,
   "vessels": [
     {
-      "mmsi": 367766220,
-      "name": "DALE PYATT",
-      "lat": 39.20111,
-      "lon": -76.48389999999999,
+      "mmsi": 367180940,
+      "name": "USHER",
+      "lat": 39.002448333333334,
+      "lon": -76.42387000000001,
       "speed": 0,
-      "course": 73.7,
-      "heading": 511,
+      "course": 214,
+      "heading": 81,
       "ship_type": null,
-      "timestamp": "2026-10-23T06:57:16.651374+00:00"
+      "timestamp": "2026-10-23T12:28:43.063292+00:00"
     },
     {
-      "mmsi": 368379170,
-      "name": "WINDSERVE SPARTAN",
-      "lat": 36.858873333333335,
-      "lon": -76.34523666666668,
-      "speed": 0,
-      "course": 177.3,
-      "heading": 337,
+      "mmsi": 367611520,
+      "name": "WASHINGTON",
+      "lat": 36.99917666666667,
+      "lon": -76.19057,
+      "speed": 7.8,
+      "course": 286.7,
+      "heading": 289,
       "ship_type": null,
-      "timestamp": "2026-10-23T06:57:18.427143+00:00"
+      "timestamp": "2026-10-23T12:28:45.721126+00:00"
     },
     {
-      "mmsi": 367308110,
-      "name": "THE HUNTER",
-      "lat": 39.26839833333334,
-      "lon": -76.58115,
-      "speed": 0,
-      "course": 272.7,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-23T06:57:22.725264+00:00"
-    },
-    {
-      "mmsi": 338514578,
-      "name": "KLASY LADY FB19",
-      "lat": 39.01428666666666,
-      "lon": -76.40234333333333,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-23T06:57:23.918350+00:00"
-    },
-    {
-      "mmsi": 369970481,
-      "name": "YP707",
-      "lat": 38.98385,
-      "lon": -76.46765,
-      "speed": 0,
-      "course": 184.3,
-      "heading": 353,
-      "ship_type": null,
-      "timestamp": "2026-10-23T06:57:23.918415+00:00"
-    },
-    {
-      "mmsi": 368441690,
-      "name": "FEDERAL HILL",
-      "lat": 39.25588666666667,
-      "lon": -76.53487666666666,
-      "speed": 0,
-      "course": 223.2,
-      "heading": 293,
-      "ship_type": null,
-      "timestamp": "2026-10-23T06:57:23.918479+00:00"
-    },
-    {
-      "mmsi": 357211000,
-      "name": "TAI KINGDOM",
-      "lat": 38.93092333333333,
-      "lon": -76.41312833333333,
+      "mmsi": 373279000,
+      "name": "BALSA 88",
+      "lat": 39.25776666666666,
+      "lon": -76.55870499999999,
       "speed": 0.1,
-      "course": 349,
-      "heading": 21,
+      "course": 97.7,
+      "heading": 357,
       "ship_type": null,
-      "timestamp": "2026-10-23T06:57:25.050474+00:00"
+      "timestamp": "2026-10-23T12:28:47.829098+00:00"
     },
     {
-      "mmsi": 368324270,
-      "name": "GRAPE APE",
-      "lat": 37.00705333333334,
-      "lon": -76.47940333333332,
-      "speed": 6.1,
-      "course": 285.3,
-      "heading": 296,
+      "mmsi": 366939170,
+      "name": "ATLAS",
+      "lat": 39.25051166666666,
+      "lon": -76.56483,
+      "speed": 8.4,
+      "course": 317.5,
+      "heading": 315,
       "ship_type": null,
-      "timestamp": "2026-10-23T06:57:25.808815+00:00"
+      "timestamp": "2026-10-23T12:28:49.682840+00:00"
     },
     {
-      "mmsi": 368177450,
-      "name": "RUBY COAST",
-      "lat": 39.25022,
-      "lon": -76.55606666666667,
-      "speed": 0.1,
-      "course": 159.9,
-      "heading": 8,
-      "ship_type": null,
-      "timestamp": "2026-10-23T06:57:28.723997+00:00"
-    },
-    {
-      "mmsi": 369970482,
-      "name": "YP708",
-      "lat": 38.98278166666667,
-      "lon": -76.46578666666666,
+      "mmsi": 563196800,
+      "name": "NICOLAUS SCHULTE",
+      "lat": 37.20399166666667,
+      "lon": -76.13796833333335,
       "speed": 0,
-      "course": 319,
-      "heading": 511,
+      "course": 267.8,
+      "heading": 34,
       "ship_type": null,
-      "timestamp": "2026-10-23T06:57:30.750025+00:00"
-    },
-    {
-      "mmsi": 368485480,
-      "name": "MARY MCALLISTER",
-      "lat": 39.245021666666666,
-      "lon": -76.55473666666667,
-      "speed": 9.6,
-      "course": 113.7,
-      "heading": 112,
-      "ship_type": null,
-      "timestamp": "2026-10-23T06:57:35.278855+00:00"
-    },
-    {
-      "mmsi": 367384520,
-      "name": "ANNE JARRETT",
-      "lat": 36.88253666666667,
-      "lon": -76.34101833333334,
-      "speed": 0,
-      "course": 346,
-      "heading": 324,
-      "ship_type": null,
-      "timestamp": "2026-10-23T06:57:39.226234+00:00"
+      "timestamp": "2026-10-23T12:28:50.704290+00:00"
     },
     {
       "mmsi": 338131263,
       "name": "COASTAL QUEEN",
-      "lat": 39.36642166666666,
-      "lon": -75.879905,
+      "lat": 39.366405,
+      "lon": -75.87994333333333,
       "speed": 0,
       "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-23T06:57:39.652184+00:00"
+      "timestamp": "2026-10-23T12:29:00.545842+00:00"
     },
     {
-      "mmsi": 538071552,
-      "name": "M/V AH HA",
-      "lat": 38.958935,
-      "lon": -76.47435666666667,
-      "speed": 0,
-      "course": 296.5,
-      "heading": 511,
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.98030333333334,
+      "lon": -76.31070333333334,
+      "speed": 7.3,
+      "course": 183.4,
+      "heading": 188,
       "ship_type": null,
-      "timestamp": "2026-10-23T06:57:40.278276+00:00"
+      "timestamp": "2026-10-23T12:29:05.243753+00:00"
+    },
+    {
+      "mmsi": 367434020,
+      "name": "BJOYCE",
+      "lat": 36.922845,
+      "lon": -76.18878166666667,
+      "speed": 0,
+      "course": 101.2,
+      "heading": 14,
+      "ship_type": null,
+      "timestamp": "2026-10-23T12:29:07.350348+00:00"
+    },
+    {
+      "mmsi": 303829003,
+      "name": "TSV-5 VINDICATOR",
+      "lat": 36.91614333333334,
+      "lon": -76.18216333333334,
+      "speed": 0,
+      "course": 272.3,
+      "heading": 91,
+      "ship_type": null,
+      "timestamp": "2026-10-23T12:29:07.847608+00:00"
     }
   ]
 }
