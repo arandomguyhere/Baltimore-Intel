@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-24T23:16:21.809302+00:00",
+  "collected_at": "2026-10-25T01:24:20.735187+00:00",
   "source": "Google News RSS",
   "region": "Baltimore / Port of Baltimore",
   "total_stories": 20,
@@ -9,13 +9,6 @@
       "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNbDBEenFKSGVGc2c2NHpIWVRaekExM0h3cWpZM3ZJbk03QVNobE9Xcl9Wc3hHNHR5OG1QSFRqXzhxSEtLUGJqQ1NvOTk5cHZMRGRYdUg1YTlXMUJiYTBXS09FdFdQTkZtVXoxZVpZZUpqbDJuN1hiYktRYmRuNksxallJanIySTZ6Q1J0am9zejlqU1RvMlhaSWFZS3ZudjRsTmYzMUI1TkxYU0E0Y3N3WTJFanZETzFjakMzaGY2T3BhN09aVDNiZXRqb3hwZw?oc=5",
       "source": "WMAR 2 News Baltimore",
       "date": "Sat, 24 Oct 2026 09:00:00 GMT",
-      "query": "Port of Baltimore"
-    },
-    {
-      "title": "Port of Baltimore seeks new leadership as executive director steps down - CBS News",
-      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNNkZ4eUxUenE3ZEw0S0lkT0s5VmtlY0R3Ml9tNmt4dUJoVTZrcWlyNG9Ydl9CVjV0T3BsaG9YMkxwcFJiWEtvVkE1ZTVUQ1NhNzl1NTRRZXZtXzNTS2ZOcDNiN2NjMFp4ekFJZGxQQ3NYTlBUcUhkQURvQ3M4X2ZEY2VKM1d3SDBRUGVacUk2aE0?oc=5",
-      "source": "CBS News",
-      "date": "Tue, 23 Jun 2026 07:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -30,6 +23,13 @@
       "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxPYURkaVJKdkVhSUZuLVJTMUhlaGpCRDZ6T3UwaHhORFBWclRITnBSYWpoREtlclViV19IWDFRMEdCTDFLVTRlZGlCOVJUV2RzWFhLVWdhZzVEZVhqbTdCYTBobXFaR2RRbGtZS3pPSWYwN2dxS09UdDNKUFZBNkpqcGFLT1RKcWJtNHpJWk9sV3BXVDBLbGZsQ2NvQ09tY2VmMDZ4bW5Fbi1CeFVfdVh5ampVUE45aU5FRXRsZ0dpQmdGa3FJUnpNWlJ0QzZ3YkZqNnppOXZJX1Q?oc=5",
       "source": "The Office of Governor Wes Moore (.gov)",
       "date": "Fri, 01 May 2026 07:00:00 GMT",
+      "query": "Port of Baltimore"
+    },
+    {
+      "title": "Maryland delegation vows to push for Port of Baltimore modernization - Maryland Matters",
+      "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOczRfemJtbHhMN1FoTUtKXzhOeUt0MWpINmxibEQtamNMdHB5bWgySlRiemNPekhXVmVzUmpsSjM0dFpRRGp5WVFEQUdKUHBjYmttUWVEQnhPZko3eEgxd19DLWR2YU9hT0lmSXpEb1JBbGotRXpDeTIyQXZmRVJmdTRRclo2OVNVVjdMZ3VUZkN1a1RHUF9ORTF4Q2plZEY5eWQ0Xw?oc=5",
+      "source": "Maryland Matters",
+      "date": "Fri, 25 Sep 2026 07:00:00 GMT",
       "query": "Port of Baltimore"
     },
     {
@@ -78,7 +78,7 @@
       "title": "About 5,000 gallons of molasses spill into Baltimore Harbor from overflowing tank - WMAR 2 News Baltimore",
       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQY3FjX29DVDBrRWN6QzVwaHRTeWtBU0dNeUs0YjlBQnJlc29CQWV5UUpnZUQ1V3hVM3NuMkRkNi1vdEZmM2N6RHlRR2dxLVcyV2JRX1FvWDJPN0NiN19sYmprZmYzdnVvUDJ0Q0NVMFFESFVjU0x2VkVvalRqdmFxWkJUdC1lWTFtN0ZFUy1QcFhsOHlQTmJZTEpuNEdyczZJVEFONnhBdmc4dy02UGV6VjZTWQ?oc=5",
       "source": "WMAR 2 News Baltimore",
-      "date": "Fri, 23 Oct 2026 14:41:00 GMT",
+      "date": "Thu, 22 Oct 2026 12:14:00 GMT",
       "query": "Baltimore harbor"
     },
     {
@@ -147,22 +147,22 @@
   ],
   "entities": {
     "topics": [
-      "Baltimore harbor",
-      "Baltimore shipping",
+      "Port of Baltimore",
       "Maryland transportation infrastructure",
-      "Port of Baltimore"
+      "Baltimore shipping",
+      "Baltimore harbor"
     ],
     "sources": [
-      "NottinghamMD.com",
-      "Maryland Matters",
-      "United States Coast Guard News (.mil)",
       "WBFF",
-      "CBS News",
-      "The Office of Governor Wes Moore (.gov)",
-      "Salem, MA | Official Website (.gov)",
-      "Baltimore Sun",
       "SoMdNews.com",
-      "FreightWaves"
+      "FreightWaves",
+      "Maryland Matters",
+      "NottinghamMD.com",
+      "The Baltimore Banner",
+      "Baltimore Sun",
+      "Salem, MA | Official Website (.gov)",
+      "The BayNet",
+      "CBS News"
     ]
   }
 }
