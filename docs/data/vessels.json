@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-27T14:32:15.428151+00:00",
+  "collected_at": "2026-10-27T19:39:31.048614+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,139 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 12,
+  "vessel_count": 9,
   "vessels": [
     {
-      "mmsi": 538010610,
-      "name": "ATLANTIC SPIRIT II",
-      "lat": 39.25514666666666,
-      "lon": -76.54888833333332,
+      "mmsi": 367489820,
+      "name": "CAPTAIN MAC",
+      "lat": 39.00700666666667,
+      "lon": -76.40423666666668,
       "speed": 0,
-      "course": 178.6,
-      "heading": 307,
+      "course": 360,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-27T14:31:50.028185+00:00"
+      "timestamp": "2026-10-27T19:39:01.961138+00:00"
     },
     {
-      "mmsi": 368277530,
-      "name": "MISS MADELINE",
-      "lat": 39.20734166666667,
-      "lon": -76.50554000000001,
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.98401666666667,
+      "lon": -76.46724999999999,
       "speed": 0,
-      "course": 271.6,
-      "heading": 28,
-      "ship_type": null,
-      "timestamp": "2026-10-27T14:31:50.970521+00:00"
-    },
-    {
-      "mmsi": 339644000,
-      "name": "EDISON",
-      "lat": 38.71791333333333,
-      "lon": -76.17062,
-      "speed": 0,
-      "course": 272.8,
-      "heading": 298,
-      "ship_type": null,
-      "timestamp": "2026-10-27T14:31:54.930155+00:00"
-    },
-    {
-      "mmsi": 368164470,
-      "name": "EASTERN BRANCH",
-      "lat": 36.96991666666667,
-      "lon": -76.430235,
-      "speed": 0,
-      "course": 166.6,
-      "heading": 53,
-      "ship_type": null,
-      "timestamp": "2026-10-27T14:31:55.351321+00:00"
-    },
-    {
-      "mmsi": 215809000,
-      "name": "ATLANTIC SAIL",
-      "lat": 39.2541,
-      "lon": -76.54681666666667,
-      "speed": 0,
-      "course": 310.2,
-      "heading": 307,
-      "ship_type": null,
-      "timestamp": "2026-10-27T14:31:56.368430+00:00"
-    },
-    {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.260999999999996,
-      "lon": -76.55616666666667,
-      "speed": 0,
-      "course": 11.6,
+      "course": 173.5,
       "heading": 351,
       "ship_type": null,
-      "timestamp": "2026-10-27T14:31:57.378499+00:00"
+      "timestamp": "2026-10-27T19:39:08.185094+00:00"
     },
     {
-      "mmsi": 563642000,
-      "name": "STRATEGIC ALLIANCE",
-      "lat": 39.26401166666667,
-      "lon": -76.574455,
-      "speed": 2.2,
-      "course": 0.1,
-      "heading": 4,
+      "mmsi": 368414540,
+      "name": "",
+      "lat": 37.02296333333334,
+      "lon": -76.34318833333333,
+      "speed": 0,
+      "course": 282.5,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-27T14:32:04.414946+00:00"
+      "timestamp": "2026-10-27T19:39:17.500897+00:00"
+    },
+    {
+      "mmsi": 538009166,
+      "name": "",
+      "lat": 37.20909166666667,
+      "lon": -76.14615666666667,
+      "speed": 12.6,
+      "course": 197.4,
+      "heading": 198,
+      "ship_type": null,
+      "timestamp": "2026-10-27T19:39:21.022076+00:00"
+    },
+    {
+      "mmsi": 247187700,
+      "name": "AIDADIVA",
+      "lat": 36.848573333333334,
+      "lon": -76.29722833333334,
+      "speed": 0,
+      "course": 346.1,
+      "heading": 337,
+      "ship_type": null,
+      "timestamp": "2026-10-27T19:39:21.184103+00:00"
+    },
+    {
+      "mmsi": 368134210,
+      "name": "DAUNTLESS",
+      "lat": 36.84191833333333,
+      "lon": -76.29944333333333,
+      "speed": 0.1,
+      "course": 223.4,
+      "heading": 57,
+      "ship_type": null,
+      "timestamp": "2026-10-27T19:39:21.371758+00:00"
+    },
+    {
+      "mmsi": 367097970,
+      "name": "CRYSTAL COAST",
+      "lat": 39.12670666666667,
+      "lon": -76.33145333333333,
+      "speed": 6.6,
+      "course": 14.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-27T19:39:21.676887+00:00"
+    },
+    {
+      "mmsi": 367611520,
+      "name": "WASHINGTON",
+      "lat": 39.12778166666667,
+      "lon": -76.32253333333333,
+      "speed": 8.1,
+      "course": 343.1,
+      "heading": 348,
+      "ship_type": null,
+      "timestamp": "2026-10-27T19:39:25.809549+00:00"
     },
     {
       "mmsi": 366939170,
       "name": "ATLAS",
-      "lat": 39.19927,
-      "lon": -76.483875,
+      "lat": 39.202196666666666,
+      "lon": -76.48387833333332,
       "speed": 0,
-      "course": 31,
-      "heading": 346,
+      "course": 326.4,
+      "heading": 355,
       "ship_type": null,
-      "timestamp": "2026-10-27T14:32:06.474938+00:00"
-    },
-    {
-      "mmsi": 368081170,
-      "name": "HUNTSMAN",
-      "lat": 36.84954166666667,
-      "lon": -76.31503833333333,
-      "speed": 0,
-      "course": 221.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-27T14:32:08.261166+00:00"
-    },
-    {
-      "mmsi": 352006712,
-      "name": "SIDER BELLEZZA",
-      "lat": 39.26213166666666,
-      "lon": -76.57204499999999,
-      "speed": 0,
-      "course": 71.2,
-      "heading": 166,
-      "ship_type": null,
-      "timestamp": "2026-10-27T14:32:09.617411+00:00"
-    },
-    {
-      "mmsi": 368129160,
-      "name": "MEGALODON",
-      "lat": 38.94905833333333,
-      "lon": -76.44084666666666,
-      "speed": 5.2,
-      "course": 304.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-27T14:32:14.639765+00:00"
-    },
-    {
-      "mmsi": 366913820,
-      "name": "AJ MCALLISTER",
-      "lat": 36.93082666666667,
-      "lon": -76.33355,
-      "speed": 0,
-      "course": 330,
-      "heading": 176,
-      "ship_type": null,
-      "timestamp": "2026-10-27T14:32:14.736772+00:00"
+      "timestamp": "2026-10-27T19:39:26.927375+00:00"
     }
   ]
 }
