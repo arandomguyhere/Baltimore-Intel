@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-28T02:19:12.519011+00:00",
+  "collected_at": "2026-10-28T08:51:22.402908+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,128 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 11,
+  "vessel_count": 9,
   "vessels": [
+    {
+      "mmsi": 366939170,
+      "name": "ATLAS",
+      "lat": 39.254625000000004,
+      "lon": -76.58690833333334,
+      "speed": 0,
+      "course": 171,
+      "heading": 273,
+      "ship_type": null,
+      "timestamp": "2026-10-28T08:50:55.814169+00:00"
+    },
+    {
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.96300833333333,
+      "lon": -76.29591,
+      "speed": 0,
+      "course": 281.8,
+      "heading": 222,
+      "ship_type": null,
+      "timestamp": "2026-10-28T08:51:02.034316+00:00"
+    },
+    {
+      "mmsi": 367541760,
+      "name": "WINNING DRIVE",
+      "lat": 38.97394666666666,
+      "lon": -76.48410166666666,
+      "speed": 0,
+      "course": 325.8,
+      "heading": 327,
+      "ship_type": null,
+      "timestamp": "2026-10-28T08:51:06.954871+00:00"
+    },
+    {
+      "mmsi": 319257000,
+      "name": "BEOTHUK",
+      "lat": 38.689838333333334,
+      "lon": -76.16819833333334,
+      "speed": 0,
+      "course": 360,
+      "heading": 187,
+      "ship_type": null,
+      "timestamp": "2026-10-28T08:51:07.750871+00:00"
+    },
+    {
+      "mmsi": 338131263,
+      "name": "COASTAL QUEEN",
+      "lat": 39.366409999999995,
+      "lon": -75.87991333333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-28T08:51:11.045481+00:00"
+    },
+    {
+      "mmsi": 368015740,
+      "name": "PINNERS POINT",
+      "lat": 36.849619999999994,
+      "lon": -76.31534666666667,
+      "speed": 0,
+      "course": 299.4,
+      "heading": 11,
+      "ship_type": null,
+      "timestamp": "2026-10-28T08:51:12.343797+00:00"
+    },
+    {
+      "mmsi": 367308110,
+      "name": "THE HUNTER",
+      "lat": 39.26837333333334,
+      "lon": -76.58112333333334,
+      "speed": 0,
+      "course": 261.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-28T08:51:15.453421+00:00"
+    },
     {
       "mmsi": 367766220,
       "name": "DALE PYATT",
-      "lat": 39.202245,
-      "lon": -76.48366833333333,
+      "lat": 39.194718333333334,
+      "lon": -76.48115666666666,
       "speed": 0,
-      "course": 236.9,
+      "course": 24.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-28T02:18:47.335621+00:00"
+      "timestamp": "2026-10-28T08:51:16.752731+00:00"
     },
     {
-      "mmsi": 367367390,
-      "name": "DIAMOND COAST",
-      "lat": 39.24328,
-      "lon": -76.57081333333333,
+      "mmsi": 367165130,
+      "name": "NORTHSTAR INTEGRITY",
+      "lat": 39.44363166666667,
+      "lon": -75.98866500000001,
       "speed": 0,
-      "course": 263,
-      "heading": 272,
+      "course": 35.1,
+      "heading": 194,
       "ship_type": null,
-      "timestamp": "2026-10-28T02:18:49.556919+00:00"
-    },
-    {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.25311666666666,
-      "lon": -76.570455,
-      "speed": 1.9,
-      "course": 222.1,
-      "heading": 198,
-      "ship_type": null,
-      "timestamp": "2026-10-28T02:18:49.599641+00:00"
-    },
-    {
-      "mmsi": 366913820,
-      "name": "AJ MCALLISTER",
-      "lat": 36.911723333333335,
-      "lon": -76.32779333333333,
-      "speed": 0,
-      "course": 107.3,
-      "heading": 36,
-      "ship_type": null,
-      "timestamp": "2026-10-28T02:19:04.482720+00:00"
-    },
-    {
-      "mmsi": 367376440,
-      "name": "LONG ISLAND",
-      "lat": 39.243386666666666,
-      "lon": -76.57082999999999,
-      "speed": 0,
-      "course": 271.4,
-      "heading": 273,
-      "ship_type": null,
-      "timestamp": "2026-10-28T02:18:55.062669+00:00"
-    },
-    {
-      "mmsi": 368145530,
-      "name": "ANNABELLE MILLER",
-      "lat": 36.915345,
-      "lon": -76.18282666666667,
-      "speed": 0,
-      "course": 212.6,
-      "heading": 273,
-      "ship_type": null,
-      "timestamp": "2026-10-28T02:18:57.208693+00:00"
-    },
-    {
-      "mmsi": 538071552,
-      "name": "M/V AH HA",
-      "lat": 38.95718166666666,
-      "lon": -76.45864166666667,
-      "speed": 0.1,
-      "course": 57.2,
-      "heading": 106,
-      "ship_type": null,
-      "timestamp": "2026-10-28T02:18:57.502256+00:00"
-    },
-    {
-      "mmsi": 368193830,
-      "name": "ROCK HALL",
-      "lat": 39.243291666666664,
-      "lon": -76.57105166666666,
-      "speed": 0,
-      "course": 270,
-      "heading": 0,
-      "ship_type": null,
-      "timestamp": "2026-10-28T02:18:58.986576+00:00"
-    },
-    {
-      "mmsi": 368177450,
-      "name": "RUBY COAST",
-      "lat": 39.251418333333326,
-      "lon": -76.55751000000001,
-      "speed": 0,
-      "course": 78.5,
-      "heading": 107,
-      "ship_type": null,
-      "timestamp": "2026-10-28T02:18:59.782183+00:00"
-    },
-    {
-      "mmsi": 368391490,
-      "name": "",
-      "lat": 36.924935,
-      "lon": -76.33008166666667,
-      "speed": 0.1,
-      "course": 268.7,
-      "heading": 265,
-      "ship_type": null,
-      "timestamp": "2026-10-28T02:19:07.014737+00:00"
-    },
-    {
-      "mmsi": 367127830,
-      "name": "NIKI JO C",
-      "lat": 36.858938333333334,
-      "lon": -76.347045,
-      "speed": 0,
-      "course": 250.2,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-28T02:19:08.828016+00:00"
+      "timestamp": "2026-10-28T08:51:18.946468+00:00"
     }
   ]
 }
