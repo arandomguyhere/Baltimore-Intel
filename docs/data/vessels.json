@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-28T15:44:06.581070+00:00",
+  "collected_at": "2026-10-28T20:35:11.816266+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,172 +12,117 @@
       -75.8
     ]
   ],
-  "vessel_count": 15,
+  "vessel_count": 10,
   "vessels": [
     {
-      "mmsi": 368076430,
-      "name": "CAPE MAY",
-      "lat": 36.803016666666664,
-      "lon": -76.29086000000001,
-      "speed": 3.3,
-      "course": 21,
-      "heading": 26,
-      "ship_type": null,
-      "timestamp": "2026-10-28T15:43:37.211319+00:00"
-    },
-    {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.23385333333333,
-      "lon": -76.55233666666666,
-      "speed": 7.7,
-      "course": 176.9,
-      "heading": 172,
-      "ship_type": null,
-      "timestamp": "2026-10-28T15:43:37.533602+00:00"
-    },
-    {
-      "mmsi": 367083060,
-      "name": "CABARET2",
-      "lat": 38.97678666666666,
-      "lon": -76.48460666666666,
+      "mmsi": 367584880,
+      "name": "SEQUOIA",
+      "lat": 38.902125,
+      "lon": -76.50717833333333,
       "speed": 0,
-      "course": 360,
+      "course": 351.1,
+      "heading": 351,
+      "ship_type": null,
+      "timestamp": "2026-10-28T20:34:46.676826+00:00"
+    },
+    {
+      "mmsi": 368393780,
+      "name": "KRISTINA MARIE",
+      "lat": 36.974023333333335,
+      "lon": -76.44123166666667,
+      "speed": 9.2,
+      "course": 151.7,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-28T15:43:42.110975+00:00"
+      "timestamp": "2026-10-28T20:34:48.670336+00:00"
     },
     {
-      "mmsi": 367572040,
-      "name": "JENNIFER ANN",
-      "lat": 38.73471,
-      "lon": -76.4295,
-      "speed": 6.5,
-      "course": 182.5,
-      "heading": 186,
-      "ship_type": null,
-      "timestamp": "2026-10-28T15:43:43.565724+00:00"
-    },
-    {
-      "mmsi": 303829003,
-      "name": "TSV-5 VINDICATOR",
-      "lat": 36.91611666666667,
-      "lon": -76.182085,
+      "mmsi": 367304020,
+      "name": "JACKIE F. MCALLISTER",
+      "lat": 39.20516833333333,
+      "lon": -76.50607833333333,
       "speed": 0,
-      "course": 241.8,
-      "heading": 92,
+      "course": 113.1,
+      "heading": 136,
       "ship_type": null,
-      "timestamp": "2026-10-28T15:43:46.165562+00:00"
-    },
-    {
-      "mmsi": 636010380,
-      "name": "STOLT CAPABILITY",
-      "lat": 36.81522833333334,
-      "lon": -76.29131166666666,
-      "speed": 3.2,
-      "course": 353.4,
-      "heading": 3,
-      "ship_type": null,
-      "timestamp": "2026-10-28T15:43:47.541059+00:00"
+      "timestamp": "2026-10-28T20:34:51.430398+00:00"
     },
     {
       "mmsi": 368926258,
       "name": "CATLETT",
-      "lat": 39.266976666666665,
-      "lon": -76.57955166666667,
+      "lat": 39.26696833333333,
+      "lon": -76.57952333333333,
       "speed": 0,
-      "course": 41.1,
+      "course": 328.3,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-28T15:43:47.541166+00:00"
+      "timestamp": "2026-10-28T20:34:52.609508+00:00"
     },
     {
-      "mmsi": 367434020,
-      "name": "BJOYCE",
-      "lat": 36.92284666666667,
-      "lon": -76.18878333333333,
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.255895,
+      "lon": -76.53488,
       "speed": 0,
-      "course": 166.8,
-      "heading": 12,
+      "course": 53.3,
+      "heading": 300,
       "ship_type": null,
-      "timestamp": "2026-10-28T15:43:49.335465+00:00"
+      "timestamp": "2026-10-28T20:34:53.690541+00:00"
     },
     {
-      "mmsi": 338362987,
-      "name": "SEA CHANGE",
-      "lat": 37.10887,
-      "lon": -76.24243666666666,
-      "speed": 7.9,
-      "course": 198.6,
+      "mmsi": 368283570,
+      "name": "MATTY T",
+      "lat": 36.812975,
+      "lon": -76.290775,
+      "speed": 4.7,
+      "course": 167.1,
+      "heading": 166,
+      "ship_type": null,
+      "timestamp": "2026-10-28T20:34:53.690624+00:00"
+    },
+    {
+      "mmsi": 367120550,
+      "name": "HIGH ROLLER",
+      "lat": 39.20623833333333,
+      "lon": -76.51001,
+      "speed": 0,
+      "course": 285.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-28T15:43:49.335531+00:00"
+      "timestamp": "2026-10-28T20:34:58.020323+00:00"
+    },
+    {
+      "mmsi": 368258880,
+      "name": "",
+      "lat": 36.92561333333333,
+      "lon": -76.330945,
+      "speed": 0,
+      "course": 150.9,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-28T20:35:08.002880+00:00"
+    },
+    {
+      "mmsi": 367766220,
+      "name": "DALE PYATT",
+      "lat": 39.194626666666665,
+      "lon": -76.48116166666667,
+      "speed": 0,
+      "course": 48.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-28T20:35:09.354510+00:00"
     },
     {
       "mmsi": 338493838,
       "name": "BELLA DONNA",
       "lat": 38.902301666666666,
-      "lon": -76.50685666666666,
-      "speed": 0,
-      "course": 308.4,
+      "lon": -76.50679333333332,
+      "speed": 0.4,
+      "course": 292.7,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-28T15:43:50.515445+00:00"
-    },
-    {
-      "mmsi": 369494414,
-      "name": "CG49414",
-      "lat": 39.19791333333333,
-      "lon": -76.56842666666667,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-28T15:43:57.132232+00:00"
-    },
-    {
-      "mmsi": 368277530,
-      "name": "MISS MADELINE",
-      "lat": 39.21478333333334,
-      "lon": -76.52865,
-      "speed": 0,
-      "course": 245.9,
-      "heading": 154,
-      "ship_type": null,
-      "timestamp": "2026-10-28T15:43:58.965608+00:00"
-    },
-    {
-      "mmsi": 368329530,
-      "name": "MIA",
-      "lat": 37.00043333333333,
-      "lon": -76.27169333333333,
-      "speed": 6.8,
-      "course": 73.6,
-      "heading": 77,
-      "ship_type": null,
-      "timestamp": "2026-10-28T15:44:00.698445+00:00"
-    },
-    {
-      "mmsi": 367314530,
-      "name": "ALEXANDER,DUFF",
-      "lat": 37.7631,
-      "lon": -76.61527666666666,
-      "speed": 8,
-      "course": 302.4,
-      "heading": 292,
-      "ship_type": null,
-      "timestamp": "2026-10-28T15:44:03.430545+00:00"
-    },
-    {
-      "mmsi": 368164470,
-      "name": "EASTERN BRANCH",
-      "lat": 36.970434999999995,
-      "lon": -76.43272166666667,
-      "speed": 0,
-      "course": 245.6,
-      "heading": 50,
-      "ship_type": null,
-      "timestamp": "2026-10-28T15:44:04.967426+00:00"
+      "timestamp": "2026-10-28T20:35:09.491654+00:00"
     }
   ]
 }
