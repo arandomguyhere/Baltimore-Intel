@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-29T00:26:08.021410+00:00",
+  "collected_at": "2026-10-29T06:13:07.335222+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,106 +12,216 @@
       -75.8
     ]
   ],
-  "vessel_count": 9,
+  "vessel_count": 19,
   "vessels": [
     {
-      "mmsi": 369970482,
-      "name": "YP708",
-      "lat": 38.982875,
-      "lon": -76.46582833333333,
+      "mmsi": 369974000,
+      "name": "",
+      "lat": 36.94027833333334,
+      "lon": -76.33074333333334,
       "speed": 0,
-      "course": 169.5,
+      "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-29T00:25:40.062710+00:00"
+      "timestamp": "2026-10-29T06:12:38.318157+00:00"
     },
     {
-      "mmsi": 368169560,
-      "name": "ATLANTIC ENDEAVOR",
-      "lat": 36.92288333333333,
-      "lon": -76.18811000000001,
-      "speed": 0,
-      "course": 170.1,
-      "heading": 106,
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.25483333333333,
+      "lon": -76.55483333333333,
+      "speed": 8.3,
+      "course": 150.8,
+      "heading": 351,
       "ship_type": null,
-      "timestamp": "2026-10-29T00:25:40.569429+00:00"
+      "timestamp": "2026-10-29T06:12:38.453747+00:00"
     },
     {
-      "mmsi": 366878280,
-      "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.96706,
-      "lon": -76.47812,
+      "mmsi": 367376440,
+      "name": "LONG ISLAND",
+      "lat": 39.24336,
+      "lon": -76.57083166666666,
+      "speed": 0,
+      "course": 272.7,
+      "heading": 264,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:12:40.268891+00:00"
+    },
+    {
+      "mmsi": 367161960,
+      "name": "TIMOTHY M",
+      "lat": 39.19478333333333,
+      "lon": -76.48793333333333,
       "speed": 0.1,
-      "course": 186.8,
+      "course": 186,
+      "heading": 5,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:12:42.237620+00:00"
+    },
+    {
+      "mmsi": 366939170,
+      "name": "ATLAS",
+      "lat": 39.219633333333334,
+      "lon": -76.498165,
+      "speed": 0.6,
+      "course": 237.9,
+      "heading": 66,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:12:46.039689+00:00"
+    },
+    {
+      "mmsi": 311040700,
+      "name": "HERITAGE LEADER",
+      "lat": 38.726735,
+      "lon": -76.42812833333333,
+      "speed": 16.7,
+      "course": 357.1,
+      "heading": 356,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:12:46.741189+00:00"
+    },
+    {
+      "mmsi": 368402460,
+      "name": "GAMEKEEPER",
+      "lat": 36.96111833333334,
+      "lon": -76.04991666666666,
+      "speed": 10,
+      "course": 286,
+      "heading": 284,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:12:47.181201+00:00"
+    },
+    {
+      "mmsi": 367069420,
+      "name": "S MARTIN THORPE",
+      "lat": 38.759125000000004,
+      "lon": -76.111445,
+      "speed": 3.3,
+      "course": 49.8,
+      "heading": 50,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:12:49.425126+00:00"
+    },
+    {
+      "mmsi": 367472930,
+      "name": "ISLAND LOOKOUT",
+      "lat": 39.38431,
+      "lon": -76.08996833333335,
+      "speed": 7.1,
+      "course": 249.5,
+      "heading": 249,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:12:51.253747+00:00"
+    },
+    {
+      "mmsi": 367766220,
+      "name": "DALE PYATT",
+      "lat": 39.19409666666666,
+      "lon": -76.48002666666666,
+      "speed": 0.3,
+      "course": 105.7,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-29T00:25:41.577555+00:00"
+      "timestamp": "2026-10-29T06:12:56.229351+00:00"
     },
     {
-      "mmsi": 368177450,
-      "name": "RUBY COAST",
-      "lat": 39.27551666666667,
-      "lon": -76.59518833333333,
+      "mmsi": 368386690,
+      "name": "GEORGE JAMES MORAN",
+      "lat": 39.22864833333333,
+      "lon": -76.53948333333332,
+      "speed": 1.5,
+      "course": 7.3,
+      "heading": 6,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:12:57.521388+00:00"
+    },
+    {
+      "mmsi": 367127830,
+      "name": "NIKI JO C",
+      "lat": 36.85894333333333,
+      "lon": -76.34705166666666,
       "speed": 0,
-      "course": 145.9,
-      "heading": 243,
+      "course": 293.5,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-29T00:25:49.967935+00:00"
+      "timestamp": "2026-10-29T06:12:58.673076+00:00"
     },
     {
-      "mmsi": 368086399,
-      "name": "JOY",
-      "lat": 37.652849999999994,
-      "lon": -76.42573999999999,
+      "mmsi": 368357570,
+      "name": "",
+      "lat": 36.9526,
+      "lon": -76.32895666666667,
       "speed": 0,
-      "course": 319.5,
-      "heading": 83,
+      "course": 181.2,
+      "heading": 97,
       "ship_type": null,
-      "timestamp": "2026-10-29T00:25:50.851471+00:00"
+      "timestamp": "2026-10-29T06:13:00.402227+00:00"
     },
     {
-      "mmsi": 247187700,
-      "name": "AIDADIVA",
-      "lat": 39.08228833333333,
-      "lon": -76.39446,
-      "speed": 13.7,
-      "course": 179.5,
-      "heading": 179,
+      "mmsi": 229202000,
+      "name": "DENSA HAWK",
+      "lat": 36.951715,
+      "lon": -76.01956333333332,
+      "speed": 10.5,
+      "course": 284,
+      "heading": 285,
       "ship_type": null,
-      "timestamp": "2026-10-29T00:25:56.986910+00:00"
+      "timestamp": "2026-10-29T06:13:00.402294+00:00"
     },
     {
-      "mmsi": 367438210,
-      "name": "AMERICAN INDEPENDENC",
-      "lat": 39.27706833333333,
-      "lon": -76.58889333333333,
-      "speed": 5.7,
-      "course": 280.3,
-      "heading": 277,
-      "ship_type": null,
-      "timestamp": "2026-10-29T00:25:57.687581+00:00"
-    },
-    {
-      "mmsi": 249352000,
-      "name": "AUGUST",
-      "lat": 39.202655,
-      "lon": -76.48208500000001,
+      "mmsi": 367308110,
+      "name": "THE HUNTER",
+      "lat": 39.26834833333333,
+      "lon": -76.581165,
       "speed": 0,
-      "course": 351,
-      "heading": 174,
+      "course": 307.2,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-29T00:25:57.841555+00:00"
+      "timestamp": "2026-10-29T06:13:02.742393+00:00"
     },
     {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.25602833333333,
-      "lon": -76.55106333333333,
-      "speed": 1.4,
-      "course": 56.8,
-      "heading": 39,
+      "mmsi": 368149000,
+      "name": "TOPAZ COAST",
+      "lat": 36.94987833333333,
+      "lon": -76.35509166666667,
+      "speed": 0,
+      "course": 303.7,
+      "heading": 169,
       "ship_type": null,
-      "timestamp": "2026-10-29T00:26:01.768227+00:00"
+      "timestamp": "2026-10-29T06:13:03.523952+00:00"
+    },
+    {
+      "mmsi": 368013860,
+      "name": "PAUL CANDIES",
+      "lat": 36.96524333333333,
+      "lon": -76.07522999999999,
+      "speed": 9.5,
+      "course": 288.4,
+      "heading": 289,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:13:04.108427+00:00"
+    },
+    {
+      "mmsi": 368358680,
+      "name": "ATLAS",
+      "lat": 36.82337666666667,
+      "lon": -76.28838833333333,
+      "speed": 0,
+      "course": 45.4,
+      "heading": 69,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:13:04.545669+00:00"
+    },
+    {
+      "mmsi": 538009260,
+      "name": "SEA FAITH",
+      "lat": 39.194388333333336,
+      "lon": -76.26944333333333,
+      "speed": 11.7,
+      "course": 41.5,
+      "heading": 42,
+      "ship_type": null,
+      "timestamp": "2026-10-29T06:13:05.331654+00:00"
     }
   ]
 }
