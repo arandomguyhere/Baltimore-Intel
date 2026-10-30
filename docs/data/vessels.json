@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-29T23:08:08.074041+00:00",
+  "collected_at": "2026-10-30T02:36:19.087264+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,128 +12,117 @@
       -75.8
     ]
   ],
-  "vessel_count": 11,
+  "vessel_count": 10,
   "vessels": [
-    {
-      "mmsi": 303994000,
-      "name": "CAPE WRATH",
-      "lat": 39.26197,
-      "lon": -76.60133,
-      "speed": 0,
-      "course": 0,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-29T23:07:40.065817+00:00"
-    },
-    {
-      "mmsi": 368459420,
-      "name": "TANGO",
-      "lat": 39.27950833333333,
-      "lon": -76.58411166666666,
-      "speed": 0,
-      "course": 302.4,
-      "heading": 303,
-      "ship_type": null,
-      "timestamp": "2026-10-29T23:07:40.849403+00:00"
-    },
-    {
-      "mmsi": 367538350,
-      "name": "",
-      "lat": 37.05325166666667,
-      "lon": -76.19308500000001,
-      "speed": 0,
-      "course": 73.3,
-      "heading": 50,
-      "ship_type": null,
-      "timestamp": "2026-10-29T23:07:41.694711+00:00"
-    },
-    {
-      "mmsi": 367841000,
-      "name": "TSV 1 PREVAIL",
-      "lat": 36.915065,
-      "lon": -76.18284166666668,
-      "speed": 0,
-      "course": 268.1,
-      "heading": 273,
-      "ship_type": null,
-      "timestamp": "2026-10-29T23:07:43.958048+00:00"
-    },
-    {
-      "mmsi": 368077920,
-      "name": "RANGER",
-      "lat": 36.84166166666667,
-      "lon": -76.29363,
-      "speed": 3,
-      "course": 204.8,
-      "heading": 190,
-      "ship_type": null,
-      "timestamp": "2026-10-29T23:07:52.346416+00:00"
-    },
-    {
-      "mmsi": 368149000,
-      "name": "TOPAZ COAST",
-      "lat": 36.94965666666667,
-      "lon": -76.35365499999999,
-      "speed": 0,
-      "course": 280.3,
-      "heading": 231,
-      "ship_type": null,
-      "timestamp": "2026-10-29T23:07:53.277695+00:00"
-    },
-    {
-      "mmsi": 368440040,
-      "name": "VA BREEZE",
-      "lat": 36.90846833333333,
-      "lon": -76.09198500000001,
-      "speed": 7,
-      "course": 5.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-10-29T23:07:54.312673+00:00"
-    },
-    {
-      "mmsi": 367309860,
-      "name": "ALICIA F. MCALLISTER",
-      "lat": 36.96414,
-      "lon": -76.42322,
-      "speed": 0.4,
-      "course": 64.8,
-      "heading": 99,
-      "ship_type": null,
-      "timestamp": "2026-10-29T23:07:58.204016+00:00"
-    },
-    {
-      "mmsi": 367082130,
-      "name": "TIMOTHY MCALLISTER",
-      "lat": 39.26939166666667,
-      "lon": -76.580635,
-      "speed": 0,
-      "course": 281.8,
-      "heading": 210,
-      "ship_type": null,
-      "timestamp": "2026-10-29T23:08:00.796135+00:00"
-    },
     {
       "mmsi": 368185620,
       "name": "FELLS POINT",
-      "lat": 39.255761666666665,
-      "lon": -76.53494500000001,
+      "lat": 39.25580333333333,
+      "lon": -76.53496,
       "speed": 0,
-      "course": 115.9,
+      "course": 298.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-29T23:08:02.704864+00:00"
+      "timestamp": "2026-10-30T02:35:52.665873+00:00"
     },
     {
-      "mmsi": 367314530,
-      "name": "ALEXANDER,DUFF",
-      "lat": 37.62695,
-      "lon": -76.45864333333334,
-      "speed": 6.9,
-      "course": 275.4,
-      "heading": 276,
+      "mmsi": 368888000,
+      "name": "BURLINGTON",
+      "lat": 36.866925,
+      "lon": -76.31734666666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-29T23:08:04.543069+00:00"
+      "timestamp": "2026-10-30T02:35:52.992103+00:00"
+    },
+    {
+      "mmsi": 366926050,
+      "name": "RV SPERRY STAR III",
+      "lat": 38.979148333333335,
+      "lon": -76.33270833333333,
+      "speed": 0.1,
+      "course": 174.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-30T02:35:56.232470+00:00"
+    },
+    {
+      "mmsi": 367766220,
+      "name": "DALE PYATT",
+      "lat": 39.203515,
+      "lon": -76.48406333333334,
+      "speed": 0,
+      "course": 40.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-30T02:35:56.405873+00:00"
+    },
+    {
+      "mmsi": 368169560,
+      "name": "ATLANTIC ENDEAVOR",
+      "lat": 36.92286166666667,
+      "lon": -76.18810833333333,
+      "speed": 0,
+      "course": 312.1,
+      "heading": 105,
+      "ship_type": null,
+      "timestamp": "2026-10-30T02:36:02.841054+00:00"
+    },
+    {
+      "mmsi": 368219430,
+      "name": "GENESIS",
+      "lat": 39.28076333333333,
+      "lon": -76.60107166666667,
+      "speed": 0,
+      "course": 166.5,
+      "heading": 354,
+      "ship_type": null,
+      "timestamp": "2026-10-30T02:36:06.249866+00:00"
+    },
+    {
+      "mmsi": 369974000,
+      "name": "",
+      "lat": 36.94023,
+      "lon": -76.33068666666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-30T02:36:07.075299+00:00"
+    },
+    {
+      "mmsi": 339067000,
+      "name": "OCEANUS V",
+      "lat": 36.919531666666664,
+      "lon": -76.18282500000001,
+      "speed": 0,
+      "course": 290.9,
+      "heading": 272,
+      "ship_type": null,
+      "timestamp": "2026-10-30T02:36:08.524936+00:00"
+    },
+    {
+      "mmsi": 367686270,
+      "name": "STASINOS BOYS",
+      "lat": 36.98296666666667,
+      "lon": -76.146545,
+      "speed": 6,
+      "course": 111.5,
+      "heading": 107,
+      "ship_type": null,
+      "timestamp": "2026-10-30T02:36:14.599089+00:00"
+    },
+    {
+      "mmsi": 338924074,
+      "name": "CAPE SUAREZ POINT",
+      "lat": 36.868071666666665,
+      "lon": -76.31846666666667,
+      "speed": 0,
+      "course": 212,
+      "heading": 227,
+      "ship_type": null,
+      "timestamp": "2026-10-30T02:36:16.374435+00:00"
     }
   ]
 }
