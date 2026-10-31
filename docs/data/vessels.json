@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-10-31T04:35:01.517989+00:00",
+  "collected_at": "2026-10-31T10:37:11.852087+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,40 +12,95 @@
       -75.8
     ]
   ],
-  "vessel_count": 3,
+  "vessel_count": 8,
   "vessels": [
     {
-      "mmsi": 368192510,
-      "name": "SUNDAY MORNING",
-      "lat": 38.972476666666665,
-      "lon": -76.48780666666667,
-      "speed": 0,
-      "course": 138.1,
-      "heading": 63,
-      "ship_type": null,
-      "timestamp": "2026-10-31T04:34:33.236342+00:00"
-    },
-    {
-      "mmsi": 368235760,
-      "name": "JAN MORAN",
-      "lat": 36.85670833333334,
-      "lon": -76.33133666666666,
-      "speed": 0,
-      "course": 286.1,
-      "heading": 261,
-      "ship_type": null,
-      "timestamp": "2026-10-31T04:34:33.767288+00:00"
-    },
-    {
-      "mmsi": 303994000,
-      "name": "CAPE WRATH",
-      "lat": 39.26199999999999,
-      "lon": -76.60132666666667,
-      "speed": 0,
-      "course": 0,
+      "mmsi": 367097970,
+      "name": "CRYSTAL COAST",
+      "lat": 36.91874,
+      "lon": -76.34154666666667,
+      "speed": 6.5,
+      "course": 358.9,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-10-31T04:34:46.442581+00:00"
+      "timestamp": "2026-10-31T10:36:47.251378+00:00"
+    },
+    {
+      "mmsi": 245697000,
+      "name": "",
+      "lat": 36.939550000000004,
+      "lon": -76.36739666666668,
+      "speed": 0,
+      "course": 314.3,
+      "heading": 17,
+      "ship_type": null,
+      "timestamp": "2026-10-31T10:36:51.723856+00:00"
+    },
+    {
+      "mmsi": 367393330,
+      "name": "EMMA MILLER",
+      "lat": 36.913156666666666,
+      "lon": -76.33810833333334,
+      "speed": 10.5,
+      "course": 1.1,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-31T10:36:58.408670+00:00"
+    },
+    {
+      "mmsi": 229598000,
+      "name": "VANTAGE",
+      "lat": 39.250793333333334,
+      "lon": -76.54179833333333,
+      "speed": 0,
+      "course": 325.3,
+      "heading": 308,
+      "ship_type": null,
+      "timestamp": "2026-10-31T10:37:05.932567+00:00"
+    },
+    {
+      "mmsi": 368324270,
+      "name": "GRAPE APE",
+      "lat": 39.22506166666667,
+      "lon": -76.55088500000001,
+      "speed": 0,
+      "course": 93.1,
+      "heading": 340,
+      "ship_type": null,
+      "timestamp": "2026-10-31T10:37:05.932675+00:00"
+    },
+    {
+      "mmsi": 367120550,
+      "name": "HIGH ROLLER",
+      "lat": 39.22548666666667,
+      "lon": -76.56765333333333,
+      "speed": 0.1,
+      "course": 142.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-31T10:37:08.326250+00:00"
+    },
+    {
+      "mmsi": 369970478,
+      "name": "YP704",
+      "lat": 38.984075,
+      "lon": -76.46744166666667,
+      "speed": 0,
+      "course": 352.1,
+      "heading": 322,
+      "ship_type": null,
+      "timestamp": "2026-10-31T10:37:09.318180+00:00"
+    },
+    {
+      "mmsi": 368164470,
+      "name": "EASTERN BRANCH",
+      "lat": 36.962831666666666,
+      "lon": -76.40868833333334,
+      "speed": 0.1,
+      "course": 209.5,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-10-31T10:37:10.594251+00:00"
     }
   ]
 }
