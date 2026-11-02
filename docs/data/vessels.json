@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-01T23:22:26.245321+00:00",
+  "collected_at": "2026-11-02T02:40:49.687003+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,128 +12,73 @@
       -75.8
     ]
   ],
-  "vessel_count": 11,
+  "vessel_count": 6,
   "vessels": [
     {
-      "mmsi": 367069420,
-      "name": "S MARTIN THORPE",
-      "lat": 39.197685,
-      "lon": -76.26686500000001,
-      "speed": 6.5,
-      "course": 217.3,
-      "heading": 220,
+      "mmsi": 367572040,
+      "name": "JENNIFER ANN",
+      "lat": 39.025686666666665,
+      "lon": -76.37356166666667,
+      "speed": 8,
+      "course": 353.1,
+      "heading": 350,
       "ship_type": null,
-      "timestamp": "2026-11-01T23:21:57.231144+00:00"
+      "timestamp": "2026-11-02T02:40:21.884215+00:00"
     },
     {
-      "mmsi": 368219430,
-      "name": "GENESIS",
-      "lat": 39.280703333333335,
-      "lon": -76.60106166666667,
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.982845,
+      "lon": -76.46578666666666,
       "speed": 0,
-      "course": 141,
-      "heading": 353,
-      "ship_type": null,
-      "timestamp": "2026-11-01T23:22:04.787089+00:00"
-    },
-    {
-      "mmsi": 369494414,
-      "name": "CG49414",
-      "lat": 39.197885,
-      "lon": -76.56842666666667,
-      "speed": 0,
-      "course": 360,
+      "course": 214.4,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-01T23:22:06.875679+00:00"
+      "timestamp": "2026-11-02T02:40:21.884303+00:00"
     },
     {
-      "mmsi": 366866810,
-      "name": "FAY SLOVER",
-      "lat": 36.922156666666666,
-      "lon": -76.18867666666667,
+      "mmsi": 372883000,
+      "name": "AMIS DOLPHIN",
+      "lat": 36.984405,
+      "lon": -76.01734,
+      "speed": 11,
+      "course": 322.9,
+      "heading": 323,
+      "ship_type": null,
+      "timestamp": "2026-11-02T02:40:29.566235+00:00"
+    },
+    {
+      "mmsi": 368015740,
+      "name": "PINNERS POINT",
+      "lat": 36.84961,
+      "lon": -76.31532333333332,
       "speed": 0,
-      "course": 97,
-      "heading": 511,
+      "course": 333.7,
+      "heading": 7,
       "ship_type": null,
-      "timestamp": "2026-11-01T23:22:09.227437+00:00"
+      "timestamp": "2026-11-02T02:40:34.232513+00:00"
     },
     {
-      "mmsi": 636019441,
-      "name": "POLYDEFKIS",
-      "lat": 37.229911666666666,
-      "lon": -76.10026666666666,
-      "speed": 0.2,
-      "course": 198.2,
-      "heading": 298,
-      "ship_type": null,
-      "timestamp": "2026-11-01T23:22:10.029042+00:00"
-    },
-    {
-      "mmsi": 366946840,
-      "name": "MEAGHAN MARIE",
-      "lat": 39.204125,
-      "lon": -76.48393333333334,
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.26072166666667,
+      "lon": -76.556165,
       "speed": 0,
-      "course": 248.3,
-      "heading": 359,
+      "course": 287.9,
+      "heading": 0,
       "ship_type": null,
-      "timestamp": "2026-11-01T23:22:10.029133+00:00"
+      "timestamp": "2026-11-02T02:40:35.131699+00:00"
     },
     {
-      "mmsi": 367438210,
-      "name": "AMERICAN INDEPENDENC",
-      "lat": 38.97656166666666,
-      "lon": -76.46923833333334,
-      "speed": 0.2,
-      "course": 38.1,
-      "heading": 89,
+      "mmsi": 367314640,
+      "name": "ROWAN M MCALLISTER",
+      "lat": 39.19462333333333,
+      "lon": -76.47973499999999,
+      "speed": 0.1,
+      "course": 336.9,
+      "heading": 337,
       "ship_type": null,
-      "timestamp": "2026-11-01T23:22:10.980498+00:00"
-    },
-    {
-      "mmsi": 367712350,
-      "name": "UNCLE MIKE",
-      "lat": 36.962610000000005,
-      "lon": -76.29584833333334,
-      "speed": 0,
-      "course": 25.7,
-      "heading": 42,
-      "ship_type": null,
-      "timestamp": "2026-11-01T23:22:11.979901+00:00"
-    },
-    {
-      "mmsi": 366081080,
-      "name": "ZEUS",
-      "lat": 36.94159333333334,
-      "lon": -76.35550666666667,
-      "speed": 0,
-      "course": 284.7,
-      "heading": 210,
-      "ship_type": null,
-      "timestamp": "2026-11-01T23:22:14.778526+00:00"
-    },
-    {
-      "mmsi": 368268250,
-      "name": "SOLITUDE",
-      "lat": 38.90228666666667,
-      "lon": -76.50712,
-      "speed": 0,
-      "course": 239.4,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-01T23:22:15.262200+00:00"
-    },
-    {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.226623333333336,
-      "lon": -76.58139,
-      "speed": 0,
-      "course": 164.9,
-      "heading": 140,
-      "ship_type": null,
-      "timestamp": "2026-11-01T23:22:17.100751+00:00"
+      "timestamp": "2026-11-02T02:40:36.679095+00:00"
     }
   ]
 }
