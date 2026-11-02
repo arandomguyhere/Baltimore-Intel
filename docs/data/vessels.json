@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-02T02:40:49.687003+00:00",
+  "collected_at": "2026-11-02T09:58:24.230804+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,73 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 6,
+  "vessel_count": 12,
   "vessels": [
     {
-      "mmsi": 367572040,
-      "name": "JENNIFER ANN",
-      "lat": 39.025686666666665,
-      "lon": -76.37356166666667,
-      "speed": 8,
-      "course": 353.1,
-      "heading": 350,
+      "mmsi": 563185800,
+      "name": "GCL KRISHNA",
+      "lat": 39.25701166666667,
+      "lon": -76.56514666666666,
+      "speed": 0,
+      "course": 220.7,
+      "heading": 358,
       "ship_type": null,
-      "timestamp": "2026-11-02T02:40:21.884215+00:00"
+      "timestamp": "2026-11-02T09:57:58.295658+00:00"
+    },
+    {
+      "mmsi": 367618310,
+      "name": "JUSTINE MCALLISTER",
+      "lat": 39.194005,
+      "lon": -76.47949666666666,
+      "speed": 0,
+      "course": 357.3,
+      "heading": 334,
+      "ship_type": null,
+      "timestamp": "2026-11-02T09:58:03.034864+00:00"
+    },
+    {
+      "mmsi": 319257000,
+      "name": "BEOTHUK",
+      "lat": 38.689854999999994,
+      "lon": -76.16821,
+      "speed": 0,
+      "course": 360,
+      "heading": 188,
+      "ship_type": null,
+      "timestamp": "2026-11-02T09:58:04.786180+00:00"
+    },
+    {
+      "mmsi": 367834000,
+      "name": "GARY I GORDON",
+      "lat": 39.269095,
+      "lon": -76.57093166666667,
+      "speed": 0,
+      "course": 233,
+      "heading": 266,
+      "ship_type": null,
+      "timestamp": "2026-11-02T09:58:09.137513+00:00"
+    },
+    {
+      "mmsi": 367841000,
+      "name": "TSV 1 PREVAIL",
+      "lat": 36.91509833333334,
+      "lon": -76.18280333333334,
+      "speed": 0,
+      "course": 293.6,
+      "heading": 273,
+      "ship_type": null,
+      "timestamp": "2026-11-02T09:58:10.680415+00:00"
+    },
+    {
+      "mmsi": 538010445,
+      "name": "ENERGY FIDELITY",
+      "lat": 36.94661333333333,
+      "lon": -75.97924333333334,
+      "speed": 8.5,
+      "course": 144.8,
+      "heading": 144,
+      "ship_type": null,
+      "timestamp": "2026-11-02T09:58:12.536807+00:00"
+    },
+    {
+      "mmsi": 367455140,
+      "name": "D.GRAY KIMEL",
+      "lat": 39.216528333333336,
+      "lon": -76.24998166666666,
+      "speed": 7.3,
+      "course": 205.4,
+      "heading": 202,
+      "ship_type": null,
+      "timestamp": "2026-11-02T09:58:13.619593+00:00"
+    },
+    {
+      "mmsi": 232061513,
+      "name": "STORM DIVER",
+      "lat": 36.92454333333333,
+      "lon": -76.19101333333333,
+      "speed": 0,
+      "course": 213.3,
+      "heading": 180,
+      "ship_type": null,
+      "timestamp": "2026-11-02T09:58:19.135286+00:00"
+    },
+    {
+      "mmsi": 367538350,
+      "name": "",
+      "lat": 36.962983333333334,
+      "lon": -76.29587333333333,
+      "speed": 0,
+      "course": 54.6,
+      "heading": 223,
+      "ship_type": null,
+      "timestamp": "2026-11-02T09:58:20.935615+00:00"
+    },
+    {
+      "mmsi": 368357570,
+      "name": "PAUL T. MORAN",
+      "lat": 36.96993666666666,
+      "lon": -76.43016833333333,
+      "speed": 0,
+      "course": 56.1,
+      "heading": 334,
+      "ship_type": null,
+      "timestamp": "2026-11-02T09:58:20.935748+00:00"
     },
     {
       "mmsi": 369970482,
       "name": "YP708",
-      "lat": 38.982845,
-      "lon": -76.46578666666666,
+      "lat": 38.98282833333334,
+      "lon": -76.46579666666666,
       "speed": 0,
-      "course": 214.4,
+      "course": 188.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-02T02:40:21.884303+00:00"
+      "timestamp": "2026-11-02T09:58:21.041004+00:00"
     },
     {
-      "mmsi": 372883000,
-      "name": "AMIS DOLPHIN",
-      "lat": 36.984405,
-      "lon": -76.01734,
-      "speed": 11,
-      "course": 322.9,
-      "heading": 323,
-      "ship_type": null,
-      "timestamp": "2026-11-02T02:40:29.566235+00:00"
-    },
-    {
-      "mmsi": 368015740,
-      "name": "PINNERS POINT",
-      "lat": 36.84961,
-      "lon": -76.31532333333332,
+      "mmsi": 368235760,
+      "name": "JAN MORAN",
+      "lat": 36.856665,
+      "lon": -76.33161833333334,
       "speed": 0,
-      "course": 333.7,
-      "heading": 7,
+      "course": 210.2,
+      "heading": 255,
       "ship_type": null,
-      "timestamp": "2026-11-02T02:40:34.232513+00:00"
-    },
-    {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.26072166666667,
-      "lon": -76.556165,
-      "speed": 0,
-      "course": 287.9,
-      "heading": 0,
-      "ship_type": null,
-      "timestamp": "2026-11-02T02:40:35.131699+00:00"
-    },
-    {
-      "mmsi": 367314640,
-      "name": "ROWAN M MCALLISTER",
-      "lat": 39.19462333333333,
-      "lon": -76.47973499999999,
-      "speed": 0.1,
-      "course": 336.9,
-      "heading": 337,
-      "ship_type": null,
-      "timestamp": "2026-11-02T02:40:36.679095+00:00"
+      "timestamp": "2026-11-02T09:58:23.500135+00:00"
     }
   ]
 }
