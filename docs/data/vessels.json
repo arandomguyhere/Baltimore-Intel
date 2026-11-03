@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-03T02:17:44.652745+00:00",
+  "collected_at": "2026-11-03T09:50:58.130640+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,95 +12,117 @@
       -75.8
     ]
   ],
-  "vessel_count": 8,
+  "vessel_count": 10,
   "vessels": [
     {
-      "mmsi": 255806180,
-      "name": "ONEGO TRADER",
-      "lat": 37.00945,
-      "lon": -76.24441666666667,
-      "speed": 10.8,
-      "course": 273.8,
-      "heading": 263,
+      "mmsi": 367465570,
+      "name": "CAPT MEL",
+      "lat": 37.03667166666666,
+      "lon": -76.19997333333335,
+      "speed": 5.7,
+      "course": 143.8,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-03T02:17:19.132999+00:00"
+      "timestamp": "2026-11-03T09:50:35.712807+00:00"
     },
     {
-      "mmsi": 367712350,
-      "name": "UNCLE MIKE",
-      "lat": 36.96299,
-      "lon": -76.29587166666667,
+      "mmsi": 368485480,
+      "name": "MARY MCALLISTER",
+      "lat": 36.962786666666666,
+      "lon": -76.42451833333332,
+      "speed": 0.1,
+      "course": 209.7,
+      "heading": 125,
+      "ship_type": null,
+      "timestamp": "2026-11-03T09:50:39.626220+00:00"
+    },
+    {
+      "mmsi": 368054460,
+      "name": "PAMLICO",
+      "lat": 36.83749,
+      "lon": -76.27093333333333,
       "speed": 0,
-      "course": 320.9,
-      "heading": 220,
+      "course": 336,
+      "heading": 359,
       "ship_type": null,
-      "timestamp": "2026-11-03T02:17:22.096565+00:00"
+      "timestamp": "2026-11-03T09:50:41.433694+00:00"
     },
     {
-      "mmsi": 368777000,
-      "name": "CG JAMES RANKIN",
-      "lat": 39.20006166666667,
-      "lon": -76.57400333333334,
+      "mmsi": 368187510,
+      "name": "SPIRIT OF WASHINGTON",
+      "lat": 39.04055,
+      "lon": -76.34413333333333,
+      "speed": 9,
+      "course": 32.6,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-03T09:50:51.436126+00:00"
+    },
+    {
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.96700333333333,
+      "lon": -76.47813333333333,
+      "speed": 0.1,
+      "course": 175.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-03T09:50:52.181072+00:00"
+    },
+    {
+      "mmsi": 368382440,
+      "name": "PATRICIA B. MORAN",
+      "lat": 36.915926666666664,
+      "lon": -76.33026,
       "speed": 0,
-      "course": 39.5,
-      "heading": 148,
+      "course": 262.9,
+      "heading": 237,
       "ship_type": null,
-      "timestamp": "2026-11-03T02:17:25.478203+00:00"
+      "timestamp": "2026-11-03T09:50:52.181143+00:00"
     },
     {
-      "mmsi": 339067000,
-      "name": "OCEANUS V",
-      "lat": 36.91952333333334,
-      "lon": -76.18283333333333,
+      "mmsi": 367594490,
+      "name": "TRIXIE",
+      "lat": 39.36299666666666,
+      "lon": -75.88414166666666,
       "speed": 0,
-      "course": 359.6,
-      "heading": 271,
+      "course": 252.5,
+      "heading": 0,
       "ship_type": null,
-      "timestamp": "2026-11-03T02:17:27.502323+00:00"
+      "timestamp": "2026-11-03T09:50:52.282426+00:00"
     },
     {
-      "mmsi": 232061513,
-      "name": "STORM DIVER",
-      "lat": 36.924549999999996,
-      "lon": -76.19102,
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.266949999999994,
+      "lon": -76.57951166666666,
       "speed": 0,
-      "course": 213.3,
-      "heading": 179,
+      "course": 216.8,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-03T02:17:28.195680+00:00"
+      "timestamp": "2026-11-03T09:50:52.414802+00:00"
     },
     {
-      "mmsi": 215797000,
-      "name": "ATLANTIC STAR",
-      "lat": 37.1227,
-      "lon": -76.13529333333332,
-      "speed": 14.1,
-      "course": 339.4,
-      "heading": 339,
+      "mmsi": 368888000,
+      "name": "BURLINGTON",
+      "lat": 36.86691833333334,
+      "lon": -76.31735666666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-03T02:17:30.932072+00:00"
+      "timestamp": "2026-11-03T09:50:52.611314+00:00"
     },
     {
       "mmsi": 367483830,
       "name": "LYNNE MORAN",
-      "lat": 39.24321166666667,
-      "lon": -76.55623,
-      "speed": 6.2,
-      "course": 337.3,
-      "heading": 338,
-      "ship_type": null,
-      "timestamp": "2026-11-03T02:17:34.327982+00:00"
-    },
-    {
-      "mmsi": 366837130,
-      "name": "SUSAN MORAN",
-      "lat": 36.95428833333334,
-      "lon": -76.32769833333333,
+      "lat": 39.26074833333333,
+      "lon": -76.556185,
       "speed": 0,
-      "course": 262,
-      "heading": 11,
+      "course": 298.4,
+      "heading": 0,
       "ship_type": null,
-      "timestamp": "2026-11-03T02:17:43.432991+00:00"
+      "timestamp": "2026-11-03T09:50:54.380863+00:00"
     }
   ]
 }
