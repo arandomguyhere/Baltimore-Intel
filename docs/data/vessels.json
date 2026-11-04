@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-04T02:42:56.885697+00:00",
+  "collected_at": "2026-11-04T09:53:30.388778+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,73 +12,62 @@
       -75.8
     ]
   ],
-  "vessel_count": 6,
+  "vessel_count": 5,
   "vessels": [
     {
-      "mmsi": 367334360,
-      "name": "ROSS SEA",
-      "lat": 38.11132333333333,
-      "lon": -76.26235,
-      "speed": 9,
-      "course": 351.4,
-      "heading": 348,
-      "ship_type": null,
-      "timestamp": "2026-11-04T02:42:31.889843+00:00"
-    },
-    {
-      "mmsi": 367361960,
-      "name": "ATB BROWNSVILLE",
-      "lat": 36.96091,
-      "lon": -76.41669666666667,
+      "mmsi": 338924074,
+      "name": "CAPE SUAREZ POINT",
+      "lat": 36.868065,
+      "lon": -76.31846166666666,
       "speed": 0,
-      "course": 29.4,
-      "heading": 7,
+      "course": 142.2,
+      "heading": 228,
       "ship_type": null,
-      "timestamp": "2026-11-04T02:42:33.666197+00:00"
+      "timestamp": "2026-11-04T09:53:04.021127+00:00"
     },
     {
-      "mmsi": 338590000,
-      "name": "PROSPECT PARK",
-      "lat": 39.273646666666664,
-      "lon": -76.57298166666666,
+      "mmsi": 367082130,
+      "name": "TIMOTHY MCALLISTER",
+      "lat": 39.23988166666666,
+      "lon": -76.529015,
+      "speed": 6.2,
+      "course": 64.9,
+      "heading": 55,
+      "ship_type": null,
+      "timestamp": "2026-11-04T09:53:13.170910+00:00"
+    },
+    {
+      "mmsi": 352002148,
+      "name": "ALBATROSS",
+      "lat": 38.966901666666665,
+      "lon": -76.406355,
       "speed": 0,
-      "course": 274,
-      "heading": 146,
+      "course": 90,
+      "heading": 134,
       "ship_type": null,
-      "timestamp": "2026-11-04T02:42:38.444466+00:00"
+      "timestamp": "2026-11-04T09:53:20.270118+00:00"
     },
     {
-      "mmsi": 351780000,
-      "name": "MARTORELL",
-      "lat": 38.427699999999994,
-      "lon": -76.36558333333333,
-      "speed": 17.5,
-      "course": 158,
-      "heading": 159,
+      "mmsi": 367594490,
+      "name": "TRIXIE",
+      "lat": 39.36298333333333,
+      "lon": -75.884125,
+      "speed": 0,
+      "course": 260.2,
+      "heading": 80,
       "ship_type": null,
-      "timestamp": "2026-11-04T02:42:50.404645+00:00"
+      "timestamp": "2026-11-04T09:53:23.213521+00:00"
     },
     {
-      "mmsi": 368193830,
-      "name": "ROCK HALL",
-      "lat": 39.21237833333333,
-      "lon": -76.25182333333333,
-      "speed": 9.3,
-      "course": 24.4,
-      "heading": 26,
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.967038333333335,
+      "lon": -76.47817666666667,
+      "speed": 0.1,
+      "course": 199.4,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-04T02:42:52.509487+00:00"
-    },
-    {
-      "mmsi": 367161960,
-      "name": "TIMOTHY M",
-      "lat": 38.140049999999995,
-      "lon": -76.25853333333333,
-      "speed": 9.5,
-      "course": 347.6,
-      "heading": 348,
-      "ship_type": null,
-      "timestamp": "2026-11-04T02:42:53.286882+00:00"
+      "timestamp": "2026-11-04T09:53:25.880384+00:00"
     }
   ]
 }
