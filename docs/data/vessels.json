@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-04T09:53:30.388778+00:00",
+  "collected_at": "2026-11-04T17:44:48.739644+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,62 +12,161 @@
       -75.8
     ]
   ],
-  "vessel_count": 5,
+  "vessel_count": 14,
   "vessels": [
     {
-      "mmsi": 338924074,
-      "name": "CAPE SUAREZ POINT",
-      "lat": 36.868065,
-      "lon": -76.31846166666666,
+      "mmsi": 368727000,
+      "name": "USAV LSV5 MG GROSS",
+      "lat": 37.04889166666667,
+      "lon": -76.54978833333332,
+      "speed": 8.2,
+      "course": 303.6,
+      "heading": 302,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:22.830746+00:00"
+    },
+    {
+      "mmsi": 319257000,
+      "name": "BEOTHUK",
+      "lat": 38.689838333333334,
+      "lon": -76.16814666666667,
       "speed": 0,
-      "course": 142.2,
-      "heading": 228,
+      "course": 360,
+      "heading": 188,
       "ship_type": null,
-      "timestamp": "2026-11-04T09:53:04.021127+00:00"
+      "timestamp": "2026-11-04T17:44:25.265663+00:00"
     },
     {
-      "mmsi": 367082130,
-      "name": "TIMOTHY MCALLISTER",
-      "lat": 39.23988166666666,
-      "lon": -76.529015,
-      "speed": 6.2,
-      "course": 64.9,
-      "heading": 55,
-      "ship_type": null,
-      "timestamp": "2026-11-04T09:53:13.170910+00:00"
-    },
-    {
-      "mmsi": 352002148,
-      "name": "ALBATROSS",
-      "lat": 38.966901666666665,
-      "lon": -76.406355,
-      "speed": 0,
-      "course": 90,
-      "heading": 134,
-      "ship_type": null,
-      "timestamp": "2026-11-04T09:53:20.270118+00:00"
-    },
-    {
-      "mmsi": 367594490,
-      "name": "TRIXIE",
-      "lat": 39.36298333333333,
-      "lon": -75.884125,
-      "speed": 0,
-      "course": 260.2,
-      "heading": 80,
-      "ship_type": null,
-      "timestamp": "2026-11-04T09:53:23.213521+00:00"
-    },
-    {
-      "mmsi": 366878280,
-      "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.967038333333335,
-      "lon": -76.47817666666667,
-      "speed": 0.1,
-      "course": 199.4,
+      "mmsi": 367097970,
+      "name": "CRYSTAL COAST",
+      "lat": 36.913106666666664,
+      "lon": -76.33985833333332,
+      "speed": 6.7,
+      "course": 347.1,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-04T09:53:25.880384+00:00"
+      "timestamp": "2026-11-04T17:44:26.020076+00:00"
+    },
+    {
+      "mmsi": 338514578,
+      "name": "KLASY LADY FB19",
+      "lat": 39.014275,
+      "lon": -76.40232833333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:26.312805+00:00"
+    },
+    {
+      "mmsi": 303829003,
+      "name": "TSV-5 VINDICATOR",
+      "lat": 36.916105,
+      "lon": -76.18209,
+      "speed": 0,
+      "course": 259,
+      "heading": 90,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:31.895000+00:00"
+    },
+    {
+      "mmsi": 367686270,
+      "name": "STASINOS BOYS",
+      "lat": 36.94930166666666,
+      "lon": -76.01302833333332,
+      "speed": 6.4,
+      "course": 291,
+      "heading": 290,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:34.003500+00:00"
+    },
+    {
+      "mmsi": 367432880,
+      "name": "MARCI MORAN",
+      "lat": 36.95856166666667,
+      "lon": -76.330185,
+      "speed": 1.6,
+      "course": 238.9,
+      "heading": 244,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:35.117413+00:00"
+    },
+    {
+      "mmsi": 303615000,
+      "name": "PRIDE OF BALTIMORE 2",
+      "lat": 39.267968333333336,
+      "lon": -76.57468,
+      "speed": 3.8,
+      "course": 180.3,
+      "heading": 173,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:38.915223+00:00"
+    },
+    {
+      "mmsi": 367309860,
+      "name": "ALICIA F. MCALLISTER",
+      "lat": 36.95175,
+      "lon": -76.34043166666667,
+      "speed": 10.9,
+      "course": 136,
+      "heading": 133,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:39.259036+00:00"
+    },
+    {
+      "mmsi": 636024193,
+      "name": "MSC TEMA VIII",
+      "lat": 36.87901166666666,
+      "lon": -76.35009,
+      "speed": 0.4,
+      "course": 326,
+      "heading": 344,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:39.982703+00:00"
+    },
+    {
+      "mmsi": 367029690,
+      "name": "IVORY COAST",
+      "lat": 39.35409833333333,
+      "lon": -76.15880166666668,
+      "speed": 9.8,
+      "course": 57.6,
+      "heading": 58,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:42.430462+00:00"
+    },
+    {
+      "mmsi": 338924134,
+      "name": "WARSHIP",
+      "lat": 36.94148499999999,
+      "lon": -76.33678833333333,
+      "speed": 2.1,
+      "course": 162,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:42.717133+00:00"
+    },
+    {
+      "mmsi": 368409350,
+      "name": "OLD DOMINION",
+      "lat": 36.96159,
+      "lon": -76.410805,
+      "speed": 5.5,
+      "course": 332,
+      "heading": 335,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:42.887719+00:00"
+    },
+    {
+      "mmsi": 367361960,
+      "name": "ATB BROWNSVILLE",
+      "lat": 36.960860000000004,
+      "lon": -76.41668,
+      "speed": 0,
+      "course": 29,
+      "heading": 8,
+      "ship_type": null,
+      "timestamp": "2026-11-04T17:44:45.613884+00:00"
     }
   ]
 }
