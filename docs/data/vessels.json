@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-05T10:54:36.372261+00:00",
+  "collected_at": "2026-11-05T18:31:25.686300+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,40 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 3,
+  "vessel_count": 11,
   "vessels": [
     {
-      "mmsi": 372067000,
-      "name": "SANTA ALEXANDRA",
-      "lat": 39.20267333333334,
-      "lon": -76.48207833333332,
-      "speed": 0,
-      "course": 12,
-      "heading": 175,
-      "ship_type": null,
-      "timestamp": "2026-11-05T10:54:07.806073+00:00"
-    },
-    {
-      "mmsi": 636026606,
-      "name": "KEN MARE",
-      "lat": 38.909009999999995,
-      "lon": -76.40159666666666,
-      "speed": 0.1,
-      "course": 75.7,
-      "heading": 153,
-      "ship_type": null,
-      "timestamp": "2026-11-05T10:54:15.967242+00:00"
-    },
-    {
-      "mmsi": 367634660,
-      "name": "IDA M",
-      "lat": 36.96162666666667,
-      "lon": -76.40973000000001,
-      "speed": 0,
-      "course": 274.2,
+      "mmsi": 367098270,
+      "name": "PALM COAST",
+      "lat": 38.092438333333334,
+      "lon": -76.48215333333333,
+      "speed": 8.2,
+      "course": 124.8,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-05T10:54:21.292891+00:00"
+      "timestamp": "2026-11-05T18:30:57.354976+00:00"
+    },
+    {
+      "mmsi": 255915639,
+      "name": "EDGAR",
+      "lat": 38.92181333333333,
+      "lon": -76.41825333333333,
+      "speed": 0,
+      "course": 189,
+      "heading": 189,
+      "ship_type": null,
+      "timestamp": "2026-11-05T18:30:59.042941+00:00"
+    },
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.268836666666665,
+      "lon": -76.58088833333333,
+      "speed": 0,
+      "course": 258.8,
+      "heading": 204,
+      "ship_type": null,
+      "timestamp": "2026-11-05T18:31:03.274967+00:00"
+    },
+    {
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.218395,
+      "lon": -76.52500666666667,
+      "speed": 0,
+      "course": 222.3,
+      "heading": 222,
+      "ship_type": null,
+      "timestamp": "2026-11-05T18:31:10.184365+00:00"
+    },
+    {
+      "mmsi": 367474640,
+      "name": "CAPE ELIZABETH",
+      "lat": 39.19526166666667,
+      "lon": -76.47934333333333,
+      "speed": 0.4,
+      "course": 139.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-05T18:31:12.368377+00:00"
+    },
+    {
+      "mmsi": 636021127,
+      "name": "OUTRIDER",
+      "lat": 36.95290333333333,
+      "lon": -76.36171666666668,
+      "speed": 0,
+      "course": 353.5,
+      "heading": 243,
+      "ship_type": null,
+      "timestamp": "2026-11-05T18:31:15.350711+00:00"
+    },
+    {
+      "mmsi": 338803001,
+      "name": "",
+      "lat": 36.955306666666665,
+      "lon": -76.33088666666666,
+      "speed": 0,
+      "course": 157.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-05T18:31:17.225498+00:00"
+    },
+    {
+      "mmsi": 367519170,
+      "name": "PATRICIA",
+      "lat": 36.967365,
+      "lon": -76.42867,
+      "speed": 0,
+      "course": 47.1,
+      "heading": 180,
+      "ship_type": null,
+      "timestamp": "2026-11-05T18:31:18.770084+00:00"
+    },
+    {
+      "mmsi": 368258880,
+      "name": "HARRY S",
+      "lat": 36.92854666666666,
+      "lon": -76.33153333333333,
+      "speed": 0,
+      "course": 167.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-05T18:31:19.024636+00:00"
+    },
+    {
+      "mmsi": 367538350,
+      "name": "",
+      "lat": 36.982960000000006,
+      "lon": -76.3049,
+      "speed": 0,
+      "course": 13.7,
+      "heading": 57,
+      "ship_type": null,
+      "timestamp": "2026-11-05T18:31:20.471428+00:00"
+    },
+    {
+      "mmsi": 367304020,
+      "name": "JACKIE F. MCALLISTER",
+      "lat": 39.20511,
+      "lon": -76.50589333333333,
+      "speed": 0.1,
+      "course": 191.2,
+      "heading": 114,
+      "ship_type": null,
+      "timestamp": "2026-11-05T18:31:22.332917+00:00"
     }
   ]
 }
