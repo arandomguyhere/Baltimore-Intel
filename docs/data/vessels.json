@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T19:52:20.286864+00:00",
+  "collected_at": "2026-11-06T23:57:17.433153+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,40 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 3,
+  "vessel_count": 11,
   "vessels": [
     {
-      "mmsi": 256854000,
-      "name": "CMA CGM SILVERSTONE",
-      "lat": 38.215715,
-      "lon": -76.250695,
-      "speed": 16.5,
-      "course": 338.5,
-      "heading": 339,
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.226,
+      "lon": -76.54033333333334,
+      "speed": 0.1,
+      "course": 132.6,
+      "heading": 324,
       "ship_type": null,
-      "timestamp": "2026-11-06T19:51:57.210264+00:00"
+      "timestamp": "2026-11-06T23:57:01.127071+00:00"
     },
     {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.268831666666664,
-      "lon": -76.58091833333333,
+      "mmsi": 303615000,
+      "name": "PRIDE OF BALTIMORE 2",
+      "lat": 39.26962666666667,
+      "lon": -76.56952333333334,
       "speed": 0,
-      "course": 20.4,
-      "heading": 204,
+      "course": 208.6,
+      "heading": 87,
       "ship_type": null,
-      "timestamp": "2026-11-06T19:52:03.018584+00:00"
+      "timestamp": "2026-11-06T23:56:50.136122+00:00"
     },
     {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.219561666666664,
-      "lon": -76.56022166666666,
+      "mmsi": 431527000,
+      "name": "FRONTIER ACE",
+      "lat": 39.25045166666666,
+      "lon": -76.58074833333333,
       "speed": 0,
-      "course": 204.2,
-      "heading": 109,
+      "course": 283.5,
+      "heading": 32,
       "ship_type": null,
-      "timestamp": "2026-11-06T19:52:13.813599+00:00"
+      "timestamp": "2026-11-06T23:56:53.098670+00:00"
+    },
+    {
+      "mmsi": 338329000,
+      "name": "KINGS POINT",
+      "lat": 39.24345666666667,
+      "lon": -76.57034666666667,
+      "speed": 102.3,
+      "course": 360,
+      "heading": 80,
+      "ship_type": null,
+      "timestamp": "2026-11-06T23:56:53.358331+00:00"
+    },
+    {
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.266936666666666,
+      "lon": -76.57949666666667,
+      "speed": 0,
+      "course": 293,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-06T23:56:54.157202+00:00"
+    },
+    {
+      "mmsi": 368185620,
+      "name": "FELLS POINT",
+      "lat": 39.255736666666664,
+      "lon": -76.53493666666667,
+      "speed": 0,
+      "course": 17.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-06T23:56:55.801814+00:00"
+    },
+    {
+      "mmsi": 366926050,
+      "name": "RV SPERRY STAR III",
+      "lat": 38.979115,
+      "lon": -76.33272333333333,
+      "speed": 0.1,
+      "course": 171.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-06T23:56:56.775626+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.213451666666664,
+      "lon": -76.57938833333333,
+      "speed": 0.5,
+      "course": 226.2,
+      "heading": 235,
+      "ship_type": null,
+      "timestamp": "2026-11-06T23:57:01.035254+00:00"
+    },
+    {
+      "mmsi": 367619930,
+      "name": "LADY THAMES",
+      "lat": 39.27695333333334,
+      "lon": -76.580995,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-06T23:57:01.127129+00:00"
+    },
+    {
+      "mmsi": 369493601,
+      "name": "CG45601",
+      "lat": 36.923156666666664,
+      "lon": -76.19059666666666,
+      "speed": 0,
+      "course": 315,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-06T23:57:04.290706+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.26911,
+      "lon": -76.580765,
+      "speed": 0,
+      "course": 166.2,
+      "heading": 208,
+      "ship_type": null,
+      "timestamp": "2026-11-06T23:57:15.055754+00:00"
     }
   ]
 }
