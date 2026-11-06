@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-06T12:56:54.117560+00:00",
+  "collected_at": "2026-11-06T19:52:20.286864+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,117 +12,40 @@
       -75.8
     ]
   ],
-  "vessel_count": 10,
+  "vessel_count": 3,
   "vessels": [
     {
-      "mmsi": 367438210,
-      "name": "AMERICAN INDEPENDENC",
-      "lat": 39.28355166666667,
-      "lon": -76.60578666666667,
-      "speed": 0.1,
-      "course": 143.4,
-      "heading": 300,
+      "mmsi": 256854000,
+      "name": "CMA CGM SILVERSTONE",
+      "lat": 38.215715,
+      "lon": -76.250695,
+      "speed": 16.5,
+      "course": 338.5,
+      "heading": 339,
       "ship_type": null,
-      "timestamp": "2026-11-06T12:56:25.214793+00:00"
+      "timestamp": "2026-11-06T19:51:57.210264+00:00"
     },
     {
-      "mmsi": 367474640,
-      "name": "CAPE ELIZABETH",
-      "lat": 39.234856666666666,
-      "lon": -76.55036833333334,
-      "speed": 12.9,
-      "course": 138.7,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-06T12:56:27.450233+00:00"
-    },
-    {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.254,
-      "lon": -76.5485,
-      "speed": 8.7,
-      "course": 299.9,
-      "heading": 295,
-      "ship_type": null,
-      "timestamp": "2026-11-06T12:56:27.969246+00:00"
-    },
-    {
-      "mmsi": 366837130,
-      "name": "SUSAN MORAN",
-      "lat": 36.94235333333334,
-      "lon": -76.32669,
-      "speed": 0.1,
-      "course": 233.2,
-      "heading": 92,
-      "ship_type": null,
-      "timestamp": "2026-11-06T12:56:29.835386+00:00"
-    },
-    {
-      "mmsi": 303994000,
-      "name": "CAPE WRATH",
-      "lat": 39.26198333333333,
-      "lon": -76.60133333333333,
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.268831666666664,
+      "lon": -76.58091833333333,
       "speed": 0,
-      "course": 0,
-      "heading": 511,
+      "course": 20.4,
+      "heading": 204,
       "ship_type": null,
-      "timestamp": "2026-11-06T12:56:30.560992+00:00"
+      "timestamp": "2026-11-06T19:52:03.018584+00:00"
     },
     {
-      "mmsi": 338902000,
-      "name": "CORNELIUS H CHARLTON",
-      "lat": 39.27234,
-      "lon": -76.58702166666667,
-      "speed": 0.1,
-      "course": 124.4,
-      "heading": 24,
-      "ship_type": null,
-      "timestamp": "2026-11-06T12:56:33.176359+00:00"
-    },
-    {
-      "mmsi": 368382440,
-      "name": "PATRICIA B. MORAN",
-      "lat": 36.915798333333335,
-      "lon": -76.33113666666667,
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.219561666666664,
+      "lon": -76.56022166666666,
       "speed": 0,
-      "course": 144.1,
-      "heading": 263,
+      "course": 204.2,
+      "heading": 109,
       "ship_type": null,
-      "timestamp": "2026-11-06T12:56:34.036670+00:00"
-    },
-    {
-      "mmsi": 366960410,
-      "name": "MISS JENNIFER",
-      "lat": 36.858621666666664,
-      "lon": -76.349615,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-06T12:56:34.899155+00:00"
-    },
-    {
-      "mmsi": 338329000,
-      "name": "KINGS POINT",
-      "lat": 39.24819166666667,
-      "lon": -76.57334666666667,
-      "speed": 102.3,
-      "course": 360,
-      "heading": 337,
-      "ship_type": null,
-      "timestamp": "2026-11-06T12:56:37.466601+00:00"
-    },
-    {
-      "mmsi": 368396250,
-      "name": "ISABEL MCALLISTER",
-      "lat": 39.26915333333333,
-      "lon": -76.58084833333334,
-      "speed": 0,
-      "course": 345.9,
-      "heading": 207,
-      "ship_type": null,
-      "timestamp": "2026-11-06T12:56:46.529588+00:00"
+      "timestamp": "2026-11-06T19:52:13.813599+00:00"
     }
   ]
 }
