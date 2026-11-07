@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-07T05:07:21.534294+00:00",
+  "collected_at": "2026-11-07T11:43:53.560219+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,95 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 8,
   "vessels": [
     {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.25833333333333,
-      "lon": -76.55383333333333,
-      "speed": 6.5,
-      "course": 188.1,
-      "heading": 187,
+      "mmsi": 367314640,
+      "name": "ROWAN M MCALLISTER",
+      "lat": 39.10295166666666,
+      "lon": -76.39426666666667,
+      "speed": 5.5,
+      "course": 1.2,
+      "heading": 354,
       "ship_type": null,
-      "timestamp": "2026-11-07T05:06:55.400607+00:00"
+      "timestamp": "2026-11-07T11:43:26.925784+00:00"
     },
     {
-      "mmsi": 369970480,
-      "name": "YP706",
-      "lat": 38.98413333333333,
-      "lon": -76.46736666666668,
-      "speed": 0,
-      "course": 333,
-      "heading": 511,
+      "mmsi": 367558180,
+      "name": "POTOMAC",
+      "lat": 39.377485,
+      "lon": -76.10910333333332,
+      "speed": 8.1,
+      "course": 238.9,
+      "heading": 239,
       "ship_type": null,
-      "timestamp": "2026-11-07T05:06:57.113441+00:00"
+      "timestamp": "2026-11-07T11:43:31.012472+00:00"
     },
     {
-      "mmsi": 538009817,
-      "name": "VIKING PASSERO",
-      "lat": 39.25572,
-      "lon": -76.53566666666667,
-      "speed": 0,
-      "course": 133.4,
-      "heading": 14,
+      "mmsi": 367594490,
+      "name": "TRIXIE",
+      "lat": 39.36302166666667,
+      "lon": -75.884145,
+      "speed": 0.1,
+      "course": 182.8,
+      "heading": 0,
       "ship_type": null,
-      "timestamp": "2026-11-07T05:07:00.178129+00:00"
+      "timestamp": "2026-11-07T11:43:33.715943+00:00"
     },
     {
       "mmsi": 366878280,
       "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.96707833333333,
-      "lon": -76.47813333333333,
+      "lat": 38.96704833333333,
+      "lon": -76.47811666666666,
       "speed": 0.1,
-      "course": 194.4,
+      "course": 182.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-07T05:07:00.999405+00:00"
+      "timestamp": "2026-11-07T11:43:35.844140+00:00"
     },
     {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.26698833333333,
-      "lon": -76.57950000000001,
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.22099333333333,
+      "lon": -76.56759666666667,
+      "speed": 5.7,
+      "course": 87,
+      "heading": 87,
+      "ship_type": null,
+      "timestamp": "2026-11-07T11:43:38.073033+00:00"
+    },
+    {
+      "mmsi": 338243006,
+      "name": "EMMANOU",
+      "lat": 37.01689,
+      "lon": -76.34207333333333,
       "speed": 0,
-      "course": 303.6,
+      "course": 187.9,
+      "heading": 89,
+      "ship_type": null,
+      "timestamp": "2026-11-07T11:43:38.748937+00:00"
+    },
+    {
+      "mmsi": 368185620,
+      "name": "FELLS POINT",
+      "lat": 39.25577,
+      "lon": -76.53495833333334,
+      "speed": 0,
+      "course": 246.2,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-07T05:07:04.433131+00:00"
+      "timestamp": "2026-11-07T11:43:50.960404+00:00"
     },
     {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.225024999999995,
-      "lon": -76.57987,
-      "speed": 0,
-      "course": 258,
-      "heading": 327,
+      "mmsi": 255916252,
+      "name": "INDUSTRIAL DART",
+      "lat": 38.77778166666667,
+      "lon": -76.42514833333333,
+      "speed": 13.6,
+      "course": 7,
+      "heading": 8,
       "ship_type": null,
-      "timestamp": "2026-11-07T05:07:05.450021+00:00"
-    },
-    {
-      "mmsi": 565449000,
-      "name": "MAERSK SERANGOON",
-      "lat": 38.68407333333334,
-      "lon": -76.42351166666667,
-      "speed": 18.9,
-      "course": 165.5,
-      "heading": 167,
-      "ship_type": null,
-      "timestamp": "2026-11-07T05:07:06.577412+00:00"
+      "timestamp": "2026-11-07T11:43:52.551654+00:00"
     }
   ]
 }
