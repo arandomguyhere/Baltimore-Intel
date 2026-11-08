@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-08T13:12:37.549710+00:00",
+  "collected_at": "2026-11-08T18:22:01.812544+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,29 +12,150 @@
       -75.8
     ]
   ],
-  "vessel_count": 2,
+  "vessel_count": 13,
   "vessels": [
     {
-      "mmsi": 367618310,
-      "name": "JUSTINE MCALLISTER",
-      "lat": 38.70699333333334,
-      "lon": -76.45164,
-      "speed": 7.8,
-      "course": 179.2,
-      "heading": 177,
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.96701666666667,
+      "lon": -76.47813,
+      "speed": 0.2,
+      "course": 184.3,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-08T13:12:13.196288+00:00"
+      "timestamp": "2026-11-08T18:21:36.651934+00:00"
     },
     {
-      "mmsi": 304060000,
-      "name": "MARIA",
-      "lat": 36.85902166666666,
-      "lon": -76.323345,
-      "speed": 1.6,
-      "course": 37.5,
+      "mmsi": 636025013,
+      "name": "MSC MARSEILLE",
+      "lat": 39.25358833333333,
+      "lon": -76.546525,
+      "speed": 0,
+      "course": 335.9,
+      "heading": 307,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:21:36.785558+00:00"
+    },
+    {
+      "mmsi": 367611520,
+      "name": "WASHINGTON",
+      "lat": 36.93089833333333,
+      "lon": -76.32961833333334,
+      "speed": 0,
+      "course": 1.4,
+      "heading": 85,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:21:37.748155+00:00"
+    },
+    {
+      "mmsi": 367161960,
+      "name": "TIMOTHY M",
+      "lat": 38.71391666666667,
+      "lon": -76.4359,
+      "speed": 9.5,
+      "course": 359.9,
+      "heading": 359,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:21:38.982939+00:00"
+    },
+    {
+      "mmsi": 563199200,
+      "name": "ARMADA 78 08",
+      "lat": 36.919268333333335,
+      "lon": -76.18218,
+      "speed": 0,
+      "course": 274.7,
+      "heading": 93,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:21:39.922921+00:00"
+    },
+    {
+      "mmsi": 367304020,
+      "name": "JACKIE F. MCALLISTER",
+      "lat": 39.26859833333333,
+      "lon": -76.58113333333334,
+      "speed": 0,
+      "course": 230.1,
+      "heading": 206,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:21:42.005736+00:00"
+    },
+    {
+      "mmsi": 538004940,
+      "name": "ALAN",
+      "lat": 36.879956666666665,
+      "lon": -76.33106500000001,
+      "speed": 0,
+      "course": 322.3,
+      "heading": 95,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:21:42.402460+00:00"
+    },
+    {
+      "mmsi": 636026606,
+      "name": "KEN MARE",
+      "lat": 38.90683166666667,
+      "lon": -76.397615,
+      "speed": 0.2,
+      "course": 5.6,
       "heading": 265,
       "ship_type": null,
-      "timestamp": "2026-11-08T13:12:33.417262+00:00"
+      "timestamp": "2026-11-08T18:21:42.745985+00:00"
+    },
+    {
+      "mmsi": 367029690,
+      "name": "IVORY COAST",
+      "lat": 38.980599999999995,
+      "lon": -76.38732833333333,
+      "speed": 6.4,
+      "course": 197.2,
+      "heading": 199,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:21:43.972395+00:00"
+    },
+    {
+      "mmsi": 367091990,
+      "name": "MERRIMAC",
+      "lat": 36.8679,
+      "lon": -76.32565833333334,
+      "speed": 6.2,
+      "course": 310.6,
+      "heading": 308,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:21:50.351177+00:00"
+    },
+    {
+      "mmsi": 338360438,
+      "name": "HALCYON",
+      "lat": 38.96288166666667,
+      "lon": -76.39570666666667,
+      "speed": 9.5,
+      "course": 198.7,
+      "heading": 204,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:21:54.001090+00:00"
+    },
+    {
+      "mmsi": 205436000,
+      "name": "GOLDEN FROZEN",
+      "lat": 38.94742833333333,
+      "lon": -76.416505,
+      "speed": 0,
+      "course": 359.6,
+      "heading": 236,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:21:56.324811+00:00"
+    },
+    {
+      "mmsi": 368427930,
+      "name": "POUR VOUS",
+      "lat": 38.902501666666666,
+      "lon": -76.50717333333334,
+      "speed": 0,
+      "course": 82,
+      "heading": 352,
+      "ship_type": null,
+      "timestamp": "2026-11-08T18:22:00.765802+00:00"
     }
   ]
 }
