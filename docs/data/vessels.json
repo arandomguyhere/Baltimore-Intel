@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-08T00:11:06.585118+00:00",
+  "collected_at": "2026-11-08T05:59:53.560408+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,51 +12,84 @@
       -75.8
     ]
   ],
-  "vessel_count": 4,
+  "vessel_count": 7,
   "vessels": [
     {
-      "mmsi": 367585850,
-      "name": "HOS RED ROCK",
-      "lat": 36.92054333333333,
-      "lon": -76.18182666666667,
-      "speed": 0,
-      "course": 270.5,
-      "heading": 91,
-      "ship_type": null,
-      "timestamp": "2026-11-08T00:10:37.970656+00:00"
-    },
-    {
-      "mmsi": 367541760,
-      "name": "WINNING DRIVE",
-      "lat": 38.973926666666664,
-      "lon": -76.48409333333333,
-      "speed": 0,
-      "course": 330.3,
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.220553333333335,
+      "lon": -76.528785,
+      "speed": 9.1,
+      "course": 328.8,
       "heading": 327,
       "ship_type": null,
-      "timestamp": "2026-11-08T00:10:47.680535+00:00"
+      "timestamp": "2026-11-08T05:59:28.398014+00:00"
     },
     {
-      "mmsi": 352002148,
-      "name": "ALBATROSS",
-      "lat": 38.94617166666667,
-      "lon": -76.40223666666667,
+      "mmsi": 563199200,
+      "name": "ARMADA 78 08",
+      "lat": 36.919268333333335,
+      "lon": -76.182175,
       "speed": 0,
-      "course": 225.9,
-      "heading": 314,
+      "course": 251.9,
+      "heading": 94,
       "ship_type": null,
-      "timestamp": "2026-11-08T00:10:49.213215+00:00"
+      "timestamp": "2026-11-08T05:59:33.006952+00:00"
     },
     {
-      "mmsi": 366999705,
-      "name": "CG_POMPANO",
-      "lat": 36.91296666666666,
-      "lon": -76.17651500000001,
+      "mmsi": 338902000,
+      "name": "CORNELIUS H CHARLTON",
+      "lat": 39.272331666666666,
+      "lon": -76.58699666666666,
       "speed": 0.1,
-      "course": 360,
-      "heading": 199,
+      "course": 327.7,
+      "heading": 24,
       "ship_type": null,
-      "timestamp": "2026-11-08T00:10:52.953033+00:00"
+      "timestamp": "2026-11-08T05:59:34.831513+00:00"
+    },
+    {
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.26016666666667,
+      "lon": -76.55300000000001,
+      "speed": 0.1,
+      "course": 194.5,
+      "heading": 270,
+      "ship_type": null,
+      "timestamp": "2026-11-08T05:59:37.651106+00:00"
+    },
+    {
+      "mmsi": 249909000,
+      "name": "TYSLA",
+      "lat": 39.24444333333334,
+      "lon": -76.53792666666666,
+      "speed": 0,
+      "course": 125.9,
+      "heading": 323,
+      "ship_type": null,
+      "timestamp": "2026-11-08T05:59:40.496477+00:00"
+    },
+    {
+      "mmsi": 367594490,
+      "name": "TRIXIE",
+      "lat": 39.362991666666666,
+      "lon": -75.88412666666666,
+      "speed": 0,
+      "course": 278.7,
+      "heading": 0,
+      "ship_type": null,
+      "timestamp": "2026-11-08T05:59:43.086176+00:00"
+    },
+    {
+      "mmsi": 368015740,
+      "name": "PINNERS POINT",
+      "lat": 36.84959666666667,
+      "lon": -76.31534166666667,
+      "speed": 0,
+      "course": 187.9,
+      "heading": 7,
+      "ship_type": null,
+      "timestamp": "2026-11-08T05:59:43.332273+00:00"
     }
   ]
 }
