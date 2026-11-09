@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-09T09:05:58.011163+00:00",
+  "collected_at": "2026-11-09T19:48:18.115903+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,128 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 11,
   "vessels": [
     {
-      "mmsi": 367772272,
-      "name": "COCKRELLS CREEK",
-      "lat": 37.82769666666666,
-      "lon": -76.27805833333333,
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.25252166666667,
+      "lon": -76.56517833333334,
+      "speed": 9.9,
+      "course": 324.1,
+      "heading": 321,
+      "ship_type": null,
+      "timestamp": "2026-11-09T19:47:48.361371+00:00"
+    },
+    {
+      "mmsi": 367331330,
+      "name": "G.P. KIMBERLY",
+      "lat": 37.072381666666665,
+      "lon": -75.95038833333334,
+      "speed": 9.8,
+      "course": 260.9,
+      "heading": 260,
+      "ship_type": null,
+      "timestamp": "2026-11-09T19:47:48.728093+00:00"
+    },
+    {
+      "mmsi": 366926050,
+      "name": "RV SPERRY STAR III",
+      "lat": 38.97910666666667,
+      "lon": -76.33268666666666,
+      "speed": 0.1,
+      "course": 174.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-09T19:47:55.976679+00:00"
+    },
+    {
+      "mmsi": 369134000,
+      "name": "US GOVERNMENT VESSEL",
+      "lat": 39.26283333333333,
+      "lon": -76.60045,
+      "speed": 0,
+      "course": 111,
+      "heading": 149,
+      "ship_type": null,
+      "timestamp": "2026-11-09T19:47:57.160134+00:00"
+    },
+    {
+      "mmsi": 338060011,
+      "name": "CAPT. KENNETH",
+      "lat": 39.273154999999996,
+      "lon": -76.58622999999999,
       "speed": 0,
       "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-09T09:05:33.294426+00:00"
+      "timestamp": "2026-11-09T19:47:59.901405+00:00"
     },
     {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.24317333333333,
-      "lon": -76.54167000000001,
-      "speed": 3.7,
-      "course": 25.6,
-      "heading": 27,
+      "mmsi": 338926419,
+      "name": "ROLLIN FRITCH",
+      "lat": 36.896971666666666,
+      "lon": -76.33578000000001,
+      "speed": 6.8,
+      "course": 354.8,
+      "heading": 354,
       "ship_type": null,
-      "timestamp": "2026-11-09T09:05:34.571704+00:00"
-    },
-    {
-      "mmsi": 368396250,
-      "name": "ISABEL MCALLISTER",
-      "lat": 39.23983,
-      "lon": -76.531025,
-      "speed": 0,
-      "course": 331.1,
-      "heading": 261,
-      "ship_type": null,
-      "timestamp": "2026-11-09T09:05:35.770486+00:00"
-    },
-    {
-      "mmsi": 405000447,
-      "name": "MEGHNA PEARL",
-      "lat": 39.27598666666667,
-      "lon": -76.59438333333333,
-      "speed": 0,
-      "course": 232.6,
-      "heading": 61,
-      "ship_type": null,
-      "timestamp": "2026-11-09T09:05:41.626489+00:00"
-    },
-    {
-      "mmsi": 338525000,
-      "name": "MAERSK COLUMBUS",
-      "lat": 36.97344,
-      "lon": -76.10729500000001,
-      "speed": 15.8,
-      "course": 288.6,
-      "heading": 287,
-      "ship_type": null,
-      "timestamp": "2026-11-09T09:05:47.043179+00:00"
-    },
-    {
-      "mmsi": 563188200,
-      "name": "PAN BICORN",
-      "lat": 37.048831666666665,
-      "lon": -76.07721166666667,
-      "speed": 11.7,
-      "course": 143,
-      "heading": 142,
-      "ship_type": null,
-      "timestamp": "2026-11-09T09:05:52.130268+00:00"
+      "timestamp": "2026-11-09T19:48:14.867747+00:00"
     },
     {
       "mmsi": 366946840,
       "name": "MEAGHAN MARIE",
-      "lat": 39.203671666666665,
-      "lon": -76.483835,
-      "speed": 0.5,
-      "course": 144.7,
-      "heading": 341,
+      "lat": 39.25443166666666,
+      "lon": -76.58800833333333,
+      "speed": 0,
+      "course": 267,
+      "heading": 27,
       "ship_type": null,
-      "timestamp": "2026-11-09T09:05:55.431371+00:00"
+      "timestamp": "2026-11-09T19:48:04.168737+00:00"
+    },
+    {
+      "mmsi": 367462360,
+      "name": "CINDY R",
+      "lat": 36.85885666666666,
+      "lon": -76.347,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-09T19:48:07.709873+00:00"
+    },
+    {
+      "mmsi": 367314640,
+      "name": "ROWAN M MCALLISTER",
+      "lat": 39.255296666666666,
+      "lon": -76.569455,
+      "speed": 10.4,
+      "course": 146.3,
+      "heading": 140,
+      "ship_type": null,
+      "timestamp": "2026-11-09T19:48:11.891744+00:00"
+    },
+    {
+      "mmsi": 368015740,
+      "name": "PINNERS POINT",
+      "lat": 36.86249,
+      "lon": -76.31408499999999,
+      "speed": 0,
+      "course": 74.6,
+      "heading": 44,
+      "ship_type": null,
+      "timestamp": "2026-11-09T19:48:12.942076+00:00"
+    },
+    {
+      "mmsi": 538005041,
+      "name": "MAIA",
+      "lat": 39.221781666666665,
+      "lon": -76.57663166666666,
+      "speed": 0,
+      "course": 252.3,
+      "heading": 276,
+      "ship_type": null,
+      "timestamp": "2026-11-09T19:48:14.198254+00:00"
     }
   ]
 }
