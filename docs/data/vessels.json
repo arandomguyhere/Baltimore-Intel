@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-08T22:20:00.594939+00:00",
+  "collected_at": "2026-11-09T01:49:46.377565+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,172 +12,62 @@
       -75.8
     ]
   ],
-  "vessel_count": 15,
+  "vessel_count": 5,
   "vessels": [
     {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.268813333333334,
-      "lon": -76.58092666666667,
+      "mmsi": 257565000,
+      "name": "TAMESIS",
+      "lat": 39.240946666666666,
+      "lon": -76.53479,
       "speed": 0,
-      "course": 351.2,
-      "heading": 201,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:33.441985+00:00"
-    },
-    {
-      "mmsi": 368396250,
-      "name": "ISABEL MCALLISTER",
-      "lat": 39.269133333333336,
-      "lon": -76.58078,
-      "speed": 0,
-      "course": 313.7,
-      "heading": 202,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:34.782229+00:00"
-    },
-    {
-      "mmsi": 310669000,
-      "name": "GASLOG SEATTLE",
-      "lat": 38.37269333333334,
-      "lon": -76.34708833333335,
-      "speed": 0,
-      "course": 282.6,
-      "heading": 231,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:36.767141+00:00"
-    },
-    {
-      "mmsi": 367611520,
-      "name": "WASHINGTON",
-      "lat": 36.93090666666667,
-      "lon": -76.329615,
-      "speed": 0,
-      "course": 1.4,
-      "heading": 85,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:37.769519+00:00"
-    },
-    {
-      "mmsi": 369970039,
-      "name": "YP703",
-      "lat": 38.98430166666667,
-      "lon": -76.46698166666667,
-      "speed": 0,
-      "course": 345.5,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:40.566655+00:00"
-    },
-    {
-      "mmsi": 369970478,
-      "name": "YP704",
-      "lat": 38.98401,
-      "lon": -76.46745833333333,
-      "speed": 0,
-      "course": 357.1,
+      "course": 326.8,
       "heading": 322,
       "ship_type": null,
-      "timestamp": "2026-11-08T22:19:42.796053+00:00"
+      "timestamp": "2026-11-09T01:49:33.365064+00:00"
     },
     {
-      "mmsi": 366878280,
-      "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.96707666666667,
-      "lon": -76.478125,
+      "mmsi": 366939170,
+      "name": "ATLAS",
+      "lat": 39.208195,
+      "lon": -76.511325,
       "speed": 0.1,
-      "course": 159.8,
+      "course": 354.1,
+      "heading": 246,
+      "ship_type": null,
+      "timestamp": "2026-11-09T01:49:37.071572+00:00"
+    },
+    {
+      "mmsi": 255916252,
+      "name": "INDUSTRIAL DART",
+      "lat": 38.95437833333334,
+      "lon": -76.41384333333333,
+      "speed": 0,
+      "course": 295.3,
+      "heading": 194,
+      "ship_type": null,
+      "timestamp": "2026-11-09T01:49:38.969507+00:00"
+    },
+    {
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.98285833333333,
+      "lon": -76.46586666666667,
+      "speed": 0,
+      "course": 351.8,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-08T22:19:46.744642+00:00"
+      "timestamp": "2026-11-09T01:49:40.815443+00:00"
     },
     {
-      "mmsi": 311001711,
-      "name": "CSL KULEANA",
-      "lat": 39.260284999999996,
-      "lon": -76.55432833333333,
-      "speed": 0,
-      "course": 275.2,
-      "heading": 178,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:48.687232+00:00"
-    },
-    {
-      "mmsi": 338514578,
-      "name": "KLASY LADY FB19",
-      "lat": 39.014268333333334,
-      "lon": -76.402345,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:50.241498+00:00"
-    },
-    {
-      "mmsi": 366948330,
-      "name": "NIGHT HAWK",
-      "lat": 38.63933333333333,
-      "lon": -76.45566666666667,
-      "speed": 9.6,
-      "course": 353.9,
-      "heading": 353,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:51.641555+00:00"
-    },
-    {
-      "mmsi": 368015740,
-      "name": "PINNERS POINT",
-      "lat": 36.84959833333333,
-      "lon": -76.31533666666665,
-      "speed": 0,
-      "course": 33.8,
-      "heading": 7,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:54.280412+00:00"
-    },
-    {
-      "mmsi": 440800578,
-      "name": "ROK GOV VESSEL",
-      "lat": 39.16963333333333,
-      "lon": -76.427365,
-      "speed": 14.9,
-      "course": 148.6,
-      "heading": 149,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:55.577486+00:00"
-    },
-    {
-      "mmsi": 338924074,
-      "name": "CAPE SUAREZ POINT",
-      "lat": 36.86806833333333,
-      "lon": -76.318465,
-      "speed": 0,
-      "course": 60.9,
-      "heading": 227,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:56.641941+00:00"
-    },
-    {
-      "mmsi": 368277530,
-      "name": "MISS MADELINE",
-      "lat": 39.21899166666667,
-      "lon": -76.532315,
-      "speed": 5.4,
-      "course": 128.5,
-      "heading": 134,
-      "ship_type": null,
-      "timestamp": "2026-11-08T22:19:56.979001+00:00"
-    },
-    {
-      "mmsi": 367712350,
-      "name": "UNCLE MIKE",
-      "lat": 36.96284333333333,
-      "lon": -76.29567666666667,
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.26694166666667,
+      "lon": -76.57949833333333,
       "speed": 0,
       "course": 289.3,
-      "heading": 221,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-08T22:19:59.041020+00:00"
+      "timestamp": "2026-11-09T01:49:42.785712+00:00"
     }
   ]
 }
