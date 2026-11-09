@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-09T01:49:46.377565+00:00",
+  "collected_at": "2026-11-09T09:05:58.011163+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,62 +12,84 @@
       -75.8
     ]
   ],
-  "vessel_count": 5,
+  "vessel_count": 7,
   "vessels": [
     {
-      "mmsi": 257565000,
-      "name": "TAMESIS",
-      "lat": 39.240946666666666,
-      "lon": -76.53479,
+      "mmsi": 367772272,
+      "name": "COCKRELLS CREEK",
+      "lat": 37.82769666666666,
+      "lon": -76.27805833333333,
       "speed": 0,
-      "course": 326.8,
-      "heading": 322,
-      "ship_type": null,
-      "timestamp": "2026-11-09T01:49:33.365064+00:00"
-    },
-    {
-      "mmsi": 366939170,
-      "name": "ATLAS",
-      "lat": 39.208195,
-      "lon": -76.511325,
-      "speed": 0.1,
-      "course": 354.1,
-      "heading": 246,
-      "ship_type": null,
-      "timestamp": "2026-11-09T01:49:37.071572+00:00"
-    },
-    {
-      "mmsi": 255916252,
-      "name": "INDUSTRIAL DART",
-      "lat": 38.95437833333334,
-      "lon": -76.41384333333333,
-      "speed": 0,
-      "course": 295.3,
-      "heading": 194,
-      "ship_type": null,
-      "timestamp": "2026-11-09T01:49:38.969507+00:00"
-    },
-    {
-      "mmsi": 369970482,
-      "name": "YP708",
-      "lat": 38.98285833333333,
-      "lon": -76.46586666666667,
-      "speed": 0,
-      "course": 351.8,
+      "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-09T01:49:40.815443+00:00"
+      "timestamp": "2026-11-09T09:05:33.294426+00:00"
     },
     {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.26694166666667,
-      "lon": -76.57949833333333,
-      "speed": 0,
-      "course": 289.3,
-      "heading": 511,
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.24317333333333,
+      "lon": -76.54167000000001,
+      "speed": 3.7,
+      "course": 25.6,
+      "heading": 27,
       "ship_type": null,
-      "timestamp": "2026-11-09T01:49:42.785712+00:00"
+      "timestamp": "2026-11-09T09:05:34.571704+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.23983,
+      "lon": -76.531025,
+      "speed": 0,
+      "course": 331.1,
+      "heading": 261,
+      "ship_type": null,
+      "timestamp": "2026-11-09T09:05:35.770486+00:00"
+    },
+    {
+      "mmsi": 405000447,
+      "name": "MEGHNA PEARL",
+      "lat": 39.27598666666667,
+      "lon": -76.59438333333333,
+      "speed": 0,
+      "course": 232.6,
+      "heading": 61,
+      "ship_type": null,
+      "timestamp": "2026-11-09T09:05:41.626489+00:00"
+    },
+    {
+      "mmsi": 338525000,
+      "name": "MAERSK COLUMBUS",
+      "lat": 36.97344,
+      "lon": -76.10729500000001,
+      "speed": 15.8,
+      "course": 288.6,
+      "heading": 287,
+      "ship_type": null,
+      "timestamp": "2026-11-09T09:05:47.043179+00:00"
+    },
+    {
+      "mmsi": 563188200,
+      "name": "PAN BICORN",
+      "lat": 37.048831666666665,
+      "lon": -76.07721166666667,
+      "speed": 11.7,
+      "course": 143,
+      "heading": 142,
+      "ship_type": null,
+      "timestamp": "2026-11-09T09:05:52.130268+00:00"
+    },
+    {
+      "mmsi": 366946840,
+      "name": "MEAGHAN MARIE",
+      "lat": 39.203671666666665,
+      "lon": -76.483835,
+      "speed": 0.5,
+      "course": 144.7,
+      "heading": 341,
+      "ship_type": null,
+      "timestamp": "2026-11-09T09:05:55.431371+00:00"
     }
   ]
 }
