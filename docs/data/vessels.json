@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-10T18:05:21.764653+00:00",
+  "collected_at": "2026-11-10T23:19:22.574247+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,51 +12,62 @@
       -75.8
     ]
   ],
-  "vessel_count": 4,
+  "vessel_count": 5,
   "vessels": [
     {
-      "mmsi": 352002148,
-      "name": "ALBATROSS",
-      "lat": 38.949508333333334,
-      "lon": -76.40351000000001,
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98415,
+      "lon": -76.46738333333333,
       "speed": 0,
-      "course": 325.1,
-      "heading": 179,
+      "course": 176.5,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-10T18:05:00.362662+00:00"
+      "timestamp": "2026-11-10T23:18:56.279723+00:00"
     },
     {
-      "mmsi": 338243006,
-      "name": "EMMANOU",
-      "lat": 37.01680833333333,
-      "lon": -76.34205166666668,
+      "mmsi": 367006560,
+      "name": "HAWSEPIPER",
+      "lat": 39.21293166666667,
+      "lon": -76.57972166666667,
       "speed": 0,
-      "course": 245.5,
-      "heading": 90,
+      "course": 249.2,
+      "heading": 245,
       "ship_type": null,
-      "timestamp": "2026-11-10T18:05:10.342709+00:00"
+      "timestamp": "2026-11-10T23:19:06.551862+00:00"
     },
     {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.26071833333333,
-      "lon": -76.55613833333334,
-      "speed": 0,
-      "course": 174.3,
-      "heading": 359,
+      "mmsi": 368081170,
+      "name": "HUNTSMAN",
+      "lat": 36.84954833333334,
+      "lon": -76.31504833333334,
+      "speed": 0.1,
+      "course": 9.5,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-10T18:05:12.934144+00:00"
+      "timestamp": "2026-11-10T23:19:16.098405+00:00"
     },
     {
-      "mmsi": 367082130,
-      "name": "TIMOTHY MCALLISTER",
-      "lat": 39.269416666666665,
-      "lon": -76.58056666666667,
+      "mmsi": 367309430,
+      "name": "ARCTIC DAWN",
+      "lat": 39.26873333333333,
+      "lon": -76.58126666666666,
       "speed": 0,
-      "course": 182.2,
-      "heading": 204,
+      "course": 115.4,
+      "heading": 203,
       "ship_type": null,
-      "timestamp": "2026-11-10T18:05:14.484144+00:00"
+      "timestamp": "2026-11-10T23:19:16.925066+00:00"
+    },
+    {
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.219166666666666,
+      "lon": -76.52816666666666,
+      "speed": 0.1,
+      "course": 90.3,
+      "heading": 109,
+      "ship_type": null,
+      "timestamp": "2026-11-10T23:19:17.370694+00:00"
     }
   ]
 }
