@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-10T02:32:21.611969+00:00",
+  "collected_at": "2026-11-10T10:26:49.686129+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -15,103 +15,103 @@
   "vessel_count": 9,
   "vessels": [
     {
-      "mmsi": 367541760,
-      "name": "WINNING DRIVE",
-      "lat": 38.97394833333333,
-      "lon": -76.48406833333334,
+      "mmsi": 367287000,
+      "name": "CG LEGARE",
+      "lat": 36.88216833333333,
+      "lon": -76.35083666666667,
       "speed": 0,
-      "course": 330.3,
-      "heading": 327,
+      "course": 360,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-10T02:31:58.288308+00:00"
+      "timestamp": "2026-11-10T10:26:20.213589+00:00"
+    },
+    {
+      "mmsi": 366991414,
+      "name": "USNS POINT LOMA",
+      "lat": 36.916900000000005,
+      "lon": -76.18225000000001,
+      "speed": 0,
+      "course": 165,
+      "heading": 94,
+      "ship_type": null,
+      "timestamp": "2026-11-10T10:26:20.213675+00:00"
+    },
+    {
+      "mmsi": 259895000,
+      "name": "TIRRANNA",
+      "lat": 39.008493333333334,
+      "lon": -76.37711666666668,
+      "speed": 13.4,
+      "course": 191.9,
+      "heading": 193,
+      "ship_type": null,
+      "timestamp": "2026-11-10T10:26:20.656295+00:00"
+    },
+    {
+      "mmsi": 352006096,
+      "name": "PALEXPO",
+      "lat": 36.976905,
+      "lon": -75.99837166666666,
+      "speed": 11.9,
+      "course": 324.4,
+      "heading": 324,
+      "ship_type": null,
+      "timestamp": "2026-11-10T10:26:22.779198+00:00"
+    },
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.23202666666667,
+      "lon": -76.54231166666666,
+      "speed": 8.1,
+      "course": 323.6,
+      "heading": 321,
+      "ship_type": null,
+      "timestamp": "2026-11-10T10:26:23.639671+00:00"
+    },
+    {
+      "mmsi": 368081170,
+      "name": "HUNTSMAN",
+      "lat": 36.84954333333334,
+      "lon": -76.31501833333333,
+      "speed": 0,
+      "course": 52.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-10T10:26:26.954289+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.24346666666667,
+      "lon": -76.56894666666668,
+      "speed": 0,
+      "course": 92.5,
+      "heading": 257,
+      "ship_type": null,
+      "timestamp": "2026-11-10T10:26:34.078959+00:00"
     },
     {
       "mmsi": 368185620,
       "name": "FELLS POINT",
-      "lat": 39.255763333333334,
-      "lon": -76.53495166666667,
-      "speed": 0,
-      "course": 291.9,
+      "lat": 39.239315000000005,
+      "lon": -76.53319,
+      "speed": 0.1,
+      "course": 210.9,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-10T02:31:58.370534+00:00"
+      "timestamp": "2026-11-10T10:26:39.614041+00:00"
     },
     {
-      "mmsi": 368376830,
-      "name": "ROARING POINT",
-      "lat": 37.148358333333334,
-      "lon": -76.22078,
-      "speed": 7.8,
-      "course": 7.1,
-      "heading": 5,
+      "mmsi": 371059000,
+      "name": "MSC LUCY",
+      "lat": 37.67195666666667,
+      "lon": -76.15402,
+      "speed": 17.8,
+      "course": 319.7,
+      "heading": 322,
       "ship_type": null,
-      "timestamp": "2026-11-10T02:32:03.556933+00:00"
-    },
-    {
-      "mmsi": 367474640,
-      "name": "CAPE ELIZABETH",
-      "lat": 39.196821666666665,
-      "lon": -76.48216000000001,
-      "speed": 1.2,
-      "course": 162.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-10T02:32:05.303741+00:00"
-    },
-    {
-      "mmsi": 368258880,
-      "name": "HARRY S",
-      "lat": 36.926588333333335,
-      "lon": -76.33086,
-      "speed": 0,
-      "course": 260.9,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-10T02:32:08.945170+00:00"
-    },
-    {
-      "mmsi": 352005490,
-      "name": "BRIGHT KOWA",
-      "lat": 39.12464166666667,
-      "lon": -76.39738333333334,
-      "speed": 10.4,
-      "course": 330,
-      "heading": 334,
-      "ship_type": null,
-      "timestamp": "2026-11-10T02:32:10.073574+00:00"
-    },
-    {
-      "mmsi": 338243006,
-      "name": "EMMANOU",
-      "lat": 37.01682666666667,
-      "lon": -76.34204333333334,
-      "speed": 0,
-      "course": 290.9,
-      "heading": 90,
-      "ship_type": null,
-      "timestamp": "2026-11-10T02:32:10.839601+00:00"
-    },
-    {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.25270666666667,
-      "lon": -76.56546333333334,
-      "speed": 5.4,
-      "course": 318.7,
-      "heading": 312,
-      "ship_type": null,
-      "timestamp": "2026-11-10T02:32:11.680995+00:00"
-    },
-    {
-      "mmsi": 368414540,
-      "name": "",
-      "lat": 37.023043333333334,
-      "lon": -76.34316,
-      "speed": 0,
-      "course": 87.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-10T02:32:18.757534+00:00"
+      "timestamp": "2026-11-10T10:26:47.474315+00:00"
     }
   ]
 }
