@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-11T10:20:23.799766+00:00",
+  "collected_at": "2026-11-11T17:58:53.341310+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,73 +12,84 @@
       -75.8
     ]
   ],
-  "vessel_count": 6,
+  "vessel_count": 7,
   "vessels": [
     {
-      "mmsi": 352002148,
-      "name": "ALBATROSS",
-      "lat": 38.94856666666667,
-      "lon": -76.40551,
-      "speed": 0.1,
-      "course": 41.6,
-      "heading": 123,
-      "ship_type": null,
-      "timestamp": "2026-11-11T10:20:07.223196+00:00"
-    },
-    {
-      "mmsi": 367165450,
-      "name": "TREASURE COAST",
-      "lat": 39.20972666666667,
-      "lon": -76.461145,
-      "speed": 0.1,
-      "course": 320.3,
-      "heading": 180,
-      "ship_type": null,
-      "timestamp": "2026-11-11T10:20:11.491330+00:00"
-    },
-    {
-      "mmsi": 368235760,
-      "name": "JAN MORAN",
-      "lat": 36.953125,
-      "lon": -76.33788833333332,
-      "speed": 8.6,
-      "course": 352.8,
-      "heading": 343,
-      "ship_type": null,
-      "timestamp": "2026-11-11T10:20:13.530447+00:00"
-    },
-    {
-      "mmsi": 367309430,
-      "name": "ARCTIC DAWN",
-      "lat": 39.26875,
-      "lon": -76.58128333333335,
+      "mmsi": 366946840,
+      "name": "MEAGHAN MARIE",
+      "lat": 39.22063166666667,
+      "lon": -76.49625166666667,
       "speed": 0,
-      "course": 24.9,
-      "heading": 205,
+      "course": 319.3,
+      "heading": 105,
       "ship_type": null,
-      "timestamp": "2026-11-11T10:20:16.760631+00:00"
+      "timestamp": "2026-11-11T17:58:24.393781+00:00"
     },
     {
-      "mmsi": 368277530,
-      "name": "MISS MADELINE",
-      "lat": 39.20847666666667,
-      "lon": -76.58240500000001,
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413333333333,
+      "lon": -76.46738333333333,
       "speed": 0,
-      "course": 231.2,
-      "heading": 191,
-      "ship_type": null,
-      "timestamp": "2026-11-11T10:20:18.173740+00:00"
-    },
-    {
-      "mmsi": 368258880,
-      "name": "HARRY S",
-      "lat": 36.924798333333335,
-      "lon": -76.330275,
-      "speed": 0,
-      "course": 57.9,
+      "course": 183.9,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-11T10:20:18.997681+00:00"
+      "timestamp": "2026-11-11T17:58:27.419340+00:00"
+    },
+    {
+      "mmsi": 339644000,
+      "name": "EDISON",
+      "lat": 38.71790333333333,
+      "lon": -76.17063,
+      "speed": 0,
+      "course": 273,
+      "heading": 299,
+      "ship_type": null,
+      "timestamp": "2026-11-11T17:58:32.715340+00:00"
+    },
+    {
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.984,
+      "lon": -76.46726666666667,
+      "speed": 0,
+      "course": 170.9,
+      "heading": 350,
+      "ship_type": null,
+      "timestamp": "2026-11-11T17:58:33.032322+00:00"
+    },
+    {
+      "mmsi": 367483830,
+      "name": "LYNNE MORAN",
+      "lat": 39.211885,
+      "lon": -76.47790166666667,
+      "speed": 0.2,
+      "course": 250.3,
+      "heading": 352,
+      "ship_type": null,
+      "timestamp": "2026-11-11T17:58:33.032370+00:00"
+    },
+    {
+      "mmsi": 244379000,
+      "name": "JUMBO VISION",
+      "lat": 39.241499999999995,
+      "lon": -76.5255,
+      "speed": 0,
+      "course": 310,
+      "heading": 247,
+      "ship_type": null,
+      "timestamp": "2026-11-11T17:58:33.956996+00:00"
+    },
+    {
+      "mmsi": 366081080,
+      "name": "ZEUS",
+      "lat": 36.94025833333333,
+      "lon": -76.36806333333334,
+      "speed": 0.1,
+      "course": 89.8,
+      "heading": 102,
+      "ship_type": null,
+      "timestamp": "2026-11-11T17:58:38.154256+00:00"
     }
   ]
 }
