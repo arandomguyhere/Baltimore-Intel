@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-11T02:54:53.021969+00:00",
+  "collected_at": "2026-11-11T10:20:23.799766+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,95 +12,73 @@
       -75.8
     ]
   ],
-  "vessel_count": 8,
+  "vessel_count": 6,
   "vessels": [
     {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.210335,
-      "lon": -76.48166833333333,
-      "speed": 7.4,
-      "course": 36,
-      "heading": 38,
+      "mmsi": 352002148,
+      "name": "ALBATROSS",
+      "lat": 38.94856666666667,
+      "lon": -76.40551,
+      "speed": 0.1,
+      "course": 41.6,
+      "heading": 123,
       "ship_type": null,
-      "timestamp": "2026-11-11T02:54:28.126902+00:00"
+      "timestamp": "2026-11-11T10:20:07.223196+00:00"
     },
     {
-      "mmsi": 366999705,
-      "name": "CG_POMPANO",
-      "lat": 36.91296666666666,
-      "lon": -76.17647666666667,
+      "mmsi": 367165450,
+      "name": "TREASURE COAST",
+      "lat": 39.20972666666667,
+      "lon": -76.461145,
+      "speed": 0.1,
+      "course": 320.3,
+      "heading": 180,
+      "ship_type": null,
+      "timestamp": "2026-11-11T10:20:11.491330+00:00"
+    },
+    {
+      "mmsi": 368235760,
+      "name": "JAN MORAN",
+      "lat": 36.953125,
+      "lon": -76.33788833333332,
+      "speed": 8.6,
+      "course": 352.8,
+      "heading": 343,
+      "ship_type": null,
+      "timestamp": "2026-11-11T10:20:13.530447+00:00"
+    },
+    {
+      "mmsi": 367309430,
+      "name": "ARCTIC DAWN",
+      "lat": 39.26875,
+      "lon": -76.58128333333335,
       "speed": 0,
-      "course": 360,
-      "heading": 199,
+      "course": 24.9,
+      "heading": 205,
       "ship_type": null,
-      "timestamp": "2026-11-11T02:54:30.354978+00:00"
+      "timestamp": "2026-11-11T10:20:16.760631+00:00"
     },
     {
-      "mmsi": 367082130,
-      "name": "TIMOTHY MCALLISTER",
-      "lat": 39.259175,
-      "lon": -76.57271,
-      "speed": 8.7,
-      "course": 150.6,
-      "heading": 150,
-      "ship_type": null,
-      "timestamp": "2026-11-11T02:54:33.231708+00:00"
-    },
-    {
-      "mmsi": 366948330,
-      "name": "NIGHT HAWK",
-      "lat": 38.949333333333335,
-      "lon": -76.39975,
-      "speed": 7.5,
-      "course": 192.4,
-      "heading": 193,
-      "ship_type": null,
-      "timestamp": "2026-11-11T02:54:30.850071+00:00"
-    },
-    {
-      "mmsi": 352004564,
-      "name": "PONTUS HIGHWAY",
-      "lat": 38.941966666666666,
-      "lon": -76.38578666666668,
-      "speed": 15.3,
-      "course": 185.4,
-      "heading": 183,
-      "ship_type": null,
-      "timestamp": "2026-11-11T02:54:34.191307+00:00"
-    },
-    {
-      "mmsi": 368441690,
-      "name": "FEDERAL HILL",
-      "lat": 39.255895,
-      "lon": -76.53488833333334,
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.20847666666667,
+      "lon": -76.58240500000001,
       "speed": 0,
-      "course": 128.4,
-      "heading": 294,
+      "course": 231.2,
+      "heading": 191,
       "ship_type": null,
-      "timestamp": "2026-11-11T02:54:46.866097+00:00"
+      "timestamp": "2026-11-11T10:20:18.173740+00:00"
     },
     {
-      "mmsi": 249909000,
-      "name": "TYSLA",
-      "lat": 39.24681833333333,
-      "lon": -76.55978,
-      "speed": 7.1,
-      "course": 140.2,
-      "heading": 140,
-      "ship_type": null,
-      "timestamp": "2026-11-11T02:54:51.650977+00:00"
-    },
-    {
-      "mmsi": 368185620,
-      "name": "FELLS POINT",
-      "lat": 39.255781666666664,
-      "lon": -76.534965,
+      "mmsi": 368258880,
+      "name": "HARRY S",
+      "lat": 36.924798333333335,
+      "lon": -76.330275,
       "speed": 0,
-      "course": 310.2,
+      "course": 57.9,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-11T02:54:52.116229+00:00"
+      "timestamp": "2026-11-11T10:20:18.997681+00:00"
     }
   ]
 }
