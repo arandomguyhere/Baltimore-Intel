@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-11T17:58:53.341310+00:00",
+  "collected_at": "2026-11-12T00:24:45.315507+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,95 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 8,
   "vessels": [
-    {
-      "mmsi": 366946840,
-      "name": "MEAGHAN MARIE",
-      "lat": 39.22063166666667,
-      "lon": -76.49625166666667,
-      "speed": 0,
-      "course": 319.3,
-      "heading": 105,
-      "ship_type": null,
-      "timestamp": "2026-11-11T17:58:24.393781+00:00"
-    },
     {
       "mmsi": 369970480,
       "name": "YP706",
-      "lat": 38.98413333333333,
-      "lon": -76.46738333333333,
+      "lat": 38.98415,
+      "lon": -76.4674,
       "speed": 0,
-      "course": 183.9,
+      "course": 344,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-11T17:58:27.419340+00:00"
+      "timestamp": "2026-11-12T00:24:16.211684+00:00"
     },
     {
-      "mmsi": 339644000,
-      "name": "EDISON",
-      "lat": 38.71790333333333,
-      "lon": -76.17063,
+      "mmsi": 368193180,
+      "name": "INTRA RECOIL",
+      "lat": 36.87821333333333,
+      "lon": -76.33025833333333,
       "speed": 0,
-      "course": 273,
-      "heading": 299,
+      "course": 236.7,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-11T17:58:32.715340+00:00"
+      "timestamp": "2026-11-12T00:24:16.935678+00:00"
     },
     {
-      "mmsi": 369970481,
-      "name": "YP707",
-      "lat": 38.984,
-      "lon": -76.46726666666667,
+      "mmsi": 371475000,
+      "name": "MSC CAROLINA",
+      "lat": 38.88431,
+      "lon": -76.39631666666668,
+      "speed": 17.7,
+      "course": 187.3,
+      "heading": 187,
+      "ship_type": null,
+      "timestamp": "2026-11-12T00:24:17.569918+00:00"
+    },
+    {
+      "mmsi": 261005882,
+      "name": "KATHARSIS II",
+      "lat": 38.96527666666667,
+      "lon": -76.4793,
       "speed": 0,
-      "course": 170.9,
-      "heading": 350,
+      "course": 272.6,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-11T17:58:33.032322+00:00"
+      "timestamp": "2026-11-12T00:24:20.963315+00:00"
     },
     {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.211885,
-      "lon": -76.47790166666667,
-      "speed": 0.2,
-      "course": 250.3,
-      "heading": 352,
-      "ship_type": null,
-      "timestamp": "2026-11-11T17:58:33.032370+00:00"
-    },
-    {
-      "mmsi": 244379000,
-      "name": "JUMBO VISION",
-      "lat": 39.241499999999995,
-      "lon": -76.5255,
+      "mmsi": 367350650,
+      "name": "LADY MARYLAND",
+      "lat": 39.27876833333333,
+      "lon": -76.59635666666667,
       "speed": 0,
-      "course": 310,
-      "heading": 247,
+      "course": 151.2,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-11T17:58:33.956996+00:00"
+      "timestamp": "2026-11-12T00:24:25.971355+00:00"
     },
     {
-      "mmsi": 366081080,
-      "name": "ZEUS",
-      "lat": 36.94025833333333,
-      "lon": -76.36806333333334,
-      "speed": 0.1,
-      "course": 89.8,
-      "heading": 102,
+      "mmsi": 371059000,
+      "name": "MSC LUCY",
+      "lat": 39.12989,
+      "lon": -76.40078666666666,
+      "speed": 13.4,
+      "course": 158.6,
+      "heading": 158,
       "ship_type": null,
-      "timestamp": "2026-11-11T17:58:38.154256+00:00"
+      "timestamp": "2026-11-12T00:24:27.106472+00:00"
+    },
+    {
+      "mmsi": 367082130,
+      "name": "TIMOTHY MCALLISTER",
+      "lat": 39.26945166666667,
+      "lon": -76.58061,
+      "speed": 0,
+      "course": 286.8,
+      "heading": 209,
+      "ship_type": null,
+      "timestamp": "2026-11-12T00:24:31.179688+00:00"
+    },
+    {
+      "mmsi": 636023059,
+      "name": "GSL EFFIE",
+      "lat": 37.658595,
+      "lon": -76.13984,
+      "speed": 16.6,
+      "course": 321,
+      "heading": 320,
+      "ship_type": null,
+      "timestamp": "2026-11-12T00:24:34.256254+00:00"
     }
   ]
 }
