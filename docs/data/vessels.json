@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-12T00:24:45.315507+00:00",
+  "collected_at": "2026-11-12T07:31:10.148175+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,95 +12,117 @@
       -75.8
     ]
   ],
-  "vessel_count": 8,
+  "vessel_count": 10,
   "vessels": [
     {
-      "mmsi": 369970480,
-      "name": "YP706",
-      "lat": 38.98415,
-      "lon": -76.4674,
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.26884166666667,
+      "lon": -76.58091166666667,
       "speed": 0,
-      "course": 344,
+      "course": 245.5,
+      "heading": 203,
+      "ship_type": null,
+      "timestamp": "2026-11-12T07:30:43.995368+00:00"
+    },
+    {
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.209356666666665,
+      "lon": -76.58262833333333,
+      "speed": 0,
+      "course": 246,
+      "heading": 41,
+      "ship_type": null,
+      "timestamp": "2026-11-12T07:30:47.083871+00:00"
+    },
+    {
+      "mmsi": 368378660,
+      "name": "WINDSERVE FRONTIER",
+      "lat": 37.008068333333334,
+      "lon": -76.23233166666667,
+      "speed": 9.3,
+      "course": 285.7,
+      "heading": 286,
+      "ship_type": null,
+      "timestamp": "2026-11-12T07:30:47.657204+00:00"
+    },
+    {
+      "mmsi": 205436000,
+      "name": "GOLDEN FROZEN",
+      "lat": 37.29089666666666,
+      "lon": -76.11396666666666,
+      "speed": 10.6,
+      "course": 198.8,
+      "heading": 196,
+      "ship_type": null,
+      "timestamp": "2026-11-12T07:30:47.825364+00:00"
+    },
+    {
+      "mmsi": 338243006,
+      "name": "EMMANOU",
+      "lat": 37.01681,
+      "lon": -76.34204166666667,
+      "speed": 0,
+      "course": 232.8,
+      "heading": 90,
+      "ship_type": null,
+      "timestamp": "2026-11-12T07:30:49.373072+00:00"
+    },
+    {
+      "mmsi": 366962220,
+      "name": "BART L.",
+      "lat": 39.44705833333333,
+      "lon": -75.99154166666668,
+      "speed": 0.5,
+      "course": 267.7,
+      "heading": 19,
+      "ship_type": null,
+      "timestamp": "2026-11-12T07:30:54.427454+00:00"
+    },
+    {
+      "mmsi": 367834000,
+      "name": "GARY I GORDON",
+      "lat": 39.269055,
+      "lon": -76.57091666666666,
+      "speed": 0,
+      "course": 0,
+      "heading": 266,
+      "ship_type": null,
+      "timestamp": "2026-11-12T07:30:58.725053+00:00"
+    },
+    {
+      "mmsi": 311003400,
+      "name": "GUARDIAN LEADER",
+      "lat": 37.027384999999995,
+      "lon": -76.05801333333334,
+      "speed": 16.2,
+      "course": 145.7,
+      "heading": 147,
+      "ship_type": null,
+      "timestamp": "2026-11-12T07:31:05.938715+00:00"
+    },
+    {
+      "mmsi": 367161960,
+      "name": "TIMOTHY M",
+      "lat": 36.95143333333333,
+      "lon": -75.96055,
+      "speed": 8.4,
+      "course": 281.4,
+      "heading": 280,
+      "ship_type": null,
+      "timestamp": "2026-11-12T07:31:06.481380+00:00"
+    },
+    {
+      "mmsi": 367766220,
+      "name": "DALE PYATT",
+      "lat": 39.205193333333334,
+      "lon": -76.48436833333334,
+      "speed": 0,
+      "course": 18.1,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-12T00:24:16.211684+00:00"
-    },
-    {
-      "mmsi": 368193180,
-      "name": "INTRA RECOIL",
-      "lat": 36.87821333333333,
-      "lon": -76.33025833333333,
-      "speed": 0,
-      "course": 236.7,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-12T00:24:16.935678+00:00"
-    },
-    {
-      "mmsi": 371475000,
-      "name": "MSC CAROLINA",
-      "lat": 38.88431,
-      "lon": -76.39631666666668,
-      "speed": 17.7,
-      "course": 187.3,
-      "heading": 187,
-      "ship_type": null,
-      "timestamp": "2026-11-12T00:24:17.569918+00:00"
-    },
-    {
-      "mmsi": 261005882,
-      "name": "KATHARSIS II",
-      "lat": 38.96527666666667,
-      "lon": -76.4793,
-      "speed": 0,
-      "course": 272.6,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-12T00:24:20.963315+00:00"
-    },
-    {
-      "mmsi": 367350650,
-      "name": "LADY MARYLAND",
-      "lat": 39.27876833333333,
-      "lon": -76.59635666666667,
-      "speed": 0,
-      "course": 151.2,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-12T00:24:25.971355+00:00"
-    },
-    {
-      "mmsi": 371059000,
-      "name": "MSC LUCY",
-      "lat": 39.12989,
-      "lon": -76.40078666666666,
-      "speed": 13.4,
-      "course": 158.6,
-      "heading": 158,
-      "ship_type": null,
-      "timestamp": "2026-11-12T00:24:27.106472+00:00"
-    },
-    {
-      "mmsi": 367082130,
-      "name": "TIMOTHY MCALLISTER",
-      "lat": 39.26945166666667,
-      "lon": -76.58061,
-      "speed": 0,
-      "course": 286.8,
-      "heading": 209,
-      "ship_type": null,
-      "timestamp": "2026-11-12T00:24:31.179688+00:00"
-    },
-    {
-      "mmsi": 636023059,
-      "name": "GSL EFFIE",
-      "lat": 37.658595,
-      "lon": -76.13984,
-      "speed": 16.6,
-      "course": 321,
-      "heading": 320,
-      "ship_type": null,
-      "timestamp": "2026-11-12T00:24:34.256254+00:00"
+      "timestamp": "2026-11-12T07:31:07.593092+00:00"
     }
   ]
 }
