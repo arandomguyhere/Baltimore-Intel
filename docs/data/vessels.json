@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-12T16:16:31.310044+00:00",
+  "collected_at": "2026-11-12T22:22:57.415169+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,139 +12,84 @@
       -75.8
     ]
   ],
-  "vessel_count": 12,
+  "vessel_count": 7,
   "vessels": [
     {
-      "mmsi": 368235760,
-      "name": "JAN MORAN",
-      "lat": 36.85678333333333,
-      "lon": -76.33096333333333,
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.25045333333333,
+      "lon": -76.541725,
       "speed": 0,
-      "course": 146.1,
-      "heading": 232,
+      "course": 302.3,
+      "heading": 32,
       "ship_type": null,
-      "timestamp": "2026-11-12T16:16:13.087173+00:00"
+      "timestamp": "2026-11-12T22:22:33.752042+00:00"
     },
     {
-      "mmsi": 367367390,
-      "name": "DIAMOND COAST",
-      "lat": 39.24307666666667,
-      "lon": -76.57111833333333,
-      "speed": 0,
-      "course": 196.2,
-      "heading": 348,
-      "ship_type": null,
-      "timestamp": "2026-11-12T16:16:13.328504+00:00"
-    },
-    {
-      "mmsi": 367457580,
-      "name": "TRACY MORAN",
-      "lat": 36.852,
-      "lon": -76.3055,
-      "speed": 8.7,
-      "course": 134.5,
-      "heading": 128,
-      "ship_type": null,
-      "timestamp": "2026-11-12T16:16:13.901785+00:00"
-    },
-    {
-      "mmsi": 366913820,
-      "name": "AJ MCALLISTER",
-      "lat": 36.87776833333333,
-      "lon": -76.34118166666667,
-      "speed": 4.6,
-      "course": 246.8,
-      "heading": 241,
-      "ship_type": null,
-      "timestamp": "2026-11-12T16:16:15.163682+00:00"
-    },
-    {
-      "mmsi": 367314510,
-      "name": "EMERALD COAST",
-      "lat": 39.190445,
-      "lon": -76.27369999999999,
-      "speed": 7.3,
-      "course": 220.7,
-      "heading": 220,
-      "ship_type": null,
-      "timestamp": "2026-11-12T16:16:16.005840+00:00"
-    },
-    {
-      "mmsi": 367769180,
-      "name": "CLAYTON W MORAN",
-      "lat": 36.857105000000004,
-      "lon": -76.32853,
-      "speed": 0,
-      "course": 201.1,
+      "mmsi": 367876000,
+      "name": "CG THETIS",
+      "lat": 36.98664333333333,
+      "lon": -76.16211833333334,
+      "speed": 9.8,
+      "course": 109,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-12T16:16:16.887521+00:00"
+      "timestamp": "2026-11-12T22:22:35.394521+00:00"
     },
     {
-      "mmsi": 367766220,
-      "name": "DALE PYATT",
-      "lat": 39.2024,
-      "lon": -76.48425333333333,
+      "mmsi": 477229900,
+      "name": "SAN DU AO",
+      "lat": 38.76063833333333,
+      "lon": -76.42877333333333,
+      "speed": 12.1,
+      "course": 192.4,
+      "heading": 192,
+      "ship_type": null,
+      "timestamp": "2026-11-12T22:22:40.023039+00:00"
+    },
+    {
+      "mmsi": 369970039,
+      "name": "YP703",
+      "lat": 38.98437833333333,
+      "lon": -76.46699833333334,
       "speed": 0,
-      "course": 254.2,
+      "course": 345.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-12T16:16:26.621477+00:00"
+      "timestamp": "2026-11-12T22:22:40.852593+00:00"
     },
     {
-      "mmsi": 367029690,
-      "name": "IVORY COAST",
-      "lat": 39.238261666666666,
-      "lon": -76.23704166666667,
-      "speed": 9.4,
-      "course": 13.7,
-      "heading": 13,
-      "ship_type": null,
-      "timestamp": "2026-11-12T16:16:26.798310+00:00"
-    },
-    {
-      "mmsi": 368331070,
-      "name": "JOHN R. FRAZIER",
-      "lat": 39.267071666666666,
-      "lon": -76.57947166666666,
+      "mmsi": 368269610,
+      "name": "HOS ROSEBUD",
+      "lat": 36.91985833333333,
+      "lon": -76.1819,
       "speed": 0,
-      "course": 360,
-      "heading": 511,
+      "course": 277.9,
+      "heading": 93,
       "ship_type": null,
-      "timestamp": "2026-11-12T16:16:26.865601+00:00"
+      "timestamp": "2026-11-12T22:22:43.497384+00:00"
     },
     {
-      "mmsi": 367712350,
-      "name": "UNCLE MIKE",
-      "lat": 36.96274666666667,
-      "lon": -76.296045,
+      "mmsi": 366991414,
+      "name": "USNS POINT LOMA",
+      "lat": 36.974516666666666,
+      "lon": -76.11091666666667,
+      "speed": 16.5,
+      "course": 287.4,
+      "heading": 288,
+      "ship_type": null,
+      "timestamp": "2026-11-12T22:22:50.391754+00:00"
+    },
+    {
+      "mmsi": 367069420,
+      "name": "S MARTIN THORPE",
+      "lat": 39.244058333333335,
+      "lon": -76.603695,
       "speed": 0,
-      "course": 150.1,
-      "heading": 40,
+      "course": 304.2,
+      "heading": 89,
       "ship_type": null,
-      "timestamp": "2026-11-12T16:16:26.865686+00:00"
-    },
-    {
-      "mmsi": 367309860,
-      "name": "ALICIA F. MCALLISTER",
-      "lat": 36.955265000000004,
-      "lon": -76.41488666666667,
-      "speed": 11.9,
-      "course": 281.4,
-      "heading": 284,
-      "ship_type": null,
-      "timestamp": "2026-11-12T16:16:29.033223+00:00"
-    },
-    {
-      "mmsi": 338452813,
-      "name": "OUR WAY",
-      "lat": 38.967999999999996,
-      "lon": -76.47211166666666,
-      "speed": 4.8,
-      "course": 115.3,
-      "heading": 115,
-      "ship_type": null,
-      "timestamp": "2026-11-12T16:16:29.507564+00:00"
+      "timestamp": "2026-11-12T22:22:53.430073+00:00"
     }
   ]
 }
