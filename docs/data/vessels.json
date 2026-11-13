@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-13T02:47:06.706716+00:00",
+  "collected_at": "2026-11-13T10:31:09.976647+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,73 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 6,
   "vessels": [
     {
-      "mmsi": 369970480,
-      "name": "YP706",
-      "lat": 38.98413333333333,
-      "lon": -76.46738333333333,
+      "mmsi": 367139510,
+      "name": "APRIL MORAN",
+      "lat": 39.26043166666667,
+      "lon": -76.55614833333334,
       "speed": 0,
-      "course": 348.2,
+      "course": 243.7,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-13T02:46:47.619412+00:00"
+      "timestamp": "2026-11-13T10:30:43.433715+00:00"
     },
     {
-      "mmsi": 338243006,
-      "name": "EMMANOU",
-      "lat": 37.01682666666667,
-      "lon": -76.34205,
+      "mmsi": 368247110,
+      "name": "MILLENNIUM",
+      "lat": 38.84879333333333,
+      "lon": -76.54397999999999,
       "speed": 0,
-      "course": 277.2,
-      "heading": 90,
-      "ship_type": null,
-      "timestamp": "2026-11-13T02:46:47.953694+00:00"
-    },
-    {
-      "mmsi": 636023059,
-      "name": "GSL EFFIE",
-      "lat": 39.08902166666667,
-      "lon": -76.39435666666667,
-      "speed": 13.6,
-      "course": 179.5,
-      "heading": 178,
-      "ship_type": null,
-      "timestamp": "2026-11-13T02:47:02.613951+00:00"
-    },
-    {
-      "mmsi": 368453080,
-      "name": "PESCADERO PT",
-      "lat": 39.44264833333333,
-      "lon": -75.99296166666666,
-      "speed": 0,
-      "course": 2.1,
+      "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-13T02:47:03.117398+00:00"
+      "timestamp": "2026-11-13T10:30:46.430943+00:00"
     },
     {
-      "mmsi": 368379170,
-      "name": "WINDSERVE SPARTAN",
-      "lat": 36.85887,
-      "lon": -76.345235,
+      "mmsi": 368015740,
+      "name": "PINNERS POINT",
+      "lat": 36.849623333333334,
+      "lon": -76.31530166666667,
       "speed": 0,
-      "course": 341.1,
-      "heading": 340,
+      "course": 258.6,
+      "heading": 10,
       "ship_type": null,
-      "timestamp": "2026-11-13T02:47:03.331103+00:00"
+      "timestamp": "2026-11-13T10:30:52.832359+00:00"
     },
     {
-      "mmsi": 563160200,
-      "name": "EVER FUTURE",
-      "lat": 36.87879833333333,
-      "lon": -76.350335,
-      "speed": 0,
-      "course": 241.5,
-      "heading": 349,
+      "mmsi": 367029960,
+      "name": "CALUSA COAST",
+      "lat": 39.47561666666666,
+      "lon": -75.956975,
+      "speed": 0.1,
+      "course": 88.3,
+      "heading": 225,
       "ship_type": null,
-      "timestamp": "2026-11-13T02:47:04.585556+00:00"
+      "timestamp": "2026-11-13T10:30:53.712858+00:00"
     },
     {
-      "mmsi": 255915639,
-      "name": "EDGAR",
-      "lat": 39.25712,
-      "lon": -76.56506666666668,
+      "mmsi": 367523580,
+      "name": "MARK MORAN",
+      "lat": 39.260999999999996,
+      "lon": -76.55616666666667,
       "speed": 0,
-      "course": 358,
-      "heading": 358,
+      "course": 358.8,
+      "heading": 353,
       "ship_type": null,
-      "timestamp": "2026-11-13T02:47:05.001520+00:00"
+      "timestamp": "2026-11-13T10:30:58.487003+00:00"
+    },
+    {
+      "mmsi": 229548000,
+      "name": "VALENCE",
+      "lat": 38.911715,
+      "lon": -76.40522333333334,
+      "speed": 0.1,
+      "course": 219.9,
+      "heading": 346,
+      "ship_type": null,
+      "timestamp": "2026-11-13T10:31:06.201865+00:00"
     }
   ]
 }
