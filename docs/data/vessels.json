@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-13T10:31:09.976647+00:00",
+  "collected_at": "2026-11-13T18:03:40.547865+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,73 +12,150 @@
       -75.8
     ]
   ],
-  "vessel_count": 6,
+  "vessel_count": 13,
   "vessels": [
     {
-      "mmsi": 367139510,
-      "name": "APRIL MORAN",
-      "lat": 39.26043166666667,
-      "lon": -76.55614833333334,
+      "mmsi": 368159780,
+      "name": "CLAIRE HOLLAND",
+      "lat": 36.87069666666666,
+      "lon": -76.347945,
       "speed": 0,
-      "course": 243.7,
+      "course": 315.4,
+      "heading": 332,
+      "ship_type": null,
+      "timestamp": "2026-11-13T18:03:11.356329+00:00"
+    },
+    {
+      "mmsi": 368404260,
+      "name": "WOLLOCHET",
+      "lat": 36.85762,
+      "lon": -76.31308833333333,
+      "speed": 4,
+      "course": 127.2,
+      "heading": 130,
+      "ship_type": null,
+      "timestamp": "2026-11-13T18:03:11.356396+00:00"
+    },
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.26101833333333,
+      "lon": -76.57186499999999,
+      "speed": 0,
+      "course": 154.4,
+      "heading": 71,
+      "ship_type": null,
+      "timestamp": "2026-11-13T18:03:14.000445+00:00"
+    },
+    {
+      "mmsi": 368382440,
+      "name": "PATRICIA B. MORAN",
+      "lat": 36.87004,
+      "lon": -76.34801,
+      "speed": 0,
+      "course": 128.5,
+      "heading": 217,
+      "ship_type": null,
+      "timestamp": "2026-11-13T18:03:14.488175+00:00"
+    },
+    {
+      "mmsi": 440176000,
+      "name": "HMM HOPE",
+      "lat": 36.95281333333333,
+      "lon": -76.337425,
+      "speed": 9.3,
+      "course": 182,
+      "heading": 183,
+      "ship_type": null,
+      "timestamp": "2026-11-13T18:03:16.824385+00:00"
+    },
+    {
+      "mmsi": 366939170,
+      "name": "ATLAS",
+      "lat": 39.208485,
+      "lon": -76.51950833333333,
+      "speed": 7,
+      "course": 141,
+      "heading": 135,
+      "ship_type": null,
+      "timestamp": "2026-11-13T18:03:17.540051+00:00"
+    },
+    {
+      "mmsi": 367725880,
+      "name": "JACK HOLLAND",
+      "lat": 36.882124999999995,
+      "lon": -76.35142666666667,
+      "speed": 0,
+      "course": 204.8,
+      "heading": 265,
+      "ship_type": null,
+      "timestamp": "2026-11-13T18:03:17.624583+00:00"
+    },
+    {
+      "mmsi": 636023671,
+      "name": "CAPE BERNINA",
+      "lat": 38.895248333333335,
+      "lon": -76.40856166666667,
+      "speed": 0,
+      "course": 217.9,
+      "heading": 357,
+      "ship_type": null,
+      "timestamp": "2026-11-13T18:03:20.795802+00:00"
+    },
+    {
+      "mmsi": 367557690,
+      "name": "PRINCESS IRENE",
+      "lat": 39.15315,
+      "lon": -76.49993666666666,
+      "speed": 0,
+      "course": 276.6,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-13T10:30:43.433715+00:00"
+      "timestamp": "2026-11-13T18:03:21.586816+00:00"
     },
     {
-      "mmsi": 368247110,
-      "name": "MILLENNIUM",
-      "lat": 38.84879333333333,
-      "lon": -76.54397999999999,
+      "mmsi": 369134000,
+      "name": "US GOVERNMENT VESSEL",
+      "lat": 39.26287666666666,
+      "lon": -76.60035333333333,
       "speed": 0,
-      "course": 360,
+      "course": 111,
+      "heading": 148,
+      "ship_type": null,
+      "timestamp": "2026-11-13T18:03:25.679457+00:00"
+    },
+    {
+      "mmsi": 366837130,
+      "name": "SUSAN MORAN",
+      "lat": 36.951191666666666,
+      "lon": -76.328945,
+      "speed": 0.1,
+      "course": 299,
+      "heading": 97,
+      "ship_type": null,
+      "timestamp": "2026-11-13T18:03:27.320961+00:00"
+    },
+    {
+      "mmsi": 368258880,
+      "name": "HARRY S",
+      "lat": 36.92781166666667,
+      "lon": -76.33127166666667,
+      "speed": 0,
+      "course": 243.4,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-13T10:30:46.430943+00:00"
+      "timestamp": "2026-11-13T18:03:27.688576+00:00"
     },
     {
-      "mmsi": 368015740,
-      "name": "PINNERS POINT",
-      "lat": 36.849623333333334,
-      "lon": -76.31530166666667,
-      "speed": 0,
-      "course": 258.6,
-      "heading": 10,
+      "mmsi": 366757230,
+      "name": "GARY CHOUEST",
+      "lat": 36.91909,
+      "lon": -76.18089833333333,
+      "speed": 0.3,
+      "course": 261.5,
+      "heading": 92,
       "ship_type": null,
-      "timestamp": "2026-11-13T10:30:52.832359+00:00"
-    },
-    {
-      "mmsi": 367029960,
-      "name": "CALUSA COAST",
-      "lat": 39.47561666666666,
-      "lon": -75.956975,
-      "speed": 0.1,
-      "course": 88.3,
-      "heading": 225,
-      "ship_type": null,
-      "timestamp": "2026-11-13T10:30:53.712858+00:00"
-    },
-    {
-      "mmsi": 367523580,
-      "name": "MARK MORAN",
-      "lat": 39.260999999999996,
-      "lon": -76.55616666666667,
-      "speed": 0,
-      "course": 358.8,
-      "heading": 353,
-      "ship_type": null,
-      "timestamp": "2026-11-13T10:30:58.487003+00:00"
-    },
-    {
-      "mmsi": 229548000,
-      "name": "VALENCE",
-      "lat": 38.911715,
-      "lon": -76.40522333333334,
-      "speed": 0.1,
-      "course": 219.9,
-      "heading": 346,
-      "ship_type": null,
-      "timestamp": "2026-11-13T10:31:06.201865+00:00"
+      "timestamp": "2026-11-13T18:03:31.977578+00:00"
     }
   ]
 }
