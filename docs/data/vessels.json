@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-14T16:52:13.124429+00:00",
+  "collected_at": "2026-11-14T21:05:35.452494+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,51 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 4,
+  "vessel_count": 12,
   "vessels": [
     {
-      "mmsi": 368402460,
-      "name": "GAMEKEEPER",
-      "lat": 36.86718833333334,
-      "lon": -76.31605833333333,
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.25588833333334,
+      "lon": -76.53487333333334,
       "speed": 0,
-      "course": 150.5,
-      "heading": 312,
+      "course": 43.6,
+      "heading": 302,
       "ship_type": null,
-      "timestamp": "2026-11-14T16:51:50.380542+00:00"
+      "timestamp": "2026-11-14T21:05:23.629376+00:00"
     },
     {
-      "mmsi": 368453080,
-      "name": "PESCADERO PT",
-      "lat": 39.442620000000005,
-      "lon": -75.99297833333334,
+      "mmsi": 366991412,
+      "name": "USNS APALACHICOLA",
+      "lat": 36.86241666666667,
+      "lon": -76.31572166666666,
       "speed": 0,
-      "course": 316.7,
+      "course": 360,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-14T16:51:52.532724+00:00"
+      "timestamp": "2026-11-14T21:05:10.181682+00:00"
     },
     {
-      "mmsi": 366962220,
-      "name": "BART L.",
-      "lat": 39.44094,
-      "lon": -75.99630833333335,
-      "speed": 0.1,
-      "course": 5.2,
-      "heading": 300,
+      "mmsi": 368015740,
+      "name": "PINNERS POINT",
+      "lat": 36.85850166666667,
+      "lon": -76.32146166666666,
+      "speed": 7,
+      "course": 81.8,
+      "heading": 80,
       "ship_type": null,
-      "timestamp": "2026-11-14T16:51:58.106668+00:00"
+      "timestamp": "2026-11-14T21:05:13.453137+00:00"
     },
     {
-      "mmsi": 369134000,
-      "name": "US GOVERNMENT VESSEL",
-      "lat": 38.83391666666667,
-      "lon": -76.413195,
-      "speed": 13.5,
-      "course": 191.9,
-      "heading": 190,
+      "mmsi": 261005882,
+      "name": "KATHARSIS II",
+      "lat": 38.96524333333333,
+      "lon": -76.47928666666667,
+      "speed": 0,
+      "course": 239.3,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-14T16:52:00.255616+00:00"
+      "timestamp": "2026-11-14T21:05:16.024197+00:00"
+    },
+    {
+      "mmsi": 367769180,
+      "name": "CLAYTON W MORAN",
+      "lat": 36.87759833333334,
+      "lon": -76.34502666666667,
+      "speed": 8.3,
+      "course": 268.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-14T21:05:17.002766+00:00"
+    },
+    {
+      "mmsi": 368379170,
+      "name": "WINDSERVE SPARTAN",
+      "lat": 36.85890333333334,
+      "lon": -76.34525000000001,
+      "speed": 0,
+      "course": 360,
+      "heading": 337,
+      "ship_type": null,
+      "timestamp": "2026-11-14T21:05:17.002851+00:00"
+    },
+    {
+      "mmsi": 319257000,
+      "name": "BEOTHUK",
+      "lat": 38.68984833333333,
+      "lon": -76.16817166666667,
+      "speed": 0,
+      "course": 360,
+      "heading": 187,
+      "ship_type": null,
+      "timestamp": "2026-11-14T21:05:24.208912+00:00"
+    },
+    {
+      "mmsi": 367422430,
+      "name": "COMET",
+      "lat": 39.20911833333333,
+      "lon": -76.58207666666667,
+      "speed": 0,
+      "course": 271.5,
+      "heading": 306,
+      "ship_type": null,
+      "timestamp": "2026-11-14T21:05:25.691739+00:00"
+    },
+    {
+      "mmsi": 369970480,
+      "name": "YP706",
+      "lat": 38.98413333333333,
+      "lon": -76.46738333333333,
+      "speed": 0,
+      "course": 196.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-14T21:05:26.037160+00:00"
+    },
+    {
+      "mmsi": 441151000,
+      "name": "GLOVIS SPIRIT",
+      "lat": 39.21153,
+      "lon": -76.48302833333334,
+      "speed": 0,
+      "course": 163.2,
+      "heading": 264,
+      "ship_type": null,
+      "timestamp": "2026-11-14T21:05:27.899443+00:00"
+    },
+    {
+      "mmsi": 232061513,
+      "name": "STORM DIVER",
+      "lat": 36.92454333333333,
+      "lon": -76.19102833333334,
+      "speed": 0,
+      "course": 213.3,
+      "heading": 179,
+      "ship_type": null,
+      "timestamp": "2026-11-14T21:05:29.017333+00:00"
+    },
+    {
+      "mmsi": 368926258,
+      "name": "CATLETT",
+      "lat": 39.26697166666667,
+      "lon": -76.57952666666667,
+      "speed": 0,
+      "course": 232.4,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-14T21:05:33.794942+00:00"
     }
   ]
 }
