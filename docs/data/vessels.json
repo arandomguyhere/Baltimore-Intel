@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-14T03:33:47.928912+00:00",
+  "collected_at": "2026-11-14T10:56:56.122982+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 4,
   "vessels": [
-    {
-      "mmsi": 366822910,
-      "name": "MISS TYLER",
-      "lat": 36.968105,
-      "lon": -76.41507,
-      "speed": 0,
-      "course": 126.4,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-14T03:33:26.376336+00:00"
-    },
     {
       "mmsi": 368420770,
       "name": "LILY ANNE",
-      "lat": 36.960503333333335,
-      "lon": -76.40902333333334,
+      "lat": 36.96051333333333,
+      "lon": -76.40900666666667,
       "speed": 0,
-      "course": 265.1,
-      "heading": 49,
+      "course": 244.6,
+      "heading": 50,
       "ship_type": null,
-      "timestamp": "2026-11-14T03:33:27.760270+00:00"
+      "timestamp": "2026-11-14T10:56:28.967005+00:00"
     },
     {
-      "mmsi": 338514578,
-      "name": "KLASY LADY FB19",
-      "lat": 39.01427666666667,
-      "lon": -76.40235,
-      "speed": 0.1,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-14T03:33:28.865076+00:00"
-    },
-    {
-      "mmsi": 367082130,
-      "name": "TIMOTHY MCALLISTER",
-      "lat": 39.24004,
-      "lon": -76.526715,
-      "speed": 2.8,
-      "course": 251.8,
-      "heading": 245,
-      "ship_type": null,
-      "timestamp": "2026-11-14T03:33:39.269038+00:00"
-    },
-    {
-      "mmsi": 636026606,
-      "name": "KEN MARE",
-      "lat": 38.929089999999995,
-      "lon": -76.39599166666667,
+      "mmsi": 232061513,
+      "name": "STORM DIVER",
+      "lat": 36.924544999999995,
+      "lon": -76.19101,
       "speed": 0,
-      "course": 277.6,
-      "heading": 277,
+      "course": 213.3,
+      "heading": 179,
       "ship_type": null,
-      "timestamp": "2026-11-14T03:33:40.840883+00:00"
+      "timestamp": "2026-11-14T10:56:31.200675+00:00"
     },
     {
-      "mmsi": 636023062,
-      "name": "KOSTAS K",
-      "lat": 39.10378333333333,
-      "lon": -76.3943,
-      "speed": 13.8,
-      "course": 178.2,
-      "heading": 180,
-      "ship_type": null,
-      "timestamp": "2026-11-14T03:33:44.117782+00:00"
-    },
-    {
-      "mmsi": 367314640,
-      "name": "ROWAN M MCALLISTER",
-      "lat": 39.26887333333333,
-      "lon": -76.58123333333333,
+      "mmsi": 366841550,
+      "name": "SURRIE MORAN",
+      "lat": 36.955706666666664,
+      "lon": -76.32725666666667,
       "speed": 0,
-      "course": 301.9,
-      "heading": 202,
+      "course": 61.3,
+      "heading": 11,
       "ship_type": null,
-      "timestamp": "2026-11-14T03:33:46.752631+00:00"
+      "timestamp": "2026-11-14T10:56:32.276575+00:00"
+    },
+    {
+      "mmsi": 368378660,
+      "name": "WINDSERVE FRONTIER",
+      "lat": 36.8592,
+      "lon": -76.345135,
+      "speed": 0,
+      "course": 147.1,
+      "heading": 159,
+      "ship_type": null,
+      "timestamp": "2026-11-14T10:56:47.623571+00:00"
     }
   ]
 }
