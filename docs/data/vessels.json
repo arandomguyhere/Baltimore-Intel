@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-16T06:37:45.396383+00:00",
+  "collected_at": "2026-11-16T16:27:02.754600+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,40 +12,73 @@
       -75.8
     ]
   ],
-  "vessel_count": 3,
+  "vessel_count": 6,
   "vessels": [
     {
-      "mmsi": 311057100,
-      "name": "CSL TACOMA",
-      "lat": 39.22282666666667,
-      "lon": -76.577285,
+      "mmsi": 229548000,
+      "name": "VALENCE",
+      "lat": 37.01226166666667,
+      "lon": -76.04019333333333,
+      "speed": 11.6,
+      "course": 133.9,
+      "heading": 133,
+      "ship_type": null,
+      "timestamp": "2026-11-16T16:26:42.273346+00:00"
+    },
+    {
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.25300166666667,
+      "lon": -76.56663,
+      "speed": 4.6,
+      "course": 321.8,
+      "heading": 339,
+      "ship_type": null,
+      "timestamp": "2026-11-16T16:26:43.889624+00:00"
+    },
+    {
+      "mmsi": 209470000,
+      "name": "MSC BOSPHORUS",
+      "lat": 39.253233333333334,
+      "lon": -76.54545,
       "speed": 0,
-      "course": 268.8,
-      "heading": 271,
+      "course": 306.8,
+      "heading": 307,
       "ship_type": null,
-      "timestamp": "2026-11-16T06:37:27.225375+00:00"
+      "timestamp": "2026-11-16T16:26:47.215594+00:00"
     },
     {
-      "mmsi": 368485480,
-      "name": "MARY MCALLISTER",
-      "lat": 36.86309166666667,
-      "lon": -76.31787,
-      "speed": 0.1,
-      "course": 177,
-      "heading": 265,
+      "mmsi": 368382440,
+      "name": "PATRICIA B. MORAN",
+      "lat": 36.88287666666667,
+      "lon": -76.33506833333333,
+      "speed": 3.3,
+      "course": 180.9,
+      "heading": 113,
       "ship_type": null,
-      "timestamp": "2026-11-16T06:37:33.589299+00:00"
+      "timestamp": "2026-11-16T16:26:56.832482+00:00"
     },
     {
-      "mmsi": 368193180,
-      "name": "INTRA RECOIL",
-      "lat": 37.03131333333333,
-      "lon": -76.52631166666667,
-      "speed": 6.9,
-      "course": 302.5,
-      "heading": 511,
+      "mmsi": 367476850,
+      "name": "CAPT DALE",
+      "lat": 38.52415833333334,
+      "lon": -76.34322833333334,
+      "speed": 0,
+      "course": 173.7,
+      "heading": 106,
       "ship_type": null,
-      "timestamp": "2026-11-16T06:37:36.207974+00:00"
+      "timestamp": "2026-11-16T16:27:00.144711+00:00"
+    },
+    {
+      "mmsi": 368358680,
+      "name": "ATLAS",
+      "lat": 36.954445,
+      "lon": -76.29334833333334,
+      "speed": 5,
+      "course": 139.6,
+      "heading": 143,
+      "ship_type": null,
+      "timestamp": "2026-11-16T16:27:00.442610+00:00"
     }
   ]
 }
