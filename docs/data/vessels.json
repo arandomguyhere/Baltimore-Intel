@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-17T08:16:59.680443+00:00",
+  "collected_at": "2026-11-17T17:45:27.455597+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,51 +12,117 @@
       -75.8
     ]
   ],
-  "vessel_count": 4,
+  "vessel_count": 10,
   "vessels": [
     {
-      "mmsi": 368441690,
-      "name": "FEDERAL HILL",
-      "lat": 39.255895,
-      "lon": -76.53488166666666,
-      "speed": 0,
-      "course": 229.2,
-      "heading": 295,
+      "mmsi": 636024584,
+      "name": "MEDI CAPALBIO",
+      "lat": 36.84686333333333,
+      "lon": -76.29754333333334,
+      "speed": 6,
+      "course": 327.3,
+      "heading": 324,
       "ship_type": null,
-      "timestamp": "2026-11-17T08:16:44.419579+00:00"
+      "timestamp": "2026-11-17T17:45:03.450893+00:00"
+    },
+    {
+      "mmsi": 339067000,
+      "name": "OCEANUS V",
+      "lat": 36.96731333333333,
+      "lon": -76.13634,
+      "speed": 16.7,
+      "course": 238.4,
+      "heading": 239,
+      "ship_type": null,
+      "timestamp": "2026-11-17T17:45:04.583996+00:00"
     },
     {
       "mmsi": 367422430,
       "name": "COMET",
-      "lat": 39.20910333333334,
-      "lon": -76.58204666666667,
+      "lat": 39.20908166666666,
+      "lon": -76.58206,
       "speed": 0,
-      "course": 280.8,
-      "heading": 304,
+      "course": 216.1,
+      "heading": 305,
       "ship_type": null,
-      "timestamp": "2026-11-17T08:16:46.057782+00:00"
+      "timestamp": "2026-11-17T17:45:05.267258+00:00"
     },
     {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.26884,
-      "lon": -76.58090166666666,
-      "speed": 0,
-      "course": 333.7,
-      "heading": 201,
+      "mmsi": 368312320,
+      "name": "JANE MCALLISTER",
+      "lat": 36.84588,
+      "lon": -76.29658500000001,
+      "speed": 6,
+      "course": 303,
+      "heading": 300,
       "ship_type": null,
-      "timestamp": "2026-11-17T08:16:54.342129+00:00"
+      "timestamp": "2026-11-17T17:45:08.169518+00:00"
     },
     {
-      "mmsi": 366878280,
-      "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.967020000000005,
-      "lon": -76.47811666666666,
-      "speed": 0,
-      "course": 28.1,
+      "mmsi": 368393780,
+      "name": "KRISTINA MARIE",
+      "lat": 36.984698333333334,
+      "lon": -76.44558666666667,
+      "speed": 0.5,
+      "course": 193.1,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-17T08:16:56.562527+00:00"
+      "timestamp": "2026-11-17T17:45:08.169566+00:00"
+    },
+    {
+      "mmsi": 366999705,
+      "name": "CG_POMPANO",
+      "lat": 36.912956666666666,
+      "lon": -76.17647000000001,
+      "speed": 0,
+      "course": 360,
+      "heading": 199,
+      "ship_type": null,
+      "timestamp": "2026-11-17T17:45:09.697679+00:00"
+    },
+    {
+      "mmsi": 367367390,
+      "name": "DIAMOND COAST",
+      "lat": 39.243990000000004,
+      "lon": -76.56907333333334,
+      "speed": 0,
+      "course": 328.6,
+      "heading": 257,
+      "ship_type": null,
+      "timestamp": "2026-11-17T17:45:11.771713+00:00"
+    },
+    {
+      "mmsi": 441151000,
+      "name": "GLOVIS SPIRIT",
+      "lat": 37.01034666666667,
+      "lon": -76.03724166666666,
+      "speed": 15.3,
+      "course": 133,
+      "heading": 133,
+      "ship_type": null,
+      "timestamp": "2026-11-17T17:45:16.182446+00:00"
+    },
+    {
+      "mmsi": 367161960,
+      "name": "TIMOTHY M",
+      "lat": 39.1957,
+      "lon": -76.48231666666668,
+      "speed": 0,
+      "course": 217.2,
+      "heading": 164,
+      "ship_type": null,
+      "timestamp": "2026-11-17T17:45:17.793480+00:00"
+    },
+    {
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.96276,
+      "lon": -76.29603666666667,
+      "speed": 0,
+      "course": 137.2,
+      "heading": 42,
+      "ship_type": null,
+      "timestamp": "2026-11-17T17:45:23.304870+00:00"
     }
   ]
 }
