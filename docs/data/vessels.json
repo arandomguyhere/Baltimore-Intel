@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-17T00:23:21.823050+00:00",
+  "collected_at": "2026-11-17T08:16:59.680443+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -15,48 +15,48 @@
   "vessel_count": 4,
   "vessels": [
     {
-      "mmsi": 368199810,
-      "name": "CAROLINE",
-      "lat": 36.963165000000004,
-      "lon": -76.40869833333333,
+      "mmsi": 368441690,
+      "name": "FEDERAL HILL",
+      "lat": 39.255895,
+      "lon": -76.53488166666666,
       "speed": 0,
-      "course": 360,
+      "course": 229.2,
+      "heading": 295,
+      "ship_type": null,
+      "timestamp": "2026-11-17T08:16:44.419579+00:00"
+    },
+    {
+      "mmsi": 367422430,
+      "name": "COMET",
+      "lat": 39.20910333333334,
+      "lon": -76.58204666666667,
+      "speed": 0,
+      "course": 280.8,
+      "heading": 304,
+      "ship_type": null,
+      "timestamp": "2026-11-17T08:16:46.057782+00:00"
+    },
+    {
+      "mmsi": 367576060,
+      "name": "BRIDGET MCALLISTER",
+      "lat": 39.26884,
+      "lon": -76.58090166666666,
+      "speed": 0,
+      "course": 333.7,
+      "heading": 201,
+      "ship_type": null,
+      "timestamp": "2026-11-17T08:16:54.342129+00:00"
+    },
+    {
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.967020000000005,
+      "lon": -76.47811666666666,
+      "speed": 0,
+      "course": 28.1,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-17T00:23:02.151359+00:00"
-    },
-    {
-      "mmsi": 368358680,
-      "name": "ATLAS",
-      "lat": 36.96289,
-      "lon": -76.40870166666667,
-      "speed": 0,
-      "course": 297.2,
-      "heading": 26,
-      "ship_type": null,
-      "timestamp": "2026-11-17T00:23:03.297280+00:00"
-    },
-    {
-      "mmsi": 368169560,
-      "name": "ATLANTIC ENDEAVOR",
-      "lat": 36.922884999999994,
-      "lon": -76.18811166666666,
-      "speed": 0,
-      "course": 286.4,
-      "heading": 106,
-      "ship_type": null,
-      "timestamp": "2026-11-17T00:23:12.484962+00:00"
-    },
-    {
-      "mmsi": 368453080,
-      "name": "PESCADERO PT",
-      "lat": 39.442620000000005,
-      "lon": -75.99293166666666,
-      "speed": 0,
-      "course": 300.8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-17T00:23:16.017630+00:00"
+      "timestamp": "2026-11-17T08:16:56.562527+00:00"
     }
   ]
 }
