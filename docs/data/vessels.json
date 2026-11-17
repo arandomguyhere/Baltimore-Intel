@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-16T16:27:02.754600+00:00",
+  "collected_at": "2026-11-17T00:23:21.823050+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,73 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 6,
+  "vessel_count": 4,
   "vessels": [
     {
-      "mmsi": 229548000,
-      "name": "VALENCE",
-      "lat": 37.01226166666667,
-      "lon": -76.04019333333333,
-      "speed": 11.6,
-      "course": 133.9,
-      "heading": 133,
-      "ship_type": null,
-      "timestamp": "2026-11-16T16:26:42.273346+00:00"
-    },
-    {
-      "mmsi": 368396250,
-      "name": "ISABEL MCALLISTER",
-      "lat": 39.25300166666667,
-      "lon": -76.56663,
-      "speed": 4.6,
-      "course": 321.8,
-      "heading": 339,
-      "ship_type": null,
-      "timestamp": "2026-11-16T16:26:43.889624+00:00"
-    },
-    {
-      "mmsi": 209470000,
-      "name": "MSC BOSPHORUS",
-      "lat": 39.253233333333334,
-      "lon": -76.54545,
+      "mmsi": 368199810,
+      "name": "CAROLINE",
+      "lat": 36.963165000000004,
+      "lon": -76.40869833333333,
       "speed": 0,
-      "course": 306.8,
-      "heading": 307,
+      "course": 360,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-16T16:26:47.215594+00:00"
-    },
-    {
-      "mmsi": 368382440,
-      "name": "PATRICIA B. MORAN",
-      "lat": 36.88287666666667,
-      "lon": -76.33506833333333,
-      "speed": 3.3,
-      "course": 180.9,
-      "heading": 113,
-      "ship_type": null,
-      "timestamp": "2026-11-16T16:26:56.832482+00:00"
-    },
-    {
-      "mmsi": 367476850,
-      "name": "CAPT DALE",
-      "lat": 38.52415833333334,
-      "lon": -76.34322833333334,
-      "speed": 0,
-      "course": 173.7,
-      "heading": 106,
-      "ship_type": null,
-      "timestamp": "2026-11-16T16:27:00.144711+00:00"
+      "timestamp": "2026-11-17T00:23:02.151359+00:00"
     },
     {
       "mmsi": 368358680,
       "name": "ATLAS",
-      "lat": 36.954445,
-      "lon": -76.29334833333334,
-      "speed": 5,
-      "course": 139.6,
-      "heading": 143,
+      "lat": 36.96289,
+      "lon": -76.40870166666667,
+      "speed": 0,
+      "course": 297.2,
+      "heading": 26,
       "ship_type": null,
-      "timestamp": "2026-11-16T16:27:00.442610+00:00"
+      "timestamp": "2026-11-17T00:23:03.297280+00:00"
+    },
+    {
+      "mmsi": 368169560,
+      "name": "ATLANTIC ENDEAVOR",
+      "lat": 36.922884999999994,
+      "lon": -76.18811166666666,
+      "speed": 0,
+      "course": 286.4,
+      "heading": 106,
+      "ship_type": null,
+      "timestamp": "2026-11-17T00:23:12.484962+00:00"
+    },
+    {
+      "mmsi": 368453080,
+      "name": "PESCADERO PT",
+      "lat": 39.442620000000005,
+      "lon": -75.99293166666666,
+      "speed": 0,
+      "course": 300.8,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-17T00:23:16.017630+00:00"
     }
   ]
 }
