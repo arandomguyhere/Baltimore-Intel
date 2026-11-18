@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-18T16:26:51.845552+00:00",
+  "collected_at": "2026-11-18T23:00:41.108039+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,62 +12,29 @@
       -75.8
     ]
   ],
-  "vessel_count": 5,
+  "vessel_count": 2,
   "vessels": [
     {
-      "mmsi": 368222360,
-      "name": "",
-      "lat": 36.962675,
-      "lon": -76.29558333333333,
-      "speed": 0.1,
-      "course": 360,
-      "heading": 511,
+      "mmsi": 367712350,
+      "name": "UNCLE MIKE",
+      "lat": 36.96260666666667,
+      "lon": -76.30140166666666,
+      "speed": 5.4,
+      "course": 277.1,
+      "heading": 276,
       "ship_type": null,
-      "timestamp": "2026-11-18T16:26:34.613578+00:00"
+      "timestamp": "2026-11-18T23:00:34.045740+00:00"
     },
     {
-      "mmsi": 367686270,
-      "name": "STASINOS BOYS",
-      "lat": 36.974425,
-      "lon": -76.35131,
-      "speed": 2.8,
-      "course": 40.4,
-      "heading": 39,
-      "ship_type": null,
-      "timestamp": "2026-11-18T16:26:34.613641+00:00"
-    },
-    {
-      "mmsi": 367309390,
-      "name": "ALICE C",
-      "lat": 39.443461666666664,
-      "lon": -75.992555,
-      "speed": 2.6,
-      "course": 43.9,
-      "heading": 224,
-      "ship_type": null,
-      "timestamp": "2026-11-18T16:26:43.299444+00:00"
-    },
-    {
-      "mmsi": 368441690,
-      "name": "FEDERAL HILL",
-      "lat": 39.25589166666667,
-      "lon": -76.53490666666667,
+      "mmsi": 367304020,
+      "name": "JACKIE F. MCALLISTER",
+      "lat": 39.26853666666667,
+      "lon": -76.58113833333333,
       "speed": 0,
-      "course": 26.1,
-      "heading": 297,
+      "course": 262.2,
+      "heading": 205,
       "ship_type": null,
-      "timestamp": "2026-11-18T16:26:45.815069+00:00"
-    },
-    {
-      "mmsi": 368199810,
-      "name": "",
-      "lat": 36.96315166666667,
-      "lon": -76.40867499999999,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-18T16:26:49.288238+00:00"
+      "timestamp": "2026-11-18T23:00:35.587769+00:00"
     }
   ]
 }
