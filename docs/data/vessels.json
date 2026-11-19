@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-19T13:03:39.855397+00:00",
+  "collected_at": "2026-11-19T21:31:54.585748+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,117 +12,62 @@
       -75.8
     ]
   ],
-  "vessel_count": 10,
+  "vessel_count": 5,
   "vessels": [
     {
-      "mmsi": 367302540,
-      "name": "KIMBERLY C",
-      "lat": 39.443043333333335,
-      "lon": -75.99286000000001,
-      "speed": 0,
-      "course": 259.2,
-      "heading": 215,
+      "mmsi": 367341190,
+      "name": "WYE RIVER",
+      "lat": 39.181475,
+      "lon": -76.44531833333333,
+      "speed": 6.8,
+      "course": 291.6,
+      "heading": 290,
       "ship_type": null,
-      "timestamp": "2026-11-19T13:03:32.986406+00:00"
+      "timestamp": "2026-11-19T21:31:39.279880+00:00"
     },
     {
-      "mmsi": 368419370,
-      "name": "BELVEDERE",
-      "lat": 36.93128333333333,
-      "lon": -76.33865,
-      "speed": 8.9,
-      "course": 182.7,
-      "heading": 182,
+      "mmsi": 367161960,
+      "name": "TIMOTHY M",
+      "lat": 38.85438333333333,
+      "lon": -76.42384999999999,
+      "speed": 6.9,
+      "course": 190.7,
+      "heading": 190,
       "ship_type": null,
-      "timestamp": "2026-11-19T13:03:33.207216+00:00"
+      "timestamp": "2026-11-19T21:31:40.300829+00:00"
     },
     {
-      "mmsi": 366913820,
-      "name": "AJ MCALLISTER",
-      "lat": 36.930888333333336,
-      "lon": -76.32964333333332,
-      "speed": 0,
-      "course": 308.3,
-      "heading": 511,
+      "mmsi": 368329530,
+      "name": "MIA",
+      "lat": 36.95341333333333,
+      "lon": -76.39646166666667,
+      "speed": 6.7,
+      "course": 87.9,
+      "heading": 90,
       "ship_type": null,
-      "timestamp": "2026-11-19T13:03:34.491836+00:00"
-    },
-    {
-      "mmsi": 368477350,
-      "name": "EDWIN RIDER",
-      "lat": 36.838539999999995,
-      "lon": -76.29119166666666,
-      "speed": 0,
-      "course": 224.6,
-      "heading": 154,
-      "ship_type": null,
-      "timestamp": "2026-11-19T13:03:35.887806+00:00"
+      "timestamp": "2026-11-19T21:31:45.462617+00:00"
     },
     {
       "mmsi": 338533000,
       "name": "SHANNON DANN",
-      "lat": 36.92823,
-      "lon": -76.33199333333333,
+      "lat": 36.928731666666664,
+      "lon": -76.33145333333333,
       "speed": 0.1,
-      "course": 300.2,
-      "heading": 16,
+      "course": 322.8,
+      "heading": 123,
       "ship_type": null,
-      "timestamp": "2026-11-19T13:03:35.887852+00:00"
+      "timestamp": "2026-11-19T21:31:46.102398+00:00"
     },
     {
-      "mmsi": 367483830,
-      "name": "LYNNE MORAN",
-      "lat": 39.22936833333333,
-      "lon": -76.53897,
-      "speed": 7.7,
-      "course": 141.8,
-      "heading": 143,
-      "ship_type": null,
-      "timestamp": "2026-11-19T13:03:36.345461+00:00"
-    },
-    {
-      "mmsi": 368358680,
-      "name": "ATLAS",
-      "lat": 36.96288666666667,
-      "lon": -76.40871166666668,
+      "mmsi": 636025797,
+      "name": "RELIABLE",
+      "lat": 39.24733666666667,
+      "lon": -76.53836666666666,
       "speed": 0,
-      "course": 357.2,
-      "heading": 27,
+      "course": 125.7,
+      "heading": 194,
       "ship_type": null,
-      "timestamp": "2026-11-19T13:03:36.534315+00:00"
-    },
-    {
-      "mmsi": 368247110,
-      "name": "MILLENNIUM",
-      "lat": 38.85862833333333,
-      "lon": -76.51592000000001,
-      "speed": 6.3,
-      "course": 62.5,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-19T13:03:37.568467+00:00"
-    },
-    {
-      "mmsi": 368483880,
-      "name": "AMERICAN RANGER",
-      "lat": 39.283303333333336,
-      "lon": -76.60530666666666,
-      "speed": 0.1,
-      "course": 164.9,
-      "heading": 119,
-      "ship_type": null,
-      "timestamp": "2026-11-19T13:03:37.568514+00:00"
-    },
-    {
-      "mmsi": 368193180,
-      "name": "INTRA RECOIL",
-      "lat": 37.425868333333334,
-      "lon": -76.16852666666666,
-      "speed": 4.7,
-      "course": 359.7,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-19T13:03:37.716339+00:00"
+      "timestamp": "2026-11-19T21:31:50.319657+00:00"
     }
   ]
 }
