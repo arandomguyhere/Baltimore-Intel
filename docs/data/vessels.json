@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-19T21:31:54.585748+00:00",
+  "collected_at": "2026-11-20T02:37:08.489033+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,62 +12,106 @@
       -75.8
     ]
   ],
-  "vessel_count": 5,
+  "vessel_count": 9,
   "vessels": [
     {
-      "mmsi": 367341190,
-      "name": "WYE RIVER",
-      "lat": 39.181475,
-      "lon": -76.44531833333333,
-      "speed": 6.8,
-      "course": 291.6,
-      "heading": 290,
-      "ship_type": null,
-      "timestamp": "2026-11-19T21:31:39.279880+00:00"
-    },
-    {
-      "mmsi": 367161960,
-      "name": "TIMOTHY M",
-      "lat": 38.85438333333333,
-      "lon": -76.42384999999999,
-      "speed": 6.9,
-      "course": 190.7,
-      "heading": 190,
-      "ship_type": null,
-      "timestamp": "2026-11-19T21:31:40.300829+00:00"
-    },
-    {
-      "mmsi": 368329530,
-      "name": "MIA",
-      "lat": 36.95341333333333,
-      "lon": -76.39646166666667,
-      "speed": 6.7,
-      "course": 87.9,
-      "heading": 90,
-      "ship_type": null,
-      "timestamp": "2026-11-19T21:31:45.462617+00:00"
-    },
-    {
-      "mmsi": 338533000,
-      "name": "SHANNON DANN",
-      "lat": 36.928731666666664,
-      "lon": -76.33145333333333,
+      "mmsi": 368777000,
+      "name": "CG JAMES RANKIN",
+      "lat": 39.20006333333333,
+      "lon": -76.57401499999999,
       "speed": 0.1,
-      "course": 322.8,
-      "heading": 123,
+      "course": 245.2,
+      "heading": 148,
       "ship_type": null,
-      "timestamp": "2026-11-19T21:31:46.102398+00:00"
+      "timestamp": "2026-11-20T02:36:44.932585+00:00"
     },
     {
-      "mmsi": 636025797,
-      "name": "RELIABLE",
-      "lat": 39.24733666666667,
-      "lon": -76.53836666666666,
+      "mmsi": 367323010,
+      "name": "PATRICIA MORAN",
+      "lat": 36.95364666666667,
+      "lon": -76.32784333333333,
       "speed": 0,
-      "course": 125.7,
-      "heading": 194,
+      "course": 212.6,
+      "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-19T21:31:50.319657+00:00"
+      "timestamp": "2026-11-20T02:36:46.617593+00:00"
+    },
+    {
+      "mmsi": 368483880,
+      "name": "AMERICAN RANGER",
+      "lat": 36.94991,
+      "lon": -75.98242666666667,
+      "speed": 10.2,
+      "course": 144.5,
+      "heading": 148,
+      "ship_type": null,
+      "timestamp": "2026-11-20T02:37:01.988209+00:00"
+    },
+    {
+      "mmsi": 368391490,
+      "name": "MOLLY J",
+      "lat": 36.92852166666667,
+      "lon": -76.33130833333333,
+      "speed": 0.2,
+      "course": 64.7,
+      "heading": 306,
+      "ship_type": null,
+      "timestamp": "2026-11-20T02:36:48.538030+00:00"
+    },
+    {
+      "mmsi": 367334360,
+      "name": "ROSS SEA",
+      "lat": 39.20961833333333,
+      "lon": -76.25427666666666,
+      "speed": 7.3,
+      "course": 209.2,
+      "heading": 208,
+      "ship_type": null,
+      "timestamp": "2026-11-20T02:36:49.452266+00:00"
+    },
+    {
+      "mmsi": 366991414,
+      "name": "USNS POINT LOMA",
+      "lat": 36.916900000000005,
+      "lon": -76.18225000000001,
+      "speed": 0,
+      "course": 350.5,
+      "heading": 94,
+      "ship_type": null,
+      "timestamp": "2026-11-20T02:36:51.252099+00:00"
+    },
+    {
+      "mmsi": 636015511,
+      "name": "ELEATIS",
+      "lat": 38.936681666666665,
+      "lon": -76.39887333333333,
+      "speed": 0,
+      "course": 139.1,
+      "heading": 25,
+      "ship_type": null,
+      "timestamp": "2026-11-20T02:36:51.509736+00:00"
+    },
+    {
+      "mmsi": 366913820,
+      "name": "AJ MCALLISTER",
+      "lat": 36.930865000000004,
+      "lon": -76.329675,
+      "speed": 0,
+      "course": 334.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-20T02:36:54.275351+00:00"
+    },
+    {
+      "mmsi": 367314510,
+      "name": "EMERALD COAST",
+      "lat": 39.153843333333334,
+      "lon": -76.31675833333334,
+      "speed": 7.5,
+      "course": 24.7,
+      "heading": 26,
+      "ship_type": null,
+      "timestamp": "2026-11-20T02:36:55.339886+00:00"
     }
   ]
 }
