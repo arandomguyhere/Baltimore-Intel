@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-21T00:37:05.690309+00:00",
+  "collected_at": "2026-11-21T07:42:59.258758+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,40 +12,139 @@
       -75.8
     ]
   ],
-  "vessel_count": 3,
+  "vessel_count": 12,
   "vessels": [
     {
-      "mmsi": 368777000,
-      "name": "CG JAMES RANKIN",
-      "lat": 39.200050000000005,
-      "lon": -76.57400666666668,
-      "speed": 0,
-      "course": 223.5,
-      "heading": 147,
+      "mmsi": 367493020,
+      "name": "CASEY ANN",
+      "lat": 38.89956333333334,
+      "lon": -76.39378833333333,
+      "speed": 7.6,
+      "course": 187.6,
+      "heading": 188,
       "ship_type": null,
-      "timestamp": "2026-11-21T00:36:45.893698+00:00"
+      "timestamp": "2026-11-21T07:42:31.969689+00:00"
     },
     {
-      "mmsi": 352002148,
-      "name": "ALBATROSS",
-      "lat": 39.25705333333334,
-      "lon": -76.56501499999999,
+      "mmsi": 369970481,
+      "name": "YP707",
+      "lat": 38.984,
+      "lon": -76.46724999999999,
       "speed": 0,
-      "course": 81,
-      "heading": 357,
+      "course": 345.4,
+      "heading": 350,
       "ship_type": null,
-      "timestamp": "2026-11-21T00:36:49.904623+00:00"
+      "timestamp": "2026-11-21T07:42:32.078077+00:00"
     },
     {
-      "mmsi": 368271280,
-      "name": "DB AVALON",
-      "lat": 39.356645,
-      "lon": -76.15528166666667,
+      "mmsi": 367082130,
+      "name": "TIMOTHY MCALLISTER",
+      "lat": 39.25666666666667,
+      "lon": -76.5636,
       "speed": 0,
-      "course": 47.8,
-      "heading": 57,
+      "course": 288.5,
+      "heading": 16,
       "ship_type": null,
-      "timestamp": "2026-11-21T00:36:57.431517+00:00"
+      "timestamp": "2026-11-21T07:42:35.912301+00:00"
+    },
+    {
+      "mmsi": 228472900,
+      "name": "NEOLINER ORIGIN",
+      "lat": 37.57168166666667,
+      "lon": -76.16692333333334,
+      "speed": 12.6,
+      "course": 176.4,
+      "heading": 175,
+      "ship_type": null,
+      "timestamp": "2026-11-21T07:42:37.071742+00:00"
+    },
+    {
+      "mmsi": 367165130,
+      "name": "NORTHSTAR INTEGRITY",
+      "lat": 39.44280833333333,
+      "lon": -75.99324166666666,
+      "speed": 0,
+      "course": 243.2,
+      "heading": 135,
+      "ship_type": null,
+      "timestamp": "2026-11-21T07:42:40.515918+00:00"
+    },
+    {
+      "mmsi": 636026423,
+      "name": "TAI SUMMIT",
+      "lat": 37.203179999999996,
+      "lon": -76.08865166666666,
+      "speed": 0.1,
+      "course": 332.4,
+      "heading": 50,
+      "ship_type": null,
+      "timestamp": "2026-11-21T07:42:41.084649+00:00"
+    },
+    {
+      "mmsi": 563240100,
+      "name": "EVER MERCY",
+      "lat": 36.983055,
+      "lon": -76.14626166666667,
+      "speed": 15.6,
+      "course": 286.6,
+      "heading": 288,
+      "ship_type": null,
+      "timestamp": "2026-11-21T07:42:43.909612+00:00"
+    },
+    {
+      "mmsi": 338533000,
+      "name": "SHANNON DANN",
+      "lat": 36.92460666666667,
+      "lon": -76.329465,
+      "speed": 0,
+      "course": 310.9,
+      "heading": 15,
+      "ship_type": null,
+      "timestamp": "2026-11-21T07:42:46.235881+00:00"
+    },
+    {
+      "mmsi": 366966650,
+      "name": "JAMES R MORAN",
+      "lat": 38.408588333333334,
+      "lon": -76.38907666666667,
+      "speed": 0,
+      "course": 223.1,
+      "heading": 312,
+      "ship_type": null,
+      "timestamp": "2026-11-21T07:42:49.050545+00:00"
+    },
+    {
+      "mmsi": 369970482,
+      "name": "YP708",
+      "lat": 38.98274166666667,
+      "lon": -76.465925,
+      "speed": 0,
+      "course": 68.7,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-21T07:42:50.109487+00:00"
+    },
+    {
+      "mmsi": 636021472,
+      "name": "ZIM ATLANTIC",
+      "lat": 36.9973,
+      "lon": -76.29550833333333,
+      "speed": 12.4,
+      "course": 59.3,
+      "heading": 60,
+      "ship_type": null,
+      "timestamp": "2026-11-21T07:42:51.349647+00:00"
+    },
+    {
+      "mmsi": 366991414,
+      "name": "USNS POINT LOMA",
+      "lat": 36.916900000000005,
+      "lon": -76.18225000000001,
+      "speed": 0,
+      "course": 25.7,
+      "heading": 94,
+      "ship_type": null,
+      "timestamp": "2026-11-21T07:42:51.349741+00:00"
     }
   ]
 }
