@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-20T18:50:44.961697+00:00",
+  "collected_at": "2026-11-21T00:37:05.690309+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,40 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 3,
+  "vessels": [
+    {
+      "mmsi": 368777000,
+      "name": "CG JAMES RANKIN",
+      "lat": 39.200050000000005,
+      "lon": -76.57400666666668,
+      "speed": 0,
+      "course": 223.5,
+      "heading": 147,
+      "ship_type": null,
+      "timestamp": "2026-11-21T00:36:45.893698+00:00"
+    },
+    {
+      "mmsi": 352002148,
+      "name": "ALBATROSS",
+      "lat": 39.25705333333334,
+      "lon": -76.56501499999999,
+      "speed": 0,
+      "course": 81,
+      "heading": 357,
+      "ship_type": null,
+      "timestamp": "2026-11-21T00:36:49.904623+00:00"
+    },
+    {
+      "mmsi": 368271280,
+      "name": "DB AVALON",
+      "lat": 39.356645,
+      "lon": -76.15528166666667,
+      "speed": 0,
+      "course": 47.8,
+      "heading": 57,
+      "ship_type": null,
+      "timestamp": "2026-11-21T00:36:57.431517+00:00"
+    }
+  ]
 }
