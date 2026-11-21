@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-21T15:38:29.888473+00:00",
+  "collected_at": "2026-11-21T21:11:01.225868+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,95 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 8,
+  "vessel_count": 4,
   "vessels": [
     {
-      "mmsi": 368277530,
-      "name": "MISS MADELINE",
-      "lat": 39.20910833333333,
-      "lon": -76.50504500000001,
+      "mmsi": 366999705,
+      "name": "CG_POMPANO",
+      "lat": 36.91294333333334,
+      "lon": -76.176495,
       "speed": 0.1,
-      "course": 222.2,
-      "heading": 179,
+      "course": 360,
+      "heading": 199,
       "ship_type": null,
-      "timestamp": "2026-11-21T15:38:03.029292+00:00"
-    },
-    {
-      "mmsi": 368006020,
-      "name": "ROSEMARY MCALLISTER",
-      "lat": 36.83833166666667,
-      "lon": -76.27847333333334,
-      "speed": 0,
-      "course": 198.7,
-      "heading": 178,
-      "ship_type": null,
-      "timestamp": "2026-11-21T15:38:09.135723+00:00"
-    },
-    {
-      "mmsi": 367711530,
-      "name": "CAPE CHARLES",
-      "lat": 37.07324833333333,
-      "lon": -76.13361833333333,
-      "speed": 27.4,
-      "course": 350.7,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-21T15:38:18.050181+00:00"
-    },
-    {
-      "mmsi": 366904380,
-      "name": "COLONEL",
-      "lat": 36.923700000000004,
-      "lon": -76.3294,
-      "speed": 0,
-      "course": 238.2,
-      "heading": 13,
-      "ship_type": null,
-      "timestamp": "2026-11-21T15:38:18.499559+00:00"
-    },
-    {
-      "mmsi": 367576060,
-      "name": "BRIDGET MCALLISTER",
-      "lat": 39.26883833333333,
-      "lon": -76.58092,
-      "speed": 0,
-      "course": 245.1,
-      "heading": 202,
-      "ship_type": null,
-      "timestamp": "2026-11-21T15:38:23.042694+00:00"
-    },
-    {
-      "mmsi": 538011952,
-      "name": "GLOBAL ACONCAGUA",
-      "lat": 39.25592833333334,
-      "lon": -76.535695,
-      "speed": 0,
-      "course": 12.7,
-      "heading": 13,
-      "ship_type": null,
-      "timestamp": "2026-11-21T15:38:23.863296+00:00"
-    },
-    {
-      "mmsi": 338533000,
-      "name": "SHANNON DANN",
-      "lat": 36.924695,
-      "lon": -76.32971333333333,
-      "speed": 0,
-      "course": 171.2,
-      "heading": 12,
-      "ship_type": null,
-      "timestamp": "2026-11-21T15:38:26.077132+00:00"
+      "timestamp": "2026-11-21T21:10:50.303187+00:00"
     },
     {
       "mmsi": 367371810,
       "name": "MAGOTHY",
-      "lat": 39.17087333333333,
-      "lon": -76.40989333333333,
-      "speed": 7.9,
-      "course": 291.3,
-      "heading": 291,
+      "lat": 39.24335166666666,
+      "lon": -76.571005,
+      "speed": 0,
+      "course": 276.6,
+      "heading": 262,
       "ship_type": null,
-      "timestamp": "2026-11-21T15:38:26.077198+00:00"
+      "timestamp": "2026-11-21T21:10:56.432374+00:00"
+    },
+    {
+      "mmsi": 367725880,
+      "name": "JACK HOLLAND",
+      "lat": 36.80592333333333,
+      "lon": -76.29055833333334,
+      "speed": 8.1,
+      "course": 12,
+      "heading": 8,
+      "ship_type": null,
+      "timestamp": "2026-11-21T21:10:56.808421+00:00"
+    },
+    {
+      "mmsi": 368177450,
+      "name": "RUBY COAST",
+      "lat": 39.256096666666664,
+      "lon": -76.561505,
+      "speed": 6.4,
+      "course": 202.2,
+      "heading": 200,
+      "ship_type": null,
+      "timestamp": "2026-11-21T21:10:59.804838+00:00"
     }
   ]
 }
