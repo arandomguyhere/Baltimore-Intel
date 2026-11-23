@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-22T22:03:11.975555+00:00",
+  "collected_at": "2026-11-23T02:44:33.513316+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,51 +12,40 @@
       -75.8
     ]
   ],
-  "vessel_count": 4,
+  "vessel_count": 3,
   "vessels": [
     {
-      "mmsi": 366882560,
-      "name": "EMILY ANNE MCALLISTE",
-      "lat": 38.32644666666667,
-      "lon": -76.45031666666667,
+      "mmsi": 367308110,
+      "name": "THE HUNTER",
+      "lat": 39.26838166666666,
+      "lon": -76.58111833333334,
       "speed": 0,
-      "course": 192,
+      "course": 268.5,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-22T22:03:04.372725+00:00"
+      "timestamp": "2026-11-23T02:44:25.970931+00:00"
     },
     {
-      "mmsi": 368926258,
-      "name": "CATLETT",
-      "lat": 39.26698833333333,
-      "lon": -76.579535,
-      "speed": 0,
-      "course": 154.9,
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.967025,
+      "lon": -76.47811333333334,
+      "speed": 0.1,
+      "course": 157.1,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-22T22:03:04.568932+00:00"
+      "timestamp": "2026-11-23T02:44:26.410272+00:00"
     },
     {
-      "mmsi": 305030000,
-      "name": "BBC RHONETAL",
-      "lat": 39.24037666666666,
-      "lon": -76.52930166666667,
+      "mmsi": 366920510,
+      "name": "KAYE E MORAN",
+      "lat": 38.326191666666666,
+      "lon": -76.45036666666667,
       "speed": 0,
-      "course": 241.4,
-      "heading": 67,
+      "course": 238,
+      "heading": 192,
       "ship_type": null,
-      "timestamp": "2026-11-22T22:03:10.750960+00:00"
-    },
-    {
-      "mmsi": 368199810,
-      "name": "",
-      "lat": 36.96318,
-      "lon": -76.40868166666668,
-      "speed": 0,
-      "course": 360,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-22T22:03:10.966111+00:00"
+      "timestamp": "2026-11-23T02:44:29.990488+00:00"
     }
   ]
 }
