@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-23T02:44:33.513316+00:00",
+  "collected_at": "2026-11-23T11:19:10.246187+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,40 +12,62 @@
       -75.8
     ]
   ],
-  "vessel_count": 3,
+  "vessel_count": 5,
   "vessels": [
     {
-      "mmsi": 367308110,
-      "name": "THE HUNTER",
-      "lat": 39.26838166666666,
-      "lon": -76.58111833333334,
+      "mmsi": 367165450,
+      "name": "TREASURE COAST",
+      "lat": 39.20924166666667,
+      "lon": -76.46109833333334,
       "speed": 0,
-      "course": 268.5,
-      "heading": 511,
+      "course": 294.8,
+      "heading": 314,
       "ship_type": null,
-      "timestamp": "2026-11-23T02:44:25.970931+00:00"
+      "timestamp": "2026-11-23T11:18:48.481199+00:00"
     },
     {
-      "mmsi": 366878280,
-      "name": "PILOT BOAT PATAPSCO",
-      "lat": 38.967025,
-      "lon": -76.47811333333334,
+      "mmsi": 366991414,
+      "name": "USNS POINT LOMA",
+      "lat": 36.916900000000005,
+      "lon": -76.18225000000001,
+      "speed": 0,
+      "course": 48,
+      "heading": 94,
+      "ship_type": null,
+      "timestamp": "2026-11-23T11:18:51.131080+00:00"
+    },
+    {
+      "mmsi": 368357570,
+      "name": "PAUL T. MORAN",
+      "lat": 36.8581,
+      "lon": -76.32026333333333,
       "speed": 0.1,
-      "course": 157.1,
-      "heading": 511,
+      "course": 18,
+      "heading": 101,
       "ship_type": null,
-      "timestamp": "2026-11-23T02:44:26.410272+00:00"
+      "timestamp": "2026-11-23T11:18:55.975916+00:00"
     },
     {
-      "mmsi": 366920510,
-      "name": "KAYE E MORAN",
-      "lat": 38.326191666666666,
-      "lon": -76.45036666666667,
+      "mmsi": 366839000,
+      "name": "CAPE RISE",
+      "lat": 36.853269999999995,
+      "lon": -76.31049666666667,
       "speed": 0,
-      "course": 238,
-      "heading": 192,
+      "course": 0,
+      "heading": 41,
       "ship_type": null,
-      "timestamp": "2026-11-23T02:44:29.990488+00:00"
+      "timestamp": "2026-11-23T11:18:58.615472+00:00"
+    },
+    {
+      "mmsi": 636093182,
+      "name": "AIN SNAN EXPRESS",
+      "lat": 39.11022333333334,
+      "lon": -76.39452166666666,
+      "speed": 11.2,
+      "course": 180.6,
+      "heading": 180,
+      "ship_type": null,
+      "timestamp": "2026-11-23T11:19:04.788683+00:00"
     }
   ]
 }
