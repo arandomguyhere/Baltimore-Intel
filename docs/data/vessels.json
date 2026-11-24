@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-24T06:44:33.946756+00:00",
+  "collected_at": "2026-11-24T18:22:16.141079+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,51 +12,40 @@
       -75.8
     ]
   ],
-  "vessel_count": 4,
+  "vessel_count": 3,
   "vessels": [
     {
-      "mmsi": 366757230,
-      "name": "GARY CHOUEST",
-      "lat": 36.919246666666666,
-      "lon": -76.18179,
+      "mmsi": 477722600,
+      "name": "CSSC LE HAVRE",
+      "lat": 38.91655333333333,
+      "lon": -76.40183,
       "speed": 0,
-      "course": 66,
-      "heading": 93,
+      "course": 326.7,
+      "heading": 10,
       "ship_type": null,
-      "timestamp": "2026-11-24T06:44:30.146187+00:00"
+      "timestamp": "2026-11-24T18:22:08.515067+00:00"
     },
     {
-      "mmsi": 368013860,
-      "name": "PAUL CANDIES",
-      "lat": 36.96067666666667,
-      "lon": -76.03777333333333,
-      "speed": 7.1,
-      "course": 283.9,
-      "heading": 288,
+      "mmsi": 368277530,
+      "name": "MISS MADELINE",
+      "lat": 39.208504999999995,
+      "lon": -76.58280333333333,
+      "speed": 0,
+      "course": 241.9,
+      "heading": 189,
       "ship_type": null,
-      "timestamp": "2026-11-24T06:44:31.225026+00:00"
+      "timestamp": "2026-11-24T18:22:09.138900+00:00"
     },
     {
-      "mmsi": 205368000,
-      "name": "MINERAL JINDEOK",
-      "lat": 38.904019999999996,
-      "lon": -76.39971166666666,
+      "mmsi": 369970475,
+      "name": "REYNOLDS",
+      "lat": 39.266841666666664,
+      "lon": -76.579295,
       "speed": 0,
-      "course": 132.8,
-      "heading": 357,
-      "ship_type": null,
-      "timestamp": "2026-11-24T06:44:31.434284+00:00"
-    },
-    {
-      "mmsi": 368388560,
-      "name": "GYPSY SOUL",
-      "lat": 38.951726666666666,
-      "lon": -76.55120333333333,
-      "speed": 0,
-      "course": 25.5,
+      "course": 250.6,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-24T06:44:32.142316+00:00"
+      "timestamp": "2026-11-24T18:22:13.823746+00:00"
     }
   ]
 }
