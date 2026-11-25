@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-24T18:22:16.141079+00:00",
+  "collected_at": "2026-11-25T02:42:52.406155+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,40 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 3,
+  "vessel_count": 4,
   "vessels": [
     {
-      "mmsi": 477722600,
-      "name": "CSSC LE HAVRE",
-      "lat": 38.91655333333333,
-      "lon": -76.40183,
+      "mmsi": 367769180,
+      "name": "CLAYTON W MORAN",
+      "lat": 36.91592833333333,
+      "lon": -76.32989500000001,
       "speed": 0,
-      "course": 326.7,
-      "heading": 10,
-      "ship_type": null,
-      "timestamp": "2026-11-24T18:22:08.515067+00:00"
-    },
-    {
-      "mmsi": 368277530,
-      "name": "MISS MADELINE",
-      "lat": 39.208504999999995,
-      "lon": -76.58280333333333,
-      "speed": 0,
-      "course": 241.9,
-      "heading": 189,
-      "ship_type": null,
-      "timestamp": "2026-11-24T18:22:09.138900+00:00"
-    },
-    {
-      "mmsi": 369970475,
-      "name": "REYNOLDS",
-      "lat": 39.266841666666664,
-      "lon": -76.579295,
-      "speed": 0,
-      "course": 250.6,
+      "course": 292.9,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-24T18:22:13.823746+00:00"
+      "timestamp": "2026-11-25T02:42:45.034220+00:00"
+    },
+    {
+      "mmsi": 338207811,
+      "name": "MIMI",
+      "lat": 36.92241,
+      "lon": -76.18922333333333,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-25T02:42:45.625015+00:00"
+    },
+    {
+      "mmsi": 367457590,
+      "name": "WENDY MORAN",
+      "lat": 36.95116666666667,
+      "lon": -76.32866666666668,
+      "speed": 0.1,
+      "course": 171.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-25T02:42:47.741317+00:00"
+    },
+    {
+      "mmsi": 367493020,
+      "name": "CASEY ANN",
+      "lat": 39.198971666666665,
+      "lon": -76.48111833333334,
+      "speed": 0,
+      "course": 73.8,
+      "heading": 173,
+      "ship_type": null,
+      "timestamp": "2026-11-25T02:42:50.372457+00:00"
     }
   ]
 }
