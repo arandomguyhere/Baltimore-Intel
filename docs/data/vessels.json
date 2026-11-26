@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-26T12:31:00.107144+00:00",
+  "collected_at": "2026-11-26T21:56:38.087732+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,6 +12,29 @@
       -75.8
     ]
   ],
-  "vessel_count": 0,
-  "vessels": []
+  "vessel_count": 2,
+  "vessels": [
+    {
+      "mmsi": 367308110,
+      "name": "THE HUNTER",
+      "lat": 39.268355,
+      "lon": -76.581145,
+      "speed": 0.1,
+      "course": 250.3,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-26T21:56:35.171498+00:00"
+    },
+    {
+      "mmsi": 338243006,
+      "name": "EMMANOU",
+      "lat": 37.016828333333336,
+      "lon": -76.342055,
+      "speed": 0,
+      "course": 240.1,
+      "heading": 89,
+      "ship_type": null,
+      "timestamp": "2026-11-26T21:56:36.058673+00:00"
+    }
+  ]
 }
