@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-27T13:33:02.999557+00:00",
+  "collected_at": "2026-11-27T22:20:31.478112+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,40 +12,84 @@
       -75.8
     ]
   ],
-  "vessel_count": 3,
+  "vessel_count": 7,
   "vessels": [
+    {
+      "mmsi": 538010278,
+      "name": "CL JIUJIANG",
+      "lat": 37.246,
+      "lon": -76.11452666666668,
+      "speed": 0,
+      "course": 229.3,
+      "heading": 343,
+      "ship_type": null,
+      "timestamp": "2026-11-27T22:20:15.784943+00:00"
+    },
+    {
+      "mmsi": 338525000,
+      "name": "MAERSK COLUMBUS",
+      "lat": 36.98142666666667,
+      "lon": -76.32241,
+      "speed": 12.4,
+      "course": 44.8,
+      "heading": 44,
+      "ship_type": null,
+      "timestamp": "2026-11-27T22:20:15.992182+00:00"
+    },
+    {
+      "mmsi": 368379170,
+      "name": "WINDSERVE SPARTAN",
+      "lat": 36.85892333333334,
+      "lon": -76.344965,
+      "speed": 0,
+      "course": 312.8,
+      "heading": 151,
+      "ship_type": null,
+      "timestamp": "2026-11-27T22:20:17.942562+00:00"
+    },
+    {
+      "mmsi": 366866810,
+      "name": "FAY SLOVER",
+      "lat": 36.922175,
+      "lon": -76.18872833333333,
+      "speed": 0,
+      "course": 13.2,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-27T22:20:20.222157+00:00"
+    },
+    {
+      "mmsi": 367462360,
+      "name": "CINDY R",
+      "lat": 36.85877,
+      "lon": -76.34695333333335,
+      "speed": 0,
+      "course": 360,
+      "heading": 511,
+      "ship_type": null,
+      "timestamp": "2026-11-27T22:20:22.394864+00:00"
+    },
+    {
+      "mmsi": 367029870,
+      "name": "SUN COAST",
+      "lat": 39.22501333333333,
+      "lon": -76.57985000000001,
+      "speed": 0,
+      "course": 300.3,
+      "heading": 328,
+      "ship_type": null,
+      "timestamp": "2026-11-27T22:20:27.483842+00:00"
+    },
     {
       "mmsi": 367766220,
       "name": "DALE PYATT",
-      "lat": 39.20773,
-      "lon": -76.48279666666667,
+      "lat": 39.195161666666664,
+      "lon": -76.483075,
       "speed": 0,
-      "course": 54.1,
+      "course": 8,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-27T13:32:53.778853+00:00"
-    },
-    {
-      "mmsi": 367686270,
-      "name": "STASINOS BOYS",
-      "lat": 36.966495,
-      "lon": -76.41323166666666,
-      "speed": 0,
-      "course": 333.6,
-      "heading": 333,
-      "ship_type": null,
-      "timestamp": "2026-11-27T13:32:54.607506+00:00"
-    },
-    {
-      "mmsi": 367367390,
-      "name": "DIAMOND COAST",
-      "lat": 39.243095000000004,
-      "lon": -76.57109833333334,
-      "speed": 0,
-      "course": 18.4,
-      "heading": 352,
-      "ship_type": null,
-      "timestamp": "2026-11-27T13:32:59.199399+00:00"
+      "timestamp": "2026-11-27T22:20:29.137473+00:00"
     }
   ]
 }
