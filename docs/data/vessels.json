@@ -1,5 +1,5 @@
 {
-  "collected_at": "2026-11-27T22:20:31.478112+00:00",
+  "collected_at": "2026-11-28T04:05:10.259457+00:00",
   "source": "AISstream.io",
   "region": "Baltimore / Chesapeake Bay",
   "bbox": [
@@ -12,84 +12,51 @@
       -75.8
     ]
   ],
-  "vessel_count": 7,
+  "vessel_count": 4,
   "vessels": [
     {
-      "mmsi": 538010278,
-      "name": "CL JIUJIANG",
-      "lat": 37.246,
-      "lon": -76.11452666666668,
-      "speed": 0,
-      "course": 229.3,
-      "heading": 343,
+      "mmsi": 367302540,
+      "name": "KIMBERLY C",
+      "lat": 39.40541833333334,
+      "lon": -76.043655,
+      "speed": 8.8,
+      "course": 235.3,
+      "heading": 233,
       "ship_type": null,
-      "timestamp": "2026-11-27T22:20:15.784943+00:00"
+      "timestamp": "2026-11-28T04:04:52.269922+00:00"
     },
     {
-      "mmsi": 338525000,
-      "name": "MAERSK COLUMBUS",
-      "lat": 36.98142666666667,
-      "lon": -76.32241,
-      "speed": 12.4,
-      "course": 44.8,
-      "heading": 44,
+      "mmsi": 368371930,
+      "name": "OCEANUS VI",
+      "lat": 36.91950333333333,
+      "lon": -76.18191166666666,
+      "speed": 0,
+      "course": 303.2,
+      "heading": 258,
       "ship_type": null,
-      "timestamp": "2026-11-27T22:20:15.992182+00:00"
+      "timestamp": "2026-11-28T04:04:54.239701+00:00"
     },
     {
-      "mmsi": 368379170,
-      "name": "WINDSERVE SPARTAN",
-      "lat": 36.85892333333334,
-      "lon": -76.344965,
-      "speed": 0,
-      "course": 312.8,
-      "heading": 151,
-      "ship_type": null,
-      "timestamp": "2026-11-27T22:20:17.942562+00:00"
-    },
-    {
-      "mmsi": 366866810,
-      "name": "FAY SLOVER",
-      "lat": 36.922175,
-      "lon": -76.18872833333333,
-      "speed": 0,
-      "course": 13.2,
+      "mmsi": 366878280,
+      "name": "PILOT BOAT PATAPSCO",
+      "lat": 38.967038333333335,
+      "lon": -76.47812,
+      "speed": 0.1,
+      "course": 179,
       "heading": 511,
       "ship_type": null,
-      "timestamp": "2026-11-27T22:20:20.222157+00:00"
+      "timestamp": "2026-11-28T04:05:03.364441+00:00"
     },
     {
-      "mmsi": 367462360,
-      "name": "CINDY R",
-      "lat": 36.85877,
-      "lon": -76.34695333333335,
+      "mmsi": 368396250,
+      "name": "ISABEL MCALLISTER",
+      "lat": 39.269268333333336,
+      "lon": -76.58066833333334,
       "speed": 0,
-      "course": 360,
-      "heading": 511,
+      "course": 147.9,
+      "heading": 206,
       "ship_type": null,
-      "timestamp": "2026-11-27T22:20:22.394864+00:00"
-    },
-    {
-      "mmsi": 367029870,
-      "name": "SUN COAST",
-      "lat": 39.22501333333333,
-      "lon": -76.57985000000001,
-      "speed": 0,
-      "course": 300.3,
-      "heading": 328,
-      "ship_type": null,
-      "timestamp": "2026-11-27T22:20:27.483842+00:00"
-    },
-    {
-      "mmsi": 367766220,
-      "name": "DALE PYATT",
-      "lat": 39.195161666666664,
-      "lon": -76.483075,
-      "speed": 0,
-      "course": 8,
-      "heading": 511,
-      "ship_type": null,
-      "timestamp": "2026-11-27T22:20:29.137473+00:00"
+      "timestamp": "2026-11-28T04:05:06.371726+00:00"
     }
   ]
 }
